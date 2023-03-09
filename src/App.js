@@ -9,7 +9,7 @@ import About from './Pages/About.js'
 
 function App() {
   return (
-    <Router basename='/v2'>
+    <Router basename='/projectseaweb'>
       <Navbar />
       <Routes>
         <Route path='/' exact element={<Homepage />} />
