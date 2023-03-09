@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar.js';
 import Footer from './Components/Footer.js';
 import Homepage from './Pages/Homepage.js'
@@ -9,7 +9,7 @@ import About from './Pages/About.js'
 
 function App() {
   return (
-    <Router basename='/projectseaweb'>
+    <BrowserRouter basename='/projectseaweb'>
       <Navbar />
       <Routes>
         <Route path='/' exact element={<Homepage />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path='/About' exact element={<About />} />
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
