@@ -9,7 +9,7 @@ import About from './Pages/About.js'
 
 function App() {
   return (
-    <Router>
+    <Router basename='/v2'>
       <Navbar />
       <Routes>
         <Route path='/' exact element={<Homepage />} />
