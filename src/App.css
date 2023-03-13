@@ -24,7 +24,7 @@
   --F-Title: "F-Title";
   --Fs-Title: 24pt;
   --F-ContentTitle: "F-ContentTitle";
-  --Fs-ContentTitle: 20pt;
+  --Fs-ContentTitle: 18pt;
   --F-Content: "F-Content";
   --Fs-Content: 15pt;
   --F-Link: "F-Link";
@@ -573,12 +573,12 @@
   padding-top: 30px;
 }
 
-.aboutseava{
+.aboutseava {
   width: 795px;
   height: 635px;
 }
 
-.aboutvesnea{
+.aboutvesnea {
   width: 375px;
   height: 400px;
 }
@@ -644,4 +644,144 @@
   padding-top: 15px;
   font-family: var(--F-Content);
   font-size: var(--Fs-Content);
+}
+
+.commhero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--C-Vesnea_2);
+}
+
+.commheroimg {
+  padding-top: 30px;
+}
+
+.commheroitem {
+  display: flex;
+  align-items: end;
+  flex-direction: row;
+  padding-bottom: 17px;
+  position: relative;
+  top: -13px;
+  width: 1065px;
+}
+
+.commicon {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding-left: 37px;
+}
+
+.commicontext {
+  padding-left: 3px;
+  font-family: var(--F-ContentTitle);
+  font-size: var(--Fs-ContentTitle);
+  color: var(--C-Seapurple);
+  display: flex;
+  flex-direction: column;
+}
+
+.commiconlink {
+  font-family: var(--F-Link);
+  font-size: var(--Fs-Link);
+  color: var(--C-Seapurple);
+}
+
+.commpromo {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+  padding-right: 90px;
+  padding-bottom: 3px;
+}
+
+.artstyle{
+  background-color: var(--C-Seapurple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.commstatus {
+  background-color: var(--C-Vesnea_2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commstatuswrapper {
+  width: 1065px;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.vesneacomminfo {
+  margin-right: auto;
+  position: relative;
+  left: 90px;
+}
+
+.commstatustexttitle {
+  font-family: var(--F-ContentTitle);
+  font-size: var(--Fs-ContentTitle);
+  color: var(--C-Seapurple);
+}
+
+.commstatustext {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-Content);
+  color: var(--C-Seapurple);
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-left: auto;
+  z-index: 1;
+  position: relative;
+  right: 141.5px;
+  margin-top: 141px;
+}
+
+.commstatustext1 {
+  text-align: right;
+  width: 243px;
+}
+
+.commstatustext2 {
+  padding-top: 29px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+}
+
+.kofinav {
+  height: 41px;
+  width: 255px;
+  padding-top: 10px;
+}
+
+.commcontent{
+  font-family: var(--F-Title);
+  font-size: var(--Fs-Title);
+  font-weight: bold;
+  color: white;
+  background-color: var(--C-Seanavy); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 30px;
+}
+
+.commboard{
+  width: 1065px;
 }
