@@ -1,9 +1,9 @@
 import { scroller } from 'react-scroll';
 import { Link } from 'react-router-dom';
 import arrow from '../Assets/Arrow.png';
-import smallintro1 from '../Assets/small Seava and Vesnea.png';
-import smallintro2 from '../Assets/2023 - 18 - Sprigatito 1.png';
-import commsectbanner from '../Assets/D11 - Commission Banner v2_3by1 1.png';
+import smallintro1 from '../Assets/small-Seava-and-Vesnea.jpg';
+import smallintro2 from '../Assets/2023-18-Sprigatito.jpg';
+import commsectbanner from '../Assets/D11-Commission-Banner-v2_3by1.jpg';
 
 function Homepage() {
     function scrollToWelcome(targetSection) {
@@ -21,9 +21,13 @@ function Homepage() {
                 <img className='arrow' src={arrow} alt="see next" onClick={() => scrollToWelcome('arrowtarget')} />
             </div>
             <div className="welcome" id="arrowtarget">
-                <div className='welcometitle'>Welcome!</div>
-                <div className='welcometext'>This is Seavalanche's Website</div>
-                <div className='welcometext'>Please take a look!</div>
+                <div className='welcomewrapper'>
+                    <div className='welcomewrap'>
+                        <div className='welcometitle'>Welcome!</div>
+                        <div className='welcometext'>This is Seavalanche's Website</div>
+                        <div className='welcometext'>Please take a look!</div>
+                    </div>
+                </div>
             </div>
             <div className='shortintro'>
                 <div className='shortintro1'>

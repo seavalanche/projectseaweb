@@ -1,12 +1,12 @@
-import commheroimg from '../Assets/CommHero.png';
+import commheroimg from '../Assets/CommHero.jpg';
 import seavaicon from '../Assets/Seava icon.png';
 import vesneaicon from '../Assets/Vesnea icon.png';
 import promo1 from '../Assets/Promotional1.png';
 import promo2 from '../Assets/Promotional2.png';
 import vesneacomminfo from '../Assets/CommStatusimg.png';
 import kofinav from '../Assets/KofiNav.png';
-import commboard from '../Assets/CommBoard.png';
-import artstyleimg from '../Assets/ArtStyleWrap.png';
+import commboard from '../Assets/CommBoard.jpg';
+import artstyleimg from '../Assets/ArtStyleWrap.jpg';
 
 function Commissions() {
     return (
@@ -19,18 +19,22 @@ function Commissions() {
                         <img className='commiconimg' src={vesneaicon} alt="Vesnea Icon" />
                         <div className='commicontext'>
                             seavalanche
-                            <a href="https://kofi.com/seavalanche" target='_blank' rel="noreferrer" className='commiconlink'>ko-fi.com/seavalanche</a>
+                            <a href="https://ko-fi.com/seavalanche" target='_blank' rel="noreferrer" className='commiconlink'>ko-fi.com/seavalanche</a>
                         </div>
                     </div>
                     <div className='commpromo'>
-                        <div className='commpromowrapper'>
-                            <img className='promoimg' src={promo1} alt="2023 Calendar" />
-                            <div className='promotext'>2023 Calendar</div>
-                        </div>
-                        <div className='commpromowrapper'>
-                            <img className='promoimg' src={promo2} alt="Sylveon Pattern" />
-                            <div className='promotext'>Sylveon Pattern</div>
-                        </div>
+                        <a href="https://ko-fi.com/s/7470eb7b05" target='_blank' rel="noreferrer" >
+                            <div className='commpromowrapper'>
+                                <img className='promoimg' src={promo1} alt="2023 Calendar" />
+                                <div className='promotext'>2023 Calendar</div>
+                            </div>
+                        </a>
+                        <a href="https://ko-fi.com/s/839bc16f74" target='_blank' rel="noreferrer" >
+                            <div className='commpromowrapper'>
+                                <img className='promoimg' src={promo2} alt="Sylveon Pattern" />
+                                <div className='promotext'>Sylveon Pattern</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

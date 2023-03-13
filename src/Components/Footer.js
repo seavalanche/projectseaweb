@@ -1,6 +1,6 @@
 import logo from '../Assets/Footbar Logo.png';
 import { Link } from 'react-router-dom';
-import footnavbg from '../Assets/FootNav bg.png';
+import footnavbg from '../Assets/FootNav-bg.jpg';
 
 function Footer() {
     return (

@@ -215,7 +215,7 @@
   display: flex;
   width: 100%;
   height: calc(100vh - 75px);
-  background-image: url("./Assets/Introduction bg.png");
+  background-image: url("./Assets/Introduction-bg.jpg");
   background-position: center;
   background-size: cover;
   align-items: end;
@@ -234,10 +234,32 @@
 }
 
 .welcome {
-  background-image: url("./Assets/WelcomeSect.png");
-  background-size: cover;
-  min-height: 546px;
+  background-color: var(--C-Seapurple);
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomewrapper {
+  background-image: url("./Assets/WelcomeSect.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 546px;
+  min-width: 2230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeimg {
+  margin-right: auto;
+  position: relative;
+  left: 90px;
+}
+
+.welcomewrap {
+  display: flex;
+  min-width: 292px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -661,7 +683,8 @@
 }
 
 .commheroimg {
-  padding-top: 30px;
+  margin-top: 30px;
+  border-radius: 20px;;
 }
 
 .commheroitem {
@@ -755,7 +778,6 @@
 .commstatuswrapper {
   width: 1065px;
   display: flex;
-  align-items: top;
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
