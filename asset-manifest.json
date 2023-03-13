@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.6e93c509.css",
-    "main.js": "/projectseaweb/static/js/main.e4bf556c.js",
+    "main.css": "/projectseaweb/static/css/main.06b9f9c2.css",
+    "main.js": "/projectseaweb/static/js/main.efa2263b.js",
     "static/js/787.30de3784.chunk.js": "/projectseaweb/static/js/787.30de3784.chunk.js",
     "static/media/CommBoard.png": "/projectseaweb/static/media/CommBoard.fe87ab01607819d9d860.png",
     "static/media/ArtStyleWrap.png": "/projectseaweb/static/media/ArtStyleWrap.57a29f09de1d19a38a03.png",
@@ -29,12 +29,12 @@
     "static/media/Seava icon.png": "/projectseaweb/static/media/Seava icon.88337d9e17611ace6ceb.png",
     "static/media/Vesnea icon.png": "/projectseaweb/static/media/Vesnea icon.47f8c600cfb481e836a6.png",
     "index.html": "/projectseaweb/index.html",
-    "main.6e93c509.css.map": "/projectseaweb/static/css/main.6e93c509.css.map",
-    "main.e4bf556c.js.map": "/projectseaweb/static/js/main.e4bf556c.js.map",
+    "main.06b9f9c2.css.map": "/projectseaweb/static/css/main.06b9f9c2.css.map",
+    "main.efa2263b.js.map": "/projectseaweb/static/js/main.efa2263b.js.map",
     "787.30de3784.chunk.js.map": "/projectseaweb/static/js/787.30de3784.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e93c509.css",
-    "static/js/main.e4bf556c.js"
+    "static/css/main.06b9f9c2.css",
+    "static/js/main.efa2263b.js"
   ]
 }
