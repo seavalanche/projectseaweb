@@ -11,12 +11,12 @@ function App() {
   return (
     <BrowserRouter basename='/projectseaweb'>
       <Navbar />
-      <Routes>
-        <Route path='/' exact element={<Homepage />} />
-        <Route path='/Projects' exact element={<Projects />} />
-        <Route path='/Commissions' exact element={<Commissions />} />
-        <Route path='/About' exact element={<About />} />
-      </Routes>
+        <Routes>
+          <Route path='/' exact element={<Homepage />} />
+          <Route path='/Projects' exact element={<Projects />} />
+          <Route path='/Commissions' exact element={<Commissions />} />
+          <Route path='/About' exact element={<About />} />
+        </Routes>
       <Footer />
     </BrowserRouter>
   );

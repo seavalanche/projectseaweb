@@ -23,8 +23,14 @@ function Commissions() {
                         </div>
                     </div>
                     <div className='commpromo'>
-                        <img className='promo1' src={promo1} alt="2023 Calendar" />
-                        <img className='promo2' src={promo2} alt="Sylveon Pattern" />
+                        <div className='commpromowrapper'>
+                            <img className='promoimg' src={promo1} alt="2023 Calendar" />
+                            <div className='promotext'>2023 Calendar</div>
+                        </div>
+                        <div className='commpromowrapper'>
+                            <img className='promoimg' src={promo2} alt="Sylveon Pattern" />
+                            <div className='promotext'>Sylveon Pattern</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -51,7 +57,7 @@ function Commissions() {
                         </div>
                         <div className='commstatustext2'>
                             I appreciate any support given by you!
-                            <img className='kofinav' src={kofinav} alt="Ko-fi button" />
+                            <a href="https://ko-fi.com/seavalanche" target="_blank" rel="noopener noreferrer" ><img className='kofinav' src={kofinav} alt="Ko-fi button" /></a>
                         </div>
                     </div>
                 </div>
