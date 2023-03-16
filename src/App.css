@@ -47,18 +47,21 @@
     --C-Seava_2: #4c77ae;
     --C-Seava_2b: #536e9d;
     --C-Seava_3: #3e4f7b;
-    --C-Seava_4: #fcf2d7;
+    --C-Seava_4: rgb(252, 243, 217);
+    --C-Seava_4b: rgba(252, 243, 217, 0.3);
     --C-Seabrown: #645059;
-    --C-Seapurple: #2c233d;
+    --C-Seapurple: rgb(44, 35, 61);
+    --C-Seapurple2: rgba(44, 35, 61, 0.5);
     --C-Seagrey: #1e1e1e;
     --C-Seanavy: #181621;
     --F-Navbar: "F-Navbar";
     --Fs-FontsizeS: 4pt;
+    --Fs-FontsizeM: 8pt;
     --Fs-Navbar: 12pt;
     --F-NavbarTitle: "F-NavbarTitle";
     --Fs-NavbarTitle: 18pt;
     --F-BigTitle: "F-BigTitle";
-    --Fs-BigTitle: calc(48pt - var(--Fs-FontsizeS));
+    --Fs-BigTitle: calc(48pt - var(--Fs-FontsizeM));
     --F-Title: "F-Title";
     --Fs-Title: calc(24pt - var(--Fs-FontsizeS));
     --F-ContentTitle: "F-ContentTitle";
@@ -137,7 +140,7 @@
     justify-content: center;
   }
   .footbar-wrapper {
-    width: 600px;
+    width: 90%;
     display: flex;
   }
   .footbar-text {
@@ -162,9 +165,10 @@
   .footnav-wrapper {
     display: flex;
     position: absolute;
-    gap: 15px;
-    padding-top: 135px;
-    margin-left: 45.8%;
+    gap: 30px;
+    padding-top: 70px;
+    /* margin-left: 45.8%; */
+    margin-left: 38%;
   }
   .footnav-wrapper1 {
     display: flex;
@@ -179,7 +183,7 @@
     font-family: var(--F-NavbarTitle);
     font-size: var(--Fs-NavbarTitle);
     color: white;
-    padding-bottom: 7pt;
+    padding-bottom: 20pt;
   }
   .footnav-menu {
     display: flex;
@@ -189,7 +193,7 @@
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
     color: white;
-    padding-bottom: 7pt;
+    padding-bottom: 15pt;
     text-decoration: none;
   }
   .footnav-wrapper1 .footnav-title {
@@ -326,15 +330,24 @@
     width: 600px;
   }
   .commsectitem {
+    padding-top: 15px;
     display: flex;
     width: 600px;
-    gap: 15px;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .commsectitemcard {
-    /* width: 255px;
-    height: 355px; */
+    width: 240px;
+    height: 280px;
     display: flex;
     flex-direction: column;
+    border-style: dashed;
+    border-color: var(--C-Seava_4);
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: var(--C-Seava_4b);
   }
   .commsectitemtitle {
     font-family: var(--F-Title);
@@ -369,7 +382,7 @@
     flex-direction: column;
     background-color: var(--C-Vesnea_2);
     align-items: center;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 25px;
   }
   .projectsheroheader {
@@ -380,7 +393,7 @@
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     text-align: center;
-    width: 1065px;
+    width: 80%;
     padding-bottom: 15px;
   }
   .projectsherotitle {
@@ -392,12 +405,21 @@
     display: flex;
     gap: 15px;
     padding-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
   }
   .projectsheroitemcard {
-    width: 345px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     display: flex;
     flex-direction: column;
+    border-style: dashed;
+    border-color: var(--C-Seava_4);
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: var(--C-Seapurple2);
   }
   .projectsheroitemtitle {
     font-family: var(--F-Title);
@@ -433,17 +455,21 @@
     flex-direction: column;
     padding-bottom: 45px;
   }
+  .timeline {
+    width: 100%;
+    max-width: 1065px;
+  }
   .historicalsectinfo {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
     color: white;
-    width: 885px;
+    width: 80%;
   }
   .historicalsect li {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     color: white;
-    width: 885px;
+    width: 100%;
   }
   .projectsshowcase {
     display: flex;
@@ -463,7 +489,7 @@
     flex-direction: column;
     background-color: var(--C-Vesnea_2);
     align-items: center;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 45px;
   }
   .aboutheroheader {
@@ -474,20 +500,21 @@
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     text-align: center;
-    width: 1065px;
+    width: 80%;
     padding-bottom: 15px;
     color: var(--C-Seapurple);
   }
   .aboutherotitle {
     font-family: var(--F-BigTitle);
     font-size: var(--Fs-BigTitle);
-    padding-bottom: 22px;
+    padding-bottom: 10px;
     color: var(--C-Seapurple);
   }
   .aboutherocontent {
     display: flex;
-    width: 915px;
-    gap: 45px;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 15px;
   }
   .aboutherocontent1 {
     font-family: var(--F-Content);
@@ -508,13 +535,18 @@
   .aboutcharinfoitem {
     display: flex;
     /* width: 1065px; */
-    gap: 15px;
+    max-width: 80%;
+    gap: 30px;
+    justify-content: center;
   }
   .aboutcharinfoitemcard {
-    width: 345px;
-    height: 532px;
+    width: min(345px, 40vw);
+    /* width: 345px; */
+    height: 480px;
+    height: min(480px, 65vw);
     display: flex;
     flex-direction: column;
+    /* background-color: #f29ec4; */
   }
   .aboutcharinfoitemtitle1 {
     font-family: var(--F-Title);
@@ -569,12 +601,14 @@
     padding-top: 30px;
   }
   .aboutseava {
-    width: 795px;
-    height: 635px;
+    width: 90vw;
+    max-width: 795px;
+    max-height: 635px;
   }
   .aboutvesnea {
-    width: 375px;
-    height: 400px;
+    width: 90vw;
+    max-width: 375px;
+    max-height: 400px;
   }
   .aboutcharseavaint {
     display: flex;
@@ -583,10 +617,13 @@
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     color: var(--C-Seava_1);
-    width: 885px;
+    max-width: 75%;
     height: 41px;
     gap: 30px;
     border: 1px solid var(--C-Seava_1);
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
   .aboutcharseavainttitle {
     font-family: var(--F-Title);
@@ -600,10 +637,13 @@
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     color: var(--C-Vesnea_1b);
-    width: 975px;
+    max-width: 75%;
     height: 41px;
     gap: 30px;
     border: 1px solid var(--C-Vesnea_1b);
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
   .aboutcharvesneainttitle {
     font-family: var(--F-Title);
@@ -616,16 +656,17 @@
     margin-left: auto;
     margin-right: auto;
     gap: 45px;
-    width: 885px;
+    width: 80%;
     padding-top: 30px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
   }
   .aboutcharcard {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
     color: white;
     text-align: center;
-    width: 420px;
+    width: 300px;
   }
   .aboutcharcontent {
     padding-top: 15px;
@@ -645,6 +686,8 @@
   .commheroimg {
     margin-top: 30px;
     border-radius: 20px;
+    width: 90%;
+    max-width: 1065px;
   }
   .commheroitem {
     display: flex;
@@ -653,13 +696,18 @@
     padding-bottom: 17px;
     position: relative;
     top: -13px;
-    width: 1065px;
+    width: 90%;
+    flex-wrap: wrap;
   }
   .commicon {
     display: flex;
     align-items: center;
     gap: 9px;
-    padding-left: 37px;
+    padding-left: 15px;
+  }
+  .commiconimg {
+    width: 10vw;
+    min-width: 80px;
   }
   .commicontext {
     padding-left: 3px;
@@ -676,9 +724,10 @@
   }
   .commpromo {
     display: flex;
-    gap: 30px;
+    gap: 15px;
     margin-left: auto;
-    padding-right: 90px;
+    margin-right: 0;
+    padding-right: 15px;
     padding-bottom: 3px;
   }
   .commpromowrapper {
@@ -686,7 +735,7 @@
   }
   .promoimg {
     display: block;
-    max-width: 100%;
+    max-width: 120px;
     height: auto;
     transition: transform 0.1s ease-in-out;
   }
@@ -717,6 +766,12 @@
     padding-top: 45px;
     padding-bottom: 45px;
   }
+  .artstyleimg {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
 
   .commstatus {
     background-color: var(--C-Vesnea_2);
@@ -725,49 +780,55 @@
     justify-content: center;
   }
   .commstatuswrapper {
-    width: 1065px;
+    width: 100vw;
     display: flex;
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
   }
   .vesneacomminfo {
-    margin-right: auto;
+    /* margin-right: auto; */
     position: relative;
-    left: 90px;
-  }
-  .commstatustexttitle {
-    font-family: var(--F-ContentTitle);
-    font-size: var(--Fs-ContentTitle);
-    color: var(--C-Seapurple);
+    left: max(5vw, 10px);
   }
   .commstatustext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     color: var(--C-Seapurple);
     display: flex;
-    flex-direction: row;
-    gap: 16px;
-    margin-left: auto;
+    flex-direction: column;
+    gap: 0px;
+    /* margin-left: auto; */
     position: relative;
-    right: 141.5px;
-    margin-top: 141px;
+    right: max(12vw, 130px);
+    /* right: 12vw; */
+    margin-top: 115px;
+    /* display: none; */
   }
   .commstatustext1 {
-    text-align: right;
-    width: 243px;
+    /* text-align: right; */
+    /* width: 280px; */
+    /* display: none; */
+  }
+  .commstatustexttitle {
+    font-family: var(--F-ContentTitle);
+    font-size: var(--Fs-ContentTitle);
+    color: var(--C-Seapurple);
+    /* display: none; */
   }
   .commstatustext2 {
-    padding-top: 29px;
-    text-align: left;
+    padding-top: 15px;
+    /* text-align: right; */
     display: flex;
     flex-direction: column;
-    width: 255px;
+    /* width: 280px; */
+    /* display: none; */
   }
   .kofinav {
-    height: 41px;
-    width: 255px;
+    height: auto;
+    width: 100%;
     padding-top: 10px;
+    /* display: none; */
   }
 
   .commcontent {
@@ -784,7 +845,7 @@
     gap: 30px;
   }
   .commboard {
-    width: 1065px;
+    width: 90%;
   }
   /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 }
@@ -1076,6 +1137,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  .commsectbanner {
+    width: 1065px;
+  }
   .commsectitem {
     display: flex;
     width: 1065px;
@@ -1086,6 +1150,8 @@
     height: 355px;
     display: flex;
     flex-direction: column;
+    border-style: none;
+    padding: 0;
   }
   .commsectitemtitle {
     font-family: var(--F-Title);
@@ -1184,6 +1250,9 @@
     flex-direction: column;
     padding-bottom: 45px;
   }
+  .timeline {
+    width: auto;
+  }
   .historicalsectinfo {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
@@ -1194,7 +1263,7 @@
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     color: white;
-    width: 885px;
+    width: 100%;
   }
   .projectsshowcase {
     display: flex;
@@ -1232,13 +1301,14 @@
   .aboutherotitle {
     font-family: var(--F-BigTitle);
     font-size: var(--Fs-BigTitle);
-    padding-bottom: 22px;
+    padding-bottom: 10px;
     color: var(--C-Seapurple);
   }
   .aboutherocontent {
     display: flex;
+    flex-wrap: wrap;
     width: 915px;
-    gap: 45px;
+    gap: 15px;
   }
   .aboutherocontent1 {
     font-family: var(--F-Content);
@@ -1334,10 +1404,13 @@
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     color: var(--C-Seava_1);
-    width: 885px;
+    max-width: 975px;
     height: 41px;
     gap: 30px;
     border: 1px solid var(--C-Seava_1);
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
   .aboutcharseavainttitle {
     font-family: var(--F-Title);
@@ -1351,10 +1424,13 @@
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     color: var(--C-Vesnea_1b);
-    width: 975px;
+    max-width: 975px;
     height: 41px;
     gap: 30px;
     border: 1px solid var(--C-Vesnea_1b);
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
   .aboutcharvesneainttitle {
     font-family: var(--F-Title);
@@ -1412,6 +1488,9 @@
     gap: 9px;
     padding-left: 37px;
   }
+  .commiconimg {
+    width: 125px;
+  }
   .commicontext {
     padding-left: 3px;
     font-family: var(--F-ContentTitle);
@@ -1429,7 +1508,8 @@
     display: flex;
     gap: 30px;
     margin-left: auto;
-    padding-right: 90px;
+    margin-right: 0px;
+    padding-right: 70px;
     padding-bottom: 3px;
   }
   .commpromowrapper {
@@ -1437,7 +1517,8 @@
   }
   .promoimg {
     display: block;
-    max-width: 100%;
+    /* max-width: 100%; */
+    max-width: 150px;
     height: auto;
     transition: transform 0.1s ease-in-out;
   }
@@ -1467,6 +1548,9 @@
     justify-content: center;
     padding-top: 45px;
     padding-bottom: 45px;
+  }
+  .artstyleimg {
+    width: 100%;
   }
 
   .commstatus {
