@@ -44,9 +44,7 @@ function Homepage() {
                 </div>
             </div>
             <div className='commsect'>
-                <div>
-                    <img className='commsectbanner' src={commsectbanner} alt="D11 - Commission Banner v2" />
-                </div>
+                <img className='commsectbanner' src={commsectbanner} alt="D11 - Commission Banner v2" />
                 <div className='commsectitem'>
                     <div className='commsectitemcard'>
                         <div className='commsectitemtitle'>Projects</div>
