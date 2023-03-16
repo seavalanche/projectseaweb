@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.823a26aa.css",
-    "main.js": "/projectseaweb/static/js/main.fc37a6a1.js",
+    "main.css": "/projectseaweb/static/css/main.7c76fbac.css",
+    "main.js": "/projectseaweb/static/js/main.b486b42a.js",
     "static/js/787.30de3784.chunk.js": "/projectseaweb/static/js/787.30de3784.chunk.js",
     "static/media/CommBoard.jpg": "/projectseaweb/static/media/CommBoard.bc3ee77f2b40388b8f9f.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/projectseaweb/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
@@ -29,12 +29,12 @@
     "static/media/Vesnea icon.png": "/projectseaweb/static/media/Vesnea icon.47f8c600cfb481e836a6.png",
     "static/media/small-Seava-and-Vesnea.jpg": "/projectseaweb/static/media/small-Seava-and-Vesnea.970b0ef5abce8f62155e.jpg",
     "index.html": "/projectseaweb/index.html",
-    "main.823a26aa.css.map": "/projectseaweb/static/css/main.823a26aa.css.map",
-    "main.fc37a6a1.js.map": "/projectseaweb/static/js/main.fc37a6a1.js.map",
+    "main.7c76fbac.css.map": "/projectseaweb/static/css/main.7c76fbac.css.map",
+    "main.b486b42a.js.map": "/projectseaweb/static/js/main.b486b42a.js.map",
     "787.30de3784.chunk.js.map": "/projectseaweb/static/js/787.30de3784.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.823a26aa.css",
-    "static/js/main.fc37a6a1.js"
+    "static/css/main.7c76fbac.css",
+    "static/js/main.b486b42a.js"
   ]
 }
