@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.a9d71298.css",
-    "main.js": "/projectseaweb/static/js/main.99e46a1f.js",
+    "main.css": "/projectseaweb/static/css/main.f8117a6e.css",
+    "main.js": "/projectseaweb/static/js/main.29c536a1.js",
     "static/js/787.30de3784.chunk.js": "/projectseaweb/static/js/787.30de3784.chunk.js",
     "static/media/CommBoard.jpg": "/projectseaweb/static/media/CommBoard.bc3ee77f2b40388b8f9f.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/projectseaweb/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
@@ -18,6 +18,7 @@
     "static/media/D11-Commission-Banner-v2_3by1.jpg": "/projectseaweb/static/media/D11-Commission-Banner-v2_3by1.18a435adbf9c07d16371.jpg",
     "static/media/CommHero.jpg": "/projectseaweb/static/media/CommHero.1b49b5f81af40cbc182e.jpg",
     "static/media/Baskervville-Regular.ttf": "/projectseaweb/static/media/Baskervville-Regular.fbfdbd5a668fb566697a.ttf",
+    "static/media/FootNav-bg-s.jpg": "/projectseaweb/static/media/FootNav-bg-s.073c72ce82f0c27a3227.jpg",
     "static/media/S47 - Vesnea.png": "/projectseaweb/static/media/S47 - Vesnea.21e8333d15907569562f.png",
     "static/media/Promotional2.png": "/projectseaweb/static/media/Promotional2.db44fd4c4a9ecea35443.png",
     "static/media/Vesnea.png": "/projectseaweb/static/media/Vesnea.9f55c79563afd6369674.png",
@@ -29,12 +30,12 @@
     "static/media/Vesnea icon.png": "/projectseaweb/static/media/Vesnea icon.47f8c600cfb481e836a6.png",
     "static/media/small-Seava-and-Vesnea.jpg": "/projectseaweb/static/media/small-Seava-and-Vesnea.970b0ef5abce8f62155e.jpg",
     "index.html": "/projectseaweb/index.html",
-    "main.a9d71298.css.map": "/projectseaweb/static/css/main.a9d71298.css.map",
-    "main.99e46a1f.js.map": "/projectseaweb/static/js/main.99e46a1f.js.map",
+    "main.f8117a6e.css.map": "/projectseaweb/static/css/main.f8117a6e.css.map",
+    "main.29c536a1.js.map": "/projectseaweb/static/js/main.29c536a1.js.map",
     "787.30de3784.chunk.js.map": "/projectseaweb/static/js/787.30de3784.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9d71298.css",
-    "static/js/main.99e46a1f.js"
+    "static/css/main.f8117a6e.css",
+    "static/js/main.29c536a1.js"
   ]
 }
