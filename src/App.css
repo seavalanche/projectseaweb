@@ -89,6 +89,7 @@
   }
   .navbar .logo {
     height: 25px;
+    padding-top:4px;
   }
   .navbar-wrapper {
     display: flex;
@@ -478,6 +479,7 @@
   .projectsherotitle {
     font-family: var(--F-BigTitle);
     font-size: var(--Fs-BigTitle);
+    font-size: calc(var(--Fs-BigTitle) - var(--Fs-FontsizeM) * 1.5);
     padding-bottom: 10px;
   }
   .projectsheroitem {
@@ -1010,6 +1012,9 @@
     color: var(--C-Vesnea_1);
     /* font-weight: bold; */
   }
+  .navbar-wrapper .logo{
+    height: 34px;
+  }
   .navbar-menu {
     display: flex;
   }
@@ -1054,6 +1059,9 @@
   .footbar-wrapper {
     width: 90%;
     display: flex;
+  }
+  .footbar .logo{
+    height: 25px;
   }
   .footbar-text {
     font-family: var(--F-Navbar);
@@ -1821,6 +1829,9 @@
     color: var(--C-Vesnea_1);
     /* font-weight: bold; */
   }
+  .navbar-wrapper .logo{
+    height: 34px;
+  }
   .navbar-menu {
     display: flex;
     margin-left: auto;
@@ -1866,6 +1877,9 @@
   .footbar-wrapper {
     width: 1066px;
     display: flex;
+  }
+  .footbar .logo{
+    height: 25px;
   }
   .footbar-text {
     font-family: var(--F-Navbar);
