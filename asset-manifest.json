@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.c5443886.css",
+    "main.css": "/projectseaweb/static/css/main.c16a3545.css",
     "main.js": "/projectseaweb/static/js/main.d6e128b4.js",
     "static/js/787.30de3784.chunk.js": "/projectseaweb/static/js/787.30de3784.chunk.js",
     "static/media/CommBoard.jpg": "/projectseaweb/static/media/CommBoard.bc3ee77f2b40388b8f9f.jpg",
@@ -30,12 +30,12 @@
     "static/media/Vesnea icon.png": "/projectseaweb/static/media/Vesnea icon.47f8c600cfb481e836a6.png",
     "static/media/small-Seava-and-Vesnea.jpg": "/projectseaweb/static/media/small-Seava-and-Vesnea.970b0ef5abce8f62155e.jpg",
     "index.html": "/projectseaweb/index.html",
-    "main.c5443886.css.map": "/projectseaweb/static/css/main.c5443886.css.map",
+    "main.c16a3545.css.map": "/projectseaweb/static/css/main.c16a3545.css.map",
     "main.d6e128b4.js.map": "/projectseaweb/static/js/main.d6e128b4.js.map",
     "787.30de3784.chunk.js.map": "/projectseaweb/static/js/787.30de3784.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5443886.css",
+    "static/css/main.c16a3545.css",
     "static/js/main.d6e128b4.js"
   ]
 }
