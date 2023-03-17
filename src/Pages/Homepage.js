@@ -60,7 +60,7 @@ function Homepage() {
                             I take commission requests of your original characters with your own creative ideas.<br /><br />
                             To see what kind of request I take, please click Learn more.
                         </div><br />
-                        <div className='commsectlearnmore'>Learn more</div>
+                        <a href='https://ko-fi.com/seavalanche/commissions' target='_blank' rel="noreferrer" className='commsectlearnmore'>Learn more</a>
                     </div>
                     <div className='commsectitemcard'>
                         <div className='commsectitemtitle'>Animations</div>
@@ -69,7 +69,7 @@ function Homepage() {
                             There will be more animations in the future.<br /><br />
                             But there will be other stuffs too, like 3D models.
                         </div><br />
-                        <div className='commsectlearnmore'>Learn more</div>
+                        <a href='https://www.pixiv.net/en/users/14390223/illustrations/Ugoira' target='_blank' rel="noreferrer" className='commsectlearnmore'>Learn more</a>
                     </div>
                     <div className='commsectitemcard'>
                         <div className='commsectitemtitle'>Merchandises</div>
@@ -77,7 +77,7 @@ function Homepage() {
                             There are satisfactions in creating merchs, in which I already created the 2023 Calendar that is free to be downloaded.<br /><br />
                             I hope for the future Seava and Vesnea plushies!
                         </div><br />
-                        <div className='commsectlearnmore'>Learn more</div>
+                        <a href='https://ko-fi.com/seavalanche/shop' target='_blank' rel="noreferrer" className='commsectlearnmore'>Learn more</a>
                     </div>
                 </div>
             </div>

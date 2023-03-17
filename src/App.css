@@ -42,10 +42,10 @@
     --C-Vesnea_1b: #fbdaea;
     --C-Vesnea_2: #f0f8fc;
     --C-Vesnea_2b: rgba(240, 248, 252, 0.98);
-    --C-Vesnea_2c: rgba(240, 248, 252, 0.5);
+    --C-Vesnea_2c: rgba(240, 248, 252, 0.7);
     --C-Vesnea_3: #4c2c57;
     --C-Vesnea_3b: #170e1c;
-    --C-Vesnea_3b2: rgba(23, 14, 28, 0.5);
+    --C-Vesnea_3b2: rgba(23, 14, 28, 0.8);
     --C-Seava_1: #9bd0e2;
     --C-Seava_2: #4c77ae;
     --C-Seava_2b: #536e9d;
@@ -57,6 +57,7 @@
     --C-Seapurple2: rgba(44, 35, 61, 0.5);
     --C-Seagrey: #1e1e1e;
     --C-Seanavy: #181621;
+    --C-Seanavy2: rgba(24, 22, 33, 0.7);
     --F-Navbar: "F-Navbar";
     --Fs-FontsizeS: 4pt;
     --Fs-FontsizeM: 8pt;
@@ -111,7 +112,7 @@
     background-color: var(--C-Seanavy);
     background-color: var(--C-Seapurple);
     transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
     padding-top: 10px;
     padding-bottom: 20px;
   }
@@ -137,17 +138,17 @@
     width: 100%;
     padding-right: 40px;
     position: fixed;
-    top: calc(168px + 50px);
+    top: calc(167px + 50px);
     right: 0;
     /* background-color: var(--C-Vesnea_2); */
     background-color: var(--C-Vesnea_3);
     background-color: var(--C-Seanavy);
     background-color: var(--C-Seapurple);
     transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
     padding-top: 10px;
     padding-bottom: 20px;
-    box-shadow: 0px 5px 5px var(--C-Vesnea_2c);
+    box-shadow: 0px 5px var(--C-Vesnea_2c);
   }
   .navbar-func.open {
     transform: translateX(0);
@@ -213,7 +214,7 @@
     /* align-items: center; */
     /* justify-content: center; */
     /* display: none; */
-    background-image: url("./Assets/FootNav-bg.jpg");
+    background-image: url("./Assets/FootNav-bg-s.jpg");
     background-position: center;
     background-size: cover;
     justify-content: center;
@@ -228,7 +229,7 @@
     padding-bottom: 15px;
     padding-left: 10vw;
     padding-right: 10vw;
-    background-color: var(--C-Vesnea_3b2);
+    background-color: var(--C-Seanavy2);
     width: 90%;
     height: 100%;
     justify-content: center;
@@ -245,6 +246,7 @@
   .footnav-title {
     font-family: var(--F-NavbarTitle);
     font-size: var(--Fs-NavbarTitle);
+    /* font-size: calc(var(--Fs-NavbarTitle) - 3pt); */
     color: white;
     padding-bottom: 20pt;
     text-align: center;
