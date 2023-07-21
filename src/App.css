@@ -32,32 +32,35 @@
   font-family: "F-Link";
   src: url(./Assets/InterTight-ExtraLightItalic.ttf);
 }
+* {
+  --C-Vesnea_Pink: #f29cc2;
+  --C-Vesnea_Light_Pink: #f3c1d2;
+  --C-Vesnea_white: #fefcfc;
+  --C-Vesnea_whiteb: rgba(240, 248, 252, 0.98);
+  --C-Vesnea_whitec: rgba(240, 248, 252, 0.7);
+  --C-Vesnea_Purple: #4c2c57;
+  --C-Vesnea_Purpleb: #170e1c;
+  --C-Vesnea_Purpleb2: rgba(23, 14, 28, 0.8);
+  --C-Seava_Light_Blue: #9bd0e2;
+  --C-Seava_2: #4c77ae;
+  --C-Seava_2b: #536e9d;
+  --C-Seava_3: #3e4f7b;
+  --C-Seava_Yellow: rgb(252, 243, 217);
+  --C-Seava_Yellowb: rgba(252, 243, 217, 0.3);
+  --C-Seavalanche_Brown: #645059;
+  --C-Seavalanche_Purple: #2c233d;
+  --C-Seavalanche_Purple2: rgba(44, 35, 61, 0.5);
+  --C-Seavalanche_Dark_Purple: #191b21;
+  --C-Seavalanche_Grey: #1e1e1e;
+  --C-Seavalanche_Navy: #191b21;
+  --C-Seavalanche_Navy2: rgba(24, 22, 33, 0.7);
+}
 
 /* Small devices (small phones, 600px and below) */
 @media only screen and (max-width: 600px) {
   * {
     margin: 0;
     padding: 0;
-    --C-Vesnea_1: #f29ec4;
-    --C-Vesnea_1b: #fbdaea;
-    --C-Vesnea_2: #f0f8fc;
-    --C-Vesnea_2b: rgba(240, 248, 252, 0.98);
-    --C-Vesnea_2c: rgba(240, 248, 252, 0.7);
-    --C-Vesnea_3: #4c2c57;
-    --C-Vesnea_3b: #170e1c;
-    --C-Vesnea_3b2: rgba(23, 14, 28, 0.8);
-    --C-Seava_1: #9bd0e2;
-    --C-Seava_2: #4c77ae;
-    --C-Seava_2b: #536e9d;
-    --C-Seava_3: #3e4f7b;
-    --C-Seava_4: rgb(252, 243, 217);
-    --C-Seava_4b: rgba(252, 243, 217, 0.3);
-    --C-Seabrown: #645059;
-    --C-Seapurple: rgb(44, 35, 61);
-    --C-Seapurple2: rgba(44, 35, 61, 0.5);
-    --C-Seagrey: #1e1e1e;
-    --C-Seanavy: #181621;
-    --C-Seanavy2: rgba(24, 22, 33, 0.7);
     --F-Navbar: "F-Navbar";
     --Fs-FontsizeS: 4pt;
     --Fs-FontsizeM: 8pt;
@@ -79,7 +82,7 @@
   .navbar {
     width: 100%;
     height: 50px;
-    background: var(--C-Vesnea_2);
+    background: var(--C-Vesnea_white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,10 +111,10 @@
     position: fixed;
     top: 50px;
     right: 0;
-    /* background-color: var(--C-Vesnea_2); */
-    background-color: var(--C-Vesnea_3);
-    background-color: var(--C-Seanavy);
-    background-color: var(--C-Seapurple);
+    /* background-color: var(--C-Vesnea_white); */
+    background-color: var(--C-Vesnea_Purple);
+    background-color: var(--C-Seavalanche_Navy);
+    background-color: var(--C-Seavalanche_Purple);
     transform: translateX(100%);
     transition: transform 0.1s ease-in-out;
     padding-top: 10px;
@@ -123,13 +126,13 @@
   .navbar-menu-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    /* color: var(--C-Seapurple); */
-    color: var(--C-Vesnea_2);
+    /* color: var(--C-Seavalanche_Purple); */
+    color: var(--C-Vesnea_white);
     text-decoration: none;
     margin: 10px 0;
   }
   .navbar-menu-text.active {
-    color: var(--C-Vesnea_1);
+    color: var(--C-Vesnea_Pink);
   }
   .navbar-func {
     display: flex;
@@ -141,15 +144,15 @@
     position: fixed;
     top: calc(167px + 50px);
     right: 0;
-    /* background-color: var(--C-Vesnea_2); */
-    background-color: var(--C-Vesnea_3);
-    background-color: var(--C-Seanavy);
-    background-color: var(--C-Seapurple);
+    /* background-color: var(--C-Vesnea_white); */
+    background-color: var(--C-Vesnea_Purple);
+    background-color: var(--C-Seavalanche_Navy);
+    background-color: var(--C-Seavalanche_Purple);
     transform: translateX(100%);
     transition: transform 0.1s ease-in-out;
     padding-top: 10px;
     padding-bottom: 20px;
-    box-shadow: 0px 5px var(--C-Vesnea_2c);
+    box-shadow: 0px 5px var(--C-Vesnea_whitec);
   }
   .navbar-func.open {
     transform: translateX(0);
@@ -157,14 +160,14 @@
   .navbar-func-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-decoration: none;
     margin: 10px 0;
-    color: var(--C-Seava_1);
+    color: var(--C-Seava_Light_Blue);
     text-decoration: double line-through;
   }
   .navbar-func-text.active {
-    color: var(--C-Vesnea_1);
+    color: var(--C-Vesnea_Pink);
   }
   .navbar-menu-toggle {
     display: flex;
@@ -179,7 +182,7 @@
     display: block;
     width: 100%;
     height: 3px;
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
   }
   /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
 
@@ -187,7 +190,7 @@
   .footbar {
     width: 100%;
     height: 50px;
-    background: var(--C-Vesnea_3);
+    background: var(--C-Vesnea_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,7 +233,7 @@
     padding-bottom: 15px;
     padding-left: 10vw;
     padding-right: 10vw;
-    background-color: var(--C-Seanavy2);
+    background-color: var(--C-Seavalanche_Navy2);
     width: 90%;
     height: 100%;
     justify-content: center;
@@ -302,7 +305,7 @@
   }
 
   .welcome {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -338,7 +341,7 @@
     font-family: var(--F-Title);
     font-size: calc(var(--Fs-Title) - var(--Fs-FontsizeS));
     font-weight: bold;
-    color: var(--C-Seava_4);
+    color: var(--C-Seava_Yellow);
     padding-top: 15px;
     padding-bottom: 2px;
   }
@@ -348,7 +351,7 @@
     /* font-size:var(--Fs-Content); */
     width: 120px;
     text-align: center;
-    color: var(--C-Vesnea_2);
+    color: var(--C-Vesnea_white);
     align-items: center;
   }
 
@@ -357,7 +360,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     padding-top: 30px;
     padding-bottom: 15px;
     /* display: none; */
@@ -367,7 +370,7 @@
     width: 80%;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     align-items: center;
     gap: 20px;
     padding-bottom: 15px;
@@ -379,7 +382,7 @@
     width: 80%;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     align-items: center;
     gap: 20px;
     text-align: center;
@@ -391,14 +394,14 @@
     width: 80%;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     height: 100px;
     text-align: center;
     align-items: center;
   }
 
   .commsect {
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -424,11 +427,11 @@
     display: flex;
     flex-direction: column;
     border-style: dashed;
-    border-color: var(--C-Seava_4);
+    border-color: var(--C-Seava_Yellow);
     border-width: 2px;
     border-radius: 15px;
     padding: 5px;
-    border-color: var(--C-Seava_4b);
+    border-color: var(--C-Seava_Yellowb);
   }
   .commsectitemtitle {
     font-family: var(--F-Title);
@@ -449,7 +452,7 @@
   .commsectlearnmore {
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seava_4);
+    color: var(--C-Seava_Yellow);
     text-align: center;
     margin-top: auto;
     padding-bottom: 12px;
@@ -461,7 +464,7 @@
   .projectshero {
     display: flex;
     flex-direction: column;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     align-items: center;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -497,17 +500,17 @@
     display: flex;
     flex-direction: column;
     border-style: dashed;
-    border-color: var(--C-Seava_4);
+    border-color: var(--C-Seava_Yellow);
     border-width: 2px;
     border-radius: 15px;
     padding: 5px;
-    border-color: var(--C-Seapurple2);
+    border-color: var(--C-Seavalanche_Purple2);
   }
   .projectsheroitemtitle {
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -515,7 +518,7 @@
   .projectsheroitemtext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-align: center;
     white-space: pre-line;
   }
@@ -530,7 +533,7 @@
   }
 
   .historicalsect {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -555,7 +558,7 @@
   }
   .projectsshowcase {
     display: flex;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     align-items: center;
     justify-content: center;
     font-family: var(--F-ContentTitle);
@@ -569,7 +572,7 @@
   .abouthero {
     display: flex;
     flex-direction: column;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     align-items: center;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -584,14 +587,14 @@
     text-align: center;
     width: 80%;
     padding-bottom: 15px;
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .aboutherotitle {
     font-family: var(--F-BigTitle);
     /* font-size: var(--Fs-BigTitle); */
     font-size: calc(var(--Fs-BigTitle) - var(--Fs-FontsizeM) * 1.5);
     padding-bottom: 10px;
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .aboutherocontent {
     display: flex;
@@ -602,12 +605,12 @@
   .aboutherocontent1 {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-align: center;
   }
 
   .aboutcharinfo {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -628,13 +631,13 @@
     height: max(400px, 40vw);
     display: flex;
     flex-direction: column;
-    /* background-color: #f29ec4; */
+    /* background-color: #F29CC2; */
   }
   .aboutcharinfoitemtitle1 {
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Seava_1);
+    color: var(--C-Seava_Light_Blue);
     text-align: center;
     padding-top: 0px;
     padding-bottom: 16px;
@@ -643,7 +646,7 @@
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Vesnea_1b);
+    color: var(--C-Vesnea_Light_Pink);
     text-align: center;
     padding-top: 0px;
     padding-bottom: 16px;
@@ -658,7 +661,7 @@
     font-family: var(--F-Link);
     /* font-size: var(--Fs-Link); */
     font-size: calc(var(--Fs-Link) - 2pt);
-    color: var(--C-Seava_4);
+    color: var(--C-Seava_Yellow);
     text-align: center;
     margin-top: auto;
     padding-bottom: 12px;
@@ -668,7 +671,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
     width: 100%;
     flex-direction: column;
     padding-top: 10px;
@@ -677,7 +680,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     width: 100%;
     flex-direction: column;
     padding-top: 10px;
@@ -698,11 +701,11 @@
     justify-content: center;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seava_1);
+    color: var(--C-Seava_Light_Blue);
     max-width: 75%;
     height: 41px;
     gap: 30px;
-    border: 1px solid var(--C-Seava_1);
+    border: 1px solid var(--C-Seava_Light_Blue);
     padding: 5px;
     padding-left: 35px;
     padding-right: 35px;
@@ -721,11 +724,11 @@
     justify-content: center;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Vesnea_1b);
+    color: var(--C-Vesnea_Light_Pink);
     max-width: 75%;
     height: 41px;
     gap: 30px;
-    border: 1px solid var(--C-Vesnea_1b);
+    border: 1px solid var(--C-Vesnea_Light_Pink);
     padding: 5px;
     padding-left: 35px;
     padding-right: 35px;
@@ -768,7 +771,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
   }
   .commheroimg {
     margin-top: 10px;
@@ -801,7 +804,7 @@
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
     font-size: calc(var(--Fs-ContentTitle) - var(--Fs-FontsizeS));
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     flex-direction: column;
   }
@@ -809,7 +812,7 @@
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
     font-size: calc(var(--Fs-Link) - var(--Fs-FontsizeS) / 2);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .commpromo {
     display: flex;
@@ -839,7 +842,7 @@
     transition: opacity 0.1s ease-in-out;
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .commpromowrapper:hover .promoimg {
     transform: translateY(-5px);
@@ -849,7 +852,7 @@
   }
 
   .artstyle {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -864,7 +867,7 @@
   }
 
   .commstatus {
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -891,7 +894,7 @@
   .commstatustext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -911,7 +914,7 @@
   .commstatustexttitle {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     /* display: none; */
   }
   .commstatustext2 {
@@ -935,7 +938,7 @@
     font-size: calc(var(--Fs-Title) - var(--Fs-Fontsizem));
     font-weight: bold;
     color: white;
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -955,22 +958,6 @@
   * {
     margin: 0;
     padding: 0;
-    --C-Vesnea_1: #f29ec4;
-    --C-Vesnea_1b: #fbdaea;
-    --C-Vesnea_2: #f0f8fc;
-    --C-Vesnea_3: #4c2c57;
-    --C-Vesnea_3b: #170e1c;
-    --C-Seava_1: #9bd0e2;
-    --C-Seava_2: #4c77ae;
-    --C-Seava_2b: #536e9d;
-    --C-Seava_3: #3e4f7b;
-    --C-Seava_4: rgb(252, 243, 217);
-    --C-Seava_4b: rgba(252, 243, 217, 0.3);
-    --C-Seabrown: #645059;
-    --C-Seapurple: rgb(44, 35, 61);
-    --C-Seapurple2: rgba(44, 35, 61, 0.5);
-    --C-Seagrey: #1e1e1e;
-    --C-Seanavy: #181621;
     --F-Navbar: "F-Navbar";
     --Fs-FontsizeS: 4pt;
     --Fs-FontsizeM: 8pt;
@@ -992,7 +979,7 @@
   .navbar {
     width: 100%;
     height: 75px;
-    background: var(--C-Vesnea_2);
+    background: var(--C-Vesnea_white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1010,7 +997,7 @@
     display: flex;
   }
   .navbar-wrapper .active {
-    color: var(--C-Vesnea_1);
+    color: var(--C-Vesnea_Pink);
     /* font-weight: bold; */
   }
   .navbar-wrapper .logo {
@@ -1026,7 +1013,7 @@
   .navbar-menu-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -1036,14 +1023,14 @@
   .navbar-func-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
 
     margin-left: auto;
     padding-left: 25pt;
 
-    color: var(--C-Seava_1);
+    color: var(--C-Seava_Light_Blue);
     text-decoration: double line-through;
   }
   /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
@@ -1052,7 +1039,7 @@
   .footbar {
     width: 100%;
     height: 75px;
-    background: var(--C-Vesnea_3);
+    background: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1067,8 +1054,8 @@
   .footbar-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    color: white;
     display: flex;
+    color: var(--C-Seava_Yellow);
     align-items: center;
     margin-left: auto;
   }
@@ -1103,7 +1090,7 @@
   .footnav-title {
     font-family: var(--F-NavbarTitle);
     font-size: var(--Fs-NavbarTitle);
-    color: white;
+    color: var(--C-Vesnea_white);
     padding-bottom: 20pt;
   }
   .footnav-menu {
@@ -1113,8 +1100,8 @@
   .footnav-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    color: white;
-    padding-bottom: 15pt;
+    color: var(--C-Seava_Yellow);
+    padding-bottom: 20pt;
     text-decoration: none;
   }
   .footnav-wrapper1 .footnav-title {
@@ -1153,7 +1140,7 @@
   }
 
   .welcome {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Dark_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1188,14 +1175,14 @@
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Seava_4);
+    color: var(--C-Seava_Yellow);
     padding-top: 15px;
     padding-bottom: 2px;
   }
   .welcometext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Vesnea_2);
+    color: var(--C-Vesnea_white);
     align-items: center;
   }
 
@@ -1204,7 +1191,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Seavalanche_Purple);
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -1213,7 +1200,7 @@
     width: 550px;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Vesnea_white);
     align-items: center;
     gap: 20px;
     padding-bottom: 15px;
@@ -1223,7 +1210,7 @@
     width: 550px;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Vesnea_white);
     align-items: center;
     gap: 20px;
     text-align: right;
@@ -1234,14 +1221,14 @@
     width: 550px;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Vesnea_white);
     height: 100px;
     text-align: center;
     align-items: center;
   }
 
   .commsect {
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -1266,11 +1253,11 @@
     display: flex;
     flex-direction: column;
     border-style: dashed;
-    border-color: var(--C-Seava_4);
+    border-color: var(--C-Seava_Yellow);
     border-width: 2px;
     border-radius: 15px;
     padding: 5px;
-    border-color: var(--C-Seava_4b);
+    border-color: var(--C-Seava_Yellowb);
   }
   .commsectitemtitle {
     font-family: var(--F-Title);
@@ -1291,7 +1278,7 @@
   .commsectlearnmore {
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seava_4);
+    color: var(--C-Seava_Yellow);
     text-align: center;
     margin-top: auto;
     padding-bottom: 12px;
@@ -1303,7 +1290,7 @@
   .projectshero {
     display: flex;
     flex-direction: column;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     align-items: center;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -1338,17 +1325,17 @@
     display: flex;
     flex-direction: column;
     border-style: dashed;
-    border-color: var(--C-Seava_4);
+    border-color: var(--C-Seava_Yellow);
     border-width: 2px;
     border-radius: 15px;
     padding: 5px;
-    border-color: var(--C-Seapurple2);
+    border-color: var(--C-Seavalanche_Purple2);
   }
   .projectsheroitemtitle {
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -1356,7 +1343,7 @@
   .projectsheroitemtext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-align: center;
     white-space: pre-line;
   }
@@ -1371,7 +1358,7 @@
   }
 
   .historicalsect {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -1396,7 +1383,7 @@
   }
   .projectsshowcase {
     display: flex;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     align-items: center;
     justify-content: center;
     font-family: var(--F-ContentTitle);
@@ -1410,7 +1397,7 @@
   .abouthero {
     display: flex;
     flex-direction: column;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     align-items: center;
     padding-top: 15px;
     padding-bottom: 45px;
@@ -1425,13 +1412,13 @@
     text-align: center;
     width: 80%;
     padding-bottom: 15px;
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .aboutherotitle {
     font-family: var(--F-BigTitle);
     font-size: var(--Fs-BigTitle);
     padding-bottom: 10px;
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .aboutherocontent {
     display: flex;
@@ -1442,12 +1429,12 @@
   .aboutherocontent1 {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-align: justify;
   }
 
   .aboutcharinfo {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -1469,13 +1456,13 @@
     height: min(480px, 65vw);
     display: flex;
     flex-direction: column;
-    /* background-color: #f29ec4; */
+    /* background-color: #F29CC2; */
   }
   .aboutcharinfoitemtitle1 {
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Seava_1);
+    color: var(--C-Seava_Light_Blue);
     text-align: center;
     padding-top: 0px;
     padding-bottom: 16px;
@@ -1484,7 +1471,7 @@
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Vesnea_1b);
+    color: var(--C-Vesnea_Light_Pink);
     text-align: center;
     padding-top: 0px;
     padding-bottom: 16px;
@@ -1499,7 +1486,7 @@
   .aboutcharinfolearnmore {
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seava_4);
+    color: var(--C-Seava_Yellow);
     text-align: center;
     margin-top: auto;
     padding-bottom: 12px;
@@ -1509,7 +1496,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
     width: 100%;
     flex-direction: column;
     padding-top: 30px;
@@ -1518,7 +1505,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     width: 100%;
     flex-direction: column;
     padding-top: 30px;
@@ -1539,11 +1526,11 @@
     justify-content: center;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seava_1);
+    color: var(--C-Seava_Light_Blue);
     max-width: 75%;
     height: 41px;
     gap: 30px;
-    border: 1px solid var(--C-Seava_1);
+    border: 1px solid var(--C-Seava_Light_Blue);
     padding: 5px;
     padding-left: 35px;
     padding-right: 35px;
@@ -1559,11 +1546,11 @@
     justify-content: center;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Vesnea_1b);
+    color: var(--C-Vesnea_Light_Pink);
     max-width: 75%;
     height: 41px;
     gap: 30px;
-    border: 1px solid var(--C-Vesnea_1b);
+    border: 1px solid var(--C-Vesnea_Light_Pink);
     padding: 5px;
     padding-left: 35px;
     padding-right: 35px;
@@ -1604,7 +1591,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
   }
   .commheroimg {
     margin-top: 30px;
@@ -1636,14 +1623,14 @@
     padding-left: 3px;
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     flex-direction: column;
   }
   .commiconlink {
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .commpromo {
     display: flex;
@@ -1672,7 +1659,7 @@
     transition: opacity 0.1s ease-in-out;
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .commpromowrapper:hover .promoimg {
     transform: translateY(-5px);
@@ -1682,7 +1669,7 @@
   }
 
   .artstyle {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1697,7 +1684,7 @@
   }
 
   .commstatus {
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1717,7 +1704,7 @@
   .commstatustext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -1736,7 +1723,7 @@
   .commstatustexttitle {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     /* display: none; */
   }
   .commstatustext2 {
@@ -1759,7 +1746,7 @@
     font-size: var(--Fs-Title);
     font-weight: bold;
     color: white;
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1778,20 +1765,6 @@
   * {
     margin: 0;
     padding: 0;
-    --C-Vesnea_1: #f29ec4;
-    --C-Vesnea_1b: #fbdaea;
-    --C-Vesnea_2: #f0f8fc;
-    --C-Vesnea_3: #4c2c57;
-    --C-Vesnea_3b: #170e1c;
-    --C-Seava_1: #9bd0e2;
-    --C-Seava_2: #4c77ae;
-    --C-Seava_2b: #536e9d;
-    --C-Seava_3: #3e4f7b;
-    --C-Seava_4: #fcf2d7;
-    --C-Seabrown: #645059;
-    --C-Seapurple: #2c233d;
-    --C-Seagrey: #1e1e1e;
-    --C-Seanavy: #181621;
     --F-Navbar: "F-Navbar";
     --Fs-Navbar: 12pt;
     --F-NavbarTitle: "F-NavbarTitle";
@@ -1811,7 +1784,7 @@
   .navbar {
     width: 100%;
     height: 75px;
-    background: var(--C-Vesnea_2);
+    background: var(--C-Vesnea_white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1829,7 +1802,7 @@
     display: flex;
   }
   .navbar-wrapper .active {
-    color: var(--C-Vesnea_1);
+    color: var(--C-Vesnea_Pink);
     /* font-weight: bold; */
   }
   .navbar-wrapper .logo {
@@ -1846,7 +1819,7 @@
   .navbar-menu-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -1856,14 +1829,14 @@
   .navbar-func-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
 
     margin-left: auto;
     padding-left: 25pt;
 
-    color: var(--C-Seava_1);
+    color: var(--C-Seava_Light_Blue);
     text-decoration: double line-through;
   }
   /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
@@ -1872,7 +1845,7 @@
   .footbar {
     width: 100%;
     height: 75px;
-    background: var(--C-Vesnea_3);
+    background: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1887,10 +1860,10 @@
   .footbar-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    color: white;
     display: flex;
     align-items: center;
     margin-left: auto;
+    color: var(--C-Seava_Yellow);
   }
   .footnav {
     width: 100%;
@@ -1922,7 +1895,7 @@
   .footnav-title {
     font-family: var(--F-NavbarTitle);
     font-size: var(--Fs-NavbarTitle);
-    color: white;
+    color: var(--C-Vesnea_white);
     padding-bottom: 7pt;
   }
   .footnav-menu {
@@ -1932,7 +1905,7 @@
   .footnav-text {
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
-    color: white;
+    color: var(--C-Seava_Yellow);
     padding-bottom: 7pt;
     text-decoration: none;
   }
@@ -1972,7 +1945,7 @@
   }
 
   .welcome {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Dark_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2007,14 +1980,14 @@
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Seava_4);
+    color: var(--C-Seava_Yellow);
     padding-top: 45px;
     padding-bottom: 2px;
   }
   .welcometext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Vesnea_2);
+    color: var(--C-Vesnea_white);
     align-items: center;
   }
 
@@ -2023,7 +1996,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Seavalanche_Purple);
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -2032,7 +2005,7 @@
     width: 705px;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Vesnea_white);
     align-items: center;
     gap: 20px;
     padding-bottom: 15px;
@@ -2042,7 +2015,7 @@
     width: 705px;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Vesnea_white);
     align-items: center;
     gap: 20px;
     text-align: right;
@@ -2053,14 +2026,14 @@
     width: 705px;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Vesnea_white);
     height: 100px;
     text-align: center;
     align-items: center;
   }
 
   .commsect {
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -2103,7 +2076,7 @@
   .commsectlearnmore {
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seava_4);
+    color: var(--C-Seava_Yellow);
     text-align: center;
     margin-top: auto;
     padding-bottom: 12px;
@@ -2115,7 +2088,7 @@
   .projectshero {
     display: flex;
     flex-direction: column;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     align-items: center;
     padding-top: 30px;
     padding-bottom: 25px;
@@ -2151,7 +2124,7 @@
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -2159,7 +2132,7 @@
   .projectsheroitemtext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-align: center;
     white-space: pre-line;
   }
@@ -2174,7 +2147,7 @@
   }
 
   .historicalsect {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -2198,7 +2171,7 @@
   }
   .projectsshowcase {
     display: flex;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     align-items: center;
     justify-content: center;
     font-family: var(--F-ContentTitle);
@@ -2212,7 +2185,7 @@
   .abouthero {
     display: flex;
     flex-direction: column;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     align-items: center;
     padding-top: 30px;
     padding-bottom: 45px;
@@ -2227,13 +2200,13 @@
     text-align: center;
     width: 1065px;
     padding-bottom: 15px;
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .aboutherotitle {
     font-family: var(--F-BigTitle);
     font-size: var(--Fs-BigTitle);
     padding-bottom: 10px;
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .aboutherocontent {
     display: flex;
@@ -2244,12 +2217,12 @@
   .aboutherocontent1 {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     text-align: justify;
   }
 
   .aboutcharinfo {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -2272,7 +2245,7 @@
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Seava_1);
+    color: var(--C-Seava_Light_Blue);
     text-align: center;
     padding-top: 0px;
     padding-bottom: 16px;
@@ -2281,7 +2254,7 @@
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: var(--C-Vesnea_1b);
+    color: var(--C-Vesnea_Light_Pink);
     text-align: center;
     padding-top: 0px;
     padding-bottom: 16px;
@@ -2296,7 +2269,7 @@
   .aboutcharinfolearnmore {
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seava_4);
+    color: var(--C-Seava_Yellow);
     text-align: center;
     margin-top: auto;
     padding-bottom: 12px;
@@ -2306,7 +2279,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
     width: 100%;
     flex-direction: column;
     padding-top: 30px;
@@ -2315,7 +2288,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     width: 100%;
     flex-direction: column;
     padding-top: 30px;
@@ -2334,11 +2307,11 @@
     justify-content: center;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seava_1);
+    color: var(--C-Seava_Light_Blue);
     max-width: 975px;
     height: 41px;
     gap: 30px;
-    border: 1px solid var(--C-Seava_1);
+    border: 1px solid var(--C-Seava_Light_Blue);
     padding: 5px;
     padding-left: 35px;
     padding-right: 35px;
@@ -2354,11 +2327,11 @@
     justify-content: center;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Vesnea_1b);
+    color: var(--C-Vesnea_Light_Pink);
     max-width: 975px;
     height: 41px;
     gap: 30px;
-    border: 1px solid var(--C-Vesnea_1b);
+    border: 1px solid var(--C-Vesnea_Light_Pink);
     padding: 5px;
     padding-left: 35px;
     padding-right: 35px;
@@ -2398,7 +2371,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
   }
   .commheroimg {
     margin-top: 30px;
@@ -2426,14 +2399,14 @@
     padding-left: 3px;
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     flex-direction: column;
   }
   .commiconlink {
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .commpromo {
     display: flex;
@@ -2463,7 +2436,7 @@
     transition: opacity 0.1s ease-in-out;
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .commpromowrapper:hover .promoimg {
     transform: translateY(-5px);
@@ -2473,7 +2446,7 @@
   }
 
   .artstyle {
-    background-color: var(--C-Seapurple);
+    background-color: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2485,7 +2458,7 @@
   }
 
   .commstatus {
-    background-color: var(--C-Vesnea_2);
+    background-color: var(--C-Vesnea_white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2505,12 +2478,12 @@
   .commstatustexttitle {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
   }
   .commstatustext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seapurple);
+    color: var(--C-Seavalanche_Purple);
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -2541,7 +2514,7 @@
     font-size: var(--Fs-Title);
     font-weight: bold;
     color: white;
-    background-color: var(--C-Seanavy);
+    background-color: var(--C-Seavalanche_Navy);
     display: flex;
     flex-direction: column;
     align-items: center;
