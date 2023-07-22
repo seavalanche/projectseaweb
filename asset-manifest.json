@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.51b8f692.css",
-    "main.js": "/projectseaweb/static/js/main.d6e128b4.js",
+    "main.css": "/projectseaweb/static/css/main.5cc156b2.css",
+    "main.js": "/projectseaweb/static/js/main.ea70f847.js",
     "static/js/787.30de3784.chunk.js": "/projectseaweb/static/js/787.30de3784.chunk.js",
     "static/media/CommBoard.jpg": "/projectseaweb/static/media/CommBoard.bc3ee77f2b40388b8f9f.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/projectseaweb/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/Introduction-bg.jpg": "/projectseaweb/static/media/Introduction-bg.db82af113c96448b593b.jpg",
+    "static/media/WelcomeSect.jpg": "/projectseaweb/static/media/WelcomeSect.5ce89f8a1d6e0510d0e4.jpg",
     "static/media/ArtStyleWrap.jpg": "/projectseaweb/static/media/ArtStyleWrap.b014d890d18409e076de.jpg",
     "static/media/InterTight-ExtraLightItalic.ttf": "/projectseaweb/static/media/InterTight-ExtraLightItalic.3c6ce928529a7f898efe.ttf",
     "static/media/Lora-VariableFont_wght.ttf": "/projectseaweb/static/media/Lora-VariableFont_wght.3a653a05dd1cd5925a30.ttf",
@@ -14,7 +15,6 @@
     "static/media/FootNav-bg.jpg": "/projectseaweb/static/media/FootNav-bg.ec06f42b2e3ad3de522c.jpg",
     "static/media/CommStatusimg.png": "/projectseaweb/static/media/CommStatusimg.aa750431064acab3922d.png",
     "static/media/by Seava - 20220501 (2) 3.png": "/projectseaweb/static/media/by Seava - 20220501 (2) 3.febd5e2137f45cda70a3.png",
-    "static/media/WelcomeSect.jpg": "/projectseaweb/static/media/WelcomeSect.c749606fc110f5056467.jpg",
     "static/media/D11-Commission-Banner-v2_3by1.jpg": "/projectseaweb/static/media/D11-Commission-Banner-v2_3by1.18a435adbf9c07d16371.jpg",
     "static/media/CommHero.jpg": "/projectseaweb/static/media/CommHero.1b49b5f81af40cbc182e.jpg",
     "static/media/Baskervville-Regular.ttf": "/projectseaweb/static/media/Baskervville-Regular.fbfdbd5a668fb566697a.ttf",
@@ -29,13 +29,14 @@
     "static/media/Seava icon.png": "/projectseaweb/static/media/Seava icon.88337d9e17611ace6ceb.png",
     "static/media/Vesnea icon.png": "/projectseaweb/static/media/Vesnea icon.47f8c600cfb481e836a6.png",
     "static/media/small-Seava-and-Vesnea.jpg": "/projectseaweb/static/media/small-Seava-and-Vesnea.970b0ef5abce8f62155e.jpg",
+    "static/media/Footbar Logo.png": "/projectseaweb/static/media/Footbar Logo.2663e2a7e8f1bf665ec8.png",
     "index.html": "/projectseaweb/index.html",
-    "main.51b8f692.css.map": "/projectseaweb/static/css/main.51b8f692.css.map",
-    "main.d6e128b4.js.map": "/projectseaweb/static/js/main.d6e128b4.js.map",
+    "main.5cc156b2.css.map": "/projectseaweb/static/css/main.5cc156b2.css.map",
+    "main.ea70f847.js.map": "/projectseaweb/static/js/main.ea70f847.js.map",
     "787.30de3784.chunk.js.map": "/projectseaweb/static/js/787.30de3784.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51b8f692.css",
-    "static/js/main.d6e128b4.js"
+    "static/css/main.5cc156b2.css",
+    "static/js/main.ea70f847.js"
   ]
 }
