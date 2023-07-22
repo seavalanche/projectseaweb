@@ -2,8 +2,11 @@ import { Link } from 'react-router-dom';
 import { scroller } from 'react-scroll';
 import seava from '../Assets/Seava.png';
 import vesnea from '../Assets/Vesnea.png';
+import seavalanche from '../Assets/Seavalanche.png';
 import aboutseava from '../Assets/by Seava - 20220501 (2) 3.png';
-import aboutvesnea from '../Assets/S47 - Vesnea.png';
+import aboutvesnea from '../Assets/S84 - Vesnea.png';
+import aboutseavalanche from '../Assets/S85 - Seavalanche.png';
+import aboutseparator from '../Assets/S75 - Vesnea_b_338x450.gif';
 
 function About() {
     function scrollToSelection(targetSection) {
@@ -47,10 +50,18 @@ function About() {
                             Represents Seavalanche’s friendliness and cheerfulness to connect with many people.</div><br />
                         <Link to='/About' className='aboutcharinfolearnmore' onClick={() => scrollToSelection('targetvesnea')}>See more about it</Link>
                     </div>
+                    <div className='aboutcharinfoitemcard'>
+                        <img className='seavalanche' src={seavalanche} alt="seavalanche" />
+                        <div className='aboutcharinfoitemtitle3'>Seavalanche</div>
+                        <div className='aboutcharinfoitemtext'>
+                            Created on 31 March 2023<br /><br />
+                            Represents Seavalanche’s full power to achieve what needs to be achieved.</div><br />
+                        <Link to='/About' className='aboutcharinfolearnmore' onClick={() => scrollToSelection('targetseavalanche')}>See more about it</Link>
+                    </div>
                 </div>
             </div>
             <div className='aboutcharseava' id='targetseava'>
-                <img className='aboutseava' src={aboutseava} alt="D05 - Seava Ref Sheet" />
+                <img className='aboutseava' src={aboutseava} alt="Seava" />
                 <div className='aboutcharseavaint'>
                     <div className='aboutcharseavainttitle'>Seava</div>
                     A fox-like creature that uses ice elements to protect its beloved ones.
@@ -89,7 +100,7 @@ function About() {
                 </div>
             </div>
             <div className='aboutcharvesnea' id='targetvesnea'>
-                <img className='aboutvesnea' src={aboutvesnea} alt="S47 - Vesnea" />
+                <img className='aboutvesnea' src={aboutvesnea} alt="Vesnea" />
                 <div className='aboutcharvesneaint'>
                     <div className='aboutcharvesneainttitle'>Vesnea</div>
                     A fox-like creature that shows a cheerful personality that can calm anyone.
@@ -120,6 +131,37 @@ function About() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='aboutcharseavalanche' id='targetseavalanche'>
+                <img className='aboutseavalanche' src={aboutseavalanche} alt="Seavalanche" />
+                <div className='aboutcharseavalancheint'>
+                    <div className='aboutcharseavalancheinttitle'>Seavalanche</div>
+                    A fox-like creature that moves elegantly and shows love to the world.
+                </div>
+                <div className='aboutcharitem'>
+                    <div className='aboutcharcard'>
+                        Name and Design
+                        <div className='aboutcharcontent'>
+                            The name is a word combination of<br />sea and avalanche.<br /><br />
+
+                            Seavalanche’s form is<br />a modified form of Vesnea.<br /><br />
+
+                            The color scheme: white (pure), pink (playful), purple (elegance),
+                            blue (energy), and yellow (energy).
+                        </div>
+                    </div>
+                    <div className='aboutcharcard'>
+                        Form and Personality
+                        <div className='aboutcharcontent'>
+                            Seavalanche is Vesnea’s form after receiving a part of Seava’s power.<br /><br />
+
+                            Vesnea has gotten the power of Seava. It also made her to act even more elegantly.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='aboutseparator'>
+                <img src={aboutseparator} className='aboutseparatorimg1' alt='Vesnea'/>
             </div>
         </div>
     )

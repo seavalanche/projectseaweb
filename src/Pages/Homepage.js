@@ -1,7 +1,7 @@
 import { scroller } from 'react-scroll';
 import { Link } from 'react-router-dom';
 import arrow from '../Assets/Arrow.png';
-import smallintro1 from '../Assets/small-Seava-and-Vesnea.jpg';
+import smallintro1 from '../Assets/Vesnea see you.jpg';
 import smallintro2 from '../Assets/2023-18-Sprigatito.jpg';
 import commsectbanner from '../Assets/D11-Commission-Banner-v2_3by1.jpg';
 
@@ -31,8 +31,8 @@ function Homepage() {
             </div>
             <div className='shortintro'>
                 <div className='shortintro1'>
-                    I am Seavalanche, a self-taught digital artist that likes to draw cute characters. You can call me either Seava or Vesnea.
-                    <img className='smallintro1' src={smallintro1} alt="small Seava and Vesnea" />
+                    I am Seavalanche, a self-taught digital artist that likes to draw cute characters. You can call me Vesnea.
+                    <img className='smallintro1' src={smallintro1} alt="Vesnea" />
                 </div>
                 <div className='shortintro2'>
                     <img className='smallintro2' src={smallintro2} alt="2023 - 18 - Sprigatito" />

@@ -50,7 +50,7 @@
   --C-Seavalanche_Brown: #645059;
   --C-Seavalanche_Purple: #2c233d;
   --C-Seavalanche_Purple2: rgba(44, 35, 61, 0.5);
-  --C-Seavalanche_Dark_Purple: #191b21;
+  --C-Seavalanche_Dark_Purple: #181621;
   --C-Seavalanche_Grey: #1e1e1e;
   --C-Seavalanche_Navy: #191b21;
   --C-Seavalanche_Navy2: rgba(24, 22, 33, 0.7);
@@ -1228,13 +1228,13 @@
   }
 
   .commsect {
-    background-color: var(--C-Seavalanche_Navy);
+    background-color: var(--C-Seavalanche_Dark_Purple);
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
   }
   .commsectbanner {
     width: 600px;
@@ -1253,17 +1253,16 @@
     display: flex;
     flex-direction: column;
     border-style: dashed;
-    border-color: var(--C-Seava_Yellow);
     border-width: 2px;
     border-radius: 15px;
-    padding: 5px;
+    padding: 10px;
     border-color: var(--C-Seava_Yellowb);
   }
   .commsectitemtitle {
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: white;
+    color: var(--C-Seava_Yellow);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -1271,14 +1270,14 @@
   .commsectitemtext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: white;
+    color: var(--C-Vesnea_white);
     text-align: center;
     white-space: pre-line;
   }
   .commsectlearnmore {
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seava_Yellow);
+    color: var(--C-Seava_Light_Blue);
     text-align: center;
     margin-top: auto;
     padding-bottom: 12px;
@@ -1430,7 +1429,7 @@
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     color: var(--C-Seavalanche_Purple);
-    text-align: justify;
+    text-align: center;
   }
 
   .aboutcharinfo {
@@ -1439,8 +1438,8 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .aboutcharinfoitem {
     display: flex;
@@ -1448,11 +1447,12 @@
     max-width: 80%;
     gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .aboutcharinfoitemcard {
-    width: min(345px, 40vw);
-    /* width: 345px; */
-    height: 480px;
+    /* width: min(345px, 40vw); */
+    width: 345px;
+    /* height: 480px; */
     height: min(480px, 65vw);
     display: flex;
     flex-direction: column;
@@ -1472,6 +1472,15 @@
     font-size: var(--Fs-Title);
     font-weight: bold;
     color: var(--C-Vesnea_Light_Pink);
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
+  .aboutcharinfoitemtitle3 {
+    font-family: var(--F-Title);
+    font-size: var(--Fs-Title);
+    font-weight: bold;
+    color: var(--C-Seava_Yellow);
     text-align: center;
     padding-top: 0px;
     padding-bottom: 16px;
@@ -1496,7 +1505,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seavalanche_Navy);
+    background-color: var(--C-Seavalanche_Dark_Purple);
     width: 100%;
     flex-direction: column;
     padding-top: 30px;
@@ -1505,7 +1514,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seavalanche_Purple);
+    background-color: var(--C-Seavalanche_Dark_Purple);
+    width: 100%;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .aboutcharseavalanche {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--C-Seavalanche_Dark_Purple);
     width: 100%;
     flex-direction: column;
     padding-top: 30px;
@@ -1516,6 +1534,11 @@
     max-height: 635px;
   }
   .aboutvesnea {
+    width: 90vw;
+    max-width: 375px;
+    max-height: 400px;
+  }
+  .aboutseavalanche {
     width: 90vw;
     max-width: 375px;
     max-height: 400px;
@@ -1560,6 +1583,27 @@
     font-size: var(--Fs-Title);
     font-weight: bold;
   }
+  .aboutcharseavalancheint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--F-Content);
+    font-size: var(--Fs-Content);
+    color: var(--C-Seava_Light_Blue);
+    max-width: 75%;
+    height: 41px;
+    gap: 30px;
+    border: 1px solid var(--C-Vesnea_Light_Pink);
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .aboutcharseavalancheinttitle {
+    font-family: var(--F-Title);
+    font-size: var(--Fs-Title);
+    font-weight: bold;
+    color: var(--C-Seava_Yellow);
+  }
   .aboutcharitem {
     display: flex;
     justify-content: center;
@@ -1574,7 +1618,7 @@
   .aboutcharcard {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
-    color: white;
+    color: var(--C-Vesnea_white);
     text-align: center;
     width: 300px;
   }
@@ -1582,6 +1626,19 @@
     padding-top: 15px;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
+  }
+  .aboutseparator {
+    height: 500px;
+    background-color: var(--C-Seavalanche_Purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutseparatorimg1 {
+    border-color: var(--C-Seava_Yellowb);
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 15px;
   }
   /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
 
@@ -1684,7 +1741,7 @@
   }
 
   .commstatus {
-    background-color: var(--C-Vesnea_white);
+    background-color: var(--C-Seavalanche_Dark_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1704,7 +1761,7 @@
   .commstatustext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seavalanche_Purple);
+    color: var(--C-Vesnea_white);
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -1723,11 +1780,12 @@
   .commstatustexttitle {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
-    color: var(--C-Seavalanche_Purple);
+    color: var(--C-Vesnea_Pink);
     /* display: none; */
+    padding-bottom: 5px;
   }
   .commstatustext2 {
-    padding-top: 15px;
+    padding-top: 5px;
     /* text-align: right; */
     display: flex;
     flex-direction: column;
@@ -1736,7 +1794,7 @@
   }
   .kofinav {
     height: auto;
-    width: 100%;
+    width: 75%;
     padding-top: 10px;
     /* display: none; */
   }
@@ -1746,7 +1804,7 @@
     font-size: var(--Fs-Title);
     font-weight: bold;
     color: white;
-    background-color: var(--C-Seavalanche_Navy);
+    background-color: var(--C-Seavalanche_Purple);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2033,35 +2091,42 @@
   }
 
   .commsect {
-    background-color: var(--C-Seavalanche_Navy);
+    background-color: var(--C-Seavalanche_Dark_Purple);
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
   }
   .commsectbanner {
     width: 1065px;
   }
   .commsectitem {
+    padding-top: 15px;
     display: flex;
-    width: 1065px;
-    gap: 15px;
+    max-width: 1065px;
+    min-width: 800px;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .commsectitemcard {
-    width: 255px;
+    width: 325px;
     height: 355px;
     display: flex;
     flex-direction: column;
-    border-style: none;
-    padding: 0;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 15px;
+    border-color: var(--C-Seava_Yellowb);
   }
   .commsectitemtitle {
     font-family: var(--F-Title);
     font-size: var(--Fs-Title);
     font-weight: bold;
-    color: white;
+    color: var(--C-Seava_Yellow);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -2069,14 +2134,14 @@
   .commsectitemtext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: white;
+    color: var(--C-Vesnea_white);
     text-align: center;
     white-space: pre-line;
   }
   .commsectlearnmore {
     font-family: var(--F-Link);
     font-size: var(--Fs-Link);
-    color: var(--C-Seava_Yellow);
+    color: var(--C-Seava_Light_Blue);
     text-align: center;
     margin-top: auto;
     padding-bottom: 12px;
@@ -2091,7 +2156,7 @@
     background-color: var(--C-Vesnea_white);
     align-items: center;
     padding-top: 30px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
   }
   .projectsheroheader {
     display: flex;
@@ -2218,7 +2283,7 @@
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
     color: var(--C-Seavalanche_Purple);
-    text-align: justify;
+    text-align: center;
   }
 
   .aboutcharinfo {
@@ -2234,6 +2299,7 @@
     display: flex;
     /* width: 1065px; */
     gap: 15px;
+    flex-wrap: wrap;
   }
   .aboutcharinfoitemcard {
     width: 345px;
@@ -2259,6 +2325,15 @@
     padding-top: 0px;
     padding-bottom: 16px;
   }
+  .aboutcharinfoitemtitle3 {
+    font-family: var(--F-Title);
+    font-size: var(--Fs-Title);
+    font-weight: bold;
+    color: var(--C-Seava_Yellow);
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
   .aboutcharinfoitemtext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
@@ -2279,7 +2354,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seavalanche_Navy);
+    background-color: var(--C-Seavalanche_Dark_Purple);
     width: 100%;
     flex-direction: column;
     padding-top: 30px;
@@ -2288,7 +2363,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--C-Seavalanche_Purple);
+    background-color: var(--C-Seavalanche_Dark_Purple);
+    width: 100%;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .aboutcharseavalanche {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--C-Seavalanche_Dark_Purple);
     width: 100%;
     flex-direction: column;
     padding-top: 30px;
@@ -2298,8 +2382,10 @@
     height: 635px;
   }
   .aboutvesnea {
-    width: 375px;
     height: 400px;
+  }
+  .aboutseavalanche {
+    height: 450px;
   }
   .aboutcharseavaint {
     display: flex;
@@ -2341,6 +2427,27 @@
     font-size: var(--Fs-Title);
     font-weight: bold;
   }
+  .aboutcharseavalancheint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--F-Content);
+    font-size: var(--Fs-Content);
+    color: var(--C-Seava_Light_Blue);
+    max-width: 975px;
+    height: 41px;
+    gap: 30px;
+    border: 1px solid var(--C-Vesnea_Light_Pink);
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .aboutcharseavalancheinttitle {
+    font-family: var(--F-Title);
+    font-size: var(--Fs-Title);
+    font-weight: bold;
+    color: var(--C-Seava_Yellow);
+  }
   .aboutcharitem {
     display: flex;
     justify-content: center;
@@ -2354,7 +2461,7 @@
   .aboutcharcard {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
-    color: white;
+    color: var(--C-Vesnea_white);
     text-align: center;
     width: 420px;
   }
@@ -2362,6 +2469,19 @@
     padding-top: 15px;
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
+  }
+  .aboutseparator {
+    height: 500px;
+    background-color: var(--C-Seavalanche_Purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutseparatorimg1 {
+    border-color: var(--C-Seava_Yellowb);
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 15px;
   }
   /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
 
@@ -2458,7 +2578,7 @@
   }
 
   .commstatus {
-    background-color: var(--C-Vesnea_white);
+    background-color: var(--C-Seavalanche_Dark_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2478,12 +2598,13 @@
   .commstatustexttitle {
     font-family: var(--F-ContentTitle);
     font-size: var(--Fs-ContentTitle);
-    color: var(--C-Seavalanche_Purple);
+    color: var(--C-Vesnea_Pink);
+    padding-bottom: 0px;
   }
   .commstatustext {
     font-family: var(--F-Content);
     font-size: var(--Fs-Content);
-    color: var(--C-Seavalanche_Purple);
+    color: var(--C-Vesnea_white);
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -2514,7 +2635,7 @@
     font-size: var(--Fs-Title);
     font-weight: bold;
     color: white;
-    background-color: var(--C-Seavalanche_Navy);
+    background-color: var(--C-Seavalanche_Purple);
     display: flex;
     flex-direction: column;
     align-items: center;
