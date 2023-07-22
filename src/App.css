@@ -190,7 +190,7 @@
   .footbar {
     width: 100%;
     height: 50px;
-    background: var(--C-Vesnea_Purple);
+    background: var(--C-Seavalanche_Purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,7 +208,7 @@
   .footbar-text {
     font-family: var(--F-Navbar);
     font-size: calc(var(--Fs-Navbar) - 10pt);
-    color: white;
+    color: var(--C-Vesnea_white);
     display: flex;
     align-items: center;
   }
@@ -904,11 +904,6 @@
     /* right: max(12vw, 130px); */
     /* right: 12vw; */
     /* margin-top: 115px; */
-    /* display: none; */
-  }
-  .commstatustext1 {
-    /* text-align: right; */
-    /* width: 280px; */
     /* display: none; */
   }
   .commstatustexttitle {
@@ -1770,11 +1765,6 @@
     right: max(12vw, 130px);
     /* right: 12vw; */
     margin-top: 115px;
-    /* display: none; */
-  }
-  .commstatustext1 {
-    /* text-align: right; */
-    /* width: 280px; */
     /* display: none; */
   }
   .commstatustexttitle {
