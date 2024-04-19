@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projectseaweb/static/css/main.78f0567b.css",
-    "main.js": "/projectseaweb/static/js/main.a45eb841.js",
+    "main.js": "/projectseaweb/static/js/main.4ee8cc42.js",
     "static/js/488.9062b7d0.chunk.js": "/projectseaweb/static/js/488.9062b7d0.chunk.js",
     "static/media/SEA 2022 - C01 - Truffles and Claus - 220529-0088.jpg": "/projectseaweb/static/media/SEA 2022 - C01 - Truffles and Claus - 220529-0088.5694bfa5a10ecb4eb8bd.jpg",
     "static/media/S75 - Vesnea_b_338x450.gif": "/projectseaweb/static/media/S75 - Vesnea_b_338x450.d037db783abcf5253a0d.gif",
@@ -37,11 +37,11 @@
     "static/media/Vesnea see you.jpg": "/projectseaweb/static/media/Vesnea see you.a846697d9c1ad3ff6bbf.jpg",
     "index.html": "/projectseaweb/index.html",
     "main.78f0567b.css.map": "/projectseaweb/static/css/main.78f0567b.css.map",
-    "main.a45eb841.js.map": "/projectseaweb/static/js/main.a45eb841.js.map",
+    "main.4ee8cc42.js.map": "/projectseaweb/static/js/main.4ee8cc42.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78f0567b.css",
-    "static/js/main.a45eb841.js"
+    "static/js/main.4ee8cc42.js"
   ]
 }
