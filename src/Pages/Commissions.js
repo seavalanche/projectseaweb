@@ -7,6 +7,44 @@ import vesneacomminfo from '../Assets/CommStatusimg.png';
 import kofinav from '../Assets/KofiNav.png';
 import commboard from '../Assets/CommBoard.jpg';
 import artstyleimg from '../Assets/ArtStyleWrap.jpg';
+import commamount from '../Assets/Commission Amount.png';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import item01 from '../Assets/Completed Commission/SEA 2022 - C01 - Truffles and Claus - 220529-0088.jpg';
+
+// const itemsLength = Array.from({ length: 5 });
+// const items = itemsLength.map((item, index) => {
+//     const style = { width: 150 + index * 100 };
+//     return (<div className="item" style={style}>{index + 1}</div>);
+// });
+
+// const handleDragStart = (e) => e.preventDefault();
+// const items = [
+//     <img src="../Assets/Completed Commission/SEA 2022 - C01 - Truffles and Claus - 220529-0088.jpg" onDragStart={handleDragStart} role="presentation" alt=''/>,
+//     <img src="../Assets/Completed Commission/SEA 2022 - C01b - Truffles and Claus - 220529-0039.jpg" onDragStart={handleDragStart} role="presentation" alt=''/>,
+//     <img src="path-to-img" onDragStart={handleDragStart} role="presentation" alt=''/>,
+// ];
+
+const responsive = {
+    0: {
+        items: 1
+    },
+    568: {
+        items: 2
+    },
+    1024: {
+        items: 3,
+        itemsFit: 'contain'
+    },
+};
+
+const items = [
+    <div className="item" data-value="1"><img src={item01} className='carouselpict' alt='' /></div>,
+    <div className="item" data-value="2"><img src={item01} className='carouselpict' alt='' /></div>,
+    <div className="item" data-value="3"><img src={item01} className='carouselpict' alt='' /></div>,
+    <div className="item" data-value="4"><img src={item01} className='carouselpict' alt='' /></div>,
+    <div className="item" data-value="5"><img src={item01} className='carouselpict' alt='' /></div>,
+];
 
 function Commissions() {
     return (
@@ -67,8 +105,23 @@ function Commissions() {
                 </div>
             </div>
             <div className='commcontent'>
-                Commissions Requests Received
+                Commissions Requests Completed
                 <img className='commboard' src={commboard} alt="a temporary collage" />
+                {/* <AliceCarousel
+                    autoWidth
+                    infinite
+                    mouseTracking
+                    items={items}
+                /> */}
+
+                <div className='commcarousel'>
+                    <AliceCarousel
+                        mouseTracking
+                        items={items}
+                        responsive={responsive}
+                    />
+                </div>
+                <img className='commamount' src={commamount} alt="Completed commission amount" />
             </div>
             {/* <div className='projectsshowcase'>
                 ( Under Construction )

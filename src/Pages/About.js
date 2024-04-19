@@ -22,7 +22,7 @@ function About() {
             <div className="abouthero">
                 <div className="aboutheroheader">
                     <div className="aboutherotitle">About Me</div>
-                    I am Seavalanche, a self-taught digital artist that has a big interest in cute stuffs.
+                    aaas
                 </div>
                 <div className="aboutherocontent">
                     <div className="aboutherocontent1">
@@ -64,7 +64,7 @@ function About() {
                 <img className='aboutseava' src={aboutseava} alt="Seava" />
                 <div className='aboutcharseavaint'>
                     <div className='aboutcharseavainttitle'>Seava</div>
-                    A fox-like creature that uses ice elements to protect its beloved ones.
+                    A fox-like creature that uses ice elements to protect their beloved ones.
                 </div>
                 <div className='aboutcharitem'>
                     <div className='aboutcharcard'>
@@ -76,23 +76,23 @@ function About() {
 
                             The color scheme of Seava is deep blue (sea), light blue (ice), and cream (sand).<br /><br />
 
-                            Seava has a cloth-like accessory called Scice that is formed from its ice and psychic aura.<br /><br />
+                            Seava has a cloth-like accessory called Scice that is formed from their ice and psychic aura.<br /><br />
 
-                            In Child form, the cloth is wrapped around its left front leg, while in Normal form the cloth is left hanging using its psychic aura behind its back. It is visibly longer in Ascended form.
+                            In Child form, the cloth is wrapped around their left front leg, while in Normal form the cloth is left hanging using their psychic aura behind their back. It is visibly longer in Ascended form.
                         </div>
                     </div>
                     <div className='aboutcharcard'>
                         Form and Personality
                         <div className='aboutcharcontent'>
-                            It has no known Gender. And it has three forms: Child, Normal, and Ascended form<br /><br />
+                            They have no known gender. And they have three forms: Child, Normal, and Ascended form<br /><br />
 
-                            Normal form is the default, but will use Child form when it needs to preserve energy / hide its aura.
-                            When the situation is dire, Seava will unleash its full power form, the Ascended form.<br /><br />
+                            Normal form is the default, but will use Child form when they need to preserve energy / hide their aura.
+                            When the situation is dire, Seava will unleash their full power form, the Ascended form.<br /><br />
 
-                            Seava can utilize the Scice in combat. But it also has a signature move called Frost Force (ice element).<br /><br />
+                            Seava can utilize the Scice in combat. But they also have a signature move called Frost Force (ice element).<br /><br />
 
                             Frost Force:
-                            Seava lowers its surrounding temperature until it is cold enough that ice forms, then pushes all of it using its psychic power towards the target.<br /><br />
+                            Seava lowers their surrounding temperature until it is cold enough that ice forms, then pushes all of it using their psychic power towards the target.<br /><br />
 
                             All forms has ice elements. But Seava also has water and psychic power.
                         </div>
@@ -161,7 +161,7 @@ function About() {
                 </div>
             </div>
             <div className='aboutseparator'>
-                <img src={aboutseparator} className='aboutseparatorimg1' alt='Vesnea'/>
+                <img src={aboutseparator} className='aboutseparatorimg1' alt='Vesnea' />
             </div>
         </div>
     )

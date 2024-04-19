@@ -55,6 +55,7 @@
   --C-Seavalanche_Navy: #191b21;
   --C-Seavalanche_Navy2: rgba(24, 22, 33, 0.7);
 }
+@import "react-alice-carousel/lib/alice-carousel.css";
 
 /* Small devices (small phones, 600px and below) */
 @media only screen and (max-width: 600px) {
@@ -1798,12 +1799,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     gap: 30px;
   }
   .commboard {
     width: 90%;
+  }
+  .commamount {
+    width: 750px;
   }
   /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 }
@@ -2629,12 +2633,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     gap: 30px;
+  }
+  .commcarousel{
+    background-color: #9bd0e2;
+    width: 1065px;
+  }
+  .carouselpict{
+    height: 200px;
   }
   .commboard {
     width: 1065px;
+  }
+  .commamount {
+    width: 750px;
   }
   /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 }
