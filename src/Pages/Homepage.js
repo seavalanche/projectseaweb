@@ -1,7 +1,7 @@
 import { scroller } from 'react-scroll';
 import { Link } from 'react-router-dom';
 import arrow from '../Assets/Arrow.png';
-import smallintro1 from '../Assets/Vesnea see you.jpg';
+import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
 import smallintro2 from '../Assets/2023-18-Sprigatito.jpg';
 import commsectbanner from '../Assets/D11-Commission-Banner-v2_3by1.jpg';
 
