@@ -22,7 +22,7 @@ function About() {
             <div className="abouthero">
                 <div className="aboutheroheader">
                     <div className="aboutherotitle">About Me</div>
-                    aaas
+                    aaas2
                 </div>
                 <div className="aboutherocontent">
                     <div className="aboutherocontent1">
