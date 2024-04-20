@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom';
 import { scroller } from 'react-scroll';
-import mythseavalanche from '../Assets/About/aboutchar/Myth Seavalanche.png';
-import seavalanche from '../Assets/About/aboutchar/Seavalanche.png';
-import seava from '../Assets/About/aboutchar/Seava.png';
-import vesnea from '../Assets/About/aboutchar/Vesnea.png';
-import korazu from '../Assets/About/aboutchar/Korazu.png';
-import uzakon from '../Assets/About/aboutchar/Uzakon.png';
-import zumiko from '../Assets/About/aboutchar/Zumiko.png';
-import aboutseava from '../Assets/by Seava - 20220501 (2) 3.png';
-import aboutvesnea from '../Assets/S84 - Vesnea.png';
-import aboutseavalanche from '../Assets/S85 - Seavalanche.png';
+import mythseavalanche from '../Assets/About/aboutcharinfo/Myth Seavalanche.png';
+import seavalanche from '../Assets/About/aboutcharinfo/Seavalanche.png';
+import seava from '../Assets/About/aboutcharinfo/Seava.png';
+import vesnea from '../Assets/About/aboutcharinfo/Vesnea.png';
+import korazu from '../Assets/About/aboutcharinfo/Korazu.png';
+import uzakon from '../Assets/About/aboutcharinfo/Uzakon.png';
+import zumiko from '../Assets/About/aboutcharinfo/Zumiko.png';
+import aboutseavalanche from '../Assets/About/aboutchar/Seavalanche.png';
+import aboutseava from '../Assets/About/aboutchar/Seava.png';
+import aboutvesnea from '../Assets/About/aboutchar/Vesnea.png';
+import aboutkorazu from '../Assets/About/aboutchar/Korazu.png';
+import aboutuzakon from '../Assets/About/aboutchar/Uzakon.png';
+import aboutzumiko from '../Assets/About/aboutchar/Zumiko.png';
 import aboutseparator from '../Assets/S75 - Vesnea_b_338x450.gif';
 
 function About() {
@@ -195,6 +198,93 @@ function About() {
                             The cheerful personality that Vesnea shows will help to lessen any conflicts.<br /><br />
 
                             Vesnea also will behave elegantly once in a while and it is unknown whether Vesnea has ever shown sadness or not.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='aboutchar' id='targetkorazu'>
+                <img className='aboutkorazu' src={aboutkorazu} alt="Korazu" />
+                <div className='aboutcharkorazuint'>
+                    <div className='aboutcharkorazuinttitle'>Korazu</div>
+                    A half cat, half bird creature that has a courageous heart and uses the power of the sun to help the people he knows.
+                </div>
+                <div className='aboutcharitem'>
+                    <div className='aboutcharcard1'>
+                        Name and Design
+                        <div className='aboutcharcontent1'>
+                            The name is a an arrangement of the word “courage”.<br /><br />
+
+                            The color scheme: yellow (energy) and orange (courage).<br /><br />
+
+                            He is a cat who has bird wings and tail. There is a ribbon on the right leg and a sun collar on the neck. He has a single tuff of fluff on the tip of the left ear.
+                        </div>
+                    </div>
+                    <div className='aboutcharcard2'>
+                        Form and Personality
+                        <div className='aboutcharcontent2'>
+                            Power of the sun gave him a light attribute. He blends easily in a bright environment.<br /><br />
+
+                            Korazu, Uzakon, and Zumiko seems to be a group of little fairies that accompany Vesnea on her journey.<br /><br />
+
+                            He has a docile personality despite the burning courage he possesses. He doesn’t seek change without a reason.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='aboutchar' id='targetuzakon'>
+                <img className='aboutuzakon' src={aboutuzakon} alt="Uzakon" />
+                <div className='aboutcharuzakonint'>
+                    <div className='aboutcharuzakoninttitle'>Uzakon</div>
+                    A half cat, half bunny creature that has a persevering and calm heart and uses the power of the moon to help the people he knows.
+                </div>
+                <div className='aboutcharitem'>
+                    <div className='aboutcharcard1'>
+                        Name and Design
+                        <div className='aboutcharcontent1'>
+                            The name is a an arrangement of Korazu’s name and also 根気 (perserverance).<br /><br />
+
+                            The color scheme: purple (calmness).<br /><br />
+
+                            He is a cat who has a bunny tail. There is a ribbon on the right leg and a moon collar on the neck. He has two tuffs of fluff on the tip of the left ear.
+                        </div>
+                    </div>
+                    <div className='aboutcharcard2'>
+                        Form and Personality
+                        <div className='aboutcharcontent2'>
+                            Power of the moon gave him a dark attribute. He blends easily in a dark environment.<br /><br />
+
+                            Korazu, Uzakon, and Zumiko seems to be a group of little fairies that accompany Vesnea on her journey.<br /><br />
+
+                            He has a determined and calm personality. He prefers to solve problems with calmness.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='aboutchar' id='targetzumiko'>
+                <img className='aboutzumiko' src={aboutzumiko} alt="Zumiko" />
+                <div className='aboutcharzumikoint'>
+                    <div className='aboutcharzumikointtitle'>Zumiko</div>
+                    A half cat, half dragon creature that has a lovely heart and uses the power of the stars to help the people he knows.
+                </div>
+                <div className='aboutcharitem'>
+                    <div className='aboutcharcard1'>
+                        Name and Design
+                        <div className='aboutcharcontent1'>
+                            The name is a an arrangement of Korazu’s name and also 望み (wish, desire, hope).<br /><br />
+
+                            The color scheme: red (desire).<br /><br />
+
+                            He is a cat who has dragon wings and tail. There is a ribbon on the right leg and a star bow tie on the neck. He has three tuffs of fluff on the tip of the left ear.
+                        </div>
+                    </div>
+                    <div className='aboutcharcard2'>
+                        Form and Personality
+                        <div className='aboutcharcontent2'>
+                            Power of the stars gave him a fire attribute. He can withstand even the hottest environment.<br /><br />
+
+                            Korazu, Uzakon, and Zumiko seems to be a group of little fairies that accompany Vesnea on her journey.<br /><br />
+
+                            He has a lovely personality. His wish, desire, and hope drives him to help people that he knows.
                         </div>
                     </div>
                 </div>

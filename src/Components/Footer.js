@@ -34,7 +34,7 @@ function Footer() {
             <div className='footbar'>
                 <div className='footbar-wrapper'>
                     <img className='logo' src={logo} alt="Seavalanche & Oshyarena logo" />
-                    <div className='footbar-text'>Copyright © 2023 Seavalanche</div>
+                    <div className='footbar-text'>Copyright © 2024 Seavalanche</div>
                 </div>
             </div>
         </div>
