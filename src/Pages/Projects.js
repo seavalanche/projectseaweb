@@ -1,4 +1,5 @@
 import timeline from '../Assets/Timelinehelper.png';
+import { Link } from 'react-router-dom';
 
 function Projects() {
     return (
@@ -68,6 +69,7 @@ function Projects() {
             </div>
             <div className='projectsshowcase'>
                 ( Under Construction )
+                <Link to='/ProjectSeaWeb'>Project Sea Web</Link>
             </div>
         </div>
     )

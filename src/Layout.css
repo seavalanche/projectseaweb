@@ -152,7 +152,6 @@ p {
   }
   .footnav-text {
     padding-bottom: 15pt;
-    text-decoration: none;
     text-align: center;
   }
   /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
@@ -839,7 +838,6 @@ p {
   }
   .footnav-text {
     padding-bottom: 20pt;
-    text-decoration: none;
   }
   .footnav-wrapper1 .footnav-title {
     margin-left: auto;
@@ -1540,7 +1538,6 @@ p {
   }
   .footnav-text {
     padding-bottom: 7pt;
-    text-decoration: none;
   }
   .footnav-wrapper1 .footnav-title {
     margin-left: auto;
@@ -1760,6 +1757,35 @@ p {
     align-items: center;
     justify-content: center;
     height: 100px;
+  }
+  /*ProjectSeaWeb*/
+  .websitelinktree {
+    width: 100%;
+    display: flex;
+  }
+  .linktreebg {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
+  .websitelinktree-wrapper {
+    display: flex;
+    position: absolute;
+    gap: 5px;
+    padding-top: 30px;
+    margin-left: 35%;
+    flex-direction: column;
+  }
+  .websitelinktree-wrapper1 {
+    margin-bottom: var(--Fs-Content);
+  }
+  .websitelinktree-wrapper1 li {
+    list-style: none;
+    padding-left: 0;
+  }
+  .websitelinktree-wrapper1 li div {
+    display: block;
+    padding-left: 12pt;
   }
   /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 

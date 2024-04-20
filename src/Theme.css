@@ -182,6 +182,7 @@
   font-family: var(--F-Navbar);
   font-size: var(--Fs-Navbar);
   color: var(--C-Seava_Yellow);
+  text-decoration: none;
 }
 @media only screen and (max-width: 800px) {
   .footbar-text {
@@ -301,6 +302,18 @@
   font-size: var(--Fs-ContentTitle);
   font-style: italic;
 }
+/*ProjectSeaWeb*/
+.websitelinktree-title {
+  font-family: var(--F-ContentTitle);
+  font-size: var(--Fs-ContentTitle);
+  color: var(--C-Seava_Yellow);
+}
+.websitelinktree-text {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-Content);
+  color: var(--C-Vesnea_white);
+  text-decoration: none;
+}
 @media only screen and (max-width: 800px) {
   .projectsherotitle {
     font-size: calc(var(--Fs-BigTitle) - var(--Fs-FontsizeM) * 1.5);
@@ -344,10 +357,10 @@
   color: var(--C-Vesnea_Light_Pink);
 }
 .aboutcharinfoitemtitle4 {
-  color: var(--C-Korazu_Light_Yellow);
+  color: var(--C-Korazu_Yellow);
 }
 .aboutcharinfoitemtitle5 {
-  color: var(--C-Uzakon_Lighter_Light_Purple);
+  color: var(--C-Uzakon_Light_Purple);
 }
 .aboutcharinfoitemtitle6 {
   color: var(--C-Zumiko_Pink);
