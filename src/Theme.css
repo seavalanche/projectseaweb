@@ -294,7 +294,7 @@
 .historicalsect li {
   font-family: var(--F-Content);
   font-size: var(--Fs-Content);
-  color: white;
+  color: var(--C-Vesnea_white);
 }
 .projectsshowcase {
   background-color: var(--C-Vesnea_white);
@@ -313,6 +313,37 @@
   font-size: var(--Fs-Content);
   color: var(--C-Vesnea_white);
   text-decoration: none;
+}
+.webshowcase {
+  background-color: var(--C-SeaWeb_Dark_Purple);
+}
+.webshowcase-text1 {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-Content);
+  color: var(--C-Vesnea_white);
+}
+.webshowcase-text2 {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-Content);
+  color: var(--C-Vesnea_white);
+}
+.webstyle-wrapperA {
+  background-color: var(--C-Vesnea_Light_Pink);
+}
+.webstyle-wrapperA-text {
+    font-family: var(--F-ContentTitle);
+    font-size: var(--Fs-ContentTitle);
+    color: var(--C-Zumiko_White);
+}
+.webstyle-wrapperB {
+    background-color: var(--C-Zumiko_White);
+  }
+  
+.webstyle-wrapperB-text {
+    font-family: var(--F-Title);
+    font-size: var(--Fs-Title);
+    font-weight: bold;
+    color: var(--C-Zumiko_Red);
 }
 @media only screen and (max-width: 800px) {
   .projectsherotitle {

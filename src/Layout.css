@@ -393,10 +393,6 @@ p {
   }
 
   .aboutcharinfo {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -411,7 +407,6 @@ p {
     height: max(400px, 40vw);
     display: flex;
     flex-direction: column;
-    font-weight: bold;
     text-align: center;
   }
   .aboutcharinfoitemtitle0 {
@@ -1787,6 +1782,83 @@ p {
     display: block;
     padding-left: 12pt;
   }
+  .webshowcase {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+  }
+  .webshowcase-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1065px;
+  }
+  .webshowcase-text1 {
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    margin-left: auto;
+    margin-top: auto;
+    width: 435px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: var(--Fs-Content);
+  }
+  .webshowcase-text2 {
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    margin-right: auto;
+    margin-top: auto;
+    width: 435px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: var(--Fs-Content);
+  }
+  .webstyle {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .separator {
+    height: 150px;
+  }
+  .webstyle-wrapperA {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom:50px;
+  }
+  .webstyle-wrapperA-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top:auto;
+    margin-bottom: auto;
+    justify-content: center;
+  }
+  .webstyle-wrapperB {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom:30px;
+  }
+  .webstyle-wrapperB-text{
+    padding-top: 30px;
+    padding-bottom:30px;
+  }
   /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 
   /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
@@ -1810,26 +1882,15 @@ p {
   }
 
   .aboutcharinfo {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
     padding-top: 30px;
     padding-bottom: 30px;
     gap: 30px;
-  }
-  .aboutcharinfoitem {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
   }
   .aboutcharinfoitemcard {
     width: 345px;
     height: 532px;
     display: flex;
     flex-direction: column;
-    font-weight: bold;
     text-align: center;
   }
   .aboutcharinfoitemtitle0 {
