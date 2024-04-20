@@ -146,26 +146,25 @@ function About() {
 
                             The color scheme of Seava is deep blue (sea), light blue (ice), and cream (sand).<br /><br />
 
-                            Seava has a cloth-like accessory called <i>Scice</i> that is formed from his ice and psychic aura.<br /><br />
+                            Seava has a cloth-like accessory called <i><b>Scice</b></i> that is formed from his ice and psychic aura.<br /><br />
 
-                            In Child form, the <i><b>Scice</b></i> is wrapped around his left front leg, while in Normal form the <i><b>Scice</b></i> is left hanging using his psychic aura behind his back. The <i><b>Scice</b></i> is visibly longer in Ascended form.
+                            In <i>Child form</i>, the <i><b>Scice</b></i> is wrapped around his left front leg, while in <i>Normal form</i> the <i><b>Scice</b></i> is left hanging using his psychic aura behind his back. The <i><b>Scice</b></i> is visibly longer in <i>Ascended form</i>.
                         </div>
                     </div>
                     <div className='aboutcharcard2'>
                         Form and Personality
                         <div className='aboutcharcontent2'>
-                            He has three forms: Child, Normal, and Ascended form<br /><br />
+                            He has three forms: <i>Child</i>, <i>Normal</i>, and <i>Ascended form</i><br /><br />
 
-                            Normal form is the default, but will use Child form when he needs to preserve energy / hide his aura.
-                            When the situation is dire, Seava will unleash his full power form, the Ascended form.<br /><br />
+                            <i>Normal form</i> is the default, but will use <i>Child form</i> when he needs to preserve energy / hide his aura.
+                            When the situation is dire, Seava will unleash his full power form, the <i>Ascended form</i>.<br /><br />
 
-                            Seava can utilize the <i><b>Scice</b></i> in combat. But he also has a signature move called Frost Force (ice element).<br /><br />
+                            Seava can utilize the <i><b>Scice</b></i> in combat. But he also has a signature move called <i><b>Frost Force</b></i> (ice element).<br /><br />
 
                             Seava is caring and kind. He will show that he is determined to support the loved ones.<br /><br />
 
                             <b>Frost Force:</b><br />
-                            Seava lowers his surrounding temperature until it is cold enough that ice forms, then pushes all of it using his psychic power towards the target.
-
+                            Seava lowers his surrounding temperature until it is cold enough that ice forms, then pushes all of it using his psychic power towards the target.<br /><br />
                             All forms has ice elements. But Seava also has water and psychic power.
                         </div>
                     </div>
@@ -185,7 +184,7 @@ function About() {
 
                             The color scheme of Vesnea is white (pure), pink (playful), and purple (elegance).<br /><br />
 
-                            With flippers as her hands and a mermaid tail, she can swim freely in water. The forelegs allows Vesnea to move on land.
+                            With flippers as her hands and a mermaid tail, she can swim freely in water. The hindlegs allows Vesnea to move on land.
                         </div>
                     </div>
                     <div className='aboutcharcard2'>
