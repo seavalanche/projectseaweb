@@ -1,5 +1,6 @@
 import './Layout.css';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import './Theme.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar.js';
 import Footer from './Components/Footer.js';
 import Homepage from './Pages/Homepage.js'
@@ -11,12 +12,12 @@ function App() {
   return (
     <Router basename='/projectseaweb'>
       <Navbar />
-        <Routes>
-          <Route path='/' exact element={<Homepage />} />
-          <Route path='/Projects' exact element={<Projects />} />
-          <Route path='/Commissions' exact element={<Commissions />} />
-          <Route path='/About' exact element={<About />} />
-        </Routes>
+      <Routes>
+        <Route path='/' exact element={<Homepage />} />
+        <Route path='/Projects' exact element={<Projects />} />
+        <Route path='/Commissions' exact element={<Commissions />} />
+        <Route path='/About' exact element={<About />} />
+      </Routes>
       <Footer />
     </Router>
   );
