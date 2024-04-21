@@ -8,12 +8,11 @@ p {
 }
 @import "react-alice-carousel/lib/alice-carousel.css";
 
-/* Small devices (small phones, 600px and below) */
-@media only screen and (max-width: 800px) {
-  /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
+/* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
+* {
   .navbar {
     width: 100%;
-    height: 50px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,24 +20,33 @@ p {
     top: 0;
     z-index: 1;
   }
+  .navbar-wrapper {
+    display: flex;
+  }
+  .navbar-menu {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navbar {
+    height: 50px;
+  }
   .navbar .logo {
     height: 25px;
     padding-top: 4px;
   }
   .navbar-wrapper {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 0 20px;
   }
   .navbar-menu {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: end;
     width: 100%;
-    padding-right: 40px;
+    padding-right: 30px;
     position: fixed;
     top: 50px;
     right: 0;
@@ -59,7 +67,7 @@ p {
     justify-content: center;
     align-items: end;
     width: 100%;
-    padding-right: 40px;
+    padding-right: 30px;
     position: fixed;
     top: calc(167px + 50px);
     right: 0;
@@ -88,9 +96,59 @@ p {
     width: 100%;
     height: 3px;
   }
-  /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .navbar-wrapper .logo {
+    height: 34px;
+  }
+  .navbar-func {
+    display: none;
+    margin-left: 35pt;
+  }
+  .navbar-menu-text {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 40pt;
+  }
+  .navbar-func-text {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 25pt;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .navbar-wrapper {
+    width: 1066px;
+  }
+  .navbar-wrapper .logo {
+    height: 34px;
+  }
+  .navbar-menu {
+    margin-left: auto;
+  }
+  .navbar-func {
+    display: flex;
+    margin-left: 35pt;
+  }
+  .navbar-menu-text {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 40pt;
+  }
+  .navbar-func-text {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 25pt;
+  }
+}
+/* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
 
-  /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
+/* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
+* {
   .footbar {
     width: 100%;
     height: 50px;
@@ -98,23 +156,54 @@ p {
     align-items: center;
     justify-content: center;
   }
-  .footbar-wrapper {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .footbar-wrapper .logo {
-    height: 20px;
-  }
   .footbar-text {
     display: flex;
     align-items: center;
+    margin-left: auto;
+  }
+  .footbar-wrapper {
+    width: 1066px;
+    display: flex;
+  }
+  .footnav-wrapper1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footnav-wrapper2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footnav-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .footbar .logo {
+    height: 25px;
   }
   .footnav {
     width: 100%;
     display: flex;
+  }
+  .footnavbg {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .footbar-wrapper {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footbar .logo {
+    height: 20px;
+  }
+  .footbar-text {
+    margin-right: auto;
+  }
+  .footnav {
     background-image: url("./Assets/FootNav-bg-s.jpg");
     background-position: center;
     background-size: cover;
@@ -130,45 +219,101 @@ p {
     padding-bottom: 15px;
     padding-left: 10vw;
     padding-right: 10vw;
-    width: 90%;
+    width: 80%;
     height: 100%;
     justify-content: center;
-  }
-  .footnav-wrapper1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .footnav-wrapper2 {
-    display: flex;
-    flex-direction: column;
   }
   .footnav-title {
     padding-bottom: 20pt;
     text-align: center;
   }
-  .footnav-menu {
-    display: flex;
-    flex-direction: column;
-  }
   .footnav-text {
     padding-bottom: 15pt;
     text-align: center;
   }
-  /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .footbar-wrapper {
+    width: 90%;
+  }
+  .footnav-wrapper {
+    display: flex;
+    position: absolute;
+    gap: 30px;
+    padding-top: 70px;
+    margin-left: 38%;
+  }
+  .footnav-wrapper2 {
+    padding-top: 70px;
+  }
+  .footnav-title {
+    padding-bottom: 20pt;
+  }
+  .footnav-text {
+    padding-bottom: 20pt;
+  }
+  .footnav-wrapper1 .footnav-title {
+    margin-left: auto;
+  }
+  .footnav-wrapper1 .footnav-text {
+    margin-left: auto;
+  }
+  .footnav-wrapper2 .footnav-title {
+    margin-right: auto;
+  }
+  .footnav-wrapper2 .footnav-text {
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .footnav-wrapper {
+    display: flex;
+    position: absolute;
+    gap: 15px;
+    padding-top: 135px;
+    margin-left: 45.8%;
+  }
+  .footnav-wrapper2 {
+    padding-top: 70px;
+  }
+  .footnav-title {
+    padding-bottom: 7pt;
+  }
+  .footnav-text {
+    padding-bottom: 7pt;
+  }
+  .footnav-wrapper1 .footnav-title {
+    margin-left: auto;
+  }
+  .footnav-wrapper1 .footnav-text {
+    margin-left: auto;
+  }
+  .footnav-wrapper2 .footnav-title {
+    margin-right: auto;
+  }
+  .footnav-wrapper2 .footnav-text {
+    margin-right: auto;
+  }
+}
+/* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
 
-  /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
+/* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
+* {
   .introduction {
     display: flex;
     width: 100%;
-    height: 300px;
     background-image: url("./Assets/Introduction-bg.jpg");
     background-position: center;
     background-size: cover;
     align-items: end;
     justify-content: center;
+    height: calc(100vh - 75px);
   }
   .arrow {
-    display: none;
+    width: 50px;
+    height: min-content;
+    padding-bottom: 43px;
+    transition: transform 0.3s ease;
   }
   .arrow:hover {
     transform: translateY(15px);
@@ -183,12 +328,12 @@ p {
     background-image: url("./Assets/WelcomeSect.jpg");
     background-size: cover;
     background-position: center;
-    height: 150px;
     min-width: 100%;
     max-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 546px;
   }
   .welcomeimg {
     margin-right: auto;
@@ -197,7 +342,7 @@ p {
   }
   .welcomewrap {
     display: flex;
-    min-width: min(292px, 20%);
+    min-width: 292px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -207,8 +352,6 @@ p {
     padding-bottom: 2px;
   }
   .welcometext {
-    width: 120px;
-    text-align: center;
     align-items: center;
   }
 
@@ -218,35 +361,32 @@ p {
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
   }
   .shortintro1 {
     display: flex;
-    width: 80%;
     align-items: center;
     gap: 20px;
     padding-bottom: 15px;
-    text-align: center;
-    flex-direction: column;
+    width: 705px;
   }
   .smallintro1 {
     width: 235px;
   }
   .shortintro2 {
     display: flex;
-    width: 80%;
     align-items: center;
     gap: 20px;
-    text-align: center;
-    padding-bottom: 10px;
-    flex-direction: column;
+    text-align: right;
+    padding-bottom: 15px;
+    width: 705px;
   }
   .shortintro3 {
     display: flex;
-    width: 80%;
     height: 100px;
     text-align: center;
     align-items: center;
+    width: 705px;
   }
 
   .commsect {
@@ -255,28 +395,27 @@ p {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
   }
   .commsectbanner {
-    width: 95%;
+    width: 1065px;
   }
   .commsectitem {
     padding-top: 15px;
     display: flex;
-    width: 90%;
     gap: 25px;
     flex-wrap: wrap;
     justify-content: center;
   }
   .commsectitemcard {
-    width: 240px;
-    height: 280px;
+    width: 325px;
+    height: 355px;
     display: flex;
     flex-direction: column;
     border-style: dashed;
     border-width: 2px;
     border-radius: 15px;
-    padding: 5px;
+    padding: 15px;
   }
   .commsectitemtitle {
     text-align: center;
@@ -292,15 +431,100 @@ p {
     margin-top: auto;
     padding-bottom: 12px;
   }
-  /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
+}
+@media only screen and (max-width: 800px) {
+  .introduction {
+    height: 300px;
+  }
+  .arrow {
+    display: none;
+  }
 
-  /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
+  .welcomewrapper {
+    height: 150px;
+  }
+  .welcomeimg {
+    margin-right: auto;
+    position: relative;
+    left: 90px;
+  }
+  .welcomewrap {
+    min-width: min(292px, 20%);
+  }
+  .welcometext {
+    width: 120px;
+    text-align: center;
+  }
+
+  .shortintro1 {
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+  }
+  .shortintro2 {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 10px;
+    flex-direction: column;
+  }
+  .shortintro3 {
+    width: 80%;
+  }
+
+  .commsect {
+    padding-bottom: 30px;
+  }
+  .commsectbanner {
+    width: 95%;
+  }
+  .commsectitemcard {
+    width: 240px;
+    height: 280px;
+    padding: 5px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .welcomewrapper {
+    height: 250px;
+  }
+
+  .shortintro1 {
+    width: 550px;
+  }
+  .shortintro2 {
+    width: 550px;
+  }
+  .shortintro3 {
+    width: 550px;
+  }
+
+  .commsectbanner {
+    width: 600px;
+  }
+  .commsectitem {
+    width: 600px;
+  }
+  .commsectitemcard {
+    width: 240px;
+    height: 280px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .welcometitle {
+    padding-top: 45px;
+  }
+}
+/* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
+
+/* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
+* {
   .projectshero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 35px;
   }
   .projectsheroheader {
     display: flex;
@@ -308,7 +532,7 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 80%;
+    width: 1065px;
     padding-bottom: 15px;
   }
   .projectsherotitle {
@@ -318,19 +542,12 @@ p {
     display: flex;
     gap: 15px;
     padding-top: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
   }
   .projectsheroitemcard {
-    width: 250px;
-    height: 200px;
+    width: 345px;
+    height: 250px;
     display: flex;
     flex-direction: column;
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
-    padding: 5px;
   }
   .projectsheroitemtitle {
     text-align: center;
@@ -355,11 +572,10 @@ p {
     padding-bottom: 45px;
   }
   .timeline {
-    width: 100%;
-    max-width: 1065px;
+    width: auto;
   }
   .historicalsectinfo {
-    width: 80%;
+    width: 885px;
   }
   .historicalsect li {
     width: 100%;
@@ -370,9 +586,659 @@ p {
     justify-content: center;
     height: 100px;
   }
-  /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
+}
+/*ProjectSeaWeb*/
+* {
+  .websitelinktree {
+    width: 100%;
+    display: flex;
+  }
+  .linktreebg {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
+  .websitelinktree-wrapper {
+    display: flex;
+    position: absolute;
+    gap: 5px;
+    padding-top: 30px;
+    margin-left: 30%;
+    flex-direction: column;
+  }
+  .websitelinktree-wrapper1 {
+    margin-bottom: var(--Fs-Content);
+  }
+  .websitelinktree-wrapper1 li {
+    list-style: none;
+    padding-left: 0;
+  }
+  .websitelinktree-wrapper1 li div {
+    display: block;
+    padding-left: 12pt;
+  }
 
-  /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
+  .webshowcase {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+  }
+  .webshowcase-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1065px;
+  }
+  .webshowcase-text1 {
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    margin-left: auto;
+    margin-top: auto;
+    width: 435px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: var(--Fs-Content);
+  }
+  .webshowcase-text2 {
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    margin-right: auto;
+    margin-top: auto;
+    width: 435px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: var(--Fs-Content);
+  }
+  .webstyle {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .separator {
+    height: 10vw;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  .webstyle-wrapperA {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+  .webstyle-wrapperA-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+  }
+  .webstyle-wrapperB {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 30px;
+  }
+  .webstyle-wrapperB-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .projectshero {
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  .projectsheroheader {
+    width: 80%;
+  }
+  .projectsheroitem {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+  }
+  .projectsheroitemcard {
+    width: 250px;
+    height: 200px;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 5px;
+  }
+
+  .timeline {
+    width: 100%;
+    max-width: 1065px;
+  }
+  .historicalsectinfo {
+    width: 80%;
+  }
+  /*ProjectSeaWeb*/
+  .websitelinktree-wrapper {
+    margin-left: max(10vw, 50px);
+  }
+
+  .webshowcase-wrapper {
+    width: 80%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .webshowcase-text1 {
+    width: 100%;
+  }
+  .webshowcase-text2 {
+    width: 100%;
+  }
+
+  .colorstyle {
+    width: 80%;
+  }
+  .webstyle-wrapperA {
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .webstyle-wrapperB {
+    margin-top: 5px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .projectshero {
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  .projectsheroheader {
+    width: 80%;
+  }
+  .projectsheroitem {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+  }
+  .projectsheroitemcard {
+    width: 250px;
+    height: 235px;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 5px;
+  }
+
+  .timeline {
+    width: 100%;
+    max-width: 1065px;
+  }
+  .historicalsectinfo {
+    width: 80%;
+  }
+  /*ProjectSeaWeb*/
+  .websitelinktree-wrapper {
+    margin-left: calc(40vw - 150px);
+  }
+
+  .webshowcase-wrapper {
+    width: 80%;
+    flex-direction: row;
+    height: 200px;
+    gap: 20px;
+  }
+
+  .colorstyle {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+}
+/* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
+
+/* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
+@media only screen and (max-width: 800px) {
+  .commhero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .commheroimg {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1065px;
+  }
+  .commheroitem {
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    padding-bottom: 10px;
+    position: relative;
+    top: -5px;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .commicon {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-left: 15px;
+  }
+  .commiconimg {
+    width: 10vw;
+    min-width: 50px;
+  }
+  .commicontext {
+    padding-left: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+  .commpromo {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 15px;
+    padding-bottom: 3px;
+  }
+  .commpromowrapper {
+    position: relative;
+  }
+  .promoimg {
+    display: block;
+    max-width: 80px;
+    padding-top: 15px;
+    height: auto;
+    transition: transform 0.1s ease-in-out;
+  }
+  .promotext {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+  .commpromowrapper:hover .promoimg {
+    transform: translateY(-5px);
+  }
+  .commpromowrapper:hover .promotext {
+    opacity: 1;
+  }
+
+  .artstyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .artstyleimg {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .commstatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .commstatuswrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  .vesneacomminfo {
+    width: 90vw;
+    height: auto;
+  }
+  .commstatustext {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+  }
+  .commstatustext2 {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .kofinav {
+    height: auto;
+    width: 75%;
+    padding-top: 10px;
+  }
+
+  .commcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    gap: 10px;
+  }
+  .commcarousel {
+    width: 80%;
+  }
+  .carouselpict {
+    height: 200px;
+  }
+  .commboard {
+    width: 90%;
+  }
+  .commamount {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .commhero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .commheroimg {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1065px;
+  }
+  .commheroitem {
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    padding-bottom: 17px;
+    position: relative;
+    top: -13px;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .commicon {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-left: 15px;
+  }
+  .commiconimg {
+    width: 10vw;
+    min-width: 80px;
+  }
+  .commicontext {
+    padding-left: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+  .commpromo {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 15px;
+    padding-bottom: 3px;
+  }
+  .commpromowrapper {
+    position: relative;
+  }
+  .promoimg {
+    display: block;
+    max-width: 120px;
+    height: auto;
+    transition: transform 0.1s ease-in-out;
+  }
+  .promotext {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+  .commpromowrapper:hover .promoimg {
+    transform: translateY(-5px);
+  }
+  .commpromowrapper:hover .promotext {
+    opacity: 1;
+  }
+
+  .artstyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .artstyleimg {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .commstatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .commstatuswrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .vesneacomminfo {
+    position: relative;
+    left: max(5vw, 10px);
+  }
+  .commstatustexttitle {
+    padding-bottom: 5px;
+  }
+  .commstatustext {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    position: relative;
+    right: max(12vw, 130px);
+    margin-top: 115px;
+  }
+  .commstatustext2 {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .kofinav {
+    height: auto;
+    width: 75%;
+    padding-top: 10px;
+  }
+
+  .commcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    gap: 30px;
+  }
+  .commcarousel {
+    width: 80%;
+  }
+  .carouselpict {
+    height: 200px;
+  }
+  .commboard {
+    width: 90%;
+  }
+  .commamount {
+    width: 750px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .commhero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .commheroimg {
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+  .commheroitem {
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    padding-bottom: 17px;
+    position: relative;
+    top: -13px;
+    width: 1065px;
+  }
+  .commicon {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-left: 37px;
+  }
+  .commiconimg {
+    width: 125px;
+  }
+  .commicontext {
+    padding-left: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+  .commpromo {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: 0px;
+    padding-right: 70px;
+    padding-bottom: 3px;
+  }
+  .commpromowrapper {
+    position: relative;
+  }
+  .promoimg {
+    display: block;
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.1s ease-in-out;
+  }
+  .promotext {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+  .commpromowrapper:hover .promoimg {
+    transform: translateY(-5px);
+  }
+  .commpromowrapper:hover .promotext {
+    opacity: 1;
+  }
+
+  .artstyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .artstyleimg {
+    width: 100%;
+  }
+
+  .commstatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .commstatuswrapper {
+    width: 1065px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .vesneacomminfo {
+    margin-right: auto;
+    position: relative;
+    left: 90px;
+  }
+  .commstatustexttitle {
+    padding-bottom: 0px;
+  }
+  .commstatustext {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-left: auto;
+    position: relative;
+    right: 141.5px;
+    margin-top: 141px;
+  }
+  .commstatustext1 {
+    text-align: right;
+    width: 243px;
+  }
+  .commstatustext2 {
+    padding-top: 29px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+  }
+  .kofinav {
+    height: 41px;
+    width: 255px;
+    padding-top: 10px;
+  }
+
+  .commcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    gap: 30px;
+  }
+  .commcarousel {
+    width: 1065px;
+  }
+  .carouselpict {
+    height: 200px;
+  }
+  .commboard {
+    width: 1065px;
+  }
+  .commamount {
+    width: 750px;
+  }
+}
+/* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
+
+/* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
+@media only screen and (max-width: 800px) {
   .abouthero {
     display: flex;
     flex-direction: column;
@@ -588,7 +1454,7 @@ p {
     text-align: left;
   }
   .aboutseparator {
-    height: 500px;
+    height: min(500px, 120vw);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -597,472 +1463,10 @@ p {
     border-style: dashed;
     border-width: 2px;
     border-radius: 15px;
+    max-width: 80%;
   }
-  /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
-
-  /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
-  .commhero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .commheroimg {
-    margin-top: 10px;
-    border-radius: 10px;
-    width: 90%;
-    max-width: 1065px;
-  }
-  .commheroitem {
-    display: flex;
-    align-items: end;
-    flex-direction: row;
-    padding-bottom: 10px;
-    position: relative;
-    top: -5px;
-    width: 90%;
-    flex-wrap: wrap;
-  }
-  .commicon {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    padding-left: 15px;
-  }
-  .commiconimg {
-    width: 10vw;
-    min-width: 50px;
-  }
-  .commicontext {
-    padding-left: 3px;
-    display: flex;
-    flex-direction: column;
-  }
-  .commpromo {
-    display: flex;
-    gap: 15px;
-    margin-left: auto;
-    margin-right: 0;
-    padding-right: 15px;
-    padding-bottom: 3px;
-  }
-  .commpromowrapper {
-    position: relative;
-  }
-  .promoimg {
-    display: block;
-    max-width: 80px;
-    padding-top: 15px;
-    height: auto;
-    transition: transform 0.1s ease-in-out;
-  }
-  .promotext {
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.1s ease-in-out;
-  }
-  .commpromowrapper:hover .promoimg {
-    transform: translateY(-5px);
-  }
-  .commpromowrapper:hover .promotext {
-    opacity: 1;
-  }
-
-  .artstyle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .artstyleimg {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-  }
-
-  .commstatus {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .commstatuswrapper {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    flex-wrap: wrap;
-  }
-  .vesneacomminfo {
-    width: 90vw;
-    height: auto;
-  }
-  .commstatustext {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    text-align: center;
-  }
-  .commstatustext2 {
-    padding-top: 15px;
-    display: flex;
-    flex-direction: column;
-  }
-  .kofinav {
-    height: auto;
-    width: 75%;
-    padding-top: 10px;
-  }
-
-  .commcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    gap: 10px;
-  }
-  .commboard {
-    width: 90%;
-  }
-  /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 800px) {
-  /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
-  .navbar {
-    width: 100%;
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
-  .navbar-wrapper a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .navbar-wrapper {
-    display: flex;
-  }
-  .navbar-wrapper .logo {
-    height: 34px;
-  }
-  .navbar-menu {
-    display: flex;
-  }
-  .navbar-func {
-    display: none;
-    margin-left: 35pt;
-  }
-  .navbar-menu-text {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 40pt;
-  }
-  .navbar-func-text {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 25pt;
-  }
-  /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
-
-  /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
-  .footbar {
-    width: 100%;
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .footbar-wrapper {
-    width: 90%;
-    display: flex;
-  }
-  .footbar .logo {
-    height: 25px;
-  }
-  .footbar-text {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-  .footnav {
-    width: 100%;
-    display: flex;
-  }
-  .footnavbg {
-    width: 100%;
-    height: 520px;
-    object-fit: cover;
-  }
-  .footnav-wrapper {
-    display: flex;
-    position: absolute;
-    gap: 30px;
-    padding-top: 70px;
-    margin-left: 38%;
-  }
-  .footnav-wrapper1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .footnav-wrapper2 {
-    display: flex;
-    flex-direction: column;
-    padding-top: 70px;
-  }
-  .footnav-title {
-    padding-bottom: 20pt;
-  }
-  .footnav-menu {
-    display: flex;
-    flex-direction: column;
-  }
-  .footnav-text {
-    padding-bottom: 20pt;
-  }
-  .footnav-wrapper1 .footnav-title {
-    margin-left: auto;
-  }
-  .footnav-wrapper1 .footnav-text {
-    margin-left: auto;
-  }
-  .footnav-wrapper2 .footnav-title {
-    margin-right: auto;
-  }
-  .footnav-wrapper2 .footnav-text {
-    margin-right: auto;
-  }
-  /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
-
-  /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
-  .introduction {
-    display: flex;
-    width: 100%;
-    height: calc(100vh - 75px);
-    background-image: url("./Assets/Introduction-bg.jpg");
-    background-position: center;
-    background-size: cover;
-    align-items: end;
-    justify-content: center;
-  }
-  .arrow {
-    width: 50px;
-    height: min-content;
-    padding-bottom: 43px;
-    transition: transform 0.3s ease;
-  }
-  .arrow:hover {
-    transform: translateY(15px);
-  }
-
-  .welcome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .welcomewrapper {
-    background-image: url("./Assets/WelcomeSect.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    min-width: 100%;
-    max-width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .welcomeimg {
-    margin-right: auto;
-    position: relative;
-    left: 90px;
-  }
-  .welcomewrap {
-    display: flex;
-    min-width: 292px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .welcometitle {
-    padding-top: 15px;
-    padding-bottom: 2px;
-  }
-  .welcometext {
-    align-items: center;
-  }
-
-  .shortintro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .shortintro1 {
-    display: flex;
-    width: 550px;
-    align-items: center;
-    gap: 20px;
-    padding-bottom: 15px;
-  }
-  .smallintro1 {
-    width: 235px;
-  }
-  .shortintro2 {
-    display: flex;
-    width: 550px;
-    align-items: center;
-    gap: 20px;
-    text-align: right;
-    padding-bottom: 15px;
-  }
-  .shortintro3 {
-    display: flex;
-    width: 550px;
-    height: 100px;
-    text-align: center;
-    align-items: center;
-  }
-
-  .commsect {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-    padding-bottom: 45px;
-  }
-  .commsectbanner {
-    width: 600px;
-  }
-  .commsectitem {
-    padding-top: 15px;
-    display: flex;
-    width: 600px;
-    gap: 25px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .commsectitemcard {
-    width: 240px;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
-    padding: 10px;
-  }
-  .commsectitemtitle {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-  }
-  .commsectitemtext {
-    text-align: center;
-    white-space: pre-line;
-  }
-  .commsectlearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 12px;
-  }
-  /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
-
-  /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
-  .projectshero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 25px;
-  }
-  .projectsheroheader {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 80%;
-    padding-bottom: 15px;
-  }
-  .projectsherotitle {
-    padding-bottom: 10px;
-  }
-  .projectsheroitem {
-    display: flex;
-    gap: 15px;
-    padding-top: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
-  }
-  .projectsheroitemcard {
-    width: 250px;
-    height: 235px;
-    display: flex;
-    flex-direction: column;
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
-    padding: 5px;
-  }
-  .projectsheroitemtitle {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 15px;
-  }
-  .projectsheroitemtext {
-    text-align: center;
-    white-space: pre-line;
-  }
-  .projectsherolearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 15px;
-  }
-
-  .historicalsect {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 45px;
-  }
-  .timeline {
-    width: 100%;
-    max-width: 1065px;
-  }
-  .historicalsectinfo {
-    width: 80%;
-  }
-  .historicalsect li {
-    width: 100%;
-  }
-  .projectsshowcase {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-  }
-  /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
-
-  /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
   .abouthero {
     display: flex;
     flex-direction: column;
@@ -1290,578 +1694,8 @@ p {
     border-width: 2px;
     border-radius: 15px;
   }
-  /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
-
-  /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
-  .commhero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .commheroimg {
-    margin-top: 30px;
-    border-radius: 20px;
-    width: 90%;
-    max-width: 1065px;
-  }
-  .commheroitem {
-    display: flex;
-    align-items: end;
-    flex-direction: row;
-    padding-bottom: 17px;
-    position: relative;
-    top: -13px;
-    width: 90%;
-    flex-wrap: wrap;
-  }
-  .commicon {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    padding-left: 15px;
-  }
-  .commiconimg {
-    width: 10vw;
-    min-width: 80px;
-  }
-  .commicontext {
-    padding-left: 3px;
-    display: flex;
-    flex-direction: column;
-  }
-  .commpromo {
-    display: flex;
-    gap: 15px;
-    margin-left: auto;
-    margin-right: 0;
-    padding-right: 15px;
-    padding-bottom: 3px;
-  }
-  .commpromowrapper {
-    position: relative;
-  }
-  .promoimg {
-    display: block;
-    max-width: 120px;
-    height: auto;
-    transition: transform 0.1s ease-in-out;
-  }
-  .promotext {
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.1s ease-in-out;
-  }
-  .commpromowrapper:hover .promoimg {
-    transform: translateY(-5px);
-  }
-  .commpromowrapper:hover .promotext {
-    opacity: 1;
-  }
-
-  .artstyle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
-  }
-  .artstyleimg {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-  }
-
-  .commstatus {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .commstatuswrapper {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .vesneacomminfo {
-    position: relative;
-    left: max(5vw, 10px);
-  }
-  .commstatustexttitle {
-    padding-bottom: 5px;
-  }
-  .commstatustext {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    position: relative;
-    right: max(12vw, 130px);
-    margin-top: 115px;
-  }
-  .commstatustext2 {
-    padding-top: 5px;
-    display: flex;
-    flex-direction: column;
-  }
-  .kofinav {
-    height: auto;
-    width: 75%;
-    padding-top: 10px;
-  }
-
-  .commcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    gap: 30px;
-  }
-  .commboard {
-    width: 90%;
-  }
-  .commamount {
-    width: 750px;
-  }
-  /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
-  .navbar {
-    width: 100%;
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
-  .navbar-wrapper a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .navbar-wrapper {
-    width: 1066px;
-    display: flex;
-  }
-  .navbar-wrapper .logo {
-    height: 34px;
-  }
-  .navbar-menu {
-    display: flex;
-    margin-left: auto;
-  }
-  .navbar-func {
-    display: flex;
-    margin-left: 35pt;
-  }
-  .navbar-menu-text {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 40pt;
-  }
-  .navbar-func-text {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 25pt;
-  }
-  /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
-
-  /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
-  .footbar {
-    width: 100%;
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .footbar-wrapper {
-    width: 1066px;
-    display: flex;
-  }
-  .footbar .logo {
-    height: 25px;
-  }
-  .footbar-text {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-  .footnav {
-    width: 100%;
-    display: flex;
-  }
-  .footnavbg {
-    width: 100%;
-    height: 520px;
-    object-fit: cover;
-  }
-  .footnav-wrapper {
-    display: flex;
-    position: absolute;
-    gap: 15px;
-    padding-top: 135px;
-    margin-left: 45.8%;
-  }
-  .footnav-wrapper1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .footnav-wrapper2 {
-    display: flex;
-    flex-direction: column;
-    padding-top: 70px;
-  }
-  .footnav-title {
-    padding-bottom: 7pt;
-  }
-  .footnav-menu {
-    display: flex;
-    flex-direction: column;
-  }
-  .footnav-text {
-    padding-bottom: 7pt;
-  }
-  .footnav-wrapper1 .footnav-title {
-    margin-left: auto;
-  }
-  .footnav-wrapper1 .footnav-text {
-    margin-left: auto;
-  }
-  .footnav-wrapper2 .footnav-title {
-    margin-right: auto;
-  }
-  .footnav-wrapper2 .footnav-text {
-    margin-right: auto;
-  }
-  /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
-
-  /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
-  .introduction {
-    display: flex;
-    width: 100%;
-    height: calc(100vh - 75px);
-    background-image: url("./Assets/Introduction-bg.jpg");
-    background-position: center;
-    background-size: cover;
-    align-items: end;
-    justify-content: center;
-  }
-  .arrow {
-    width: min-content;
-    height: min-content;
-    padding-bottom: 43px;
-    transition: transform 0.3s ease;
-  }
-  .arrow:hover {
-    transform: translateY(15px);
-  }
-
-  .welcome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .welcomewrapper {
-    background-image: url("./Assets/WelcomeSect.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 546px;
-    min-width: 100%;
-    max-width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .welcomeimg {
-    margin-right: auto;
-    position: relative;
-    left: 90px;
-  }
-  .welcomewrap {
-    display: flex;
-    min-width: 292px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .welcometitle {
-    padding-top: 45px;
-    padding-bottom: 2px;
-  }
-  .welcometext {
-    align-items: center;
-  }
-
-  .shortintro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .shortintro1 {
-    display: flex;
-    width: 705px;
-    align-items: center;
-    gap: 20px;
-    padding-bottom: 15px;
-  }
-  .smallintro1 {
-    width: 235px;
-  }
-  .shortintro2 {
-    display: flex;
-    width: 705px;
-    align-items: center;
-    gap: 20px;
-    text-align: right;
-    padding-bottom: 15px;
-  }
-  .shortintro3 {
-    display: flex;
-    width: 705px;
-    height: 100px;
-    text-align: center;
-    align-items: center;
-  }
-
-  .commsect {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-    padding-bottom: 45px;
-  }
-  .commsectbanner {
-    width: 1065px;
-  }
-  .commsectitem {
-    padding-top: 15px;
-    display: flex;
-    max-width: 1065px;
-    min-width: 800px;
-    gap: 25px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .commsectitemcard {
-    width: 325px;
-    height: 355px;
-    display: flex;
-    flex-direction: column;
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
-    padding: 15px;
-  }
-  .commsectitemtitle {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-  }
-  .commsectitemtext {
-    text-align: center;
-    white-space: pre-line;
-  }
-  .commsectlearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 12px;
-  }
-  /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
-
-  /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
-  .projectshero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 35px;
-  }
-  .projectsheroheader {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 1065px;
-    padding-bottom: 15px;
-  }
-  .projectsherotitle {
-    padding-bottom: 10px;
-  }
-  .projectsheroitem {
-    display: flex;
-    gap: 15px;
-    padding-top: 15px;
-  }
-  .projectsheroitemcard {
-    width: 345px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-  }
-  .projectsheroitemtitle {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 15px;
-  }
-  .projectsheroitemtext {
-    text-align: center;
-    white-space: pre-line;
-  }
-  .projectsherolearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 15px;
-  }
-
-  .historicalsect {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 45px;
-  }
-  .timeline {
-    width: auto;
-  }
-  .historicalsectinfo {
-    width: 885px;
-  }
-  .historicalsect li {
-    width: 100%;
-  }
-  .projectsshowcase {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-  }
-  /*ProjectSeaWeb*/
-  .websitelinktree {
-    width: 100%;
-    display: flex;
-  }
-  .linktreebg {
-    width: 100%;
-    height: 550px;
-    object-fit: cover;
-  }
-  .websitelinktree-wrapper {
-    display: flex;
-    position: absolute;
-    gap: 5px;
-    padding-top: 30px;
-    margin-left: 35%;
-    flex-direction: column;
-  }
-  .websitelinktree-wrapper1 {
-    margin-bottom: var(--Fs-Content);
-  }
-  .websitelinktree-wrapper1 li {
-    list-style: none;
-    padding-left: 0;
-  }
-  .websitelinktree-wrapper1 li div {
-    display: block;
-    padding-left: 12pt;
-  }
-  .webshowcase {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    justify-content: center;
-  }
-  .webshowcase-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    width: 1065px;
-  }
-  .webshowcase-text1 {
-    display: flex;
-    justify-content: right;
-    text-align: left;
-    margin-left: auto;
-    margin-top: auto;
-    width: 435px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: var(--Fs-Content);
-  }
-  .webshowcase-text2 {
-    display: flex;
-    justify-content: left;
-    text-align: right;
-    margin-right: auto;
-    margin-top: auto;
-    width: 435px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: var(--Fs-Content);
-  }
-  .webstyle {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  .separator {
-    height: 150px;
-  }
-  .webstyle-wrapperA {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom:50px;
-  }
-  .webstyle-wrapperA-text {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top:auto;
-    margin-bottom: auto;
-    justify-content: center;
-  }
-  .webstyle-wrapperB {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
-    padding-bottom:30px;
-  }
-  .webstyle-wrapperB-text{
-    padding-top: 30px;
-    padding-bottom:30px;
-  }
-  /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
-
-  /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
   .abouthero {
     display: flex;
     flex-direction: column;
@@ -1882,9 +1716,20 @@ p {
   }
 
   .aboutcharinfo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     padding-top: 30px;
     padding-bottom: 30px;
     gap: 30px;
+  }
+  .aboutcharinfoitem {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    gap: max(30px, calc(700px - 99.5vw));
+    justify-content: center;
   }
   .aboutcharinfoitemcard {
     width: 345px;
@@ -2068,151 +1913,5 @@ p {
     border-width: 2px;
     border-radius: 15px;
   }
-  /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
-
-  /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
-  .commhero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .commheroimg {
-    margin-top: 30px;
-    border-radius: 20px;
-  }
-  .commheroitem {
-    display: flex;
-    align-items: end;
-    flex-direction: row;
-    padding-bottom: 17px;
-    position: relative;
-    top: -13px;
-    width: 1065px;
-  }
-  .commicon {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    padding-left: 37px;
-  }
-  .commiconimg {
-    width: 125px;
-  }
-  .commicontext {
-    padding-left: 3px;
-    display: flex;
-    flex-direction: column;
-  }
-  .commpromo {
-    display: flex;
-    gap: 30px;
-    margin-left: auto;
-    margin-right: 0px;
-    padding-right: 70px;
-    padding-bottom: 3px;
-  }
-  .commpromowrapper {
-    position: relative;
-  }
-  .promoimg {
-    display: block;
-    max-width: 150px;
-    height: auto;
-    transition: transform 0.1s ease-in-out;
-  }
-  .promotext {
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.1s ease-in-out;
-  }
-  .commpromowrapper:hover .promoimg {
-    transform: translateY(-5px);
-  }
-  .commpromowrapper:hover .promotext {
-    opacity: 1;
-  }
-
-  .artstyle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
-  }
-  .artstyleimg {
-    width: 100%;
-  }
-
-  .commstatus {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .commstatuswrapper {
-    width: 1065px;
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .vesneacomminfo {
-    margin-right: auto;
-    position: relative;
-    left: 90px;
-  }
-  .commstatustexttitle {
-    padding-bottom: 0px;
-  }
-  .commstatustext {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    margin-left: auto;
-    position: relative;
-    right: 141.5px;
-    margin-top: 141px;
-  }
-  .commstatustext1 {
-    text-align: right;
-    width: 243px;
-  }
-  .commstatustext2 {
-    padding-top: 29px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    width: 255px;
-  }
-  .kofinav {
-    height: 41px;
-    width: 255px;
-    padding-top: 10px;
-  }
-
-  .commcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    gap: 30px;
-  }
-  .commcarousel {
-    width: 1065px;
-  }
-  .carouselpict {
-    height: 200px;
-  }
-  .commboard {
-    width: 1065px;
-  }
-  .commamount {
-    width: 750px;
-  }
-  /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 }
+/* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */

@@ -182,15 +182,15 @@ function ProjectSeaWeb() {
                 </div>
             </div>
             <div className="webstyle">
-                <img src={separator1} alt="separator" />
+                <img className='separator' src={separator1} alt="separator" />
                 <div className="webstyle-wrapperA">
                     <div className="webstyle-wrapperA-text">hey... suddenly the website looks different here???</div>
                     <div className="webstyle-wrapperB">
                         <div className="webstyle-wrapperB-text">✨✨ Project Sea Web’s Color Styles! ✨✨</div>
-                        <img src={colorstyle} alt="SeaWeb Color's Styles" />
+                        <img className="colorstyle" src={colorstyle} alt="SeaWeb Color's Styles" />
                     </div>
                 </div>
-                <img src={separator2} alt="separator" />
+                <img className='separator' src={separator2} alt="separator" />
             </div>
             <div className='projectsshowcase'>
                 ( Under Construction )
