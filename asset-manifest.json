@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.ed44cf41.css",
+    "main.css": "/projectseaweb/static/css/main.41c3ec59.css",
     "main.js": "/projectseaweb/static/js/main.2e3327b7.js",
     "static/js/488.9062b7d0.chunk.js": "/projectseaweb/static/js/488.9062b7d0.chunk.js",
     "static/media/SEA 2022 - C01 - Truffles and Claus - 220529-0088.jpg": "/projectseaweb/static/media/SEA 2022 - C01 - Truffles and Claus - 220529-0088.5694bfa5a10ecb4eb8bd.jpg",
@@ -49,12 +49,12 @@
     "static/media/Vesnea icon.png": "/projectseaweb/static/media/Vesnea icon.47f8c600cfb481e836a6.png",
     "static/media/Footbar Logo.png": "/projectseaweb/static/media/Footbar Logo.2663e2a7e8f1bf665ec8.png",
     "index.html": "/projectseaweb/index.html",
-    "main.ed44cf41.css.map": "/projectseaweb/static/css/main.ed44cf41.css.map",
+    "main.41c3ec59.css.map": "/projectseaweb/static/css/main.41c3ec59.css.map",
     "main.2e3327b7.js.map": "/projectseaweb/static/js/main.2e3327b7.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed44cf41.css",
+    "static/css/main.41c3ec59.css",
     "static/js/main.2e3327b7.js"
   ]
 }
