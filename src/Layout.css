@@ -1330,15 +1330,15 @@ p {
     max-height: 400px;
   }
   .aboutkorazu {
-    width: 90vw;
+    max-width: 90vw;
     max-height: 450px;
   }
   .aboutuzakon {
-    width: 90vw;
+    max-width: 90vw;
     max-height: 450px;
   }
   .aboutzumiko {
-    width: 90vw;
+    max-width: 90vw;
     max-height: 450px;
   }
   .aboutcharseavalancheint {
