@@ -1316,7 +1316,7 @@ p {
     padding-top: 10px;
   }
   .aboutseavalanche {
-    width: 90vw;
+    max-width: 90vw;
     max-height: 450px;
   }
   .aboutseava {
