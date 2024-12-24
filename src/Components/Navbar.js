@@ -28,13 +28,13 @@ function Navbar() {
                         src={UzakonMoon}
                     />
                 </NavLink>
-                <div className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
+                <div className={`navbar-menu`}>
                     {/* <NavLink to='/Projects' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>Projects</NavLink> */}
                     {/* <NavLink to='/Commissions' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>Commissions</NavLink> */}
                     {/* <NavLink to='/About' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>About</NavLink> */}
-                    <NavLink to='/Characters' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>Characters</NavLink>
-                    <NavLink to='/Story' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>Story</NavLink>
-                    <NavLink to='/AboutVesnea' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>About Vesnea</NavLink>
+                    <NavLink to='/Characters' className={`navbar-menu-text`} activeClassname='active'>Characters</NavLink>
+                    <NavLink to='/Story' className={`navbar-menu-text`} activeClassname='active'>Story</NavLink>
+                    <NavLink to='/AboutVesnea' className={`navbar-menu-text`} activeClassname='active'>About Vesnea</NavLink>
                 </div>
                 {/* <div className={`navbar-menu-toggle ${theme || "light"}`} onClick={handleMenuToggle}>
                     <svg
