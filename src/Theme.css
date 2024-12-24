@@ -129,7 +129,7 @@
 
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
 * {
-  .navbar.light {
+  .navbar {
     background: var(--TC-BG_Light);
   }
   .navbar.dark {
@@ -140,7 +140,7 @@
     font-size: var(--Fs-Navbar);
     text-decoration: none;
   }
-  .navbar-menu-text.light {
+  .navbar-menu-text {
     color: var(--TC-Text_Light);
   }
   .navbar-menu-text.dark {
@@ -150,7 +150,7 @@
     font-family: var(--F-Navbar);
     font-size: var(--Fs-Navbar);
   }
-  .navbar-func-text.light {
+  .navbar-func-text {
     color: var(--TC-Text_Light);
   }
   .navbar-func-text.dark {
@@ -167,7 +167,7 @@
     transform: scale(1.1); /* Add a hover effect */
   }
   @media only screen and (max-width: 800px) {
-    .navbar-menu.light {
+    .navbar-menu {
       background: var(--TC-BG_Light);
     }
     .navbar-menu.dark {
@@ -175,7 +175,7 @@
     }
   }
   @media only screen and (max-width: 1199px) {
-    .navbar-button.light {
+    .navbar-button {
       color: var(--TC-Text_Light);
       transition: fill 0.3s ease;
     }
@@ -183,7 +183,7 @@
       color: var(--TC-Text_Dark);
       transition: fill 0.3s ease;
     }
-    .navbar-func.light {
+    .navbar-func {
       background-color: var(--TC-BG_Light);
       box-shadow: 0px 5px var(--TC-Text_Light);
       box-shadow: 2.5vw 25px 20px -25px var(--TC-Text_Light2);
