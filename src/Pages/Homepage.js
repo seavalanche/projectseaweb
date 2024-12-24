@@ -1,35 +1,27 @@
-import { scroller } from 'react-scroll';
 import { Link } from 'react-router-dom';
-import arrow from '../Assets/Arrow.png';
+import { useTheme } from "../ThemeContext";
 import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
 import smallintro2 from '../Assets/2023-18-Sprigatito.jpg';
 import commsectbanner from '../Assets/D11-Commission-Banner-v2_3by1.jpg';
 
 function Homepage() {
-    function scrollToWelcome(targetSection) {
-        scroller.scrollTo(targetSection, {
-            duration: 1000,
-            delay: 0,
-            smooth: 'easeInOutQuart',
-            offset: -75,
-        });
-    }
+
+    const { theme } = useTheme();
 
     return (
         <div>
             <div className="introduction">
-                <img className='arrow' src={arrow} alt="see next" onClick={() => scrollToWelcome('arrowtarget')} />
             </div>
             <div className="welcome" id="arrowtarget">
-                <div className='welcomewrapper'>
-                    <div className='welcomewrap'>
-                        <div className='welcometitle'>Welcome!</div>
-                        <div className='welcometext'>This is Seavalanche's Website</div>
-                        <div className='welcometext'>Please take a look!</div>
+                <div className={`welcomewrapper ${theme || "light"}`}>
+                    <div className='welcometextwrap'>
+                        <div className={`welcometitle ${theme || "light"}`}>Welcome!</div>
+                        <div className={`welcometext ${theme || "light"}`}>This is Seavalanche's Website</div>
+                        <div className={`welcometext ${theme || "light"}`}>Please take a look!</div>
                     </div>
                 </div>
             </div>
-            <div className='shortintro'>
+            <div className={`shortintro ${theme || "light"}`}>
                 <div className='shortintro1'>
                     I am Seavalanche, a self-taught digital artist that likes to draw cute characters. You can call me Vesnea.
                     <img className='smallintro1' src={smallintro1} alt="Vesnea" />

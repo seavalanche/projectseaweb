@@ -1,10 +1,12 @@
 import timeline from '../Assets/Timelinehelper.png';
 import { Link } from 'react-router-dom';
+import { useTheme } from "../ThemeContext";
 
 function Projects() {
+    const { theme } = useTheme();
     return (
         <div>
-            <div className="projectshero">
+            <div className={`projectshero ${theme || "light"}`}>
                 <div className="projectsheroheader">
                     <div className="projectsherotitle">Projects</div>
                     I categorized my arts into Projects. There are Pokémon fanarts and also Creative arts currently. All the things that is not Pokémon related is categorized as Project Seava.

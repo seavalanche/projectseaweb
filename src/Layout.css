@@ -12,7 +12,7 @@ p {
 * {
   .navbar {
     width: 100%;
-    height: 75px;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,135 +23,319 @@ p {
   .navbar-wrapper {
     display: flex;
   }
-  .navbar-menu {
-    display: flex;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .navbar {
-    height: 50px;
-  }
-  .navbar .logo {
-    height: 25px;
-    padding-top: 4px;
-  }
-  .navbar-wrapper {
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 0 20px;
+  .brand-logo {
+    width: 165px;
+    height: auto;
   }
   .navbar-menu {
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
-    width: 100%;
-    padding-right: 30px;
-    position: fixed;
-    top: 50px;
-    right: 0;
-    transform: translateX(100%);
-    transition: transform 0.1s ease-in-out;
-    padding-top: 10px;
-    padding-bottom: 20px;
-  }
-  .navbar-menu.open {
-    transform: translateX(0);
-  }
-  .navbar-menu-text {
-    margin: 10px 0;
-  }
-  .navbar-func {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
-    width: 100%;
-    padding-right: 30px;
-    position: fixed;
-    top: calc(167px + 50px);
-    right: 0;
-    transform: translateX(100%);
-    transition: transform 0.1s ease-in-out;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    transition: all 0.1s ease;
   }
-  .navbar-func.open {
-    transform: translateX(0);
-  }
-  .navbar-func-text {
-    margin: 10px 0;
-  }
-  .navbar-menu-toggle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25px;
-    height: 20px;
+  .theme-toggle-btn {
+    background: none;
+    border: none;
     cursor: pointer;
-    margin-right: 10px;
-  }
-  .navbar-menu-toggle span {
-    display: block;
-    width: 100%;
-    height: 3px;
-  }
-}
-@media only screen and (min-width: 801px) and (max-width: 1199px) {
-  .navbar-wrapper .logo {
-    height: 34px;
-  }
-  .navbar-func {
-    display: none;
-    margin-left: 35pt;
-  }
-  .navbar-menu-text {
+    padding: 0;
     display: flex;
     align-items: center;
-    margin-left: auto;
-    padding-left: 40pt;
   }
-  .navbar-func-text {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 25pt;
+  @media only screen and (max-width: 800px) {
+    .navbar-wrapper {
+      align-items: center;
+      width: 100%;
+      padding: 0 35px;
+    }
+    .navbar-menu {
+      flex-direction: column;
+      justify-content: center;
+      align-items: end;
+      width: 100%;
+      padding-right: 30px;
+      position: fixed;
+      top: 65px;
+      right: 0;
+      transform: translateX(100%);
+      transition: transform 0.1s ease-in-out;
+      padding-top: 0px;
+      padding-bottom: 5px;
+    }
+    .navbar-menu.open {
+      transform: translateX(0);
+    }
+    .navbar-menu-text {
+      margin: 10px 0;
+    }
+    .navbar-menu-toggle {
+      display: flex;
+      cursor: pointer;
+      margin-left: auto;
+    }
+    .navbar-menu-toggle span {
+      display: block;
+      width: 100%;
+      height: 3px;
+    }
+    .navbar-func {
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      align-items: end;
+      width: 100%;
+      gap: 35px;
+      padding-right: 30px;
+      position: fixed;
+      top: calc(142px + 65px);
+      right: 0;
+      transform: translateX(100%);
+      transition: transform 0.1s ease-in-out;
+      padding-top: 5px;
+      padding-bottom: 20px;
+    }
+    .navbar-func.open {
+      transform: translateX(0);
+    }
+    .navbar-func-text {
+      margin: 10px 0;
+    }
   }
-}
-@media only screen and (min-width: 1200px) {
-  .navbar-wrapper {
-    width: 1066px;
+  @media only screen and (min-width: 801px) and (max-width: 1199px) {
+    .navbar-wrapper {
+      align-items: center;
+      width: 100%;
+      padding: 0 67px;
+    }
+    .navbar-menu {
+      justify-content: right;
+      margin-left: auto;
+      margin-right: 60px;
+      width: 323px;
+      gap: 38px;
+    }
+    .navbar-menu-text {
+      display: flex;
+      align-items: center;
+    }
+    .navbar-func {
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      align-items: end;
+      gap: 35px;
+      width: 100%;
+      padding-right: 75px;
+      position: fixed;
+      top: 65px;
+      right: 0;
+      transition: transform 0.1s ease-in-out, visibility 0.05s ease;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      transform: translateY(-30px);
+      z-index: -1;
+      visibility: hidden;
+    }
+    .navbar-func.open {
+      transform: translateY(0);
+      visibility: visible;
+      transition: transform 0.1s ease-in-out, visibility 0.05s ease;
+    }
+    .navbar-func-text {
+      margin: 10px 0;
+    }
   }
-  .navbar-wrapper .logo {
-    height: 34px;
-  }
-  .navbar-menu {
-    margin-left: auto;
-  }
-  .navbar-func {
-    display: flex;
-    margin-left: 35pt;
-  }
-  .navbar-menu-text {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 40pt;
-  }
-  .navbar-func-text {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-left: 25pt;
+  @media only screen and (min-width: 1200px) {
+    .navbar-wrapper {
+      width: 1066px;
+    }
+    .navbar-menu {
+      margin-left: auto;
+      margin-right: 80px;
+      width: 323px;
+      gap: 38px;
+    }
+    .navbar-func {
+      display: flex;
+      /* margin-left: 35pt; */
+      gap: 80px;
+    }
+    .navbar-menu-text {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
+    .navbar-menu-toggle {
+      display: none;
+    }
+    .navbar-func-text {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
   }
 }
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
 
-/* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
+/* Footnav */ /* Footnav */ /* Footnav */ /* Footnav */ /* Footnav */
+* {
+  .footnav {
+    width: 100%;
+    display: flex;
+  }
+  .footnavbg {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    transition: all 0.1s ease;
+  }
+  .footnavbg.light {
+    background-image: url("./Assets/Footer/LightMode.jpg");
+  }
+  .footnavbg.dark {
+    background-image: url("./Assets/Footer/DarkMode.jpg");
+  }
+
+  .footnav-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    gap: 35px;
+    transition: all 0.1s ease;
+  }
+  .footnav-wrapper.light {
+    margin-left: 194px;
+  }
+  .footnav-wrapper.dark {
+    margin-right: 194px;
+  }
+  .footnav-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .footnav-wrapper2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .footnav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  @media only screen and (max-width: 639px) {
+    .footnavbg.light {
+      background-image: url("./Assets/Footer/LightMode_XSSize.jpg");
+    }
+    .footnavbg.dark {
+      background-image: url("./Assets/Footer/DarkMode_XSSize.jpg");
+    }
+
+    .footnav-wrapper {
+      flex-direction: column;
+      padding-top: 50px;
+      gap: 15px;
+      align-items: center;
+    }
+    .footnav-wrapper.light,
+    .footnav-wrapper.dark {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .footnav-wrapper1,
+    .footnav-wrapper2 {
+      width: 175px;
+    }
+  }
+  /* @media only screen and (max-width: 800px) {
+    .footnav-wrapper {
+      display: flex;
+      gap: 25px;
+      padding-top: 30px;
+      padding-bottom: 15px;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      width: 80%;
+      height: 100%;
+      justify-content: center;
+    }
+    .footnav-title {
+      padding-bottom: 20pt;
+      text-align: center;
+    }
+    .footnav-text {
+      padding-bottom: 15pt;
+      text-align: center;
+    }
+  } */
+  /* @media only screen and (min-width: 801px) and (max-width: 1199px) {
+    .footnav-wrapper {
+      display: flex;
+      position: absolute;
+      gap: 30px;
+      padding-top: 70px;
+      margin-left: 38%;
+    }
+    .footnav-wrapper2 {
+      padding-top: 70px;
+    }
+    .footnav-title {
+      padding-bottom: 20pt;
+    }
+    .footnav-text {
+      padding-bottom: 20pt;
+    }
+    .footnav-wrapper1 .footnav-title {
+      margin-left: auto;
+    }
+    .footnav-wrapper1 .footnav-text {
+      margin-left: auto;
+    }
+    .footnav-wrapper2 .footnav-title {
+      margin-right: auto;
+    }
+    .footnav-wrapper2 .footnav-text {
+      margin-right: auto;
+    }
+  } */
+  /* @media only screen and (min-width: 1200px) {
+    .footnav-wrapper {
+      display: flex;
+      position: absolute;
+      gap: 15px;
+      padding-top: 135px;
+      margin-left: 45.8%;
+    }
+    .footnav-wrapper2 {
+      padding-top: 70px;
+    }
+    .footnav-title {
+      padding-bottom: 7pt;
+    }
+    .footnav-text {
+      padding-bottom: 7pt;
+    }
+    .footnav-wrapper1 .footnav-title {
+      margin-left: auto;
+    }
+    .footnav-wrapper1 .footnav-text {
+      margin-left: auto;
+    }
+    .footnav-wrapper2 .footnav-title {
+      margin-right: auto;
+    }
+    .footnav-wrapper2 .footnav-text {
+      margin-right: auto;
+    }
+  } */
+}
+/* Footnav */ /* Footnav */ /* Footnav */ /* Footnav */ /* Footnav */
+/* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */
 * {
   .footbar {
     width: 100%;
-    height: 50px;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,197 +348,87 @@ p {
   .footbar-wrapper {
     width: 1066px;
     display: flex;
+    margin: 0 35px;
   }
-  .footnav-wrapper1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .footnav-wrapper2 {
-    display: flex;
-    flex-direction: column;
-  }
-  .footnav-menu {
-    display: flex;
-    flex-direction: column;
-  }
-  .footbar .logo {
+  .footbar .footbarlogo {
     height: 25px;
   }
-  .footnav {
-    width: 100%;
-    display: flex;
-  }
-  .footnavbg {
-    width: 100%;
-    height: 520px;
-    object-fit: cover;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .footbar-wrapper {
-    width: 90%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .footbar .logo {
-    height: 20px;
-  }
-  .footbar-text {
-    margin-right: auto;
-  }
-  .footnav {
-    background-image: url("./Assets/FootNav-bg-s.jpg");
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
-  }
-  .footnavbg {
-    display: none;
-  }
-  .footnav-wrapper {
-    display: flex;
-    gap: 25px;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    width: 80%;
-    height: 100%;
-    justify-content: center;
-  }
-  .footnav-title {
-    padding-bottom: 20pt;
-    text-align: center;
-  }
-  .footnav-text {
-    padding-bottom: 15pt;
-    text-align: center;
+  @media only screen and (max-width: 639px) {
+    .footbar {
+      height: 75px;
+    }
+    .footbar-wrapper {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .footbar-text {
+      margin-right: auto;
+      text-align: center;
+    }
   }
 }
-@media only screen and (min-width: 801px) and (max-width: 1199px) {
-  .footbar-wrapper {
-    width: 90%;
-  }
-  .footnav-wrapper {
-    display: flex;
-    position: absolute;
-    gap: 30px;
-    padding-top: 70px;
-    margin-left: 38%;
-  }
-  .footnav-wrapper2 {
-    padding-top: 70px;
-  }
-  .footnav-title {
-    padding-bottom: 20pt;
-  }
-  .footnav-text {
-    padding-bottom: 20pt;
-  }
-  .footnav-wrapper1 .footnav-title {
-    margin-left: auto;
-  }
-  .footnav-wrapper1 .footnav-text {
-    margin-left: auto;
-  }
-  .footnav-wrapper2 .footnav-title {
-    margin-right: auto;
-  }
-  .footnav-wrapper2 .footnav-text {
-    margin-right: auto;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .footnav-wrapper {
-    display: flex;
-    position: absolute;
-    gap: 15px;
-    padding-top: 135px;
-    margin-left: 45.8%;
-  }
-  .footnav-wrapper2 {
-    padding-top: 70px;
-  }
-  .footnav-title {
-    padding-bottom: 7pt;
-  }
-  .footnav-text {
-    padding-bottom: 7pt;
-  }
-  .footnav-wrapper1 .footnav-title {
-    margin-left: auto;
-  }
-  .footnav-wrapper1 .footnav-text {
-    margin-left: auto;
-  }
-  .footnav-wrapper2 .footnav-title {
-    margin-right: auto;
-  }
-  .footnav-wrapper2 .footnav-text {
-    margin-right: auto;
-  }
-}
-/* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */ /* FOOTNAV */
+/* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
 
 /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
+/* Welcome */ /* Welcome */ /* Welcome */ /* Welcome */ /* Welcome */
 * {
   .introduction {
     display: flex;
-    width: 100%;
-    background-image: url("./Assets/Introduction-bg.jpg");
-    background-position: center;
+    background-image: url("./Assets/Homepage/Introduction-bg-full.jpg");
     background-size: cover;
-    align-items: end;
+    background-position-x: center;
     justify-content: center;
-    height: calc(100vh - 75px);
+    height: 1800px;
+    transition: all 0.1s ease;
   }
-  .arrow {
-    width: 50px;
-    height: min-content;
-    padding-bottom: 43px;
-    transition: transform 0.3s ease;
-  }
-  .arrow:hover {
-    transform: translateY(15px);
-  }
-
   .welcome {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .welcomewrapper {
-    background-image: url("./Assets/WelcomeSect.jpg");
     background-size: cover;
-    background-position: center;
-    min-width: 100%;
-    max-width: 100vw;
-    display: flex;
-    align-items: center;
+    background-position-x: center;
     justify-content: center;
-    height: 546px;
+    width: 100%;
+    height: 1528px;
+    transition: all 0.1s ease;
   }
-  .welcomeimg {
-    margin-right: auto;
-    position: relative;
-    left: 90px;
+  .welcomewrapper.light {
+    background-image: url("./Assets/Homepage/WelcomeSect-light.jpg");
   }
-  .welcomewrap {
+  .welcomewrapper.dark {
+    background-image: url("./Assets/Homepage/WelcomeSect-dark.jpg");
+  }
+  .welcometextwrap {
     display: flex;
-    min-width: 292px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 200px;
   }
   .welcometitle {
-    padding-top: 15px;
-    padding-bottom: 2px;
+    padding-bottom: 15px;
   }
-  .welcometext {
-    align-items: center;
+}
+@media only screen and (max-width: 800px) {
+  .introduction {
+    height: 1000px;
   }
 
+  .welcomewrapper {
+    height: 1000px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .welcomewrapper {
+    height: 1200px;
+  }
+}
+/* Welcome */ /* Welcome */ /* Welcome */ /* Welcome */ /* Welcome */
+* {
   .shortintro {
     display: flex;
     flex-direction: column;
@@ -433,29 +507,6 @@ p {
   }
 }
 @media only screen and (max-width: 800px) {
-  .introduction {
-    height: 300px;
-  }
-  .arrow {
-    display: none;
-  }
-
-  .welcomewrapper {
-    height: 150px;
-  }
-  .welcomeimg {
-    margin-right: auto;
-    position: relative;
-    left: 90px;
-  }
-  .welcomewrap {
-    min-width: min(292px, 20%);
-  }
-  .welcometext {
-    width: 120px;
-    text-align: center;
-  }
-
   .shortintro1 {
     width: 80%;
     text-align: center;
@@ -484,10 +535,6 @@ p {
   }
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
-  .welcomewrapper {
-    height: 250px;
-  }
-
   .shortintro1 {
     width: 550px;
   }
@@ -508,11 +555,6 @@ p {
     width: 240px;
     height: 280px;
     padding: 10px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .welcometitle {
-    padding-top: 45px;
   }
 }
 /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
@@ -1237,681 +1279,691 @@ p {
 }
 /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 
+/* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */
+* {
+  @media only screen and (max-width: 800px) {
+    .ACinfo {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .ACinfoitem {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .ACinfoitemcard {
+      width: min(345px, 43vw);
+      height: max(400px, 40vw);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .ACinfoitemtitle0 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle1 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle2 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle3 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle4 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle5 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle6 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtext {
+      text-align: center;
+      font-weight: normal;
+    }
+    .ACinfolearnmore {
+      text-align: center;
+      margin-top: auto;
+      padding-bottom: 12px;
+      text-decoration: none;
+      font-weight: normal;
+    }
+    .AC {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    .aboutseavalanche {
+      max-width: 90vw;
+      max-height: 450px;
+    }
+    .aboutseava {
+      width: 90vw;
+      max-width: 795px;
+      max-height: 635px;
+    }
+    .aboutvesnea {
+      width: 90vw;
+      max-width: 375px;
+      max-height: 400px;
+    }
+    .aboutkorazu {
+      max-width: 90vw;
+      max-height: 450px;
+    }
+    .aboutuzakon {
+      max-width: 90vw;
+      max-height: 450px;
+    }
+    .aboutzumiko {
+      max-width: 90vw;
+      max-height: 450px;
+    }
+    .ACseavalancheint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      min-height: 30px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 10px;
+    }
+    .ACseavaint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      min-height: 30px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 10px;
+    }
+    .ACvesneaint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      min-height: 30px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 10px;
+    }
+    .ACkorazuint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      min-height: 30px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 10px;
+    }
+    .ACuzakonint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      min-height: 30px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 10px;
+    }
+    .ACzumikoint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      min-height: 30px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 10px;
+    }
+
+    .ACitem {
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      gap: 45px;
+      width: 80%;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      flex-wrap: wrap;
+    }
+    .ACcard1 {
+      text-align: center;
+      width: 80vw;
+    }
+    .ACcard2 {
+      text-align: center;
+      width: 80vw;
+    }
+    .ACcontent1 {
+      padding-top: 15px;
+      text-align: left;
+    }
+    .ACcontent2 {
+      padding-top: 15px;
+      text-align: left;
+    }
+    .aboutseparator {
+      height: min(500px, 120vw);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .aboutseparatorimg1 {
+      border-style: dashed;
+      border-width: 2px;
+      border-radius: 15px;
+      max-width: 80%;
+    }
+  }
+  @media only screen and (min-width: 801px) and (max-width: 1199px) {
+    .ACinfo {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      gap: max(30px, calc(700px - 99.5vw));
+    }
+    .ACinfoitem {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 80%;
+      gap: max(30px, calc(700px - 99.5vw));
+      justify-content: center;
+    }
+    .ACinfoitemcard {
+      width: 345px;
+      height: min(480px, 65vw);
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      text-align: center;
+    }
+    .ACinfoitemtitle0 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle1 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle2 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle3 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle4 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle5 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle6 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtext {
+      text-align: center;
+      white-space: pre-line;
+      font-weight: normal;
+    }
+    .ACinfolearnmore {
+      text-align: center;
+      margin-top: auto;
+      padding-bottom: 12px;
+      text-decoration: none;
+      font-weight: normal;
+    }
+    .AC {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+      padding-top: 30px;
+    }
+    .aboutseavalanche {
+      width: auto;
+      max-height: 450px;
+    }
+    .aboutseava {
+      width: 90vw;
+      max-width: 795px;
+      max-height: 635px;
+    }
+    .aboutvesnea {
+      width: 90vw;
+      max-width: 375px;
+      max-height: 400px;
+    }
+    .aboutkorazu {
+      width: auto;
+      max-height: 450px;
+    }
+    .aboutuzakon {
+      width: auto;
+      max-height: 450px;
+    }
+    .aboutzumiko {
+      width: auto;
+      max-height: 450px;
+    }
+    .ACseavalancheint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .ACseavaint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .ACvesneaint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .ACkorazuint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .ACuzakonint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .ACzumikoint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 75%;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    .ACitem {
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      gap: 30px;
+      width: 80vw;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      flex-wrap: wrap;
+    }
+    .ACcard1 {
+      text-align: right;
+      width: max(310px, 37vw);
+    }
+    .ACcard2 {
+      text-align: left;
+      width: max(310px, 37vw);
+    }
+    .ACcontent1 {
+      padding-top: 15px;
+      text-align: right;
+    }
+    .ACcontent2 {
+      padding-top: 15px;
+      text-align: left;
+    }
+    .aboutseparator {
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .aboutseparatorimg1 {
+      border-style: dashed;
+      border-width: 2px;
+      border-radius: 15px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .ACinfo {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      gap: 30px;
+    }
+    .ACinfoitem {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 80%;
+      gap: max(30px, calc(700px - 99.5vw));
+      justify-content: center;
+    }
+    .ACinfoitemcard {
+      width: 345px;
+      height: 532px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .ACinfoitemtitle0 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle1 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle2 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle3 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle4 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle5 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtitle6 {
+      padding-bottom: 16px;
+    }
+    .ACinfoitemtext {
+      text-align: center;
+      white-space: pre-line;
+      font-weight: normal;
+    }
+    .ACinfolearnmore {
+      text-align: center;
+      margin-top: auto;
+      padding-bottom: 12px;
+      text-decoration: none;
+      font-weight: normal;
+    }
+    .AC {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+      padding-top: 30px;
+    }
+    .aboutseavalanche {
+      width: auto;
+      height: 450px;
+    }
+    .aboutseava {
+      width: 795px;
+      height: 635px;
+    }
+    .aboutvesnea {
+      height: 400px;
+    }
+    .aboutkorazu {
+      width: auto;
+      max-height: 450px;
+    }
+    .aboutuzakon {
+      width: auto;
+      max-height: 450px;
+    }
+    .aboutzumiko {
+      width: auto;
+      max-height: 450px;
+    }
+
+    .ACseavalancheint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 975px;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+    .ACseavaint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 975px;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+    .ACvesneaint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 975px;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+    .ACkorazuint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 975px;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .ACuzakonint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 975px;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .ACzumikoint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 975px;
+      height: 41px;
+      gap: 30px;
+      padding: 5px;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    .ACitem {
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      gap: 45px;
+      width: 885px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+    .ACcard1 {
+      text-align: right;
+      width: 420px;
+    }
+    .ACcard2 {
+      text-align: left;
+      width: 420px;
+    }
+    .ACcontent1 {
+      padding-top: 15px;
+      text-align: right;
+    }
+    .ACcontent2 {
+      padding-top: 15px;
+      text-align: left;
+    }
+    .aboutseparator {
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .aboutseparatorimg1 {
+      border-style: dashed;
+      border-width: 2px;
+      border-radius: 15px;
+    }
+  }
+}
+/* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */
+
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
-@media only screen and (max-width: 800px) {
-  .abouthero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
-  }
-  .aboutherocontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    width: 80%;
-  }
-  .aboutherotitle {
-    padding-bottom: 10px;
-  }
-
-  .aboutcharinfo {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .aboutcharinfoitem {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-  }
-  .aboutcharinfoitemcard {
-    width: min(345px, 43vw);
-    height: max(400px, 40vw);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .aboutcharinfoitemtitle0 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle1 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle2 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle3 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle4 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle5 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle6 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtext {
-    text-align: center;
-    font-weight: normal;
-  }
-  .aboutcharinfolearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 12px;
-    text-decoration: none;
-    font-weight: normal;
-  }
-  .aboutchar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 10px;
-  }
-  .aboutseavalanche {
-    max-width: 90vw;
-    max-height: 450px;
-  }
-  .aboutseava {
-    width: 90vw;
-    max-width: 795px;
-    max-height: 635px;
-  }
-  .aboutvesnea {
-    width: 90vw;
-    max-width: 375px;
-    max-height: 400px;
-  }
-  .aboutkorazu {
-    max-width: 90vw;
-    max-height: 450px;
-  }
-  .aboutuzakon {
-    max-width: 90vw;
-    max-height: 450px;
-  }
-  .aboutzumiko {
-    max-width: 90vw;
-    max-height: 450px;
-  }
-  .aboutcharseavalancheint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .aboutcharseavaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .aboutcharvesneaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .aboutcharkorazuint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .aboutcharuzakonint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .aboutcharzumikoint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-
-  .aboutcharitem {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 45px;
-    width: 80%;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    flex-wrap: wrap;
-  }
-  .aboutcharcard1 {
-    text-align: center;
-    width: 80vw;
-  }
-  .aboutcharcard2 {
-    text-align: center;
-    width: 80vw;
-  }
-  .aboutcharcontent1 {
-    padding-top: 15px;
-    text-align: left;
-  }
-  .aboutcharcontent2 {
-    padding-top: 15px;
-    text-align: left;
-  }
-  .aboutseparator {
-    height: min(500px, 120vw);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutseparatorimg1 {
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
-    max-width: 80%;
-  }
-}
-@media only screen and (min-width: 801px) and (max-width: 1199px) {
-  .abouthero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 25px;
-  }
-  .aboutherocontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    width: 70%;
-  }
-  .aboutherotitle {
-    padding-bottom: 10px;
-  }
-
-  .aboutcharinfo {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    gap: max(30px, calc(700px - 99.5vw));
-  }
-  .aboutcharinfoitem {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80%;
-    gap: max(30px, calc(700px - 99.5vw));
-    justify-content: center;
-  }
-  .aboutcharinfoitemcard {
-    width: 345px;
-    height: min(480px, 65vw);
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    text-align: center;
-  }
-  .aboutcharinfoitemtitle0 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle1 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle2 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle3 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle4 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle5 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle6 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtext {
-    text-align: center;
-    white-space: pre-line;
-    font-weight: normal;
-  }
-  .aboutcharinfolearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 12px;
-    text-decoration: none;
-    font-weight: normal;
-  }
-  .aboutchar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 30px;
-  }
-  .aboutseavalanche {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutseava {
-    width: 90vw;
-    max-width: 795px;
-    max-height: 635px;
-  }
-  .aboutvesnea {
-    width: 90vw;
-    max-width: 375px;
-    max-height: 400px;
-  }
-  .aboutkorazu {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutuzakon {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutzumiko {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutcharseavalancheint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .aboutcharseavaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .aboutcharvesneaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .aboutcharkorazuint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .aboutcharuzakonint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .aboutcharzumikoint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .aboutcharitem {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 30px;
-    width: 80vw;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    flex-wrap: wrap;
-  }
-  .aboutcharcard1 {
-    text-align: right;
-    width: max(310px, 37vw);
-  }
-  .aboutcharcard2 {
-    text-align: left;
-    width: max(310px, 37vw);
-  }
-  .aboutcharcontent1 {
-    padding-top: 15px;
-    text-align: right;
-  }
-  .aboutcharcontent2 {
-    padding-top: 15px;
-    text-align: left;
-  }
-  .aboutseparator {
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutseparatorimg1 {
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .abouthero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .aboutherocontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    width: 885px;
-  }
-  .aboutherotitle {
-    padding-bottom: 10px;
-  }
-
-  .aboutcharinfo {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    gap: 30px;
-  }
-  .aboutcharinfoitem {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80%;
-    gap: max(30px, calc(700px - 99.5vw));
-    justify-content: center;
-  }
-  .aboutcharinfoitemcard {
-    width: 345px;
-    height: 532px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .aboutcharinfoitemtitle0 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle1 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle2 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle3 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle4 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle5 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtitle6 {
-    padding-bottom: 16px;
-  }
-  .aboutcharinfoitemtext {
-    text-align: center;
-    white-space: pre-line;
-    font-weight: normal;
-  }
-  .aboutcharinfolearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 12px;
-    text-decoration: none;
-    font-weight: normal;
-  }
-  .aboutchar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 30px;
-  }
-  .aboutseavalanche {
-    width: auto;
-    height: 450px;
-  }
-  .aboutseava {
-    width: 795px;
-    height: 635px;
-  }
-  .aboutvesnea {
-    height: 400px;
-  }
-  .aboutkorazu {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutuzakon {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutzumiko {
-    width: auto;
-    max-height: 450px;
-  }
-
-  .aboutcharseavalancheint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .aboutcharseavaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .aboutcharvesneaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .aboutcharkorazuint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .aboutcharuzakonint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .aboutcharzumikoint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .aboutcharitem {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 45px;
-    width: 885px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-  }
-  .aboutcharcard1 {
-    text-align: right;
-    width: 420px;
-  }
-  .aboutcharcard2 {
-    text-align: left;
-    width: 420px;
-  }
-  .aboutcharcontent1 {
-    padding-top: 15px;
-    text-align: right;
-  }
-  .aboutcharcontent2 {
-    padding-top: 15px;
-    text-align: left;
-  }
-  .aboutseparator {
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutseparatorimg1 {
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
+* {
+  @media only screen and (max-width: 800px) {
+    .abouthero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 15px;
+      padding-bottom: 20px;
+    }
+    .aboutherocontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: justify;
+      width: 80%;
+    }
+    .aboutherotitle {
+      padding-bottom: 10px;
+    }
+  }
+  @media only screen and (min-width: 801px) and (max-width: 1199px) {
+    .abouthero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 15px;
+      padding-bottom: 25px;
+    }
+    .aboutherocontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: justify;
+      width: 70%;
+    }
+    .aboutherotitle {
+      padding-bottom: 10px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .abouthero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .aboutherocontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: justify;
+      width: 885px;
+    }
+    .aboutherotitle {
+      padding-bottom: 10px;
+    }
   }
 }
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */

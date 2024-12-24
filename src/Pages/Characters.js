@@ -1,122 +1,90 @@
-import { Link } from 'react-router-dom';
-import { scroller } from 'react-scroll';
-import mythseavalanche from '../Assets/About/aboutcharinfo/Myth Seavalanche.png';
-import seavalanche from '../Assets/About/aboutcharinfo/Seavalanche.png';
-import seava from '../Assets/About/aboutcharinfo/Seava.png';
-import vesnea from '../Assets/About/aboutcharinfo/Vesnea.png';
-import korazu from '../Assets/About/aboutcharinfo/Korazu.png';
-import uzakon from '../Assets/About/aboutcharinfo/Uzakon.png';
-import zumiko from '../Assets/About/aboutcharinfo/Zumiko.png';
-import aboutseavalanche from '../Assets/About/aboutchar/Seavalanche.png';
-import aboutseava from '../Assets/About/aboutchar/Seava.png';
-import aboutvesnea from '../Assets/About/aboutchar/Vesnea.png';
-import aboutkorazu from '../Assets/About/aboutchar/Korazu.png';
-import aboutuzakon from '../Assets/About/aboutchar/Uzakon.png';
-import aboutzumiko from '../Assets/About/aboutchar/Zumiko.png';
+import mythseavalanche from '../Assets/About/ACinfo/Myth Seavalanche.png';
+import seavalanche from '../Assets/About/ACinfo/Seavalanche.png';
+import seava from '../Assets/About/ACinfo/Seava.png';
+import vesnea from '../Assets/About/ACinfo/Vesnea.png';
+import korazu from '../Assets/About/ACinfo/Korazu.png';
+import uzakon from '../Assets/About/ACinfo/Uzakon.png';
+import zumiko from '../Assets/About/ACinfo/Zumiko.png';
+import aboutseavalanche from '../Assets/About/AC/Seavalanche.png';
+import aboutseava from '../Assets/About/AC/Seava.png';
+import aboutvesnea from '../Assets/About/AC/Vesnea.png';
+import aboutkorazu from '../Assets/About/AC/Korazu.png';
+import aboutuzakon from '../Assets/About/AC/Uzakon.png';
+import aboutzumiko from '../Assets/About/AC/Zumiko.png';
 import aboutseparator from '../Assets/S75 - Vesnea_b_338x450.gif';
+import { useTheme } from "../ThemeContext";
 
 function About() {
-    function scrollToSelection(targetSection) {
-        scroller.scrollTo(targetSection, {
-            duration: 1000,
-            delay: 0,
-            smooth: 'easeInOutQuart',
-            offset: -75,
-        });
-    }
+    const { theme } = useTheme();
     return (
         <div>
-            <div className="abouthero">
-                <div className="aboutherocontainer">
-                    <div className="aboutherotitle">About Me</div>
-                    <p>
-                        I am a self-taught digital artist who has a big interest in cute stuff. I  started around 2015 with nothing but a pencil, paper, and a computer  mouse. I scanned the sketch and then tried to trace the lines I had  drawn on Photoshop using just the mouse—vector lines were a life-saver!
-                    </p>
-                    <p>
-                        The artworks I mostly create are watercolor-esque. I like to blend  colors to create smooth transitions of shading. Digital media made it  easier with layers, transform, and especially undo-s! But don’t let it  fool you, because I also create some art without digital media, hehe~
-                    </p>
-                    <p>
-                        My inspirations come from soft and cute creations by other artists. I  also appreciate cool and snappy creations. Varied expressions of  characters, nice and neat clothing, atmospheric backgrounds, and many  more are what inspire me to keep creating!
-                    </p>
-                    <p>Currently, I’m aiming to expand my own original creations—with  Seavalanche and the bunch—including the world, which can also be  expanded through Seavalanche’s lore story writing. Furthermore, the  creation of this website is also a part of it!</p>
-                    <p>I have a small Discord server where a bunch of artists and non-artists  have gathered to talk about stuff—including arts! It’s a place where I  frequently share updates about my life and also my art processes and  thoughts. The members frequently share their favorite arts from other  artists too—we have a special album channel where we can see various  artworks as inspirations!</p>
-                    <p>Fans can support me and commission me via Ko-fi. It’s also a place where  I will put out some special items—such as calendars—and hopefully  physical merch in the future! Any support helps me monetarily and  emotionally to keep going with my hobby—which I hope can help brighten  any people and fans that see it~</p>
-                </div>
-            </div>
-            <div className="aboutcharinfo">
-                <div className='aboutcharinfoitem'>
-                    <div className='aboutcharinfoitemcard'>
+            <div className={`ACinfo ${theme || "light"}`}>
+                <div className='ACinfoitem'>
+                    <div className='ACinfoitemcard'>
                         <img className='mythseavalanche' src={mythseavalanche} alt="mythseavalanche" />
-                        <div className='aboutcharinfoitemtitle0'>Myth Seavalanche</div>
-                        <div className='aboutcharinfoitemtext'>
+                        <div className={`ACinfoitemtitle0 ${theme || "light"}`}>Myth Seavalanche</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
                             The Original Seavalanche.<br />     <br />
                             Nothing has been discovered about this character yet.</div><br />
-                        <Link to='/About' className='aboutcharinfolearnmore' onClick={() => scrollToSelection('targetmythseavalanche')}>See more about it</Link>
                     </div>
                 </div>
-                <div className='aboutcharinfoitem'>
-                    <div className='aboutcharinfoitemcard'>
+                <div className='ACinfoitem'>
+                    <div className='ACinfoitemcard'>
                         <img className='seavalanche' src={seavalanche} alt="seavalanche" />
-                        <div className='aboutcharinfoitemtitle1'>Seavalanche</div>
-                        <div className='aboutcharinfoitemtext'>
+                        <div className={`ACinfoitemtitle1 ${theme || "light"}`}>Seavalanche</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
                             Created on 31 March 2023<br /><br />
                             Represents Seavalanche’s full power to achieve what needs to be achieved.</div><br />
-                        <Link to='/About' className='aboutcharinfolearnmore' onClick={() => scrollToSelection('targetseavalanche')}>See more about it</Link>
                     </div>
-                    <div className='aboutcharinfoitemcard'>
+                    <div className='ACinfoitemcard'>
                         <img className='seava' src={seava} alt="seava" />
-                        <div className='aboutcharinfoitemtitle2'>Seava</div>
-                        <div className='aboutcharinfoitemtext'>
+                        <div className={`ACinfoitemtitle2 ${theme || "light"}`}>Seava</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
                             Created on 29 October 2021<br /><br />
                             Represents Seavalanche’s strength and willpower to improve and be creative.</div><br />
-                        <Link to='/About' className='aboutcharinfolearnmore' onClick={() => scrollToSelection('targetseava')}>See more about it</Link>
                     </div>
-                    <div className='aboutcharinfoitemcard'>
+                    <div className='ACinfoitemcard'>
                         <img className='vesnea' src={vesnea} alt="vesnea" />
-                        <div className='aboutcharinfoitemtitle3'>Vesnea</div>
-                        <div className='aboutcharinfoitemtext'>
+                        <div className={`ACinfoitemtitle3 ${theme || "light"}`}>Vesnea</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
                             Created on 22 May 2022<br /><br />
                             Represents Seavalanche’s friendliness and cheerfulness to connect with many people.</div><br />
-                        <Link to='/About' className='aboutcharinfolearnmore' onClick={() => scrollToSelection('targetvesnea')}>See more about it</Link>
                     </div>
                 </div>
-                <div className='aboutcharinfoitem'>
-                    <div className='aboutcharinfoitemcard'>
+                <div className='ACinfoitem'>
+                    <div className='ACinfoitemcard'>
                         <img className='korazu' src={korazu} alt="korazu" />
-                        <div className='aboutcharinfoitemtitle4'>Korazu</div>
-                        <div className='aboutcharinfoitemtext'>
+                        <div className={`ACinfoitemtitle4 ${theme || "light"}`}>Korazu</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
                             Created on 4 January 2024<br /><br />
                             Represents Seavalanche’s courage.</div><br />
-                        <Link to='/About' className='aboutcharinfolearnmore' onClick={() => scrollToSelection('targetkorazu')}>See more about it</Link>
                     </div>
-                    <div className='aboutcharinfoitemcard'>
+                    <div className='ACinfoitemcard'>
                         <img className='uzakon' src={uzakon} alt="uzakon" />
-                        <div className='aboutcharinfoitemtitle5'>Uzakon</div>
-                        <div className='aboutcharinfoitemtext'>
+                        <div className={`ACinfoitemtitle5 ${theme || "light"}`}>Uzakon</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
                             Created on 4 January 2024<br /><br />
                             Represents Seavalanche’s perserverance and calmness.</div><br />
-                        <Link to='/About' className='aboutcharinfolearnmore' onClick={() => scrollToSelection('targetuzakon')}>See more about it</Link>
                     </div>
-                    <div className='aboutcharinfoitemcard'>
+                    <div className='ACinfoitemcard'>
                         <img className='zumiko' src={zumiko} alt="zumiko" />
-                        <div className='aboutcharinfoitemtitle6'>Zumiko</div>
-                        <div className='aboutcharinfoitemtext'>
+                        <div className={`ACinfoitemtitle6 ${theme || "light"}`}>Zumiko</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
                             Created on 4 January 2024<br /><br />
                             Represents Seavalanche’s wish, desire, and hope.</div><br />
-                        <Link to='/About' className='aboutcharinfolearnmore' onClick={() => scrollToSelection('targetzumiko')}>See more about it</Link>
                     </div>
                 </div>
             </div>
-            <div className='aboutchar' id='targetseavalanche'>
+            <div className={`AC ${theme || "light"}`} id='targetseavalanche'>
                 <img className='aboutseavalanche' src={aboutseavalanche} alt="Seavalanche" />
-                <div className='aboutcharseavalancheint'>
-                    <div className='aboutcharseavalancheinttitle'>Seavalanche</div>
+                <div className={`ACseavalancheint ${theme || "light"}`}>
+                    <div className={`ACseavalancheinttitle ${theme || "light"}`}>Seavalanche</div>
                     A fox-like creature that moves elegantly and shows love to the world.
                 </div>
-                <div className='aboutcharitem'>
-                    <div className='aboutcharcard1'>
+                <div className={`ACitem ${theme || "light"}`}>
+                    <div className='ACcard1'>
                         Name and Design
-                        <div className='aboutcharcontent1'>
+                        <div className='ACcontent1'>
                             The name is a word combination of sea and avalanche.<br /><br />
 
                             The color scheme: white (pure), pink (playful), purple (elegance),
@@ -125,9 +93,9 @@ function About() {
                             It is a combination of Seava and Vesnea’s design. So she has Seava’s Scice and Vesnea’s Tail.
                         </div>
                     </div>
-                    <div className='aboutcharcard2'>
+                    <div className='ACcard2'>
                         Form and Personality
-                        <div className='aboutcharcontent2'>
+                        <div className='ACcontent2'>
                             While we don’t know the form and personality of the original Seavalanche, we know that Vesnea’s Seavalanche has a personality similar to Vesnea.<br /><br />
 
                             Seavalanche looks elegant and acts cutely sometimes. But she will show determination and strength when it’s needed.
@@ -135,16 +103,16 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className='aboutchar' id='targetseava'>
+            <div className={`AC ${theme || "light"}`} id='targetseava'>
                 <img className='aboutseava' src={aboutseava} alt="Seava" />
-                <div className='aboutcharseavaint'>
-                    <div className='aboutcharseavainttitle'>Seava</div>
+                <div className={`ACseavaint ${theme || "light"}`}>
+                    <div className={`ACseavainttitle ${theme || "light"}`}>Seava</div>
                     A fox-like creature that uses ice elements to protect their beloved ones.
                 </div>
-                <div className='aboutcharitem'>
-                    <div className='aboutcharcard1'>
+                <div className={`ACitem ${theme || "light"}`}>
+                    <div className='ACcard1'>
                         Name and Design
-                        <div className='aboutcharcontent1'>
+                        <div className='ACcontent1'>
                             The name is a short form of Seavalanche.<br /><br />
 
                             The color scheme of Seava is deep blue (sea), light blue (ice), and cream (sand).<br /><br />
@@ -154,9 +122,9 @@ function About() {
                             In <i>Child form</i>, the <i><b>Scice</b></i> is wrapped around his left front leg, while in <i>Normal form</i> the <i><b>Scice</b></i> is left hanging using his psychic aura behind his back. The <i><b>Scice</b></i> is visibly longer in <i>Ascended form</i>.
                         </div>
                     </div>
-                    <div className='aboutcharcard2'>
+                    <div className='ACcard2'>
                         Form and Personality
-                        <div className='aboutcharcontent2'>
+                        <div className='ACcontent2'>
                             He has three forms: <i>Child</i>, <i>Normal</i>, and <i>Ascended form</i><br /><br />
 
                             <i>Normal form</i> is the default, but will use <i>Child form</i> when he needs to preserve energy / hide his aura.
@@ -173,16 +141,16 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className='aboutchar' id='targetvesnea'>
+            <div className={`AC ${theme || "light"}`} id='targetvesnea'>
                 <img className='aboutvesnea' src={aboutvesnea} alt="Vesnea" />
-                <div className='aboutcharvesneaint'>
-                    <div className='aboutcharvesneainttitle'>Vesnea</div>
+                <div className={`ACvesneaint ${theme || "light"}`}>
+                    <div className={`ACvesneainttitle ${theme || "light"}`}>Vesnea</div>
                     A fox-like creature that shows a cheerful personality that can calm anyone.
                 </div>
-                <div className='aboutcharitem'>
-                    <div className='aboutcharcard1'>
+                <div className={`ACitem ${theme || "light"}`}>
+                    <div className='ACcard1'>
                         Name and Design
-                        <div className='aboutcharcontent1'>
+                        <div className='ACcontent1'>
                             The name is an anagram of Seavalanche.<br /><br />
 
                             The color scheme of Vesnea is white (pure), pink (playful), and purple (elegance).<br /><br />
@@ -190,9 +158,9 @@ function About() {
                             With flippers as her hands and a mermaid tail, she can swim freely in water. The hindlegs allows Vesnea to move on land.
                         </div>
                     </div>
-                    <div className='aboutcharcard2'>
+                    <div className='ACcard2'>
                         Form and Personality
-                        <div className='aboutcharcontent2'>
+                        <div className='ACcontent2'>
                             It’s shown that Vesnea gained the form of Seavalanche once she received a small part of Seava’s power.<br /><br />
 
                             The cheerful personality that Vesnea shows will help to lessen any conflicts.<br /><br />
@@ -202,16 +170,16 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className='aboutchar' id='targetkorazu'>
+            <div className={`AC ${theme || "light"}`} id='targetkorazu'>
                 <img className='aboutkorazu' src={aboutkorazu} alt="Korazu" />
-                <div className='aboutcharkorazuint'>
-                    <div className='aboutcharkorazuinttitle'>Korazu</div>
+                <div className={`ACkorazuint ${theme || "light"}`}>
+                    <div className={`ACkorazuinttitle ${theme || "light"}`}>Korazu</div>
                     A half cat, half bird creature that has a courageous heart and uses the power of the sun to help the people he knows.
                 </div>
-                <div className='aboutcharitem'>
-                    <div className='aboutcharcard1'>
+                <div className={`ACitem ${theme || "light"}`}>
+                    <div className='ACcard1'>
                         Name and Design
-                        <div className='aboutcharcontent1'>
+                        <div className='ACcontent1'>
                             The name is a an arrangement of the word “courage”.<br /><br />
 
                             The color scheme: yellow (energy) and orange (courage).<br /><br />
@@ -219,9 +187,9 @@ function About() {
                             He is a cat who has bird wings and tail. There is a ribbon on the right leg and a sun collar on the neck. He has a single tuff of fluff on the tip of the left ear.
                         </div>
                     </div>
-                    <div className='aboutcharcard2'>
+                    <div className='ACcard2'>
                         Form and Personality
-                        <div className='aboutcharcontent2'>
+                        <div className='ACcontent2'>
                             Power of the sun gave him a light attribute. He blends easily in a bright environment.<br /><br />
 
                             Korazu, Uzakon, and Zumiko seems to be a group of little fairies that accompany Vesnea on her journey.<br /><br />
@@ -231,16 +199,16 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className='aboutchar' id='targetuzakon'>
+            <div className={`AC ${theme || "light"}`} id='targetuzakon'>
                 <img className='aboutuzakon' src={aboutuzakon} alt="Uzakon" />
-                <div className='aboutcharuzakonint'>
-                    <div className='aboutcharuzakoninttitle'>Uzakon</div>
+                <div className={`ACuzakonint ${theme || "light"}`}>
+                    <div className={`ACuzakoninttitle ${theme || "light"}`}>Uzakon</div>
                     A half cat, half bunny creature that has a persevering and calm heart and uses the power of the moon to help the people he knows.
                 </div>
-                <div className='aboutcharitem'>
-                    <div className='aboutcharcard1'>
+                <div className={`ACitem ${theme || "light"}`}>
+                    <div className='ACcard1'>
                         Name and Design
-                        <div className='aboutcharcontent1'>
+                        <div className='ACcontent1'>
                             The name is a an arrangement of Korazu’s name and also 根気 (perserverance).<br /><br />
 
                             The color scheme: purple (calmness).<br /><br />
@@ -248,9 +216,9 @@ function About() {
                             He is a cat who has a bunny tail. There is a ribbon on the right leg and a moon collar on the neck. He has two tuffs of fluff on the tip of the left ear.
                         </div>
                     </div>
-                    <div className='aboutcharcard2'>
+                    <div className='ACcard2'>
                         Form and Personality
-                        <div className='aboutcharcontent2'>
+                        <div className='ACcontent2'>
                             Power of the moon gave him a dark attribute. He blends easily in a dark environment.<br /><br />
 
                             Korazu, Uzakon, and Zumiko seems to be a group of little fairies that accompany Vesnea on her journey.<br /><br />
@@ -260,16 +228,16 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className='aboutchar' id='targetzumiko'>
+            <div className={`AC ${theme || "light"}`} id='targetzumiko'>
                 <img className='aboutzumiko' src={aboutzumiko} alt="Zumiko" />
-                <div className='aboutcharzumikoint'>
-                    <div className='aboutcharzumikointtitle'>Zumiko</div>
+                <div className={`ACzumikoint ${theme || "light"}`}>
+                    <div className={`ACzumikointtitle ${theme || "light"}`}>Zumiko</div>
                     A half cat, half dragon creature that has a lovely heart and uses the power of the stars to help the people he knows.
                 </div>
-                <div className='aboutcharitem'>
-                    <div className='aboutcharcard1'>
+                <div className={`ACitem ${theme || "light"}`}>
+                    <div className='ACcard1'>
                         Name and Design
-                        <div className='aboutcharcontent1'>
+                        <div className='ACcontent1'>
                             The name is a an arrangement of Korazu’s name and also 望み (wish, desire, hope).<br /><br />
 
                             The color scheme: red (desire).<br /><br />
@@ -277,9 +245,9 @@ function About() {
                             He is a cat who has dragon wings and tail. There is a ribbon on the right leg and a star bow tie on the neck. He has three tuffs of fluff on the tip of the left ear.
                         </div>
                     </div>
-                    <div className='aboutcharcard2'>
+                    <div className='ACcard2'>
                         Form and Personality
-                        <div className='aboutcharcontent2'>
+                        <div className='ACcontent2'>
                             Power of the stars gave him a fire attribute. He can withstand even the hottest environment.<br /><br />
 
                             Korazu, Uzakon, and Zumiko seems to be a group of little fairies that accompany Vesnea on her journey.<br /><br />
