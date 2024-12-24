@@ -1,42 +1,41 @@
-// import LightLogo from '../Assets/Navbar/NavbarLogo-light.png';
-// import DarkLogo from '../Assets/Navbar/NavbarLogo-dark.png';
+import LightLogo from '../Assets/Navbar/NavbarLogo-light.png';
+import DarkLogo from '../Assets/Navbar/NavbarLogo-dark.png';
 import { NavLink } from 'react-router-dom';
-// import { useState } from 'react';
-// import { useTheme } from "../ThemeContext";
+import { useState } from 'react';
+import { useTheme } from "../ThemeContext";
 import UzakonMoon from "../Assets/Navbar/UzakonMoon.svg";
-// import KorazuSun from "../Assets/Navbar/KorazuSun.svg";
+import KorazuSun from "../Assets/Navbar/KorazuSun.svg";
 // import NavbarButton from '../Assets/Navbar/NavbarButton.svg';
 
 function Navbar() {
-    // const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
-    // const handleMenuToggle = () => {
-    //     setMenuOpen(!menuOpen);
-    // };
+    const handleMenuToggle = () => {
+        setMenuOpen(!menuOpen);
+    };
 
-    // const { theme, toggleTheme } = useTheme();
+    const { theme, toggleTheme } = useTheme();
 
     return (
-        <div className={`navbar`}>
+        <div className={`navbar ${theme || "light"}`}>
             <div className='navbar-wrapper'>
                 < NavLink to='/' >
                     <img
                         className='brand-logo'
                         activeClassname='active'
                         alt="Seavalanche logo"
-                        // src={theme === "dark" ? DarkLogo : LightLogo}
-                        src={UzakonMoon}
+                        src={theme === "dark" ? DarkLogo : LightLogo}
                     />
                 </NavLink>
-                <div className={`navbar-menu`}>
+                <div className={`navbar-menu ${menuOpen ? 'open' : ''} ${theme || "light"}`}>
                     {/* <NavLink to='/Projects' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>Projects</NavLink> */}
                     {/* <NavLink to='/Commissions' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>Commissions</NavLink> */}
                     {/* <NavLink to='/About' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>About</NavLink> */}
-                    <NavLink to='/Characters' className={`navbar-menu-text`} activeClassname='active'>Characters</NavLink>
-                    <NavLink to='/Story' className={`navbar-menu-text`} activeClassname='active'>Story</NavLink>
-                    <NavLink to='/AboutVesnea' className={`navbar-menu-text`} activeClassname='active'>About Vesnea</NavLink>
+                    <NavLink to='/Characters' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>Characters</NavLink>
+                    <NavLink to='/Story' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>Story</NavLink>
+                    <NavLink to='/AboutVesnea' className={`navbar-menu-text ${theme || "light"}`} activeClassname='active'>About Vesnea</NavLink>
                 </div>
-                {/* <div className={`navbar-menu-toggle ${theme || "light"}`} onClick={handleMenuToggle}>
+                <div className={`navbar-menu-toggle ${theme || "light"}`} onClick={handleMenuToggle}>
                     <svg
                         width="34" height="20" viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg"
                         className={`navbar-button ${theme || "light"}`}
@@ -54,7 +53,7 @@ function Navbar() {
                     </button>
                     <div className={`navbar-func-text ${theme || "light"}`}>EN / JP</div>
 
-                </div> */}
+                </div>
             </div >
         </ div >
     )
