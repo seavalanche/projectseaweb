@@ -9,16 +9,16 @@ p {
 /* @import "react-alice-carousel/lib/alice-carousel.css"; */
 
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
-* {
-  .navbar {
-    width: 100%;
-    height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
+
+.navbar {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
+
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */

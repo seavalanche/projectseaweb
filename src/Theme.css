@@ -127,7 +127,7 @@
 }
 
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
-* {
+
   .navbar.light {
     background: var(--TC-BG_Light);
   }
