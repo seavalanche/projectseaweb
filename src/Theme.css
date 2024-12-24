@@ -60,7 +60,7 @@
   --Fs-FontsizeS: 4pt;
   --Fs-FontsizeM: 8pt;
 }
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   --Fs-Navbar: calc(12pt + var(--Fs-FontsizeS));
   --Fs-NavbarTitle: calc(18pt + var(--Fs-FontsizeS));
   --Fs-BigTitle: calc(48pt - var(--Fs-FontsizeM));
@@ -75,7 +75,7 @@
   --Fs-ContentTitle: calc(18pt - var(--Fs-FontsizeS) / 2);
   --Fs-Content: calc(15pt - var(--Fs-FontsizeS) / 2);
   --Fs-Link: calc(15pt - var(--Fs-FontsizeS));
-}
+} */
 
 /*These are the color palette*/
 * {
