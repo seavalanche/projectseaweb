@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.7b902d49.css",
+    "main.css": "/projectseaweb/static/css/main.0a8a69bc.css",
     "main.js": "/projectseaweb/static/js/main.83b8498e.js",
     "static/js/488.a28cb5fe.chunk.js": "/projectseaweb/static/js/488.a28cb5fe.chunk.js",
     "static/media/Introduction-bg-full.jpg": "/projectseaweb/static/media/Introduction-bg-full.4c90e7e547e3829b535a.jpg",
@@ -18,12 +18,12 @@
     "static/media/Baskervville-Regular.ttf": "/projectseaweb/static/media/Baskervville-Regular.fbfdbd5a668fb566697a.ttf",
     "index.html": "/projectseaweb/index.html",
     "static/media/UzakonMoon.svg": "/projectseaweb/static/media/UzakonMoon.ed1062c265c01e5d798d11416330d961.svg",
-    "main.7b902d49.css.map": "/projectseaweb/static/css/main.7b902d49.css.map",
+    "main.0a8a69bc.css.map": "/projectseaweb/static/css/main.0a8a69bc.css.map",
     "main.83b8498e.js.map": "/projectseaweb/static/js/main.83b8498e.js.map",
     "488.a28cb5fe.chunk.js.map": "/projectseaweb/static/js/488.a28cb5fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b902d49.css",
+    "static/css/main.0a8a69bc.css",
     "static/js/main.83b8498e.js"
   ]
 }
