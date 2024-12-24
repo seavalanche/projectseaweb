@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projectseaweb/static/css/main.7b902d49.css",
-    "main.js": "/projectseaweb/static/js/main.a24b78a1.js",
+    "main.js": "/projectseaweb/static/js/main.83b8498e.js",
     "static/js/488.a28cb5fe.chunk.js": "/projectseaweb/static/js/488.a28cb5fe.chunk.js",
     "static/media/Introduction-bg-full.jpg": "/projectseaweb/static/media/Introduction-bg-full.4c90e7e547e3829b535a.jpg",
     "static/media/LightMode.jpg": "/projectseaweb/static/media/LightMode.bb1320585460f8d7d5c7.jpg",
@@ -16,17 +16,14 @@
     "static/media/Montserrat-SemiBold.ttf": "/projectseaweb/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
     "static/media/Montserrat-Bold.ttf": "/projectseaweb/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
     "static/media/Baskervville-Regular.ttf": "/projectseaweb/static/media/Baskervville-Regular.fbfdbd5a668fb566697a.ttf",
-    "static/media/NavbarLogo-dark.png": "/projectseaweb/static/media/NavbarLogo-dark.3e7e5be72f18b386e907.png",
-    "static/media/NavbarLogo-light.png": "/projectseaweb/static/media/NavbarLogo-light.1c38aa6232c6bec0bc3f.png",
     "index.html": "/projectseaweb/index.html",
-    "static/media/KorazuSun.svg": "/projectseaweb/static/media/KorazuSun.763cc7a5c6272a831478e19f21c3786e.svg",
     "static/media/UzakonMoon.svg": "/projectseaweb/static/media/UzakonMoon.ed1062c265c01e5d798d11416330d961.svg",
     "main.7b902d49.css.map": "/projectseaweb/static/css/main.7b902d49.css.map",
-    "main.a24b78a1.js.map": "/projectseaweb/static/js/main.a24b78a1.js.map",
+    "main.83b8498e.js.map": "/projectseaweb/static/js/main.83b8498e.js.map",
     "488.a28cb5fe.chunk.js.map": "/projectseaweb/static/js/488.a28cb5fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b902d49.css",
-    "static/js/main.a24b78a1.js"
+    "static/js/main.83b8498e.js"
   ]
 }
