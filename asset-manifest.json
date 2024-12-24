@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.61c90c4f.css",
+    "main.css": "/projectseaweb/static/css/main.026e1bc9.css",
     "main.js": "/projectseaweb/static/js/main.d62c6fc0.js",
     "static/js/488.a28cb5fe.chunk.js": "/projectseaweb/static/js/488.a28cb5fe.chunk.js",
     "static/media/S75 - Vesnea_b_338x450.gif": "/projectseaweb/static/media/S75 - Vesnea_b_338x450.d037db783abcf5253a0d.gif",
+    "static/media/Introduction-bg-full.jpg": "/projectseaweb/static/media/Introduction-bg-full.4c90e7e547e3829b535a.jpg",
     "static/media/Vesnea.png": "/projectseaweb/static/media/Vesnea.075a0a3068f73af4a921.png",
+    "static/media/LightMode.jpg": "/projectseaweb/static/media/LightMode.bb1320585460f8d7d5c7.jpg",
+    "static/media/DarkMode.jpg": "/projectseaweb/static/media/DarkMode.53dde727c0532d89251b.jpg",
+    "static/media/WelcomeSect-light.jpg": "/projectseaweb/static/media/WelcomeSect-light.16158514b8abf3b994ef.jpg",
+    "static/media/WelcomeSect-dark.jpg": "/projectseaweb/static/media/WelcomeSect-dark.65f94a518eca11d76f30.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/projectseaweb/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/InterTight-ExtraLightItalic.ttf": "/projectseaweb/static/media/InterTight-ExtraLightItalic.3c6ce928529a7f898efe.ttf",
     "static/media/V2 website 1.png": "/projectseaweb/static/media/V2 website 1.eb1ae5daa1177ecf9bf6.png",
@@ -12,7 +17,9 @@
     "static/media/V1 website 2.png": "/projectseaweb/static/media/V1 website 2.c39402aaea3a4844958d.png",
     "static/media/V2 website 3.png": "/projectseaweb/static/media/V2 website 3.a950a9b6e1310ea78b38.png",
     "static/media/Lora-VariableFont_wght.ttf": "/projectseaweb/static/media/Lora-VariableFont_wght.3a653a05dd1cd5925a30.ttf",
+    "static/media/LightMode_XSSize.jpg": "/projectseaweb/static/media/LightMode_XSSize.904a9b25381c48eab117.jpg",
     "static/media/V1 website 5.png": "/projectseaweb/static/media/V1 website 5.de5051a9e4dbff9c3b75.png",
+    "static/media/DarkMode_XSSize.jpg": "/projectseaweb/static/media/DarkMode_XSSize.5b93c116f2954b4ff26f.jpg",
     "static/media/Montserrat-SemiBold.ttf": "/projectseaweb/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
     "static/media/Montserrat-Bold.ttf": "/projectseaweb/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
     "static/media/V2 website 2.png": "/projectseaweb/static/media/V2 website 2.feb22785a1a08f463201.png",
@@ -40,12 +47,12 @@
     "index.html": "/projectseaweb/index.html",
     "static/media/KorazuSun.svg": "/projectseaweb/static/media/KorazuSun.763cc7a5c6272a831478e19f21c3786e.svg",
     "static/media/UzakonMoon.svg": "/projectseaweb/static/media/UzakonMoon.ed1062c265c01e5d798d11416330d961.svg",
-    "main.61c90c4f.css.map": "/projectseaweb/static/css/main.61c90c4f.css.map",
+    "main.026e1bc9.css.map": "/projectseaweb/static/css/main.026e1bc9.css.map",
     "main.d62c6fc0.js.map": "/projectseaweb/static/js/main.d62c6fc0.js.map",
     "488.a28cb5fe.chunk.js.map": "/projectseaweb/static/js/488.a28cb5fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61c90c4f.css",
+    "static/css/main.026e1bc9.css",
     "static/js/main.d62c6fc0.js"
   ]
 }
