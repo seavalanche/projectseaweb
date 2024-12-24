@@ -3,10 +3,13 @@ import { useTheme } from "../ThemeContext";
 import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
 import smallintro2 from '../Assets/2023-18-Sprigatito.jpg';
 import commsectbanner from '../Assets/D11-Commission-Banner-v2_3by1.jpg';
+import useTranslation from '../useTranslation';
 
-function Homepage() {
+const Homepage = () => {
 
     const { theme } = useTheme();
+
+    const { t } = useTranslation();
 
     return (
         <div>
@@ -15,9 +18,9 @@ function Homepage() {
             <div className="welcome" id="arrowtarget">
                 <div className={`welcomewrapper ${theme || "light"}`}>
                     <div className='welcometextwrap'>
-                        <div className={`welcometitle ${theme || "light"}`}>Welcome!</div>
-                        <div className={`welcometext ${theme || "light"}`}>This is Seavalanche's Website</div>
-                        <div className={`welcometext ${theme || "light"}`}>Please take a look!</div>
+                        <div className={`welcometitle ${theme || "light"}`}>{t("home.welcome")}</div>
+                        <div className={`welcometext ${theme || "light"}`}>{t("home.welcometext1")}</div>
+                        <div className={`welcometext ${theme || "light"}`}>{t("home.welcometext2")}</div>
                     </div>
                 </div>
             </div>

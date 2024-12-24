@@ -164,6 +164,11 @@
 .theme-toggle-btn:hover .theme-icon {
   transform: scale(1.1); /* Add a hover effect */
 }
+.lang-btn{
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
 @media only screen and (max-width: 800px) {
   .navbar-menu.light {
     background: var(--TC-BG_Light);
