@@ -26,53 +26,53 @@ const Homepage = () => {
             </div>
             <div className={`shortintro ${theme || "light"}`}>
                 <div className='shortintro1'>
-                    I am Seavalanche, a self-taught digital artist that likes to draw cute characters. You can call me Vesnea.
+                    {t("home.intro1")}
                     <img className='smallintro1' src={smallintro1} alt="Vesnea" />
                 </div>
                 <div className='shortintro2'>
                     <img className='smallintro2' src={smallintro2} alt="2023 - 18 - Sprigatito" />
-                    I spent most of my free time drawing and creating creative things.
-                    Started as a Pokémon fanart artist, I also create original arts now.
+                    {t("home.intro2")}
+                    {t("home.intro3")}
                 </div>
                 <div className='shortintro3'>
-                    I also opened commission requests on Ko-fi. With many styles that I can draw, you can choose one that fits your mood.
+                    {t("home.intro4")}
                 </div>
             </div>
             <div className='commsect'>
                 <img className='commsectbanner' src={commsectbanner} alt="D11 - Commission Banner v2" />
                 <div className='commsectitem'>
                     <div className='commsectitemcard'>
-                        <div className='commsectitemtitle'>Projects</div>
+                        <div className='commsectitemtitle'>{t("home.commsectA1")}</div>
                         <div className='commsectitemtext'>
-                            I separated each creations into categories which I called Projects.<br /><br />
-                            The current Pokémon fanarts are in Project Rea.<br /><br />
-                            Creative creations are in Project Seava.</div><br />
-                        <Link to='/Projects' className='commsectlearnmore'>Learn more</Link>
+                            {t("home.commsectA2")}<br /><br />
+                            {t("home.commsectA3")}<br /><br />
+                            {t("home.commsectA4")}</div><br />
+                        <Link to='/Projects' className='commsectlearnmore'>{t("home.learnmore")}</Link>
                     </div>
                     <div className='commsectitemcard'>
-                        <div className='commsectitemtitle'>Commissions</div>
+                        <div className='commsectitemtitle'>{t("home.commsectB1")}</div>
                         <div className='commsectitemtext'>
-                            I take commission requests of your original characters with your own creative ideas.<br /><br />
-                            To see what kind of request I take, please click Learn more.
+                            {t("home.commsectB2")}<br /><br />
+                            {t("home.commsectB3")}
                         </div><br />
-                        <a href='https://ko-fi.com/seavalanche/commissions' target='_blank' rel="noreferrer" className='commsectlearnmore'>Learn more</a>
+                        <a href='https://ko-fi.com/seavalanche/commissions' target='_blank' rel="noreferrer" className='commsectlearnmore'>{t("home.learnmore")}</a>
                     </div>
                     <div className='commsectitemcard'>
-                        <div className='commsectitemtitle'>Animations</div>
+                        <div className='commsectitemtitle'>{t("home.commsectC1")}</div>
                         <div className='commsectitemtext'>
-                            I’ve always been interested in creating animations.<br /><br />
-                            There will be more animations in the future.<br /><br />
-                            But there will be other stuffs too, like 3D models.
+                            {t("home.commsectC2")}<br /><br />
+                            {t("home.commsectC3")}<br /><br />
+                            {t("home.commsectC4")}
                         </div><br />
-                        <a href='https://www.pixiv.net/en/users/14390223/illustrations/Ugoira' target='_blank' rel="noreferrer" className='commsectlearnmore'>Learn more</a>
+                        <a href='https://www.pixiv.net/en/users/14390223/illustrations/Ugoira' target='_blank' rel="noreferrer" className='commsectlearnmore'>{t("home.learnmore")}</a>
                     </div>
                     <div className='commsectitemcard'>
-                        <div className='commsectitemtitle'>Merchandises</div>
+                        <div className='commsectitemtitle'>{t("home.commsectD1")}</div>
                         <div className='commsectitemtext'>
-                            There are satisfactions in creating merchs, in which I already created the 2023 Calendar that is free to be downloaded.<br /><br />
-                            I hope for the future Seava and Vesnea plushies!
+                            {t("home.commsectD2")}<br /><br />
+                            {t("home.commsectD3")}
                         </div><br />
-                        <a href='https://ko-fi.com/seavalanche/shop' target='_blank' rel="noreferrer" className='commsectlearnmore'>Learn more</a>
+                        <a href='https://ko-fi.com/seavalanche/shop' target='_blank' rel="noreferrer" className='commsectlearnmore'>{t("home.learnmore")}</a>
                     </div>
                 </div>
             </div>
