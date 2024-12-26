@@ -1,6 +1,7 @@
 import './Layout.css';
 import './Theme.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useState } from "react";
 import Navbar from './Components/Navbar.js';
 import Footer from './Components/Footer.js';
 import Homepage from './Pages/Homepage.js'
@@ -12,9 +13,23 @@ import ProjectSeaWeb from './Pages/ProjectSeaWeb.js'
 import AboutVesnea from './Pages/AboutVesnea.js'
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  // const toggleTheme = () => {
+  //   const newTheme = theme === "light" ? "dark" : theme === "dark" ? "moon" : "light";
+  //   setTheme(newTheme);
+  //   document.documentElement.setAttribute("data-theme", newTheme);
+  //   // localStorage.setItem("theme", newTheme);
+  // };
+  const toggleTheme = (newTheme) => {
+    setTheme(newTheme);
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme); // Save the selected theme
+  };
+
   return (
     <Router basename='/projectseaweb'>
-      <Navbar />
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Routes>
         <Route path='/' exact element={<Homepage />} />
         <Route path='/Projects' exact element={<Projects />} />

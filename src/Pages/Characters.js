@@ -83,7 +83,7 @@ function About() {
                 </div>
                 <div className={`ACitem ${theme || "light"}`}>
                     <div className='ACcard1'>
-                        Name and Design
+                    <div className='ACcardtitle'>Name and Design</div>
                         <div className='ACcontent1'>
                             The name is a word combination of sea and avalanche.<br /><br />
 
@@ -94,7 +94,7 @@ function About() {
                         </div>
                     </div>
                     <div className='ACcard2'>
-                        Form and Personality
+                    <div className='ACcardtitle'>Form and Personality</div>
                         <div className='ACcontent2'>
                             While we don’t know the form and personality of the original Seavalanche, we know that Vesnea’s Seavalanche has a personality similar to Vesnea.<br /><br />
 
@@ -111,7 +111,7 @@ function About() {
                 </div>
                 <div className={`ACitem ${theme || "light"}`}>
                     <div className='ACcard1'>
-                        Name and Design
+                        <div className='ACcardtitle'>Name and Design</div>
                         <div className='ACcontent1'>
                             The name is a short form of Seavalanche.<br /><br />
 
@@ -123,7 +123,7 @@ function About() {
                         </div>
                     </div>
                     <div className='ACcard2'>
-                        Form and Personality
+                    <div className='ACcardtitle'>Form and Personality</div>
                         <div className='ACcontent2'>
                             He has three forms: <i>Child</i>, <i>Normal</i>, and <i>Ascended form</i><br /><br />
 
@@ -149,7 +149,7 @@ function About() {
                 </div>
                 <div className={`ACitem ${theme || "light"}`}>
                     <div className='ACcard1'>
-                        Name and Design
+                    <div className='ACcardtitle'>Name and Design</div>
                         <div className='ACcontent1'>
                             The name is an anagram of Seavalanche.<br /><br />
 
@@ -159,7 +159,7 @@ function About() {
                         </div>
                     </div>
                     <div className='ACcard2'>
-                        Form and Personality
+                    <div className='ACcardtitle'>Form and Personality</div>
                         <div className='ACcontent2'>
                             It’s shown that Vesnea gained the form of Seavalanche once she received a small part of Seava’s power.<br /><br />
 
@@ -178,7 +178,7 @@ function About() {
                 </div>
                 <div className={`ACitem ${theme || "light"}`}>
                     <div className='ACcard1'>
-                        Name and Design
+                    <div className='ACcardtitle'>Name and Design</div>
                         <div className='ACcontent1'>
                             The name is a an arrangement of the word “courage”.<br /><br />
 
@@ -188,7 +188,7 @@ function About() {
                         </div>
                     </div>
                     <div className='ACcard2'>
-                        Form and Personality
+                    <div className='ACcardtitle'>Form and Personality</div>
                         <div className='ACcontent2'>
                             Power of the sun gave him a light attribute. He blends easily in a bright environment.<br /><br />
 
@@ -207,7 +207,7 @@ function About() {
                 </div>
                 <div className={`ACitem ${theme || "light"}`}>
                     <div className='ACcard1'>
-                        Name and Design
+                    <div className='ACcardtitle'>Name and Design</div>
                         <div className='ACcontent1'>
                             The name is a an arrangement of Korazu’s name and also 根気 (perserverance).<br /><br />
 
@@ -217,7 +217,7 @@ function About() {
                         </div>
                     </div>
                     <div className='ACcard2'>
-                        Form and Personality
+                    <div className='ACcardtitle'>Form and Personality</div>
                         <div className='ACcontent2'>
                             Power of the moon gave him a dark attribute. He blends easily in a dark environment.<br /><br />
 
@@ -236,7 +236,7 @@ function About() {
                 </div>
                 <div className={`ACitem ${theme || "light"}`}>
                     <div className='ACcard1'>
-                        Name and Design
+                    <div className='ACcardtitle'>Name and Design</div>
                         <div className='ACcontent1'>
                             The name is a an arrangement of Korazu’s name and also 望み (wish, desire, hope).<br /><br />
 
@@ -246,7 +246,7 @@ function About() {
                         </div>
                     </div>
                     <div className='ACcard2'>
-                        Form and Personality
+                    <div className='ACcardtitle'>Form and Personality</div>
                         <div className='ACcontent2'>
                             Power of the stars gave him a fire attribute. He can withstand even the hottest environment.<br /><br />
 

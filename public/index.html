@@ -90,6 +90,10 @@
       content="This website is created by Seavalanche with ReactJS"
     />
     <title>Seavalanche's Website</title>
+    <script>
+      const savedTheme = localStorage.getItem("theme") || "light";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    </script>
   </head>
   <body>
     <noscript

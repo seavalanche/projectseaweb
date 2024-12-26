@@ -1,13 +1,10 @@
 import { Link } from 'react-router-dom';
-import { useTheme } from "../ThemeContext";
 import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
 import smallintro2 from '../Assets/2023-18-Sprigatito.jpg';
 import commsectbanner from '../Assets/D11-Commission-Banner-v2_3by1.jpg';
 import useTranslation from '../useTranslation';
 
 const Homepage = () => {
-
-    const { theme } = useTheme();
 
     const { t } = useTranslation();
 
@@ -16,15 +13,15 @@ const Homepage = () => {
             <div className="introduction">
             </div>
             <div className="welcome" id="arrowtarget">
-                <div className={`welcomewrapper ${theme || "light"}`}>
+                <div className={`welcomewrapper`}>
                     <div className='welcometextwrap'>
-                        <div className={`welcometitle ${theme || "light"}`}>{t("home.welcome")}</div>
-                        <div className={`welcometext ${theme || "light"}`}>{t("home.welcometext1")}</div>
-                        <div className={`welcometext ${theme || "light"}`}>{t("home.welcometext2")}</div>
+                        <div className={`welcometitle`}>{t("home.welcome")}</div>
+                        <div className={`welcometext`}>{t("home.welcometext1")}</div>
+                        <div className={`welcometext`}>{t("home.welcometext2")}</div>
                     </div>
                 </div>
             </div>
-            <div className={`shortintro ${theme || "light"}`}>
+            <div className={`shortintro`}>
                 <div className='shortintro1'>
                     {t("home.intro1")}
                     <img className='smallintro1' src={smallintro1} alt="Vesnea" />
