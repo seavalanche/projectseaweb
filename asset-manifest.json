@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.29ae69c9.css",
-    "main.js": "/projectseaweb/static/js/main.a984bc33.js",
+    "main.css": "/projectseaweb/static/css/main.3aa41a1f.css",
+    "main.js": "/projectseaweb/static/js/main.52b54d51.js",
     "static/js/488.a28cb5fe.chunk.js": "/projectseaweb/static/js/488.a28cb5fe.chunk.js",
     "static/media/S75 - Vesnea_b_338x450.gif": "/projectseaweb/static/media/S75 - Vesnea_b_338x450.d037db783abcf5253a0d.gif",
     "static/media/StarMode.jpg": "/projectseaweb/static/media/StarMode.b358cf2d75e9b5f0eb97.jpg",
@@ -36,6 +36,7 @@
     "static/media/S98 - Vesnea See You.png": "/projectseaweb/static/media/S98 - Vesnea See You.28703a0dcc54a36f8856.png",
     "static/media/V2 Website 5.png": "/projectseaweb/static/media/V2 Website 5.ad47acd081906e9a8a39.png",
     "static/media/Myth Seavalanche.png": "/projectseaweb/static/media/Myth Seavalanche.90d1ad3c6d01a9634369.png",
+    "static/media/Baldor.webp": "/projectseaweb/static/media/Baldor.8a9663fda2d8581390f6.webp",
     "static/media/Zumiko.png": "/projectseaweb/static/media/Zumiko.849308e3411e4e0daadb.png",
     "static/media/Korazu.png": "/projectseaweb/static/media/Korazu.e11fc788096e95ac943c.png",
     "static/media/V2 Website 6.png": "/projectseaweb/static/media/V2 Website 6.b663df04a19518414781.png",
@@ -44,8 +45,14 @@
     "static/media/CommBanner2.webp": "/projectseaweb/static/media/CommBanner2.ec5f75a5a162bc887e4c.webp",
     "static/media/2023-18-Sprigatito.jpg": "/projectseaweb/static/media/2023-18-Sprigatito.26607ce0ac144c668b64.jpg",
     "static/media/Uzakon.png": "/projectseaweb/static/media/Uzakon.df31824158e602dd3a3f.png",
+    "static/media/Fondan.webp": "/projectseaweb/static/media/Fondan.ba8c4b0bb42211990b92.webp",
     "static/media/CommBanner1m.webp": "/projectseaweb/static/media/CommBanner1m.ce56c31b11e3d88801f8.webp",
     "static/media/CommBanner2m.webp": "/projectseaweb/static/media/CommBanner2m.a4f6b8ac5caef124fe1e.webp",
+    "static/media/Rakariki.webp": "/projectseaweb/static/media/Rakariki.1c0c43e1faa58bdc8e90.webp",
+    "static/media/Arna.webp": "/projectseaweb/static/media/Arna.a9288bebfa4df3276284.webp",
+    "static/media/Veranite.webp": "/projectseaweb/static/media/Veranite.1a44df98aeed6e8981b7.webp",
+    "static/media/Deimev.webp": "/projectseaweb/static/media/Deimev.24bd0abd71940f2aa5cb.webp",
+    "static/media/Sarchie.webp": "/projectseaweb/static/media/Sarchie.0cc33c5b3e51c4fa2f53.webp",
     "static/media/FootbarLogoX2_StarMode.png": "/projectseaweb/static/media/FootbarLogoX2_StarMode.977782ccc32cbc9b9e71.png",
     "static/media/FootbarLogoX2_DarkMode.png": "/projectseaweb/static/media/FootbarLogoX2_DarkMode.98b883d935850061edbb.png",
     "static/media/FootbarLogoX2_LightMode.png": "/projectseaweb/static/media/FootbarLogoX2_LightMode.295ffb037b4838574a8d.png",
@@ -57,12 +64,12 @@
     "static/media/KorazuSun.svg": "/projectseaweb/static/media/KorazuSun.763cc7a5c6272a831478.svg",
     "static/media/UzakonMoon.svg": "/projectseaweb/static/media/UzakonMoon.ed1062c265c01e5d798d.svg",
     "static/media/ZumikoStar.svg": "/projectseaweb/static/media/ZumikoStar.151c8ab968ce7e1c3966.svg",
-    "main.29ae69c9.css.map": "/projectseaweb/static/css/main.29ae69c9.css.map",
-    "main.a984bc33.js.map": "/projectseaweb/static/js/main.a984bc33.js.map",
+    "main.3aa41a1f.css.map": "/projectseaweb/static/css/main.3aa41a1f.css.map",
+    "main.52b54d51.js.map": "/projectseaweb/static/js/main.52b54d51.js.map",
     "488.a28cb5fe.chunk.js.map": "/projectseaweb/static/js/488.a28cb5fe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29ae69c9.css",
-    "static/js/main.a984bc33.js"
+    "static/css/main.3aa41a1f.css",
+    "static/js/main.52b54d51.js"
   ]
 }
