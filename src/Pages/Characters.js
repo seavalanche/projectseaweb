@@ -5,6 +5,13 @@ import vesnea from '../Assets/About/ACinfo/Vesnea.png';
 import korazu from '../Assets/About/ACinfo/Korazu.png';
 import uzakon from '../Assets/About/ACinfo/Uzakon.png';
 import zumiko from '../Assets/About/ACinfo/Zumiko.png';
+import baldor from '../Assets/About/ACinfo/AntagonistA/Baldor.webp';
+import arna from '../Assets/About/ACinfo/AntagonistA/Arna.webp';
+import rakariki from '../Assets/About/ACinfo/AntagonistA/Rakariki.webp';
+import fondan from '../Assets/About/ACinfo/AntagonistA/Fondan.webp';
+import veranite from '../Assets/About/ACinfo/AntagonistA/Veranite.webp';
+import sarchie from '../Assets/About/ACinfo/AntagonistA/Sarchie.webp';
+import deimev from '../Assets/About/ACinfo/AntagonistA/Deimev.webp';
 import aboutmythseavalanche from '../Assets/About/AC/MythSeavalanche.webp';
 import aboutseavalanche from '../Assets/About/AC/Seavalanche.png';
 import aboutseava from '../Assets/About/AC/Seava.png';
@@ -32,6 +39,7 @@ function About() {
                             {t("ACinfo.mythseavalanche3")}</div><br />
                     </div>
                 </div>
+                <div className='ACspacer'><br /><br /></div>
                 <div className='ACinfoitem'>
                     <div className='ACinfoitemcard'>
                         <img className='seavalanche' src={seavalanche} alt="seavalanche" />
@@ -54,8 +62,6 @@ function About() {
                             {t("ACinfo.vesnea1")}<br /><br />
                             {t("ACinfo.vesnea2")}</div><br />
                     </div>
-                </div>
-                <div className='ACinfoitem'>
                     <div className='ACinfoitemcard'>
                         <img className='korazu' src={korazu} alt="korazu" />
                         <div className={`ACinfoitemtitle4 ${theme || "light"}`}>Korazu</div>
@@ -78,12 +84,63 @@ function About() {
                             {t("ACinfo.zumiko2")}</div><br />
                     </div>
                 </div>
+                <div className='ACinfoitem'>
+                    <div className='ACinfoitemcard'>
+                        <img className='Antagonist1' src={baldor} alt="baldor" />
+                        <div className={`ACinfoitemtitleA1 ${theme || "light"}`}>Baldor</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
+                            {t("ACinfo.baldor1")}<br /><br />
+                            {t("ACinfo.baldor2")}</div><br />
+                    </div>
+                    <div className='ACinfoitemcard'>
+                        <img className='Antagonist1' src={arna} alt="arna" />
+                        <div className={`ACinfoitemtitleA1 ${theme || "light"}`}>Arna</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
+                            {t("ACinfo.arna1")}<br /><br />
+                            {t("ACinfo.arna2")}</div><br />
+                    </div>
+                    <div className='ACinfoitemcard'>
+                        <img className='Antagonist1' src={rakariki} alt="rakariki" />
+                        <div className={`ACinfoitemtitleA1 ${theme || "light"}`}>Rakariki</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
+                            {t("ACinfo.rakariki1")}<br /><br />
+                            {t("ACinfo.rakariki2")}</div><br />
+                    </div>
+                    <div className='ACinfoitemcard'>
+                        <img className='Antagonist1' src={fondan} alt="fondan" />
+                        <div className={`ACinfoitemtitleA1 ${theme || "light"}`}>Fondan</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
+                            {t("ACinfo.fondan1")}<br /><br />
+                            {t("ACinfo.fondan2")}</div><br />
+                    </div>
+                    <div className='ACinfoitemcard'>
+                        <img className='Antagonist1' src={veranite} alt="veranite" />
+                        <div className={`ACinfoitemtitleA1 ${theme || "light"}`}>Veranite</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
+                            {t("ACinfo.veranite1")}<br /><br />
+                            {t("ACinfo.veranite2")}</div><br />
+                    </div>
+                    <div className='ACinfoitemcard'>
+                        <img className='Antagonist1' src={sarchie} alt="sarchie" />
+                        <div className={`ACinfoitemtitleA1 ${theme || "light"}`}>Sarchie</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
+                            {t("ACinfo.sarchie1")}<br /><br />
+                            {t("ACinfo.sarchie2")}</div><br />
+                    </div>
+                    <div className='ACinfoitemcard'>
+                        <img className='Antagonist1' src={deimev} alt="deimev" />
+                        <div className={`ACinfoitemtitleA1 ${theme || "light"}`}>Deimev</div>
+                        <div className={`ACinfoitemtext ${theme || "light"}`}>
+                            {t("ACinfo.deimev1")}<br /><br />
+                            {t("ACinfo.deimev2")}</div><br />
+                    </div>
+                </div>
             </div>
             <div className={`AC ${theme || "light"}`} id='targetmythseavalanche'>
                 <img className='aboutmythseavalanche' src={aboutmythseavalanche} alt="Seavalanche aka Myth Seavalanche" />
                 <div className={`ACmythseavalancheint ${theme || "light"}`}>
                     <div className={`ACmythseavalancheinttitle ${theme || "light"}`}> Seavalanche<br />
-                    <div className='ACmythseavalancheinttitleB'>aka Myth Seavalanche</div>
+                        <div className='ACmythseavalancheinttitleB'>aka Myth Seavalanche</div>
                     </div>
                     {t("ACtitle.mythseavalanche")}
                 </div>

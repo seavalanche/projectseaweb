@@ -517,6 +517,27 @@
   font-size: var(--Fs-Title);
   font-weight: bold;
 }
+
+[data-theme="light"] .Antagonist1 {
+  border-color: var(--C-Zumiko_Red);
+}
+[data-theme="light"] .ACinfoitemtitleA1 {
+  color: var(--C-Zumiko_Red);
+}
+[data-theme="dark"] .Antagonist1 {
+  border-color: var(--C-Zumiko_Red);
+}
+[data-theme="dark"] .ACinfoitemtitleA1 {
+  color: var(--C-Zumiko_Red);
+}
+.Antagonist1,
+.ACinfoitemtitleA1 {
+  border-color: var(--text-color-1a);
+}
+.ACinfoitemtitleA1 {
+  color: var(--text-color-1a);
+}
+
 [data-theme="light"] .ACinfoitemtitle0 {
   color: var(--C-Vesnea_Purple);
 }
@@ -618,7 +639,7 @@
 [data-theme="dark"] .ACzumikointtitle {
   color: var(--C-Zumiko_Red);
 }
-[data-theme="light"] .ACmythseavalancheint,
+[data-theme="light"] .ACmythseavalancheinttitle,
 .ACseavalancheinttitle,
 .ACseavainttitle,
 .ACvesneainttitle,
@@ -627,7 +648,7 @@
 .ACzumikointtitle {
   color: var(--text-color-3a);
 }
-[data-theme="star"] .ACmythseavalancheint,
+[data-theme="star"] .ACmythseavalancheinttitle,
 .ACseavalancheinttitle,
 .ACseavainttitle,
 .ACvesneainttitle,

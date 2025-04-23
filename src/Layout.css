@@ -508,8 +508,6 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   transition: all 0.1s ease;
-  /* margin-left: 20px;
-  margin-right: 20px; */
   max-width: 90vw;
 }
 .commsectitemcard {
@@ -1324,66 +1322,117 @@ p {
 /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 
 /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */
-.ACinfo {
+.AC {
   transition: all 0.1s ease;
+}
+.ACinfo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.1s ease;
+}
+.ACspacer {
+  display: none;
+}
+.ACinfoitem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ACinfoitemcard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Antagonist1 {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: min(20px, 8vw);
+}
+.ACinfoitemtitle0,
+.ACinfoitemtitle1,
+.ACinfoitemtitle2,
+.ACinfoitemtitle3,
+.ACinfoitemtitle4,
+.ACinfoitemtitle5,
+.ACinfoitemtitle6,
+.ACinfoitemtitleA1 {
+  padding-bottom: 16px;
+}
+.ACinfoitemtext {
+  text-align: center;
+  font-weight: normal;
+}
+.AC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 35px;
+}
+.ACmythseavalancheint,
+.ACseavalancheint,
+.ACseavaint,
+.ACvesneaint,
+.ACkorazuint,
+.ACuzakonint,
+.ACzumikoint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: min(75%, 975px);
+  gap: 30px;
+  padding: 5px;
+  padding: 15px 35px;
+}
+.ACitem {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  gap: 45px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.ACcardtitle {
+  text-align: center;
+}
+.ACcontent1,
+.ACcontent2 {
+  padding-top: 15px;
+  text-align: left;
+}
+
+.aboutseparator {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutseparatorimg1 {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 15px;
 }
 @media only screen and (max-width: 800px) {
   .ACinfo {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .ACspacer {
+    display: inline;
+  }
   .ACinfoitem {
-    display: flex;
-    flex-wrap: wrap;
     gap: 15px;
-    justify-content: center;
   }
   .ACinfoitemcard {
     width: min(345px, 43vw);
     height: max(400px, 40vw);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .ACinfoitemtitle0 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle1 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle2 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle3 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle4 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle5 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle6 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtext {
-    text-align: center;
-    font-weight: normal;
-  }
-  .ACinfolearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 12px;
-    text-decoration: none;
-    font-weight: normal;
-  }
-  .AC {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 35px;
   }
   .aboutmythseavalanche {
     max-width: 90vw;
@@ -1405,224 +1454,59 @@ p {
     max-width: 375px;
     max-height: 400px;
   }
-  .aboutkorazu {
-    max-width: 90vw;
-    max-height: 450px;
-  }
-  .aboutuzakon {
-    max-width: 90vw;
-    max-height: 450px;
-  }
+  .aboutkorazu,
+  .aboutuzakon,
   .aboutzumiko {
     max-width: 90vw;
-    max-height: 450px;
   }
-  .ACmythseavalancheint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .ACseavalancheint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .ACseavaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .ACvesneaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .ACkorazuint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
-  .ACuzakonint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-  }
+
+  .ACmythseavalancheint,
+  .ACseavalancheint,
+  .ACseavaint,
+  .ACvesneaint,
+  .ACkorazuint,
+  .ACuzakonint,
   .ACzumikoint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    min-height: 30px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
   }
 
   .ACitem {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
     gap: 45px;
     width: 80%;
     padding-top: 30px;
     padding-bottom: 50px;
-    flex-wrap: wrap;
   }
-  .ACcard1 {
-    text-align: center;
-    width: 80vw;
-  }
+  .ACcard1,
   .ACcard2 {
     text-align: center;
     width: 80vw;
   }
-  .ACcontent1 {
-    padding-top: 15px;
-    text-align: left;
-  }
-  .ACcontent2 {
-    padding-top: 15px;
-    text-align: left;
-  }
   .aboutseparator {
     height: min(500px, 120vw);
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .aboutseparatorimg1 {
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
     max-width: 80%;
   }
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
   .ACinfo {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
     padding-top: 15px;
     padding-bottom: 15px;
     gap: max(30px, calc(700px - 99.5vw));
   }
   .ACinfoitem {
-    display: flex;
-    flex-wrap: wrap;
     max-width: 80%;
+    min-width: 800px;
     gap: max(30px, calc(700px - 99.5vw));
-    justify-content: center;
   }
   .ACinfoitemcard {
     width: 345px;
     height: min(480px, 65vw);
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    text-align: center;
   }
-  .ACinfoitemtitle0 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle1 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle2 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle3 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle4 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle5 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle6 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtext {
-    text-align: center;
-    white-space: pre-line;
-    font-weight: normal;
-  }
-  .ACinfolearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 12px;
-    text-decoration: none;
-    font-weight: normal;
-  }
-  .AC {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 35px;
-  }
-  
+
   .aboutmythseavalanche {
     width: auto;
     max-height: 450px;
@@ -1643,220 +1527,37 @@ p {
     max-width: 375px;
     max-height: 400px;
   }
-  .aboutkorazu {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutuzakon {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutzumiko {
-    width: auto;
-    max-height: 450px;
-  }
-  
-  .ACmythseavalancheinttitle{
+
+  .ACmythseavalancheinttitle {
     min-width: 235px;
     max-width: 300px;
   }
-  .ACmythseavalancheint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 50px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .ACseavalancheint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .ACseavaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .ACvesneaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .ACkorazuint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .ACuzakonint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .ACzumikoint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 75%;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
 
   .ACitem {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
     gap: 30px;
     width: 80vw;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    flex-wrap: wrap;
   }
-  .ACcard1 {
-    text-align: right;
-    width: max(310px, 37vw);
-  }
+  .ACcard1,
   .ACcard2 {
-    text-align: left;
-    width: max(310px, 37vw);
-  }
-  .ACcontent1 {
-    padding-top: 15px;
     text-align: right;
-  }
-  .ACcontent2 {
-    padding-top: 15px;
-    text-align: left;
-  }
-  .aboutseparator {
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutseparatorimg1 {
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
+    width: max(310px, 37vw);
   }
 }
 @media only screen and (min-width: 1200px) {
   .ACinfo {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
     padding-top: 30px;
     padding-bottom: 30px;
     gap: 30px;
   }
   .ACinfoitem {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80%;
+    max-width: 1400px;
     gap: max(30px, calc(700px - 99.5vw));
-    justify-content: center;
   }
   .ACinfoitemcard {
     width: 345px;
     height: 532px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
   }
-  .ACinfoitemtitle0 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle1 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle2 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle3 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle4 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle5 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtitle6 {
-    padding-bottom: 16px;
-  }
-  .ACinfoitemtext {
-    text-align: center;
-    white-space: pre-line;
-    font-weight: normal;
-  }
-  .ACinfolearnmore {
-    text-align: center;
-    margin-top: auto;
-    padding-bottom: 12px;
-    text-decoration: none;
-    font-weight: normal;
-  }
-  .AC {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    padding-top: 35px;
-  }
-  
+
   .aboutmythseavalanche {
     width: auto;
     height: 450px;
@@ -1874,139 +1575,14 @@ p {
   .aboutvesnea {
     height: 400px;
   }
-  .aboutkorazu {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutuzakon {
-    width: auto;
-    max-height: 450px;
-  }
-  .aboutzumiko {
-    width: auto;
-    max-height: 450px;
-  }
-
-  .ACmythseavalancheint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 75px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .ACseavalancheint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .ACseavaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .ACvesneaint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .ACkorazuint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .ACuzakonint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .ACzumikoint {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 975px;
-    height: 41px;
-    gap: 30px;
-    padding: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
 
   .ACitem {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 45px;
     width: 885px;
-    padding-top: 30px;
-    padding-bottom: 50px;
   }
-  .ACcard1 {
-    text-align: right;
-    width: 420px;
-  }
+  .ACcard1,
   .ACcard2 {
-    text-align: left;
-    width: 420px;
-  }
-  .ACcontent1 {
-    padding-top: 15px;
     text-align: right;
-  }
-  .ACcontent2 {
-    padding-top: 15px;
-    text-align: left;
-  }
-  .aboutseparator {
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutseparatorimg1 {
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
+    width: 420px;
   }
 }
 /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */
