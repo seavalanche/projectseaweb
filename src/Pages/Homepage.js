@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
-import smallintro2 from '../Assets/2023-18-Sprigatito.jpg';
-import commsectbanner from '../Assets/D11-Commission-Banner-v2_3by1.jpg';
+import smallintro2 from '../Assets/Homepage/shortintro/2023-18-Sprigatito.jpg';
 import useTranslation from '../useTranslation';
 
 const Homepage = () => {
@@ -36,7 +35,7 @@ const Homepage = () => {
                 </div>
             </div>
             <div className='commsect'>
-                <img className='commsectbanner' src={commsectbanner} alt="D11 - Commission Banner v2" />
+                <div className='commsectbanner'></div>
                 <div className='commsectitem'>
                     <div className='commsectitemcard'>
                         <div className='commsectitemtitle'>{t("home.commsectA1")}</div>

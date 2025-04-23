@@ -110,7 +110,7 @@ p {
     width: 100%;
     padding-right: 30px;
     position: fixed;
-    top: 65px;
+    top: 64px;
     right: 0;
     transform: translateX(100%);
     transition: transform 0.1s ease-in-out;
@@ -184,7 +184,7 @@ p {
     width: 100%;
     padding-right: 75px;
     position: fixed;
-    top: 65px;
+    top: 64px;
     right: 0;
     transition: transform 0.1s ease-in-out, visibility 0.05s ease;
     padding-top: 10px;
@@ -408,7 +408,8 @@ p {
   background-position-x: center;
   justify-content: center;
   width: 50%;
-  height: 60vh;
+  height: auto;
+  aspect-ratio: 3/2;
   transition: all 0.1s ease;
 }
 
@@ -422,6 +423,17 @@ p {
 .welcometitle {
   padding-bottom: 15px;
 }
+@media only screen and (max-width: 500px) {
+  .welcomewrapper {
+    margin-top: 60px;
+  }
+  .welcometextwrap {
+    padding-top: 0px;
+    position: relative;
+    top: -35px;
+    transition: all 0.1s ease;
+  }
+}
 @media only screen and (max-width: 800px) {
   .introduction {
     background-image: url("./Assets/Homepage/Introduction-bg-full.jpg");
@@ -430,12 +442,11 @@ p {
 
   .welcomewrapper {
     width: 100%;
-    height: 60vh;
   }
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
   .welcomewrapper {
-    height: 1200px;
+    width: 100%;
   }
 }
 /* Welcome */ /* Welcome */ /* Welcome */ /* Welcome */ /* Welcome */
@@ -484,14 +495,22 @@ p {
 }
 .commsectbanner {
   width: 1065px;
+  height: auto;
+  aspect-ratio: 3/1;
   border-radius: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .commsectitem {
-  padding-top: 15px;
+  padding-top: 25px;
   display: flex;
   gap: 25px;
   flex-wrap: wrap;
   justify-content: center;
+  transition: all 0.1s ease;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  max-width: 90vw;
 }
 .commsectitemcard {
   width: 325px;
@@ -518,6 +537,9 @@ p {
   padding-bottom: 12px;
 }
 @media only screen and (max-width: 800px) {
+  .shortintro {
+    padding-bottom: 15px;
+  }
   .shortintro1 {
     width: 80%;
     text-align: center;
@@ -531,21 +553,34 @@ p {
   }
   .shortintro3 {
     width: 80%;
+    height: auto;
+  }
+  .smallintro1,
+  .smallintro2 {
+    display: none;
   }
 
   .commsect {
+    padding-top: 15px;
     padding-bottom: 30px;
   }
+  .commsectitem {
+    gap: 15px;
+  }
   .commsectbanner {
-    width: 95%;
+    width: 90%;
+    aspect-ratio: 600/525;
   }
   .commsectitemcard {
-    width: 260px;
-    height: 400px;
+    width: 250px;
+    height: 280px;
     padding: 10px;
   }
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .shortintro {
+    padding-bottom: 15px;
+  }
   .shortintro1 {
     width: 550px;
   }
@@ -556,16 +591,18 @@ p {
     width: 550px;
   }
 
-  .commsectbanner {
-    width: 600px;
+  .commsect {
+    padding-top: 15px;
   }
   .commsectitem {
-    width: 600px;
+    gap: 20px;
+  }
+  .commsectbanner {
+    width: 80vw;
   }
   .commsectitemcard {
-    width: 260px;
-    height: 400px;
-    padding: 10px;
+    width: 300px;
+    height: 350px;
   }
 }
 /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
@@ -1346,7 +1383,13 @@ p {
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 35px;
+  }
+  .aboutmythseavalanche {
+    max-width: 90vw;
+    max-height: 450px;
+    border-radius: 25px;
+    margin-bottom: 15px;
   }
   .aboutseavalanche {
     max-width: 90vw;
@@ -1373,6 +1416,20 @@ p {
   .aboutzumiko {
     max-width: 90vw;
     max-height: 450px;
+  }
+  .ACmythseavalancheint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+    min-height: 30px;
+    gap: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
   }
   .ACseavalancheint {
     display: flex;
@@ -1563,7 +1620,14 @@ p {
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 35px;
+  }
+  
+  .aboutmythseavalanche {
+    width: auto;
+    max-height: 450px;
+    border-radius: 25px;
+    margin-bottom: 15px;
   }
   .aboutseavalanche {
     width: auto;
@@ -1590,6 +1654,24 @@ p {
   .aboutzumiko {
     width: auto;
     max-height: 450px;
+  }
+  
+  .ACmythseavalancheinttitle{
+    min-width: 235px;
+    max-width: 300px;
+  }
+  .ACmythseavalancheint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+    height: 50px;
+    gap: 30px;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .ACseavalancheint {
     display: flex;
@@ -1772,7 +1854,14 @@ p {
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 35px;
+  }
+  
+  .aboutmythseavalanche {
+    width: auto;
+    height: 450px;
+    border-radius: 25px;
+    margin-bottom: 25px;
   }
   .aboutseavalanche {
     width: auto;
@@ -1798,6 +1887,17 @@ p {
     max-height: 450px;
   }
 
+  .ACmythseavalancheint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 975px;
+    height: 75px;
+    gap: 30px;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
   .ACseavalancheint {
     display: flex;
     align-items: center;
