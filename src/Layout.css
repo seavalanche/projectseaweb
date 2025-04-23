@@ -391,11 +391,11 @@ p {
 
 .introduction {
   display: flex;
-  background-image: url("./Assets/Homepage/Introduction-bg-full.jpg");
+  background-image: url("./Assets/Homepage/Introduction-bg.jpg");
   background-size: cover;
   background-position-x: center;
   justify-content: center;
-  height: 1800px;
+  height: calc(100vh - 65px);
   transition: all 0.1s ease;
 }
 .welcome {
@@ -407,8 +407,8 @@ p {
   background-size: cover;
   background-position-x: center;
   justify-content: center;
-  width: 100%;
-  height: 1528px;
+  width: 50%;
+  height: 60vh;
   transition: all 0.1s ease;
 }
 
@@ -417,18 +417,20 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 200px;
+  padding-top: 50px;
 }
 .welcometitle {
   padding-bottom: 15px;
 }
 @media only screen and (max-width: 800px) {
   .introduction {
-    height: 1000px;
+    background-image: url("./Assets/Homepage/Introduction-bg-full.jpg");
+    height: calc(100vh - 65px);
   }
 
   .welcomewrapper {
-    height: 1000px;
+    width: 100%;
+    height: 60vh;
   }
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
@@ -482,6 +484,7 @@ p {
 }
 .commsectbanner {
   width: 1065px;
+  border-radius: 15px;
 }
 .commsectitem {
   padding-top: 15px;

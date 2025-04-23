@@ -134,8 +134,8 @@
   --navtext-b: var(--C-SeaWeb_Purple);
   --navtext-accent: var(--C-Vesnea_Pink);
 
-  --footnavtext-a: var(var(--C-Vesnea_white));
-  --footnavtext-b: var(var(--C-Korazu_white));
+  --footnavtext-a: var(--C-Vesnea_white);
+  --footnavtext-b: var(--C-Korazu_white);
 
   --bg-color-1: var(--C-Vesnea_white);
   --text-color-1a: var(--C-SeaWeb_Purple);
@@ -156,8 +156,8 @@
   --navtext-b: var(--C-Korazu_Yellow);
   --navtext-accent: var(--C-Vesnea_Pink);
 
-  --footnavtext-a: var(var(--C-Vesnea_white));
-  --footnavtext-b: var(var(--C-Korazu_White));
+  --footnavtext-a: var(--C-Vesnea_white);
+  --footnavtext-b: var(--C-Korazu_White);
 
   --bg-color-1: var(--C-SeaWeb_Purple);
   --text-color-1a: var(--C-Korazu_Yellow);
@@ -178,8 +178,8 @@
   --navtext-b: var(--C-Uzakon_Purple);
   --navtext-accent: var(--C-Vesnea_Pink);
 
-  --footnavtext-a: var(var(--C-Vesnea_white));
-  --footnavtext-b: var(var(--C-Korazu_white));
+  --footnavtext-a: var(--C-Vesnea_white);
+  --footnavtext-b: var(--C-Korazu_white);
 
   --bg-color-1: var(--C-SeaWeb_Dark_Purple);
   --text-color-1a: var(--C-Uzakon_Light_Purple);
@@ -346,31 +346,31 @@
 .shortintro {
   font-family: var(--F-Content);
   font-size: var(--Fs-Content);
-  background-color: var(--bg-color-1);
-  color: var(--text-color-1b);
+  background-color: var(--bg-color-2);
+  color: var(--text-color-2b);
 }
 
 .commsect {
-  background-color: var(--C-SeaWeb_Dark_Purple);
+  background-color: var(--bg-color-1);
 }
 .commsectitemcard {
-  border-color: var(--C-Seava_Yellowb);
+  border-color: var(--text-color-1b);
 }
 .commsectitemtitle {
   font-family: var(--F-Title);
   font-size: var(--Fs-Title);
   font-weight: bold;
-  color: var(--C-Seava_Yellow);
+  color: var(--text-color-1a);
 }
 .commsectitemtext {
   font-family: var(--F-Content);
   font-size: var(--Fs-Content);
-  color: var(--C-Vesnea_white);
+  color: var(--text-color-1b);
 }
 .commsectlearnmore {
   font-family: var(--F-Link);
   font-size: var(--Fs-Link);
-  color: var(--C-Seava_Light_Blue);
+  color: var(--text-color-1a);
   text-decoration: none;
 }
 @media only screen and (max-width: 800px) {

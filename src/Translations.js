@@ -7,7 +7,7 @@ const translations = {
             about: "About Vesnea",
         },
         home: {
-            welcome: "Welcome",
+            welcome: "✨Welcome✨",
             welcometext1: "This is Seavalanche's Website",
             welcometext2: "Please take a look!",
             intro1: "I am Seavalanche, a self-taught digital artist that likes to draw cute characters. You can call me Vesnea.",
@@ -52,7 +52,7 @@ const translations = {
             about: "Vesneaについて",
         },
         home: {
-            welcome: "いらっしゃいませ",
+            welcome: "✨いらっしゃいませ✨",
             welcometext1: "これはSeavalancheのウェブサイト",
             welcometext2: "見てください！",
             intro1: "かわいいキャラクターを描くのが好きな独学デジタルアーティストのSeavalancheです。Vesneaと呼んでください。",

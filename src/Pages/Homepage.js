@@ -12,7 +12,7 @@ const Homepage = () => {
         <div>
             <div className="introduction">
             </div>
-            <div className="welcome" id="arrowtarget">
+            <div className="welcome">
                 <div className={`welcomewrapper`}>
                     <div className='welcometextwrap'>
                         <div className={`welcometitle`}>{t("home.welcome")}</div>
