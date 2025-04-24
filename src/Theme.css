@@ -399,34 +399,36 @@
 
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 .projectshero {
-  background-color: var(--C-Vesnea_white);
+  background-color: var(--bg-color-1);
 }
 .projectsheroheader {
   font-family: var(--F-Content);
   font-size: var(--Fs-Content);
+  color: var(--text-color-1b);
 }
 .projectsherotitle {
   font-family: var(--F-BigTitle);
   font-size: var(--Fs-BigTitle);
+  color: var(--text-color-1a);
 }
 .projectsheroitemcard {
-  border-color: var(--C-SeaWeb_Purple2);
+  border-color: var(--text-color-1b);
 }
 .projectsheroitemtitle {
   font-family: var(--F-Title);
   font-size: var(--Fs-Title);
   font-weight: bold;
-  color: var(--C-SeaWeb_Purple);
+  color: var(--text-color-1a);
 }
 .projectsheroitemtext {
   font-family: var(--F-Content);
   font-size: var(--Fs-Content);
-  color: var(--C-SeaWeb_Purple);
+  color: var(--text-color-1b);
 }
 .projectsherolearnmore {
   font-family: var(--F-Link);
   font-size: var(--Fs-Link);
-  color: var(--C-Seava_Lighter_Dark_Blue);
+  color: var(--text-color-1a);
   text-decoration: none;
 }
 .historicalsect {
@@ -489,22 +491,6 @@
   font-size: var(--Fs-Title);
   font-weight: bold;
   color: var(--C-Zumiko_Red);
-}
-@media only screen and (max-width: 800px) {
-  .projectsherotitle {
-    font-size: calc(var(--Fs-BigTitle) - var(--Fs-FontsizeM) * 1.5);
-  }
-  .webstyle-wrapperA-text {
-    font-size: calc(var(--Fs-ContentTitle) - var(--Fs-FontsizeM) / 2);
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .webstyle-wrapperB-text {
-    font-size: calc(var(--Fs-Title) - var(--Fs-FontsizeM) / 2);
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-  }
 }
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 
@@ -756,6 +742,15 @@
   font-family: var(--F-BigTitle);
   font-size: var(--Fs-BigTitle);
   color: var(--text-color-1a);
+}
+.aboutwebsite {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-Content);
+  color: var(--navtext-a);
+  background-color: var(--bg-color-3);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
 }
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
 

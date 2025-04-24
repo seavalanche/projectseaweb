@@ -626,20 +626,28 @@ p {
   padding-bottom: 10px;
 }
 .projectsheroitem {
-  display: flex;
-  gap: 15px;
   padding-top: 15px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all 0.1s ease;
+  max-width: 90vw;
 }
 .projectsheroitemcard {
-  width: 345px;
+  width: 325px;
   height: 250px;
   display: flex;
   flex-direction: column;
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 15px;
+  padding: 15px;
 }
 .projectsheroitemtitle {
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 .projectsheroitemtext {
   text-align: center;
@@ -648,7 +656,7 @@ p {
 .projectsherolearnmore {
   text-align: center;
   margin-top: auto;
-  padding-bottom: 15px;
+  padding-bottom: 12px;
 }
 
 .historicalsect {
@@ -713,6 +721,7 @@ p {
   flex-direction: column;
   gap: 50px;
   justify-content: center;
+  transition: all 0.1s ease;
 }
 .webshowcase-wrapper {
   margin-left: auto;
@@ -838,6 +847,15 @@ p {
   .webstyle-wrapperB {
     margin-top: 5px;
   }
+  .webstyle-wrapperA-text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .webstyle-wrapperA-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
   .projectshero {
@@ -869,22 +887,21 @@ p {
     width: 80%;
   }
   /*ProjectSeaWeb*/
-  .websitelinktree-wrapper {
-    margin-left: calc(40vw - 150px);
+  .webshowcase {
+    gap: 70px;
   }
-
   .webshowcase-wrapper {
-    width: 80%;
-    flex-direction: row;
-    height: 200px;
+    max-width: 90vw;
+    height: auto;
     gap: 20px;
   }
-
+  .webshowcase-img {
+    height: 25vw;
+    align-self: flex-end;
+  }
   .colorstyle {
     width: 80%;
   }
-}
-@media only screen and (min-width: 1200px) {
 }
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 
@@ -1588,64 +1605,49 @@ p {
 /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */
 
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
+.abouthero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.aboutherocontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  width: 80%;
+}
+.aboutherotitle {
+  padding-bottom: 10px;
+}
+.aboutwebsite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  padding: 0 10vw;
+}
 @media only screen and (max-width: 800px) {
-  .abouthero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
-  }
   .aboutherocontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
     width: 80%;
-  }
-  .aboutherotitle {
-    padding-bottom: 10px;
   }
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
-  .abouthero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 25px;
-  }
   .aboutherocontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
     width: 70%;
-  }
-  .aboutherotitle {
-    padding-bottom: 10px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .abouthero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
   }
   .aboutherocontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
     width: 885px;
-  }
-  .aboutherotitle {
-    padding-bottom: 10px;
   }
 }
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */

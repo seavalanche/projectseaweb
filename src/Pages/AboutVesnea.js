@@ -1,8 +1,12 @@
 import useTranslation from '../useTranslation';
+import { Link } from 'react-router-dom';
 const About = () => {
     const { t } = useTranslation();
     return (
         <div>
+            <div className='projectsshowcase'>
+                ( 🦺 Under Construction 🦺 )
+            </div>
             <div className="abouthero">
                 <div className="aboutherocontainer">
                     <div className="aboutherotitle">{t("about.title1")}</div>
@@ -14,6 +18,9 @@ const About = () => {
                     <p>{t("about.title1p6")}</p>
                 </div>
             </div>
+            <Link to='/Projectseaweb' className="aboutwebsite">
+                {t("about.aboutwebsite")}
+            </Link>
         </div>
     )
 }
