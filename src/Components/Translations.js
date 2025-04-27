@@ -163,6 +163,18 @@ const translations = {
             zumikoB1: "Power of the stars gave him a fire attribute. He can withstand even the hottest environment.",
             zumikoB2: "Korazu, Uzakon, and Zumiko seems to be a group of little fairies that accompany Vesnea on her journey.",
             zumikoB3: "He has a lovely personality. His wish, desire, and hope drives him to help people that he knows.",
+        },
+        charcard: {
+            aboutchar: "🔍 I want to know more about the characters! 🔎",
+            meaning: "Name Meaning",
+            gender: "Gender",
+            species: "Species",
+            height: "Height",
+            weight: "Weight",
+            createdDate: "Created Date",
+            attributes: "Attributes",
+            moves: "Moves",
+            artworks: "Artworks",
         }
     },
     jp: {
@@ -329,8 +341,19 @@ const translations = {
             zumikoB1: "星の力によって火属性を得ました。どんなに暑い環境でも耐えることができます。",
             zumikoB2: "Korazu、Uzakon、Zumikoは、Vesneaの旅に同行する小さな妖精のような仲間たちのようです。",
             zumikoB3: "彼は愛らしい性格をしています。彼の願い、望み、希望が、知っている人々を助ける原動力となっています。",
+        },
+        charcard: {
+            aboutchar: "",
+            meaning: "名前の意味",  // Name Meaning
+            gender: "性別",        // Gender
+            species: "種族",       // Species
+            height: "身長",        // Height
+            weight: "体重",        // Weight
+            createdDate: "作成日",   // Created Date
+            attributes: "属性",      // Attributes
+            moves: "技",           // Moves
+            artworks: "アートワーク"  // Artworks
         }
-
     },
 };
 

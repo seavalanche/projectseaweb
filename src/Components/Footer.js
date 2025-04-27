@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import useTranslation from '../useTranslation';
+import useTranslation from '../Components/useTranslation';
 
 const Footer = () => {
     const { t } = useTranslation();

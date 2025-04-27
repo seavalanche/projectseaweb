@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
 import smallintro2 from '../Assets/Homepage/shortintro/2023-18-Sprigatito.jpg';
-import useTranslation from '../useTranslation';
+import useTranslation from '../Components/useTranslation';
 
 const Homepage = () => {
 

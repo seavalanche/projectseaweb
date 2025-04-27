@@ -1,36 +1,45 @@
 @font-face {
   font-family: "F-Navbar";
-  src: url(./Assets/Montserrat-VariableFont_wght.ttf);
+  src: url(./Assets/Fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: "F-NavbarTitle";
-  src: url(./Assets/Montserrat-SemiBold.ttf);
+  src: url(./Assets/Fonts/Montserrat-SemiBold.ttf);
 }
 
 @font-face {
   font-family: "F-BigTitle";
-  src: url(./Assets/Baskervville-Regular.ttf);
+  src: url(./Assets/Fonts/Baskervville-Regular.ttf);
 }
 
 @font-face {
   font-family: "F-Title";
-  src: url(./Assets/Lora-VariableFont_wght.ttf);
+  src: url(./Assets/Fonts/Lora-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: "F-ContentTitle";
-  src: url(./Assets/Montserrat-Bold.ttf);
+  src: url(./Assets/Fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
   font-family: "F-Content";
-  src: url(./Assets/Montserrat-VariableFont_wght.ttf);
+  src: url(./Assets/Fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: "F-Link";
-  src: url(./Assets/InterTight-ExtraLightItalic.ttf);
+  src: url(./Assets/Fonts/InterTight-ExtraLightItalic.ttf);
+}
+
+@font-face {
+  font-family: "F-CharCardName";
+  src: url(./Assets/Fonts/CONSTAN.TTF);
+}
+@font-face {
+  font-family: "F-CharCardAltName";
+  src: url(./Assets/Fonts/constani.ttf);
 }
 
 /* Variable setting*/
@@ -42,6 +51,8 @@
   --F-ContentTitle: "F-ContentTitle";
   --F-Content: "F-Content";
   --F-Link: "F-Link";
+  --F-CharCardName: "F-CharCardName";
+  --F-CharCardAltName: "F-CharCardAltName";
 }
 
 /* These are the standard font sizes*/
@@ -53,6 +64,10 @@
   --Fs-ContentTitle: 18pt;
   --Fs-Content: 15pt;
   --Fs-Link: 12pt;
+  --Fs-CharCardName: 24pt;
+  --Fs-CharCardAltName: 12pt;
+  --Fs-CharCardProp: 12pt;
+  --Fs-CharCardValue: 15pt;
 }
 @media only screen and (max-width: 800px) {
   * {
@@ -129,6 +144,24 @@
   --TC-Text_Light2: var(--C-Vesnea_Purple);
   --TC-Text_Dark: var(--C-Korazu_Yellow);
   --TC-Text_Dark2: var(--C-Vesnea_white);
+
+  /* Attributes */
+  --attribute-aether: #f4df7e;
+  --attribute-void: #1c1b1d;
+  --attribute-light: #ffffff;
+  --attribute-darkness: #382f3c;
+  --attribute-fire: #e1294d;
+  --attribute-water: #3e4f7b;
+  --attribute-nature: #70bb74;
+  --attribute-metal: #5a6775;
+  --attribute-electric: #ffe941;
+  --attribute-wind: #9be2c9;
+  --attribute-magical: #fdc4d3;
+  --attribute-psionic: #ce36be;
+  --attribute-spririt: #70488c;
+  --attribute-sound: #ec6f97;
+  --attribute-text-seawebdarkpurple: #181621;
+  --attribute-text-vesneawhite: #fefcfc;
 }
 /* Add a global theme */
 :root {
@@ -152,6 +185,15 @@
   --bg-color-3: var(--C-Uzakon_Lighter_Light_Purple);
   --text-color-3a: var(--C-Vesnea_Purple);
   --text-color-3b: var(--C-Vesnea_Purple);
+
+  --bg-charcard: var(--C-Vesnea_white);
+  --bg-charcardPFP: var(--C-Zumiko_White);
+  --text-charcard-prop: var(--C-Uzakon_Light_Purple);
+  --text-charcard-value: var(--C-SeaWeb_Dark_Purple);
+  --text-charcard-name: var(--C-SeaWeb_Dark_Purple);
+  --text-charcard-altname: var(--C-Uzakon_Purple);
+  --border-charcard: var(--C-Vesnea_Light_Pink);
+  --border-charcardPFP: var(--C-Vesnea_Pink);
 }
 [data-theme="dark"] {
   /* Dark Theme */
@@ -174,6 +216,15 @@
   --bg-color-3: var(--C-SeaWeb_Dark_Purple);
   --text-color-3a: var(--C-Vesnea_white);
   --text-color-3b: var(--C-Korazu_White);
+
+  --bg-charcard: var(--C-SeaWeb_Purple);
+  --bg-charcardPFP: var(--C-Uzakon_Lighter_Light_Purple);
+  --text-charcard-prop: var(--C-Uzakon_Purple);
+  --text-charcard-value: var(--C-Uzakon_White);
+  --text-charcard-name: var(--C-Vesnea_white);
+  --text-charcard-altname: var(--C-Uzakon_Light_Purple);
+  --border-charcard: var(--C-Uzakon_Light_Purple);
+  --border-charcardPFP: var(--C-Uzakon_Purple);
 }
 [data-theme="star"] {
   /* Star Theme */
@@ -196,6 +247,19 @@
   --bg-color-3: var(--C-SeaWeb_Dark_Purple);
   --text-color-3a: var(--C-Uzakon_Light_Purple);
   --text-color-3b: var(--C-Uzakon_Purple);
+
+  --bg-charcard: var(--C-SeaWeb_Dark_Purple);
+  --bg-charcardPFP: var(--C-SeaWeb_Purple);
+  --text-charcard-prop: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 50%,
+    transparent
+  );
+  --text-charcard-value: var(--C-Uzakon_Purple);
+  --text-charcard-name: var(--C-Uzakon_Light_Purple);
+  --text-charcard-altname: var(--C-Uzakon_Purple);
+  --border-charcard: var(--C-Uzakon_Purple);
+  --border-charcardPFP: var(--C-Uzakon_Purple);
 }
 
 /* Apply custom styles to all scrollbars */
@@ -811,3 +875,156 @@
   }
 }
 /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
+
+/* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */
+
+.aboutchar {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-Content);
+  color: var(--navtext-a);
+  background-color: var(--bg-color-3);
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+/* >>> CharInfo.js */
+/* >>> CharacterCard.js */
+.character-card {
+  border: 4px dashed var(--border-charcard);
+  background: var(--bg-charcard);
+  /* box-shadow: 0 4px 8px var(--border-charcard); */
+}
+.character-card:hover {
+  /* box-shadow: 0 8px 12px var(--border-charcard); */
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--border-charcard) 50%, transparent);
+}
+.charinfowrapper {
+  color: var(--text-charcard-value);
+}
+.charcardPFP {
+  background: var(--bg-charcardPFP);
+  border: 3px solid var(--border-charcardPFP);
+}
+.charcardName {
+  font-family: var(--F-CharCardName);
+  font-size: var(--Fs-CharCardName);
+  color: var(--text-charcard-name);
+}
+.charcardAltName {
+  font-family: var(--F-CharCardAltName);
+  font-size: var(--Fs-CharCardAltName);
+  color: var(--text-charcard-altname);
+}
+.charcardProp {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardProp);
+  color: var(--text-charcard-prop);
+  font-style: italic;
+}
+.charcardValue {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardValue);
+  color: var(--text-charcard-value);
+}
+
+/* Attribute Badges */
+.attribute-badge {
+  width: 85px;
+  height: 25px;
+  border-radius: 6px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardProp);
+  font-style: italic;
+}
+.attribute-badge.aether {
+  background-color: var(--attribute-aether);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.void {
+  background-color: var(--attribute-void);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.light {
+  background-color: var(--attribute-light);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.darkness {
+  background-color: var(--attribute-darkness);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.fire {
+  background-color: var(--attribute-fire);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.water {
+  background-color: var(--attribute-water);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.nature {
+  background-color: var(--attribute-nature);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.metal {
+  background-color: var(--attribute-metal);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.electric {
+  background-color: var(--attribute-electric);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.wind {
+  background-color: var(--attribute-wind);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.magical {
+  background-color: var(--attribute-magical);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.psionic {
+  background-color: var(--attribute-psionic);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.spirit {
+  background-color: var(--attribute-spirit);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.sound {
+  background-color: var(--attribute-sound);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+
+.attribute-badge.fire {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.attribute-badge.water {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+/* Default catch if you forgot any */
+.attribute-badge.default {
+  background-color: #9e9e9e; /* gray */
+  color: #fff;
+}
+
+.tab {
+  background: var(--bg-charcardPFP);
+  color: var(--text-charcard-altname);
+  border: 2px solid var(--border-charcard);
+}
+[data-theme="dark"] .tab {
+  color: var(--bg-charcard);
+}
+.tab:hover {
+  background: var(--border-charcard);
+  color: var(--bg-charcard);
+}
+
+/* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */

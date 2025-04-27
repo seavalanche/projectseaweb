@@ -14,7 +14,7 @@ import showcasepict11 from '../Assets/Project Sea Web/webshowcase/V2 Website 6.p
 import separator1 from '../Assets/Project Sea Web/webshowcase/Separator1.png';
 import separator2 from '../Assets/Project Sea Web/webshowcase/Separator2.png';
 import colorstyle from '../Assets/Project Sea Web/webshowcase/SeaWebColorStyles.png';
-import useTranslation from '../useTranslation';
+import useTranslation from '../Components/useTranslation';
 
 function ProjectSeaWeb() {
     const { t } = useTranslation();

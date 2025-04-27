@@ -20,8 +20,9 @@ import aboutkorazu from '../Assets/About/AC/Korazu.png';
 import aboutuzakon from '../Assets/About/AC/Uzakon.png';
 import aboutzumiko from '../Assets/About/AC/Zumiko.png';
 import aboutseparator from '../Assets/S75 - Vesnea_b_338x450.gif';
-import { useTheme } from "../ThemeContext";
-import useTranslation from '../useTranslation';
+import { useTheme } from "../Components/ThemeContext";
+import useTranslation from '../Components/useTranslation';
+import { Link } from 'react-router-dom';
 
 function About() {
     const { theme } = useTheme();
@@ -136,6 +137,9 @@ function About() {
                     </div>
                 </div>
             </div>
+            <Link to='/CharInfo' className="aboutchar">
+                {t("charcard.aboutchar")}
+            </Link>
             <div className={`AC ${theme || "light"}`} id='targetmythseavalanche'>
                 <img className='aboutmythseavalanche' src={aboutmythseavalanche} alt="Seavalanche aka Myth Seavalanche" />
                 <div className={`ACmythseavalancheint ${theme || "light"}`}>

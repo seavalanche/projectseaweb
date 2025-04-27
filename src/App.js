@@ -7,6 +7,7 @@ import Footer from './Components/Footer.js';
 import Homepage from './Pages/Homepage.js'
 import Projects from './Pages/Projects.js'
 import Characters from './Pages/Characters.js'
+import CharInfo from './Pages/CharInfo.js'
 import ProjectSeaWeb from './Pages/ProjectSeaWeb.js'
 import Story from './Pages/Story.js'
 // import Commissions from './Pages/Commissions.js'
@@ -35,6 +36,7 @@ function App() {
         <Route path='/' exact element={<Homepage />} />
         <Route path='/Projects' exact element={<Projects />} />
         <Route path='/Characters' exact element={<Characters />} />
+        <Route path='/CharInfo' exact element={<CharInfo />} />
         <Route path='/ProjectSeaWeb' exact element={<ProjectSeaWeb />} />
         <Route path='/Story' exact element={<Story />} />
         {/* <Route path='/Commissions' exact element={<Commissions />} /> */}
