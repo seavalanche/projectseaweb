@@ -1,6 +1,6 @@
 import './Layout.css';
 import './Theme.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
 import Navbar from './Components/Navbar.js';
 import Footer from './Components/Footer.js';
@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-    <Router basename='/projectseaweb'>
+    <Router>
       <ScrollToTop />
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Routes>

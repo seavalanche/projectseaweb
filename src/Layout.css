@@ -9,6 +9,11 @@ p {
 html {
   scroll-padding-top: 150px;
 }
+@media only screen and (max-width: 800px) {
+  html {
+    scroll-padding-top: 70px;
+  }
+}
 /* @import "react-alice-carousel/lib/alice-carousel.css"; */
 
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
