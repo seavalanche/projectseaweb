@@ -19,7 +19,7 @@ const Arna = {
         jp: "",
     },
     moves: {
-        en: ["", "", ""],
+        en: ["Endless Heal: Arna uses her life force to heal her subordinates, draining her own life. This is activated as long as her subordinates use moves.", "Shield: Arna tries to endure damages using her long ears.", "Unseen Hit: her subordinate attacks by kicking the target so fast that it looks like a blur."],
         jp: ["", "", ""],
     },
     artworks: [

@@ -19,7 +19,7 @@ const Rakariki = {
         jp: "",
     },
     moves: {
-        en: ["", "", ""],
+        en: ["Bolt Strike: Rakariki launches himself into his target with a speed of a lightning, damaging the opponent with electricity and physical hit.", "Quick Attack: This is an even faster move than Bolt Strike because Rakariki doesn't need to think to use this move. It's useful when he needed to evade an attack or needed to test the opponent's skills.", "Lightning: When it's raining, Rakariki can use electricity charges on the cloud to summon a lightning to strike his target. Less accurate and also slower than his Bolt Strike, but more lethal than all of his other moves."],
         jp: ["", "", ""],
     },
     artworks: [

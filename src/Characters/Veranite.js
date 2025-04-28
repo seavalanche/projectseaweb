@@ -19,7 +19,7 @@ const Veranite = {
         jp: "",
     },
     moves: {
-        en: ["", "", ""],
+        en: ["Darkness Cloak: Veranite's ability to hide from his opponent that always works in a dark environment.", "Darkness Search: Veranite's ability to search for all things that will work best in a dark environment.", "Void of Uncertainty: Veranite glows and spread dark aura of uncertainty towards everyone nearby, making them doubt themselves and their situation."],
         jp: ["", "", ""],
     },
     artworks: [

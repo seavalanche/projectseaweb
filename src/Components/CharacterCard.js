@@ -2,18 +2,24 @@ import { useState } from 'react';
 import useTranslation from '../Components/useTranslation';
 
 function CharacterCard({ character }) {
-    const [expanded, setExpanded] = useState(false);
+    const [activeTab, setActiveTab] = useState(null); // new! tracks which tab is open
 
-    const toggleCard = () => {
-        setExpanded(!expanded);
+    const toggleTab = (tabName) => {
+        setActiveTab((currentTab) => (currentTab === tabName ? null : tabName));
     };
 
     const { t, language } = useTranslation();
 
     return (
-        <div className={`character-card ${expanded ? 'expanded' : ''}`}>
-            <div className="tab" onClick={toggleCard}>
-                {expanded ? '▲ Hide' : '▼ More'}
+        <div className="character-card">
+            {/* Multiple Tabs! */}
+            <div className='tab-wrapper'>
+                <div className={`tab ${activeTab === 'moves' ? 'active' : ''}`} onClick={() => toggleTab('moves')}>
+                    {activeTab === 'moves' ? '▲ Moves' : '▼ Moves'}
+                </div>
+                <div className={`tab ${activeTab === 'artworks' ? 'active' : ''}`} onClick={() => toggleTab('artworks')}>
+                    {activeTab === 'artworks' ? '▲ Artworks' : '▼ Artworks'}
+                </div>
             </div>
 
             <div className="content">
@@ -65,19 +71,28 @@ function CharacterCard({ character }) {
                 </div>
 
                 {/* Extra Info: moves + artworks */}
-                {expanded && (
+                {activeTab === 'moves' && (
                     <div className="extra">
-                        <h4>{t("charcard.moves")}</h4>
-                        <ul>
-                            {(character.moves[language] || character.moves.en).map((move, idx) => (
-                                <li key={idx}>{move}</li>
-                            ))}
+                        <div className='charcardProp'>{t("charcard.moves")}</div>
+                        <ul className='charcardValue'>
+                            {(character.moves[language] || character.moves.en).map((move, idx) => {
+                                const [moveName, moveDesc] = move.split(':');
+                                return (
+                                    <li key={idx} className='move-list'>
+                                        <span className="move-name">{moveName.trim()}</span>: {moveDesc.trim()}
+                                    </li>
+                                );
+                            })}
                         </ul>
+                    </div>
+                )}
 
-                        <h4>{t("charcard.artworks")}</h4>
+                {activeTab === 'artworks' && (
+                    <div className="extra">
+                        <div className='charcardProp'>{t("charcard.artworks")}</div>
                         <div className="artworks">
                             {character.artworks.map((art, idx) => (
-                                <figure key={idx}>
+                                <figure key={idx} className='charcardValue'>
                                     <img src={art.src} alt={art.caption[language] || art.caption.en} />
                                     <figcaption>{art.caption[language] || art.caption.en}</figcaption>
                                 </figure>

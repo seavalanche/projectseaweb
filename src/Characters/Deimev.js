@@ -19,7 +19,7 @@ const Deimev = {
         jp: "",
     },
     moves: {
-        en: ["", "", ""],
+        en: ["Judgment Gale: Deimev's Judgment Gale spins at high speeds, forming a slicing wind that cuts through anything deemed guilty in his eyes.", "Unwavering Justice: Deimev's Judgment Gale cannot be stopped or deflected. If someone tries to evade, it adjusts its trajectory automatically, ensuring a guaranteed punishment.", "Passive ability - Judgment Recoil: If an attack is justified or hit the target, Deimev got a temporary buff to his strength. On the other hand, if the attack is unjustified or missed the target, Deimev got a temporary debuff to his strength."],
         jp: ["", "", ""],
     },
     artworks: [

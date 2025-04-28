@@ -19,7 +19,7 @@ const Sarchie = {
         jp: "",
     },
     moves: {
-        en: ["", "", ""],
+        en: ["Wingbeat Screech: Sarchie uses her wings combined with her voice to screech loudly at her opponents to hinder their train of thoughts. It can be so loud that it may deafen the target for a short period.", "Hum of the Heavens: Sarchie's specialty in healing using her beautiful singing voice. This move can only heal if everyone nearby can hear sounds.", "Beak Stab: Sarchie uses her beak to stab her target."],
         jp: ["", "", ""],
     },
     artworks: [

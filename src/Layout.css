@@ -1734,6 +1734,21 @@ p {
   flex-direction: row;
   gap: 15px;
 }
+.attributes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+}
+.attribute-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  text-transform: capitalize;
+}
 .charcardValue {
   margin-bottom: 10px;
 }
@@ -1743,11 +1758,16 @@ p {
   text-align: center;
 }
 
-.tab {
+.tab-wrapper {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.tab {
+  width: 100px;
   height: 30px;
   text-align: center;
   line-height: 30px;
@@ -1765,35 +1785,39 @@ p {
 .tab:hover {
   transform: translateY(50%) rotate(0deg) scale(1.05);
 }
+.tab.active {
+  transform: translateY(50%) rotate(0deg) scale(1.05);
+}
 
 .content .extra {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease, opacity 0.6s ease, padding 0.3s ease;
+  padding-top: 0;
+}
+.character-card .content .extra {
+  /* open state */
+  max-height: 1500px;
+  opacity: 1;
+  padding-top: 15px;
+}
+.move-list {
+  margin-bottom: 10px;
+}
+
+/* .content .moves .artworks {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.6s ease, padding 0.3s ease;
   padding-top: 0;
-}
+} */
 
-.character-card.expanded .content .extra {
+/* .character-card.activeTab .content .extra {
   max-height: 500px;
   padding-top: 10px;
   animation: bounceOpen 0.6s;
-}
-.attributes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 8px 0;
-}
-
-.attribute-badge {
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 12px;
-  font-weight: bold;
-  display: inline-block;
-  text-align: center;
-  text-transform: capitalize;
-}
+} */
 
 @keyframes bounceOpen {
   0% {
@@ -1821,5 +1845,69 @@ p {
   border-radius: 12px;
   border: 2px dashed pink;
 }
+@media only screen and (max-width: 800px) {
+  /* >>> CharInfo.js */
+  .charinfowrapper {
+    max-width: 90vw;
+  }
 
+  /* >>> CharacterCard.js */
+  .character-card {
+    max-width: calc(900px - 5.5px);
+    width: 70vw;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contentA {
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+  .contentA1 {
+    margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .charcardPFP {
+    max-width: 244.5px;
+    max-height: 244.5px;
+    width: 30vw;
+    height: 30vw;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    min-width: 150px;
+    min-height: 150px;
+  }
+  .contentB-bio {
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .attribute-badge {
+    padding: 2px 4px;
+  }
+
+  .character-card .content .extra {
+    padding-top: 10px;
+  }
+
+  .move-list {
+    margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  /* >>> CharInfo.js */
+  .charinfowrapper {
+    max-width: 90vw;
+  }
+
+  /* >>> CharacterCard.js */
+  .character-card {
+    max-width: calc(900px - 5.5px);
+    width: 80vw;
+  }
+}
 /* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */

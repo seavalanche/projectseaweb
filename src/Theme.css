@@ -78,6 +78,10 @@
     --Fs-ContentTitle: 18pt;
     --Fs-Content: 12pt;
     --Fs-Link: 10pt;
+    --Fs-CharCardName: 20pt;
+    --Fs-CharCardAltName: 10pt;
+    --Fs-CharCardProp: 10pt;
+    --Fs-CharCardValue: 12pt;
   }
 }
 
@@ -134,6 +138,8 @@
   --C-MythSeavalanche_Dark_Green: #9ebb98;
   --C-MythSeavalanche_Blue: #e6f3f8;
   --C-MythSeavalanche_Peach: #f4cebd;
+
+  --cutepink: #ff69b4;
 
   --TC-BG_Light: var(--C-Vesnea_white);
   --TC-BG_Light2: var(--C-Uzakon_Light_Purple);
@@ -194,6 +200,9 @@
   --text-charcard-altname: var(--C-Uzakon_Purple);
   --border-charcard: var(--C-Vesnea_Light_Pink);
   --border-charcardPFP: var(--C-Vesnea_Pink);
+  --active-tab-charcard: var(--attribute-sound);
+  --active-tab-charcard-border: var(--attribute-sound);
+  --active-tab-charcard-text: var(--C-Vesnea_white);
 }
 [data-theme="dark"] {
   /* Dark Theme */
@@ -225,6 +234,9 @@
   --text-charcard-altname: var(--C-Uzakon_Light_Purple);
   --border-charcard: var(--C-Uzakon_Light_Purple);
   --border-charcardPFP: var(--C-Uzakon_Purple);
+  --active-tab-charcard: var(--C-Korazu_Yellow);
+  --active-tab-charcard-border: var(--C-Korazu_Yellow);
+  --active-tab-charcard-text: var(--C-SeaWeb_Purple);
 }
 [data-theme="star"] {
   /* Star Theme */
@@ -260,6 +272,9 @@
   --text-charcard-altname: var(--C-Uzakon_Purple);
   --border-charcard: var(--C-Uzakon_Purple);
   --border-charcardPFP: var(--C-Uzakon_Purple);
+  --active-tab-charcard: var(--C-Uzakon_Purple);
+  --active-tab-charcard-border: var(--C-Uzakon_Purple);
+  --active-tab-charcard-text: var(--C-Uzakon_White);
 }
 
 /* Apply custom styles to all scrollbars */
@@ -1002,8 +1017,10 @@
 
 .tab {
   background: var(--bg-charcardPFP);
-  color: var(--text-charcard-altname);
+  color: var(--active-tab-charcard);
   border: 2px solid var(--border-charcard);
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardProp);
 }
 [data-theme="dark"] .tab {
   color: var(--bg-charcard);
@@ -1011,6 +1028,15 @@
 .tab:hover {
   background: var(--border-charcard);
   color: var(--bg-charcard);
+}
+.tab.active {
+  background: var(--active-tab-charcard);
+  color: var(--active-tab-charcard-text);
+  border-color: var(--active-tab-charcard-border);
+}
+.move-name {
+  font-weight: bold;
+  color: var(--active-tab-charcard);
 }
 
 /* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */

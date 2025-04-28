@@ -19,7 +19,7 @@ const Baldor = {
         jp: "",
     },
     moves: {
-        en: ["", "", ""],
+        en: ["Topplover: Baldor press his body against the target, using his massive weight as a damaging move.", "Pebble shards: Baldor summoned many sharp pebbles to pelt the target.", "Unmoving: Baldor endures damage by hardening his body."],
         jp: ["", "", ""],
     },
     artworks: [

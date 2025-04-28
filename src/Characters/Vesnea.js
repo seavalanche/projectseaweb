@@ -19,7 +19,13 @@ const Vesnea = {
         jp: "",
     },
     moves: {
-        en: ["", "", ""],
+        en: [
+            "Water Breathing: Vesnea can swim with no effort and can breath underwater.",
+            "Aqua Blast: Vesnea shoot a concentrated high-pressure stream of water from her mouth or between two of her flippers.",
+            "Aqua Regeneration: Vesnea can harness the innate power of water to heal her physical wounds and restore her vitality. This power accelerate her body’s natural healing processes, even able to heal from severe cuts and bruises.",
+            "Fairy Bubble Barrage: Vesnea conjures a flurry of magical water bubbles infused with her fairy attribute. When these bubbles hit the target, they release a calming energy that soothes and pacifies, making the opponent lose their will to fight and promoting peace.",
+            "Semi-levitation: Vesnea’s innate ability of levitation using fairy power, but she can only use it in a short time in a short distance."
+        ],
         jp: ["", "", ""],
     },
     artworks: [

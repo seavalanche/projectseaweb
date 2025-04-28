@@ -19,7 +19,7 @@ const Fondan = {
         jp: "",
     },
     moves: {
-        en: ["", "", ""],
+        en: ["Light of Knowledge: Fondan summon a bright light using his spell book to burn his target.", "Light Pillar: Fondan summon a bright light concentrated into several spots from the sky that looks like big pillars of light to burn his target.", "Energy Palm: Fondan can fight in close range using his paws covered with light energy."],
         jp: ["", "", ""],
     },
     artworks: [
