@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
 import Navbar from './Components/Navbar.js';
 import Footer from './Components/Footer.js';
+import ScrollToTop from './Components/ScrollToTop.js';
 import ScrollToTopButton from './Components/ScrollToTopButton';
 import Homepage from './Pages/Homepage.js'
 import Projects from './Pages/Projects.js'
@@ -32,6 +33,7 @@ function App() {
 
   return (
     <Router basename='/projectseaweb'>
+      <ScrollToTop />
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Routes>
         <Route path='/' exact element={<Homepage />} />
