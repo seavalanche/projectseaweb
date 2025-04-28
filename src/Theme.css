@@ -158,7 +158,7 @@
   --attribute-wind: #9be2c9;
   --attribute-magical: #fdc4d3;
   --attribute-psionic: #ce36be;
-  --attribute-spririt: #70488c;
+  --attribute-spirit: #70488c;
   --attribute-sound: #ec6f97;
   --attribute-text-seawebdarkpurple: #181621;
   --attribute-text-vesneawhite: #fefcfc;
@@ -940,6 +940,8 @@
   font-family: var(--F-Content);
   font-size: var(--Fs-CharCardProp);
   font-style: italic;
+  box-shadow: 0 2px 2px
+    color-mix(in srgb, var(--border-charcard) 50%, transparent);
 }
 .attribute-badge.aether {
   background-color: var(--attribute-aether);
@@ -996,22 +998,6 @@
 .attribute-badge.sound {
   background-color: var(--attribute-sound);
   color: var(--attribute-text-seawebdarkpurple);
-}
-
-.attribute-badge.fire {
-  background-color: #ff5722;
-  color: #fff;
-}
-
-.attribute-badge.water {
-  background-color: #2196f3;
-  color: #fff;
-}
-
-/* Default catch if you forgot any */
-.attribute-badge.default {
-  background-color: #9e9e9e; /* gray */
-  color: #fff;
 }
 
 .tab {
