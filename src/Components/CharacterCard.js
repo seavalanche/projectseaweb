@@ -11,7 +11,8 @@ function CharacterCard({ character }) {
     const { t, language } = useTranslation();
 
     return (
-        <div className="character-card">
+        <div id={character.id} className="character-card" >
+            <div style={{ height: '80px', marginTop: '-80px', visibility: 'hidden' }}></div>
             {/* Multiple Tabs! */}
             <div className='tab-wrapper'>
                 <div className={`tab ${activeTab === 'moves' ? 'active' : ''}`} onClick={() => toggleTab('moves')}>

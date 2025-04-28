@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
 import Navbar from './Components/Navbar.js';
 import Footer from './Components/Footer.js';
+import ScrollToTopButton from './Components/ScrollToTopButton';
 import Homepage from './Pages/Homepage.js'
 import Projects from './Pages/Projects.js'
 import Characters from './Pages/Characters.js'
@@ -43,6 +44,7 @@ function App() {
         {/* <Route path='/About' exact element={<About />} /> */}
         <Route path='/AboutVesnea' exact element={<AboutVesnea />} />
       </Routes>
+      <ScrollToTopButton />
       <Footer />
     </Router>
   );

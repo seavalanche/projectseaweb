@@ -6,6 +6,9 @@ p {
   text-indent: 50px;
   margin-bottom: 15px;
 }
+html {
+  scroll-padding-top: 150px;
+}
 /* @import "react-alice-carousel/lib/alice-carousel.css"; */
 
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
@@ -17,7 +20,7 @@ p {
   justify-content: center;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 .brand-logo {
   background: none;
@@ -385,6 +388,39 @@ p {
 }
 /* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
+
+/* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */
+.scroll-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1;
+}
+.scroll-to-top.show {
+  opacity: 1;
+  transform: scale(1);
+}
+.scroll-to-top:hover {
+  transform: scale(1.1);
+}
+.scroll-to-top-icon {
+  width: 50px;
+}
+@media only screen and (max-width: 800px) {
+  .scroll-to-top {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+/* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */
 
 /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
 /* Welcome */ /* Welcome */ /* Welcome */ /* Welcome */ /* Welcome */
@@ -1662,10 +1698,63 @@ p {
   padding: 0 10vw;
 }
 /* >>> CharInfo.js */
+.character-selector {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 35px;
+  position: sticky;
+  top: 65px;
+  padding: 10px;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+.character-selector.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+/* Second style selector */
+/* .character-selector {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 1;
+  z-index: 100;
+}
+.character-selector.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(-20px);
+  transition: opacity 0.5s ease;
+} */
+
+.char-icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* make them circles!! 🧁 */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.char-icon img:hover {
+  transform: scale(1.2);
+}
+
 .charinfobg {
   width: 100%;
   margin: auto;
-  padding: 35px 0;
+  /* padding: 0 0 50px 0; */
+  /* padding: 110px 0 50px 0; */
+  padding: 0px 0 50px 0;
   background-image: url("./Assets/Project Sea Web/CharInfo/VesBG_1.webp");
   background-size: 12%;
 }
@@ -1847,6 +1936,9 @@ p {
 }
 @media only screen and (max-width: 800px) {
   /* >>> CharInfo.js */
+  .character-selector {
+    flex-wrap: wrap;
+  }
   .charinfowrapper {
     max-width: 90vw;
   }
@@ -1900,6 +1992,10 @@ p {
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
   /* >>> CharInfo.js */
+  .character-selector {
+    flex-wrap: wrap;
+  }
+
   .charinfowrapper {
     max-width: 90vw;
   }

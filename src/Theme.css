@@ -41,6 +41,9 @@
   font-family: "F-CharCardAltName";
   src: url(./Assets/Fonts/constani.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* Variable setting*/
 * {
@@ -396,8 +399,18 @@
   }
 }
 /* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */
-
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
+
+/* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */
+.scroll-to-top {
+  background-color: color-mix(in srgb, var(--C-Vesnea_Light_Pink) 50%, transparent);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: 4px solid var(--C-Vesnea_Pink);
+}
+.scroll-to-top:hover {
+  background-color: color-mix(in srgb, var(--C-Vesnea_Light_Pink) 75%, transparent);
+}
+/* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */
 
 /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
 .welcome {
@@ -903,6 +916,13 @@
   text-decoration: none;
 }
 /* >>> CharInfo.js */
+.character-selector {
+  background: var(--bg-charcard);
+}
+.char-icon img {
+  background: var(--bg-charcardPFP);
+  border: 2px solid var(--border-charcardPFP);
+}
 /* >>> CharacterCard.js */
 .character-card {
   border: 4px dashed var(--border-charcard);
