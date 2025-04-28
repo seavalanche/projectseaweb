@@ -7,6 +7,7 @@ const Navbar = ({ toggleTheme }) => {
     const handleMenuToggle = () => {
         setMenuOpen(!menuOpen);
     };
+    const closeMenu = () => setMenuOpen(false);
 
     const { t, language, setLanguage } = useTranslation();
     const toggleLanguage = () => {
@@ -19,13 +20,13 @@ const Navbar = ({ toggleTheme }) => {
                 < NavLink to='/' className={"brand-logo"}>
                 </NavLink>
                 <div className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
-                    <NavLink to='/Characters' className={`navbar-menu-text`} activeclassname='active'>
+                    <NavLink to='/Characters' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
                         {t("navbar.characters")}
                     </NavLink>
-                    <NavLink to='/Story' className={`navbar-menu-text`} activeclassname='active'>
+                    <NavLink to='/Story' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
                         {t("navbar.story")}
                     </NavLink>
-                    <NavLink to='/AboutVesnea' className={`navbar-menu-text`} activeclassname='active'>
+                    <NavLink to='/AboutVesnea' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
                         {t("navbar.about")}
                     </NavLink>
                 </div>
