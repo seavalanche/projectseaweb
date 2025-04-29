@@ -1,4 +1,5 @@
 import pfp from '../Assets/Characters/charcardPFP/PFP_Rakariki.png'
+import artwork00 from '../Assets/Characters/charcardArtwork/Rakariki/D32 - Design Rakariki.jpg'
 const Rakariki = {
     id: "rakariki",
     profilePicture: pfp,
@@ -23,8 +24,11 @@ const Rakariki = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork00,
+            title: "D32 - Design Rakariki",
+            caption: { en: "The original Rakariki reference sheet.", jp: "" }
+        },
     ]
 };
 export default Rakariki;

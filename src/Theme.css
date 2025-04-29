@@ -403,12 +403,20 @@ html {
 
 /* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */
 .scroll-to-top {
-  background-color: color-mix(in srgb, var(--C-Vesnea_Light_Pink) 50%, transparent);
+  background-color: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 50%,
+    transparent
+  );
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   border: 4px solid var(--C-Vesnea_Pink);
 }
 .scroll-to-top:hover {
-  background-color: color-mix(in srgb, var(--C-Vesnea_Light_Pink) 75%, transparent);
+  background-color: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 75%,
+    transparent
+  );
 }
 /* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */ /* SCROLL */
 
@@ -1059,4 +1067,22 @@ html {
   color: var(--active-tab-charcard);
 }
 
+.artworks img {
+  border: 3px solid var(--border-charcard);
+}
+.art-preview-overlay {
+  background-color: color-mix(
+    in srgb,
+    var(--bg-charcardPFP) 15%,
+    var(--C-SeaWeb_Dark_Purple2) 85%
+  );
+}
+.art-preview-content {
+  background: var(--bg-charcard);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--C-SeaWeb_Dark_Purple) 25%, transparent);
+}
+.close-btn {
+  color: var(--border-charcardPFP);
+}
 /* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */

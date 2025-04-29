@@ -2,7 +2,8 @@ import { useState } from 'react';
 import useTranslation from '../Components/useTranslation';
 
 function CharacterCard({ character }) {
-    const [activeTab, setActiveTab] = useState(null); // new! tracks which tab is open
+    const [activeTab, setActiveTab] = useState(null); // tracks which tab is open
+    const [selectedArt, setSelectedArt] = useState(null);
 
     const toggleTab = (tabName) => {
         setActiveTab((currentTab) => (currentTab === tabName ? null : tabName));
@@ -11,7 +12,7 @@ function CharacterCard({ character }) {
     const { t, language } = useTranslation();
 
     return (
-        <div id={character.id} className="character-card" >
+        <div id={character.id} className={`character-card ${selectedArt ? 'preview-open' : ''}`} >
             <div style={{ height: '80px', marginTop: '-80px', visibility: 'hidden' }}></div>
             {/* Multiple Tabs! */}
             <div className='tab-wrapper'>
@@ -93,12 +94,32 @@ function CharacterCard({ character }) {
                         <div className='charcardProp'>{t("charcard.artworks")}</div>
                         <div className="artworks">
                             {character.artworks.map((art, idx) => (
-                                <figure key={idx} className='charcardValue'>
-                                    <img src={art.src} alt={art.caption[language] || art.caption.en} />
-                                    <figcaption>{art.caption[language] || art.caption.en}</figcaption>
+                                <figure
+                                    key={idx}
+                                    className='artworks-wrapper'
+                                    onClick={() => setSelectedArt(art)}
+                                >
+                                    <img
+                                        src={art.src}
+                                        alt={art.caption[language] || art.caption.en}
+                                        className="art-thumb"
+                                    />
+                                    <figtitle className='charcardValue'>{art.title}</figtitle>
                                 </figure>
                             ))}
                         </div>
+                        {selectedArt && (
+                            <div className="art-preview-overlay" onClick={() => setSelectedArt(null)}>
+                                <div className="art-preview-content" onClick={(e) => e.stopPropagation()}>
+                                    <img src={selectedArt.src} alt={selectedArt.caption[language] || selectedArt.caption.en} />
+                                    <div className='art-preview-content-wrapper'>
+                                        <div className='charcardProp'>{selectedArt.title}</div>
+                                        <div className='charcardValue'>{selectedArt.caption[language] || selectedArt.caption.en}</div>
+                                    </div>
+                                    <button className="close-btn" onClick={() => setSelectedArt(null)}>✕</button>
+                                </div>
+                            </div>
+                        )}
                     </div>
                 )}
             </div>

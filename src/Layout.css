@@ -1791,6 +1791,10 @@ html {
 .character-card:hover {
   transform: translateY(-3px);
 }
+.character-card.preview-open {
+  transform: none !important;
+  transition: none !important;
+}
 
 .content {
   display: flex;
@@ -1886,13 +1890,15 @@ html {
 .content .extra {
   max-height: 0;
   opacity: 0;
-  overflow: hidden;
   transition: max-height 0.6s ease, opacity 0.6s ease, padding 0.3s ease;
   padding-top: 0;
 }
+.extra .charcardValue {
+  overflow: hidden;
+}
 .character-card .content .extra {
   /* open state */
-  max-height: 1500px;
+  max-height: 4000px;
   opacity: 1;
   padding-top: 15px;
 }
@@ -1928,17 +1934,78 @@ html {
 .artworks {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 15px;
   margin-top: 8px;
 }
-
-.artworks img.artwork {
-  width: 80px;
-  height: 80px;
+.artworks-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.artworks img {
+  margin: auto;
+  height: 200px;
   object-fit: cover;
   border-radius: 12px;
-  border: 2px dashed pink;
+  max-width: 90vw;
 }
+.art-thumb {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.art-thumb:hover {
+  transform: scale(1.03);
+}
+.art-preview-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.art-preview-content {
+  border-radius: 16px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.art-preview-content img {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+}
+.art-preview-content-wrapper .charcardValue {
+  max-width: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.close-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.8rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.close-btn:hover {
+  transform: scale(1.03);
+}
+
 @media only screen and (max-width: 800px) {
   /* >>> CharInfo.js */
   .character-selector {
@@ -1983,6 +2050,10 @@ html {
     text-align: left;
   }
 
+  .character-card .content .extra {
+    max-height: 5500px;
+  }
+
   .attribute-badge {
     padding: 2px 4px;
   }
@@ -1993,6 +2064,20 @@ html {
 
   .move-list {
     margin-bottom: 5px;
+  }
+  .artworks {
+    gap: 10px;
+    justify-content: center;
+    column-gap: 15px;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .artworks-wrapper {
+    width: 30vw;
+  }
+  .artworks img {
+    height: 30vw;
+    width: 30vw;
   }
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {

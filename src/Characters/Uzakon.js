@@ -1,4 +1,5 @@
 import pfpUzakon from '../Assets/Characters/charcardPFP/PFP_Uzakon.png'
+import artwork00 from '../Assets/Characters/charcardArtwork/Uzakon/D18 - Korazu, Uzakon, and Zumiko_full ref.webp'
 const Uzakon = {
     id: "uzakon",
     profilePicture: pfpUzakon,
@@ -28,8 +29,11 @@ const Uzakon = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork00,
+            title: "D18 - Korazu, Uzakon, and Zumiko",
+            caption: { en: "The original Seavalanche's Three Cats design.", jp: "" }
+        },
     ]
 };
 export default Uzakon;

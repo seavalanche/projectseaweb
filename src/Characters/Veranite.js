@@ -1,4 +1,5 @@
 import pfp from '../Assets/Characters/charcardPFP/PFP_Veranite.png'
+import artwork00 from '../Assets/Characters/charcardArtwork/Veranite/D34 - Design Veranite.jpg'
 const Veranite = {
     id: "veranite",
     profilePicture: pfp,
@@ -23,8 +24,11 @@ const Veranite = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork00,
+            title: "D34 - Design Veranite",
+            caption: { en: "The original Veranite reference sheet.", jp: "" }
+        },
     ]
 };
 export default Veranite;

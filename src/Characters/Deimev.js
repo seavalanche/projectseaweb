@@ -1,4 +1,5 @@
 import pfp from '../Assets/Characters/charcardPFP/PFP_Deimev.png'
+import artwork00 from '../Assets/Characters/charcardArtwork/Deimev/D36 - Design Deimev.jpg'
 const Deimev = {
     id: "deimev",
     profilePicture: pfp,
@@ -23,8 +24,11 @@ const Deimev = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork00,
+            title: "D36 - Design Deimev",
+            caption: { en: "The original Deimev reference sheet.", jp: "" }
+        },
     ]
 };
 export default Deimev;

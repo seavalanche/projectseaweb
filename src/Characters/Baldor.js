@@ -1,4 +1,5 @@
 import pfp from '../Assets/Characters/charcardPFP/PFP_Baldor.png'
+import artwork00 from '../Assets/Characters/charcardArtwork/Baldor/D30 - Design Baldor.jpg'
 const Baldor = {
     id: "baldor",
     profilePicture: pfp,
@@ -23,8 +24,11 @@ const Baldor = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork00,
+            title: "D30 - Design Baldor",
+            caption: { en: "The original Baldor reference sheet.", jp: "" }
+        },
     ]
 };
 export default Baldor;

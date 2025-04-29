@@ -1,4 +1,5 @@
 import pfpKorazu from '../Assets/Characters/charcardPFP/PFP_Korazu.png'
+import artwork00 from '../Assets/Characters/charcardArtwork/Korazu/D18 - Korazu, Uzakon, and Zumiko_full ref.webp'
 const Korazu = {
     id: "korazu",
     profilePicture: pfpKorazu,
@@ -28,8 +29,11 @@ const Korazu = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork00,
+            title: "D18 - Korazu, Uzakon, and Zumiko",
+            caption: { en: "The original Seavalanche's Three Cats design.", jp: "" }
+        },
     ]
 };
 export default Korazu;

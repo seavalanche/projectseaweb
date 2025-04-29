@@ -1,4 +1,8 @@
 import pfpMythSeavalanche from '../Assets/Characters/charcardPFP/PFP_MythSeavalanche.png'
+import artwork01 from '../Assets/Characters/charcardArtwork/MythSeavalanche/V04.jpg'
+import artwork02 from '../Assets/Characters/charcardArtwork/MythSeavalanche/S169 - Seavalanche.webp'
+import artwork03 from '../Assets/Characters/charcardArtwork/MythSeavalanche/S170 - Some Nights.webp'
+import artwork04 from '../Assets/Characters/charcardArtwork/MythSeavalanche/S178 - Myth Seavalanche.webp'
 const MythSeavalanche = {
     id: "mythseavalanche",
     profilePicture: pfpMythSeavalanche,
@@ -29,8 +33,26 @@ const MythSeavalanche = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork01,
+            title: "V04",
+            caption: { en: "The original Myth Seavalanche reference sheet.", jp: "" }
+        },
+        {
+            src: artwork02,
+            title: "S169 - Seavalanche",
+            caption: { en: "Seavalanche at her abode.", jp: "" }
+        },
+        {
+            src: artwork03,
+            title: "S170 - Some Nights",
+            caption: { en: "Some nights do be sad.", jp: "" }
+        },
+        {
+            src: artwork04,
+            title: "S178 - Myth Seavalanche",
+            caption: { en: "Seavalanche profile at an angle.", jp: "" }
+        },
     ]
 };
 export default MythSeavalanche;

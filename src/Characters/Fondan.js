@@ -1,4 +1,6 @@
 import pfp from '../Assets/Characters/charcardPFP/PFP_Fondan.png'
+import artwork00 from '../Assets/Characters/charcardArtwork/Fondan/D33 - Design Fondan.jpg'
+import artwork01 from '../Assets/Characters/charcardArtwork/Fondan/S171 - Fondan_fix1.webp'
 const Fondan = {
     id: "fondan",
     profilePicture: pfp,
@@ -23,8 +25,16 @@ const Fondan = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork00,
+            title: "D33 - Design Fondan",
+            caption: { en: "The original Fondan reference sheet.", jp: "" }
+        },
+        {
+            src: artwork01,
+            title: "S171 - Fondan",
+            caption: { en: "Pretty cool Fondan pose with his white shirt and black tie.", jp: "" }
+        },
     ]
 };
 export default Fondan;

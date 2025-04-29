@@ -1,4 +1,6 @@
 import pfp from '../Assets/Characters/charcardPFP/PFP_Arna.png'
+import artwork00 from '../Assets/Characters/charcardArtwork/Arna/D31 - Design Arna.jpg'
+import artwork01 from '../Assets/Characters/charcardArtwork/Arna/S172 - Arna.webp'
 const Arna = {
     id: "arna",
     profilePicture: pfp,
@@ -23,8 +25,16 @@ const Arna = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork00,
+            title: "D31 - Design Arna",
+            caption: { en: "The original Arna reference sheet.", jp: "" }
+        },
+        {
+            src: artwork01,
+            title: "S172 - Arna",
+            caption: { en: "Arna and her three Mini Arnas.", jp: "" }
+        },
     ]
 };
 export default Arna;

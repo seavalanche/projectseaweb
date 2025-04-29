@@ -95,9 +95,6 @@ function CharInfo() {
 
   return (
     <div className="charinfobg">
-      {/* <div className='projectsshowcase'>
-                ( 🦺 Under Construction 🦺 )
-            </div> */}
       <div className={`character-selector ${isVisible ? 'visible' : 'hidden'}`}>
         {characters.map((char, idx) => (
           <HashLink key={idx} to={`#${char.id}`} className="char-icon">

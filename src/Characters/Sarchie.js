@@ -1,4 +1,5 @@
 import pfp from '../Assets/Characters/charcardPFP/PFP_Sarchie.png'
+import artwork00 from '../Assets/Characters/charcardArtwork/Sarchie/D35 - Design Sarchie.jpg'
 const Sarchie = {
     id: "sarchie",
     profilePicture: pfp,
@@ -23,8 +24,11 @@ const Sarchie = {
         jp: ["", "", ""],
     },
     artworks: [
-        { src: "", caption: { en: "", jp: "" } },
-        { src: "", caption: { en: "", jp: "" } }
+        {
+            src: artwork00,
+            title: "D35 - Design Sarchie",
+            caption: { en: "The original Sarchie reference sheet.", jp: "" }
+        },
     ]
 };
 export default Sarchie;
