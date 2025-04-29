@@ -56,17 +56,17 @@ const Vesnea = {
     alternateName: "",
     nameMeaning: {
         en: "An anagram of Seavalanche.",
-        jp: "",
+        jp: "Seavalancheのアナグラムです。",
     },
-    gender: { en: "Female", jp: "" },
-    species: { en: "Fox-cat creature", jp: "" },
-    height: { en: "1.4 m", jp: "" },
-    weight: { en: "40 kg", jp: "" },
-    createdDate: { en: "6 January 2025", jp: "" },
+    gender: { en: "Female", jp: "女性" },
+    species: { en: "Fox-cat creature", jp: "キツネとネコのような生き物" },
+    height: { en: "1.4 m", jp: "1.4メートル" },
+    weight: { en: "40 kg", jp: "40キログラム" },
+    createdDate: { en: "6 January 2025", jp: "2025年1月6日" },
     attributes: ["Magical", "Water"],
     bio: {
         en: "Vesnea is being called the kindest of the village when she was brought in by an elderly. She would offer help to whoever she thought needed it. Cheery as she is, everyone would feel better after a hard day around her.",
-        jp: "",
+        jp: "Vesneaは、年配の人に連れられて村にやってきたとき、村で一番優しい存在だと呼ばれるようになりました。困っていそうな人を見つけると、すぐに助けの手を差し伸べます。いつも明るく元気な彼女のそばにいると、つらい一日も癒されてしまうのです。",
     },
     moves: {
         en: [
@@ -76,258 +76,264 @@ const Vesnea = {
             "Fairy Bubble Barrage: Vesnea conjures a flurry of magical water bubbles infused with her fairy attribute. When these bubbles hit the target, they release a calming energy that soothes and pacifies, making the opponent lose their will to fight and promoting peace.",
             "Semi-levitation: Vesnea’s innate ability of levitation using fairy power, but she can only use it in a short time in a short distance."
         ],
-        jp: ["", "", ""],
+        jp: [
+            "水中呼吸：Vesneaは努力せずに泳ぐことができ、水中でも呼吸ができます。",
+            "アクアブラスト：Vesneaは口や両方のヒレの間から高圧の水流を放ちます。",
+            "アクア再生：Vesneaは水の持つ力を利用して、傷を癒し体力を回復させます。この能力は自然治癒力を加速させ、深い傷や打撲でも回復可能です。",
+            "フェアリーバブルバラージ：Vesneaは妖精の力を込めた魔法の水泡を無数に生み出します。この泡が相手に当たると、心を癒し戦意を失わせ、平和を促します。",
+            "セミ浮遊：Vesneaは妖精の力で短時間・短距離だけ浮遊することができます。",
+        ],
     },
     artworks: [
         {
             src: artwork00a,
             title: "D25 - Vesnea Ref Design",
-            caption: { en: "The updated Vesnea reference sheet.", jp: "" }
+            caption: { en: "The updated Vesnea reference sheet.", jp: "更新されたVesneaの参考シートです。" }
         },
         {
             src: artwork00b,
             title: "D25 - Vesnea Ref Design",
-            caption: { en: "The updated Vesnea reference sheet.", jp: "" }
+            caption: { en: "The updated Vesnea reference sheet.", jp: "更新されたVesneaの参考シートです。" }
         },
         {
             src: artwork00c,
             title: "D27 - Vesnea Clothing Ref",
-            caption: { en: "The Vesnea's Casual Clothing reference sheet.", jp: "" }
+            caption: { en: "The Vesnea's Casual Clothing reference sheet.", jp: "Vesneaの普段着の参考シートです。" }
         },
         {
             src: artwork01,
             title: "D06",
-            caption: { en: "The original Vesnea reference sheet.", jp: "" }
+            caption: { en: "The original Vesnea reference sheet.", jp: "オリジナルのVesnea参考シートです。" }
         },
         {
             src: artwork02,
             title: "D07 - Ko-fi commission banner",
-            caption: { en: "The original commission banner drawn with Seava.", jp: "" }
+            caption: { en: "The original commission banner drawn with Seava.", jp: "Seavaと一緒に描かれた最初のコミッションバナーです。" }
         },
         {
             src: artwork03,
             title: "D08 - Vesnea pixelart",
-            caption: { en: "The first time Vesnea was drawn in pixelart style.", jp: "" }
+            caption: { en: "The first time Vesnea was drawn in pixelart style.", jp: "Vesneaがピクセルアートで初めて描かれた作品です。" }
         },
         {
             src: artwork03B,
             title: "D11 - Commission Banner v2",
-            caption: { en: "A commission banner design of Seava and Vesnea.", jp: "" }
+            caption: { en: "A commission banner design of Seava and Vesnea.", jp: "SeavaとVesneaのコミッションバナーデザインです。" }
         },
         {
             src: artwork04,
             title: "S12",
-            caption: { en: "The first ever Vesnea artwork after the original reference sheet.", jp: "" }
+            caption: { en: "The first ever Vesnea artwork after the original reference sheet.", jp: "オリジナル参考シートの後、最初に描かれたVesneaのアートワークです。" }
         },
         {
             src: artwork05,
             title: "S13 - Vesnea",
-            caption: { en: "Vesnea on the stairway.", jp: "" }
+            caption: { en: "Vesnea on the stairway.", jp: "階段にいるVesnea。" }
         },
         {
             src: artwork06,
             title: "S16 - Vesnea",
-            caption: { en: "Vesnea at a beach.", jp: "" }
+            caption: { en: "Vesnea at a beach.", jp: "ビーチにいるVesnea。" }
         },
         {
             src: artwork07,
             title: "S20 - Vesnea",
-            caption: { en: "Vesnea with starry background.", jp: "" }
+            caption: { en: "Vesnea with starry background.", jp: "星空を背景にしたVesnea。" }
         },
         {
             src: artwork08,
             title: "S24 - Vesnea",
-            caption: { en: "Vesnea portrait with a big open mouth smile.", jp: "" }
+            caption: { en: "Vesnea portrait with a big open mouth smile.", jp: "口を大きく開けて笑っているVesneaのポートレート。" }
         },
         {
             src: artwork09,
             title: "S30 - Vesnea",
-            caption: { en: "A chibi-style Vesnea with a cute costume.", jp: "" }
+            caption: { en: "A chibi-style Vesnea with a cute costume.", jp: "かわいい衣装を着たちびVesnea。" }
         },
         {
             src: artwork10,
             title: "S31 - Vesnea",
-            caption: { en: "Vesnea in a girly tennis costume.", jp: "" }
+            caption: { en: "Vesnea in a girly tennis costume.", jp: "ガーリーなテニス衣装のVesnea。" }
         },
         {
             src: artwork11,
             title: "S35a - Vesnea",
-            caption: { en: "Vesnea waving, drawn from the back.", jp: "" }
+            caption: { en: "Vesnea waving, drawn from the back.", jp: "後ろ姿で手を振るVesnea。" }
         },
         {
             src: artwork12,
             title: "S35b - Vesnea",
-            caption: { en: "Vesnea waving at the camera.", jp: "" }
+            caption: { en: "Vesnea waving at the camera.", jp: "カメラに向かって手を振るVesnea。" }
         },
         {
             src: artwork13,
             title: "S38 - Vesnea",
-            caption: { en: "Vesnea jumping happily.", jp: "" }
+            caption: { en: "Vesnea jumping happily.", jp: "楽しそうにジャンプするVesnea。" }
         },
         {
             src: artwork14,
             title: "S44 - Vesnea",
-            caption: { en: "Vesnea with her small Seava plush.", jp: "" }
+            caption: { en: "Vesnea with her small Seava plush.", jp: "小さなSeavaのぬいぐるみを持つVesnea。" }
         },
         {
             src: artwork15,
             title: "S47 - Vesnea",
-            caption: { en: "Vesnea politely let someone pass.", jp: "" }
+            caption: { en: "Vesnea politely let someone pass.", jp: "誰かに道を譲る礼儀正しいVesnea。" }
         },
         {
             src: artwork16,
             title: "S48 - Vesnea",
-            caption: { en: "Vesnea doing some cute dance.", jp: "" }
+            caption: { en: "Vesnea doing some cute dance.", jp: "かわいいダンスを踊るVesnea。" }
         },
         {
             src: artwork17,
             title: "S50 - Vesnea",
-            caption: { en: "Vesnea cutely sitting down.", jp: "" }
+            caption: { en: "Vesnea cutely sitting down.", jp: "かわいく座っているVesnea。" }
         },
         {
             src: artwork18,
             title: "S51 - Vesnea",
-            caption: { en: "Vesnea in various maid dress colors.", jp: "" }
+            caption: { en: "Vesnea in various maid dress colors.", jp: "さまざまなメイド服カラーのVesnea。" }
         },
         {
             src: artwork19,
             title: "S52 - Vesnea",
-            caption: { en: "Vesnea open both flippers.", jp: "" }
+            caption: { en: "Vesnea open both flippers.", jp: "両方のヒレを広げるVesnea。" }
         },
         {
             src: artwork20,
             title: "S53 - Vesnea",
-            caption: { en: "Vesnea doing some modern pose.", jp: "" }
+            caption: { en: "Vesnea doing some modern pose.", jp: "現代風のポーズをとるVesnea。" }
         },
         {
             src: artwork21,
             title: "S54 - Vesnea",
-            caption: { en: "The first Vesnea animation!", jp: "" }
+            caption: { en: "The first Vesnea animation!", jp: "初めてのVesneaアニメーション！" }
         },
         {
             src: artwork22,
             title: "S55 - Vesnea",
-            caption: { en: "Vesnea jump skip her own tail.", jp: "" }
+            caption: { en: "Vesnea jump skip her own tail.", jp: "自分のしっぽを飛び越えるVesnea。" }
         },
         {
             src: artwork23,
             title: "S58 - Vesnea",
-            caption: { en: "Vesnea in a cyberpunk setting.", jp: "" }
+            caption: { en: "Vesnea in a cyberpunk setting.", jp: "サイバーパンク風のVesnea。" }
         },
         {
             src: artwork24,
             title: "S60 - Vesnea",
-            caption: { en: "Vesnea in an apocalypse setting.", jp: "" }
+            caption: { en: "Vesnea in an apocalypse setting.", jp: "終末世界のVesnea。" }
         },
         {
             src: artwork25,
             title: "S61 - Vesnea",
-            caption: { en: "A closeup of Vesnea.", jp: "" }
+            caption: { en: "A closeup of Vesnea.", jp: "Vesneaのクローズアップ。" }
         },
         {
             src: artwork26,
             title: "S75 - Vesnea",
-            caption: { en: "Vesnea on a big pink heart background.", jp: "" }
+            caption: { en: "Vesnea on a big pink heart background.", jp: "大きなピンクのハート背景のVesnea。" }
         },
         {
             src: artwork27,
             title: "S79 - Vesnea",
-            caption: { en: "Vesnea waving to the right with both flippers.", jp: "" }
+            caption: { en: "Vesnea waving to the right with both flippers.", jp: "右側に両ヒレで手を振るVesnea。" }
         },
         {
             src: artwork28,
             title: "S84 - Vesnea",
-            caption: { en: "Vesnea clasped both flippers to the heart.", jp: "" }
+            caption: { en: "Vesnea clasped both flippers to the heart.", jp: "胸に両ヒレを当てているVesnea。" }
         },
         {
             src: artwork28B,
             title: "S91 - Tea Party Style Vesnea",
-            caption: { en: "Vesnea in the Tea Party Style outfit.", jp: "" }
+            caption: { en: "Vesnea in the Tea Party Style outfit.", jp: "ティーパーティースタイルの衣装を着たVesnea。" }
         },
         {
             src: artwork28C,
             title: "S92 - Blep Vesnea",
-            caption: { en: "Blepppppp.", jp: "" }
+            caption: { en: "Blepppppp.", jp: "べろ〜ん。" }
         },
         {
             src: artwork29,
             title: "S94 - Vesnea",
-            caption: { en: "Vesnea angled down and put both arms to the side.", jp: "" }
+            caption: { en: "Vesnea angled down and put both arms to the side.", jp: "下を向いて両腕を横に広げたVesnea。" }
         },
         {
             src: artwork30,
             title: "S97 - Vesnea",
-            caption: { en: "Vesnea Star!", jp: "" }
+            caption: { en: "Vesnea Star!", jp: "Vesneaスター！" }
         },
         {
             src: artwork31,
             title: "S98 - Vesnea",
-            caption: { en: "Vesnea is looking at you~", jp: "" }
+            caption: { en: "Vesnea is looking at you~", jp: "Vesneaがあなたを見つめてる〜" }
         },
         {
             src: artwork32,
             title: "S99 - Vesnea",
-            caption: { en: "UwU Vesnea.", jp: "" }
+            caption: { en: "UwU Vesnea.", jp: "うるうるVesnea。" }
         },
         {
             src: artwork33,
             title: "S100 - Vesnea",
-            caption: { en: "Vesnea relaxing.", jp: "" }
+            caption: { en: "Vesnea relaxing.", jp: "リラックスしているVesnea。" }
         },
         {
             src: artwork34,
             title: "S102 - Vesnea",
-            caption: { en: "Vesnea in a cute outfit.", jp: "" }
+            caption: { en: "Vesnea in a cute outfit.", jp: "かわいい服を着たVesnea。" }
         },
         {
             src: artwork34B,
             title: "S103 - Behind Wall",
-            caption: { en: "Vesnea is behind the wall!", jp: "" }
+            caption: { en: "Vesnea is behind the wall!", jp: "Vesneaが壁の後ろにいるよ！" }
         },
         {
             src: artwork35,
             title: "S104 - Deep Sadness",
-            caption: { en: "Vesnea has felt one of the deepest sadness in her life.", jp: "" }
+            caption: { en: "Vesnea has felt one of the deepest sadness in her life.", jp: "Vesneaは人生で最も深い悲しみの一つを感じている。" }
         },
         {
             src: artwork36,
             title: "S114 - Vesnea",
-            caption: { en: "Vesnea is deep in thoughts.", jp: "" }
+            caption: { en: "Vesnea is deep in thoughts.", jp: "Vesneaは深く考え込んでいる。" }
         },
         {
             src: artwork37,
             title: "S117 - Vesnea",
-            caption: { en: "Hey! I have a cute pink ribbon and a cute pink gold bracelet!", jp: "" }
+            caption: { en: "Hey! I have a cute pink ribbon and a cute pink gold bracelet!", jp: "ねえ！かわいいピンクのリボンとピンクゴールドのブレスレットがあるよ！" }
         },
         {
             src: artwork38,
             title: "S120 - Vesnea",
-            caption: { en: "Woah!", jp: "" }
+            caption: { en: "Woah!", jp: "わあっ！" }
         },
         {
             src: artwork39,
             title: "S129 - Vesnea",
-            caption: { en: "Hehe~", jp: "" }
+            caption: { en: "Hehe~", jp: "えへへ〜" }
         },
         {
             src: artwork40,
             title: "S136 - Vesnea",
-            caption: { en: "Look there!", jp: "" }
+            caption: { en: "Look there!", jp: "見て見て、あそこだよ！" }
         },
         {
             src: artwork41,
             title: "S138 - Vesnea",
-            caption: { en: "Vesnea's modest pose.", jp: "" }
+            caption: { en: "Vesnea's modest pose.", jp: "Vesneaの控えめなポーズ。" }
         },
         {
             src: artwork42,
             title: "S160 - Vesnea",
-            caption: { en: "Woah, what are these?", jp: "" }
+            caption: { en: "Woah, what are these?", jp: "わあ、これ何？" }
         },
         {
             src: artwork43,
             title: "S162 - Matching Clothes",
-            caption: { en: "Vesnea posing in a cute school uniform together with Seavalanche and Seava.", jp: "" }
+            caption: { en: "Vesnea posing in a cute school uniform together with Seavalanche and Seava.", jp: "VesneaがSeavalancheとSeavaと一緒にかわいい制服でポーズしている。" }
         },
     ]
 };

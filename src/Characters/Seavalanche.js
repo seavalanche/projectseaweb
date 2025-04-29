@@ -17,17 +17,17 @@ const Seavalanche = {
     alternateName: "Vesnea Seavalanche Mode",
     nameMeaning: {
         en: "Sea + Avalanche. Calm and Powerful.",
-        jp: "",
+        jp: "Sea（海）とAvalanche（雪崩）の組み合わせ。穏やかでありながら強大な存在。",
     },
-    gender: { en: "Female", jp: "" },
-    species: { en: "Fox-like creature", jp: "" },
-    height: { en: "1.8 m", jp: "" },
-    weight: { en: "55 kg", jp: "" },
-    createdDate: { en: "31 March 2023", jp: "" },
+    gender: { en: "Female", jp: "女性" },
+    species: { en: "Fox-like creature", jp: "キツネのような生き物" },
+    height: { en: "1.8 m", jp: "1.8メートル" },
+    weight: { en: "55 kg", jp: "55キログラム" },
+    createdDate: { en: "31 March 2023", jp: "2023年3月31日" },
     attributes: ["Magical", "Water", "Psionic"],
     bio: {
         en: "It is said that when Vesnea reached the power of the Myth Seavalanche, she will look more elegant and powerful. She gained a part of Seava’s power in dire times.",
-        jp: "",
+        jp: "Vesneaが神話のSeavalancheの力を得たとき、彼女はより優雅で力強い姿になると言われている。彼女は危機の時にセアヴァの力の一部を手に入れた。",
     },
     moves: {
         en: [
@@ -41,63 +41,73 @@ const Seavalanche = {
             "Aqua Regeneration: Seavalanche can harness the innate power of water to heal her physical wounds and restore her vitality. This power accelerate her body’s natural healing processes, even able to heal from severe cuts and bruises.",
             "Lumina Burst: Seavalanche channels her fairy power to summon a concentrated beam of magical light, brimming with ethereal energy. The light radiates a dazzling brightness so intense it’s capable of piercing through darkness and obliterating obstacles in its path."
         ],
-        jp: ["", "", ""],
+        jp: [
+            "グレイシャル・カタクリズム：Seavalancheは周囲の温度を極限まで下げ、急速に広がる巨大な氷原を作り出す。巨大な氷の塊や吹雪が発生し、Seavalancheはその圧倒的な超能力で氷塊と凍える風を目標に投げつける。すべてを飲み込み、後には凍てついた荒野が残る。",
+            "スサイス・バラージュ：Seavalancheは鋭利な先端を持つ複数のスサイスを形成する。命令とともに、それらは連続して攻撃を繰り出し、絶え間ない氷の打撃の嵐で相手を圧倒する。あらゆる方向からの冷酷な攻撃が相手を打ちのめす。",
+            "サイキック・メイルストロム：Seavalancheは強力な精神波を次々と放ち、相手の精神を容赦なく叩きつける。",
+            "レヴィテーション：Seavalancheは超能力で空中浮遊する。",
+            "テレキネシス：Seavalancheは超能力で物を動かす。",
+            "ウォーター・ブリージング：Seavalancheは水の力で楽に泳ぎ、水中でも呼吸できる。",
+            "タイダル・フォース：Seavalancheはヒレから高圧の水流を発射する。その威力は山に穴を開けるほどと言われている。",
+            "アクア・リジェネレーション：Seavalancheは水の本質的な力を利用して、身体の傷を癒し活力を取り戻す。この力は彼女の自然治癒力を加速させ、深い傷さえも回復させる。",
+            "ルミナ・バースト：Seavalancheは妖精の力を使い、魔法の光の集中ビームを召喚する。その光はまばゆいほどの輝きを放ち、闇を貫き、障害物を消し去る力を持つ。",
+        ],
     },
     artworks: [
         {
             src: artwork00,
             title: "D26 - Seavalanche",
-            caption: { en: "The updated Seavalanche reference sheet.", jp: "" }
+            caption: { en: "The updated Seavalanche reference sheet.", jp: "最新版のSeavalanche設定資料。" }
         },
         {
             src: artwork01,
             title: "S63 - Seavalanche",
-            caption: { en: "The original Seavalanche artwork.", jp: "" }
+            caption: { en: "The original Seavalanche artwork.", jp: "初期のSeavalancheのアートワーク。" }
         },
         {
             src: artwork02,
             title: "S64 - Seavalanche",
-            caption: { en: "Seavalanche goes for a swim.", jp: "" }
+            caption: { en: "Seavalanche goes for a swim.", jp: "Seavalancheが泳ぎに行く。" }
         },
         {
             src: artwork03,
             title: "S65 - Seavalanche",
-            caption: { en: "A whimsical Seavalanche.", jp: "" }
+            caption: { en: "A whimsical Seavalanche.", jp: "気まぐれなSeavalanche。" }
         },
         {
             src: artwork04,
             title: "S85 - Seavalanche",
-            caption: { en: "Seavalanche's modest pose.", jp: "" }
+            caption: { en: "Seavalanche's modest pose.", jp: "控えめなポーズのSeavalanche。" }
         },
         {
             src: artwork05,
             title: "S128 - Seavalanche",
-            caption: { en: "Seavalanche showing the Magical power and the Water power.", jp: "" }
+            caption: { en: "Seavalanche showing the Magical power and the Water power.", jp: "Seavalancheが魔法の力と水の力を見せる。" }
         },
         {
             src: artwork06,
             title: "S141 - Seavalanche",
-            caption: { en: "Seavalanche relaxing at a bar.", jp: "" }
+            caption: { en: "Seavalanche relaxing at a bar.", jp: "バーでくつろぐSeavalanche。" }
         },
         {
             src: artwork07,
             title: "S157 - Seavalanche",
-            caption: { en: "Seavalanche waving.", jp: "" }
+            caption: { en: "Seavalanche waving.", jp: "手を振るSeavalanche。" }
         },
         {
             src: artwork08,
             title: "S159 - Seavalanche",
-            caption: { en: "Seavalanche appeared behind a pillar.", jp: "" }
+            caption: { en: "Seavalanche appeared behind a pillar.", jp: "柱の後ろから現れるSeavalanche。" }
         },
         {
             src: artwork09,
             title: "S162 - Matching Clothes",
-            caption: { en: "Seavalanche posing in a cute school uniform together with Vesnea and Seava.", jp: "" }
+            caption: { en: "Seavalanche posing in a cute school uniform together with Vesnea and Seava.", jp: "SeavalancheがVesneaとセアヴァと一緒に可愛い制服姿でポーズをとる。" }
         },
         {
             src: artwork10,
             title: "S173 - Seavalanche Day",
-            caption: { en: "Seavalanche hugging a sprigatito plush.", jp: "" }
+            caption: { en: "Seavalanche hugging a sprigatito plush.", jp: "Seavalancheがニャオハのぬいぐるみを抱きしめている。" }
         },
     ]
 };

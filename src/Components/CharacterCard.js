@@ -78,7 +78,9 @@ function CharacterCard({ character }) {
                         <div className='charcardProp'>{t("charcard.moves")}</div>
                         <ul className='charcardValue'>
                             {(character.moves[language] || character.moves.en).map((move, idx) => {
-                                const [moveName, moveDesc] = move.split(':');
+                                const [moveName, ...descParts] = move.split(/[:：]/);
+                                const moveDesc = descParts.join(/[:：]/);
+
                                 return (
                                     <li key={idx} className='move-list'>
                                         <span className="move-name">{moveName.trim()}</span>: {moveDesc.trim()}

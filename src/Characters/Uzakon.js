@@ -13,18 +13,18 @@ const Uzakon = {
     name: "Uzakon",
     alternateName: "",
     nameMeaning: {
-        en: "An arrangement of Korazu’s name and also 根気 (perserverance).",
-        jp: "",
+        en: "An arrangement of Korazu’s name and also 根気 (perseverance).",
+        jp: "Korazuの名前のアレンジであり、「根気（こんき）」の意味も込められている。",
     },
-    gender: { en: "Male", jp: "" },
-    species: { en: "Cat-bunny creature", jp: "" },
-    height: { en: "0.4 m", jp: "" },
-    weight: { en: "8 kg", jp: "" },
-    createdDate: { en: "4 January 2024", jp: "" },
+    gender: { en: "Male", jp: "男性" },
+    species: { en: "Cat-bunny creature", jp: "猫とうさぎのハイブリッドのような生き物" },
+    height: { en: "0.4 m", jp: "0.4メートル" },
+    weight: { en: "8 kg", jp: "8キログラム" },
+    createdDate: { en: "4 January 2024", jp: "2024年1月4日" },
     attributes: ["Darkness", "Aether"],
     bio: {
         en: "Uzakon is a half cat, half bunny creature that appeared around the time an elderly found Vesnea near a beach. Bearing the power of the moon, Uzakon will use the steady calmness to help the people he knows.",
-        jp: "",
+        jp: "Uzakonは猫とうさぎが混ざったような生き物で、お年寄りがVesneaを浜辺で見つけた頃に現れた。月の力を宿し、落ち着いた静けさで大切な人々を助ける。",
     },
     moves: {
         en: [
@@ -33,48 +33,53 @@ const Uzakon = {
             "Levitation: Celestial energy grants Uzakon the ability of levitation.",
             "Moonlight Beacon: Uzakon harnesses the calming power of the moon to illuminate even the darkest paths, guiding those who seek his help toward safety and clarity. However, those with ill intent who follow Uzakon feel their strength and will drained, forcing them to abandon their malicious intentions."
         ],
-        jp: ["", "", ""],
+        jp: [
+            "シャドウエクリプス：Uzakonは闇のマントを呼び出し、周囲を覆い尽くす。暗闇は敵の力と意志を吸い取り、混乱させ、無防備にする。その中にいる者たちは感覚が鈍り、動きが遅くなり、Uzakonの次の攻撃の餌食となる。強化されたこの技は、物体すらも闇により分解し、破壊の跡を残す。",
+            "ダークレジリエンス：Uzakonの揺るぎない根気が闇のマントとなって現れ、自身と仲間を包み込む。どんな困難にも動じず、周囲に試練を乗り越える力を与える。この技は仲間の意志を強めるだけでなく、敵の士気に影を落とし、Uzakonの不屈の決意に対抗する勇気を奪う。",
+            "浮遊：天のエネルギーにより、Uzakonは空中に浮かぶことができる。",
+            "ムーンライトビーコン：Uzakonは月の静かな力を使って、暗闇の道を照らす。助けを求める者を安全と明快さへと導くが、悪意を抱く者は力と意志を失い、悪意を捨てざるを得なくなる。"
+        ],
     },
     artworks: [
         {
             src: artwork00,
             title: "D18 - Korazu, Uzakon, and Zumiko",
-            caption: { en: "The original Seavalanche's Three Cats design.", jp: "" }
+            caption: { en: "The original Seavalanche's Three Cats design.", jp: "Seavalancheの三匹の猫たちの元デザイン。" }
         },
         {
             src: artwork01,
             title: "S113 - Korazu, Uzakon, Zumiko",
-            caption: { en: "The Seavalanche's Three Cats.", jp: "" }
+            caption: { en: "The Seavalanche's Three Cats.", jp: "Seavalancheの三匹の猫たち。" }
         },
         {
             src: artwork02,
             title: "S116 - Uzakon",
-            caption: { en: "Sleeping Uzakon.", jp: "" }
+            caption: { en: "Sleeping Uzakon.", jp: "眠っているUzakon。" }
         },
         {
             src: artwork03,
             title: "S134 - Uzakon",
-            caption: { en: "Uzakon rotating 360 degrees.", jp: "" }
+            caption: { en: "Uzakon rotating 360 degrees.", jp: "Uzakonが360度回転している。" }
         },
         {
             src: artwork04,
             title: "S142 - Uzakon",
-            caption: { en: "Nyehehehe.", jp: "" }
+            caption: { en: "Nyehehehe.", jp: "にぇへへへ〜。" }
         },
         {
             src: artwork05,
             title: "S156 - Uzakon",
-            caption: { en: "Seava pats Uzakon on the head.", jp: "" }
+            caption: { en: "Seava pats Uzakon on the head.", jp: "SeavaがUzakonの頭をなでている。" }
         },
         {
             src: artwork06,
             title: "S158 - Korazu, Uzakon, and Zumiko",
-            caption: { en: "The Seavalanche's Three Cats.", jp: "" }
+            caption: { en: "The Seavalanche's Three Cats.", jp: "Seavalancheの三匹の猫たち。" }
         },
         {
             src: artwork07,
             title: "S163 - Elemental Power",
-            caption: { en: "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.", jp: "" }
+            caption: { en: "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.", jp: "Korazuの太陽、Uzakonの月、Zumikoの火。" }
         },
     ]
 };
