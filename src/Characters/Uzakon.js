@@ -1,5 +1,12 @@
 import pfpUzakon from '../Assets/Characters/charcardPFP/PFP_Uzakon.png'
 import artwork00 from '../Assets/Characters/charcardArtwork/Uzakon/D18 - Korazu, Uzakon, and Zumiko_full ref.webp'
+import artwork01 from '../Assets/Characters/charcardArtwork/Uzakon/S113 - Korazu, Uzakon, Zumiko_wip2.webp'
+import artwork02 from '../Assets/Characters/charcardArtwork/Uzakon/S116 - Uzakon.webp'
+import artwork03 from '../Assets/Characters/charcardArtwork/Uzakon/S134 - Uzakon.gif'
+import artwork04 from '../Assets/Characters/charcardArtwork/Uzakon/S142 - Uzakon.webp'
+import artwork05 from '../Assets/Characters/charcardArtwork/Uzakon/S156 - Seava and Uzakon.webp'
+import artwork06 from '../Assets/Characters/charcardArtwork/Uzakon/S158 - Korazu, Uzakon, and Zumiko.webp'
+import artwork07 from '../Assets/Characters/charcardArtwork/Uzakon/S163 - Elemental Power_full.webp'
 const Uzakon = {
     id: "uzakon",
     profilePicture: pfpUzakon,
@@ -33,6 +40,41 @@ const Uzakon = {
             src: artwork00,
             title: "D18 - Korazu, Uzakon, and Zumiko",
             caption: { en: "The original Seavalanche's Three Cats design.", jp: "" }
+        },
+        {
+            src: artwork01,
+            title: "S113 - Korazu, Uzakon, Zumiko",
+            caption: { en: "The Seavalanche's Three Cats.", jp: "" }
+        },
+        {
+            src: artwork02,
+            title: "S116 - Uzakon",
+            caption: { en: "Sleeping Uzakon.", jp: "" }
+        },
+        {
+            src: artwork03,
+            title: "S134 - Uzakon",
+            caption: { en: "Uzakon rotating 360 degrees.", jp: "" }
+        },
+        {
+            src: artwork04,
+            title: "S142 - Uzakon",
+            caption: { en: "Nyehehehe.", jp: "" }
+        },
+        {
+            src: artwork05,
+            title: "S156 - Uzakon",
+            caption: { en: "Seava pats Uzakon on the head.", jp: "" }
+        },
+        {
+            src: artwork06,
+            title: "S158 - Korazu, Uzakon, and Zumiko",
+            caption: { en: "The Seavalanche's Three Cats.", jp: "" }
+        },
+        {
+            src: artwork07,
+            title: "S163 - Elemental Power",
+            caption: { en: "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.", jp: "" }
         },
     ]
 };

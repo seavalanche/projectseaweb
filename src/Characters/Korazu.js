@@ -1,5 +1,11 @@
 import pfpKorazu from '../Assets/Characters/charcardPFP/PFP_Korazu.png'
 import artwork00 from '../Assets/Characters/charcardArtwork/Korazu/D18 - Korazu, Uzakon, and Zumiko_full ref.webp'
+import artwork01 from '../Assets/Characters/charcardArtwork/Korazu/S113 - Korazu, Uzakon, Zumiko_wip2.webp'
+import artwork02 from '../Assets/Characters/charcardArtwork/Korazu/S118 - Korazu.webp'
+import artwork03 from '../Assets/Characters/charcardArtwork/Korazu/S133 - Korazu.webp'
+import artwork04 from '../Assets/Characters/charcardArtwork/Korazu/S139 - Korazu_pattern.webp'
+import artwork05 from '../Assets/Characters/charcardArtwork/Korazu/S158 - Korazu, Uzakon, and Zumiko.webp'
+import artwork06 from '../Assets/Characters/charcardArtwork/Korazu/S163 - Elemental Power_full.webp'
 const Korazu = {
     id: "korazu",
     profilePicture: pfpKorazu,
@@ -33,6 +39,36 @@ const Korazu = {
             src: artwork00,
             title: "D18 - Korazu, Uzakon, and Zumiko",
             caption: { en: "The original Seavalanche's Three Cats design.", jp: "" }
+        },
+        {
+            src: artwork01,
+            title: "S113 - Korazu, Uzakon, Zumiko",
+            caption: { en: "The Seavalanche's Three Cats.", jp: "" }
+        },
+        {
+            src: artwork02,
+            title: "S118 - Korazu",
+            caption: { en: "Korazu is licking a popsicle.", jp: "" }
+        },
+        {
+            src: artwork03,
+            title: "S133 - Korazu",
+            caption: { en: "Korazu on a cloud.", jp: "" }
+        },
+        {
+            src: artwork04,
+            title: "S139 - Korazu",
+            caption: { en: "Korazu with a modest pose.", jp: "" }
+        },
+        {
+            src: artwork05,
+            title: "S158 - Korazu, Uzakon, and Zumiko",
+            caption: { en: "The Seavalanche's Three Cats.", jp: "" }
+        },
+        {
+            src: artwork06,
+            title: "S163 - Elemental Power",
+            caption: { en: "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.", jp: "" }
         },
     ]
 };
