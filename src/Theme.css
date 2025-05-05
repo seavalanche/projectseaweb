@@ -41,6 +41,10 @@
   font-family: "F-CharCardAltName";
   src: url(./Assets/Fonts/constani.ttf);
 }
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url(./Assets/Fonts/OpenDyslexic-Regular.otf);
+}
 html {
   scroll-behavior: smooth;
 }

@@ -19,12 +19,6 @@ import AboutVesnea from './Pages/AboutVesnea.js'
 function App() {
   const [theme, setTheme] = useState("light");
 
-  // const toggleTheme = () => {
-  //   const newTheme = theme === "light" ? "dark" : theme === "dark" ? "moon" : "light";
-  //   setTheme(newTheme);
-  //   document.documentElement.setAttribute("data-theme", newTheme);
-  //   // localStorage.setItem("theme", newTheme);
-  // };
   const toggleTheme = (newTheme) => {
     setTheme(newTheme);
     document.documentElement.setAttribute("data-theme", newTheme);

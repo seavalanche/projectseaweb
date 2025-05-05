@@ -1,14 +1,23 @@
-// import useTranslation from '../useTranslation';
-// import { Link } from 'react-router-dom';
-const About = () => {
-    // const { t } = useTranslation();
+import StorySidebar from '../Components/StorySidebar'
+import StoryFnBar from '../Components/StoryFnBar'
+import StoryContent from '../Components/StoryContent'
+import { useState } from 'react'
+
+function Story() {
+    const [sidebarVisible, setSidebarVisible] = useState(true)
+
+    const toggleSidebar = () => setSidebarVisible(prev => !prev)
+
     return (
-        <div>
-            <div className='projectsshowcase'>
-                ( 🦺 Under Construction 🦺 )
+        <div className="story-1st-wrapper">
+            <StorySidebar visible={sidebarVisible} toggleSidebar={toggleSidebar} />
+            <div className="story-2nd-wrapper">
+                <StoryFnBar toggleSidebar={toggleSidebar} sidebarVisible={sidebarVisible} />
+                <StoryContent />
             </div>
         </div>
+
     )
 }
 
-export default About;
+export default Story;
