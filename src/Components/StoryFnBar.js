@@ -4,13 +4,13 @@ function StoryFnBar({ toggleSidebar, sidebarVisible }) {
     // State initialization with loading flag
     const [isLoaded, setIsLoaded] = useState(false);
     const [settings, setSettings] = useState({
-        fontSize: 16,
+        fontSize: '--Fs-Content',
         fontFamily: '--F-Content',
         fontColor: '#000000',
-        bgColor: '#ffffff',
-        contentPadding: 10,
-        lineHeight: 1.5,
-        paragraphGap: 16
+        bgColor: '--text-color-1b',
+        contentPadding: '--content-padding',
+        lineHeight: '--line-height',
+        paragraphGap: '--paragraph-gap'
     });
 
     // Get CSS defaults with proper unit handling
@@ -193,61 +193,81 @@ function StoryFnBar({ toggleSidebar, sidebarVisible }) {
                     {/* Font Size */}
                     <div className="fnbar-comps">
                         <span>Font Size:</span>
-                        <button onClick={() => adjustSetting('fontSize', -1)}>-</button>
-                        <input
-                            type="range"
-                            min="12"
-                            max="36"
-                            step="1"
-                            value={settings.fontSize}
-                            onChange={(e) => updateSetting('fontSize', e.target.value)}
-                        />
-                        <button onClick={() => adjustSetting('fontSize', 1)}>+</button>
+                        <div className="slider-wrapper">
+                            <button className="slider-btn" onClick={() => adjustSetting('fontSize', -1)}>-</button>
+                            <div className="slide-container">
+                                <input
+                                    className="slider"
+                                    type="range"
+                                    min="12"
+                                    max="36"
+                                    step="1"
+                                    value={settings.fontSize}
+                                    onChange={(e) => updateSetting('fontSize', e.target.value)}
+                                />
+                            </div>
+                            <button className="slider-btn" onClick={() => adjustSetting('fontSize', 1)}>+</button>
+                        </div>
                     </div>
 
                     {/* Padding */}
                     <div className="fnbar-comps">
                         <span>Padding:</span>
-                        <button onClick={() => adjustSetting('contentPadding', -1)}>-</button>
-                        <input
-                            type="range"
-                            min="1"
-                            max="25"
-                            step="1"
-                            value={settings.contentPadding}
-                            onChange={(e) => updateSetting('contentPadding', e.target.value)}
-                        />
-                        <button onClick={() => adjustSetting('contentPadding', 1)}>+</button>
+                        <div className="slider-wrapper">
+                            <button className="slider-btn" onClick={() => adjustSetting('contentPadding', -1)}>-</button>
+                            <div className="slide-container">
+                                <input
+                                    className="slider"
+                                    type="range"
+                                    min="1"
+                                    max="25"
+                                    step="1"
+                                    value={settings.contentPadding}
+                                    onChange={(e) => updateSetting('contentPadding', e.target.value)}
+                                />
+                            </div>
+                            <button className="slider-btn" onClick={() => adjustSetting('contentPadding', 1)}>+</button>
+                        </div>
                     </div>
 
                     {/* Line Spacing */}
                     <div className="fnbar-comps">
                         <span>Line Spacing:</span>
-                        <button onClick={() => adjustSetting('lineHeight', -0.1)}>-</button>
-                        <input
-                            type="range"
-                            min="1.0"
-                            max="3.0"
-                            step="0.1"
-                            value={settings.lineHeight}
-                            onChange={(e) => updateSetting('lineHeight', e.target.value)}
-                        />
-                        <button onClick={() => adjustSetting('lineHeight', 0.1)}>+</button>
+                        <div className="slider-wrapper">
+                            <button className="slider-btn" onClick={() => adjustSetting('lineHeight', -0.1)}>-</button>
+                            <div className="slide-container">
+                                <input
+                                    className="slider"
+                                    type="range"
+                                    min="1.0"
+                                    max="3.0"
+                                    step="0.1"
+                                    value={settings.lineHeight}
+                                    onChange={(e) => updateSetting('lineHeight', e.target.value)}
+                                />
+                            </div>
+                            <button className="slider-btn" onClick={() => adjustSetting('lineHeight', 0.1)}>+</button>
+                        </div>
                     </div>
 
                     {/* Paragraph Spacing */}
                     <div className="fnbar-comps">
                         <span>Paragraph Spacing:</span>
-                        <button onClick={() => adjustSetting('paragraphGap', -1)}>-</button>
-                        <input
-                            type="range"
-                            min="1"
-                            max="50"
-                            step="1"
-                            value={settings.paragraphGap}
-                            onChange={(e) => updateSetting('paragraphGap', e.target.value)}
-                        />
-                        <button onClick={() => adjustSetting('paragraphGap', 1)}>+</button>
+                        <div className="slider-wrapper">
+                            <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', -1)}>-</button>
+                            <div className="slide-container">
+                                <input
+                                    className="slider"
+                                    type="range"
+                                    min="1"
+                                    max="50"
+                                    step="1"
+                                    value={settings.paragraphGap}
+                                    onChange={(e) => updateSetting('paragraphGap', e.target.value)}
+                                />
+                            </div>
+                            <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', 1)}>+</button>
+                        </div>
                     </div>
                 </div>
 

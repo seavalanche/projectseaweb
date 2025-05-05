@@ -60,6 +60,10 @@ html {
   --F-Link: "F-Link";
   --F-CharCardName: "F-CharCardName";
   --F-CharCardAltName: "F-CharCardAltName";
+  /* Story page */
+  --content-padding: 10vw;
+  --line-height: 1.6;
+  --paragraph-gap: 10px;
 }
 
 /* These are the standard font sizes*/
@@ -1090,3 +1094,115 @@ html {
   color: var(--border-charcardPFP);
 }
 /* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */
+
+/* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */
+.story-1st-wrapper {
+  background: var(--bg-charcard);
+}
+/* Sidebar */
+.sidebar {
+  background: var(--bg-charcard);
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+.sidebar-btn {
+  background-color: var(--bg-color-3);
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardProp);
+  color: var(--text-charcard-value);
+  border: 1px solid var(--text-charcard-prop);
+  border-radius: 5px;
+}
+.sidebar-hidden {
+  pointer-events: none;
+  border: none;
+}
+.sidebar-btn:hover {
+  background-color: var(--bg-color-1);
+  border: 1px solid var(--text-charcard-value);
+  cursor: pointer;
+}
+.sidebar-toc-title {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardProp);
+  color: var(--text-charcard-prop);
+  font-style: italic;
+}
+.sidebar-toc-list {
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardValue);
+  color: var(--text-charcard-value);
+  font-style: italic;
+  cursor: pointer;
+}
+
+/* Main content area */
+.function-bar {
+  background-color: var(--bg-color-1);
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardProp);
+  color: var(--text-charcard-value);
+}
+.function-bar.hidden {
+  pointer-events: none;
+}
+.function-bar button {
+  background-color: var(--bg-color-3);
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardProp);
+  color: var(--text-charcard-value);
+  cursor: pointer;
+  border: 1px solid var(--text-charcard-prop);
+}
+.function-bar button:hover {
+  background-color: var(--active-tab-charcard);
+  color: var(--active-tab-charcard-text);
+  border: 1px solid var(--text-charcard-value);
+}
+.function-bar input[type="color"] {
+  border-radius: 5px;
+  border: 2px solid var(--bg-color-1);
+}
+#story-content-wrapper {
+  background-color: var(--bg-color-3);
+  font-family: var(--F-Content);
+  font-size: var(--Fs-Content);
+  color: var(--text-color-1b);
+}
+.story-title {
+  font-family: var(--F-Title);
+}
+.slider-wrapper {
+  border-radius: 5px;
+  border: 1px solid var(--text-charcard-prop);
+  background-color: var(--bg-color-3);
+}
+.slider-wrapper:hover {
+  border: 1px solid var(--text-charcard-value);
+}
+.function-bar .slider-btn {
+  background-color: var(--bg-color-3);
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardProp);
+  color: var(--text-charcard-value);
+  border: none;
+  cursor: pointer;
+}
+.function-bar .slider-btn:hover {
+  background-color: var(--active-tab-charcard);
+  color: var(--active-tab-charcard-text);
+  border: none;
+}
+.slider {
+  background-color: var(--bg-color-3);
+  outline: none;
+}
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb, .slider::-moz-range-thumb {
+  background-color: transparent;
+  background-image: url("Assets/Characters/charcardPFP/PFP_Vesnea.png");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+}
+/* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */
