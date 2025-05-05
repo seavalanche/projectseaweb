@@ -2111,7 +2111,6 @@ html {
 /* Sidebar */
 .sidebar {
   overflow: hidden;
-  position: sticky;
   width: 200px;
   top: 65px;
   left: 0;
@@ -2120,6 +2119,8 @@ html {
   transition: opacity 0.5s ease;
   opacity: 1;
   z-index: 1;
+  height: 100%;
+  position: sticky;
 }
 .sidebar-hidden {
   width: 0;
@@ -2180,25 +2181,6 @@ html {
 .function-bar input[type="color"] {
   width: 30px;
   height: 30px;
-}
-.fnbar-main {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.fnbar-sub {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .fnbar-comps {
   display: flex;
