@@ -1,130 +1,133 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 
 function StoryFnBar({ toggleSidebar, sidebarVisible }) {
-    const [fontSize, setFontSize] = useState('--Fs-Content');
-    const [fontFamily, setFontFamily] = useState('--F-Content');
-    const [fontColor, setFontColor] = useState('--text-color-1b');
-    const [bgColor, setBgColor] = useState('--bg-color-3');
-    const [contentPadding, setContentPadding] = useState('2rem 10rem');
-    const [lineHeight, setLineHeight] = useState('1.6');
-    const [paragraphGap, setParagraphGap] = useState('10px');
+    // State initialization with loading flag
+    const [isLoaded, setIsLoaded] = useState(false);
+    const [settings, setSettings] = useState({
+        fontSize: 16,
+        fontFamily: '--F-Content',
+        fontColor: '#000000',
+        bgColor: '#ffffff',
+        contentPadding: 10,
+        lineHeight: 1.5,
+        paragraphGap: 16
+    });
 
-    const loadDefaultsFromCSS = () => {
+    // Get CSS defaults with proper unit handling
+    const getCSSDefaults = useCallback(() => {
         const root = document.documentElement;
         const styles = getComputedStyle(root);
 
-        return {
-            size: styles.getPropertyValue('--Fs-Content').trim(),
-            family: styles.getPropertyValue('--story-font').trim(),
-            color: styles.getPropertyValue('--text-color-1b').trim(),
-            bg: styles.getPropertyValue('--bg-color-3').trim(),
-            padding: styles.getPropertyValue('--story-padding').trim(),
-            lineHeight: styles.getPropertyValue('--line-height').trim(),
-            paragraphGap: styles.getPropertyValue('--paragraph-gap').trim()
+        const getNumericValue = (varName) => {
+            const value = styles.getPropertyValue(varName).trim();
+            return parseFloat(value);
         };
-    };
 
-    const clearManualOverrides = () => {
-        const root = document.documentElement;
-        root.style.removeProperty('--Fs-Content');
-        root.style.removeProperty('--F-Content');
-        root.style.removeProperty('--text-color-1b');
-        root.style.removeProperty('--bg-color-3');
-        root.style.removeProperty('--Content-Padding');
-        root.style.removeProperty('--line-height');
-        root.style.removeProperty('--paragraph-gap');
-    };
-
-    useEffect(() => {
-        const observer = new MutationObserver(() => {
-            clearManualOverrides();
-        });
-
-        observer.observe(document.documentElement, {
-            attributes: true,
-            attributeFilter: ['data-theme']
-        });
-
-        return () => observer.disconnect();
+        return {
+            fontSize: getNumericValue('--Fs-Content'),
+            fontFamily: styles.getPropertyValue('--F-Content').trim(),
+            fontColor: styles.getPropertyValue('--text-color-1b').trim(),
+            bgColor: styles.getPropertyValue('--bg-color-3').trim(),
+            contentPadding: getNumericValue('--content-padding'),
+            lineHeight: getNumericValue('--line-height'),
+            paragraphGap: getNumericValue('--paragraph-gap')
+        };
     }, []);
 
-    const resetToDefault = () => {
-        localStorage.removeItem('fontSize');
-        localStorage.removeItem('fontFamily');
-        localStorage.removeItem('fontColor');
-        localStorage.removeItem('bgColor');
-        localStorage.removeItem('contentPadding');
-        localStorage.removeItem('lineHeight');
-        localStorage.removeItem('paragraphGap');
-
-        const { size, family, color, bg, padding } = loadDefaultsFromCSS();
-
-        setFontSize(size);
-        setFontFamily(family);
-        setFontColor(color);
-        setBgColor(bg);
-        setContentPadding(padding);
-        setLineHeight(lineHeight);
-        setParagraphGap(paragraphGap);
-
-        applyStyle(size, family, color, bg, padding, lineHeight, paragraphGap);
-    };
-
-    const applyStyle = (size, family, color, bg, padding, lineHeight, paragraphGap) => {
+    // Apply styles to DOM
+    const applyStyles = useCallback(() => {
         const root = document.getElementById('story-content-wrapper');
+        if (!root) return;
 
-        if (root) {
-            root.style.setProperty('--Fs-Content', size);
-            root.style.setProperty('--F-Content', family);
-            root.style.setProperty('--text-color-1b', color);
-            root.style.setProperty('--bg-color-3', bg);
-            root.style.setProperty('--Content-Padding', padding);
-            root.style.setProperty('--line-height', lineHeight);
-            root.style.setProperty('--paragraph-gap', paragraphGap);
-        }
+        root.style.setProperty('--Fs-Content', `${settings.fontSize}pt`);
+        root.style.setProperty('--F-Content', settings.fontFamily);
+        root.style.setProperty('--text-color-1b', settings.fontColor);
+        root.style.setProperty('--bg-color-3', settings.bgColor);
+        root.style.setProperty('--content-padding', `${settings.contentPadding}vw`);
+        root.style.setProperty('--line-height', settings.lineHeight);
+        root.style.setProperty('--paragraph-gap', `${settings.paragraphGap}px`);
+    }, [settings]);
+
+    // Load initial settings
+    useEffect(() => {
+        const loadSettings = () => {
+            const cssDefaults = getCSSDefaults();
+            const savedSettings = {
+                fontSize: parseFloat(localStorage.getItem('fontSize')) || cssDefaults.fontSize,
+                fontFamily: localStorage.getItem('fontFamily') || cssDefaults.fontFamily,
+                fontColor: localStorage.getItem('fontColor') || cssDefaults.fontColor,
+                bgColor: localStorage.getItem('bgColor') || cssDefaults.bgColor,
+                contentPadding: parseFloat(localStorage.getItem('contentPadding')) || cssDefaults.contentPadding,
+                lineHeight: parseFloat(localStorage.getItem('lineHeight')) || cssDefaults.lineHeight,
+                paragraphGap: parseFloat(localStorage.getItem('paragraphGap')) || cssDefaults.paragraphGap
+            };
+
+            setSettings(savedSettings);
+            setIsLoaded(true);
+        };
+
+        loadSettings();
+    }, [getCSSDefaults]);
+
+    // Apply styles when settings change
+    useEffect(() => {
+        if (!isLoaded) return;
+        applyStyles();
+    }, [isLoaded, settings, applyStyles]);
+
+    // Reset to CSS defaults
+    const resetToDefault = () => {
+        const cssDefaults = getCSSDefaults();
+        setSettings(cssDefaults);
+
+        // Clear localStorage
+        Object.keys(cssDefaults).forEach(key => {
+            localStorage.removeItem(key);
+        });
     };
 
-    const changeFontSize = (direction) => {
-        let size = parseInt(fontSize);
-        size = direction === 'up' ? size + 2 : size - 2;
-        const newSize = `${size}pt`;
-        setFontSize(newSize);
-        localStorage.setItem('fontSize', newSize);
-        applyStyle(newSize, fontFamily, fontColor, bgColor, contentPadding, lineHeight, paragraphGap);
+    // Update numeric settings with constraints
+    const updateSetting = (key, value) => {
+        let newValue = parseFloat(value);
+
+        // Apply constraints
+        if (key === 'fontSize') newValue = Math.max(12, Math.min(36, newValue));
+        if (key === 'contentPadding') newValue = Math.max(1, Math.min(25, newValue));
+        if (key === 'lineHeight') newValue = Math.max(1.0, Math.min(3.0, newValue));
+        if (key === 'paragraphGap') newValue = Math.max(1, Math.min(50, newValue));
+
+        const newSettings = {
+            ...settings,
+            [key]: newValue
+        };
+
+        setSettings(newSettings);
+        localStorage.setItem(key, newValue);
     };
 
-    const changePadding = (newPadding) => {
-        setContentPadding(newPadding);
-        localStorage.setItem('contentPadding', newPadding);
-        applyStyle(fontSize, fontFamily, fontColor, bgColor, newPadding, lineHeight, paragraphGap);
-    };
-    const changeLineHeight = (newLineHeight) => {
-        setLineHeight(newLineHeight);
-        localStorage.setItem('lineHeight', newLineHeight);
-        applyStyle(fontSize, fontFamily, fontColor, bgColor, contentPadding, newLineHeight, paragraphGap);
-    };
-    const changeParagraphGap = (newParagraphGap) => {
-        setParagraphGap(newParagraphGap);
-        localStorage.setItem('paragraphGap', newParagraphGap);
-        applyStyle(fontSize, fontFamily, fontColor, bgColor, contentPadding, lineHeight, newParagraphGap);
+    // Handle button adjustments
+    const adjustSetting = (key, delta) => {
+        updateSetting(key, settings[key] + delta);
     };
 
-    const changeFontFamily = (family) => {
-        setFontFamily(family);
+    // Handle color changes
+    const handleColorChange = (key, color) => {
+        const newSettings = {
+            ...settings,
+            [key]: color
+        };
+        setSettings(newSettings);
+        localStorage.setItem(key, color);
+    };
+
+    // Handle font family change
+    const handleFontFamilyChange = (family) => {
+        const newSettings = {
+            ...settings,
+            fontFamily: family
+        };
+        setSettings(newSettings);
         localStorage.setItem('fontFamily', family);
-        applyStyle(fontSize, family, fontColor, bgColor, contentPadding, lineHeight, paragraphGap);
-    };
-
-    const changeFontColor = (color) => {
-        setFontColor(color);
-        localStorage.setItem('fontColor', color);
-        applyStyle(fontSize, fontFamily, color, bgColor, contentPadding, lineHeight, paragraphGap);
-    };
-
-    const changeBgColor = (color) => {
-        setBgColor(color);
-        localStorage.setItem('bgColor', color);
-        applyStyle(fontSize, fontFamily, fontColor, color, contentPadding, lineHeight, paragraphGap);
     };
 
     const [isVisible, setIsVisible] = useState(true);
@@ -176,56 +179,111 @@ function StoryFnBar({ toggleSidebar, sidebarVisible }) {
         };
     }, [screenSize]);
 
+
+    if (!isLoaded) return null;
+
     return (
         <div className={`function-bar ${isVisible ? 'visible' : 'hidden'}`}>
             <div className={`sidebar-btn ${isVisible ? 'visible' : 'hidden'}`} onClick={toggleSidebar}>
                 {sidebarVisible ? '←' : '→'}
             </div>
+
             <div className="fnbar-main">
                 <div className="fnbar-sub">
+                    {/* Font Size */}
                     <div className="fnbar-comps">
                         <span>Font Size:</span>
-                        <button onClick={() => changeFontSize('down')}>A-</button>
-                        <button onClick={() => changeFontSize('up')}>A+</button>
+                        <button onClick={() => adjustSetting('fontSize', -1)}>-</button>
+                        <input
+                            type="range"
+                            min="12"
+                            max="36"
+                            step="1"
+                            value={settings.fontSize}
+                            onChange={(e) => updateSetting('fontSize', e.target.value)}
+                        />
+                        <button onClick={() => adjustSetting('fontSize', 1)}>+</button>
                     </div>
+
+                    {/* Padding */}
                     <div className="fnbar-comps">
                         <span>Padding:</span>
-                        <button onClick={() => changePadding('2rem 5vw')}>1</button>
-                        <button onClick={() => changePadding('2rem 10vw')}>2</button>
-                        <button onClick={() => changePadding('2rem 15vw')}>3</button>
+                        <button onClick={() => adjustSetting('contentPadding', -1)}>-</button>
+                        <input
+                            type="range"
+                            min="1"
+                            max="25"
+                            step="1"
+                            value={settings.contentPadding}
+                            onChange={(e) => updateSetting('contentPadding', e.target.value)}
+                        />
+                        <button onClick={() => adjustSetting('contentPadding', 1)}>+</button>
                     </div>
+
+                    {/* Line Spacing */}
                     <div className="fnbar-comps">
                         <span>Line Spacing:</span>
-                        <button onClick={() => changeLineHeight('1.4')}>1</button>
-                        <button onClick={() => changeLineHeight('1.6')}>2</button>
-                        <button onClick={() => changeLineHeight('2.0')}>3</button>
+                        <button onClick={() => adjustSetting('lineHeight', -0.1)}>-</button>
+                        <input
+                            type="range"
+                            min="1.0"
+                            max="3.0"
+                            step="0.1"
+                            value={settings.lineHeight}
+                            onChange={(e) => updateSetting('lineHeight', e.target.value)}
+                        />
+                        <button onClick={() => adjustSetting('lineHeight', 0.1)}>+</button>
                     </div>
+
+                    {/* Paragraph Spacing */}
                     <div className="fnbar-comps">
                         <span>Paragraph Spacing:</span>
-                        <button onClick={() => changeParagraphGap('5px')}>1</button>
-                        <button onClick={() => changeParagraphGap('10px')}>2</button>
-                        <button onClick={() => changeParagraphGap('20px')}>3</button>
+                        <button onClick={() => adjustSetting('paragraphGap', -1)}>-</button>
+                        <input
+                            type="range"
+                            min="1"
+                            max="50"
+                            step="1"
+                            value={settings.paragraphGap}
+                            onChange={(e) => updateSetting('paragraphGap', e.target.value)}
+                        />
+                        <button onClick={() => adjustSetting('paragraphGap', 1)}>+</button>
                     </div>
                 </div>
+
                 <div className="fnbar-sub">
+                    {/* Font Family */}
                     <div className="fnbar-comps">
                         <span>Font:</span>
-                        <button onClick={() => changeFontFamily('F-Content')}>Montserrat</button>
-                        <button onClick={() => changeFontFamily('Quicksand')}>Quicksand</button>
-                        <button onClick={() => changeFontFamily('Open Sans')}>Open Sans</button>
-                        <button onClick={() => changeFontFamily('OpenDyslexic')}>Open Dyslexic</button>
-                        <button onClick={() => changeFontFamily('F-Title')}>Lora</button>
-                        <button onClick={() => changeFontFamily('F-CharCardName')}>Constantia</button>
-                        <button onClick={() => changeFontFamily('Roboto Light')}>Roboto Light</button>
+                        <button onClick={() => handleFontFamilyChange('F-Content')}>Montserrat</button>
+                        <button onClick={() => handleFontFamilyChange('Quicksand')}>Quicksand</button>
+                        <button onClick={() => handleFontFamilyChange('Open Sans')}>Open Sans</button>
+                        <button onClick={() => handleFontFamilyChange('OpenDyslexic')}>Open Dyslexic</button>
+                        <button onClick={() => handleFontFamilyChange('F-Title')}>Lora</button>
+                        <button onClick={() => handleFontFamilyChange('F-CharCardName')}>Constantia</button>
+                        <button onClick={() => handleFontFamilyChange('Roboto Light')}>Roboto Light</button>
                     </div>
+
+                    {/* Text Color */}
                     <div className="fnbar-comps">
                         <span>Text Color:</span>
-                        <input type="color" value={fontColor} onChange={(e) => changeFontColor(e.target.value)} />
+                        <input
+                            type="color"
+                            value={settings.fontColor}
+                            onChange={(e) => handleColorChange('fontColor', e.target.value)}
+                        />
                     </div>
+
+                    {/* Background Color */}
                     <div className="fnbar-comps">
                         <span>Background:</span>
-                        <input type="color" value={bgColor} onChange={(e) => changeBgColor(e.target.value)} />
+                        <input
+                            type="color"
+                            value={settings.bgColor}
+                            onChange={(e) => handleColorChange('bgColor', e.target.value)}
+                        />
                     </div>
+
                     <button onClick={resetToDefault}>Default</button>
                 </div>
             </div>

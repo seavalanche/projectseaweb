@@ -2280,7 +2280,12 @@ html {
   font-family: var(--F-Content);
   font-size: var(--Fs-Content);
   color: var(--text-color-1b);
-  padding: var(--Content-Padding, 2rem 10vw);
+  --content-padding: 10vw;
+  padding: var(--content-padding, 10vw);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* --content-padding: 2rem 10vw;
+  padding: var(--content-padding, 2rem 10vw); */
   line-height: var(--line-height, 1.6);
   row-gap: var(--paragraph-gap, 10px);
 }
