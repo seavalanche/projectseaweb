@@ -1207,273 +1207,48 @@ html {
   cursor: pointer;
 }
 @media only screen and (max-width: 1200px) {
-  .fnbar-font-family-title {
-    display: none;
-  }
-  .fnbar-default-sub {
-    display: none;
-  }
-
-  /* fnbar-main */
-  .fnbar-main {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 5vw;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80vw;
-  }
-  .fnbar-main button {
-    margin-right: initial;
-  }
-  .fnbar-sub {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 60vw;
-    gap: 10px;
-    margin-left: auto;
-    margin-right: auto;
+  .function-bar {
+    background-color: color-mix(in srgb, var(--bg-color-1) 75%, transparent);
+    font-family: var(--F-Content);
+    font-size: var(--Fs-CharCardProp);
+    color: var(--text-charcard-value);
   }
 
-  /* .fnbar-sub-sizes */
-  .fnbar-sub-sizes {
-    display: flex;
-    gap: 8px;
+  .sidebar-btn-mobile {
+    background-color: var(--bg-color-3);
+    font-family: var(--F-Content);
+    font-size: var(--Fs-CharCardProp);
+    color: var(--text-charcard-value);
+    border: 1px solid var(--text-charcard-prop);
+    border-radius: 5px;
   }
-  .fnbar-sub-sizes-part {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: end;
-    gap: 8px;
-  }
-  .fnbar-sub-sizes .fnbar-comps {
-    justify-content: end;
-    padding-left: 10px;
-  }
-
-  /* .fnbar-sub-styles */
-  .fnbar-sub-styles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  .fnbar-sub-fonts {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    gap: 8px;
-  }
-  .fnbar-sub-fonts .fnbar-comps {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .fnbar-comps.font-family {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .fnbar-sub-colors {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-  }
-
-  /* fnbar-sub-menu */
-  .fnbar-sub-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  .fnbar-sub-menu button {
-    width: 100px;
+  .fnbar-default-menu {
+    background-color: var(--bg-color-3);
+    font-family: var(--F-Content);
+    font-size: var(--Fs-CharCardProp);
+    color: var(--text-charcard-value);
+    border: 1px solid var(--text-charcard-prop);
+    border-radius: 5px;
   }
 
   /* sementara */ /* sementara */ /* sementara */
   .sidebar {
-    display: none;
+    width: calc(100vw - 2rem);
+    top: auto;
+    left: auto;
+    bottom: calc(var(--Fs-CharCardProp) + 34px);
+    opacity: 0.9;
+    z-index: 4;
+    position: sticky;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: column;
   }
-  .fnbar-sub-sizes {
-    display: none;
-  }
-  .fnbar-sub-styles {
-    display: none;
-  }
-  .fnbar-sub-menu {
-    display: none;
+  .sidebar ul, .sidebar-toc-title {
+    margin-left: 50px;
   }
   /* sementara */ /* sementara */ /* sementara */
-}
-
-@media only screen and (min-width: 1201px) and (max-width: 1670px) {
-  .fnbar-font-family-title {
-    display: none;
-  }
-  .fnbar-default-sub {
-    display: none;
-  }
-
-  /* fnbar-main */
-  .fnbar-main {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 5vw;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80vw;
-  }
-  .fnbar-main button {
-    margin-right: initial;
-  }
-  .fnbar-sub {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 60vw;
-    gap: 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* .fnbar-sub-sizes */
-  .fnbar-sub-sizes {
-    display: flex;
-    gap: 8px;
-  }
-  .fnbar-sub-sizes-part {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: end;
-    gap: 8px;
-  }
-  .fnbar-sub-sizes .fnbar-comps {
-    justify-content: end;
-    padding-left: 10px;
-  }
-
-  /* .fnbar-sub-styles */
-  .fnbar-sub-styles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  .fnbar-sub-fonts {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    gap: 8px;
-  }
-  .fnbar-sub-fonts .fnbar-comps {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .fnbar-comps.font-family {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .fnbar-sub-colors {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-  }
-
-  /* fnbar-sub-menu */
-  .fnbar-sub-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  .fnbar-sub-menu button {
-    width: 100px;
-  }
-}
-
-@media only screen and (min-width: 1671px) {
-  /* fnbar-sub-menu */
-  .fnbar-sub-menu {
-    display: none;
-  }
-
-  /* fnbar-main */
-  .fnbar-main {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 5vw;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90vw;
-  }
-  .fnbar-main button {
-    margin-right: initial;
-  }
-  .fnbar-sub {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* .fnbar-sub-sizes */
-  .fnbar-sub-sizes {
-    display: flex;
-    gap: 20px;
-  }
-  .fnbar-sub-sizes-part {
-    display: flex;
-    gap: 20px;
-  }
-
-  /* .fnbar-sub-styles */
-  .fnbar-sub-styles {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-  }
-  .fnbar-sub-fonts {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-  }
-  .fnbar-sub-fonts .fnbar-comps {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .fnbar-comps.font-family {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .fnbar-sub-colors {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
 }
 /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */
