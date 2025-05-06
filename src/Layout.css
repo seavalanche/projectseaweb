@@ -2199,8 +2199,8 @@ html {
   align-items: center;
   justify-content: center;
   padding: var(--content-padding);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
   line-height: var(--line-height);
   row-gap: var(--paragraph-gap);
   transition: all 0.3s ease;
