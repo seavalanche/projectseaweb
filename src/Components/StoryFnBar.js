@@ -17,7 +17,7 @@ function StoryFnBar({ toggleSidebar, sidebarVisible, currentChapter, setCurrentC
     useEffect(() => {
         const checkScreenSize = () => {
             const width = window.innerWidth;
-            const inRange = width >= 1201 && width <= 1675;
+            const inRange = width >= 1201 && width <= 1670;
             const isSmall = width < 1200;
 
             setIsBetweenSizes(inRange);
@@ -169,7 +169,7 @@ function StoryFnBar({ toggleSidebar, sidebarVisible, currentChapter, setCurrentC
                     {sidebarVisible ? '↑' : '↓'}
                 </div>
                 {prevChapter && (
-                    <button onClick={() => setCurrentChapter(prevChapter.id)}>
+                    <button className="chapter-nav-sub-btn" onClick={() => setCurrentChapter(prevChapter.id)}>
                         &lt;
                     </button>
                 )}
@@ -187,7 +187,7 @@ function StoryFnBar({ toggleSidebar, sidebarVisible, currentChapter, setCurrentC
                     Styles
                 </button>
                 {nextChapter && (
-                    <button onClick={() => setCurrentChapter(nextChapter.id)}>
+                    <button className="chapter-nav-sub-btn" onClick={() => setCurrentChapter(nextChapter.id)}>
                         &gt;
                     </button>
                 )}
@@ -287,7 +287,7 @@ function StoryFnBar({ toggleSidebar, sidebarVisible, currentChapter, setCurrentC
 
         // Apply constraints
         if (key === 'fontSize') newValue = Math.max(8, Math.min(36, newValue));
-        if (key === 'contentPadding') newValue = Math.max(1, Math.min(25, newValue));
+        if (key === 'contentPadding') newValue = Math.max(1, Math.min(40, newValue));
         if (key === 'lineHeight') newValue = Math.max(1.0, Math.min(3.0, newValue));
         if (key === 'paragraphGap') newValue = Math.max(1, Math.min(50, newValue));
 
@@ -429,7 +429,7 @@ function StoryFnBar({ toggleSidebar, sidebarVisible, currentChapter, setCurrentC
                                                 className="slider"
                                                 type="range"
                                                 min="1"
-                                                max="25"
+                                                max="40"
                                                 step="1"
                                                 value={settings.contentPadding}
                                                 onChange={(e) => updateSetting('contentPadding', e.target.value)}
@@ -487,15 +487,22 @@ function StoryFnBar({ toggleSidebar, sidebarVisible, currentChapter, setCurrentC
                                 display: isBetweenSizes ? (showSizes ? 'none' : 'flex') : 'flex',
                             }}
                         >
+                            <div className="chapter-nav">
+                                {prevChapter && (
+                                    <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(prevChapter.id)}>
+                                        ← {prevChapter.title.substring(0, 15)}{prevChapter.title.length > 15 ? '...' : ''}
+                                    </button>
+                                )}
+                            </div>
                             <div className="fnbar-sub-fonts">
                                 {/* Font Family */}
                                 <div className="fnbar-comps font-family">
                                     <span className="fnbar-font-family-title">Font:</span>
-                                    <button onClick={() => handleFontFamilyChange('F-Content')}>Montserrat</button>
+                                    {/* <button onClick={() => handleFontFamilyChange('F-Content')}>Montserrat</button> */}
                                     <button onClick={() => handleFontFamilyChange('Quicksand')}>Quicksand</button>
                                     <button onClick={() => handleFontFamilyChange('Open Sans')}>Open Sans</button>
                                     <button onClick={() => handleFontFamilyChange('OpenDyslexic')}>Open Dyslexic</button>
-                                    <button onClick={() => handleFontFamilyChange('F-Title')}>Lora</button>
+                                    {/* <button onClick={() => handleFontFamilyChange('F-Title')}>Lora</button> */}
                                     <button onClick={() => handleFontFamilyChange('F-CharCardName')}>Constantia</button>
                                     <button onClick={() => handleFontFamilyChange('Roboto Light')}>Roboto Light</button>
                                 </div>
@@ -522,20 +529,15 @@ function StoryFnBar({ toggleSidebar, sidebarVisible, currentChapter, setCurrentC
                                 </div>
                             </div>
                             <button className="fnbar-default-sub" onClick={resetToDefault}>Reset</button>
+                            <div className="chapter-nav">
+                                {nextChapter && (
+                                    <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(nextChapter.id)}>
+                                        {nextChapter.title.substring(0, 15)}{nextChapter.title.length > 15 ? '...' : ''} →
+                                    </button>
+                                )}
+                            </div>
                         </div>
                     </div>
-                    {prevChapter && (
-                        <button onClick={() => setCurrentChapter(prevChapter.id)}>
-                            {/* ← {prevChapter.title} */}
-                            ← {prevChapter.title.substring(0, 20)}{prevChapter.title.length > 20 ? '...' : ''}
-                        </button>
-                    )}
-                    {nextChapter && (
-                        <button onClick={() => setCurrentChapter(nextChapter.id)}>
-                            {/* {nextChapter.title} → */}
-                            {nextChapter.title.substring(0, 20)}{nextChapter.title.length > 20 ? '...' : ''} →
-                        </button>
-                    )}
                     {isBetweenSizes && (
                         <div className="fnbar-sub-menu">
                             {showSizes && (
@@ -548,9 +550,26 @@ function StoryFnBar({ toggleSidebar, sidebarVisible, currentChapter, setCurrentC
                                     Sizes
                                 </button>
                             )}
-                            <button className="fnbar-default-menu" onClick={resetToDefault}>Default</button>
+                            <button className="fnbar-default-menu" onClick={resetToDefault}>Reset</button>
+                            <div className="chapter-nav">
+                                {prevChapter && (
+                                    <button onClick={() => setCurrentChapter(prevChapter.id)}>
+                                        {/* ← {prevChapter.title} */}
+                                        {/* ← {prevChapter.title.substring(0, 20)}{prevChapter.title.length > 20 ? '...' : ''} */}
+                                        &lt;
+                                    </button>
+                                )}
+                                {nextChapter && (
+                                    <button onClick={() => setCurrentChapter(nextChapter.id)}>
+                                        {/* {nextChapter.title} → */}
+                                        {/* {nextChapter.title.substring(0, 20)}{nextChapter.title.length > 20 ? '...' : ''} → */}
+                                        &gt;
+                                    </button>
+                                )}
+                            </div>
                         </div>
                     )}
+
                 </div>
             )}
         </div>

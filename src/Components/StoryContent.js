@@ -2,8 +2,10 @@ import { useEffect, useState } from 'react';
 import { getBookmark, saveBookmark } from '../Components/StoryBookmark'
 
 // Import your chapter components
+import Prologue from '../Pages/Chapters/Prologue';
 import Chapter1 from '../Pages/Chapters/Chapter1';
 import Chapter2 from '../Pages/Chapters/Chapter2';
+import Chapter3 from '../Pages/Chapters/Chapter3';
 // Import more chapters as needed
 
 function StoryContent({ chapterId }) {
@@ -32,11 +34,15 @@ function StoryContent({ chapterId }) {
 
     // Render the selected chapter
     const renderChapter = () => {
-        switch(chapterId) {
+        switch (chapterId) {
+            case 'prologue':
+                return <Prologue />;
             case 'chapter1':
                 return <Chapter1 />;
             case 'chapter2':
                 return <Chapter2 />;
+            case 'chapter3':
+                return <Chapter3 />;
             // Add more cases as needed
             default:
                 return <Chapter1 />;

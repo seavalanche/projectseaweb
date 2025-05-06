@@ -36,6 +36,7 @@ function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect 
                                     onClick={() => onChapterSelect(chapter.id)}
                                 >
                                     <div className="chapter-title">{chapter.title}</div>
+                                    <div className="chapter-desc">{chapter.description}</div>
                                     {chapter.wordCount && (
                                         <div className="chapter-meta">
                                             {Math.ceil(chapter.wordCount / 200)} min read

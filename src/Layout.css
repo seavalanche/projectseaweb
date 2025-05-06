@@ -2154,6 +2154,19 @@ html {
 .sidebar-toc-title {
   margin-bottom: 5px;
 }
+/* Search styles */
+.sidebar-search {
+  padding: 0 10px 10px 0px;
+  margin-bottom: 10px;
+}
+.sidebar-search input {
+  width: 100%;
+  padding: 8px;
+}
+/* Chapter meta styles */
+.chapter-meta {
+  margin-top: 2px;
+}
 
 /* Main content area */
 .main {
@@ -2196,7 +2209,7 @@ html {
 #story-content-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   padding: var(--content-padding);
   padding-top: 50px;
@@ -2207,6 +2220,7 @@ html {
 }
 .story-title {
   margin-bottom: 1rem;
+  text-align: center;
 }
 .slider-wrapper {
   display: flex;
@@ -2251,6 +2265,11 @@ html {
   }
   .sidebar-btn {
     display: none;
+  }
+
+  /* Sidebar */
+  .sidebar-search {
+    margin-left: 50px;
   }
 
   .function-bar {
@@ -2350,6 +2369,9 @@ html {
   .fnbar-sub-menu button {
     width: 80px;
   }
+  .fnbar-sub-menu .chapter-nav-sub-btn {
+    width: 30px;
+  }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1670px) {
   .fnbar-font-family-title {
@@ -2365,7 +2387,7 @@ html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 5vw;
+    gap: 2vw;
     margin-left: auto;
     margin-right: auto;
     max-width: 80vw;
@@ -2442,6 +2464,23 @@ html {
   .fnbar-sub-menu button {
     width: 100px;
   }
+
+  /* Chapter navigation */
+  .chapter-nav {
+    display: flex;
+    gap: 10px;
+  }
+  .function-bar .chapter-nav button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    margin-right: auto;
+    width: 30px;
+  }
+  .function-bar .chapter-nav .chapter-nav-lrg-btn {
+    display: none;
+  }
 }
 @media only screen and (min-width: 1671px) {
   /* fnbar-sub-menu */
@@ -2455,7 +2494,7 @@ html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 5vw;
+    gap: 20px;
     margin-left: auto;
     margin-right: auto;
     max-width: 90vw;
@@ -2469,7 +2508,7 @@ html {
     align-items: center;
     gap: 10px;
     margin-left: auto;
-    margin-right: auto;
+    /* margin-right: auto; */
   }
 
   /* .fnbar-sub-sizes */
@@ -2514,24 +2553,32 @@ html {
 }
 /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */
 
-/* Search styles */
-.sidebar-search {
-  padding: 10px;
-  border-bottom: 1px solid #eee;
+/* UNUSED */ /* UNUSED */ /* UNUSED */ /* UNUSED */ /* UNUSED */
+/* Reading stats */
+.reading-stats {
+  padding: 15px;
+  border-top: 1px solid #eee;
+  margin-top: 15px;
 }
-
-.sidebar-search input {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+.reading-stats h3 {
+  margin: 0 0 10px 0;
+  font-size: 1em;
 }
-
-/* Chapter meta styles */
-.chapter-meta {
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.stat-item {
+  text-align: center;
+}
+.stat-value {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.stat-label {
   font-size: 0.8em;
   color: #666;
-  margin-top: 2px;
 }
 
 /* Progress indicator */
@@ -2541,64 +2588,112 @@ html {
   margin-top: 5px;
   border-radius: 3px;
 }
-
 .chapter-progress-bar {
   height: 100%;
-  background: #4CAF50;
+  background: #4caf50;
   border-radius: 3px;
 }
 
+/* UNUSED */ /* UNUSED */ /* UNUSED */ /* UNUSED */ /* UNUSED */
 
-/* Chapter navigation */
-.chapter-nav {
+/* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
+/* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
+/* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
+.converter-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.panel-container {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
+  gap: 20px;
 }
 
-.chapter-nav button {
-  padding: 5px 10px;
-  background: #f0f0f0;
+.panel {
+  flex: 1;
+}
+
+.converter-textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+
+.tab-buttons {
+  margin-bottom: 15px;
+}
+
+.tab-buttons button {
+  padding: 8px 16px;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
+  background: #ddd;
+  color: #333;
+  margin-right: 5px;
 }
 
-.chapter-nav button:hover {
-  background: #e0e0e0;
+.tab-buttons button.active {
+  background: #007bff;
+  color: white;
 }
 
-/* UNUSUED */ /* UNUSUED */ /* UNUSUED */ /* UNUSUED */ /* UNUSUED */
-/* Reading stats */
-.reading-stats {
-  padding: 15px;
-  border-top: 1px solid #eee;
-  margin-top: 15px;
-}
-
-.reading-stats h3 {
-  margin: 0 0 10px 0;
-  font-size: 1em;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.button-group {
+  display: flex;
   gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
-.stat-item {
-  text-align: center;
+button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
 }
 
-.stat-value {
-  font-weight: bold;
-  font-size: 1.2em;
+.convert-btn {
+  background: #007bff;
 }
 
-.stat-label {
-  font-size: 0.8em;
-  color: #666;
+.copy-btn {
+  background: #28a745;
 }
 
-/* UNUSUED */ /* UNUSUED */ /* UNUSUED */ /* UNUSUED */ /* UNUSUED */
+.download-btn {
+  background: #6c757d;
+}
+
+.markdown-btn {
+  background: #6f42c1;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.html-output {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f8f9fa;
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+.preview-pane {
+  width: 100%;
+  min-height: 200px;
+  padding: 10px;
+  border: 1px solid #eee;
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+/* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
+/* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
+/* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
