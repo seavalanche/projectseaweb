@@ -385,7 +385,7 @@ function StoryFnBar({ toggleSidebar, sidebarVisible, currentChapter, setCurrentC
     return (
         <div className={`function-bar ${isVisible ? 'visible' : 'hidden'}`}>
             <div className={`sidebar-btn ${isVisible ? 'visible' : 'hidden'}`}
-                onClick={() => { resetToDefault(); toggleSidebar(); }}>
+                onClick={() => { toggleSidebar(); }}>
                 {sidebarVisible ? '←' : '→'}
             </div>
             {isSmallScreen ? (
