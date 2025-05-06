@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.97f74cfa.css",
-    "main.js": "/projectseaweb/static/js/main.730bba74.js",
+    "main.css": "/projectseaweb/static/css/main.334798c2.css",
+    "main.js": "/projectseaweb/static/js/main.cdb162ac.js",
+    "static/js/836.e9e03b84.chunk.js": "/projectseaweb/static/js/836.e9e03b84.chunk.js",
+    "static/js/253.74ca7561.chunk.js": "/projectseaweb/static/js/253.74ca7561.chunk.js",
     "static/js/488.9062b7d0.chunk.js": "/projectseaweb/static/js/488.9062b7d0.chunk.js",
     "static/media/S79 - Vesnea.gif": "/projectseaweb/static/media/S79 - Vesnea.91317ac1ff2421ee6125.gif",
     "static/media/S75 - Vesnea_b_338x450.gif": "/projectseaweb/static/media/S75 - Vesnea_b_338x450.d037db783abcf5253a0d.gif",
@@ -187,12 +189,14 @@
     "static/media/KorazuSun.svg": "/projectseaweb/static/media/KorazuSun.763cc7a5c6272a831478.svg",
     "static/media/UzakonMoon.svg": "/projectseaweb/static/media/UzakonMoon.ed1062c265c01e5d798d.svg",
     "static/media/ZumikoStar.svg": "/projectseaweb/static/media/ZumikoStar.151c8ab968ce7e1c3966.svg",
-    "main.97f74cfa.css.map": "/projectseaweb/static/css/main.97f74cfa.css.map",
-    "main.730bba74.js.map": "/projectseaweb/static/js/main.730bba74.js.map",
+    "main.334798c2.css.map": "/projectseaweb/static/css/main.334798c2.css.map",
+    "main.cdb162ac.js.map": "/projectseaweb/static/js/main.cdb162ac.js.map",
+    "836.e9e03b84.chunk.js.map": "/projectseaweb/static/js/836.e9e03b84.chunk.js.map",
+    "253.74ca7561.chunk.js.map": "/projectseaweb/static/js/253.74ca7561.chunk.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97f74cfa.css",
-    "static/js/main.730bba74.js"
+    "static/css/main.334798c2.css",
+    "static/js/main.cdb162ac.js"
   ]
 }
