@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkprojectseaweb=self.webpackChunkprojectseaweb||[]).push([[253],{2253:(e,s,r)=>{r.r(s),r.d(s,{default:()=>a});var t=r(579);const a=function(){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)("h2",{className:"story-title",children:"Chapter 2: A Fragmented Heart"}),(0,t.jsx)("p",{children:"Seven shards of a soul scattered across the skies... \ud83c\udf19"})]})}}}]);
-//# sourceMappingURL=253.74ca7561.chunk.js.map
