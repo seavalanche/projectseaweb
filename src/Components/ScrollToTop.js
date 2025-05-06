@@ -5,19 +5,18 @@ export default function ScrollToTop() {
     const { pathname, hash } = useLocation();
 
     useEffect(() => {
-        if (!hash) {
-            // 🍬 Add tiny delay before scrolling
+        // List of paths where we don't want auto-scroll
+        const noScrollPaths = ['/Story', '/other-path'];
+
+        if (!hash && !noScrollPaths.some(path => pathname.includes(path))) {
             const timeoutId = setTimeout(() => {
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth',
                 });
-            }, 50); // 50 milliseconds delay!
+            }, 50);
 
-            // 🍬 Clean up just in case (good habit)
             return () => clearTimeout(timeoutId);
         }
     }, [pathname, hash]);
-
-    return null;
 }

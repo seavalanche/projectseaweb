@@ -1,16 +1,15 @@
-// function scrollToSection(id) {
-//     const el = document.getElementById(id);
-//     if (el) {
-//         el.scrollIntoView({ behavior: 'smooth' });
-//     }
-// }
-function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect  }) {
-        // Define your chapters data
-        const chapters = [
-            { id: 'chapter1', title: 'Chapter 1: The Dream Begins' },
-            { id: 'chapter2', title: 'Chapter 2: A Fragmented Heart' },
-            // Add more chapters as needed
-        ];
+import { useState } from 'react';
+import { chapters } from '../Pages/Chapters/metadata';
+// import ReadingStats from '../Components/ReadingStats';
+
+function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect }) {
+    const [searchTerm, setSearchTerm] = useState('');
+
+    const filteredChapters = chapters.filter(chapter =>
+        chapter.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        chapter.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        chapter.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
+    );
 
     return (
         <div
@@ -19,22 +18,37 @@ function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect 
         >
             <div className="sidebar-toc-title">Table of Contents</div>
             {visible && (
-                // <ul>
-                //     <li><div className="sidebar-toc-list" onClick={() => scrollToSection('chapter1')}>Chapter 1</div></li>
-                //     <li><div className="sidebar-toc-list" onClick={() => scrollToSection('chapter2')}>Chapter 2</div></li>
-                // </ul>
-                <ul>
-                {chapters.map((chapter) => (
-                    <li key={chapter.id}>
-                        <div 
-                            className={`sidebar-toc-list ${currentChapter === chapter.id ? 'active-chapter' : ''}`}
-                            onClick={() => onChapterSelect(chapter.id)}
-                        >
-                            {chapter.title}
-                        </div>
-                    </li>
-                ))}
-            </ul>
+                <>
+                    {/* <ReadingStats /> */}
+                    <div className="sidebar-search">
+                        <input
+                            type="text"
+                            placeholder="Search chapters..."
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                        />
+                    </div>
+                    <ul>
+                        {filteredChapters.map((chapter) => (
+                            <li key={chapter.id}>
+                                <div
+                                    className={`sidebar-toc-list ${currentChapter === chapter.id ? 'active-chapter' : ''}`}
+                                    onClick={() => onChapterSelect(chapter.id)}
+                                >
+                                    <div className="chapter-title">{chapter.title}</div>
+                                    {chapter.wordCount && (
+                                        <div className="chapter-meta">
+                                            {Math.ceil(chapter.wordCount / 200)} min read
+                                        </div>
+                                    )}
+                                </div>
+                            </li>
+                        ))}
+                    </ul>
+                    {filteredChapters.length === 0 && (
+                        <div className="no-results">No chapters found</div>
+                    )}
+                </>
             )}
         </div>
     )

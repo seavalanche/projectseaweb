@@ -2199,7 +2199,7 @@ html {
   align-items: center;
   justify-content: center;
   padding: var(--content-padding);
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 80px;
   line-height: var(--line-height);
   row-gap: var(--paragraph-gap);
@@ -2513,3 +2513,92 @@ html {
   }
 }
 /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */
+
+/* Search styles */
+.sidebar-search {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.sidebar-search input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Chapter meta styles */
+.chapter-meta {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 2px;
+}
+
+/* Progress indicator */
+.chapter-progress {
+  height: 3px;
+  background: #eee;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.chapter-progress-bar {
+  height: 100%;
+  background: #4CAF50;
+  border-radius: 3px;
+}
+
+
+/* Chapter navigation */
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.chapter-nav button {
+  padding: 5px 10px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chapter-nav button:hover {
+  background: #e0e0e0;
+}
+
+/* UNUSUED */ /* UNUSUED */ /* UNUSUED */ /* UNUSUED */ /* UNUSUED */
+/* Reading stats */
+.reading-stats {
+  padding: 15px;
+  border-top: 1px solid #eee;
+  margin-top: 15px;
+}
+
+.reading-stats h3 {
+  margin: 0 0 10px 0;
+  font-size: 1em;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.stat-label {
+  font-size: 0.8em;
+  color: #666;
+}
+
+/* UNUSUED */ /* UNUSUED */ /* UNUSUED */ /* UNUSUED */ /* UNUSUED */

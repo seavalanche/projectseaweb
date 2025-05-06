@@ -20,9 +20,22 @@ function Story() {
     const renderMobileLayout = () => (
         <div className="story-1st-wrapper">
             <div className="story-2nd-wrapper">
-                <StoryContent />
-                <StorySidebar visible={sidebarVisible} toggleSidebar={toggleSidebar} />
-                <StoryFnBar toggleSidebar={toggleSidebar} sidebarVisible={sidebarVisible} />
+                <StoryContent
+                    chapterId={currentChapter}
+                />
+                <StorySidebar
+                    readingProgress={readingProgress}
+                    visible={sidebarVisible}
+                    toggleSidebar={toggleSidebar}
+                    currentChapter={currentChapter}
+                    onChapterSelect={setCurrentChapter}
+                />
+                <StoryFnBar
+                    toggleSidebar={toggleSidebar}
+                    sidebarVisible={sidebarVisible}
+                    currentChapter={currentChapter}
+                    setCurrentChapter={setCurrentChapter}
+                />
             </div>
         </div>
     );
@@ -43,27 +56,42 @@ function Story() {
     const toggleSidebar = () => {
         setSidebarVisible(!sidebarVisible);
     };
-    const handleChapterSelect = (chapterId) => {
-        setCurrentChapter(chapterId);
-        // Close sidebar after selection if on mobile
-        if (window.innerWidth < 768) {
-            setSidebarVisible(false);
+
+    // Progress Tracking System
+    const [readingProgress, setReadingProgress] = useState({});
+    // Load progress from localStorage
+    useEffect(() => {
+        const savedProgress = localStorage.getItem('readingProgress');
+        if (savedProgress) {
+            setReadingProgress(JSON.parse(savedProgress));
         }
-    };
+    }, []);
+    // Save progress to localStorage
+    useEffect(() => {
+        localStorage.setItem('readingProgress', JSON.stringify(readingProgress));
+    }, [readingProgress]);
 
     return (
         <div>
             {isSmallScreen ? (renderMobileLayout()) : (
                 <div className="story-1st-wrapper">
                     <StorySidebar
+                        readingProgress={readingProgress}
                         visible={sidebarVisible}
                         toggleSidebar={toggleSidebar}
                         currentChapter={currentChapter}
-                        onChapterSelect={handleChapterSelect}
+                        onChapterSelect={setCurrentChapter}
                     />
                     <div className="story-2nd-wrapper">
-                        <StoryFnBar toggleSidebar={toggleSidebar} sidebarVisible={sidebarVisible} />
-                        <StoryContent chapterId={currentChapter} />
+                        <StoryFnBar
+                            toggleSidebar={toggleSidebar}
+                            sidebarVisible={sidebarVisible}
+                            currentChapter={currentChapter}
+                            setCurrentChapter={setCurrentChapter}
+                        />
+                        <StoryContent
+                            chapterId={currentChapter}
+                        />
                     </div>
 
                 </div>

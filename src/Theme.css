@@ -1221,6 +1221,7 @@ html {
     color: var(--text-charcard-value);
     border: 1px solid var(--text-charcard-prop);
     border-radius: 5px;
+    cursor: pointer;
   }
   .fnbar-default-menu {
     background-color: var(--bg-color-3);
@@ -1229,6 +1230,7 @@ html {
     color: var(--text-charcard-value);
     border: 1px solid var(--text-charcard-prop);
     border-radius: 5px;
+    cursor: pointer;
   }
 
   /* sementara */ /* sementara */ /* sementara */
@@ -1246,7 +1248,8 @@ html {
     justify-content: left;
     flex-direction: column;
   }
-  .sidebar ul, .sidebar-toc-title {
+  .sidebar ul,
+  .sidebar-toc-title {
     margin-left: 50px;
   }
   /* sementara */ /* sementara */ /* sementara */

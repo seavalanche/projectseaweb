@@ -1,15 +1,34 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { getBookmark, saveBookmark } from '../Components/StoryBookmark'
 
 // Import your chapter components
-import Chapter1 from '../Pages/chapters/Chapter1';
-import Chapter2 from '../Pages/chapters/Chapter2';
+import Chapter1 from '../Pages/Chapters/Chapter1';
+import Chapter2 from '../Pages/Chapters/Chapter2';
 // Import more chapters as needed
 
 function StoryContent({ chapterId }) {
-    // Scroll to top when chapter changes
+    // Progress Tracking + ScrollTOTop
+    // keep the progress tracking while still having some control over scrolling
+    const [initialLoad, setInitialLoad] = useState(true);
     useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [chapterId]);
+        // Only restore position on initial load
+        if (initialLoad) {
+            const savedPosition = getBookmark(chapterId);
+            window.scrollTo(0, savedPosition);
+            setInitialLoad(false);
+        }
+
+        return () => {
+            if (!initialLoad) {
+                saveBookmark(chapterId, window.scrollY);
+            }
+        };
+    }, [chapterId, initialLoad]);
+
+    // Scroll to top when chapter changes
+    // useEffect(() => {
+    //     window.scrollTo(0, 0);
+    // }, [chapterId]);
 
     // Render the selected chapter
     const renderChapter = () => {
