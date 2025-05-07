@@ -61,9 +61,11 @@ html {
   --F-CharCardName: "F-CharCardName";
   --F-CharCardAltName: "F-CharCardAltName";
   /* Story page */
-  --content-padding: 30vw;
+  --content-padding: 22vw;
   --line-height: 1.6;
   --paragraph-gap: 10px;
+  --letter-spacing: 1px;
+  --word-spacing: 0px;
 }
 @media only screen and (max-width: 1670px) {
   * {
@@ -1252,6 +1254,17 @@ html {
   background-position: center;
   border: none;
   cursor: pointer;
+}
+
+/* Reading Progress Bar */
+.reading-progress-container {
+  background-color: var(--bg-color-3);
+}
+.reading-progress-bar {
+  background-color: var(--text-charcard-prop);
+}
+[data-theme="light"] .reading-progress-bar {
+  background-color: var(--C-Vesnea_Pink);
 }
 @media only screen and (max-width: 1200px) {
   .function-bar {

@@ -4,6 +4,7 @@ import StoryFnBar from '../Components/StoryFnBar'
 import StoryContent from '../Components/StoryContent'
 
 function Story() {
+    // This is for rendering the mobile version of the Story page
     const [isSmallScreen, setIsSmallScreen] = useState(false);
     useEffect(() => {
         const checkScreenSize = () => {
@@ -40,17 +41,18 @@ function Story() {
         </div>
     );
 
+    // Sidebar things
     const [sidebarVisible, setSidebarVisible] = useState(false)
     const [currentChapter, setCurrentChapter] = useState('chapter1');
-    // Load saved chapter from localStorage when component mounts
     useEffect(() => {
+        // Load saved chapter from localStorage when component mounts
         const savedChapter = localStorage.getItem('lastReadChapter');
         if (savedChapter) {
             setCurrentChapter(savedChapter);
         }
     }, []);
-    // Save current chapter to localStorage whenever it changes
     useEffect(() => {
+        // Save current chapter to localStorage whenever it changes
         localStorage.setItem('lastReadChapter', currentChapter);
     }, [currentChapter]);
     const toggleSidebar = () => {
@@ -59,15 +61,15 @@ function Story() {
 
     // Progress Tracking System
     const [readingProgress, setReadingProgress] = useState({});
-    // Load progress from localStorage
     useEffect(() => {
+        // Load progress from localStorage
         const savedProgress = localStorage.getItem('readingProgress');
         if (savedProgress) {
             setReadingProgress(JSON.parse(savedProgress));
         }
     }, []);
-    // Save progress to localStorage
     useEffect(() => {
+        // Save progress to localStorage
         localStorage.setItem('readingProgress', JSON.stringify(readingProgress));
     }, [readingProgress]);
 
@@ -75,13 +77,13 @@ function Story() {
         <div>
             {isSmallScreen ? (renderMobileLayout()) : (
                 <div className="story-1st-wrapper">
-                    <StorySidebar
-                        readingProgress={readingProgress}
-                        visible={sidebarVisible}
-                        toggleSidebar={toggleSidebar}
-                        currentChapter={currentChapter}
-                        onChapterSelect={setCurrentChapter}
-                    />
+                        <StorySidebar
+                            readingProgress={readingProgress}
+                            visible={sidebarVisible}
+                            toggleSidebar={toggleSidebar}
+                            currentChapter={currentChapter}
+                            onChapterSelect={setCurrentChapter}
+                        />
                     <div className="story-2nd-wrapper">
                         <StoryFnBar
                             toggleSidebar={toggleSidebar}
@@ -93,7 +95,6 @@ function Story() {
                             chapterId={currentChapter}
                         />
                     </div>
-
                 </div>
             )}
         </div>

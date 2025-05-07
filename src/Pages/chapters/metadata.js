@@ -2,7 +2,7 @@ export const chapters = [
     {
         id: 'prologue',
         title: 'Prologue',
-        description: '',
+        description: 'The background story',
         wordCount: 1937,
         isCompleted: false,
         tags: ['beginning', 'magic'],
@@ -11,7 +11,7 @@ export const chapters = [
     {
         id: 'chapter1',
         title: 'Chapter 1: Protection',
-        description: '',
+        description: 'The first chapter yipee',
         wordCount: 1937,
         isCompleted: false,
         tags: ['beginning', 'magic'],
@@ -20,8 +20,8 @@ export const chapters = [
     {
         id: 'chapter2',
         title: 'Chapter 2: ',
-        description: '',
-        wordCount: 0,
+        description: 'This description works, right guys?',
+        wordCount: '',
         isCompleted: false,
         tags: ['', ''],
         publishedDate: ''
@@ -29,8 +29,8 @@ export const chapters = [
     {
         id: 'chapter3',
         title: 'Chapter 3: ',
-        description: '',
-        wordCount: 0,
+        description: 'why are you reading these?',
+        wordCount: '',
         isCompleted: false,
         tags: ['', ''],
         publishedDate: ''

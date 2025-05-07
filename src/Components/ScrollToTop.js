@@ -5,10 +5,11 @@ export default function ScrollToTop() {
     const { pathname, hash } = useLocation();
 
     useEffect(() => {
-        // List of paths where we don't want auto-scroll
-        const noScrollPaths = ['/Story', '/other-path'];
+        // Skip completely for Story page
+        if (pathname.includes('/Story')) return;
 
-        if (!hash && !noScrollPaths.some(path => pathname.includes(path))) {
+        // Original behavior for other pages
+        if (!hash) {
             const timeoutId = setTimeout(() => {
                 window.scrollTo({
                     top: 0,
@@ -19,4 +20,6 @@ export default function ScrollToTop() {
             return () => clearTimeout(timeoutId);
         }
     }, [pathname, hash]);
+
+    return null;
 }
