@@ -1,0 +1,14 @@
+{
+  "fontsize": "文字サイズ：",
+  "letterspacing": "文字間隔：",
+  "wordspacing": "単語間隔：",
+  "padding": "余白：",
+  "linespacing": "行間：",
+  "paragraphspacing": "段落間隔：",
+  "fontfamily": "フォント：",
+  "textcolor": "文字色：",
+  "backgroundcolor": "背景色：",
+  "reset": "リセット",
+  "sizes": "サイズ",
+  "styles": "スタイル"
+}

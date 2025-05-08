@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { LanguageContext } from '../contexts/LanguageContext';
-import translations from '../Translations';
+import translations from '../../translations/Translations';
 import { localize } from '../utils/localization';
 
 export const useLocalization = () => {

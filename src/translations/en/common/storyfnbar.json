@@ -1,0 +1,14 @@
+{
+  "fontsize": "Font Size:",
+  "letterspacing": "Letter Spacing:",
+  "wordspacing": "Word Spacing:",
+  "padding": "Padding:",
+  "linespacing": "Line Spacing:",
+  "paragraphspacing": "Paragraph Spacing:",
+  "fontfamily": "Font:",
+  "textcolor": "Text Color:",
+  "backgroundcolor": "Background:",
+  "reset": "Reset",
+  "sizes": "Sizes",
+  "styles": "Styles"
+}
