@@ -1203,6 +1203,9 @@ html {
 /* Sidebar */
 .sidebar {
   background: var(--bg-charcard);
+  font-family: var(--F-Content);
+  font-size: var(--Fs-CharCardProp);
+  color: var(--button-text);
 }
 .sidebar-btn {
   background-color: var(--button-background);
