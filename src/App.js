@@ -17,6 +17,7 @@ import Story from './Pages/Story.js'
 import AboutVesnea from './Pages/AboutVesnea.js'
 import Tools from './Pages/TextToHtmlConverter.js'
 import TestComponent from './Pages/Test.js';
+import YCHStory from './StoryYCH/YCHStory.js';
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -43,6 +44,7 @@ function App() {
         <Route path='/AboutVesnea' exact element={<AboutVesnea />} />
         <Route path='/Tools' exact element={<Tools />} />
         <Route path='/Test' exact element={<TestComponent />} />
+        <Route path='/YCHStory' exact element={<YCHStory />} />
       </Routes>
       <ScrollToTopButton />
       <Footer />
