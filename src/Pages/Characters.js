@@ -21,12 +21,12 @@ import aboutuzakon from '../Assets/About/AC/Uzakon.png';
 import aboutzumiko from '../Assets/About/AC/Zumiko.png';
 import aboutseparator from '../Assets/S75 - Vesnea_b_338x450.gif';
 import { useTheme } from "../Components/ThemeContext";
-import useTranslation from '../localization/hooks/useTranslation';
+import { useLocalization } from '../localization/hooks/useLocalization';
 import { Link } from 'react-router-dom';
 
 function About() {
     const { theme } = useTheme();
-    const { t } = useTranslation();
+    const { t } = useLocalization();
     return (
         <div>
             <div className={`ACinfo ${theme || "light"}`}>

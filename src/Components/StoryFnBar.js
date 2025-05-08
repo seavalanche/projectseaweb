@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { chapters } from '../Pages/Chapters/metadata';
 import { useLocalization } from "../localization/hooks/useLocalization";
-import useTranslation from '../localization/hooks/useTranslation';
 
 function StoryFnBar({
     toggleSidebar,
@@ -9,8 +8,7 @@ function StoryFnBar({
     currentChapter,
     setCurrentChapter,
 }) {
-    const { getTitle } = useLocalization();
-    const { t } = useTranslation();
+    const { t, getTitle } = useLocalization();
 
     const [isBetweenSizes, setIsBetweenSizes] = useState(false);
     const [isSmallScreen, setIsSmallScreen] = useState(false);

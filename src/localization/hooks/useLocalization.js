@@ -4,7 +4,7 @@ import translations from '../Translations';
 import { localize } from '../utils/localization';
 
 export const useLocalization = () => {
-  const { language } = useContext(LanguageContext);
+  const { language, setLanguage } = useContext(LanguageContext);
   
   const t = (text) => localize(text, translations, language);
   
@@ -16,5 +16,5 @@ export const useLocalization = () => {
       : title;
   };
   
-  return { t, getTitle, language };
+  return { t, getTitle, language, setLanguage };
 };

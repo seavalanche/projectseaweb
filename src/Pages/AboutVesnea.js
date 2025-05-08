@@ -1,7 +1,8 @@
-import useTranslation from '../localization/hooks/useTranslation';
 import { Link } from 'react-router-dom';
+import { useLocalization } from '../localization/hooks/useLocalization';
+
 const About = () => {
-    const { t } = useTranslation();
+    const { t } = useLocalization();
     return (
         <div>
             <div className='projectsshowcase'>

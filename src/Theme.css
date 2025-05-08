@@ -382,7 +382,7 @@ html {
 .theme-btn3 {
   background-image: url("./Assets/Navbar/UzakonMoon.svg");
 }
-.lang-btn {
+.language-switcher button {
   font-family: var(--F-Navbar);
   font-size: var(--Fs-Navbar);
   color: var(--navtext-b);

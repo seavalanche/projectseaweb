@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import useTranslation from '../localization/hooks/useTranslation';
+import { useLocalization } from '../localization/hooks/useLocalization';
 
 const Footer = () => {
-    const { t } = useTranslation();
+    const { t } = useLocalization();
     return (
         <div>
             <div className={`footnav`}>

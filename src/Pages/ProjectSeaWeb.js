@@ -14,10 +14,10 @@ import showcasepict11 from '../Assets/Project Sea Web/webshowcase/V2 Website 6.p
 import separator1 from '../Assets/Project Sea Web/webshowcase/Separator1.png';
 import separator2 from '../Assets/Project Sea Web/webshowcase/Separator2.png';
 import colorstyle from '../Assets/Project Sea Web/webshowcase/SeaWebColorStyles.png';
-import useTranslation from '../localization/hooks/useTranslation';
+import { useLocalization } from '../localization/hooks/useLocalization';
 
 function ProjectSeaWeb() {
-    const { t } = useTranslation();
+    const { t } = useLocalization();
     return (
         <div>
             <div className='projectsshowcase'>

@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
-import useTranslation from '../localization/hooks/useTranslation';
+import { useLocalization } from '../localization/hooks/useLocalization';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 const Navbar = ({ toggleTheme }) => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -9,10 +10,7 @@ const Navbar = ({ toggleTheme }) => {
     };
     const closeMenu = () => setMenuOpen(false);
 
-    const { t, language, setLanguage } = useTranslation();
-    const toggleLanguage = () => {
-        setLanguage(language === "en" ? "jp" : "en");
-    };
+    const { t } = useLocalization();
 
     return (
         <div className={`navbar`}>
@@ -44,7 +42,7 @@ const Navbar = ({ toggleTheme }) => {
                         <button className="theme-btn2" onClick={() => toggleTheme("star")} aria-label="Switch Theme" />
                         <button className="theme-btn3" onClick={() => toggleTheme("dark")} aria-label="Switch Theme" />
                     </div>
-                    <button className="lang-btn" onClick={toggleLanguage} aria-label="Switch Language">EN / JP</button>
+                    <LanguageSwitcher />
                 </div>
             </div >
         </ div >

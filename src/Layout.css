@@ -74,10 +74,14 @@ html {
 .theme-btn3:hover {
   transform: scale(1.1);
 }
-.lang-btn {
+.language-switcher button {
   display: flex;
+  flex-direction: row;
   align-items: center;
   padding: 0;
+}
+.language-switcher .inact {
+  display: none;
 }
 @media only screen and (max-width: 800px) {
   .navbar-wrapper {

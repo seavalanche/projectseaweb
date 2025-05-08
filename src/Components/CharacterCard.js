@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import useTranslation from '../localization/hooks/useTranslation';
+import { useLocalization } from '../localization/hooks/useLocalization';
 
 function CharacterCard({ character }) {
     const [activeTab, setActiveTab] = useState(null); // tracks which tab is open
@@ -9,7 +9,7 @@ function CharacterCard({ character }) {
         setActiveTab((currentTab) => (currentTab === tabName ? null : tabName));
     };
 
-    const { t, language } = useTranslation();
+    const { t, language } = useLocalization();
 
     return (
         <div id={character.id} className={`character-card ${selectedArt ? 'preview-open' : ''}`} >

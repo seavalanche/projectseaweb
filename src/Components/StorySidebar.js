@@ -1,12 +1,12 @@
 import { useState, useContext } from 'react';
 import { LanguageContext } from '../localization/contexts/LanguageContext';
 import { chapters } from '../Pages/Chapters/metadata';
-import useTranslation from '../localization/hooks/useTranslation';
+import { useLocalization } from '../localization/hooks/useLocalization';
 
 function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect }) {
     const [searchTerm, setSearchTerm] = useState('');
     const { language } = useContext(LanguageContext); // Get current language from context
-    const { t } = useTranslation();
+    const { t } = useLocalization();
 
     // Helper to get all text variations for searching
     const getAllTextValues = (text) => {
