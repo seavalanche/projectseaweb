@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
 import smallintro2 from '../Assets/Homepage/shortintro/2023-18-Sprigatito.jpg';
-import useTranslation from '../hooks/useTranslation';
+import useTranslation from '../localization/hooks/useTranslation';
 
 const Homepage = () => {
     const { t } = useTranslation();

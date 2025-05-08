@@ -21,7 +21,7 @@ import aboutuzakon from '../Assets/About/AC/Uzakon.png';
 import aboutzumiko from '../Assets/About/AC/Zumiko.png';
 import aboutseparator from '../Assets/S75 - Vesnea_b_338x450.gif';
 import { useTheme } from "../contexts/ThemeContext";
-import useTranslation from '../hooks/useTranslation';
+import useTranslation from '../localization/hooks/useTranslation';
 import { Link } from 'react-router-dom';
 
 function About() {

@@ -1,7 +1,7 @@
 import { useState, useContext } from 'react';
-import { LanguageContext } from '../contexts/LanguageContext';
+import { LanguageContext } from '../localization/contexts/LanguageContext';
 import { chapters } from '../Pages/Chapters/metadata';
-import useTranslation from '../hooks/useTranslation';
+import useTranslation from '../localization/hooks/useTranslation';
 
 function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect }) {
     const [searchTerm, setSearchTerm] = useState('');
@@ -24,11 +24,11 @@ function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect 
 
     const filteredChapters = chapters.filter(chapter => {
         if (!searchTerm) return true; // Show all when no search term
-        
+
         const lowerSearchTerm = searchTerm.toLowerCase();
         const titleVariations = getAllTextValues(chapter.title);
         const descVariations = getAllTextValues(chapter.description);
-        
+
         return (
             titleVariations.some(t => t.includes(lowerSearchTerm)) ||
             descVariations.some(d => d.includes(lowerSearchTerm)) ||
@@ -38,7 +38,7 @@ function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect 
 
     return (
         <div className={`sidebar ${visible ? 'sidebar-visible' : 'sidebar-hidden'}`}
-             onMouseEnter={() => !visible && toggleSidebar()}>
+            onMouseEnter={() => !visible && toggleSidebar()}>
             <div className="sidebar-toc-title">{t("storysidebar.toctitle")}</div>
             {visible && (
                 <>

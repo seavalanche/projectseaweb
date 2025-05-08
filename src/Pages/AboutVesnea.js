@@ -1,4 +1,4 @@
-import useTranslation from '../hooks/useTranslation';
+import useTranslation from '../localization/hooks/useTranslation';
 import { Link } from 'react-router-dom';
 const About = () => {
     const { t } = useTranslation();

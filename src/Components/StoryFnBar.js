@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { chapters } from '../Pages/Chapters/metadata';
-import { useLocalization } from "../hooks/useLocalization";
-import useTranslation from '../hooks/useTranslation';
+import { useLocalization } from "../localization/hooks/useLocalization";
+import useTranslation from '../localization/hooks/useTranslation';
 
 function StoryFnBar({
     toggleSidebar,

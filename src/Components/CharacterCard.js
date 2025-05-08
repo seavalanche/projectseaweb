@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import useTranslation from '../hooks/useTranslation';
+import useTranslation from '../localization/hooks/useTranslation';
 
 function CharacterCard({ character }) {
     const [activeTab, setActiveTab] = useState(null); // tracks which tab is open
