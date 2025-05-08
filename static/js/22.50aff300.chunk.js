@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprojectseaweb=self.webpackChunkprojectseaweb||[]).push([[22],{2022:(e,a,s)=>{e.exports=s.p+"static/media/chapter1.e73543ba43c773aa3d99.md"}}]);

@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.5488cea5.css",
-    "main.js": "/projectseaweb/static/js/main.2494a156.js",
+    "main.css": "/projectseaweb/static/css/main.89d83aed.css",
+    "main.js": "/projectseaweb/static/js/main.efe0d9c8.js",
+    "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
+    "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
+    "static/js/281.f244e449.chunk.js": "/projectseaweb/static/js/281.f244e449.chunk.js",
+    "static/js/972.432f9768.chunk.js": "/projectseaweb/static/js/972.432f9768.chunk.js",
     "static/js/488.9062b7d0.chunk.js": "/projectseaweb/static/js/488.9062b7d0.chunk.js",
     "static/media/S79 - Vesnea.gif": "/projectseaweb/static/media/S79 - Vesnea.91317ac1ff2421ee6125.gif",
     "static/media/S75 - Vesnea_b_338x450.gif": "/projectseaweb/static/media/S75 - Vesnea_b_338x450.d037db783abcf5253a0d.gif",
@@ -174,6 +178,7 @@
     "static/media/FootbarLogoX2_StarMode.png": "/projectseaweb/static/media/FootbarLogoX2_StarMode.977782ccc32cbc9b9e71.png",
     "static/media/FootbarLogoX2_DarkMode.png": "/projectseaweb/static/media/FootbarLogoX2_DarkMode.98b883d935850061edbb.png",
     "static/media/FootbarLogoX2_LightMode.png": "/projectseaweb/static/media/FootbarLogoX2_LightMode.295ffb037b4838574a8d.png",
+    "static/media/chapter1.md": "/projectseaweb/static/media/chapter1.e73543ba43c773aa3d99.md",
     "static/media/NavbarLogo-dark.png": "/projectseaweb/static/media/NavbarLogo-dark.3e7e5be72f18b386e907.png",
     "static/media/NavbarLogo-star.png": "/projectseaweb/static/media/NavbarLogo-star.66dadd4977a4ccb3063a.png",
     "static/media/NavbarLogo-light.png": "/projectseaweb/static/media/NavbarLogo-light.1c38aa6232c6bec0bc3f.png",
@@ -184,15 +189,16 @@
     "static/media/VesBG_1.webp": "/projectseaweb/static/media/VesBG_1.e3926c46173ca9e5d14d.webp",
     "static/media/VesBG_3.webp": "/projectseaweb/static/media/VesBG_3.3b5bf7de01b2b39ba04b.webp",
     "index.html": "/projectseaweb/index.html",
+    "static/media/prologue.md": "/projectseaweb/static/media/prologue.9fb706875a8529cba24c.md",
     "static/media/KorazuSun.svg": "/projectseaweb/static/media/KorazuSun.763cc7a5c6272a831478.svg",
     "static/media/UzakonMoon.svg": "/projectseaweb/static/media/UzakonMoon.ed1062c265c01e5d798d.svg",
     "static/media/ZumikoStar.svg": "/projectseaweb/static/media/ZumikoStar.151c8ab968ce7e1c3966.svg",
-    "main.5488cea5.css.map": "/projectseaweb/static/css/main.5488cea5.css.map",
-    "main.2494a156.js.map": "/projectseaweb/static/js/main.2494a156.js.map",
+    "main.89d83aed.css.map": "/projectseaweb/static/css/main.89d83aed.css.map",
+    "main.efe0d9c8.js.map": "/projectseaweb/static/js/main.efe0d9c8.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5488cea5.css",
-    "static/js/main.2494a156.js"
+    "static/css/main.89d83aed.css",
+    "static/js/main.efe0d9c8.js"
   ]
 }
