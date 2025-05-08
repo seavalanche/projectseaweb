@@ -122,7 +122,6 @@ function StoryContent({ chapterId }) {
     return (
         <div id="story-content-wrapper" ref={contentRef}>
             {/* <SpeechPlayer content={storyText} className="story-speech-player" /> */}
-            {/* {renderChapter()} */}
             <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 components={{

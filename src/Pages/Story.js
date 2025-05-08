@@ -43,7 +43,7 @@ function Story() {
 
     // Sidebar things
     const [sidebarVisible, setSidebarVisible] = useState(false)
-    const [currentChapter, setCurrentChapter] = useState('chapter1');
+    const [currentChapter, setCurrentChapter] = useState('prologue');
     useEffect(() => {
         // Load saved chapter from localStorage when component mounts
         const savedChapter = localStorage.getItem('lastReadChapter');
