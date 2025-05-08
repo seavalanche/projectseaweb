@@ -15,9 +15,9 @@ import Story from './Pages/Story.js'
 // import Commissions from './Pages/Commissions.js'
 // import About from './Pages/About.js'
 import AboutVesnea from './Pages/AboutVesnea.js'
-import Tools from './Pages/TextToHtmlConverter.js'
-import TestComponent from './Pages/Test.js';
-import YCHStory from './StoryYCH/YCHStory.js';
+import Tools from './Tools/TextToHtmlConverter.js'
+import TestComponent from './Tools/HighlightMessage.js';
+import YCHStory from './Tools/StoryYCH/YCHStory.js';
 
 function App() {
   const [theme, setTheme] = useState("light");
