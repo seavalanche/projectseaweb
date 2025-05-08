@@ -2105,7 +2105,7 @@ html {
 #story-content-wrapper p {
   text-indent: 0px;
 }
-.story-title {
+#story-content-wrapper h1 {
   margin-bottom: 1rem;
   text-align: center;
 }

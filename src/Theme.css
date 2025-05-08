@@ -1314,7 +1314,7 @@ html {
   font-size: var(--Fs-Content);
   color: var(--text-color-1b);
 }
-.story-title {
+#story-content-wrapper h1 {
   font-family: var(--F-Title);
 }
 .slider-wrapper {

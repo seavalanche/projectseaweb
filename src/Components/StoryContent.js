@@ -1,18 +1,44 @@
 import { useEffect, useState, useRef } from 'react';
 import { getBookmark, saveBookmark } from '../Components/StoryBookmark'
-// import SpeechPlayer from './SpeechPlayer';
-
-// Import your chapter components
-import Prologue from '../Pages/Chapters/Prologue';
-import Chapter1 from '../Pages/Chapters/Chapter1';
-import Chapter2 from '../Pages/Chapters/Chapter2';
-import Chapter3 from '../Pages/Chapters/Chapter3';
-// Import more chapters as needed
+import { useLocalization } from '../localization/hooks/useLocalization';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 function StoryContent({ chapterId }) {
+    const { language } = useLocalization();
+    const [markdownContent, setMarkdownContent] = useState('');
+    const contentRef = useRef(null);
+
+    // Load markdown content
+    useEffect(() => {
+        const loadChapter = async () => {
+            try {
+                const content = await import(
+                    `../translations/${language}/storychapters/${chapterId}.md`
+                );
+                const response = await fetch(content.default);
+                const text = await response.text();
+                setMarkdownContent(text);
+            } catch (error) {
+                console.error('Error loading chapter:', error);
+                // Fallback to English if translation missing
+                if (language !== 'en') {
+                    const enContent = await import(
+                        `../translations/en/storychapters/${chapterId}.md`
+                    );
+                    const response = await fetch(enContent.default);
+                    const text = await response.text();
+                    setMarkdownContent(text);
+                }
+            }
+        };
+
+        loadChapter();
+    }, [chapterId, language]);
+
     // Progress Tracking + ScrollTOTop
     const [initialScrollDone, setInitialScrollDone] = useState(false);
-    const contentRef = useRef(null);
+    // const contentRef = useRef(null);
     useEffect(() => {
         // Only run this effect when chapter changes
         const savedPosition = getBookmark(chapterId);
@@ -73,22 +99,6 @@ function StoryContent({ chapterId }) {
         };
     }
 
-    // Import the chapters here!
-    const renderChapter = () => {
-        switch (chapterId) {
-            case 'prologue':
-                return <Prologue />;
-            case 'chapter1':
-                return <Chapter1 />;
-            case 'chapter2':
-                return <Chapter2 />;
-            case 'chapter3':
-                return <Chapter3 />;
-            // Add more cases as needed
-            default:
-                return <Chapter1 />;
-        }
-    };
 
     // Reading Progress Bar
     const [readingProgress, setReadingProgress] = useState(0);
@@ -109,32 +119,24 @@ function StoryContent({ chapterId }) {
         return () => window.removeEventListener('scroll', handleScroll);
     }, [chapterId]);
 
-    // Get the actual text content for speech
-    const [storyText, setStoryText] = useState('');
-    // const contentRef = useRef(null);
-    useEffect(() => {
-        // Extract text from rendered content
-        const extractText = () => {
-            if (contentRef.current) {
-                const clone = contentRef.current.cloneNode(true);
-                // Remove elements that shouldn't be read
-                const ignoreElements = clone.querySelectorAll(
-                    'button, img, .speech-controls, .reading-progress'
-                );
-                ignoreElements.forEach(el => el.remove());
-                setStoryText(clone.textContent.trim());
-            }
-        };
-
-        // Delay slightly to ensure DOM is ready
-        const timer = setTimeout(extractText, 100);
-        return () => clearTimeout(timer);
-    }, [chapterId]);
-
     return (
         <div id="story-content-wrapper" ref={contentRef}>
             {/* <SpeechPlayer content={storyText} className="story-speech-player" /> */}
-            {renderChapter()}
+            {/* {renderChapter()} */}
+            <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                components={{
+                    h2: ({ node, ...props }) => (
+                        // eslint-disable-next-line jsx-a11y/heading-has-content
+                        <h2 className="story-title" {...props} />
+                    ),
+                    p: ({ node, ...props }) => (
+                        <p className="story-paragraph" {...props} />
+                    )
+                }}
+            >
+                {markdownContent}
+            </ReactMarkdown>
             <div className="reading-progress-container">
                 <div
                     className="reading-progress-bar"
