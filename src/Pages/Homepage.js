@@ -2,23 +2,23 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
 import smallintro2 from '../Assets/Homepage/shortintro/2023-18-Sprigatito.jpg';
-import useTranslation from '../Components/useTranslation';
+import useTranslation from '../hooks/useTranslation';
 
 const Homepage = () => {
     const { t } = useTranslation();
 
     useEffect(() => {
         const timer = setTimeout(() => {
-          // Scroll to the element with id "targetSection"
-          const targetElement = document.getElementById('targetSection');
-          if (targetElement) {
-            targetElement.scrollIntoView({ behavior: 'smooth' });
-          }
+            // Scroll to the element with id "targetSection"
+            const targetElement = document.getElementById('targetSection');
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
         }, 3000); // 3000ms = 3 seconds
-    
+
         // Cleanup the timer on component unmount
         return () => clearTimeout(timer);
-      }, []);
+    }, []);
 
     return (
         <div>

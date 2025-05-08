@@ -1,6 +1,6 @@
 import timeline from '../Assets/Timelinehelper.png';
 import { Link } from 'react-router-dom';
-import { useTheme } from "../Components/ThemeContext";
+import { useTheme } from "../contexts/ThemeContext";
 
 function Projects() {
     const { theme } = useTheme();

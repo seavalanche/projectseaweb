@@ -175,7 +175,27 @@ const translations = {
             attributes: "Attributes",
             moves: "Moves",
             artworks: "Artworks",
-        }
+        },
+        storyfnbar: {
+            fontsize: "Font Size:",
+            letterspacing: "Letter Spacing:",
+            wordspacing: "Word Spacing:",
+            padding: "Padding:",
+            linespacing: "Line Spacing:",
+            paragraphspacing: "Paragraph Spacing:",
+            fontfamily: "Font:",
+            textcolor: "Text Color:",
+            backgroundcolor: "Background:",
+            reset: "Reset",
+            sizes: "Sizes",
+            styles: "Styles",
+        },
+        storysidebar: {
+            toctitle: "Table of Contents",
+            notfound: "Nothing found.",
+            minread: "mins read",
+            searchplaceholder: "Search the story!",
+        },
     },
     jp: {
         navbar: {
@@ -344,16 +364,36 @@ const translations = {
         },
         charcard: {
             aboutchar: "🔍 キャラクターについてもっと知りたい！🔎",
-            meaning: "名前の意味",  // Name Meaning
-            gender: "性別",        // Gender
-            species: "種族",       // Species
-            height: "身長",        // Height
-            weight: "体重",        // Weight
-            createdDate: "作成日",   // Created Date
-            attributes: "属性",      // Attributes
-            moves: "技",           // Moves
-            artworks: "アートワーク"  // Artworks
-        }
+            meaning: "名前の意味",
+            gender: "性別",
+            species: "種族",
+            height: "身長",
+            weight: "体重",
+            createdDate: "作成日",
+            attributes: "属性",
+            moves: "技",
+            artworks: "アートワーク"
+        },
+        storyfnbar: {
+            fontsize: "文字サイズ：",
+            letterspacing: "文字間隔：",
+            wordspacing: "単語間隔：",
+            padding: "余白：",
+            linespacing: "行間：",
+            paragraphspacing: "段落間隔：",
+            fontfamily: "フォント：",
+            textcolor: "文字色：",
+            backgroundcolor: "背景色：",
+            reset: "リセット",
+            sizes: "サイズ",
+            styles: "スタイル",
+        },
+        storysidebar: {
+            toctitle: "目次",
+            notfound: "見つかりませんでした。",
+            minread: "分で読めます",
+            searchplaceholder: "ストーリーを検索！",
+        },
     },
 };
 

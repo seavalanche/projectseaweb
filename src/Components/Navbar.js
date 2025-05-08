@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
-import useTranslation from '../Components/useTranslation';
+import useTranslation from '../hooks/useTranslation';
 
 const Navbar = ({ toggleTheme }) => {
     const [menuOpen, setMenuOpen] = useState(false);

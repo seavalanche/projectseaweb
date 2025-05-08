@@ -1,8 +1,14 @@
 export const chapters = [
     {
         id: 'prologue',
-        title: 'Prologue',
-        description: 'The background story',
+        title: {
+            en: "Prologue",
+            jp: "プロローグ",
+        },
+        description: {
+            en: "The background story",
+            jp: "背景物語"
+        },
         wordCount: 1937,
         isCompleted: false,
         tags: ['beginning', 'magic'],
@@ -10,8 +16,14 @@ export const chapters = [
     },
     {
         id: 'chapter1',
-        title: 'Chapter 1: Protection',
-        description: 'The first chapter yipee',
+        title: {
+            en: "Chapter 1: Protection",
+            jp: "第1章：保護"
+        },
+        description: {
+            en: "The first chapter yipee",
+            jp: "最初の章です"
+        },
         wordCount: 1937,
         isCompleted: false,
         tags: ['beginning', 'magic'],
@@ -19,8 +31,14 @@ export const chapters = [
     },
     {
         id: 'chapter2',
-        title: 'Chapter 2: ',
-        description: 'This description works, right guys?',
+        title: {
+            en: "Chapter 2",
+            jp: "第2章"
+        },
+        description: {
+            en: "The first chapter yipee",
+            jp: "最初の章です"
+        },
         wordCount: '',
         isCompleted: false,
         tags: ['', ''],
@@ -28,8 +46,14 @@ export const chapters = [
     },
     {
         id: 'chapter3',
-        title: 'Chapter 3: ',
-        description: 'why are you reading these?',
+        title: {
+            en: "Chapter 3",
+            jp: "第3章"
+        },
+        description: {
+            en: "The first chapter yipee",
+            jp: "最初の章です"
+        },
         wordCount: '',
         isCompleted: false,
         tags: ['', ''],

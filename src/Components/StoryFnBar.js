@@ -1,5 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { chapters } from '../Pages/Chapters/metadata';
+import { useLocalization } from "../hooks/useLocalization";
+import useTranslation from '../hooks/useTranslation';
 
 function StoryFnBar({
     toggleSidebar,
@@ -7,6 +9,9 @@ function StoryFnBar({
     currentChapter,
     setCurrentChapter,
 }) {
+    const { getTitle } = useLocalization();
+    const { t } = useTranslation();
+
     const [isBetweenSizes, setIsBetweenSizes] = useState(false);
     const [isSmallScreen, setIsSmallScreen] = useState(false);
     const [showSizes, setShowSizes] = useState(true);
@@ -41,7 +46,7 @@ function StoryFnBar({
                         <div className="fnbar-sub-sizes-part">
                             {/* Font Size */}
                             <div className="fnbar-comps">
-                                <span>Font Size:</span>
+                                <span>{t("storyfnbar.fontsize")}</span>
                                 <div className="slider-wrapper">
                                     <button className="slider-btn" onClick={() => adjustSetting('fontSize', -1)}>-</button>
                                     <div className="slide-container">
@@ -60,7 +65,7 @@ function StoryFnBar({
                             </div>
                             {/* Letter Spacing */}
                             <div className="fnbar-comps">
-                                <span>Letter Spacing:</span>
+                                <span>{t("storyfnbar.letterspacing")}</span>
                                 <div className="slider-wrapper">
                                     <button className="slider-btn" onClick={() => adjustSetting('letterSpacing', -1)}>-</button>
                                     <div className="slide-container">
@@ -79,7 +84,7 @@ function StoryFnBar({
                             </div>
                             {/* Word Spacing */}
                             <div className="fnbar-comps">
-                                <span>Word Spacing:</span>
+                                <span>{t("storyfnbar.wordspacing")}</span>
                                 <div className="slider-wrapper">
                                     <button className="slider-btn" onClick={() => adjustSetting('wordSpacing', -1)}>-</button>
                                     <div className="slide-container">
@@ -100,7 +105,7 @@ function StoryFnBar({
                         <div className="fnbar-sub-sizes-part">
                             {/* Padding */}
                             <div className="fnbar-comps">
-                                <span>Padding:</span>
+                                <span>{t("storyfnbar.padding")}</span>
                                 <div className="slider-wrapper">
                                     <button className="slider-btn" onClick={() => adjustSetting('contentPadding', -1)}>-</button>
                                     <div className="slide-container">
@@ -119,7 +124,7 @@ function StoryFnBar({
                             </div>
                             {/* Line Spacing */}
                             <div className="fnbar-comps">
-                                <span>Line Spacing:</span>
+                                <span>{t("storyfnbar.linespacing")}</span>
                                 <div className="slider-wrapper">
                                     <button className="slider-btn" onClick={() => adjustSetting('lineHeight', -0.1)}>-</button>
                                     <div className="slide-container">
@@ -138,7 +143,7 @@ function StoryFnBar({
                             </div>
                             {/* Paragraph Spacing */}
                             <div className="fnbar-comps">
-                                <span>Paragraph Spacing:</span>
+                                <span>{t("storyfnbar.paragraphspacing")}</span>
                                 <div className="slider-wrapper">
                                     <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', -1)}>-</button>
                                     <div className="slide-container">
@@ -165,7 +170,7 @@ function StoryFnBar({
                     <div className="fnbar-sub-fonts">
                         {/* Font Family */}
                         <div className="fnbar-comps font-family">
-                            <span className="fnbar-font-family-title">Font:</span>
+                            <span className="fnbar-font-family-title">{t("storyfnbar.fontfamily")}</span>
                             <button onClick={() => handleFontFamilyChange('F-Content')}>Montserrat</button>
                             <button onClick={() => handleFontFamilyChange('Quicksand')}>Quicksand</button>
                             <button onClick={() => handleFontFamilyChange('Open Sans')}>Open Sans</button>
@@ -178,7 +183,7 @@ function StoryFnBar({
                     <div className="fnbar-sub-colors">
                         {/* Text Color */}
                         <div className="fnbar-comps">
-                            <span>Text Color:</span>
+                            <span>{t("storyfnbar.textcolor")}</span>
                             <input
                                 type="color"
                                 value={settings.fontColor}
@@ -188,7 +193,7 @@ function StoryFnBar({
 
                         {/* Background Color */}
                         <div className="fnbar-comps">
-                            <span>Background:</span>
+                            <span>{t("storyfnbar.backgroundcolor")}</span>
                             <input
                                 type="color"
                                 value={settings.bgColor}
@@ -214,13 +219,13 @@ function StoryFnBar({
                     onClick={() => { setActiveMenu(prev => (prev === 'sizes' ? null : 'sizes')); sidebarVisible && toggleSidebar(); }
                     }
                 >
-                    Sizes
+                    {t("storyfnbar.sizes")}
                 </button>
                 <button className="fnbar-sub-menu-btn-styles"
                     onClick={() => { setActiveMenu(prev => (prev === 'styles' ? null : 'styles')); sidebarVisible && toggleSidebar(); }
                     }
                 >
-                    Styles
+                    {t("storyfnbar.styles")}
                 </button>
                 {nextChapter && (
                     <button className="chapter-nav-sub-btn" onClick={() => setCurrentChapter(nextChapter.id)}>
@@ -448,7 +453,7 @@ function StoryFnBar({
                             <div className="fnbar-sub-sizes-part">
                                 {/* Font Size */}
                                 <div className="fnbar-comps">
-                                    <span>Font Size:</span>
+                                    <span>{t("storyfnbar.fontsize")}</span>
                                     <div className="slider-wrapper">
                                         <button className="slider-btn" onClick={() => adjustSetting('fontSize', -1)}>-</button>
                                         <div className="slide-container">
@@ -467,7 +472,7 @@ function StoryFnBar({
                                 </div>
                                 {/* Letter Spacing */}
                                 <div className="fnbar-comps">
-                                    <span>Letter Spacing:</span>
+                                    <span>{t("storyfnbar.letterspacing")}</span>
                                     <div className="slider-wrapper">
                                         <button className="slider-btn" onClick={() => adjustSetting('letterSpacing', -1)}>-</button>
                                         <div className="slide-container">
@@ -486,7 +491,7 @@ function StoryFnBar({
                                 </div>
                                 {/* Word Spacing */}
                                 <div className="fnbar-comps">
-                                    <span>Word Spacing:</span>
+                                    <span>{t("storyfnbar.wordspacing")}</span>
                                     <div className="slider-wrapper">
                                         <button className="slider-btn" onClick={() => adjustSetting('wordSpacing', -1)}>-</button>
                                         <div className="slide-container">
@@ -507,7 +512,7 @@ function StoryFnBar({
                             <div className="fnbar-sub-sizes-part">
                                 {/* Padding */}
                                 <div className="fnbar-comps">
-                                    <span>Padding:</span>
+                                    <span>{t("storyfnbar.padding")}</span>
                                     <div className="slider-wrapper">
                                         <button className="slider-btn" onClick={() => adjustSetting('contentPadding', -1)}>-</button>
                                         <div className="slide-container">
@@ -526,7 +531,7 @@ function StoryFnBar({
                                 </div>
                                 {/* Line Spacing */}
                                 <div className="fnbar-comps">
-                                    <span>Line Spacing:</span>
+                                    <span>{t("storyfnbar.linespacing")}</span>
                                     <div className="slider-wrapper">
                                         <button className="slider-btn" onClick={() => adjustSetting('lineHeight', -0.1)}>-</button>
                                         <div className="slide-container">
@@ -545,7 +550,7 @@ function StoryFnBar({
                                 </div>
                                 {/* Paragraph Spacing */}
                                 <div className="fnbar-comps">
-                                    <span>Paragraph Spacing:</span>
+                                    <span>{t("storyfnbar.paragraphspacing")}</span>
                                     <div className="slider-wrapper">
                                         <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', -1)}>-</button>
                                         <div className="slide-container">
@@ -573,14 +578,14 @@ function StoryFnBar({
                             <div className="chapter-nav">
                                 {prevChapter && (
                                     <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(prevChapter.id)}>
-                                        ← {prevChapter.title.substring(0, 15)}{prevChapter.title.length > 15 ? '...' : ''}
+                                        {getTitle(prevChapter, 15)}
                                     </button>
                                 )}
                             </div>
                             <div className="fnbar-sub-fonts">
                                 {/* Font Family */}
                                 <div className="fnbar-comps font-family">
-                                    <span className="fnbar-font-family-title">Font:</span>
+                                    <span className="fnbar-font-family-title">{t("storyfnbar.fontfamily")}</span>
                                     {/* <button onClick={() => handleFontFamilyChange('F-Content')}>Montserrat</button> */}
                                     <button onClick={() => handleFontFamilyChange('Quicksand')}>Quicksand</button>
                                     <button onClick={() => handleFontFamilyChange('Open Sans')}>Open Sans</button>
@@ -593,7 +598,7 @@ function StoryFnBar({
                             <div className="fnbar-sub-colors">
                                 {/* Text Color */}
                                 <div className="fnbar-comps">
-                                    <span>Text Color:</span>
+                                    <span>{t("storyfnbar.textcolor")}</span>
                                     <input
                                         type="color"
                                         value={settings.fontColor}
@@ -603,7 +608,7 @@ function StoryFnBar({
 
                                 {/* Background Color */}
                                 <div className="fnbar-comps">
-                                    <span>Background:</span>
+                                    <span>{t("storyfnbar.backgroundcolor")}</span>
                                     <input
                                         type="color"
                                         value={settings.bgColor}
@@ -611,11 +616,11 @@ function StoryFnBar({
                                     />
                                 </div>
                             </div>
-                            <button className="fnbar-default-sub" onClick={resetToDefault}>Reset</button>
+                            <button className="fnbar-default-sub" onClick={resetToDefault}>{t("storyfnbar.reset")}</button>
                             <div className="chapter-nav">
                                 {nextChapter && (
                                     <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(nextChapter.id)}>
-                                        {nextChapter.title.substring(0, 15)}{nextChapter.title.length > 15 ? '...' : ''} →
+                                        {getTitle(nextChapter, 15)} →
                                     </button>
                                 )}
                             </div>
@@ -625,15 +630,15 @@ function StoryFnBar({
                         <div className="fnbar-sub-menu">
                             {showSizes && (
                                 <button className="fnbar-sub-menu-btn-styles" onClick={() => setShowSizes(false)}>
-                                    Styles
+                                    {t("storyfnbar.styles")}
                                 </button>
                             )}
                             {!showSizes && (
                                 <button className="fnbar-sub-menu-btn-sizes" onClick={() => setShowSizes(true)}>
-                                    Sizes
+                                    {t("storyfnbar.sizes")}
                                 </button>
                             )}
-                            <button className="fnbar-default-menu" onClick={resetToDefault}>Reset</button>
+                            <button className="fnbar-default-menu" onClick={resetToDefault}>{t("storyfnbar.reset")}</button>
                             <div className="chapter-nav">
                                 {prevChapter && (
                                     <button onClick={() => setCurrentChapter(prevChapter.id)}>
