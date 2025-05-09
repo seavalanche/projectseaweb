@@ -49,17 +49,34 @@ html {
   scroll-behavior: smooth;
 }
 
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.noto-sans-jp {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+}
+.noto-serif-jp {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+}
+.biz-udpmincho-regular {
+  font-family: "BIZ UDPMincho", serif;
+  font-weight: 400;
+}
+
 /* Variable setting*/
 * {
-  --F-Navbar: "F-Navbar";
-  --F-NavbarTitle: "F-NavbarTitle";
-  --F-BigTitle: "F-BigTitle";
-  --F-Title: "F-Title";
-  --F-ContentTitle: "F-ContentTitle";
-  --F-Content: "F-Content";
-  --F-Link: "F-Link";
-  --F-CharCardName: "F-CharCardName";
-  --F-CharCardAltName: "F-CharCardAltName";
+  --F-Navbar: "F-Navbar", "Noto Sans JP";
+  --F-NavbarTitle: "F-NavbarTitle", "Noto Sans JP";
+  --F-BigTitle: "F-BigTitle", "Noto Serif JP";
+  --F-Title: "F-Title", "Noto Serif JP";
+  --F-ContentTitle: "F-ContentTitle", "Noto Sans JP";
+  --F-Content: "F-Content", "Noto Sans JP";
+  --F-Link: "F-Link", "Noto Sans JP";
+  --F-CharCardName: "F-CharCardName", "BIZ UDPMincho";
+  --F-CharCardAltName: "F-CharCardAltName", "BIZ UDPMincho";
   /* Story page */
   --content-padding: 22vw;
   --line-height: 1.6;
@@ -1225,42 +1242,42 @@ html {
   border: 1px solid var(--button-border-active);
   cursor: pointer;
 }
-  .sidebar-btn-open {
-    background-image: url("./Assets/Common/SidebarBtnLightOpen.svg");
-  }
-  .sidebar-btn-close {
-    background-image: url("./Assets/Common/SidebarBtnLightClose.svg");
-  }
-  .sidebar-btn-open:hover {
-    background-image: url("./Assets/Common/SidebarBtnLightCloseHover.svg");
-  }
-  .sidebar-btn-close:hover {
-    background-image: url("./Assets/Common/SidebarBtnLightOpenHover.svg");
-  }
-  [data-theme="dark"] .sidebar-btn-open {
-    background-image: url("./Assets/Common/SidebarBtnDarkOpen.svg");
-  }
-  [data-theme="dark"] .sidebar-btn-close {
-    background-image: url("./Assets/Common/SidebarBtnDarkClose.svg");
-  }
-  [data-theme="dark"] .sidebar-btn-open:hover {
-    background-image: url("./Assets/Common/SidebarBtnDarkCloseHover.svg");
-  }
-  [data-theme="dark"] .sidebar-btn-close:hover {
-    background-image: url("./Assets/Common/SidebarBtnDarkOpenHover.svg");
-  }
-  [data-theme="star"] .sidebar-btn-open {
-    background-image: url("./Assets/Common/SidebarBtnStarOpen.svg");
-  }
-  [data-theme="star"] .sidebar-btn-close {
-    background-image: url("./Assets/Common/SidebarBtnStarClose.svg");
-  }
-  [data-theme="star"] .sidebar-btn-open:hover {
-    background-image: url("./Assets/Common/SidebarBtnStarCloseHover.svg");
-  }
-  [data-theme="star"] .sidebar-btn-close:hover {
-    background-image: url("./Assets/Common/SidebarBtnStarOpenHover.svg");
-  }
+.sidebar-btn-open {
+  background-image: url("./Assets/Common/SidebarBtnLightOpen.svg");
+}
+.sidebar-btn-close {
+  background-image: url("./Assets/Common/SidebarBtnLightClose.svg");
+}
+.sidebar-btn-open:hover {
+  background-image: url("./Assets/Common/SidebarBtnLightCloseHover.svg");
+}
+.sidebar-btn-close:hover {
+  background-image: url("./Assets/Common/SidebarBtnLightOpenHover.svg");
+}
+[data-theme="dark"] .sidebar-btn-open {
+  background-image: url("./Assets/Common/SidebarBtnDarkOpen.svg");
+}
+[data-theme="dark"] .sidebar-btn-close {
+  background-image: url("./Assets/Common/SidebarBtnDarkClose.svg");
+}
+[data-theme="dark"] .sidebar-btn-open:hover {
+  background-image: url("./Assets/Common/SidebarBtnDarkCloseHover.svg");
+}
+[data-theme="dark"] .sidebar-btn-close:hover {
+  background-image: url("./Assets/Common/SidebarBtnDarkOpenHover.svg");
+}
+[data-theme="star"] .sidebar-btn-open {
+  background-image: url("./Assets/Common/SidebarBtnStarOpen.svg");
+}
+[data-theme="star"] .sidebar-btn-close {
+  background-image: url("./Assets/Common/SidebarBtnStarClose.svg");
+}
+[data-theme="star"] .sidebar-btn-open:hover {
+  background-image: url("./Assets/Common/SidebarBtnStarCloseHover.svg");
+}
+[data-theme="star"] .sidebar-btn-close:hover {
+  background-image: url("./Assets/Common/SidebarBtnStarOpenHover.svg");
+}
 .sidebar-toc-title {
   font-family: var(--F-Content);
   font-size: var(--Fs-CharCardProp);
