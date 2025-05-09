@@ -1207,6 +1207,10 @@ html {
   font-size: var(--Fs-CharCardProp);
   color: var(--button-text);
 }
+.sidebar-hidden {
+  pointer-events: none;
+  border: none;
+}
 .sidebar-btn {
   background-color: var(--button-background);
   font-family: var(--F-Content);
@@ -1215,16 +1219,48 @@ html {
   border: 1px solid var(--button-border);
   border-radius: 5px;
 }
-.sidebar-hidden {
-  pointer-events: none;
-  border: none;
-}
 .sidebar-btn:hover {
   background-color: var(--button-background-active);
   color: var(--button-text-active);
   border: 1px solid var(--button-border-active);
   cursor: pointer;
 }
+  .sidebar-btn-open {
+    background-image: url("./Assets/Common/SidebarBtnLightOpen.svg");
+  }
+  .sidebar-btn-close {
+    background-image: url("./Assets/Common/SidebarBtnLightClose.svg");
+  }
+  .sidebar-btn-open:hover {
+    background-image: url("./Assets/Common/SidebarBtnLightCloseHover.svg");
+  }
+  .sidebar-btn-close:hover {
+    background-image: url("./Assets/Common/SidebarBtnLightOpenHover.svg");
+  }
+  [data-theme="dark"] .sidebar-btn-open {
+    background-image: url("./Assets/Common/SidebarBtnDarkOpen.svg");
+  }
+  [data-theme="dark"] .sidebar-btn-close {
+    background-image: url("./Assets/Common/SidebarBtnDarkClose.svg");
+  }
+  [data-theme="dark"] .sidebar-btn-open:hover {
+    background-image: url("./Assets/Common/SidebarBtnDarkCloseHover.svg");
+  }
+  [data-theme="dark"] .sidebar-btn-close:hover {
+    background-image: url("./Assets/Common/SidebarBtnDarkOpenHover.svg");
+  }
+  [data-theme="star"] .sidebar-btn-open {
+    background-image: url("./Assets/Common/SidebarBtnStarOpen.svg");
+  }
+  [data-theme="star"] .sidebar-btn-close {
+    background-image: url("./Assets/Common/SidebarBtnStarClose.svg");
+  }
+  [data-theme="star"] .sidebar-btn-open:hover {
+    background-image: url("./Assets/Common/SidebarBtnStarCloseHover.svg");
+  }
+  [data-theme="star"] .sidebar-btn-close:hover {
+    background-image: url("./Assets/Common/SidebarBtnStarOpenHover.svg");
+  }
 .sidebar-toc-title {
   font-family: var(--F-Content);
   font-size: var(--Fs-CharCardProp);
@@ -1380,6 +1416,42 @@ html {
     border-radius: 5px;
     cursor: pointer;
   }
+  .sidebar-btn-mobile-open {
+    background-image: url("./Assets/Common/SidebarBtnMLightOpen.svg");
+  }
+  .sidebar-btn-mobile-close {
+    background-image: url("./Assets/Common/SidebarBtnMLightClose.svg");
+  }
+  .sidebar-btn-mobile-open:hover {
+    background-image: url("./Assets/Common/SidebarBtnMLightCloseHover.svg");
+  }
+  .sidebar-btn-mobile-close:hover {
+    background-image: url("./Assets/Common/SidebarBtnMLightOpenHover.svg");
+  }
+  [data-theme="dark"] .sidebar-btn-mobile-open {
+    background-image: url("./Assets/Common/SidebarBtnMDarkOpen.svg");
+  }
+  [data-theme="dark"] .sidebar-btn-mobile-close {
+    background-image: url("./Assets/Common/SidebarBtnMDarkClose.svg");
+  }
+  [data-theme="dark"] .sidebar-btn-mobile-open:hover {
+    background-image: url("./Assets/Common/SidebarBtnMDarkCloseHover.svg");
+  }
+  [data-theme="dark"] .sidebar-btn-mobile-close:hover {
+    background-image: url("./Assets/Common/SidebarBtnMDarkOpenHover.svg");
+  }
+  [data-theme="star"] .sidebar-btn-mobile-open {
+    background-image: url("./Assets/Common/SidebarBtnMStarOpen.svg");
+  }
+  [data-theme="star"] .sidebar-btn-mobile-close {
+    background-image: url("./Assets/Common/SidebarBtnMStarClose.svg");
+  }
+  [data-theme="star"] .sidebar-btn-mobile-open:hover {
+    background-image: url("./Assets/Common/SidebarBtnMStarCloseHover.svg");
+  }
+  [data-theme="star"] .sidebar-btn-mobile-close:hover {
+    background-image: url("./Assets/Common/SidebarBtnMStarOpenHover.svg");
+  }
   .fnbar-default-menu {
     background-color: var(--button-background);
     font-family: var(--F-Content);
@@ -1388,12 +1460,28 @@ html {
     border: 1px solid var(--button-border);
     border-radius: 5px;
     cursor: pointer;
+    background-image: url("./Assets/Common/ResetBtnLight.svg");
+  }
+  [data-theme="dark"] .fnbar-default-menu {
+    background-image: url("./Assets/Common/ResetBtnDark.svg");
+  }
+  [data-theme="star"] .fnbar-default-menu {
+    background-image: url("./Assets/Common/ResetBtnStar.svg");
   }
   .sidebar-btn-mobile:hover,
   .fnbar-default-menu:hover {
     background-color: var(--button-background-active);
     color: var(--button-text-active);
     border: 1px solid var(--button-border-active);
+  }
+  .fnbar-default-menu:hover {
+    background-image: url("./Assets/Common/ResetBtnLightActive.svg");
+  }
+  [data-theme="dark"] .fnbar-default-menu:hover {
+    background-image: url("./Assets/Common/ResetBtnDarkActive.svg");
+  }
+  [data-theme="star"] .fnbar-default-menu:hover {
+    background-image: url("./Assets/Common/ResetBtnStarActive.svg");
   }
 }
 /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */

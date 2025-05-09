@@ -206,7 +206,12 @@ function StoryFnBar({
                     onClick={() => { setActiveMenu(prev => (prev === 'sizes' ? null : null)); toggleSidebar(); }
                     }
                 >
-                    {sidebarVisible ? '↑' : '↓'}
+                    {/* {sidebarVisible ? '↑' : '↓'} */}
+                    {sidebarVisible ?
+                        <div className="sidebar-btn-mobile-open"></div>
+                        :
+                        <div className="sidebar-btn-mobile-close"></div>
+                    }
                 </div>
                 {prevChapter && (
                     <button className="chapter-nav-sub-btn" onClick={() => setCurrentChapter(prevChapter.id)}>
@@ -230,7 +235,7 @@ function StoryFnBar({
                         &gt;
                     </button>
                 )}
-                <div className="fnbar-default-menu" onClick={resetToDefault}>R</div>
+                <div className="fnbar-default-menu" onClick={resetToDefault}></div>
             </div>
         </div>
     );
@@ -435,7 +440,11 @@ function StoryFnBar({
         <div className={`function-bar ${isVisible ? 'visible' : 'hidden'}`}>
             <div className={`sidebar-btn ${isVisible ? 'visible' : 'hidden'}`}
                 onClick={() => { toggleSidebar(); }}>
-                {sidebarVisible ? '←' : '→'}
+                {sidebarVisible ?
+                    <div className="sidebar-btn-open"></div>
+                    :
+                    <div className="sidebar-btn-close"></div>
+                }
             </div>
             {isSmallScreen ? (
                 renderMobileLayout()

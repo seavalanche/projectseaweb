@@ -2023,8 +2023,21 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 10px;
+  width: 5px;
+  height: 5px;
+  padding: 10px;
+  margin-right: auto;
 }
+  .sidebar-btn-open,
+  .sidebar-btn-close {
+    width: 5px;
+    height: 5px;
+    padding: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+  }
 .sidebar ul {
   list-style: none;
   padding: 0;
@@ -2283,15 +2296,33 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px;
+    width: 5px;
+    height: 5px;
+    padding: 10px;
     margin-right: auto;
+  }
+  .sidebar-btn-mobile-open,
+  .sidebar-btn-mobile-close {
+    width: 5px;
+    height: 5px;
+    padding: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
   }
   .fnbar-default-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px;
     margin-left: auto;
+    width: 5px;
+    height: 5px;
+    padding: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
   }
   .fnbar-sub-menu button {
     width: 80px;
