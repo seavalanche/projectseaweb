@@ -45,11 +45,15 @@
   font-family: "OpenDyslexic";
   src: url(./Assets/Fonts/OpenDyslexic-Regular.otf);
 }
+@font-face {
+  font-family: "F-AboutVesnea";
+  src: url(./Assets/Fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+}
 html {
   scroll-behavior: smooth;
 }
 
-.josefin-sans {
+.josefin-sans-AboutVesnea {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -77,6 +81,7 @@ html {
   --F-Link: "F-Link", "Noto Sans JP";
   --F-CharCardName: "F-CharCardName", "BIZ UDPMincho";
   --F-CharCardAltName: "F-CharCardAltName", "BIZ UDPMincho";
+  --F-AboutVesnea: "F-AboutVesnea";
   /* Story page */
   --content-padding: 22vw;
   --line-height: 1.6;
@@ -103,6 +108,9 @@ html {
   --Fs-CharCardAltName: 12pt;
   --Fs-CharCardProp: 12pt;
   --Fs-CharCardValue: 15pt;
+  --Fs-AboutVesneaTitle: 24pt;
+  --Fs-AboutVesneaContent: 15pt;
+  --Fs-AboutVesneaInfo: 12pt;
 }
 @media only screen and (max-width: 800px) {
   * {
@@ -117,6 +125,9 @@ html {
     --Fs-CharCardAltName: 10pt;
     --Fs-CharCardProp: 10pt;
     --Fs-CharCardValue: 12pt;
+    --Fs-AboutVesneaTitle: 16pt;
+    --Fs-AboutVesneaContent: 12pt;
+    --Fs-AboutVesneaInfo: 10pt;
   }
 }
 
@@ -261,6 +272,9 @@ html {
     var(--border-charcard) 50%,
     transparent
   );
+  --aboutvesnea-bg: var(--C-Zumiko_White);
+  --aboutvesnea-text: var(--C-Vesnea_Purple);
+  --aboutvesnea-cardborder: var(--C-Zumiko_Pink);
 }
 [data-theme="dark"] {
   /* Dark Theme */
@@ -295,6 +309,9 @@ html {
   --active-tab-charcard: var(--C-Korazu_Yellow);
   --active-tab-charcard-border: var(--C-Korazu_Yellow);
   --active-tab-charcard-text: var(--C-SeaWeb_Purple);
+  --aboutvesnea-bg: var(--C-SeaWeb_Purple);
+  --aboutvesnea-text: var(--C-Zumiko_Light_Red);
+  --aboutvesnea-cardborder: var(--C-Vesnea_Purple);
 }
 [data-theme="star"] {
   /* Star Theme */
@@ -333,6 +350,9 @@ html {
   --active-tab-charcard: var(--C-Uzakon_Purple);
   --active-tab-charcard-border: var(--C-Uzakon_Purple);
   --active-tab-charcard-text: var(--C-Uzakon_White);
+  --aboutvesnea-bg: var(--C-SeaWeb_Dark_Purple);
+  --aboutvesnea-text: var(--C-Uzakon_Light_Purple);
+  --aboutvesnea-cardborder: var(--C-SeaWeb_Purple);
 }
 
 /* SCROLL BAR */ /* SCROLL BAR */ /* SCROLL BAR */ /* SCROLL BAR */
@@ -947,27 +967,39 @@ html {
 /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */
 
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
-.abouthero {
-  background-color: var(--bg-color-1);
+/* General AboutVesnea */
+.AV-wrapper {
+  background-color: var(--aboutvesnea-bg);
+  font-family: var(--F-AboutVesnea);
+  font-size: var(--Fs-AboutVesneaContent);
+  font-weight: 300;
+  color: var(--aboutvesnea-text);
 }
-.aboutherocontainer {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
-  color: var(--text-color-1b);
-}
-.aboutherotitle {
+/* AboutVesnea Header */
+.AVSectionTitle {
   font-family: var(--F-BigTitle);
   font-size: var(--Fs-BigTitle);
-  color: var(--text-color-1a);
 }
-.aboutwebsite {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
-  color: var(--navtext-a);
-  background-color: var(--bg-color-3);
-  font-weight: bold;
-  font-style: normal;
+.AVSectionContent {
+  font-size: var(--Fs-AboutVesneaTitle);
+  color: var(--aboutvesnea-text);
+}
+.AVSectionContent:link {
   text-decoration: none;
+}
+/* AboutVesnea MyStyle */
+.AVMyStyleImg {
+  background-color: #3c1a2c;
+  border-radius: 5px;
+}
+[data-theme="dark"] .AVMyStyleImg {
+  background-color: #211b2b;
+}
+[data-theme="star"] .AVMyStyleImg {
+  background-color: #1f1b2c;
+}
+.AVMyStyleAlt {
+  font-size: var(--Fs-AboutVesneaInfo);
 }
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
 

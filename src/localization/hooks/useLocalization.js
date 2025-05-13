@@ -5,6 +5,12 @@ import { localize } from '../utils/localization';
 
 export const useLocalization = () => {
   const { language, setLanguage } = useContext(LanguageContext);
+
+    const toggleLang = (newLang) => {
+    setLanguage(newLang);
+    document.documentElement.setAttribute("data-language", newLang);
+    localStorage.setItem("language", newLang);
+  };
   
   const t = (text) => localize(text, translations, language);
   
@@ -16,5 +22,5 @@ export const useLocalization = () => {
       : title;
   };
   
-  return { t, getTitle, language, setLanguage };
+  return { t, getTitle, language, toggleLang };
 };

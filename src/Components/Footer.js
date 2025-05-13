@@ -28,7 +28,7 @@ const Footer = () => {
                                     <a href="https://bsky.app/profile/seavalanche.bsky.social" target='_blank' rel="noreferrer" className='footnav-text'>Bluesky</a>
                                     <a href="https://www.instagram.com/seavalanche" target='_blank' rel="noreferrer" className='footnav-text'>Instagram</a>
                                     <a href="https://www.pixiv.net/en/users/14390223" target='_blank' rel="noreferrer" className='footnav-text'>Pixiv</a>
-                                    <a href="https://discord.gg/Hm7DwngzJb" target='_blank' rel="noreferrer" className='footnav-text'>Discord Server</a>
+                                    {/* <a href="https://discord.gg/Hm7DwngzJb" target='_blank' rel="noreferrer" className='footnav-text'>Discord Server</a> */}
                                     <a href="https://www.youtube.com/@seavalanche" target='_blank' rel="noreferrer" className='footnav-text'>Youtube</a>
                                     <a href="https://mastodon.art/@seava" target='_blank' rel="noreferrer" className='footnav-text'>Mastodon</a>
                                     {/* <a href="https://www.deviantart.com/seavalanche" target='_blank' rel="noreferrer" className='footnav-text'>Deviantart</a> */}

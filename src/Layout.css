@@ -1613,49 +1613,256 @@ html {
 /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */
 
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
-.abouthero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 15px;
-  padding-bottom: 20px;
+/* General AboutVesnea */
+.AV-wrapper {
+  transition: all 0.3s ease;
 }
-.aboutherocontainer {
+.AV-wrapper2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: justify;
-  width: 80%;
+  gap: 22px;
+  padding-top: 30px;
+  padding-bottom: 45px;
 }
-.aboutherotitle {
-  padding-bottom: 10px;
-}
-.aboutwebsite {
+.AV-choicewrapper {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+  gap: 20px;
+}
+.AVTidy-er {
+  height: 47px;
+  width: 1px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./Assets/About/AboutVesnea/Tidy-er-Light.svg");
+}
+[data-theme="dark"] .AVTidy-er {
+  background-image: url("./Assets/About/AboutVesnea/Tidy-er-Dark.svg");
+}
+[data-theme="star"] .AVTidy-er {
+  background-image: url("./Assets/About/AboutVesnea/Tidy-er-Star.svg");
+}
+/* AboutVesnea Header */
+.AVSectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* AboutVesnea Intro */
+.AVIntroHeader {
+  width: 100%;
+  height: min(30vw, 400px);
+  aspect-ratio: 3.7 / 1;
+  background-image: url("./Assets/About/AboutVesnea/AboutVesnea-Header_2.png"),
+    url("./Assets/About/AboutVesnea/AboutVesnea-Header_2-shadow.png");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover, 120% min(30vw, 400px);
+}
+.AV-introwrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+  gap: 20px;
+}
+.AVIntroPFP {
+  height: 200px;
+}
+.AVIntroContent {
+  max-width: 500px;
+}
+/* AboutVesnea MyStyle */
+.AV-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.AVMyStyleCard {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  height: 100px;
-  padding: 0 10vw;
+  gap: 20px;
+  margin-bottom: -4px;
+  padding: 20px;
+  border-top: 4px dashed var(--aboutvesnea-cardborder);
+  border-bottom: 4px dashed var(--aboutvesnea-cardborder);
+}
+.AVMyStyleImg {
+  width: 150px;
+}
+.AVMyStyleText {
+  width: 300px;
+}
+.AVMyStyleTools {
+  width: 150px;
+}
+/* AboutVesnea Timeline */
+.AVTimeline {
+  width: 1000px;
+  min-width: 80vw;
+  max-height: 300px;
+  aspect-ratio: 1000 / 244;
+  margin: 25px;
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineLight.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+[data-theme="dark"] .AVTimeline {
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineDark.svg");
+}
+[data-theme="star"] .AVTimeline {
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineStar.svg");
+}
+[data-language="jp"] .AVTimeline {
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineLightJP.svg");
+}
+[data-language="jp"][data-theme="dark"] .AVTimeline {
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineDarkJP.svg");
+}
+[data-language="jp"][data-theme="star"] .AVTimeline {
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineStarJP.svg");
+}
+/* AboutVesnea Socials */
+.AVSectionContent2-left,
+.AVSectionContent2-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.AVSectionContent2-left {
+  justify-content: end;
+}
+.AVSocials-kofi,
+.AVSocials-bluesky,
+.AVSocials-twitter,
+.AVSocials-instagram {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.AVSocials-kofi {
+  width: 174px;
+  height: 30px;
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Light.svg");
+}
+.AVSocials-bluesky {
+  width: 30px;
+  height: 27px;
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Light.svg");
+}
+.AVSocials-twitter {
+  width: 35px;
+  height: 26px;
+  background-image: url("./Assets//About//AboutVesnea//AboutSocials//About-Icon-Twitter-Light.svg");
+}
+.AVSocials-instagram {
+  width: 30px;
+  height: 30px;
+  background-image: url("./Assets//About//AboutVesnea//AboutSocials//About-Icon-Instagram-Light.svg");
+}
+[data-theme="dark"] .AVSocials-kofi {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Dark.svg");
+}
+[data-theme="star"] .AVSocials-kofi {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Star.svg");
+}
+[data-theme="dark"] .AVSocials-bluesky {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Dark.svg");
+}
+[data-theme="star"] .AVSocials-bluesky {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Star.svg");
+}
+[data-theme="dark"] .AVSocials-twitter {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Dark.svg");
+}
+[data-theme="star"] .AVSocials-twitter {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Star.svg");
+}
+[data-theme="dark"] .AVSocials-instagram {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Dark.svg");
+}
+[data-theme="star"] .AVSocials-instagram {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Star.svg");
 }
 @media only screen and (max-width: 800px) {
-  .aboutherocontainer {
-    width: 80%;
+  /* AboutVesnea MyStyle */
+  .AVMyStyleCard {
+    gap: 15px;
+  }
+  .AVMyStyleImg {
+    width: 100px;
+  }
+  .AVMyStyleText {
+    width: 30vw;
+  }
+  .AVMyStyleTools {
+    width: 15vw;
   }
 }
-@media only screen and (min-width: 801px) and (max-width: 1199px) {
-  .aboutherocontainer {
-    width: 70%;
+@media only screen and (max-width: 1200px) {
+  /* General AboutVesnea */
+  .AV-wrapper {
+    padding-bottom: 15px;
   }
-}
-@media only screen and (min-width: 1200px) {
-  .abouthero {
-    padding-top: 30px;
+  .AV-wrapper2 {
+    gap: 5px;
+    padding-top: 25px;
     padding-bottom: 30px;
   }
-  .aboutherocontainer {
-    width: 885px;
+  .AV-choicewrapper {
+    margin: 5px;
+    gap: 15px;
+  }
+  .AVTidy-er {
+    height: 34px;
+  }
+  /* AboutVesnea Header */
+  .AVSectionContent {
+    align-items: center;
+  }
+  /* AboutVesnea Intro */
+  .AV-introwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 10px;
+    gap: 10px;
+  }
+  .AVIntroPFP {
+    height: min(150px, 25vw);
+  }
+  /* AboutVesnea Timeline */
+  .AVTimeline {
+    min-width: initial;
+    width: min(80vw, 410px);
+    max-height: initial;
+    aspect-ratio: 410 / 632.12;
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMLight.svg");
+  }
+  [data-theme="dark"] .AVTimeline {
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMDark.svg");
+  }
+  [data-theme="star"] .AVTimeline {
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMStar.svg");
+  }
+  [data-language="jp"] .AVTimeline {
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMLightJP.svg");
+  }
+  [data-language="jp"][data-theme="dark"] .AVTimeline {
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMDarkJP.svg");
+  }
+  [data-language="jp"][data-theme="star"] .AVTimeline {
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMStarJP.svg");
   }
 }
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
@@ -2028,16 +2235,16 @@ html {
   padding: 10px;
   margin-right: auto;
 }
-  .sidebar-btn-open,
-  .sidebar-btn-close {
-    width: 5px;
-    height: 5px;
-    padding: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20px;
-  }
+.sidebar-btn-open,
+.sidebar-btn-close {
+  width: 5px;
+  height: 5px;
+  padding: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
 .sidebar ul {
   list-style: none;
   padding: 0;
