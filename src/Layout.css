@@ -1793,21 +1793,6 @@ html {
 [data-theme="star"] .AVSocials-instagram {
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Star.svg");
 }
-@media only screen and (max-width: 800px) {
-  /* AboutVesnea MyStyle */
-  .AVMyStyleCard {
-    gap: 15px;
-  }
-  .AVMyStyleImg {
-    width: 100px;
-  }
-  .AVMyStyleText {
-    width: 30vw;
-  }
-  .AVMyStyleTools {
-    width: 15vw;
-  }
-}
 @media only screen and (max-width: 1200px) {
   /* General AboutVesnea */
   .AV-wrapper {
@@ -1841,6 +1826,12 @@ html {
   .AVIntroPFP {
     height: min(150px, 25vw);
   }
+  /* AboutVesnea MyStyle */
+  .AVMyStyleText {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
   /* AboutVesnea Timeline */
   .AVTimeline {
     min-width: initial;
@@ -1863,6 +1854,26 @@ html {
   }
   [data-language="jp"][data-theme="star"] .AVTimeline {
     background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMStarJP.svg");
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* AboutVesnea Intro */
+  .AV-introwrapper {
+    width: 90vw;
+  }
+  /* AboutVesnea MyStyle */
+  .AVMyStyleCard {
+    gap: 18px;
+    padding: 18px;
+  }
+  .AVMyStyleImg {
+    width: 100px;
+  }
+  .AVMyStyleText {
+    width: 30vw;
+  }
+  .AVMyStyleTools {
+    width: 15vw;
   }
 }
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
