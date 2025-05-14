@@ -638,38 +638,15 @@ html {
 /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
 
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
-.projectshero {
-  background-color: var(--bg-color-1);
+.projectcarditem {
+  border-top: 2px dashed var(--aboutvesnea-cardborder);
 }
-.projectsheroheader {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
-  color: var(--text-color-1b);
-}
-.projectsherotitle {
-  font-family: var(--F-BigTitle);
-  font-size: var(--Fs-BigTitle);
-  color: var(--text-color-1a);
-}
-.projectsheroitemcard {
-  border-color: var(--text-color-1b);
-}
-.projectsheroitemtitle {
-  font-family: var(--F-Title);
-  font-size: var(--Fs-Title);
-  font-weight: bold;
-  color: var(--text-color-1a);
-}
-.projectsheroitemtext {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
-  color: var(--text-color-1b);
-}
-.projectsherolearnmore {
-  font-family: var(--F-Link);
-  font-size: var(--Fs-Link);
-  color: var(--text-color-1a);
+.projectcarditem .AVMyStyleAlt {
+  color: var(--aboutvesnea-text);
   text-decoration: none;
+}
+.projectcarditem .AVMyStyleAlt:hover {
+  color: var(--aboutvesnea-link);
 }
 .historicalsect {
   background-color: var(--C-SeaWeb_Purple);
@@ -692,45 +669,18 @@ html {
 }
 /*ProjectSeaWeb*/
 .websitelinktree-title {
-  font-family: var(--F-ContentTitle);
-  font-size: var(--Fs-ContentTitle);
-  color: var(--C-Seava_Yellow);
+  font-family: var(--F-AboutVesnea);
+  font-size: var(--Fs-AboutVesneaTitle);
+  color: var(--aboutvesnea-text);
 }
 .websitelinktree-text {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
-  color: var(--C-Vesnea_white);
+  font-size: var(--Fs-AboutVesneaContent);
+  color: var(--aboutvesnea-text);
   text-decoration: none;
 }
-.webshowcase {
-  background-color: var(--C-SeaWeb_Dark_Purple);
-}
-.webshowcase-text1 {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
-  color: var(--C-Vesnea_white);
-}
+.webshowcase-text1,
 .webshowcase-text2 {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
-  color: var(--C-Vesnea_white);
-}
-.webstyle-wrapperA {
-  background-color: var(--C-Vesnea_Light_Pink);
-}
-.webstyle-wrapperA-text {
-  font-family: var(--F-ContentTitle);
-  font-size: var(--Fs-ContentTitle);
-  color: var(--C-Zumiko_White);
-}
-.webstyle-wrapperB {
-  background-color: var(--C-Zumiko_White);
-}
-.webstyle-wrapperB-text {
-  font-family: var(--F-Title);
-  font-size: var(--Fs-Title);
-  font-weight: bold;
-  color: var(--C-Zumiko_Red);
+  font-size: var(--Fs-AboutVesneaContent);
 }
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 

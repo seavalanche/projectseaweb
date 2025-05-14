@@ -614,57 +614,31 @@ html {
 /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
 
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
-.projectshero {
+.projecthero {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 35px;
-}
-.projectsheroheader {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 1065px;
-  padding-bottom: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-.projectsherotitle {
-  padding-bottom: 10px;
-}
-.projectsheroitem {
+.projectcard {
   padding-top: 15px;
   display: flex;
-  gap: 25px;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
   transition: all 0.1s ease;
   max-width: 90vw;
 }
-.projectsheroitemcard {
-  width: 325px;
-  height: 250px;
+.projectcarditem {
+  width: 300px;
   display: flex;
   flex-direction: column;
-  border-style: dashed;
-  border-width: 2px;
-  border-radius: 15px;
+  justify-content: space-between;
   padding: 15px;
-}
-.projectsheroitemtitle {
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-.projectsheroitemtext {
-  text-align: center;
-  white-space: pre-line;
-}
-.projectsherolearnmore {
-  text-align: center;
-  margin-top: auto;
-  padding-bottom: 12px;
+  gap: 15px;
 }
 
 .historicalsect {
@@ -720,15 +694,16 @@ html {
 }
 
 .webshowcase {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   flex-direction: column;
-  gap: 50px;
   justify-content: center;
+  width: 100%;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
   transition: all 0.1s ease;
 }
 .webshowcase-wrapper {
@@ -736,6 +711,10 @@ html {
   margin-right: auto;
   display: flex;
   width: 1065px;
+}
+.webshowcase-img{
+  box-shadow: 0 3px 12px
+    color-mix(in srgb, var(--aboutvesnea-cardborder) 50%, transparent);
 }
 .webshowcase-text1 {
   display: flex;
@@ -759,68 +738,7 @@ html {
   flex-direction: column;
   gap: var(--Fs-Content);
 }
-.webstyle {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-.separator {
-  height: 10vw;
-  max-height: 150px;
-  object-fit: cover;
-}
-.webstyle-wrapperA {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 15px;
-  padding-bottom: 50px;
-}
-.webstyle-wrapperA-text {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  justify-content: center;
-}
-.webstyle-wrapperB {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 15px;
-  padding-bottom: 30px;
-}
-.webstyle-wrapperB-text {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 @media only screen and (max-width: 800px) {
-  .projectshero {
-    padding-top: 15px;
-    padding-bottom: 25px;
-  }
-  .projectsheroheader {
-    width: 80%;
-  }
-  .projectsheroitem {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
-  }
-  .projectsheroitemcard {
-    width: 250px;
-    height: 200px;
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
-    padding: 5px;
-  }
-
   .timeline {
     width: 100%;
     max-width: 1065px;
@@ -833,6 +751,9 @@ html {
     margin-left: max(10vw, 50px);
   }
 
+  .webshowcase {
+    padding-bottom: 50px;
+  }
   .webshowcase-wrapper {
     width: 80%;
     flex-direction: column;
@@ -844,49 +765,8 @@ html {
   .webshowcase-text2 {
     width: 100%;
   }
-
-  .colorstyle {
-    width: 80%;
-  }
-  .webstyle-wrapperA {
-    padding-top: 5px;
-    padding-bottom: 20px;
-  }
-  .webstyle-wrapperB {
-    margin-top: 5px;
-  }
-  .webstyle-wrapperA-text {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .webstyle-wrapperA-text {
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-  }
 }
 @media only screen and (min-width: 801px) and (max-width: 1199px) {
-  .projectshero {
-    padding-top: 15px;
-    padding-bottom: 25px;
-  }
-  .projectsheroheader {
-    width: 80%;
-  }
-  .projectsheroitem {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
-  }
-  .projectsheroitemcard {
-    width: 250px;
-    height: 235px;
-    border-style: dashed;
-    border-width: 2px;
-    border-radius: 15px;
-    padding: 5px;
-  }
-
   .timeline {
     width: 100%;
     max-width: 1065px;
@@ -895,9 +775,6 @@ html {
     width: 80%;
   }
   /*ProjectSeaWeb*/
-  .webshowcase {
-    gap: 70px;
-  }
   .webshowcase-wrapper {
     max-width: 90vw;
     height: auto;
@@ -909,6 +786,11 @@ html {
   }
   .colorstyle {
     width: 80%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .projectcard {
+    gap: 0px;
   }
 }
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
