@@ -19,7 +19,19 @@ import { useLocalization } from '../localization/hooks/useLocalization';
 function ProjectSeaWeb() {
     const { t } = useLocalization();
     return (
-        <div>
+        <div className='AV-wrapper'>
+            <div className='AV-wrapper2'>
+                <div className='AVSectionTitle'>{t("about.hi")}</div>
+                <div className='AV-choicewrapper'>
+                    <Link to='/AboutVesnea' className='AVSectionContent AVLink'>
+                        {t("about.aboutvesnea")}
+                    </Link>
+                    <div className='AVTidy-er' />
+                    <div className='AVSectionContent'>
+                        {t("about.aboutseaweb")}
+                    </div>
+                </div>
+            </div>
             <div className='projectsshowcase'>
                 ( 🦺 Under Construction 🦺 )
             </div>

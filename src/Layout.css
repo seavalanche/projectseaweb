@@ -1754,44 +1754,93 @@ html {
   height: 30px;
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Light.svg");
 }
+.AVSocials-kofi:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Dark.svg");
+}
 .AVSocials-bluesky {
   width: 30px;
   height: 27px;
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Light.svg");
+}
+.AVSocials-bluesky:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Dark.svg");
 }
 .AVSocials-twitter {
   width: 35px;
   height: 26px;
   background-image: url("./Assets//About//AboutVesnea//AboutSocials//About-Icon-Twitter-Light.svg");
 }
+.AVSocials-twitter:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Dark.svg");
+}
 .AVSocials-instagram {
   width: 30px;
   height: 30px;
   background-image: url("./Assets//About//AboutVesnea//AboutSocials//About-Icon-Instagram-Light.svg");
 }
+.AVSocials-instagram:hover {
+  transform: scale(1.05);
+}
+
 [data-theme="dark"] .AVSocials-kofi {
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Dark.svg");
+}
+[data-theme="dark"] .AVSocials-kofi:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Light.svg");
 }
 [data-theme="star"] .AVSocials-kofi {
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Star.svg");
 }
+[data-theme="star"] .AVSocials-kofi:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Star.svg"),
+    url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Light.svg");
+  background-blend-mode: hue;
+  opacity: 0.8;
+}
+
 [data-theme="dark"] .AVSocials-bluesky {
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Dark.svg");
+}
+[data-theme="dark"] .AVSocials-bluesky:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Light.svg");
 }
 [data-theme="star"] .AVSocials-bluesky {
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Star.svg");
 }
+[data-theme="star"] .AVSocials-bluesky:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Star.svg"),
+    url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Light.svg");
+  background-blend-mode: hue;
+  opacity: 0.8;
+}
+
 [data-theme="dark"] .AVSocials-twitter {
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Dark.svg");
+}
+[data-theme="dark"] .AVSocials-twitter:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Light.svg");
 }
 [data-theme="star"] .AVSocials-twitter {
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Star.svg");
 }
+[data-theme="star"] .AVSocials-twitter:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Star.svg"),
+    url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Light.svg");
+  background-blend-mode: hue;
+  opacity: 0.8;
+}
+
 [data-theme="dark"] .AVSocials-instagram {
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Dark.svg");
 }
 [data-theme="star"] .AVSocials-instagram {
   background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Star.svg");
+}
+[data-theme="star"] .AVSocials-instagram:hover {
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Star.svg"),
+    url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Dark.svg");
+  background-blend-mode: screen;
+  opacity: 0.7;
 }
 @media only screen and (max-width: 1200px) {
   /* General AboutVesnea */

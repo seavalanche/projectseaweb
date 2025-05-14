@@ -26,7 +26,7 @@ const About = () => {
                         {t("about.aboutvesnea")}
                     </div>
                     <div className='AVTidy-er' />
-                    <Link to='/Projectseaweb' className='AVSectionContent'>
+                    <Link to='/Projectseaweb' className='AVSectionContent AVLink'>
                         {t("about.aboutseaweb")}
                     </Link>
                 </div>

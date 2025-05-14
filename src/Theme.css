@@ -274,6 +274,7 @@ html {
   );
   --aboutvesnea-bg: var(--C-Zumiko_White);
   --aboutvesnea-text: var(--C-Vesnea_Purple);
+  --aboutvesnea-link: var(--attribute-sound);
   --aboutvesnea-cardborder: var(--C-Zumiko_Pink);
 }
 [data-theme="dark"] {
@@ -311,6 +312,7 @@ html {
   --active-tab-charcard-text: var(--C-SeaWeb_Purple);
   --aboutvesnea-bg: var(--C-SeaWeb_Purple);
   --aboutvesnea-text: var(--C-Zumiko_Light_Red);
+  --aboutvesnea-link: var(--C-Zumiko_Red);
   --aboutvesnea-cardborder: var(--C-Vesnea_Purple);
 }
 [data-theme="star"] {
@@ -352,6 +354,7 @@ html {
   --active-tab-charcard-text: var(--C-Uzakon_White);
   --aboutvesnea-bg: var(--C-SeaWeb_Dark_Purple);
   --aboutvesnea-text: var(--C-Uzakon_Light_Purple);
+  --aboutvesnea-link: var(--C-Uzakon_Purple);
   --aboutvesnea-cardborder: var(--C-SeaWeb_Purple);
 }
 
@@ -983,9 +986,10 @@ html {
 .AVSectionContent {
   font-size: var(--Fs-AboutVesneaTitle);
   color: var(--aboutvesnea-text);
-}
-.AVSectionContent:link {
   text-decoration: none;
+}
+.AVLink:hover {
+  color: var(--aboutvesnea-link);
 }
 /* AboutVesnea MyStyle */
 .AVMyStyleImg {
