@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.0cd1a3b2.css",
-    "main.js": "/projectseaweb/static/js/main.874f83bc.js",
+    "main.css": "/projectseaweb/static/css/main.b78af606.css",
+    "main.js": "/projectseaweb/static/js/main.a04a988b.js",
     "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
     "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
     "static/js/281.f244e449.chunk.js": "/projectseaweb/static/js/281.f244e449.chunk.js",
@@ -14,7 +14,6 @@
     "static/media/11-DigitalArt-AnimationArt.gif": "/projectseaweb/static/media/11-DigitalArt-AnimationArt.c0f95d8ee6918eeda8b7.gif",
     "static/media/S134 - Uzakon.gif": "/projectseaweb/static/media/S134 - Uzakon.243f4016bb918aaec921.gif",
     "static/media/Introduction-bg-full.jpg": "/projectseaweb/static/media/Introduction-bg-full.4c90e7e547e3829b535a.jpg",
-    "static/media/Vesnea.png": "/projectseaweb/static/media/Vesnea.075a0a3068f73af4a921.png",
     "static/media/S124 - Seavas Scice.gif": "/projectseaweb/static/media/S124 - Seavas Scice.93a41e856617b6e0826f.gif",
     "static/media/S136 - Vesnea.gif": "/projectseaweb/static/media/S136 - Vesnea.369df434afd5414a0ecd.gif",
     "static/media/LightMode.jpg": "/projectseaweb/static/media/LightMode.bb1320585460f8d7d5c7.jpg",
@@ -67,7 +66,6 @@
     "static/media/S64 - Seavalanche.webp": "/projectseaweb/static/media/S64 - Seavalanche.ff52be1c894ab74931ab.webp",
     "static/media/S55 - Vesnea_wip3.gif": "/projectseaweb/static/media/S55 - Vesnea_wip3.0d2d2ca0d5336ad0de97.gif",
     "static/media/S141 - Seavalanche.webp": "/projectseaweb/static/media/S141 - Seavalanche.b3124eaf598388ffa368.webp",
-    "static/media/SeaWebColorStyles.png": "/projectseaweb/static/media/SeaWebColorStyles.f884f7488ace53053b04.png",
     "static/media/WelcomeSect-star.jpg": "/projectseaweb/static/media/WelcomeSect-star.c73bd38491e3a1cf71b2.jpg",
     "static/media/V1 Website 3.png": "/projectseaweb/static/media/V1 Website 3.70c4e73a865289c36367.png",
     "static/media/JosefinSans-Italic-VariableFont_wght.ttf": "/projectseaweb/static/media/JosefinSans-Italic-VariableFont_wght.d96bb2f98cb3d0d8ee06.ttf",
@@ -79,6 +77,7 @@
     "static/media/V1 Website 4.png": "/projectseaweb/static/media/V1 Website 4.a338b66c5c562a42e355.png",
     "static/media/Baskervville-Regular.ttf": "/projectseaweb/static/media/Baskervville-Regular.f901739d83410218a9d2.ttf",
     "static/media/S163 - Elemental Power_full.webp": "/projectseaweb/static/media/S163 - Elemental Power_full.7dadab8385aeaa936ae5.webp",
+    "static/media/Vesnea.png": "/projectseaweb/static/media/Vesnea.075a0a3068f73af4a921.png",
     "static/media/S60 - Vesnea.webp": "/projectseaweb/static/media/S60 - Vesnea.8335d6fa3567e1e473a6.webp",
     "static/media/S58 - Vesnea.webp": "/projectseaweb/static/media/S58 - Vesnea.f1f09f6ff85aeed0a68d.webp",
     "static/media/S156 - Seava and Uzakon.webp": "/projectseaweb/static/media/S156 - Seava and Uzakon.edcbdef27aa6853827f7.webp",
@@ -267,12 +266,12 @@
     "static/media/Tidy-er-Dark.svg": "/projectseaweb/static/media/Tidy-er-Dark.49a885caeb277d6e00e9.svg",
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
-    "main.0cd1a3b2.css.map": "/projectseaweb/static/css/main.0cd1a3b2.css.map",
-    "main.874f83bc.js.map": "/projectseaweb/static/js/main.874f83bc.js.map",
+    "main.b78af606.css.map": "/projectseaweb/static/css/main.b78af606.css.map",
+    "main.a04a988b.js.map": "/projectseaweb/static/js/main.a04a988b.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd1a3b2.css",
-    "static/js/main.874f83bc.js"
+    "static/css/main.b78af606.css",
+    "static/js/main.a04a988b.js"
   ]
 }
