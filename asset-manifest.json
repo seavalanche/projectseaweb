@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.7d22b9e9.css",
+    "main.css": "/projectseaweb/static/css/main.ecab99b1.css",
     "main.js": "/projectseaweb/static/js/main.83b8dfa4.js",
     "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
     "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
@@ -32,9 +32,9 @@
     "static/media/S51 - Vesnea.gif": "/projectseaweb/static/media/S51 - Vesnea.6810b5b725760c325383.gif",
     "static/media/Montserrat-VariableFont_wght.ttf": "/projectseaweb/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/Introduction-bg.jpg": "/projectseaweb/static/media/Introduction-bg.db82af113c96448b593b.jpg",
-    "static/media/AboutTimelineMDark.svg": "/projectseaweb/static/media/AboutTimelineMDark.e0099795a78dccb96e3c.svg",
-    "static/media/AboutTimelineMLight.svg": "/projectseaweb/static/media/AboutTimelineMLight.af05875658c30f94926e.svg",
-    "static/media/AboutTimelineMStar.svg": "/projectseaweb/static/media/AboutTimelineMStar.2f24a813fcdf7bc80f21.svg",
+    "static/media/AboutTimelineMDark.svg": "/projectseaweb/static/media/AboutTimelineMDark.99b7098d8aca43c62a8a.svg",
+    "static/media/AboutTimelineMLight.svg": "/projectseaweb/static/media/AboutTimelineMLight.85d10456cc8db8185540.svg",
+    "static/media/AboutTimelineMStar.svg": "/projectseaweb/static/media/AboutTimelineMStar.911f12d884eeb44026e1.svg",
     "static/media/AboutVesnea-Header_2-shadow.png": "/projectseaweb/static/media/AboutVesnea-Header_2-shadow.9850d74a460d999b6233.png",
     "static/media/AboutTimelineDark.svg": "/projectseaweb/static/media/AboutTimelineDark.70a0cd1f9e8a6f17477b.svg",
     "static/media/AboutTimelineLight.svg": "/projectseaweb/static/media/AboutTimelineLight.6075e71a5abe1bce515b.svg",
@@ -267,12 +267,12 @@
     "static/media/Tidy-er-Dark.svg": "/projectseaweb/static/media/Tidy-er-Dark.49a885caeb277d6e00e9.svg",
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
-    "main.7d22b9e9.css.map": "/projectseaweb/static/css/main.7d22b9e9.css.map",
+    "main.ecab99b1.css.map": "/projectseaweb/static/css/main.ecab99b1.css.map",
     "main.83b8dfa4.js.map": "/projectseaweb/static/js/main.83b8dfa4.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d22b9e9.css",
+    "static/css/main.ecab99b1.css",
     "static/js/main.83b8dfa4.js"
   ]
 }
