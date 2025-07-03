@@ -712,7 +712,7 @@ html {
   display: flex;
   width: 1065px;
 }
-.webshowcase-img{
+.webshowcase-img {
   box-shadow: 0 3px 12px
     color-mix(in srgb, var(--aboutvesnea-cardborder) 50%, transparent);
 }
@@ -2175,7 +2175,6 @@ html {
   width: 5px;
   height: 5px;
   padding: 10px;
-  margin-right: auto;
 }
 .sidebar-btn-open,
 .sidebar-btn-close {
