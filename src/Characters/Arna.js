@@ -22,14 +22,12 @@ const Arna = {
     },
     moves: {
         en: [
-            "Endless Heal: Arna uses her life force to heal her subordinates, draining her own life. This is activated as long as her subordinates use moves.",
-            "Shield: Arna tries to endure damages using her long ears.",
-            "Unseen Hit: her subordinate attacks by kicking the target so fast that it looks like a blur."
+            "Endless Heal: Arna uses her life force to heal her three Mini Arnas, draining her own life. This is activated as long as her Mini Arnas use moves.",
+            "Shield: Arna tries to endure damages using her long ears."
         ],
         jp: [
-            "エンドレスヒール：Arnaは自身の生命力を使って味方を回復させる。味方が技を使用している限り、この効果は継続され、Arnaの体力は徐々に削られていく。",
-            "シールド：Arnaは自身の長い耳を使ってダメージを耐える。",
-            "見えざる一撃：ミニArnaが高速でキックを繰り出し、その速さは目に映らないほど。"
+            "エンドレスヒール：Arnaは自分の生命力を使って3体のMini Arnaを回復させます。その代わりに自分の命が削られていきます。Mini Arnaたちが技を使い続けている間、この回復は自動的に発動し続けます。",
+            "シールド：Arnaは自分の長い耳を使ってダメージを耐えようとします。"
         ],
     },
     artworks: [

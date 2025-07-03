@@ -59,7 +59,7 @@ const Vesnea = {
         jp: "Seavalancheのアナグラムです。",
     },
     gender: { en: "Female", jp: "女性" },
-   species: { en: "Fox-like creature", jp: "キツネのような生き物" },
+    species: { en: "Fox-like creature", jp: "キツネのような生き物" },
     height: { en: "1.2 m", jp: "1.2メートル" },
     weight: { en: "35 kg", jp: "35キログラム" },
     createdDate: { en: "22 May 2022", jp: "2022年6月22日" },

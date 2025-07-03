@@ -24,7 +24,7 @@ const Seava = {
     name: "Seava",
     alternateName: "",
     nameMeaning: {
-        en: "A short version of Seavalanche",
+        en: "A short version of Seavalanche.",
         jp: "Seavalancheの短縮形。",
     },
     gender: { en: "Genderless", jp: "性別なし" },
