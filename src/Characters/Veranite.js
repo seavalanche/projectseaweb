@@ -31,10 +31,14 @@ const Veranite = {
     },
     moves: {
         en: [
-            "Void of Uncertainty: Veranite glows and spread dark aura of uncertainty towards everyone nearby, making them doubt themselves and their situation."
+            "Void of Uncertainty: Veranite glows and spread dark aura of uncertainty towards everyone nearby, making them doubt themselves and their situation. From his opponent's point of view, the surroundings will become dark, with some random spots of very bright light. Because it's all in their mind, no matter how hard they close their eyes, it will never dim the bright lights. They will become uncertain of their goal and purpose, which Veranite hopes he won't need to continue battling.",
+            "Void of False Hope: Veranite glows and spread dark aura of hope towards everyone nearby, making them feeling hopeful of reaching their goal. But because most of the times Veranite is also doubtful of his own goal and hope, everyone affected by this also got the false version of their hope. With false method and false logic, they will succumb to their own scrambled thoughts so Veranite can escape without continuing the battle.",
+            "Void of Doom: Veranite's ultimate move when he felt cornered with no way of hiding or escaping the battlefield. He will consume his lights and absorb everything around him, creating a vacuum, almost like a black hole. It's a last resort because he isn't certain that he can survive this at all, but he will do it if it means the opponent also can't escape the doom. The moment things goes into him, he will lose consciousness and he will leave his fate into the vacuum of space."
         ],
         jp: [
-            "不確かなる虚無：Veraniteが光りながら暗いオーラを放ち、周囲の者たちに疑念を抱かせ、自分や状況への自信を失わせる。"
+            "ヴォイド・オブ・アンサートンティ：Veraniteは暗い光を放ち、周囲に「不確かさ」のオーラを広げます。影響を受けた者は、自分自身や状況に対して深い疑念を抱き始めます。視界は暗闇に包まれ、所々に強烈な光の点が現れます。それはすべて心の中で起きているため、目を閉じてもその光は消えません。目標や目的への確信を失わせ、Veraniteはこれによって戦わずに済むことを願っています。",
+            "ヴォイド・オブ・フォルスホープ：Veraniteは淡い光を放ち、「希望」のようなオーラを周囲に広げます。しかしそれはVeranite自身が自らの希望に疑いを抱いているがゆえに、「偽りの希望」です。影響を受けた者たちは目標達成への期待を抱きますが、その方法も思考も誤っており、やがて混乱と破綻に陥ります。Veraniteは、その隙に戦場から逃げようとします。",
+            "ヴォイド・オブ・ドゥーム：Veraniteが追い詰められ、逃げ道も隠れる場所もなくなったときに放つ、究極の技です。自らの光をすべて吸収し、周囲のものを巻き込みながら真空を作り出します。それはまるでブラックホールのようで、Veranite自身が生き延びられる保証もありません。しかし、それでも相手を逃がさないために放つ決意の技です。すべてを吸い込んだ瞬間、彼は意識を失い、自身の運命を空間の虚無へと委ねます。"
         ],
     },
     artworks: [

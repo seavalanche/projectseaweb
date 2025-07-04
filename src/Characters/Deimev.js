@@ -21,22 +21,28 @@ const Deimev = {
     },
     abilities: {
         en: [
-            "",
+            "Judgment Recoil: If an attack is justified or hit the target, Deimev got a temporary buff to his strength. On the other hand, if the attack is unjustified or missed the target, Deimev got a temporary debuff to his strength.",
+            "Phasing: As a spirit attribute bearer, Deimev can temporarily phase through solid things without much effort. But with a downside that his weapon Judgment Gale will needed to be left behind as it can't phase through things."
         ],
         jp: [
-            "",
+            "ジャッジメントリコイル：攻撃が正当化されたりターゲットをヒットした場合、Deimevは一時的に強さが強化される。逆に、攻撃が不当であったりターゲットを外した場合、Deimevの強さは一時的に弱化される。",
+            "フェイジング：霊属性を持つDeimevは、少ない労力で一時的に物体をすり抜けることができます。ただし、武器である「Judgment Gale」はすり抜けられないため、その場に置いていかなければなりません。"
         ],
     },
     moves: {
         en: [
             "Judgment Gale: Deimev's Judgment Gale spins at high speeds, forming a slicing wind that cuts through anything deemed guilty in his eyes.",
             "Unwavering Justice: Deimev's Judgment Gale cannot be stopped or deflected. If someone tries to evade, it adjusts its trajectory automatically, ensuring a guaranteed punishment.",
-            "Passive ability - Judgment Recoil: If an attack is justified or hit the target, Deimev got a temporary buff to his strength. On the other hand, if the attack is unjustified or missed the target, Deimev got a temporary debuff to his strength."
+            "Horn of Pain: Deimev charges forward using his horns to damage his opponent. If it connects, the receiver will feel short pains on the whole body with a random interval. As long as Deimev is around and is  deeming the receiver to be in the wrong, they will keep receiving random pains.",
+            "Ultimate Punishment: Deimev's last resort move that he will use if he strongly believed his opponent is really truly in the wrong the whole time. He will concentrate all of his power onto his Judgment Gale that combined it into a singular, bigger Judgment Gale. Then he will throw it onto his opponent which will always connect whether now or later as the bigger Judgment Gale will circle around until it connects. It can slash through boulders without issues so hiding from it is futile.",
+            "Shameful Retreat: Deimev's last resort move that he will use if he realized his judgment has been wrong the whole time. He will leave his Judgment Gale behind and run away phasing through objects without attacking or defending back. "
         ],
         jp: [
             "ジャッジメントゲイル：Deimevのジャッジメントゲイルが高速で回転し、彼の目で有罪と見なされたものを切り裂く風を生み出す。",
             "揺るぎない正義：Deimevのジャッジメントゲイルは止められず、反射することもない。誰かが回避しようとすると、その軌道を自動で調整し、確実な罰を保証する。",
-            "パッシブ能力 - ジャッジメントリコイル：攻撃が正当化されたりターゲットをヒットした場合、Deimevは一時的に強さが強化される。逆に、攻撃が不当であったりターゲットを外した場合、Deimevの強さは一時的に弱化される。"
+            "ホーン・オブ・ペイン：Deimevは角を使って突進し、相手にダメージを与えます。この攻撃が命中すると、相手の全身にランダムな間隔で短い痛みが走るようになります。そしてDeimevが近くにいて、なおかつ相手を「間違っている」と判断し続けている限り、その痛みは止むことはありません。",
+            "アルティメットパニッシュメント：Deimevが相手に一切の正義がないと確信したときにのみ使う最後の手段です。すべての力をJudgment Galeに集中させ、それを融合させて巨大な1つのJudgment Galeへと変化させます。それを投げつけることで、即時でなくても必ず命中します。巨大なJudgment Galeは相手の周囲を旋回し、最終的に確実に当たるため、隠れることは無意味です。岩をも容易く斬るその力は凄まじいものです。",
+            "シェイムフルリトリート：自らの判断が完全に誤っていたと気づいたときに使用する、Deimevのもう一つの最後の手段です。Judgment Galeを置き去りにし、一切攻撃も防御もせず、物体をすり抜けながら戦場から逃げ去ります。"
         ],
     },
     artworks: [

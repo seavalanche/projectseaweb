@@ -22,22 +22,24 @@ const Fondan = {
     },
     abilities: {
         en: [
-            "",
+            "Unfazed: Fondan's inner ability to be unaffected by emotional attacks. He is always focused to the current situation and his mind stay sharp.",
         ],
         jp: [
-            "",
+            "アンフェイズド：Fondanは感情的な攻撃に影響されない内なる能力を持っています。常に状況に集中し、冷静で鋭い思考を保ち続けます。",
         ],
     },
     moves: {
         en: [
             "Light of Knowledge: Fondan summon a bright light using his spell book to burn his target.",
             "Light Pillar: Fondan summon a bright light concentrated into several spots from the sky that looks like big pillars of light to burn his target.",
-            "Energy Palm: Fondan can fight in close range using his paws covered with light energy."
+            "Energy Palm: Fondan can fight in close range using his paws covered with light energy.",
+            "Last Information: Fondan's last move if he is cornered and he is very certain his future is no more. He will concentrate all of his light power into his book and throw it as far as possible. His intention is to store the information of his attacker so that others who stumbled upon his book can help spread it. He will then helplessly try to escape the battlefield without attacking back."
         ],
         jp: [
             "知識の光：魔法書を使って強烈な光を放ち、敵を焼き尽くす。",
             "光の柱：空から複数の場所に集中的に光を降らせ、巨大な光の柱で敵を焼き払う。",
-            "エナジーパーム：近距離での戦闘では、光のエネルギーをまとった掌で攻撃する。"
+            "エナジーパーム：近距離での戦闘では、光のエネルギーをまとった掌で攻撃する。",
+            "ラストインフォメーション：Fondanが追い詰められ、自分の未来がもうないと確信したときに使う最後の手段です。すべての光の力を本に注ぎ込み、それをできる限り遠くへ投げます。本の中に敵の情報を記録し、それを見つけた誰かが広めてくれることを願っています。その後、Fondanは反撃せず、必死に戦場から逃げようとします。"
         ],
     },
     artworks: [

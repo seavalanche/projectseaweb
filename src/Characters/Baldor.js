@@ -21,22 +21,26 @@ const Baldor = {
     },
     abilities: {
         en: [
-            "",
+            "Natural Heal: Baldor's rock roots always sap energy from the soil whenever he is disengaged from combats, recovering his stamina and health in the process.",
         ],
         jp: [
-            "",
+            "ナチュラルヒール：戦闘から離れている間、Baldorの岩の根は常に土からエネルギーを吸収し、体力とスタミナを回復します。",
         ],
     },
     moves: {
         en: [
             "Topplover: Baldor press his body against the target, using his massive weight as a damaging move.",
-            "Pebble shards: Baldor summoned many sharp pebbles to pelt the target.",
-            "Unmoving: Baldor endures damage by hardening his body."
+            "Pebble Shards: Baldor summoned many sharp pebbles to pelt the target.",
+            "Unmoving: Baldor endures damage by hardening his body.",
+            "Nature's Call: Baldor summoned natural energy surrounding him to overpower the target.",
+            "Explosion: Baldor's ultimate move, the one he doesn't dare doing because it means he is sacrificing his life. He will embrace all the power within him and then shove all of it outward, creating an explosion which can also destroy his solid body in the process. He ultimately will never use this move because he is determined that he can withstand anything without resorting to this move."
         ],
         jp: [
             "トップラバー：Baldorはその巨体を相手に押し付け、圧倒的な重量でダメージを与える技。",
             "ペブルシャード：鋭い小石を多数召喚し、相手に向かって一斉に放つ。",
-            "不動：Baldorは身体を硬化させ、攻撃を受けながらも動じず耐える。"
+            "不動：Baldorは身体を硬化させ、攻撃を受けながらも動じず耐える。",
+            "ネイチャーズコール：Baldorは周囲にある自然のエネルギーを呼び集め、相手を圧倒します。",
+            "エクスプロージョン：Baldorの究極技。自身の命を犠牲にすることになるため、彼はこの技を決して使おうとしません。体内のすべての力を抱え込み、それを一気に外へ放出して爆発を引き起こしますが、その衝撃で自身の頑丈な身体さえも破壊されてしまう恐れがあります。それでも彼は、この技に頼らず、どんな困難も耐え抜けると信じているのです。"
         ],
     },
     artworks: [

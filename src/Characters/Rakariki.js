@@ -21,22 +21,24 @@ const Rakariki = {
     },
     abilities: {
         en: [
-            "",
+            "Ultimate Reflex: As if the yellow pendant on his neck were a talisman, he seems to always able to evade attacks using his reflexes even if he doesn't see the incoming attack.",
         ],
         jp: [
-            "",
+            "アルティメットリフレックス：首にかけた黄色のペンダントがまるでお守りであるかのように、Rakarikiは見えない攻撃でさえも反射的に回避できるようです。",
         ],
     },
     moves: {
         en: [
             "Bolt Strike: Rakariki launches himself into his target with a speed of a lightning, damaging the opponent with electricity and physical hit.",
             "Quick Attack: This is an even faster move than Bolt Strike because Rakariki doesn't need to think to use this move. It's useful when he needed to evade an attack or needed to test the opponent's skills.",
-            "Lightning: When it's raining, Rakariki can use electricity charges on the cloud to summon a lightning to strike his target. Less accurate and also slower than his Bolt Strike, but more lethal than all of his other moves."
+            "Lightning: When it's raining, Rakariki can use electricity charges on the cloud to summon a lightning to strike his target. Less accurate and also slower than his Bolt Strike, but more lethal than all of his other moves.",
+            "Last Zap: Rakariki's last resort attack when he is already out of energy to sustain himself in a battle. He can choose between fleeing the arena or use this move. But if he chose to do this, he will concentrate all of his power into his pendant and then unleashes the rest of his remaining power everywhere in the hopes that it will do enough damage to defeat his opponent."
         ],
         jp: [
             "ボルトストライク：Rakarikiは稲妻のごときスピードで標的に突進し、電撃と物理の衝撃でダメージを与える。",
             "クイックアタック：ボルトストライクよりもさらに速い技。考える間もなく発動できるため、回避や相手の実力を測る時に便利。",
-            "ライトニング：雨が降っている時、Rakarikiは雲の電気を利用して雷を呼び起こし、敵に落とす。この技は命中率と速度は劣るが、威力は彼の他の技を凌駕する。"
+            "ライトニング：雨が降っている時、Rakarikiは雲の電気を利用して雷を呼び起こし、敵に落とす。この技は命中率と速度は劣るが、威力は彼の他の技を凌駕する。",
+            "ラストザップ：Rakarikiが戦闘を続けるエネルギーを失ったときにのみ使える最後の手段。このとき、彼は逃走するか、この技を使うかの選択を迫られます。もしこの技を選べば、ペンダントに残されたすべての力を集中させ、それを一気に解き放ち、相手に十分なダメージを与えることを狙います。"
         ],
     },
     artworks: [

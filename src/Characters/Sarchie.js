@@ -21,22 +21,24 @@ const Sarchie = {
     },
     abilities: {
         en: [
-            "",
+            "Traumatic Instinct: Sarchie's past made her very sensitive to bad intentions even if the offenders never showed it yet. Her instinct will tell her to avoid them instantly, which in turn saved her from bad things.",
         ],
         jp: [
-            "",
+            "トラウマティックインスティンクト：Sarchieは過去の経験により、たとえ相手がまだ悪意を見せていなくても、それを敏感に察知できるようになりました。その本能に従って即座に距離を取ることで、数々の危険から身を守ってきました。",
         ],
     },
     moves: {
         en: [
             "Wingbeat Screech: Sarchie uses her wings combined with her voice to screech loudly at her opponents to hinder their train of thoughts. It can be so loud that it may deafen the target for a short period.",
             "Hum of the Heavens: Sarchie's specialty in healing using her beautiful singing voice. This move can only heal if everyone nearby can hear sounds.",
-            "Beak Stab: Sarchie uses her beak to stab her target."
+            "Beak Stab: Sarchie uses her beak to stab her target.",
+            "Echo Shadow: Sarchie's last effort to flee from a battle she can't win. She will use a special kind of screech to fool the opponents who believed she is still on the battlefield even though she already fled."
         ],
         jp: [
             "羽ばたきの悲鳴：翼と声を組み合わせて大音量の悲鳴を放ち、相手の思考を妨げる。非常に大きな音で、一時的に聴覚を失わせることもある。",
             "天のハミング：Sarchieの美しい歌声による回復技。この技は、周囲の全員が音を聞くことができる環境でのみ効果を発揮する。",
             "くちばし突き：鋭いくちばしで相手を突く物理攻撃。",
+            "エコーシャドウ：勝ち目のない戦いから逃れるためのSarchieの最後の手段です。特殊な悲鳴を発して相手を惑わせ、自分がまだその場にいると錯覚させることで、すでに逃走していることを隠します。"
         ],
     },
     artworks: [
