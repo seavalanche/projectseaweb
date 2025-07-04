@@ -19,6 +19,14 @@ const Sarchie = {
         en: "Sarchie is a small, lightweight, hummingbird-like creature with incredible agility. She has a long, slender, and pointed beak. Two short head streamers extend from the top of her head, while two longer tail streamers flow from her bird-like tail, both ending in delicate heart shapes. Her beautiful singing has the power to heal an entire village, yet she can also unleash a piercing screech to disorient her opponents.",
         jp: "Sarchieは非常に軽くて小さなハチドリのようなクリーチャーで、驚異的な敏捷性を持つ。細長く尖ったくちばしを持ち、頭からは短いストリーマーが2本伸びており、尾からも2本の長いストリーマーが流れている。その両方は繊細なハート型で終わっている。彼女の美しい歌声には村全体を癒す力があるが、鋭い叫びを放って敵を混乱させることもできる。",
     },
+    abilities: {
+        en: [
+            "",
+        ],
+        jp: [
+            "",
+        ],
+    },
     moves: {
         en: [
             "Wingbeat Screech: Sarchie uses her wings combined with her voice to screech loudly at her opponents to hinder their train of thoughts. It can be so loud that it may deafen the target for a short period.",

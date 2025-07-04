@@ -75,6 +75,19 @@ function CharacterCard({ character }) {
                 {/* Extra Info: moves + artworks */}
                 {activeTab === 'charcard-moves' && (
                     <div className="charcard-extra">
+                        <div className='charcardProp'>{t("charcard.abilities")}</div>
+                        <ul className='charcardValue'>
+                            {(character.abilities[language] || character.abilities.en).map((ability, idx) => {
+                                const [abilityName, ...descParts] = ability.split(/[:：]/);
+                                const abilityDesc = descParts.join(/[:：]/);
+
+                                return (
+                                    <li key={idx} className='charcard-move-list'>
+                                        <span className="charcard-move-name">{abilityName.trim()}</span>: {abilityDesc.trim()}
+                                    </li>
+                                );
+                            })}
+                        </ul>
                         <div className='charcardProp'>{t("charcard.moves")}</div>
                         <ul className='charcardValue'>
                             {(character.moves[language] || character.moves.en).map((move, idx) => {

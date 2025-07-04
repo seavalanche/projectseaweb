@@ -19,6 +19,14 @@ const Deimev = {
         en: "Deimev is a big purple bull creature that has wispy endings instead of legs. He floats around with two purple/silver rings behind him called the Judgment Gale. His head has two horns and a big ring accessory on his left ear. He upholds justice no matter the circumstances using his Judgment Gale.",
         jp: "Deimevは、足の代わりにふわふわした端を持つ大きな紫色の牛のようなクリーチャー。彼は「ジャッジメントゲイル」と呼ばれる2つの紫と銀のリングを背後に浮かせながら移動する。彼の頭には2本の角と左耳に大きなリングのアクセサリーがある。どんな状況でも「ジャッジメントゲイル」を使って正義を貫く。",
     },
+    abilities: {
+        en: [
+            "",
+        ],
+        jp: [
+            "",
+        ],
+    },
     moves: {
         en: [
             "Judgment Gale: Deimev's Judgment Gale spins at high speeds, forming a slicing wind that cuts through anything deemed guilty in his eyes.",

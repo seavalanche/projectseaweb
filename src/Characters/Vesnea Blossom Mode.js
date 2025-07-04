@@ -20,20 +20,26 @@ const VesneaBM = {
         en: "The nature attribute has amplified her cheerful and friendly personality and it evolves into nurture and growth~! In this form, Vesnea realized that helping herself grow is as important as helping others grow.",
         jp: "自然の属性が、彼女の明るくてフレンドリーな性格をさらに引き立て、やがて育みと成長へと進化します〜！この姿のVesneaは、自分自身の成長を助けることも、他の誰かの成長を助けるのと同じくらい大切だと気づいたのです。",
     },
-    moves: {
+    abilities: {
         en: [
             "Water Breathing: Vesnea can swim with no effort and can breath underwater.",
-            "Aqua Blast: Vesnea shoot a concentrated high-pressure stream of water from her mouth or between two of her flippers.",
             "Aqua Regeneration: Vesnea can harness the innate power of water to heal her physical wounds and restore her vitality. This power accelerate her body’s natural healing processes, even able to heal from severe cuts and bruises.",
-            "Fairy Bubble Barrage: Vesnea conjures a flurry of magical water bubbles infused with her fairy attribute. When these bubbles hit the target, they release a calming energy that soothes and pacifies, making the opponent lose their will to fight and promoting peace.",
             "Semi-levitation: Vesnea’s innate ability of levitation using fairy power, but she can only use it in a short time in a short distance."
         ],
         jp: [
             "水中呼吸：Vesneaは努力せずに泳ぐことができ、水中でも呼吸ができます。",
-            "アクアブラスト：Vesneaは口や両方のヒレの間から高圧の水流を放ちます。",
             "アクア再生：Vesneaは水の持つ力を利用して、傷を癒し体力を回復させます。この能力は自然治癒力を加速させ、深い傷や打撲でも回復可能です。",
-            "フェアリーバブルバラージ：Vesneaは妖精の力を込めた魔法の水泡を無数に生み出します。この泡が相手に当たると、心を癒し戦意を失わせ、平和を促します。",
             "セミ浮遊：Vesneaは妖精の力で短時間・短距離だけ浮遊することができます。",
+        ],
+    },
+    moves: {
+        en: [
+            "Aqua Blast: Vesnea shoot a concentrated high-pressure stream of water from her mouth or between two of her flippers.",
+            "Fairy Bubble Barrage: Vesnea conjures a flurry of magical water bubbles infused with her fairy attribute. When these bubbles hit the target, they release a calming energy that soothes and pacifies, making the opponent lose their will to fight and promoting peace.",
+        ],
+        jp: [
+            "アクアブラスト：Vesneaは口や両方のヒレの間から高圧の水流を放ちます。",
+            "フェアリーバブルバラージ：Vesneaは妖精の力を込めた魔法の水泡を無数に生み出します。この泡が相手に当たると、心を癒し戦意を失わせ、平和を促します。",
         ],
     },
     artworks: [

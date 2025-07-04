@@ -19,6 +19,14 @@ const Baldor = {
         en: "Baldor is a huge rock shaped like a big wall, composed of Basalt exterior with granite reinforcements and sandstone interior. Don't mess with him because even as huge and heavy as he is, he still can move quite fast with his two pillar-like arms beside him. He is very determined to outlast everything, even if hundreds of attackers fight him alone. With his root rocks, he also can't be toppled over by anyone except intentionally by himself.",
         jp: "Baldorは大きな壁のような形をした巨大な岩のクリーチャーで、外側は玄武岩、内部は花崗岩で補強され、中心には砂岩が使われている。その巨体と重量にもかかわらず、両脇の柱のような腕を使って素早く動くことができる。何百人もの敵に囲まれても耐え抜く覚悟を持っており、根のように地中に繋がった岩によって、自分の意思以外では倒されることはない。",
     },
+    abilities: {
+        en: [
+            "",
+        ],
+        jp: [
+            "",
+        ],
+    },
     moves: {
         en: [
             "Topplover: Baldor press his body against the target, using his massive weight as a damaging move.",

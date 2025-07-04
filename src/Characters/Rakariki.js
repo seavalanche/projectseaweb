@@ -19,6 +19,14 @@ const Rakariki = {
         en: "Rakariki is a lean white-furred cat body adorned with yellow lightning stripes. He is a fearless cat due to his long winning streaks in his battles. That claim is proven by his lightning speed and his powerful lightning attack when it's raining. He has lightning-shaped fur on the tip of the ears and even the tail itself. He has a light blue collar on his neck and a yellow circle-shaped pendant as a physical proof of his courage.",
         jp: "Rakarikiは、白くてスリムな体に黄色の稲妻模様をまとったネコのようなクリーチャー。連戦連勝の戦績を誇る彼は、恐れを知らぬ存在として知られている。それを裏付けるかのように、彼は雷のようなスピードと、特に雨天時に威力を増す電撃攻撃を持っている。耳の先や尻尾の先にも雷の形をした毛が生えており、首には淡い水色の首輪と、勇気の証である黄色い丸いペンダントをつけている。",
     },
+    abilities: {
+        en: [
+            "",
+        ],
+        jp: [
+            "",
+        ],
+    },
     moves: {
         en: [
             "Bolt Strike: Rakariki launches himself into his target with a speed of a lightning, damaging the opponent with electricity and physical hit.",

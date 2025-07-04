@@ -29,27 +29,33 @@ const Seavalanche = {
         en: "It is said that when Vesnea reached the power of the Myth Seavalanche, she will look more elegant and powerful. She gained a part of Seava’s power in dire times.",
         jp: "Vesneaが神話のSeavalancheの力を得たとき、彼女はより優雅で力強い姿になると言われている。彼女は危機の時にセアヴァの力の一部を手に入れた。",
     },
+    abilities: {
+        en: [
+            "Levitation: Seavalanche uses her psychic power to levitate.",
+            "Telekinesis: Seavalanche uses her psychic power to move things around.",
+            "Water Breathing: Seavalanche uses her water power to swim with no effort and can breath underwater.",
+            "Aqua Regeneration: Seavalanche can harness the innate power of water to heal her physical wounds and restore her vitality. This power accelerate her body’s natural healing processes, even able to heal from severe cuts and bruises.",
+        ],
+        jp: [
+            "レヴィテーション：Seavalancheは超能力で空中浮遊する。",
+            "テレキネシス：Seavalancheは超能力で物を動かす。",
+            "ウォーター・ブリージング：Seavalancheは水の力で楽に泳ぎ、水中でも呼吸できる。",
+            "アクア・リジェネレーション：Seavalancheは水の本質的な力を利用して、身体の傷を癒し活力を取り戻す。この力は彼女の自然治癒力を加速させ、深い傷さえも回復させる。",
+        ],
+    },
     moves: {
         en: [
             "Glacial Cataclysm: Seavalanche lowers her surrounding temperature to extreme levels, creating an immense and rapidly expanding ice field. Massive ice formations and blizzards to materialize. Seavalanche channels an overwhelming psychic force to hurl these icy masses and freezing winds toward the target, engulfing everything in its path and leaving a frozen wasteland in its wake.",
             "Scice Barrage: Seavalanche formed multiple Scice, each formed with razor-sharp tips. With a command, the multiple Scice take turns lashing out at the target in rapid succession, creating a continuous and unrelenting barrage of icy strikes. The relentless assault overwhelms the target, battering them from all directions with chilling precision.",
             "Psychic Maelstrom: Seavalanche unleashes multiple powerful psychic waves relentlessly battering targets’ mind.",
-            "Levitation: Seavalanche uses her psychic power to levitate.",
-            "Telekinesis: Seavalanche uses her psychic power to move things around.",
-            "Water Breathing: Seavalanche uses her water power to swim with no effort and can breath underwater.",
             "Tidal Force: Seavalanche shoot a massively high-pressure stream of water from one of her flipper. It is said to be able to bore hole into a mountain.",
-            "Aqua Regeneration: Seavalanche can harness the innate power of water to heal her physical wounds and restore her vitality. This power accelerate her body’s natural healing processes, even able to heal from severe cuts and bruises.",
             "Lumina Burst: Seavalanche channels her fairy power to summon a concentrated beam of magical light, brimming with ethereal energy. The light radiates a dazzling brightness so intense it’s capable of piercing through darkness and obliterating obstacles in its path."
         ],
         jp: [
             "グレイシャル・カタクリズム：Seavalancheは周囲の温度を極限まで下げ、急速に広がる巨大な氷原を作り出す。巨大な氷の塊や吹雪が発生し、Seavalancheはその圧倒的な超能力で氷塊と凍える風を目標に投げつける。すべてを飲み込み、後には凍てついた荒野が残る。",
             "スサイス・バラージュ：Seavalancheは鋭利な先端を持つ複数のスサイスを形成する。命令とともに、それらは連続して攻撃を繰り出し、絶え間ない氷の打撃の嵐で相手を圧倒する。あらゆる方向からの冷酷な攻撃が相手を打ちのめす。",
             "サイキック・メイルストロム：Seavalancheは強力な精神波を次々と放ち、相手の精神を容赦なく叩きつける。",
-            "レヴィテーション：Seavalancheは超能力で空中浮遊する。",
-            "テレキネシス：Seavalancheは超能力で物を動かす。",
-            "ウォーター・ブリージング：Seavalancheは水の力で楽に泳ぎ、水中でも呼吸できる。",
             "タイダル・フォース：Seavalancheはヒレから高圧の水流を発射する。その威力は山に穴を開けるほどと言われている。",
-            "アクア・リジェネレーション：Seavalancheは水の本質的な力を利用して、身体の傷を癒し活力を取り戻す。この力は彼女の自然治癒力を加速させ、深い傷さえも回復させる。",
             "ルミナ・バースト：Seavalancheは妖精の力を使い、魔法の光の集中ビームを召喚する。その光はまばゆいほどの輝きを放ち、闇を貫き、障害物を消し去る力を持つ。",
         ],
     },
