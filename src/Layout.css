@@ -16,6 +16,35 @@ html {
 }
 /* @import "react-alice-carousel/lib/alice-carousel.css"; */
 
+/* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
+}
+.not-found h1 {
+  margin-bottom: 1rem;
+}
+.not-found p {
+  margin-bottom: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-indent: initial;
+}
+.not-found a {
+  padding: 0.7rem 1.4rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.not-found a:hover {
+  transform: scale(1.05);
+}
+/* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */
+
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
 .navbar {
   display: flex;

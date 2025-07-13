@@ -111,6 +111,9 @@ html {
   --Fs-AboutVesneaTitle: 24pt;
   --Fs-AboutVesneaContent: 15pt;
   --Fs-AboutVesneaInfo: 12pt;
+  --Fs-NotFoundTitle: 6rem;
+  --Fs-NotFoundDesc: 1.5rem;
+  --Fs-NotFoundBtn: 1.2rem;
 }
 @media only screen and (max-width: 800px) {
   * {
@@ -186,6 +189,7 @@ html {
   --C-MythSeavalanche_Peach: #f4cebd;
 
   --cutepink: #ff69b4;
+  --cutepink2: #d63384;
 
   --TC-BG_Light: var(--C-Vesnea_white);
   --TC-BG_Light2: var(--C-Uzakon_Light_Purple);
@@ -276,6 +280,28 @@ html {
   --aboutvesnea-text: var(--C-Vesnea_Purple);
   --aboutvesnea-link: var(--attribute-sound);
   --aboutvesnea-cardborder: var(--C-Zumiko_Pink);
+  --notfound-bg1: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 10%,
+    var(--C-Vesnea_white) 90%
+  );
+  --notfound-bg2: color-mix(
+    in srgb,
+    var(--C-Vesnea_Pink) 35%,
+    var(--C-Vesnea_white) 65%
+  );
+  --notfound-text1: var(--cutepink2);
+  --notfound-text2: var(--cutepink2);
+  --notfound-textbtn: color-mix(
+    in srgb,
+    var(--C-Vesnea_white) 90%,
+    var(--C-Vesnea_Pink) 10%
+  );
+  --notfound-btn: color-mix(
+    in srgb,
+    var(--cutepink) 80%,
+    var(--C-Vesnea_Purple) 20%
+  );
 }
 [data-theme="dark"] {
   /* Dark Theme */
@@ -314,6 +340,12 @@ html {
   --aboutvesnea-text: var(--C-Zumiko_Light_Red);
   --aboutvesnea-link: var(--C-Zumiko_Red);
   --aboutvesnea-cardborder: var(--C-Vesnea_Purple);
+  --notfound-bg1: var(--C-SeaWeb_Purple);
+  --notfound-bg2: var(--C-SeaWeb_Dark_Purple);
+  --notfound-text1: var(--C-Korazu_Yellow);
+  --notfound-text2: var(--C-Vesnea_Light_Pink);
+  --notfound-textbtn: var(--C-Vesnea_white);
+  --notfound-btn: var(--C-SeaWeb_Purple);
 }
 [data-theme="star"] {
   /* Star Theme */
@@ -356,6 +388,12 @@ html {
   --aboutvesnea-text: var(--C-Uzakon_Light_Purple);
   --aboutvesnea-link: var(--C-Uzakon_Purple);
   --aboutvesnea-cardborder: var(--C-SeaWeb_Purple);
+  --notfound-bg1: var(--C-SeaWeb_Dark_Purple);
+  --notfound-bg2: var(--C-SeaWeb_Dark_Purple);
+  --notfound-text1: var(--C-Uzakon_Lighter_Light_Purple);
+  --notfound-text2: var(--C-Uzakon_Light_Purple);
+  --notfound-textbtn: var(--C-Uzakon_Lighter_Light_Purple);
+  --notfound-btn: var(--C-SeaWeb_Purple);
 }
 
 /* SCROLL BAR */ /* SCROLL BAR */ /* SCROLL BAR */ /* SCROLL BAR */
@@ -379,6 +417,32 @@ html {
   scrollbar-color: var(--C-Uzakon_Light_Purple) var(--C-SeaWeb_Purple);
 }
 /* SCROLL BAR */ /* SCROLL BAR */ /* SCROLL BAR */ /* SCROLL BAR */
+
+/* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */
+.not-found {
+  background: linear-gradient(135deg, var(--notfound-bg1), var(--notfound-bg2));
+  font-family: "Comic Sans MS", "Josefin Sans", sans-serif;
+  color: var(--notfound-text1);
+}
+.not-found h1 {
+  font-size: var(--Fs-NotFoundTitle);
+}
+.not-found p {
+  font-size: var(--Fs-NotFoundDesc);
+  color: var(--notfound-text2);
+}
+.not-found a {
+  font-size: var(--Fs-NotFoundBtn);
+  background: var(--notfound-btn);
+  color: var(--notfound-textbtn);
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 0 10px color-mix(in srgb, var(--notfound-btn) 40%, transparent);
+}
+.not-found a:hover {
+  box-shadow: 0 0 10px color-mix(in srgb, var(--notfound-btn) 60%, transparent);
+}
+/* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */
 
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
 .navbar {

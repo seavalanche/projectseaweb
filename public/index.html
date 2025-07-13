@@ -89,7 +89,10 @@
       name="description"
       content="Vesnea wrote all of the ReactJS so you can enjoy her beautiful website ✨"
     />
+
     <title>Seavalanche's Website</title>
+    <link rel="stylesheet" href="%PUBLIC_URL%/noscript-files/noscript.css" />
+
     <script>
       const savedTheme = localStorage.getItem("theme") || "light";
       document.documentElement.setAttribute("data-theme", savedTheme);
@@ -105,12 +108,38 @@
       href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <noscript
-      >I created this website using ReactJS. So please enable JavaScript, thank
-      you~!</noscript
-    >
+    <noscript>
+      <div class="noscript-message">
+        I created this website using <strong>ReactJS</strong> 💕
+
+        <a
+          href="https://bsky.app/profile/seavalanche.bsky.social"
+          title="Follow me on Bluesky 💖"
+          class="noscript-pfp-link"
+        >
+          <img
+            src="%PUBLIC_URL%/noscript-files/noscript-pfp.png"
+            alt="Me, Vesnea"
+            class="noscript-pfp"
+          />
+        </a>
+        <div class="noscript-message-pfp">Vesnea</div>
+
+        <div class="noscript-message-sub">
+          Please enable JavaScript to experience the full magic, thank you~! ✨
+        </div>
+      </div>
+    </noscript>
     <div id="root"></div>
   </body>
 </html>

@@ -18,6 +18,7 @@ import AboutVesnea from './Pages/AboutVesnea.js'
 import Tools from './Tools/TextToHtmlConverter.js'
 import TestComponent from './Tools/HighlightMessage.js';
 import YCHStory from './Tools/StoryYCH/YCHStory.js';
+import NotFound from './Pages/NotFound.js';
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -45,6 +46,7 @@ function App() {
         <Route path='/Tools' exact element={<Tools />} />
         <Route path='/Test' exact element={<TestComponent />} />
         <Route path='/YCHStory' exact element={<YCHStory />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <ScrollToTopButton />
       <Footer />
