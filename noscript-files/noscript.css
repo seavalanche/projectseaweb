@@ -36,14 +36,10 @@
   display: inline-block;
   text-decoration: none;
 }
-
-/* 💥 On click animation (with active state) */
 .noscript-pfp-link:active .noscript-pfp {
   transform: scale(0.95);
   box-shadow: 0 0 4px rgba(255, 105, 180, 0.9);
 }
-
-/* 🐭 Optional: glow on hover */
 .noscript-pfp-link:hover .noscript-pfp {
   transform: scale(1.05);
   box-shadow: 0 0 12px rgba(255, 105, 180, 0.7);
@@ -66,7 +62,6 @@
 }
 
 body {
-  /* background-color: #181621; */
   background-color: #ccc6e7;
   background-image: url("noscript-bg.webp");
   background-size: 20%;
