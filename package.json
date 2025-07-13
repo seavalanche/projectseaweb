@@ -8,7 +8,6 @@
     "@testing-library/react": "^15.0.2",
     "@testing-library/user-event": "^14.5.2",
     "gasp": "^0.0.2",
-    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.7.1",
     "react-dom": "^18.2.0",
@@ -25,8 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/seavalanche/projectseaweb.git"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
