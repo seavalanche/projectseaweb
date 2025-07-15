@@ -219,6 +219,7 @@ html {
 :root {
   /* Light Theme */
   --navbg: var(--C-Vesnea_white);
+  --navbg-ext: var(--C-Vesnea_Light_Pink);
   --navtext-a: var(--C-SeaWeb_Purple);
   --navtext-b: var(--C-SeaWeb_Purple);
   --navtext-accent: var(--C-Vesnea_Pink);
@@ -316,6 +317,7 @@ html {
 [data-theme="dark"] {
   /* Dark Theme */
   --navbg: var(--C-SeaWeb_Purple);
+  --navbg-ext: var(--C-Vesnea_white);
   --navtext-a: var(--C-Korazu_Yellow);
   --navtext-b: var(--C-Korazu_Yellow);
   --navtext-accent: var(--C-Vesnea_Pink);
@@ -398,6 +400,7 @@ html {
 [data-theme="star"] {
   /* Star Theme */
   --navbg: var(--C-SeaWeb_Dark_Purple);
+  --navbg-ext: var(--C-Vesnea_white);
   --navtext-a: var(--C-Uzakon_Light_Purple);
   --navtext-b: var(--C-Uzakon_Purple);
   --navtext-accent: var(--C-Vesnea_Pink);
@@ -604,6 +607,43 @@ html {
   text-shadow: 0 2px 5px
     color-mix(in srgb, var(--navtext-accent) 50%, transparent);
   transform: scale(1.02);
+}
+.navbar-extended {
+  background-color: color-mix(
+    in srgb,
+    var(--button-background-active) 10%,
+    transparent
+  );
+  backdrop-filter: saturate(180%) blur(20px);
+
+  border-radius: 5px;
+  border: 1px solid
+    color-mix(in srgb, var(--button-border2-active) 20%, transparent);
+  box-shadow: 0 3px 5px
+    color-mix(in srgb, var(--button-border2-active) 20%, transparent);
+}
+.navbar-extended:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--button-background-active) 10%,
+    var(--navbg) 60%
+  );
+  border-radius: 7px;
+  border: 1px solid
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  box-shadow: 0 3px 5px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  transition: all 0.3s ease;
+}
+.navbar-extended-item .navbar-menu-text:hover {
+  font-style: oblique;
+  font-weight: bold;
+  /* transform: scale(1.1); */
+  /* font-size: calc( var(--Fs-Navbar) + 2pt); */
+  transition: all 0.3s ease;
+}
+[data-theme="light"] .navbar-extended-item .navbar-menu-text:hover {
+  color: var(--cutepink2);
 }
 @media only screen and (max-width: 800px) {
   .navbar-menu {

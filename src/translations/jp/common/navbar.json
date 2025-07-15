@@ -1,6 +1,12 @@
 {
   "home": "ホームページ",
-  "characters": "キャラクター",
+  "characters1": "キャラクター",
+  "characters2": "Vesneaのキャラクター",
+  "charcard": "キャラクターカード",
+  "art": " げいじゅつ",
   "story": "ものがたり",
-  "about": "Vesneaについて"
+  "poem": "詩",
+  "about": "Vesnea",
+  "about1": "Vesneaについて",
+  "about2": "SeaWbについて"
 }

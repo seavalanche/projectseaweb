@@ -18,15 +18,57 @@ const Navbar = ({ toggleTheme }) => {
                 < NavLink to='/' className={"brand-logo"}>
                 </NavLink>
                 <div className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
-                    <NavLink to='/Characters' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
-                        {t("navbar.characters")}
-                    </NavLink>
-                    <NavLink to='/Story' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
-                        {t("navbar.story")}
-                    </NavLink>
-                    <NavLink to='/AboutVesnea' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
-                        {t("navbar.about")}
-                    </NavLink>
+                    <div className='navbar-menu-extended'>
+                        <NavLink to='/Characters' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                            {t("navbar.characters1")}
+                        </NavLink>
+                        <div className='navbar-extended'>
+                            <div className='navbar-extended-item'>
+                                <NavLink to='/Characters' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                                    {t("navbar.characters2")}
+                                </NavLink>
+                            </div>
+                            <div className='navbar-extended-item'>
+                                <NavLink to='/CharInfo' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                                    {t("navbar.charcard")}
+                                </NavLink>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='navbar-menu-extended'>
+                        <NavLink to='/Story' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                            {t("navbar.art")}
+                        </NavLink>
+                        <div className='navbar-extended'>
+                            <div className='navbar-extended-item'>
+                                <NavLink to='/Story' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                                    {t("navbar.story")}
+                                </NavLink>
+                            </div>
+                            <div className='navbar-extended-item'>
+                                <NavLink to='/Poem' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                                    {t("navbar.poem")}
+                                </NavLink>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='navbar-menu-extended'>
+                        <NavLink to='/AboutVesnea' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                            {t("navbar.about")}
+                        </NavLink>
+                        <div className='navbar-extended'>
+                            <div className='navbar-extended-item'>
+                                <NavLink to='/AboutVesnea' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                                    {t("navbar.about1")}
+                                </NavLink>
+                            </div>
+                            <div className='navbar-extended-item'>
+                                <NavLink to='/ProjectSeaWeb' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                                    {t("navbar.about2")}
+                                </NavLink>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className={`navbar-menu-toggle`} onClick={handleMenuToggle}>
                     <svg
@@ -38,6 +80,17 @@ const Navbar = ({ toggleTheme }) => {
                 </div>
                 <div className={`navbar-func ${menuOpen ? 'open' : ''}`}>
                     <div className="theme-wrapper">
+                        <div className='theme-wrapper theme-wrapper-mid'>
+                            <NavLink to='/CharInfo' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                                {t("navbar.charcard")}
+                            </NavLink>
+                            <NavLink to='/Poem' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                                {t("navbar.poem")}
+                            </NavLink>
+                            <NavLink to='/ProjectSeaWeb' className={`navbar-menu-text`} activeclassname='active' onClick={closeMenu}>
+                                {t("navbar.about2")}
+                            </NavLink>
+                        </div>
                         <button className="theme-btn1" onClick={() => toggleTheme("light")} aria-label="Switch Theme" />
                         <button className="theme-btn2" onClick={() => toggleTheme("star")} aria-label="Switch Theme" />
                         <button className="theme-btn3" onClick={() => toggleTheme("dark")} aria-label="Switch Theme" />

@@ -1,6 +1,12 @@
 {
   "home": "Homepage",
-  "characters": "Characters",
+  "characters1": "Characters",
+  "characters2": "Vesnea Characters",
+  "charcard": "Character Cards",
+  "art": "Art",
   "story": "Story",
-  "about": "About Vesnea"
+  "poem": "Poem",
+  "about": "Vesnea",
+  "about1": "About Vesnea",
+  "about2": "About SeaWeb"
 }
