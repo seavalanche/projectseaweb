@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.62aa2eb7.css",
-    "main.js": "/projectseaweb/static/js/main.27c2f8b3.js",
+    "main.css": "/projectseaweb/static/css/main.7867c093.css",
+    "main.js": "/projectseaweb/static/js/main.40dcb129.js",
     "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
     "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
     "static/js/281.f244e449.chunk.js": "/projectseaweb/static/js/281.f244e449.chunk.js",
     "static/js/972.432f9768.chunk.js": "/projectseaweb/static/js/972.432f9768.chunk.js",
+    "static/js/184.f1273216.chunk.js": "/projectseaweb/static/js/184.f1273216.chunk.js",
+    "static/js/223.51700e91.chunk.js": "/projectseaweb/static/js/223.51700e91.chunk.js",
     "static/js/488.9062b7d0.chunk.js": "/projectseaweb/static/js/488.9062b7d0.chunk.js",
     "static/media/AboutVesnea-Header_2.png": "/projectseaweb/static/media/AboutVesnea-Header_2.73dea934834d2fb1ba36.png",
     "static/media/S79 - Vesnea.gif": "/projectseaweb/static/media/S79 - Vesnea.91317ac1ff2421ee6125.gif",
@@ -247,6 +249,7 @@
     "static/media/About-Icon-Twitter-Light.svg": "/projectseaweb/static/media/About-Icon-Twitter-Light.08249a4c327a9c4f75a2.svg",
     "static/media/About-Icon-Twitter-Dark.svg": "/projectseaweb/static/media/About-Icon-Twitter-Dark.6b6c4c2bd12bf7fc5f66.svg",
     "static/media/About-Icon-Twitter-Star.svg": "/projectseaweb/static/media/About-Icon-Twitter-Star.3b296413294de9c93ed3.svg",
+    "static/media/SearchingMyself.md": "/projectseaweb/static/media/SearchingMyself.a64b4f28fc7b4835c083.md",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.9fb706875a8529cba24c.md",
     "static/media/SidebarBtnStarClose.svg": "/projectseaweb/static/media/SidebarBtnStarClose.8db6c38c4fdbf870a580.svg",
     "static/media/SidebarBtnMStarClose.svg": "/projectseaweb/static/media/SidebarBtnMStarClose.2f15274e296d9192e4ec.svg",
@@ -278,12 +281,12 @@
     "static/media/Tidy-er-Dark.svg": "/projectseaweb/static/media/Tidy-er-Dark.49a885caeb277d6e00e9.svg",
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
-    "main.62aa2eb7.css.map": "/projectseaweb/static/css/main.62aa2eb7.css.map",
-    "main.27c2f8b3.js.map": "/projectseaweb/static/js/main.27c2f8b3.js.map",
+    "main.7867c093.css.map": "/projectseaweb/static/css/main.7867c093.css.map",
+    "main.40dcb129.js.map": "/projectseaweb/static/js/main.40dcb129.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62aa2eb7.css",
-    "static/js/main.27c2f8b3.js"
+    "static/css/main.7867c093.css",
+    "static/js/main.40dcb129.js"
   ]
 }
