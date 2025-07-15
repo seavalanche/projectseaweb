@@ -99,6 +99,7 @@ html {
 @media only screen and (max-width: 1715px) {
   * {
     --content-padding: 10vw;
+    --content-padding2: 20vw;
   }
 }
 
