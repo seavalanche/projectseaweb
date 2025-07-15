@@ -92,16 +92,10 @@ html {
   display: inline-block;
   width: 38px;
   height: 38px;
-  transition: transform 0.3s ease;
   background: none;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
-.theme-btn1:hover,
-.theme-btn2:hover,
-.theme-btn3:hover {
-  transform: scale(1.1);
 }
 .language-switcher button {
   display: flex;

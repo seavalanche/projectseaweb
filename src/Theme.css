@@ -543,6 +543,14 @@ html {
 [data-theme="star"] .brand-logo {
   background-image: url("./Assets/Navbar/NavbarLogo-star.png");
 }
+.brand-logo:hover {
+  background-image: url("./Assets/Navbar/NavbarLogo-pink.png");
+  text-shadow: 0 2px 5px color-mix(in srgb, var(--navtext-accent) 50%, transparent);
+  transform: scale(1.02);
+}
+[data-theme="light"] .brand-logo:hover {
+  background-image: url("./Assets/Navbar/NavbarLogo-pink2.png");
+}
 .navbar-menu-text {
   font-family: var(--F-Navbar);
   font-size: var(--Fs-Navbar);
@@ -558,6 +566,7 @@ html {
 .theme-btn3 {
   border: none;
   cursor: pointer;
+  transition: transform 0.1s ease;
 }
 .theme-btn1 {
   background-image: url("./Assets/Navbar/KorazuSun.svg");
@@ -568,6 +577,11 @@ html {
 .theme-btn3 {
   background-image: url("./Assets/Navbar/UzakonMoon.svg");
 }
+.theme-btn1:hover,
+.theme-btn2:hover,
+.theme-btn3:hover {
+  transform: scale(1.1);
+}
 .language-switcher button {
   font-family: var(--F-Navbar);
   font-size: var(--Fs-Navbar);
@@ -575,6 +589,11 @@ html {
   background: none;
   border: none;
   cursor: pointer;
+}
+.navbar-menu-text:hover, .language-switcher button:hover {
+  color: var(--navtext-accent);
+  text-shadow: 0 2px 5px color-mix(in srgb, var(--navtext-accent) 50%, transparent);
+  transform: scale(1.02);
 }
 @media only screen and (max-width: 800px) {
   .navbar-menu {
@@ -628,6 +647,12 @@ html {
   font-size: var(--Fs-Navbar);
   color: var(--Footnav2);
   text-decoration: none;
+}
+.footnav-text:hover {
+  color: var(--C-Vesnea_Light_Pink);
+  font-weight: bold;
+  text-shadow: 0 2px 5px color-mix(in srgb, var(--C-Vesnea_Pink) 50%, transparent);
+  transform: scale(1.2, 1.1) translateX(20px);
 }
 
 @media only screen and (max-width: 639px) {
@@ -1170,6 +1195,11 @@ html {
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
+}
+.aboutchar:hover{
+  color: var(--C-Vesnea_white);
+  text-shadow: 0 2px 5px color-mix(in srgb, var(--C-Vesnea_Pink) 50%, transparent);
+  transform: scale(1, 1.02);
 }
 /* >>> CharInfo.js */
 .character-selector {
