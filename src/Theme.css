@@ -81,6 +81,7 @@ html {
   --F-Link: "F-Link", "Noto Sans JP";
   --F-CharCardName: "F-CharCardName", "BIZ UDPMincho";
   --F-CharCardAltName: "F-CharCardAltName", "BIZ UDPMincho";
+  --F-TextPanel: "F-AboutVesnea";
   --F-AboutVesnea: "F-AboutVesnea";
   /* Story page */
   --content-padding: 22vw;
@@ -89,7 +90,7 @@ html {
   --letter-spacing: 1px;
   --word-spacing: 0px;
 }
-@media only screen and (max-width: 1670px) {
+@media only screen and (max-width: 1715px) {
   * {
     --content-padding: 10vw;
   }
@@ -103,14 +104,8 @@ html {
   --Fs-Title: 24pt;
   --Fs-ContentTitle: 18pt;
   --Fs-Content: 15pt;
-  --Fs-Link: 12pt;
-  --Fs-CharCardName: 24pt;
-  --Fs-CharCardAltName: 12pt;
-  --Fs-CharCardProp: 12pt;
-  --Fs-CharCardValue: 15pt;
+  --Fs-Content-small: 12pt;
   --Fs-AboutVesneaTitle: 24pt;
-  --Fs-AboutVesneaContent: 15pt;
-  --Fs-AboutVesneaInfo: 12pt;
   --Fs-NotFoundTitle: 6rem;
   --Fs-NotFoundDesc: 1.5rem;
   --Fs-NotFoundBtn: 1.2rem;
@@ -123,14 +118,8 @@ html {
     --Fs-Title: 20pt;
     --Fs-ContentTitle: 18pt;
     --Fs-Content: 12pt;
-    --Fs-Link: 10pt;
-    --Fs-CharCardName: 20pt;
-    --Fs-CharCardAltName: 10pt;
-    --Fs-CharCardProp: 10pt;
-    --Fs-CharCardValue: 12pt;
+    --Fs-Content-small: 10pt;
     --Fs-AboutVesneaTitle: 16pt;
-    --Fs-AboutVesneaContent: 12pt;
-    --Fs-AboutVesneaInfo: 10pt;
   }
 }
 
@@ -242,40 +231,54 @@ html {
   --text-color-3a: var(--C-Vesnea_Purple);
   --text-color-3b: var(--C-Vesnea_Purple);
 
-  --bg-charcard: var(--C-Vesnea_white);
-  --bg-charcardPFP: var(--C-Zumiko_White);
-  --text-charcard-prop: var(--C-Uzakon_Light_Purple);
-  --text-charcard-value: var(--C-SeaWeb_Dark_Purple);
-  --text-charcard-name: var(--C-SeaWeb_Dark_Purple);
-  --text-charcard-altname: var(--C-Uzakon_Purple);
-  --border-charcard: var(--C-Vesnea_Light_Pink);
-  --border-charcardPFP: var(--C-Vesnea_Pink);
-  --active-tab-charcard: var(--attribute-sound);
-  --active-tab-charcard-border: var(--attribute-sound);
-  --active-tab-charcard-text: var(--C-Vesnea_white);
+  /* Texts */
+  --text-hover: var(--cutepink);
 
-  /* 2nd Global Theme */
+  /* Buttons */
   --button-background: var(--bg-color-3);
-  --button-text: var(--text-charcard-value);
-  --button-border: var(--text-charcard-prop);
+  --button-text: var(--C-SeaWeb_Dark_Purple);
+  --button-border: var(--C-Uzakon_Light_Purple);
+  --button-border2: var(--C-Uzakon_Lighter_Light_Purple);
   --button-background-active: color-mix(
     in srgb,
-    var(--active-tab-charcard) 80%,
+    var(--attribute-sound) 80%,
     transparent
   );
-  --button-text-active: var(--active-tab-charcard-text);
-  --button-border-active: var(--text-charcard-value);
-  --textpanel-background: var(--bg-color-3);
-  --textpanel-text: var(--text-color-1b);
-  --textpanel-border: var(--text-charcard-prop);
-  --textpanel-background-active: var(--bg-color-3);
-  --textpanel-text-active: var(--text-color-1a);
-  --textpanel-border-active: var(--text-color-1b);
-  --textpanel-box-shadow: color-mix(
+  --button-text-active: var(--C-Vesnea_white);
+  --button-border-active: var(--C-SeaWeb_Dark_Purple);
+  --button-border2-active: var(--cutepink);
+
+  /* Textpanels */
+  --textpanel-background: var(--C-Uzakon_Lighter_Light_Purple);
+  --textpanel-text: var(--C-Vesnea_Purple);
+  --textpanel-border: var(--C-Uzakon_Light_Purple);
+  --textpanel-border2: var(--C-Uzakon_Lighter_Light_Purple);
+  --textpanel-background-active: color-mix(
     in srgb,
-    var(--border-charcard) 50%,
+    var(--C-Vesnea_Light_Pink) 50%,
     transparent
   );
+  --textpanel-text-active: var(--C-Vesnea_Purple);
+  --textpanel-border-active: var(--cutepink);
+
+  /* Sliders */
+  --slider-background-active: var(--textpanel-background-active);
+
+  /* Charcard */
+  --charcard-bg: var(--C-Vesnea_white);
+  --charcard-PFPbg: var(--C-Zumiko_White);
+  --charcard-text-prop: var(--C-Uzakon_Light_Purple);
+  --charcard-text-value: var(--C-SeaWeb_Dark_Purple);
+  --charcard-text-name: var(--C-SeaWeb_Dark_Purple);
+  --charcard-text-altname: var(--C-Uzakon_Purple);
+  --charcard-border: var(--C-Vesnea_Light_Pink);
+  --charcard-PFPborder: var(--C-Vesnea_Pink);
+  --charcard-active-tab: var(--attribute-sound);
+  --charcard-active-tab-border: var(--attribute-sound);
+  --charcard-active-tab-text: var(--C-Vesnea_white);
+
+  --storyfnbar-text: var(--C-SeaWeb_Dark_Purple);
+  --storyfnbar-text2: var(--C-Vesnea_Purple);
   --aboutvesnea-bg: var(--C-Zumiko_White);
   --aboutvesnea-text: var(--C-Vesnea_Purple);
   --aboutvesnea-link: var(--attribute-sound);
@@ -325,17 +328,55 @@ html {
   --text-color-3a: var(--C-Vesnea_white);
   --text-color-3b: var(--C-Korazu_White);
 
-  --bg-charcard: var(--C-SeaWeb_Purple);
-  --bg-charcardPFP: var(--C-Uzakon_Lighter_Light_Purple);
-  --text-charcard-prop: var(--C-Uzakon_Purple);
-  --text-charcard-value: var(--C-Uzakon_White);
-  --text-charcard-name: var(--C-Vesnea_white);
-  --text-charcard-altname: var(--C-Uzakon_Light_Purple);
-  --border-charcard: var(--C-Uzakon_Light_Purple);
-  --border-charcardPFP: var(--C-Uzakon_Purple);
-  --active-tab-charcard: var(--C-Korazu_Yellow);
-  --active-tab-charcard-border: var(--C-Korazu_Yellow);
-  --active-tab-charcard-text: var(--C-SeaWeb_Purple);
+  /* Texts */
+  --text-hover: var(--C-Korazu_Yellow);
+
+  /* Buttons */
+  --button-background: var(--C-SeaWeb_Dark_Purple);
+  --button-text: var(--C-Uzakon_White);
+  --button-border: var(--C-Uzakon_Purple);
+  --button-border2: var(--C-SeaWeb_Purple);
+  --button-background-active: color-mix(
+    in srgb,
+    var(--C-Korazu_Yellow) 80%,
+    transparent
+  );
+  --button-text-active: var(--C-SeaWeb_Purple);
+  --button-border-active: var(--C-Uzakon_White);
+  --button-border2-active: var(--C-Korazu_Yellow);
+
+  /* Textpanels */
+  --textpanel-background: var(--C-SeaWeb_Dark_Purple);
+  --textpanel-text: var(--C-Uzakon_Light_Purple);
+  --textpanel-border: var(--C-Uzakon_Purple);
+  --textpanel-border2: var(--textpanel-border);
+  --textpanel-background-active: var(--C-SeaWeb_Purple);
+  --textpanel-background-active: color-mix(
+    in srgb,
+    var(--C-Korazu_Yellow) 30%,
+    var(--C-SeaWeb_Dark_Purple) 80%
+  );
+  --textpanel-text-active: var(--C-Korazu_Yellow);
+  --textpanel-border-active: var(--C-Korazu_Yellow);
+
+  /* Sliders */
+  --slider-background-active: var(--textpanel-background-active);
+
+  /* Charcard */
+  --charcard-bg: var(--C-SeaWeb_Purple);
+  --charcard-PFPbg: var(--C-Uzakon_Lighter_Light_Purple);
+  --charcard-text-prop: var(--C-Uzakon_Purple);
+  --charcard-text-value: var(--C-Uzakon_White);
+  --charcard-text-name: var(--C-Vesnea_white);
+  --charcard-text-altname: var(--C-Uzakon_Light_Purple);
+  --charcard-border: var(--C-Uzakon_Light_Purple);
+  --charcard-PFPborder: var(--C-Uzakon_Purple);
+  --charcard-active-tab: var(--C-Korazu_Yellow);
+  --charcard-active-tab-border: var(--C-Korazu_Yellow);
+  --charcard-active-tab-text: var(--C-SeaWeb_Purple);
+
+  --storyfnbar-text: var(--C-Uzakon_White);
+  --storyfnbar-text2: var(--C-Uzakon_Purple);
   --aboutvesnea-bg: var(--C-SeaWeb_Purple);
   --aboutvesnea-text: var(--C-Zumiko_Light_Red);
   --aboutvesnea-link: var(--C-Zumiko_Red);
@@ -369,21 +410,62 @@ html {
   --text-color-3a: var(--C-Uzakon_Light_Purple);
   --text-color-3b: var(--C-Uzakon_Purple);
 
-  --bg-charcard: var(--C-SeaWeb_Dark_Purple);
-  --bg-charcardPFP: var(--C-SeaWeb_Purple);
-  --text-charcard-prop: color-mix(
+  /* Texts */
+  --text-hover: var(--C-Uzakon_Lighter_Light_Purple);
+
+  /* Buttons */
+  --button-background: var(--bg-color-3);
+  --button-text: var(--C-Uzakon_Purple);
+  --button-border: color-mix(in srgb, var(--C-Uzakon_Purple) 50%, transparent);
+  --button-border2: color-mix(in srgb, var(--C-Uzakon_Purple) 20%, transparent);
+  --button-background-active: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 80%,
+    transparent
+  );
+  --button-text-active: var(--C-Uzakon_White);
+  --button-border-active: var(--C-Uzakon_Purple);
+  --button-border2-active: var(--C-Uzakon_Purple);
+
+  /* Textpanels */
+  --textpanel-background: var(--bg-color-3);
+  --textpanel-text: var(--C-Uzakon_Purple);
+  --textpanel-border: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 20%,
+    transparent
+  );
+  --textpanel-border2: var(--textpanel-border);
+  --textpanel-background-active: color-mix(
+    in srgb,
+    var(--C-Vesnea_Purple) 10%,
+    var(--C-Uzakon_Purple) 40%
+  );
+  --textpanel-text-active: var(--C-Uzakon_Light_Purple);
+  --textpanel-border-active: var(--C-Uzakon_Purple);
+
+  /* Sliders */
+  --slider-background-active: var(--textpanel-background-active);
+
+  /* Charcard */
+  --charcard-bg: var(--C-SeaWeb_Dark_Purple);
+  --charcard-PFPbg: var(--C-SeaWeb_Purple);
+  --charcard-text-prop: color-mix(
     in srgb,
     var(--C-Uzakon_Purple) 50%,
     transparent
   );
-  --text-charcard-value: var(--C-Uzakon_Purple);
-  --text-charcard-name: var(--C-Uzakon_Light_Purple);
-  --text-charcard-altname: var(--C-Uzakon_Purple);
-  --border-charcard: var(--C-Uzakon_Purple);
-  --border-charcardPFP: var(--C-Uzakon_Purple);
-  --active-tab-charcard: var(--C-Uzakon_Purple);
-  --active-tab-charcard-border: var(--C-Uzakon_Purple);
-  --active-tab-charcard-text: var(--C-Uzakon_White);
+  --charcard-text-value: var(--C-Uzakon_Purple);
+  --charcard-text-name: var(--C-Uzakon_Light_Purple);
+  --charcard-text-altname: var(--C-Uzakon_Purple);
+  --charcard-border: var(--C-Uzakon_Purple);
+  --charcard-PFPborder: var(--C-Uzakon_Purple);
+  --charcard-active-tab: var(--C-Uzakon_Purple);
+  --charcard-active-tab-border: var(--C-Uzakon_Purple);
+  --charcard-active-tab-text: var(--C-Uzakon_White);
+
+  --storyfnbar-text: var(--C-Uzakon_Purple);
+  --storyfnbar-text2: var(--C-Uzakon_Purple);
   --aboutvesnea-bg: var(--C-SeaWeb_Dark_Purple);
   --aboutvesnea-text: var(--C-Uzakon_Light_Purple);
   --aboutvesnea-link: var(--C-Uzakon_Purple);
@@ -680,7 +762,7 @@ html {
 }
 .commsectlearnmore {
   font-family: var(--F-Link);
-  font-size: var(--Fs-Link);
+  font-size: var(--Fs-Content-small);
   color: var(--text-color-1a);
   text-decoration: none;
 }
@@ -738,13 +820,13 @@ html {
   color: var(--aboutvesnea-text);
 }
 .websitelinktree-text {
-  font-size: var(--Fs-AboutVesneaContent);
+  font-size: var(--Fs-Content);
   color: var(--aboutvesnea-text);
   text-decoration: none;
 }
 .webshowcase-text1,
 .webshowcase-text2 {
-  font-size: var(--Fs-AboutVesneaContent);
+  font-size: var(--Fs-Content);
 }
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 
@@ -988,7 +1070,7 @@ html {
 .AV-wrapper {
   background-color: var(--aboutvesnea-bg);
   font-family: var(--F-AboutVesnea);
-  font-size: var(--Fs-AboutVesneaContent);
+  font-size: var(--Fs-Content);
   font-weight: 300;
   color: var(--aboutvesnea-text);
 }
@@ -1017,7 +1099,7 @@ html {
   background-color: #1f1b2c;
 }
 .AVMyStyleAlt {
-  font-size: var(--Fs-AboutVesneaInfo);
+  font-size: var(--Fs-Content-small);
 }
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
 
@@ -1032,12 +1114,12 @@ html {
 }
 .commiconlink {
   font-family: var(--F-Link);
-  font-size: var(--Fs-Link);
+  font-size: var(--Fs-Content-small);
   color: var(--C-SeaWeb_Purple);
 }
 .promotext {
   font-family: var(--F-Link);
-  font-size: var(--Fs-Link);
+  font-size: var(--Fs-Content-small);
   color: var(--C-SeaWeb_Purple);
 }
 .artstyle {
@@ -1071,7 +1153,7 @@ html {
     font-size: calc(var(--Fs-ContentTitle) - var(--Fs-FontsizeS));
   }
   .commiconlink {
-    font-size: calc(var(--Fs-Link) - var(--Fs-FontsizeS) / 2);
+    font-size: calc(var(--Fs-Content-small) - var(--Fs-FontsizeS) / 2);
   }
   .commcontent {
     font-size: calc(var(--Fs-Title) - var(--Fs-Fontsizem));
@@ -1091,11 +1173,11 @@ html {
 }
 /* >>> CharInfo.js */
 .character-selector {
-  background: var(--bg-charcard);
+  background: var(--charcard-bg);
 }
 .charinfo-icon img {
-  background: var(--bg-charcardPFP);
-  border: 2px solid var(--border-charcardPFP);
+  background: var(--charcard-PFPbg);
+  border: 2px solid var(--charcard-PFPborder);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -1111,52 +1193,52 @@ html {
 }
 /* >>> CharacterCard.js */
 .character-card {
-  background: var(--bg-charcard);
-  border: 4px dashed var(--border-charcard);
+  background: var(--charcard-bg);
+  border: 4px dashed var(--charcard-border);
   border-radius: 25px;
 }
 .character-card:hover {
   box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--border-charcard) 50%, transparent);
+    color-mix(in srgb, var(--charcard-border) 50%, transparent);
 }
 .charinfowrapper {
-  color: var(--text-charcard-value);
+  color: var(--charcard-text-value);
 }
 .charcardPFP {
-  background: var(--bg-charcardPFP);
-  border: 3px solid var(--border-charcardPFP);
+  background: var(--charcard-PFPbg);
+  border: 3px solid var(--charcard-PFPborder);
   border-radius: 35px;
 }
 .charcardName {
   font-family: var(--F-CharCardName);
-  font-size: var(--Fs-CharCardName);
-  color: var(--text-charcard-name);
+  font-size: var(--Fs-Title);
+  color: var(--charcard-text-name);
 }
 .charcardAltName {
   font-family: var(--F-CharCardAltName);
-  font-size: var(--Fs-CharCardAltName);
-  color: var(--text-charcard-altname);
+  font-size: var(--Fs-Content-small);
+  color: var(--charcard-text-altname);
 }
 .charcardProp {
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
-  color: var(--text-charcard-prop);
+  font-size: var(--Fs-Content-small);
+  color: var(--charcard-text-prop);
   font-style: italic;
 }
 .charcardValue {
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardValue);
-  color: var(--text-charcard-value);
+  font-size: var(--Fs-Content);
+  color: var(--charcard-text-value);
 }
 
 /* Attribute Badges */
 .attribute-badge {
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
+  font-size: var(--Fs-Content-small);
   font-style: italic;
   font-weight: bold;
   box-shadow: 0 2px 2px
-    color-mix(in srgb, var(--border-charcard) 50%, transparent);
+    color-mix(in srgb, var(--charcard-border) 50%, transparent);
   border-radius: 6px;
 }
 .attribute-badge.aether {
@@ -1217,61 +1299,61 @@ html {
 }
 
 .charcard-tab {
-  background: var(--bg-charcardPFP);
+  background: var(--charcard-PFPbg);
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
-  color: var(--active-tab-charcard);
+  font-size: var(--Fs-Content-small);
+  color: var(--charcard-active-tab);
   font-weight: bold;
-  border: 2px solid var(--border-charcard);
+  border: 2px solid var(--charcard-border);
   border-top-right-radius: 15px;
   cursor: pointer;
 }
 [data-theme="dark"] .charcard-tab {
-  color: var(--bg-charcard);
+  color: var(--charcard-bg);
 }
 .charcard-tab:hover {
-  background: var(--border-charcard);
-  color: var(--bg-charcard);
+  background: var(--charcard-border);
+  color: var(--charcard-bg);
 }
 .charcard-tab.active {
-  background: var(--active-tab-charcard);
-  color: var(--active-tab-charcard-text);
-  border-color: var(--active-tab-charcard-border);
+  background: var(--charcard-active-tab);
+  color: var(--charcard-active-tab-text);
+  border-color: var(--charcard-active-tab-border);
 }
 .charcard-move-name {
   font-weight: bold;
-  color: var(--active-tab-charcard);
+  color: var(--charcard-active-tab);
 }
 
 .charcard-artworks img {
-  border: 3px solid var(--border-charcard);
+  border: 3px solid var(--charcard-border);
 }
 .charcard-art-preview-overlay {
   background-color: color-mix(
     in srgb,
-    var(--bg-charcardPFP) 15%,
+    var(--charcard-PFPbg) 15%,
     var(--C-SeaWeb_Dark_Purple2) 85%
   );
 }
 .charcard-art-preview-content {
-  background: var(--bg-charcard);
+  background: var(--charcard-bg);
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--C-SeaWeb_Dark_Purple) 25%, transparent);
 }
 .charcard-close-btn {
-  color: var(--border-charcardPFP);
+  color: var(--charcard-PFPborder);
 }
 /* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */
 
 /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */
 .story-1st-wrapper {
-  background: var(--bg-charcard);
+  background: var(--charcard-bg);
 }
 /* Sidebar */
 .sidebar {
-  background: var(--bg-charcard);
+  background: var(--charcard-bg);
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
+  font-size: var(--Fs-Content-small);
   color: var(--button-text);
 }
 .sidebar-hidden {
@@ -1281,16 +1363,18 @@ html {
 .sidebar-btn {
   background-color: var(--button-background);
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
+  font-size: var(--Fs-Content-small);
   color: var(--button-text);
-  border: 1px solid var(--button-border);
+  cursor: pointer;
+  border: 1px solid var(--button-border2);
   border-radius: 5px;
 }
 .sidebar-btn:hover {
   background-color: var(--button-background-active);
   color: var(--button-text-active);
-  border: 1px solid var(--button-border-active);
-  cursor: pointer;
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
 }
 .sidebar-btn-open {
   background-image: url("./Assets/Common/SidebarBtnLightOpen.svg");
@@ -1330,82 +1414,92 @@ html {
 }
 .sidebar-toc-title {
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
-  color: var(--text-charcard-prop);
-  font-style: italic;
+  font-size: var(--Fs-Content-small);
+  color: var(--storyfnbar-toctext);
 }
 .sidebar-toc-list {
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardValue);
-  color: var(--text-charcard-value);
-  font-style: italic;
+  font-size: var(--Fs-Content);
+  color: var(--charcard-text-value);
   cursor: pointer;
 }
 .chapter-title {
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardValue);
-  color: var(--text-charcard-value);
+  font-size: var(--Fs-Content);
+  color: var(--charcard-text-value);
+}
+.chapter-title:hover {
+  color: var(--text-hover);
+  text-shadow: 0 2px 5px color-mix(in srgb, var(--text-hover) 50%, transparent);
 }
 .chapter-desc {
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
-  color: var(--text-charcard-prop);
+  font-size: var(--Fs-Content-small);
+  color: var(--charcard-text-prop);
   font-style: italic;
 }
 .chapter-meta {
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
-  color: var(--text-charcard-altname);
+  font-size: var(--Fs-Content-small);
+  color: var(--charcard-text-altname);
 }
 .chapter-title,
 .chapter-desc,
 .chapter-meta {
-  text-shadow: 0 1px 1px
-    color-mix(in srgb, var(--border-charcard) 20%, transparent);
+  text-shadow: 0 1px 3px color-mix(in srgb, var(--text-hover) 20%, transparent);
 }
 /* Search styles */
 .sidebar-search {
-  border-bottom: 1px dashed var(--text-charcard-prop);
+  border-bottom: 1px dashed var(--textpanel-border);
 }
 .sidebar-search input {
   background-color: var(--textpanel-background);
-  font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
+  font-family: var(--F-TextPanel);
+  font-size: var(--Fs-Content);
   color: var(--textpanel-text);
-  border: 1px solid var(--textpanel-border);
+  border: 1px solid var(--textpanel-border2);
   border-radius: 4px;
   outline: none;
 }
-.sidebar-search input:focus {
+.sidebar-search input:hover,
+input:focus {
   background-color: var(--textpanel-background-active);
   color: var(--textpanel-text-active);
   border: 1px solid var(--textpanel-border-active);
-  box-shadow: 0 2px 10px var(--textpanel-box-shadow);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--textpanel-border-active) 50%, transparent);
 }
 
 /* Main content area */
 .function-bar {
   background-color: var(--bg-color-1);
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
-  color: var(--text-charcard-value);
+  font-size: var(--Fs-Content-small);
+  color: var(--storyfnbar-text2);
 }
 .function-bar.hidden {
   pointer-events: none;
 }
+.function-bar:hover .sidebar-btn {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
 .function-bar button {
   background-color: var(--button-background);
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
+  font-size: var(--Fs-Content-small);
   color: var(--button-text);
   cursor: pointer;
-  border: 1px solid var(--button-border);
+  border: 1px solid var(--button-border2);
   border-radius: 5px;
 }
 .function-bar button:hover {
   background-color: var(--button-background-active);
   color: var(--button-text-active);
-  border: 1px solid var(--button-border-active);
+  font-style: oblique;
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
 }
 .function-bar input[type="color"] {
   border-radius: 5px;
@@ -1416,34 +1510,49 @@ html {
   font-family: var(--F-Content);
   font-size: var(--Fs-Content);
   color: var(--text-color-1b);
+  box-shadow: 0 30px 50px -40px color-mix(
+      in srgb,
+      var(--button-border2-active) 50%,
+      transparent
+    ) inset;
 }
 #story-content-wrapper h1 {
   font-family: var(--F-Title);
 }
 .slider-wrapper {
   border-radius: 5px;
-  border: 1px solid var(--button-border);
+  border: 1px solid var(--button-border2);
   background-color: var(--button-background);
 }
 .slider-wrapper:hover {
-  border: 1px solid var(--button-border-active);
+  background-color: var(--textpanel-background-active);
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
 }
 .function-bar .slider-btn {
-  background-color: var(--button-background);
+  background-color: initial;
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
+  font-size: var(--Fs-Content-small);
   color: var(--button-text);
   border: none;
   cursor: pointer;
 }
 .function-bar .slider-btn:hover {
-  background-color: var(--button-background-active);
-  color: var(--button-text-active);
+  background-color: initial;
+  box-shadow: initial;
+  color: var(--button-text);
   border: none;
 }
 .slider {
-  background-color: var(--button-background);
+  background-color: initial;
   outline: none;
+}
+.slider:active,
+.slider:focus {
+  background-color: initial;
+  border: initial;
+  box-shadow: initial;
 }
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb,
@@ -1461,27 +1570,38 @@ html {
   background-color: var(--bg-color-3);
 }
 .reading-progress-bar {
-  background-color: var(--text-charcard-prop);
+  background-color: var(--charcard-text-prop);
 }
 [data-theme="light"] .reading-progress-bar {
   background-color: var(--C-Vesnea_Pink);
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .function-bar {
     background-color: color-mix(in srgb, var(--bg-color-1) 75%, transparent);
-    font-family: var(--F-Content);
-    font-size: var(--Fs-CharCardProp);
-    color: var(--text-charcard-value);
+    background-color: var(--bg-color-1);
+  }
+  .function-bar button {
+    border: 1px solid var(--button-border2);
   }
 
+  .sidebar {
+    z-index: 0;
+  }
+  .sidebar-visible {
+    border-top: 2px dashed
+      color-mix(in srgb, var(--textpanel-border-active) 50%, transparent);
+
+    box-shadow: 0 8px 12px
+      color-mix(in srgb, var(--C-SeaWeb_Dark_Purple) 25%, transparent);
+  }
   .sidebar-btn-mobile {
     background-color: var(--button-background);
     font-family: var(--F-Content);
-    font-size: var(--Fs-CharCardProp);
+    font-size: var(--Fs-Content-small);
     color: var(--button-text);
-    border: 1px solid var(--button-border);
-    border-radius: 5px;
     cursor: pointer;
+    border: 1px solid var(--button-border2);
+    border-radius: 5px;
   }
   .sidebar-btn-mobile-open {
     background-image: url("./Assets/Common/SidebarBtnMLightOpen.svg");
@@ -1522,7 +1642,7 @@ html {
   .fnbar-default-menu {
     background-color: var(--button-background);
     font-family: var(--F-Content);
-    font-size: var(--Fs-CharCardProp);
+    font-size: var(--Fs-Content-small);
     color: var(--button-text);
     border: 1px solid var(--button-border);
     border-radius: 5px;
@@ -1539,7 +1659,9 @@ html {
   .fnbar-default-menu:hover {
     background-color: var(--button-background-active);
     color: var(--button-text-active);
-    border: 1px solid var(--button-border-active);
+    border: 1px solid var(--button-border2-active);
+    box-shadow: 0 8px 12px
+      color-mix(in srgb, var(--button-border2-active) 50%, transparent);
   }
   .fnbar-default-menu:hover {
     background-image: url("./Assets/Common/ResetBtnLightActive.svg");
@@ -1571,7 +1693,7 @@ html {
 .TTH-preview-pane {
   background-color: var(--textpanel-background);
   font-family: var(--F-Content);
-  font-size: var(--Fs-CharCardProp);
+  font-size: var(--Fs-Content-small);
   color: var(--textpanel-text);
   border: 1px solid var(--textpanel-border);
   border-radius: 4px;
@@ -1582,7 +1704,7 @@ html {
   color: var(--textpanel-text-active);
   border: 1px solid var(--textpanel-border-active);
   box-shadow: 0 2px 10px
-    color-mix(in srgb, var(--border-charcard) 50%, transparent);
+    color-mix(in srgb, var(--charcard-border) 50%, transparent);
 }
 .TTH-tab-buttons button {
   background-color: var(--button-background);

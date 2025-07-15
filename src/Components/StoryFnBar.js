@@ -18,7 +18,7 @@ function StoryFnBar({
     useEffect(() => {
         const checkScreenSize = () => {
             const width = window.innerWidth;
-            const inRange = width >= 1201 && width <= 1670;
+            const inRange = width >= 1200 && width <= 1715;
             const isSmall = width < 1200;
 
             setIsBetweenSizes(inRange);

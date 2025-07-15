@@ -2175,11 +2175,11 @@ html {
 /* Sidebar */
 .sidebar {
   position: sticky;
-  width: 200px;
+  width: 250px;
   height: 100%;
   top: 65px;
   left: 0;
-  padding: 1rem;
+  padding: 20px;
   transition: transform 0.3s ease;
   transition: opacity 0.5s ease;
   opacity: 1;
@@ -2194,7 +2194,7 @@ html {
   opacity: 0;
 }
 .sidebar-visible {
-  width: 200px;
+  width: 250px;
   transform: translateX(0);
 }
 .sidebar-btn {
@@ -2204,6 +2204,7 @@ html {
   width: 5px;
   height: 5px;
   padding: 10px;
+  opacity: 0.4;
 }
 .sidebar-btn-open,
 .sidebar-btn-close {
@@ -2217,20 +2218,20 @@ html {
 }
 .sidebar ul {
   list-style: none;
-  padding: 0;
+  padding-top: 10px;
 }
 .sidebar ul li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .sidebar-toc-title {
   margin-bottom: 5px;
 }
 .sidebar-search {
   margin-bottom: 10px;
-  padding: 0 10px 10px 0px;
+  padding-bottom: 10px;
 }
 .sidebar-search input {
-  width: 100%;
+  width: calc(100% - 20px);
   padding: 8px;
 }
 .chapter-meta {
@@ -2281,7 +2282,6 @@ html {
 #story-content-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
   padding: var(--content-padding);
   padding-top: 50px;
@@ -2349,7 +2349,7 @@ html {
   transition: width 0.1s linear;
   opacity: 0.75;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .fnbar-font-family-title {
     display: none;
   }
@@ -2373,12 +2373,18 @@ html {
     justify-content: left;
     position: sticky;
     top: auto;
-    bottom: calc(var(--Fs-CharCardProp) + 34px);
+    bottom: calc(var(--Fs-Content-small) + 34px);
     left: auto;
-    width: calc(100vw - 2rem);
+    padding: initial;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
     height: auto;
-    opacity: 0.9;
+    opacity: 0.95;
     z-index: 4;
+  }
+  .sidebar-scrolled-hidden {
+    opacity: 0;
   }
   .sidebar ul,
   .sidebar-toc-title {
@@ -2386,6 +2392,10 @@ html {
   }
   .sidebar-search {
     margin-left: 50px;
+  }
+  .no-results{
+    margin-left: 50px;
+    padding-bottom: 10px;
   }
 
   /* fnbar-main */
@@ -2508,7 +2518,7 @@ html {
     width: 30px;
   }
 }
-@media only screen and (min-width: 1201px) and (max-width: 1670px) {
+@media only screen and (min-width: 1200px) and (max-width: 1715px) {
   .fnbar-font-family-title {
     display: none;
   }
@@ -2617,7 +2627,7 @@ html {
     display: none;
   }
 }
-@media only screen and (min-width: 1671px) {
+@media only screen and (min-width: 1715px) {
   /* fnbar-sub-menu */
   .fnbar-sub-menu {
     display: none;

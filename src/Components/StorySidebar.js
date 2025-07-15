@@ -1,4 +1,5 @@
 import { useState, useContext } from 'react';
+import { useEffect, useRef } from "react";
 import { LanguageContext } from '../localization/contexts/LanguageContext';
 import { chapters } from '../Pages/Chapters/metadata';
 import { useLocalization } from '../localization/hooks/useLocalization';
@@ -36,8 +37,57 @@ function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect 
         );
     });
 
+    const [isVisible, setIsVisible] = useState(true);
+    const [screenSize, setScreenSize] = useState('large');
+    const lastScrollY = useRef(0);
+    const hideTimeout = useRef(null);
+    const SELECTOR_ORIGINAL_OFFSET = 65;
+
+    useEffect(() => {
+        const handleResize = () => {
+            const width = window.innerWidth;
+            if (width < 800) {
+                setScreenSize('small');
+            } else if (width <= 1119) {
+                setScreenSize('medium');
+            } else {
+                setScreenSize('large');
+            }
+        };
+
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY;
+            const isNowFloating = currentScrollY > SELECTOR_ORIGINAL_OFFSET;
+
+            if (!isNowFloating) {
+                setIsVisible(true);
+                if (hideTimeout.current) {
+                    clearTimeout(hideTimeout.current);
+                    hideTimeout.current = null;
+                }
+            } else {
+                setIsVisible(currentScrollY <= lastScrollY.current);
+            }
+
+            lastScrollY.current = currentScrollY;
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+            window.removeEventListener('scroll', handleScroll);
+            if (hideTimeout.current) {
+                clearTimeout(hideTimeout.current);
+            }
+        };
+    }, [screenSize]);
+
     return (
-        <div className={`sidebar ${visible ? 'sidebar-visible' : 'sidebar-hidden'}`}
+        <div className={`sidebar ${visible ? 'sidebar-visible' : 'sidebar-hidden'} ${isVisible ? 'sidebar-scrolled-visible' : 'sidebar-scrolled-hidden'}`}
             onMouseEnter={() => !visible && toggleSidebar()}>
             <div className="sidebar-toc-title">{t("storysidebar.toctitle")}</div>
             {visible && (
