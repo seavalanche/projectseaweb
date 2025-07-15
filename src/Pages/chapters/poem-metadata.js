@@ -1,5 +1,20 @@
 export const chapters = [
     {
+        id: 'intro',
+        title: {
+            en: "Hi!",
+            jp: "こんにちは！",
+        },
+        description: {
+            en: "",
+            jp: ""
+        },
+        wordCount: { en: 568, jp: 339 },
+        isCompleted: true,
+        tags: ['intro', ' イントロ '],
+        publishedDate: '2025-07-15'
+    },
+    {
         id: 'SearchingMyself',
         title: {
             en: "Searching Myself",
@@ -9,7 +24,7 @@ export const chapters = [
             en: "My own self search journey.",
             jp: "自分自身を探す旅。"
         },
-        wordCount: 1289,
+        wordCount: { en: 1289, jp: 686 },
         isCompleted: false,
         tags: [
             "Creative Freedom",

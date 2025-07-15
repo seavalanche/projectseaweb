@@ -1562,6 +1562,7 @@ input:focus {
 #poem-content-wrapper h1 {
   font-family: var(--F-Title);
 }
+#story-content-wrapper blockquote,
 #poem-content-wrapper blockquote {
   font-size: var(--Fs-Content-small);
   color: var(--text-color-1a);

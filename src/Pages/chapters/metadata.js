@@ -1,5 +1,20 @@
 export const chapters = [
     {
+        id: 'intro',
+        title: {
+            en: "Hi!",
+            jp: "こんにちは！",
+        },
+        description: {
+            en: "",
+            jp: ""
+        },
+        wordCount: { en: 589, jp: 371 },
+        isCompleted: true,
+        tags: ['intro', 'イントロ'],
+        publishedDate: '2025-07-15'
+    },
+    {
         id: 'prologue',
         title: {
             en: "Prologue",
