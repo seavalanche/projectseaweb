@@ -2291,6 +2291,29 @@ html {
   margin-bottom: 1rem;
   text-align: center;
 }
+/* Small poem part */ /* Small poem part */
+#poem-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--content-padding2);
+  padding-top: 50px;
+  padding-bottom: 80px;
+  line-height: var(--line-height2);
+  row-gap: var(--paragraph-gap2);
+  transition: all 0.3s ease;
+  letter-spacing: var(--letter-spacing2);
+  word-spacing: var(--word-spacing2);
+}
+#poem-content-wrapper p {
+  text-indent: 0px;
+}
+#poem-content-wrapper h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+/* Small poem part */ /* Small poem part */
 .slider-wrapper {
   display: flex;
   height: 30px;

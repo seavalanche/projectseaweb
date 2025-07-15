@@ -89,6 +89,12 @@ html {
   --paragraph-gap: 10px;
   --letter-spacing: 1px;
   --word-spacing: 0px;
+  /* Poem page */
+  --content-padding2: 32vw;
+  --line-height2: 1.6;
+  --paragraph-gap2: 10px;
+  --letter-spacing2: 1px;
+  --word-spacing2: 0px;
 }
 @media only screen and (max-width: 1715px) {
   * {
@@ -545,7 +551,8 @@ html {
 }
 .brand-logo:hover {
   background-image: url("./Assets/Navbar/NavbarLogo-pink.png");
-  text-shadow: 0 2px 5px color-mix(in srgb, var(--navtext-accent) 50%, transparent);
+  text-shadow: 0 2px 5px
+    color-mix(in srgb, var(--navtext-accent) 50%, transparent);
   transform: scale(1.02);
 }
 [data-theme="light"] .brand-logo:hover {
@@ -590,9 +597,11 @@ html {
   border: none;
   cursor: pointer;
 }
-.navbar-menu-text:hover, .language-switcher button:hover {
+.navbar-menu-text:hover,
+.language-switcher button:hover {
   color: var(--navtext-accent);
-  text-shadow: 0 2px 5px color-mix(in srgb, var(--navtext-accent) 50%, transparent);
+  text-shadow: 0 2px 5px
+    color-mix(in srgb, var(--navtext-accent) 50%, transparent);
   transform: scale(1.02);
 }
 @media only screen and (max-width: 800px) {
@@ -651,7 +660,8 @@ html {
 .footnav-text:hover {
   color: var(--C-Vesnea_Light_Pink);
   font-weight: bold;
-  text-shadow: 0 2px 5px color-mix(in srgb, var(--C-Vesnea_Pink) 50%, transparent);
+  text-shadow: 0 2px 5px
+    color-mix(in srgb, var(--C-Vesnea_Pink) 50%, transparent);
   transform: scale(1.2, 1.1) translateX(20px);
 }
 
@@ -1196,9 +1206,10 @@ html {
   font-style: normal;
   text-decoration: none;
 }
-.aboutchar:hover{
+.aboutchar:hover {
   color: var(--C-Vesnea_white);
-  text-shadow: 0 2px 5px color-mix(in srgb, var(--C-Vesnea_Pink) 50%, transparent);
+  text-shadow: 0 2px 5px
+    color-mix(in srgb, var(--C-Vesnea_Pink) 50%, transparent);
   transform: scale(1, 1.02);
 }
 /* >>> CharInfo.js */
@@ -1535,7 +1546,8 @@ input:focus {
   border-radius: 5px;
   border: 2px solid var(--bg-color-1);
 }
-#story-content-wrapper {
+#story-content-wrapper,
+#poem-content-wrapper {
   background-color: var(--bg-color-3);
   font-family: var(--F-Content);
   font-size: var(--Fs-Content);
@@ -1546,8 +1558,14 @@ input:focus {
       transparent
     ) inset;
 }
-#story-content-wrapper h1 {
+#story-content-wrapper h1,
+#poem-content-wrapper h1 {
   font-family: var(--F-Title);
+}
+#poem-content-wrapper blockquote {
+  font-size: var(--Fs-Content-small);
+  color: var(--text-color-1a);
+  font-style: italic;
 }
 .slider-wrapper {
   border-radius: 5px;
