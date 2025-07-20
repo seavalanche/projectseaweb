@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.9d1edac8.css",
-    "main.js": "/projectseaweb/static/js/main.89d8dfd0.js",
+    "main.css": "/projectseaweb/static/css/main.85151ce8.css",
+    "main.js": "/projectseaweb/static/js/main.b1ef783c.js",
     "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
     "static/js/86.9d983612.chunk.js": "/projectseaweb/static/js/86.9d983612.chunk.js",
     "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
@@ -33,7 +33,6 @@
     "static/media/D34 - Design Veranite.jpg": "/projectseaweb/static/media/D34 - Design Veranite.ad14baed936ce084bd7b.jpg",
     "static/media/WelcomeSect-light.jpg": "/projectseaweb/static/media/WelcomeSect-light.16158514b8abf3b994ef.jpg",
     "static/media/D35 - Design Sarchie.jpg": "/projectseaweb/static/media/D35 - Design Sarchie.fb03fc2c7c1f394d28bd.jpg",
-    "static/media/constani.ttf": "/projectseaweb/static/media/constani.37ce4a90281ff29000d6.ttf",
     "static/media/D33 - Design Fondan.jpg": "/projectseaweb/static/media/D33 - Design Fondan.3ce01c9e606af7883ba3.jpg",
     "static/media/WelcomeSect-dark.jpg": "/projectseaweb/static/media/WelcomeSect-dark.65f94a518eca11d76f30.jpg",
     "static/media/S51 - Vesnea.gif": "/projectseaweb/static/media/S51 - Vesnea.6810b5b725760c325383.gif",
@@ -46,7 +45,6 @@
     "static/media/AboutTimelineDark.svg": "/projectseaweb/static/media/AboutTimelineDark.70a0cd1f9e8a6f17477b.svg",
     "static/media/AboutTimelineLight.svg": "/projectseaweb/static/media/AboutTimelineLight.6075e71a5abe1bce515b.svg",
     "static/media/AboutTimelineStar.svg": "/projectseaweb/static/media/AboutTimelineStar.ca62450714cdc217bdcc.svg",
-    "static/media/CONSTAN.TTF": "/projectseaweb/static/media/CONSTAN.f030ac01b3fa7012c45c.TTF",
     "static/media/InterTight-ExtraLightItalic.ttf": "/projectseaweb/static/media/InterTight-ExtraLightItalic.3c6ce928529a7f898efe.ttf",
     "static/media/V2 Website 1.png": "/projectseaweb/static/media/V2 Website 1.eb1ae5daa1177ecf9bf6.png",
     "static/media/V1 Website 1.png": "/projectseaweb/static/media/V1 Website 1.d4c791d7d0d9fbf8dd98.png",
@@ -55,7 +53,6 @@
     "static/media/V2 Website 3.png": "/projectseaweb/static/media/V2 Website 3.a950a9b6e1310ea78b38.png",
     "static/media/V02.jpg": "/projectseaweb/static/media/V02.7474e1075892da049642.jpg",
     "static/media/OpenDyslexic-Regular.otf": "/projectseaweb/static/media/OpenDyslexic-Regular.1455ef8fec0fedff22cc.otf",
-    "static/media/Lora-VariableFont_wght.ttf": "/projectseaweb/static/media/Lora-VariableFont_wght.3a653a05dd1cd5925a30.ttf",
     "static/media/LightMode_XSSize.jpg": "/projectseaweb/static/media/LightMode_XSSize.904a9b25381c48eab117.jpg",
     "static/media/V1 Website 5.png": "/projectseaweb/static/media/V1 Website 5.de5051a9e4dbff9c3b75.png",
     "static/media/S57 - Seava 500x406px.gif": "/projectseaweb/static/media/S57 - Seava 500x406px.01d029193634c7e5f91e.gif",
@@ -68,7 +65,6 @@
     "static/media/AboutTimelineLightJP.svg": "/projectseaweb/static/media/AboutTimelineLightJP.4ad74f7a536f91de4349.svg",
     "static/media/AboutTimelineStarJP.svg": "/projectseaweb/static/media/AboutTimelineStarJP.22c23353da18650d2917.svg",
     "static/media/Montserrat-SemiBold.ttf": "/projectseaweb/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
-    "static/media/Montserrat-Bold.ttf": "/projectseaweb/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
     "static/media/V04.jpg": "/projectseaweb/static/media/V04.8931b2962989803df7fe.jpg",
     "static/media/S20 - Vesnea.webp": "/projectseaweb/static/media/S20 - Vesnea.1f2aa7f0054f6e908a88.webp",
     "static/media/V01.jpg": "/projectseaweb/static/media/V01.fa01c9e3def61f3ef719.jpg",
@@ -246,10 +242,10 @@
     "static/media/ResetBtnDark.svg": "/projectseaweb/static/media/ResetBtnDark.adfd9bc0a3098645e3d2.svg",
     "static/media/ResetBtnLight.svg": "/projectseaweb/static/media/ResetBtnLight.63552708c48dee25a919.svg",
     "static/media/ResetBtnStar.svg": "/projectseaweb/static/media/ResetBtnStar.f9f228d7542ac97f3fd8.svg",
+    "index.html": "/projectseaweb/index.html",
     "static/media/About-Icon-Bluesky-Dark.svg": "/projectseaweb/static/media/About-Icon-Bluesky-Dark.fcfd86f1a9b1e60df5b4.svg",
     "static/media/About-Icon-Bluesky-Light.svg": "/projectseaweb/static/media/About-Icon-Bluesky-Light.07b5697d855862fc1ac7.svg",
     "static/media/About-Icon-Bluesky-Star.svg": "/projectseaweb/static/media/About-Icon-Bluesky-Star.2d8a3f2b8581cc260fb6.svg",
-    "index.html": "/projectseaweb/index.html",
     "static/media/About-Icon-Twitter-Light.svg": "/projectseaweb/static/media/About-Icon-Twitter-Light.08249a4c327a9c4f75a2.svg",
     "static/media/About-Icon-Twitter-Dark.svg": "/projectseaweb/static/media/About-Icon-Twitter-Dark.6b6c4c2bd12bf7fc5f66.svg",
     "static/media/About-Icon-Twitter-Star.svg": "/projectseaweb/static/media/About-Icon-Twitter-Star.3b296413294de9c93ed3.svg",
@@ -286,12 +282,12 @@
     "static/media/Tidy-er-Dark.svg": "/projectseaweb/static/media/Tidy-er-Dark.49a885caeb277d6e00e9.svg",
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
-    "main.9d1edac8.css.map": "/projectseaweb/static/css/main.9d1edac8.css.map",
-    "main.89d8dfd0.js.map": "/projectseaweb/static/js/main.89d8dfd0.js.map",
+    "main.85151ce8.css.map": "/projectseaweb/static/css/main.85151ce8.css.map",
+    "main.b1ef783c.js.map": "/projectseaweb/static/js/main.b1ef783c.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d1edac8.css",
-    "static/js/main.89d8dfd0.js"
+    "static/css/main.85151ce8.css",
+    "static/js/main.b1ef783c.js"
   ]
 }
