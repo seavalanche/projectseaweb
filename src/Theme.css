@@ -665,8 +665,8 @@ input[type="color"] {
 .navbar-extended {
   background-color: color-mix(
     in srgb,
-    var(--button-background-active) 10%,
-    transparent
+    var(--button-background-active) 40%,
+    var(--navbg) 60%
   );
   backdrop-filter: saturate(180%) blur(20px);
 
