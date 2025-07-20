@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.85151ce8.css",
-    "main.js": "/projectseaweb/static/js/main.b1ef783c.js",
+    "main.css": "/projectseaweb/static/css/main.73a0a93a.css",
+    "main.js": "/projectseaweb/static/js/main.79b27fea.js",
     "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
     "static/js/86.9d983612.chunk.js": "/projectseaweb/static/js/86.9d983612.chunk.js",
     "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
@@ -250,6 +250,7 @@
     "static/media/About-Icon-Twitter-Dark.svg": "/projectseaweb/static/media/About-Icon-Twitter-Dark.6b6c4c2bd12bf7fc5f66.svg",
     "static/media/About-Icon-Twitter-Star.svg": "/projectseaweb/static/media/About-Icon-Twitter-Star.3b296413294de9c93ed3.svg",
     "static/media/SearchingMyself.md": "/projectseaweb/static/media/SearchingMyself.a64b4f28fc7b4835c083.md",
+    "static/media/KorazuSun.svg": "/projectseaweb/static/media/KorazuSun.8d3f9935c8c5ccc2ddfb.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.9fb706875a8529cba24c.md",
     "static/media/intro.md": "/projectseaweb/static/media/intro.fe2d07c3b8f35625aba1.md",
     "static/media/SidebarBtnStarClose.svg": "/projectseaweb/static/media/SidebarBtnStarClose.8db6c38c4fdbf870a580.svg",
@@ -258,7 +259,7 @@
     "static/media/SidebarBtnStarOpen.svg": "/projectseaweb/static/media/SidebarBtnStarOpen.4f077ada5cb3002c2aad.svg",
     "static/media/SidebarBtnMLightOpen.svg": "/projectseaweb/static/media/SidebarBtnMLightOpen.8db7b91d948f18b52f76.svg",
     "static/media/SidebarBtnLightOpen.svg": "/projectseaweb/static/media/SidebarBtnLightOpen.eca8840aec0a66b91797.svg",
-    "static/media/KorazuSun.svg": "/projectseaweb/static/media/KorazuSun.763cc7a5c6272a831478.svg",
+    "static/media/UzakonMoon.svg": "/projectseaweb/static/media/UzakonMoon.d7b378fb74cf9cf0c6cd.svg",
     "static/media/SidebarBtnMDarkClose.svg": "/projectseaweb/static/media/SidebarBtnMDarkClose.9e6bf7dd02c5c4edd4e7.svg",
     "static/media/SidebarBtnMDarkCloseHover.svg": "/projectseaweb/static/media/SidebarBtnMDarkCloseHover.c6bd2263a718bb779276.svg",
     "static/media/SidebarBtnMLightClose.svg": "/projectseaweb/static/media/SidebarBtnMLightClose.99b86062124cba22e2b9.svg",
@@ -277,17 +278,16 @@
     "static/media/SidebarBtnDarkOpenHover.svg": "/projectseaweb/static/media/SidebarBtnDarkOpenHover.f2ff5b2c706d863f251d.svg",
     "static/media/SidebarBtnLightOpenHover.svg": "/projectseaweb/static/media/SidebarBtnLightOpenHover.204c3b0f2b07fac02aad.svg",
     "static/media/SidebarBtnStarOpenHover.svg": "/projectseaweb/static/media/SidebarBtnStarOpenHover.1838ea28e60eb649abe5.svg",
-    "static/media/UzakonMoon.svg": "/projectseaweb/static/media/UzakonMoon.ed1062c265c01e5d798d.svg",
-    "static/media/ZumikoStar.svg": "/projectseaweb/static/media/ZumikoStar.151c8ab968ce7e1c3966.svg",
+    "static/media/ZumikoStar.svg": "/projectseaweb/static/media/ZumikoStar.bd6efe0ef31e91542c51.svg",
     "static/media/Tidy-er-Dark.svg": "/projectseaweb/static/media/Tidy-er-Dark.49a885caeb277d6e00e9.svg",
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
-    "main.85151ce8.css.map": "/projectseaweb/static/css/main.85151ce8.css.map",
-    "main.b1ef783c.js.map": "/projectseaweb/static/js/main.b1ef783c.js.map",
+    "main.73a0a93a.css.map": "/projectseaweb/static/css/main.73a0a93a.css.map",
+    "main.79b27fea.js.map": "/projectseaweb/static/js/main.79b27fea.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85151ce8.css",
-    "static/js/main.b1ef783c.js"
+    "static/css/main.73a0a93a.css",
+    "static/js/main.79b27fea.js"
   ]
 }
