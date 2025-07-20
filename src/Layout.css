@@ -14,6 +14,13 @@ html {
     scroll-padding-top: 70px;
   }
 }
+.textpanel {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.textpanel input {
+  padding: 8px;
+}
 /* @import "react-alice-carousel/lib/alice-carousel.css"; */
 
 /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */
@@ -118,6 +125,7 @@ html {
   top: 100%;
   margin-left: -20px;
   padding: 20px;
+  padding-right: 35px;
   gap: 20px;
   z-index: 1;
 }
@@ -170,6 +178,18 @@ html {
   .navbar-menu-toggle {
     display: flex;
     margin-left: auto;
+    padding: 5px;
+    background-color: initial;
+    border: initial;
+  }
+  .navbar-menu-toggle:hover {
+    transform: scale(1.1);
+    padding: 5px;
+    background-color: color-mix(
+      in srgb,
+      var(--button-background-active) 20%,
+      transparent
+    );
   }
   .navbar-menu-toggle span {
     display: block;
@@ -1368,13 +1388,21 @@ html {
   padding-top: 30px;
   padding-bottom: 50px;
 }
-.ACcardtitle {
-  text-align: center;
+.ACcard1 .ACcardtitle {
+  text-align: end;
+}
+.ACcard2 .ACcardtitle {
+  text-align: start;
 }
 .ACcontent1,
 .ACcontent2 {
   padding-top: 15px;
-  text-align: left;
+}
+.ACcontent1 {
+  text-align: end;
+}
+.ACcontent2 {
+  text-align: start;
 }
 
 .aboutseparator {
@@ -1447,6 +1475,14 @@ html {
     width: 80%;
     padding-top: 30px;
     padding-bottom: 50px;
+  }
+  .ACcard1 .ACcardtitle,
+  .ACcard2 .ACcardtitle {
+    text-align: center;
+  }
+  .ACcontent1,
+  .ACcontent2 {
+    text-align: start;
   }
   .ACcard1,
   .ACcard2 {
@@ -2259,13 +2295,8 @@ html {
 .sidebar-toc-title {
   margin-bottom: 5px;
 }
-.sidebar-search {
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}
 .sidebar-search input {
   width: calc(100% - 20px);
-  padding: 8px;
 }
 .chapter-meta {
   margin-top: 2px;

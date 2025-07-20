@@ -14,16 +14,6 @@
 }
 
 @font-face {
-  font-family: "F-Title";
-  src: url(./Assets/Fonts/Lora-VariableFont_wght.ttf);
-}
-
-@font-face {
-  font-family: "F-ContentTitle";
-  src: url(./Assets/Fonts/Montserrat-Bold.ttf);
-}
-
-@font-face {
   font-family: "F-Content";
   src: url(./Assets/Fonts/Montserrat-VariableFont_wght.ttf);
 }
@@ -34,14 +24,6 @@
 }
 
 @font-face {
-  font-family: "F-CharCardName";
-  src: url(./Assets/Fonts/CONSTAN.TTF);
-}
-@font-face {
-  font-family: "F-CharCardAltName";
-  src: url(./Assets/Fonts/constani.ttf);
-}
-@font-face {
   font-family: "OpenDyslexic";
   src: url(./Assets/Fonts/OpenDyslexic-Regular.otf);
 }
@@ -51,6 +33,72 @@
 }
 html {
   scroll-behavior: smooth;
+  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+  font-size: var(--Fs-Content);
+  line-height: 20pt;
+  text-decoration: initial;
+  font-weight: 300;
+}
+.bigtitle {
+  font-family: "Baskervville", "Noto Serif JP", serif;
+  font-size: var(--Fs-BigTitle);
+  line-height: normal;
+  font-style: normal;
+  text-decoration: initial;
+}
+.title {
+  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+  font-size: var(--Fs-Title);
+  line-height: normal;
+  font-style: italic;
+  text-decoration: initial;
+}
+.fnbar {
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+  font-size: var(--Fs-Content-small);
+  line-height: normal;
+  text-decoration: initial;
+}
+.textpanel {
+  border-bottom: 1px dashed var(--textpanel-border);
+}
+.textpanel input {
+  background-color: var(--textpanel-background);
+  font-family: var(--F-TextPanel);
+  font-size: var(--Fs-Content);
+  color: var(--textpanel-text);
+  border: 1px solid var(--textpanel-border2);
+  border-radius: 4px;
+  outline: none;
+}
+.textpanel input:hover,
+input:focus {
+  background-color: var(--textpanel-background-active);
+  color: var(--textpanel-text-active);
+  border: 1px solid var(--textpanel-border-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--textpanel-border-active) 50%, transparent);
+}
+button {
+  background-color: var(--button-background);
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+  font-size: var(--Fs-Content-small);
+  color: var(--button-text);
+  cursor: pointer;
+  border: 1px solid var(--button-border2);
+  border-radius: 5px;
+}
+button:hover {
+  background-color: var(--button-background-active);
+  color: var(--button-text-active);
+  font-style: oblique;
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+}
+input[type="color"] {
+  border-radius: 5px;
+  border: 2px solid var(--bg-color-1);
 }
 
 .josefin-sans-AboutVesnea {
@@ -72,17 +120,12 @@ html {
 
 /* Variable setting*/
 * {
-  --F-Navbar: "F-Navbar", "Noto Sans JP";
-  --F-NavbarTitle: "F-NavbarTitle", "Noto Sans JP";
-  --F-BigTitle: "F-BigTitle", "Noto Serif JP";
-  --F-Title: "F-Title", "Noto Serif JP";
-  --F-ContentTitle: "F-ContentTitle", "Noto Sans JP";
-  --F-Content: "F-Content", "Noto Sans JP";
-  --F-Link: "F-Link", "Noto Sans JP";
-  --F-CharCardName: "F-CharCardName", "BIZ UDPMincho";
-  --F-CharCardAltName: "F-CharCardAltName", "BIZ UDPMincho";
-  --F-TextPanel: "F-AboutVesnea";
-  --F-AboutVesnea: "F-AboutVesnea";
+  --F-Montserrat: "Montserrat", "Noto Sans JP", sans-serif;
+  --F-Footbar: "Josefin Sans", "Noto Sans JP", sans-serif;
+  --F-Default: "Josefin Sans", "Noto Sans JP", sans-serif;
+  --F-CharCard: "Crimson Pro", "BIZ UDPMincho", serif;
+  --F-TextPanel: "Josefin Sans", "Noto Sans JP", sans-serif;
+  --F-AboutVesnea: "Josefin Sans", "Noto Sans JP", sans-serif;
   /* Story page */
   --content-padding: 22vw;
   --line-height: 1.6;
@@ -99,18 +142,19 @@ html {
 @media only screen and (max-width: 1715px) {
   * {
     --content-padding: 10vw;
-    --content-padding2: 20vw;
+    --content-padding2: 10vw;
   }
 }
 
 /* These are the standard font sizes*/
 * {
-  --Fs-Navbar: 12pt;
+  --Fs-Navbar: 13pt;
+  --Fs-Footbar: 12pt;
   --Fs-NavbarTitle: 18pt;
   --Fs-BigTitle: 48pt;
   --Fs-Title: 24pt;
   --Fs-ContentTitle: 18pt;
-  --Fs-Content: 15pt;
+  --Fs-Content: 18pt;
   --Fs-Content-small: 12pt;
   --Fs-AboutVesneaTitle: 24pt;
   --Fs-NotFoundTitle: 6rem;
@@ -120,6 +164,7 @@ html {
 @media only screen and (max-width: 800px) {
   * {
     --Fs-Navbar: 12pt;
+  --Fs-Footbar: 12pt;
     --Fs-NavbarTitle: 18pt;
     --Fs-BigTitle: 24pt;
     --Fs-Title: 20pt;
@@ -563,7 +608,7 @@ html {
   background-image: url("./Assets/Navbar/NavbarLogo-pink2.png");
 }
 .navbar-menu-text {
-  font-family: var(--F-Navbar);
+  font-family: var(--F-Montserrat);
   font-size: var(--Fs-Navbar);
   text-decoration: none;
   color: var(--navtext-b);
@@ -591,10 +636,15 @@ html {
 .theme-btn1:hover,
 .theme-btn2:hover,
 .theme-btn3:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--button-background-active) 20%,
+    transparent
+  );
   transform: scale(1.1);
 }
 .language-switcher button {
-  font-family: var(--F-Navbar);
+  font-family: var(--F-Montserrat);
   font-size: var(--Fs-Navbar);
   color: var(--navtext-b);
   background: none;
@@ -604,6 +654,10 @@ html {
 .navbar-menu-text:hover,
 .language-switcher button:hover {
   color: var(--navtext-accent);
+  font-style: normal;
+  background: none;
+  border: none;
+  box-shadow: none;
   text-shadow: 0 2px 5px
     color-mix(in srgb, var(--navtext-accent) 50%, transparent);
   transform: scale(1.02);
@@ -622,6 +676,23 @@ html {
   box-shadow: 0 3px 5px
     color-mix(in srgb, var(--button-border2-active) 20%, transparent);
 }
+.navbar-extended .navbar-menu-text {
+  text-shadow: 0 0 5px
+    color-mix(in srgb, var(--button-background-active) 50%, transparent);
+}
+[data-theme="star"] .navbar-extended .navbar-menu-text {
+  color: color-mix(in srgb, var(--button-background) 30%, var(--navtext-b) 70%);
+  text-shadow: 0 0 10px
+    color-mix(in srgb, var(--button-background) 50%, transparent);
+}
+[data-theme="star"] .navbar-extended:hover .navbar-menu-text {
+  color: var(--navtext-b);
+  text-shadow: initial;
+}
+[data-theme="star"] .navbar-extended .navbar-menu-text:hover {
+  color: var(--navtext-accent);
+  text-shadow: initial;
+}
 .navbar-extended:hover {
   background-color: color-mix(
     in srgb,
@@ -633,14 +704,14 @@ html {
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
   box-shadow: 0 3px 5px
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 .navbar-extended-item .navbar-menu-text:hover {
   font-style: oblique;
   font-weight: bold;
   /* transform: scale(1.1); */
   /* font-size: calc( var(--Fs-Navbar) + 2pt); */
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
 }
 [data-theme="light"] .navbar-extended-item .navbar-menu-text:hover {
   color: var(--cutepink2);
@@ -688,12 +759,12 @@ html {
   border-radius: 12pt;
 }
 .footnav-title {
-  font-family: var(--F-NavbarTitle);
+  font-family: var(--F-Footbar);
   font-size: var(--Fs-NavbarTitle);
   color: var(--Footnav1);
 }
 .footnav-text {
-  font-family: var(--F-Navbar);
+  font-family: var(--F-Footbar);
   font-size: var(--Fs-Navbar);
   color: var(--Footnav2);
   text-decoration: none;
@@ -742,14 +813,9 @@ html {
   background-image: url("./Assets/Footer/FootbarLogoX2_StarMode.png");
 }
 .footbar-text {
-  font-family: var(--F-Navbar);
-  font-size: var(--Fs-Navbar);
+  font-family: var(--F-Montserrat);
+  font-size: var(--Fs-Footbar);
   color: var(--text-color-1a);
-}
-@media only screen and (max-width: 800px) {
-  .footbar-text {
-    font-size: var(--Fs-Navbar);
-  }
 }
 /* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */ /* Footbar */
 /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
@@ -792,19 +858,19 @@ html {
   background-image: url("./Assets/Homepage/WelcomeSect-star.jpg");
 }
 .welcometitle {
-  font-family: var(--F-Title);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Title);
   font-weight: bold;
   color: var(--text-color-2a);
 }
 .welcometext {
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   color: var(--text-color-2b);
 }
 
 .shortintro {
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   background-color: var(--bg-color-2);
   color: var(--text-color-2b);
@@ -826,18 +892,18 @@ html {
   border-color: var(--text-color-1b);
 }
 .commsectitemtitle {
-  font-family: var(--F-Title);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Title);
   font-weight: bold;
   color: var(--text-color-1a);
 }
 .commsectitemtext {
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   color: var(--text-color-1b);
 }
 .commsectlearnmore {
-  font-family: var(--F-Link);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content-small);
   color: var(--text-color-1a);
   text-decoration: none;
@@ -863,6 +929,9 @@ html {
 .projectcarditem {
   border-top: 2px dashed var(--aboutvesnea-cardborder);
 }
+.AVIntroContent{
+  line-height: 25pt;
+}
 .projectcarditem .AVMyStyleAlt {
   color: var(--aboutvesnea-text);
   text-decoration: none;
@@ -874,35 +943,20 @@ html {
   background-color: var(--C-SeaWeb_Purple);
 }
 .historicalsectinfo {
-  font-family: var(--F-ContentTitle);
+  font-family: var(--F-Default);
   font-size: var(--Fs-ContentTitle);
   color: var(--C-Vesnea_white);
 }
 .historicalsect li {
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   color: var(--C-Vesnea_white);
 }
 .projectsshowcase {
   background-color: var(--C-Vesnea_white);
-  font-family: var(--F-ContentTitle);
+  font-family: var(--F-Default);
   font-size: var(--Fs-ContentTitle);
   font-style: italic;
-}
-/*ProjectSeaWeb*/
-.websitelinktree-title {
-  font-family: var(--F-AboutVesnea);
-  font-size: var(--Fs-AboutVesneaTitle);
-  color: var(--aboutvesnea-text);
-}
-.websitelinktree-text {
-  font-size: var(--Fs-Content);
-  color: var(--aboutvesnea-text);
-  text-decoration: none;
-}
-.webshowcase-text1,
-.webshowcase-text2 {
-  font-size: var(--Fs-Content);
 }
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 
@@ -911,8 +965,6 @@ html {
   background-color: var(--bg-color-1);
 }
 .ACinfoitemcard {
-  font-family: var(--F-Title);
-  font-size: var(--Fs-Title);
   font-weight: bold;
 }
 
@@ -988,9 +1040,10 @@ html {
   color: var(--text-color-1a);
 }
 .ACinfoitemtext {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
   color: var(--text-color-1b);
+  line-height: 15pt;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .AC {
@@ -1004,7 +1057,7 @@ html {
 .ACkorazuinttitle,
 .ACuzakoninttitle,
 .ACzumikointtitle {
-  font-family: var(--F-Title);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Title);
   font-weight: bold;
 }
@@ -1063,8 +1116,9 @@ html {
 .ACkorazuint,
 .ACuzakonint,
 .ACzumikoint {
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
+  font-style: italic;
 }
 [data-theme="dark"] .ACmythseavalancheint {
   color: var(--C-MythSeavalanche_Light_Yellow);
@@ -1116,17 +1170,13 @@ html {
 }
 
 .ACcardtitle {
-  color: var(--text-color-3a);
+  color: var(--text-color-2a);
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+  font-size: var(--Fs-ContentTitle);
+  font-weight: bold;
 }
 .ACitem {
-  font-family: var(--F-ContentTitle);
-  font-size: var(--Fs-ContentTitle);
   color: var(--text-color-3b);
-}
-.ACcontent1,
-.ACcontent2 {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
 }
 .aboutseparator {
   background-color: var(--bg-color-1);
@@ -1145,20 +1195,14 @@ html {
 /* General AboutVesnea */
 .AV-wrapper {
   background-color: var(--aboutvesnea-bg);
-  font-family: var(--F-AboutVesnea);
-  font-size: var(--Fs-Content);
+  font-style: italic;
   font-weight: 300;
   color: var(--aboutvesnea-text);
 }
 /* AboutVesnea Header */
-.AVSectionTitle {
-  font-family: var(--F-BigTitle);
-  font-size: var(--Fs-BigTitle);
-}
 .AVSectionContent {
-  font-size: var(--Fs-AboutVesneaTitle);
   color: var(--aboutvesnea-text);
-  text-decoration: none;
+  font-size: var(--Fs-AboutVesneaTitle);
 }
 .AVLink:hover {
   color: var(--aboutvesnea-link);
@@ -1184,17 +1228,17 @@ html {
   background-color: var(--C-Vesnea_white);
 }
 .commicontext {
-  font-family: var(--F-ContentTitle);
+  font-family: var(--F-Default);
   font-size: var(--Fs-ContentTitle);
   color: var(--C-SeaWeb_Purple);
 }
 .commiconlink {
-  font-family: var(--F-Link);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content-small);
   color: var(--C-SeaWeb_Purple);
 }
 .promotext {
-  font-family: var(--F-Link);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content-small);
   color: var(--C-SeaWeb_Purple);
 }
@@ -1205,18 +1249,18 @@ html {
   background-color: var(--C-SeaWeb_Dark_Purple);
 }
 .commstatustexttitle {
-  font-family: var(--F-ContentTitle);
+  font-family: var(--F-Default);
   font-size: var(--Fs-ContentTitle);
   color: var(--C-Vesnea_Pink);
 }
 .commstatustext {
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   color: var(--C-Vesnea_white);
 }
 .commcontent {
   background-color: var(--C-SeaWeb_Purple);
-  font-family: var(--F-Title);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Title);
   color: var(--C-Vesnea_white);
   font-weight: bold;
@@ -1240,7 +1284,7 @@ html {
 /* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */
 .aboutchar {
   background-color: var(--bg-color-3);
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   color: var(--navtext-a);
   font-weight: bold;
@@ -1292,30 +1336,30 @@ html {
   border-radius: 35px;
 }
 .charcardName {
-  font-family: var(--F-CharCardName);
+  font-family: var(--F-CharCard);
   font-size: var(--Fs-Title);
   color: var(--charcard-text-name);
 }
 .charcardAltName {
-  font-family: var(--F-CharCardAltName);
+  font-family: var(--F-CharCard);
   font-size: var(--Fs-Content-small);
   color: var(--charcard-text-altname);
 }
 .charcardProp {
-  font-family: var(--F-Content);
+  font-family: var(--F-Montserrat);
   font-size: var(--Fs-Content-small);
   color: var(--charcard-text-prop);
   font-style: italic;
 }
 .charcardValue {
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   color: var(--charcard-text-value);
 }
 
 /* Attribute Badges */
 .attribute-badge {
-  font-family: var(--F-Content);
+  font-family: var(--F-Montserrat);
   font-size: var(--Fs-Content-small);
   font-style: italic;
   font-weight: bold;
@@ -1382,7 +1426,7 @@ html {
 
 .charcard-tab {
   background: var(--charcard-PFPbg);
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content-small);
   color: var(--charcard-active-tab);
   font-weight: bold;
@@ -1434,8 +1478,6 @@ html {
 /* Sidebar */
 .sidebar {
   background: var(--charcard-bg);
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content-small);
   color: var(--button-text);
 }
 .sidebar-hidden {
@@ -1444,8 +1486,6 @@ html {
 }
 .sidebar-btn {
   background-color: var(--button-background);
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content-small);
   color: var(--button-text);
   cursor: pointer;
   border: 1px solid var(--button-border2);
@@ -1495,19 +1535,13 @@ html {
   background-image: url("./Assets/Common/SidebarBtnStarOpenHover.svg");
 }
 .sidebar-toc-title {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content-small);
   color: var(--storyfnbar-toctext);
 }
 .sidebar-toc-list {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
   color: var(--charcard-text-value);
   cursor: pointer;
 }
 .chapter-title {
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content);
   color: var(--charcard-text-value);
 }
 .chapter-title:hover {
@@ -1515,13 +1549,11 @@ html {
   text-shadow: 0 2px 5px color-mix(in srgb, var(--text-hover) 50%, transparent);
 }
 .chapter-desc {
-  font-family: var(--F-Content);
   font-size: var(--Fs-Content-small);
   color: var(--charcard-text-prop);
   font-style: italic;
 }
 .chapter-meta {
-  font-family: var(--F-Content);
   font-size: var(--Fs-Content-small);
   color: var(--charcard-text-altname);
 }
@@ -1530,32 +1562,11 @@ html {
 .chapter-meta {
   text-shadow: 0 1px 3px color-mix(in srgb, var(--text-hover) 20%, transparent);
 }
-/* Search styles */
-.sidebar-search {
-  border-bottom: 1px dashed var(--textpanel-border);
-}
-.sidebar-search input {
-  background-color: var(--textpanel-background);
-  font-family: var(--F-TextPanel);
-  font-size: var(--Fs-Content);
-  color: var(--textpanel-text);
-  border: 1px solid var(--textpanel-border2);
-  border-radius: 4px;
-  outline: none;
-}
-.sidebar-search input:hover,
-input:focus {
-  background-color: var(--textpanel-background-active);
-  color: var(--textpanel-text-active);
-  border: 1px solid var(--textpanel-border-active);
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--textpanel-border-active) 50%, transparent);
-}
 
 /* Main content area */
 .function-bar {
   background-color: var(--bg-color-1);
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content-small);
   color: var(--storyfnbar-text2);
 }
@@ -1566,31 +1577,10 @@ input:focus {
   opacity: 1;
   transition: opacity 0.3s ease;
 }
-.function-bar button {
-  background-color: var(--button-background);
-  font-family: var(--F-Content);
-  font-size: var(--Fs-Content-small);
-  color: var(--button-text);
-  cursor: pointer;
-  border: 1px solid var(--button-border2);
-  border-radius: 5px;
-}
-.function-bar button:hover {
-  background-color: var(--button-background-active);
-  color: var(--button-text-active);
-  font-style: oblique;
-  border: 1px solid var(--button-border2-active);
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
-}
-.function-bar input[type="color"] {
-  border-radius: 5px;
-  border: 2px solid var(--bg-color-1);
-}
 #story-content-wrapper,
 #poem-content-wrapper {
   background-color: var(--bg-color-3);
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   color: var(--text-color-1b);
   box-shadow: 0 30px 50px -40px color-mix(
@@ -1601,7 +1591,7 @@ input:focus {
 }
 #story-content-wrapper h1,
 #poem-content-wrapper h1 {
-  font-family: var(--F-Title);
+  font-family: var(--F-Default);
 }
 #story-content-wrapper blockquote,
 #poem-content-wrapper blockquote {
@@ -1622,7 +1612,7 @@ input:focus {
 }
 .function-bar .slider-btn {
   background-color: initial;
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content-small);
   color: var(--button-text);
   border: none;
@@ -1686,7 +1676,7 @@ input:focus {
   }
   .sidebar-btn-mobile {
     background-color: var(--button-background);
-    font-family: var(--F-Content);
+    font-family: var(--F-Default);
     font-size: var(--Fs-Content-small);
     color: var(--button-text);
     cursor: pointer;
@@ -1731,7 +1721,7 @@ input:focus {
   }
   .fnbar-default-menu {
     background-color: var(--button-background);
-    font-family: var(--F-Content);
+    font-family: var(--F-Default);
     font-size: var(--Fs-Content-small);
     color: var(--button-text);
     border: 1px solid var(--button-border);
@@ -1774,7 +1764,7 @@ input:focus {
 
 /* Text to HTML */ /* Text to HTML */ /* Text to HTML */ /* Text to HTML */
 .TTH-container {
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   color: var(--text-color-1b);
 }
@@ -1782,7 +1772,7 @@ input:focus {
 .TTH-html-output,
 .TTH-preview-pane {
   background-color: var(--textpanel-background);
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   font-size: var(--Fs-Content-small);
   color: var(--textpanel-text);
   border: 1px solid var(--textpanel-border);
@@ -1798,7 +1788,7 @@ input:focus {
 }
 .TTH-tab-buttons button {
   background-color: var(--button-background);
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   color: var(--button-text);
   border: 1px solid var(--button-border);
   border-radius: 5px;
@@ -1811,7 +1801,7 @@ input:focus {
   font-weight: bold;
 }
 .TTH-button-group button {
-  font-family: var(--F-Content);
+  font-family: var(--F-Default);
   color: var(--C-Vesnea_white);
   border: 1px solid var(--button-border);
   border-radius: 5px;

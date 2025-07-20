@@ -34,7 +34,7 @@ function StoryFnBar({
     }, []);
 
     const renderMobileLayout = () => (
-        <div className="fnbar-main">
+        <div className="fnbar-main fnbar">
             <div className="fnbar-sub">
                 <div className="fnbar-sub-sizes"
                     style={{
@@ -169,13 +169,16 @@ function StoryFnBar({
                         {/* Font Family */}
                         <div className="fnbar-comps font-family">
                             <span className="fnbar-font-family-title">{t("storyfnbar.fontfamily")}</span>
-                            <button onClick={() => handleFontFamilyChange('F-Content')}>Montserrat</button>
+                            <button className="fnbar-font-family-title2" onClick={() => handleFontFamilyChange('Montserrat')}>Montserrat</button>
                             <button onClick={() => handleFontFamilyChange('Quicksand')}>Quicksand</button>
-                            <button onClick={() => handleFontFamilyChange('Open Sans')}>Open Sans</button>
+                            {/* <button onClick={() => handleFontFamilyChange('Open Sans')}>Open Sans</button> */}
+                            <button onClick={() => handleFontFamilyChange('Josefin Sans')}>Josefin Sans</button>
                             <button onClick={() => handleFontFamilyChange('OpenDyslexic')}>Open Dyslexic</button>
-                            <button onClick={() => handleFontFamilyChange('F-Title')}>Lora</button>
-                            <button onClick={() => handleFontFamilyChange('F-CharCardName')}>Constantia</button>
-                            <button onClick={() => handleFontFamilyChange('Roboto Light')}>Roboto Light</button>
+                            {/* <button className="fnbar-font-family-title2" onClick={() => handleFontFamilyChange('F-Title')}>Lora</button> */}
+                            <button onClick={() => handleFontFamilyChange('Crimson Pro')}>Crimson Pro</button>
+                            {/* <button onClick={() => handleFontFamilyChange('Roboto Light')}>Roboto Light</button> */}
+                            <button onClick={() => handleFontFamilyChange('Josefin Slab')}>Josefin Slab</button>
+                            <button onClick={() => handleFontFamilyChange('Hina Mincho')}>Hina Mincho</button>
                         </div>
                     </div>
                     <div className="fnbar-sub-colors">
@@ -244,7 +247,7 @@ function StoryFnBar({
     const [isLoaded, setIsLoaded] = useState(false);
     const [settings, setSettings] = useState({
         fontSize: '--Fs-Content',
-        fontFamily: '--F-Content',
+        fontFamily: '--F-Default',
         fontColor: '#000000',
         bgColor: '--text-color-1b',
         contentPadding: '--content-padding',
@@ -266,7 +269,7 @@ function StoryFnBar({
 
         return {
             fontSize: getNumericValue('--Fs-Content'),
-            fontFamily: styles.getPropertyValue('--F-Content').trim(),
+            fontFamily: styles.getPropertyValue('--F-Default').trim(),
             fontColor: styles.getPropertyValue('--text-color-1b').trim(),
             bgColor: styles.getPropertyValue('--bg-color-3').trim(),
             contentPadding: getNumericValue('--content-padding'),
@@ -283,7 +286,7 @@ function StoryFnBar({
         if (!root) return;
 
         root.style.setProperty('--Fs-Content', `${settings.fontSize}pt`);
-        root.style.setProperty('--F-Content', settings.fontFamily);
+        root.style.setProperty('--F-Default', settings.fontFamily);
         root.style.setProperty('--text-color-1b', settings.fontColor);
         root.style.setProperty('--bg-color-3', settings.bgColor);
         root.style.setProperty('--content-padding', `${settings.contentPadding}vw`);
@@ -449,7 +452,7 @@ function StoryFnBar({
             {isSmallScreen ? (
                 renderMobileLayout()
             ) : (
-                <div className="fnbar-main">
+                <div className="fnbar-main fnbar">
                     <div className="fnbar-sub">
                         <div className="fnbar-sub-sizes">
                             {/* <div
@@ -711,13 +714,16 @@ function StoryFnBar({
                                 {/* Font Family */}
                                 <div className="fnbar-comps font-family">
                                     <span className="fnbar-font-family-title">{t("storyfnbar.fontfamily")}</span>
-                                    <button className="fnbar-font-family-title2" onClick={() => handleFontFamilyChange('F-Content')}>Montserrat</button>
+                                    <button className="fnbar-font-family-title2" onClick={() => handleFontFamilyChange('Montserrat')}>Montserrat</button>
                                     <button onClick={() => handleFontFamilyChange('Quicksand')}>Quicksand</button>
-                                    <button onClick={() => handleFontFamilyChange('Open Sans')}>Open Sans</button>
+                                    {/* <button onClick={() => handleFontFamilyChange('Open Sans')}>Open Sans</button> */}
+                                    <button onClick={() => handleFontFamilyChange('Josefin Sans')}>Josefin Sans</button>
                                     <button onClick={() => handleFontFamilyChange('OpenDyslexic')}>Open Dyslexic</button>
-                                    <button className="fnbar-font-family-title2" onClick={() => handleFontFamilyChange('F-Title')}>Lora</button>
-                                    <button onClick={() => handleFontFamilyChange('F-CharCardName')}>Constantia</button>
-                                    <button onClick={() => handleFontFamilyChange('Roboto Light')}>Roboto Light</button>
+                                    {/* <button className="fnbar-font-family-title2" onClick={() => handleFontFamilyChange('F-Title')}>Lora</button> */}
+                                    <button onClick={() => handleFontFamilyChange('Crimson Pro')}>Crimson Pro</button>
+                                    {/* <button onClick={() => handleFontFamilyChange('Roboto Light')}>Roboto Light</button> */}
+                                    <button onClick={() => handleFontFamilyChange('Josefin Slab')}>Josefin Slab</button>
+                                    <button onClick={() => handleFontFamilyChange('Hina Mincho')}>Hina Mincho</button>
                                 </div>
                             </div>
                             <div className="fnbar-sub-styles2">

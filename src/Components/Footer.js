@@ -13,7 +13,7 @@ const Footer = () => {
                                 <div className='footnav-title'>{t("footer.quicklinks")}</div>
                                 <div className='footnav-menu'>
                                     <Link to='/' className='footnav-text'>{t("navbar.home")}</Link>
-                                    <Link to='/Characters' className='footnav-text'>{t("navbar.characters")}</Link>
+                                    <Link to='/Characters' className='footnav-text'>{t("navbar.characters1")}</Link>
                                     <Link to='/Story' className='footnav-text'>{t("navbar.story")}</Link>
                                     {/* <div className='footnav-text'>Animations</div> */}
                                     <a href='https://www.pixiv.net/en/users/14390223/illustrations/Ugoira' target='_blank' rel="noreferrer" className='footnav-text'>{t("home.commsectC1")}</a>
@@ -31,7 +31,7 @@ const Footer = () => {
                                     {/* <a href="https://discord.gg/Hm7DwngzJb" target='_blank' rel="noreferrer" className='footnav-text'>Discord Server</a> */}
                                     <a href="https://www.youtube.com/@seavalanche" target='_blank' rel="noreferrer" className='footnav-text'>Youtube</a>
                                     <a href="https://mastodon.art/@seava" target='_blank' rel="noreferrer" className='footnav-text'>Mastodon</a>
-                                    {/* <a href="https://www.deviantart.com/seavalanche" target='_blank' rel="noreferrer" className='footnav-text'>Deviantart</a> */}
+                                    <a href="https://www.deviantart.com/seavalanche" target='_blank' rel="noreferrer" className='footnav-text'>Deviantart</a>
                                 </div>
                             </div>
                         </div>

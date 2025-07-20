@@ -20,19 +20,19 @@ const About = () => {
     return (
         <div className='AV-wrapper'>
             <div className='AV-wrapper2'>
-                <div className='AVSectionTitle'>{t("about.hi")}</div>
+                <div className='AVSectionTitle bigtitle'>{t("about.hi")}</div>
                 <div className='AV-choicewrapper'>
-                    <div className='AVSectionContent'>
+                    <div className='AVSectionContent title'>
                         {t("about.aboutvesnea")}
                     </div>
                     <div className='AVTidy-er' />
-                    <Link to='/Projectseaweb' className='AVSectionContent AVLink'>
+                    <Link to='/Projectseaweb' className='AVSectionContent AVLink title'>
                         {t("about.aboutseaweb")}
                     </Link>
                 </div>
             </div>
             <div className='AV-wrapper2'>
-                <div className='AVSectionTitle'>{t("about.aboutvesnea")}</div>
+                <div className='AVSectionTitle bigtitle'>{t("about.aboutvesnea")}</div>
                 <div className='AVIntroHeader' />
                 <div className='AV-introwrapper'>
                     <img className='AVIntroPFP' src={VesneaPFP} alt="Vesnea's portrait" />
@@ -42,7 +42,7 @@ const About = () => {
                 </div>
             </div>
             <div className='AV-wrapper2'>
-                <div className='AVSectionTitle'>{t("about.mystyle")}</div>
+                <div className='AVSectionTitle bigtitle'>{t("about.mystyle")}</div>
                 <div className='AV-wrapper3'>
                     <div className='AVMyStyleCard'>
                         <img className='AVMyStyleImg' src={MyStyle01} alt={t("about.card1-alt")} />
@@ -166,13 +166,13 @@ const About = () => {
                 </div>
             </div>
             <div className='AV-wrapper2'>
-                <div className='AVSectionTitle'>{t("about.myjourney")}</div>
+                <div className='AVSectionTitle bigtitle'>{t("about.myjourney")}</div>
                 <div className='AVTimeline' />
             </div>
             <div className='AV-wrapper2'>
-                <div className='AVSectionTitle'>{t("about.lovemywork?")}</div>
+                <div className='AVSectionTitle bigtitle'>{t("about.lovemywork?")}</div>
                 <div className='AV-choicewrapper'>
-                    <div className='AVSectionContent'>
+                    <div className='AVSectionContent title'>
                         {t("about.commissionme")}
                         <div className='AVSectionContent2-left'>
                             {/* <div className='AVSocials-kofi' /> */}
@@ -180,7 +180,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className='AVTidy-er' />
-                    <div className='AVSectionContent'>
+                    <div className='AVSectionContent title'>
                         {t("about.followme")}
                         <div className='AVSectionContent2-right'>
                             {/* <div className='AVSocials-twitter' /> */}

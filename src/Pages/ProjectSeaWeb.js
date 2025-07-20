@@ -21,13 +21,13 @@ function ProjectSeaWeb() {
     return (
         <div className='AV-wrapper'>
             <div className='AV-wrapper2'>
-                <div className='AVSectionTitle'>{t("about.hi")}</div>
+                <div className='AVSectionTitle bigtitle'>{t("about.hi")}</div>
                 <div className='AV-choicewrapper'>
-                    <Link to='/AboutVesnea' className='AVSectionContent AVLink'>
+                    <Link to='/AboutVesnea' className='AVSectionContent AVLink title'>
                         {t("about.aboutvesnea")}
                     </Link>
                     <div className='AVTidy-er' />
-                    <div className='AVSectionContent'>
+                    <div className='AVSectionContent title'>
                         {t("about.aboutseaweb")}
                     </div>
                 </div>
@@ -36,18 +36,18 @@ function ProjectSeaWeb() {
                 ( 🦺 Under Construction 🦺 )
             </div> */}
             <div className="AV-wrapper2 projecthero">
-                <div className="AVSectionTitle">Project Sea Web</div>
-                <div className='AVSectionContent'>{t("aboutwebsite.titledesc")}</div>
+                <div className="AVSectionTitle bigtitle">Project Sea Web</div>
+                <div className='AVSectionContent title'>{t("aboutwebsite.titledesc")}</div>
                 <div className="projectcard">
                     <div className="projectcarditem">
-                        <div className="AVSectionContent">V1</div>
+                        <div className="AVSectionContent title">V1</div>
                         <div className="AVIntroContent">
                             {t("aboutwebsite.titleV1")}
                         </div>
                         <a href="https://seavalanche.wixsite.com/seava" target='_blank' rel="noreferrer" className='AVMyStyleAlt'>https://seavalanche.wixsite.com/seava</a>
                     </div>
                     <div className="projectcarditem">
-                        <div className="AVSectionContent">V2</div>
+                        <div className="AVSectionContent title">V2</div>
                         <div className="AVIntroContent">
                             {t("aboutwebsite.titleV2")}<br />
                             {t("aboutwebsite.titleV2b")}
@@ -55,7 +55,7 @@ function ProjectSeaWeb() {
                         <a href="https://seavalanche.github.io/" target='_blank' rel="noreferrer" className='AVMyStyleAlt'>https://seavalanche.github.io/</a>
                     </div>
                     <div className="projectcarditem">
-                        <div className="AVSectionContent">V3</div>
+                        <div className="AVSectionContent title">V3</div>
                         <div className="AVIntroContent">
                             {t("aboutwebsite.titleV3")}<br />
                             {t("aboutwebsite.titleV3b")}
@@ -153,53 +153,6 @@ function ProjectSeaWeb() {
                     </div>
                 </div>
             </div>
-            {/* <div className="websitelinktree">
-                <img className='linktreebg' src={linktreebg} alt="Vesnea" />
-                <div className="websitelinktree-wrapper">
-                    <div className='websitelinktree-title'>This website's link tree:</div>
-                    <div className="websitelinktree-wrapper1">
-                        <Link to='/' className='websitelinktree-text'><b>Homepage</b></Link>
-                    </div>
-
-                    <div className="websitelinktree-wrapper1">
-                        <div className='websitelinktree-text'><b>Collections</b></div>
-                        <div className='websitelinktree-text'>Favorite Artworks Collage</div>
-                        <div className='websitelinktree-text'>Animations</div>
-                        <div className='websitelinktree-text'>Merchandises</div>
-                        <Link to='/Projects' className='websitelinktree-text'>Projects</Link>
-                        <ul>
-                            <li>
-                                <div className='websitelinktree-text'>~ Project Rea</div>
-                            </li>
-                            <li>
-                                <div className='websitelinktree-text'>~ Project Oshyarena</div>
-                            </li>
-                            <li>
-                                <div className='websitelinktree-text'>~ Project Seava</div>
-                            </li>
-                            <li>
-                                <div className='websitelinktree-text'>~ Project Rinrinmochi</div>
-                            </li>
-                            <li>
-                                <div className='websitelinktree-text'>~ Project CAD</div>
-                            </li>
-                        </ul>
-                        <Link to='/Commissions' className='websitelinktree-text'>Commissions</Link>
-                    </div>
-
-                    <div className="websitelinktree-wrapper1">
-                        <Link to='/About' className='websitelinktree-text'><b>About Page</b></Link>
-                        <div className='websitelinktree-text'>Characters</div>
-                        <li>
-                            <div className='websitelinktree-text'>~ Featuring page</div>
-                        </li>
-                        <Link to='/ProjectSeaWeb' className='websitelinktree-text'>Project Sea Web</Link>
-                        <div className='websitelinktree-text'>Contacts</div>
-                    </div>
-                </div>
-            </div> */}
-
-
         </div>
     )
 }

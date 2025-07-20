@@ -87,12 +87,12 @@ function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect 
     }, [screenSize]);
 
     return (
-        <div className={`sidebar ${visible ? 'sidebar-visible' : 'sidebar-hidden'} ${isVisible ? 'sidebar-scrolled-visible' : 'sidebar-scrolled-hidden'}`}
+        <div className={`sidebar fnbar ${visible ? 'sidebar-visible' : 'sidebar-hidden'} ${isVisible ? 'sidebar-scrolled-visible' : 'sidebar-scrolled-hidden'}`}
             onMouseEnter={() => !visible && toggleSidebar()}>
             <div className="sidebar-toc-title">{t("storysidebar.toctitle")}</div>
             {visible && (
                 <>
-                    <div className="sidebar-search">
+                    <div className="sidebar-search textpanel">
                         <input
                             type="text"
                             placeholder={t("storysidebar.searchplaceholder2")}
@@ -104,7 +104,7 @@ function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect 
                         {filteredChapters.map((chapter) => (
                             <li key={chapter.id}>
                                 <div
-                                    className={`sidebar-toc-list ${currentChapter === chapter.id ? 'active-chapter' : ''}`}
+                                    className={`sidebar-toc-list ${currentChapter === chapter.id ? 'active-chapter' : ''} content`}
                                     onClick={() => onChapterSelect(chapter.id)}
                                 >
                                     <div className="chapter-title">{getDisplayText(chapter.title)}</div>
