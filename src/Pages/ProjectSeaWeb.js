@@ -20,7 +20,7 @@ function ProjectSeaWeb() {
     const { t } = useLocalization();
     return (
         <div className='AV-wrapper'>
-            <div className='AV-wrapper2'>
+            <div className='AV-wrapper2 AV-wrapper2-header'>
                 <div className='AVSectionTitle bigtitle'>{t("about.hi")}</div>
                 <div className='AV-choicewrapper'>
                     <Link to='/AboutVesnea' className='AVSectionContent AVLink title'>

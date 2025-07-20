@@ -164,7 +164,7 @@ input[type="color"] {
 @media only screen and (max-width: 800px) {
   * {
     --Fs-Navbar: 12pt;
-  --Fs-Footbar: 12pt;
+    --Fs-Footbar: 12pt;
     --Fs-NavbarTitle: 18pt;
     --Fs-BigTitle: 24pt;
     --Fs-Title: 20pt;
@@ -265,6 +265,16 @@ input[type="color"] {
   /* Light Theme */
   --navbg: var(--C-Vesnea_white);
   --navbg-ext: var(--C-Vesnea_Light_Pink);
+  --navbg-secondary: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 50%,
+    transparent
+  );
+  --navbg-secondary-m: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 20%,
+    var(--navbg) 70%
+  );
   --navtext-a: var(--C-SeaWeb_Purple);
   --navtext-b: var(--C-SeaWeb_Purple);
   --navtext-accent: var(--C-Vesnea_Pink);
@@ -363,6 +373,16 @@ input[type="color"] {
   /* Dark Theme */
   --navbg: var(--C-SeaWeb_Purple);
   --navbg-ext: var(--C-Vesnea_white);
+  --navbg-secondary: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 50%,
+    transparent
+  );
+  --navbg-secondary-m: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 20%,
+    var(--navbg) 70%
+  );
   --navtext-a: var(--C-Korazu_Yellow);
   --navtext-b: var(--C-Korazu_Yellow);
   --navtext-accent: var(--C-Vesnea_Pink);
@@ -446,6 +466,16 @@ input[type="color"] {
   /* Star Theme */
   --navbg: var(--C-SeaWeb_Dark_Purple);
   --navbg-ext: var(--C-Vesnea_white);
+  --navbg-secondary: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 5%,
+    var(--navbg) 95%
+  );
+  --navbg-secondary-m: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Purple) 10%,
+    var(--navbg) 80%
+  );
   --navtext-a: var(--C-Uzakon_Light_Purple);
   --navtext-b: var(--C-Uzakon_Purple);
   --navtext-accent: var(--C-Vesnea_Pink);
@@ -873,6 +903,7 @@ input[type="color"] {
   font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   background-color: var(--bg-color-2);
+  background-image: linear-gradient(var(--bg-color-2), var(--bg-color-1));
   color: var(--text-color-2b);
 }
 
@@ -929,7 +960,7 @@ input[type="color"] {
 .projectcarditem {
   border-top: 2px dashed var(--aboutvesnea-cardborder);
 }
-.AVIntroContent{
+.AVIntroContent {
   line-height: 25pt;
 }
 .projectcarditem .AVMyStyleAlt {
@@ -1198,6 +1229,9 @@ input[type="color"] {
   font-style: italic;
   font-weight: 300;
   color: var(--aboutvesnea-text);
+}
+.AV-wrapper2-header {
+  background-image: linear-gradient(var(--navbg), var(--aboutvesnea-bg));
 }
 /* AboutVesnea Header */
 .AVSectionContent {

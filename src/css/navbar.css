@@ -1,0 +1,312 @@
+* {
+  --navbar-paddingbody: 50px;
+  --navbar-paddingmenu: 20px;
+  --navbar-paddingitem: 10px;
+}
+@media only screen and (max-width: 800px) {
+  * {
+    --navbar-paddingbody: 20px;
+    --navbar-paddingmenu: 10px;
+    --navbar-paddingitem: 5px;
+  }
+}
+
+.NV-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  background: var(--navbg);
+  width: 100%;
+  flex-direction: column;
+}
+.NV-body-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: calc(100% - 2 * var(--navbar-paddingbody));
+  padding: 0 var(--navbar-paddingbody);
+}
+.NV-body-secondary {
+  display: none;
+  top: 100%;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  background: var(--navbg-secondary);
+  width: calc(100% - 2 * var(--navbar-paddingbody));
+  padding: 0 var(--navbar-paddingbody);
+}
+
+/* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
+.NV-logo {
+  width: 165px;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  background-image: url("../Assets/Navbar/NavbarLogo-light.png");
+}
+[data-theme="dark"] .NV-logo {
+  background-image: url("../Assets/Navbar/NavbarLogo-dark.png");
+}
+[data-theme="star"] .NV-logo {
+  background-image: url("../Assets/Navbar/NavbarLogo-star.png");
+}
+.NV-logo:hover {
+  background-image: url("../Assets/Navbar/NavbarLogo-pink.png");
+  text-shadow: 0 2px 5px
+    color-mix(in srgb, var(--navtext-accent) 50%, transparent);
+  transform: scale(1.02);
+}
+[data-theme="light"] .NV-logo:hover {
+  background-image: url("../Assets/Navbar/NavbarLogo-pink2.png");
+}
+/* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
+
+/* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */
+.NV-menu-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 var(--navbar-paddingmenu) 0 auto;
+}
+.NV-menu-body .active {
+  font-weight: bold;
+  color: var(--navtext-accent);
+}
+.NV-menu-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--F-Montserrat);
+  font-size: var(--Fs-Navbar);
+  text-decoration: none;
+  color: var(--navtext-b);
+  padding: 0 var(--navbar-paddingitem);
+  height: 90%;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.NV-menu-text:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--button-background-active) 20%,
+    transparent
+  );
+  color: var(--navtext-a);
+  font-weight: normal;
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+}
+/* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */
+
+/* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */
+.NV-theme-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--navbar-paddingmenu);
+  height: 100%;
+}
+.NV-theme-selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.NV-theme-button {
+  background-color: initial;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90%;
+  aspect-ratio: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.NV-theme-button:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--button-background-active) 20%,
+    transparent
+  );
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+}
+.NVbtn1 {
+  background-image: url("../Assets/Navbar/KorazuSun.svg");
+}
+.NVbtn2 {
+  background-image: url("../Assets/Navbar/ZumikoStar.svg");
+}
+.NVbtn3 {
+  background-image: url("../Assets/Navbar/UzakonMoon.svg");
+}
+[data-theme="light"] .NVbtn1 {
+  display: none;
+}
+[data-theme="star"] .NVbtn2 {
+  display: none;
+}
+[data-theme="dark"] .NVbtn3 {
+  display: none;
+}
+
+.language-switcher {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.language-switcher button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--F-Montserrat);
+  font-size: var(--Fs-Navbar);
+  text-decoration: none;
+  color: var(--navtext-b);
+  padding: 0 var(--navbar-paddingitem);
+  border: 1px solid transparent;
+  height: 90%;
+  border-radius: 3px;
+}
+.language-switcher button:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--button-background-active) 20%,
+    transparent
+  );
+  color: var(--navtext-a);
+  font-weight: normal;
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+}
+/* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */
+
+/* Navbar Secondary */ /* Navbar Secondary */ /* Navbar Secondary */
+.NV-body-wrapper:hover .NV-body-main {
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+}
+[data-theme="dark"] .NV-body .NV-body-main {
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2) 50%, transparent);
+}
+.NV-body-wrapper:hover .NV-body-secondary {
+  display: flex;
+}
+/* Navbar Secondary */ /* Navbar Secondary */ /* Navbar Secondary */
+
+@media only screen and (max-width: 900px) {
+  .NV-logo:active {
+    background-image: url("../Assets/Navbar/NavbarLogo-pink.png");
+    text-shadow: 0 2px 5px
+      color-mix(in srgb, var(--navtext-accent) 50%, transparent);
+    transform: scale(1.02);
+  }
+  [data-theme="light"] .NV-logo:active {
+    background-image: url("../Assets/Navbar/NavbarLogo-pink2.png");
+  }
+
+  .NV-body-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    width: calc(100% - 2 * var(--navbar-paddingbody));
+    padding: 0 var(--navbar-paddingbody);
+  }
+  .NV-logo {
+    margin-right: auto;
+  }
+  .NV-menu-toggle {
+    background-color: initial;
+    height: 90%;
+    aspect-ratio: 1;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+  }
+  .NV-menu-toggle:hover,
+  .NV-menu-toggle:active {
+    background-color: color-mix(
+      in srgb,
+      var(--button-background-active) 20%,
+      transparent
+    );
+    border: 1px solid var(--button-border2-active);
+    box-shadow: 0 8px 12px
+      color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  }
+  .NV-menu-toggle-btn {
+    color: var(--navtext-a);
+  }
+  .NV-body-secondary {
+    transition: transform 0.1s ease-in-out;
+    transform: translateX(100%);
+    display: flex;
+    width: 200px;
+    height: initial;
+    top: 64px;
+    right: 0;
+    position: fixed;
+    flex-direction: column;
+    align-items: end;
+    background: var(--navbg-secondary-m);
+  }
+  .NV-body-secondary.open {
+    transform: translateX(0);
+    right: 0;
+  }
+  .NV-menu-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .NV-menu-text {
+    width: 100%;
+    padding: 15px;
+    justify-content: end;
+  }
+  .NV-menu-text:active {
+    background-color: color-mix(
+      in srgb,
+      var(--button-background-active) 20%,
+      transparent
+    );
+    color: var(--navtext-a);
+    font-weight: normal;
+    border: 1px solid var(--button-border2-active);
+    box-shadow: 0 8px 12px
+      color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  }
+  .NV-theme-body {
+    width: 100%;
+    height: 58px;
+  }
+  .NV-theme-selection {
+    width: 100%;
+  }
+  .NV-theme-button {
+    height: 100%;
+  }
+  .language-switcher {
+    width: 100%;
+  }
+}

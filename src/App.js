@@ -1,8 +1,10 @@
 import './Layout.css';
 import './Theme.css';
+import './css/navbar.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
-import Navbar from './Components/Navbar.js';
+// import Navbar from './Components/Navbar.js';
+import Navbar2 from './Components/Navbar2.js';
 import Footer from './Components/Footer.js';
 import ScrollToTop from './Components/ScrollToTop.js';
 import ScrollToTopButton from './Components/ScrollToTopButton';
@@ -33,7 +35,8 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      {/* <Navbar theme={theme} toggleTheme={toggleTheme} /> */}
+      <Navbar2 theme={theme} toggleTheme={toggleTheme} />
       <Routes>
         <Route path='/' exact element={<Homepage />} />
         <Route path='/Projects' exact element={<Projects />} />
