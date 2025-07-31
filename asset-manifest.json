@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.33ce9225.css",
-    "main.js": "/projectseaweb/static/js/main.26024978.js",
+    "main.css": "/projectseaweb/static/css/main.22a13570.css",
+    "main.js": "/projectseaweb/static/js/main.81ebf53e.js",
     "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
     "static/js/86.9d983612.chunk.js": "/projectseaweb/static/js/86.9d983612.chunk.js",
     "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
@@ -282,12 +282,12 @@
     "static/media/Tidy-er-Dark.svg": "/projectseaweb/static/media/Tidy-er-Dark.49a885caeb277d6e00e9.svg",
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
-    "main.33ce9225.css.map": "/projectseaweb/static/css/main.33ce9225.css.map",
-    "main.26024978.js.map": "/projectseaweb/static/js/main.26024978.js.map",
+    "main.22a13570.css.map": "/projectseaweb/static/css/main.22a13570.css.map",
+    "main.81ebf53e.js.map": "/projectseaweb/static/js/main.81ebf53e.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33ce9225.css",
-    "static/js/main.26024978.js"
+    "static/css/main.22a13570.css",
+    "static/js/main.81ebf53e.js"
   ]
 }
