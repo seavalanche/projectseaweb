@@ -19,6 +19,7 @@ import Poem from './Pages/Poem.js'
 // import About from './Pages/About.js'
 import AboutVesnea from './Pages/AboutVesnea.js'
 import Tools from './Tools/TextToHtmlConverter.js'
+import Game from './Pages/Game.js'
 import TestComponent from './Tools/HighlightMessage.js';
 import YCHStory from './Tools/StoryYCH/YCHStory.js';
 import NotFound from './Pages/NotFound.js';
@@ -50,6 +51,7 @@ function App() {
         <Route path='/AboutVesnea' exact element={<AboutVesnea />} />
         <Route path='/Tools' exact element={<Tools />} />
         <Route path='/Test' exact element={<TestComponent />} />
+        <Route path='/Game' exact element={<Game />} />
         <Route path='/YCHStory' exact element={<YCHStory />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
