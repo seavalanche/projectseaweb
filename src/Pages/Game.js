@@ -3,8 +3,8 @@ export default function GamePage() {
         <div className='tictactoe'>
             <div
                 style={{
-                    width: "600px",
-                    height: "600px",
+                    width: "570px",
+                    height: "530px",
                     border: "none",
                 }}
             >
