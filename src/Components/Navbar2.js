@@ -37,6 +37,9 @@ const Navbar = ({ toggleTheme }) => {
                         <NavLink to='/CharInfo' className={`NV-menu-text`} activeclassname='active' onClick={closeMenu}>
                             {t("navbar.charcard")}
                         </NavLink>
+                        <NavLink to='/Art' className={`NV-menu-text`} activeclassname='active'>
+                            {t("navbar.art")}
+                        </NavLink>
                         <NavLink to='/Story' className={`NV-menu-text`} activeclassname='active' onClick={closeMenu}>
                             {t("navbar.story")}
                         </NavLink>

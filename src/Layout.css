@@ -118,12 +118,12 @@ html {
   margin: 0 20px 0 20px;
 }
 .listseparator {
-  height: 2.5rem;
+  min-height: 2.5rem;
   align-content: center;
   margin-top: 20px;
   margin-bottom: 10px;
   padding-top: 5px;
-  min-width: 500px;
+  min-width: min(500px, 95vw);
 }
 .listseparator.first {
   margin-top: 0px;
