@@ -22,7 +22,7 @@ const GameLayout = ({
     const [isSmallScreen, setIsSmallScreen] = useState(false);
     useEffect(() => {
         const checkScreenSize = () => {
-            setIsSmallScreen(window.innerWidth < gamewidth);
+            setIsSmallScreen(window.innerWidth < parseInt(gamewidth));
         };
 
         checkScreenSize();
