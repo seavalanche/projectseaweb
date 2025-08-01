@@ -34,6 +34,9 @@ const GamePage = () => {
                     <div class="value">Puzzle/Arcade</div>
                 </div>
             </div>
+            <div className="gamedesc generalcontent">
+                To start the game, simply click on your desired tile. You start as player X and your opponent will be an AI that will try to crush you!!! Or you can click on a button on the right to switch to play with your friend!
+            </div>
             <div
                 style={{
                     width: "570px",
