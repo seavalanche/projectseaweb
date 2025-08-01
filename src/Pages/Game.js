@@ -1,10 +1,25 @@
-export default function GamePage() {
-    return (
+import { useState, useEffect } from "react";
+
+const GamePage = () => {
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
+    useEffect(() => {
+        const checkScreenSize = () => {
+            const width = window.innerWidth;
+            const isSmall = width < 570;
+            setIsSmallScreen(isSmall);
+        };
+
+        checkScreenSize();
+        window.addEventListener('resize', checkScreenSize);
+        return () => window.removeEventListener('resize', checkScreenSize);
+    }, []);
+
+    const renderMobileLayout = () => (
         <div className='tictactoe'>
             <div
                 style={{
                     width: "570px",
-                    height: "530px",
+                    height: "93vw",
                     border: "none",
                 }}
             >
@@ -18,9 +33,37 @@ export default function GamePage() {
                     height="100%"
                 ></iframe>
             </div>
+        </div >
+    );
+
+    return (
+        <div className='tictactoe'>
+            {isSmallScreen ? (
+                renderMobileLayout()
+            ) : (
+                <div
+                    style={{
+                        width: "570px",
+                        height: "530px",
+                        border: "none",
+                    }}
+                >
+                    <iframe
+                        title="Tic Tac Toe Game"
+                        src={`${process.env.PUBLIC_URL}/game/TicTacToe.html`}
+                        // width="100%"
+                        // height="100%"
+                        style={{ border: 'none' }}
+                        width="100%"
+                        height="100%"
+                    ></iframe>
+                </div>
+            )}
         </div>
     );
 }
+
+export default GamePage;
 // import { useEffect } from "react";
 
 // export default function GamePage() {

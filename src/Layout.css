@@ -2945,9 +2945,10 @@ html {
 /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
 /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
 
-.tictactoe{
+.tictactoe {
   display: flex;
   align-content: center;
   justify-content: center;
-  padding: 50px;
+  padding: 20px 0 20px 0;
+  width: 100%;
 }
