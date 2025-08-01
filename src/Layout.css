@@ -33,7 +33,7 @@ html {
   height: 70vh;
 }
 .not-found h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .not-found p {
   margin-bottom: 1.5rem;
@@ -51,6 +51,34 @@ html {
   transform: scale(1.05);
 }
 /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */
+/* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */
+.underconstruction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
+}
+.underconstruction h1 {
+  margin-bottom: 3rem;
+}
+.underconstruction p {
+  margin-bottom: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-indent: initial;
+}
+.underconstruction a {
+  padding: 0.7rem 1.4rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.underconstruction a:hover {
+  transform: scale(1.05);
+}
+/* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */
 
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 .generalbody {
@@ -61,6 +89,10 @@ html {
   width: 100%;
   padding: 30px 0 30px 0;
   gap: 15px;
+}
+.generalbigtitle,
+.generaltitle {
+  max-width: 1000px;
 }
 .generalbigtitle,
 .generaltitle,
@@ -83,6 +115,18 @@ html {
 }
 .generalcontent li {
   text-align: center;
+  margin: 0 20px 0 20px;
+}
+.listseparator {
+  height: 2.5rem;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  min-width: 500px;
+}
+.listseparator.first {
+  margin-top: 0px;
 }
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 

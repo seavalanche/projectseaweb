@@ -14,6 +14,7 @@ const GamePage = () => {
             </div>
             <div className='generalcontent'>
                 <ul>
+                    <div className='listseparator first'>{t("gamepage.separator1")}</div>
                     <li>
                         <Link to='/Game/TicTacToe' className='li'>{t("tictactoe.title")}</Link>
                     </li>

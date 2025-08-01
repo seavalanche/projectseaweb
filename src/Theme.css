@@ -358,6 +358,12 @@ input[type="color"] {
   --generalcontent-text: var(--C-Vesnea_Purple);
   --generalcontent-texthover: var(--cutepink2);
   --generalcontent-textshadow: var(--C-Vesnea_Pink);
+  --listseparator-text: var(--cutepink2);
+  --listseparator-bg: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 30%,
+    transparent
+  );
   --notfound-bg1: color-mix(
     in srgb,
     var(--C-Vesnea_Light_Pink) 10%,
@@ -471,6 +477,26 @@ input[type="color"] {
   --generalcontent-text: var(--C-Zumiko_Light_Red);
   --generalcontent-texthover: var(--C-Korazu_Yellow);
   --generalcontent-textshadow: var(--C-Korazu_Yellow);
+  --listseparator-text: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 70%,
+    var(--C-Vesnea_Purple) 10%
+  );
+  --listseparator-text: color-mix(
+    in srgb,
+    var(--C-Korazu_Yellow) 80%,
+    transparent
+  );
+  --listseparator-bg: color-mix(
+    in srgb,
+    var(--C-Vesnea_Purple) 30%,
+    var(--C-Vesnea_white) 20%
+  );
+  --listseparator-bg: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 40%,
+    transparent
+  );
   --notfound-bg1: var(--C-SeaWeb_Purple);
   --notfound-bg2: var(--C-SeaWeb_Dark_Purple);
   --notfound-text1: var(--C-Korazu_Yellow);
@@ -575,6 +601,16 @@ input[type="color"] {
   --generalcontent-text: var(--C-Uzakon_Light_Purple);
   --generalcontent-texthover: var(--C-Uzakon_Purple);
   --generalcontent-textshadow: var(--C-Vesnea_Pink);
+  --listseparator-text: color-mix(
+    in srgb,
+    var(--C-Uzakon_Light_Purple) 50%,
+    var(--C-Uzakon_White) 20%
+  );
+  --listseparator-bg: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 30%,
+    var(--C-SeaWeb_Dark_Purple) 70%
+  );
   --notfound-bg1: var(--C-SeaWeb_Dark_Purple);
   --notfound-bg2: var(--C-SeaWeb_Dark_Purple);
   --notfound-text1: var(--C-Uzakon_Lighter_Light_Purple);
@@ -630,6 +666,31 @@ input[type="color"] {
   box-shadow: 0 0 10px color-mix(in srgb, var(--notfound-btn) 60%, transparent);
 }
 /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */
+/* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */
+.underconstruction {
+  background: linear-gradient(135deg, var(--notfound-bg1), var(--notfound-bg2));
+  font-family: "Comic Sans MS", "Josefin Sans", sans-serif;
+  color: var(--notfound-text1);
+}
+.underconstruction h1 {
+  font-size: calc(var(--Fs-NotFoundTitle) - 42pt);
+}
+.underconstruction p {
+  font-size: var(--Fs-NotFoundDesc);
+  color: var(--notfound-text2);
+}
+.underconstruction a {
+  font-size: var(--Fs-NotFoundBtn);
+  background: var(--notfound-btn);
+  color: var(--notfound-textbtn);
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 0 10px color-mix(in srgb, var(--notfound-btn) 40%, transparent);
+}
+.underconstruction a:hover {
+  box-shadow: 0 0 10px color-mix(in srgb, var(--notfound-btn) 60%, transparent);
+}
+/* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */
 
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 .generalbody {
@@ -645,7 +706,6 @@ input[type="color"] {
   color: var(--generaltitle-text);
 }
 .generaltitle {
-  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
   font-size: var(--Fs-Title);
   line-height: normal;
   font-style: italic;
@@ -665,6 +725,14 @@ input[type="color"] {
 }
 .generalcontent li:active {
   font-weight: bold;
+}
+.listseparator {
+  color: var(--listseparator-text);
+  font-size: var(--Fs-Title);
+  font-style: normal;
+  font-weight: 600;
+  background-color: var(--listseparator-bg);
+  border-radius: 50px 4px;
 }
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 

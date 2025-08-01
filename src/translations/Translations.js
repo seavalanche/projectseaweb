@@ -12,6 +12,7 @@ const translations = {
         storyfnbar: require('./en/common/storyfnbar.json'),
         storysidebar: require('./en/common/storysidebar.json'),
         notfound: require('./en/pages/NotFound.json'),
+        artpage: require('./en/common/artpage.json'),
         gamepage: require('./en/common/gamepage.json'),
         tictactoe: require('./en/pages/Games/TicTacToe.json')
     },
@@ -28,6 +29,7 @@ const translations = {
         storyfnbar: require('./jp/common/storyfnbar.json'),
         storysidebar: require('./jp/common/storysidebar.json'),
         notfound: require('./jp/pages/NotFound.json'),
+        artpage: require('./jp/common/artpage.json'),
         gamepage: require('./jp/common/gamepage.json'),
         tictactoe: require('./jp/pages/Games/TicTacToe.json')
     },

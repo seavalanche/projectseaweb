@@ -87,7 +87,7 @@ const Navbar = ({ toggleTheme }) => {
                             <NavLink to='/Characters' className={`NV-menu-text`} activeclassname='active'>
                                 {t("navbar.characters1")}
                             </NavLink>
-                            <NavLink to='/Story' className={`NV-menu-text`} activeclassname='active'>
+                            <NavLink to='/Art' className={`NV-menu-text`} activeclassname='active'>
                                 {t("navbar.art")}
                             </NavLink>
                             <NavLink to='/AboutVesnea' className={`NV-menu-text`} activeclassname='active'>
