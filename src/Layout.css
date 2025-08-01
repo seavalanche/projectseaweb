@@ -52,6 +52,40 @@ html {
 }
 /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */
 
+/* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
+.generalbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 0 30px 0;
+  gap: 15px;
+}
+.generalbigtitle,
+.generaltitle,
+.generalcontent {
+  margin: 0 20px 0 20px;
+  text-align: center;
+}
+.generalcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.generalcontent ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+.generalcontent li {
+  text-align: center;
+}
+/* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
+
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
 .navbar {
   display: flex;
@@ -2945,10 +2979,39 @@ html {
 /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
 /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
 
-.tictactoe {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  padding: 20px 0 20px 0;
+/* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */
+.gamedesc-containerwrapper {
   width: 100%;
+  margin-bottom: 15px;
 }
+.gamedesc-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1.8fr;
+  gap: 15px 10px;
+  max-width: 600px;
+  justify-content: center;
+  margin: 15px auto;
+  padding: 35px;
+}
+.gamedesc-container .label {
+  padding-right: 15px;
+}
+.gamedesc.generalcontent {
+  max-width: 800px;
+  text-align: start;
+  margin-bottom: 15px;
+}
+.gamedesc-return{
+  
+}
+@media only screen and (max-width: 800px) {
+  .gamedesc-container {
+    margin: 0 auto;
+    gap: 10px 5px;
+    padding: 15px;
+  }
+  .gamedesc-container .label {
+    padding-right: 5px;
+  }
+}
+/* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */

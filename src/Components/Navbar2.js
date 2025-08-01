@@ -21,7 +21,7 @@ const Navbar = ({ toggleTheme }) => {
             <div className='NV-body-main'>
                 <NavLink to='/' className={"NV-logo"} onClick={closeMenu}>
                 </NavLink>
-                <button className={`NV-menu-toggle`} onClick={handleMenuToggle}activeclassname='active'>
+                <button className={`NV-menu-toggle`} onClick={handleMenuToggle} activeclassname='active'>
                     <svg
                         width="34" height="20" viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg"
                         className={`NV-menu-toggle-btn`}
@@ -42,6 +42,9 @@ const Navbar = ({ toggleTheme }) => {
                         </NavLink>
                         <NavLink to='/Poem' className={`NV-menu-text`} activeclassname='active' onClick={closeMenu}>
                             {t("navbar.poem")}
+                        </NavLink>
+                        <NavLink to='/GamePage' className={`NV-menu-text`} activeclassname='active'>
+                            {t("navbar.gamepage")}
                         </NavLink>
                         <NavLink to='/AboutVesnea' className={`NV-menu-text`} activeclassname='active' onClick={closeMenu}>
                             {t("navbar.about1")}
@@ -113,6 +116,9 @@ const Navbar = ({ toggleTheme }) => {
                             </NavLink>
                             <NavLink to='/Poem' className={`NV-menu-text`} activeclassname='active'>
                                 {t("navbar.poem")}
+                            </NavLink>
+                            <NavLink to='/GamePage' className={`NV-menu-text`} activeclassname='active'>
+                                {t("navbar.gamepage")}
                             </NavLink>
                             <NavLink to='/AboutVesnea' className={`NV-menu-text`} activeclassname='active'>
                                 {t("navbar.about1")}

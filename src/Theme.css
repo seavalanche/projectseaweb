@@ -38,6 +38,14 @@ html {
   line-height: 20pt;
   text-decoration: initial;
   font-weight: 300;
+  background-image: url("./Assets/Project Sea Web/CharInfo/VesBG_1.webp");
+  background-size: 12%;
+}
+html[data-theme="dark"] {
+  background-image: url("./Assets/Project Sea Web/CharInfo/VesBG_2.webp");
+}
+html[data-theme="star"] {
+  background-image: url("./Assets/Project Sea Web/CharInfo/VesBG_3.webp");
 }
 .bigtitle {
   font-family: "Baskervville", "Noto Serif JP", serif;
@@ -346,6 +354,10 @@ input[type="color"] {
   --aboutvesnea-text: var(--C-Vesnea_Purple);
   --aboutvesnea-link: var(--attribute-sound);
   --aboutvesnea-cardborder: var(--C-Zumiko_Pink);
+  --generaltitle-text: var(--C-Vesnea_Purple);
+  --generalcontent-text: var(--C-Vesnea_Purple);
+  --generalcontent-texthover: var(--cutepink2);
+  --generalcontent-textshadow: var(--C-Vesnea_Pink);
   --notfound-bg1: color-mix(
     in srgb,
     var(--C-Vesnea_Light_Pink) 10%,
@@ -455,6 +467,10 @@ input[type="color"] {
   --aboutvesnea-text: var(--C-Zumiko_Light_Red);
   --aboutvesnea-link: var(--C-Zumiko_Red);
   --aboutvesnea-cardborder: var(--C-Vesnea_Purple);
+  --generaltitle-text: var(--C-Zumiko_Light_Red);
+  --generalcontent-text: var(--C-Zumiko_Light_Red);
+  --generalcontent-texthover: var(--C-Korazu_Yellow);
+  --generalcontent-textshadow: var(--C-Korazu_Yellow);
   --notfound-bg1: var(--C-SeaWeb_Purple);
   --notfound-bg2: var(--C-SeaWeb_Dark_Purple);
   --notfound-text1: var(--C-Korazu_Yellow);
@@ -555,6 +571,10 @@ input[type="color"] {
   --aboutvesnea-text: var(--C-Uzakon_Light_Purple);
   --aboutvesnea-link: var(--C-Uzakon_Purple);
   --aboutvesnea-cardborder: var(--C-SeaWeb_Purple);
+  --generaltitle-text: var(--C-Uzakon_Light_Purple);
+  --generalcontent-text: var(--C-Uzakon_Light_Purple);
+  --generalcontent-texthover: var(--C-Uzakon_Purple);
+  --generalcontent-textshadow: var(--C-Vesnea_Pink);
   --notfound-bg1: var(--C-SeaWeb_Dark_Purple);
   --notfound-bg2: var(--C-SeaWeb_Dark_Purple);
   --notfound-text1: var(--C-Uzakon_Lighter_Light_Purple);
@@ -610,6 +630,43 @@ input[type="color"] {
   box-shadow: 0 0 10px color-mix(in srgb, var(--notfound-btn) 60%, transparent);
 }
 /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */ /* NOT FOUND */
+
+/* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
+.generalbody {
+  background-color: var(--bg-color-1);
+  color: var(--generalcontent-text);
+}
+.generalbigtitle {
+  font-family: "Baskervville", "Noto Serif JP", serif;
+  font-size: var(--Fs-BigTitle);
+  line-height: normal;
+  font-style: normal;
+  text-decoration: initial;
+  color: var(--generaltitle-text);
+}
+.generaltitle {
+  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+  font-size: var(--Fs-Title);
+  line-height: normal;
+  font-style: italic;
+  text-decoration: initial;
+  color: var(--generaltitle-text);
+}
+.generalcontent a {
+  text-decoration: none;
+  color: inherit;
+}
+.generalcontent li:hover {
+  color: var(--generalcontent-texthover);
+  text-shadow: 0 2px 5px
+    color-mix(in srgb, var(--generalcontent-textshadow) 50%, transparent);
+  transform: scale(1.5);
+  font-style: italic;
+}
+.generalcontent li:active {
+  font-weight: bold;
+}
+/* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
 .navbar {
@@ -1341,7 +1398,7 @@ input[type="color"] {
   border-radius: 50%;
   cursor: pointer;
 }
-.charinfobg {
+/* .charinfobg {
   background-image: url("./Assets/Project Sea Web/CharInfo/VesBG_1.webp");
   background-size: 12%;
 }
@@ -1350,7 +1407,7 @@ input[type="color"] {
 }
 [data-theme="star"] .charinfobg {
   background-image: url("./Assets/Project Sea Web/CharInfo/VesBG_3.webp");
-}
+} */
 /* >>> CharacterCard.js */
 .character-card {
   background: var(--charcard-bg);
@@ -1861,3 +1918,28 @@ input[type="color"] {
 /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
 /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
 /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
+
+/* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */
+.gamedesc-containerwrapper {
+  background-color: var(--bg-color-3);
+}
+.gamedesc-container .label {
+  font-weight: bold;
+  text-align: right;
+}
+.gamedesc-return a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+}
+.gamedesc-return a:hover {
+  color: var(--generalcontent-texthover);
+  text-shadow: 0 2px 5px
+    color-mix(in srgb, var(--generalcontent-textshadow) 50%, transparent);
+  transform: scale(1.5);
+  font-style: italic;
+}
+.gamedesc-return a:active {
+  font-weight: bold;
+}
+/* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */

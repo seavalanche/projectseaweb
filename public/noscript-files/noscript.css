@@ -61,7 +61,7 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
-body {
+html {
   background-color: #ccc6e7;
   background-image: url("noscript-bg.webp");
   background-size: 20%;
