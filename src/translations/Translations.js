@@ -11,7 +11,9 @@ const translations = {
         charcard: require('./en/common/charcard.json'),
         storyfnbar: require('./en/common/storyfnbar.json'),
         storysidebar: require('./en/common/storysidebar.json'),
-        notfound: require('./en/pages/NotFound.json')
+        notfound: require('./en/pages/NotFound.json'),
+        gamepage: require('./en/common/gamepage.json'),
+        tictactoe: require('./en/pages/Games/TicTacToe.json')
     },
     jp: {
         navbar: require('./jp/common/navbar.json'),
@@ -25,7 +27,9 @@ const translations = {
         charcard: require('./jp/common/charcard.json'),
         storyfnbar: require('./jp/common/storyfnbar.json'),
         storysidebar: require('./jp/common/storysidebar.json'),
-        notfound: require('./jp/pages/NotFound.json')
+        notfound: require('./jp/pages/NotFound.json'),
+        gamepage: require('./jp/common/gamepage.json'),
+        tictactoe: require('./jp/pages/Games/TicTacToe.json')
     },
 };
 

@@ -1,0 +1,9 @@
+{
+  "title": "Tic Tac Toe",
+  "subtitle": "I tried Godot for the first time, and I created a simple tic tac toe game~",
+  "description": "Tic Tac Toe is a classic game played by many age!",
+  "date": "01 August 2025",
+  "engine": "Godot",
+  "genre": "Puzzle",
+  "instructions": "To start the game, simply click on your desired tile. You start as player X and your opponent will be an AI that will try to crush you!!! Or you can click on a button on the right to switch to play with your friend!"
+}

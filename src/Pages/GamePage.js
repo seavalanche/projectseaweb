@@ -1,18 +1,21 @@
 import { Link } from 'react-router-dom';
+import { useLocalization } from '../localization/hooks/useLocalization';
 
 const GamePage = () => {
+    const { t } = useLocalization();
+
     return (
         <div className='generalbody'>
             <div className='generalbigtitle'>
-                Vesnea's Game Page
+                {t("gamepage.title")}
             </div>
             <div className='generaltitle'>
-                Hi! See my collection of games that I've created!
+                {t("gamepage.subtitle")}
             </div>
             <div className='generalcontent'>
                 <ul>
                     <li>
-                        <Link to='/TicTacToe' className='li'>Tic Tac Toe</Link>
+                        <Link to='/Game/TicTacToe' className='li'>{t("tictactoe.title")}</Link>
                     </li>
                 </ul>
             </div>

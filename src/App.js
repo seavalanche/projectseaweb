@@ -25,7 +25,7 @@ import NotFound from './Pages/NotFound.js';
 
 // Games
 import GamePage from './Pages/GamePage.js'
-import TicTacToe from './Pages/Games/TicTacToe.js'
+import TicTacToe from './Pages/Games/TicTacToePage.js'
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -58,7 +58,7 @@ function App() {
 
         {/* Games */}
         <Route path='/GamePage' exact element={<GamePage />} />
-        <Route path='/TicTacToe' exact element={<TicTacToe />} />
+        <Route path='/Game/TicTacToe' exact element={<TicTacToe />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
