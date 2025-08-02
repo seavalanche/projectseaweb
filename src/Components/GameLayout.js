@@ -32,8 +32,8 @@ const GameLayout = ({
     }, []);
 
     const DescriptionBlock = () => (
-        <div className="gamedesc-containerwrapper">
-            <div className="gamedesc-container">
+        <div className="generaldesc-containerwrapper">
+            <div className="generaldesc-container">
                 <div className="label">{t("gamepage.desc")}</div>
                 <div className="value">{description}</div>
 
@@ -75,7 +75,7 @@ const GameLayout = ({
             <div className="generalbigtitle">{title}</div>
             <div className="generaltitle">{subtitle}</div>
             <DescriptionBlock />
-            {instructions && <div className="gamedesc generalcontent">{instructions}</div>}
+            {instructions && <div className="generaldesc generalcontent">{instructions}</div>}
             <Frame />
             <div className="gamedesc-return generalbody">
                 <div className="generalcontent">

@@ -96,7 +96,7 @@ button {
   border: 1px solid var(--button-border2);
   border-radius: 5px;
 }
-button:hover {
+button:hover, button:active {
   background-color: var(--button-background-active);
   color: var(--button-text-active);
   font-style: oblique;
@@ -358,6 +358,11 @@ input[type="color"] {
   --generalcontent-text: var(--C-Vesnea_Purple);
   --generalcontent-texthover: var(--cutepink2);
   --generalcontent-textshadow: var(--C-Vesnea_Pink);
+  --poembook-scroll-btn: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 30%,
+    transparent
+  );
   --listseparator-text: var(--cutepink2);
   --listseparator-bg: color-mix(
     in srgb,
@@ -477,6 +482,7 @@ input[type="color"] {
   --generalcontent-text: var(--C-Zumiko_Light_Red);
   --generalcontent-texthover: var(--C-Korazu_Yellow);
   --generalcontent-textshadow: var(--C-Korazu_Yellow);
+  --poembook-scroll-btn: rgba(0, 0, 0, 0.15);
   --listseparator-text: color-mix(
     in srgb,
     var(--C-SeaWeb_Dark_Purple) 70%,
@@ -601,6 +607,7 @@ input[type="color"] {
   --generalcontent-text: var(--C-Uzakon_Light_Purple);
   --generalcontent-texthover: var(--C-Uzakon_Purple);
   --generalcontent-textshadow: var(--C-Vesnea_Pink);
+  --poembook-scroll-btn: rgba(0, 0, 0, 0.15);
   --listseparator-text: color-mix(
     in srgb,
     var(--C-Uzakon_Light_Purple) 50%,
@@ -733,6 +740,17 @@ input[type="color"] {
   font-weight: 600;
   background-color: var(--listseparator-bg);
   border-radius: 50px 4px;
+}
+.generaldesc-containerwrapper {
+  background-color: var(--bg-color-3);
+}
+.generaldesc-container .label {
+  font-weight: bold;
+  text-align: right;
+}
+.generaldisclaimer {
+  font-size: var(--Fs-Content-small);
+  line-height: 1;
 }
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 
@@ -1988,13 +2006,6 @@ input[type="color"] {
 /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */ /* TOOLS */
 
 /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */
-.gamedesc-containerwrapper {
-  background-color: var(--bg-color-3);
-}
-.gamedesc-container .label {
-  font-weight: bold;
-  text-align: right;
-}
 .gamedesc-return a {
   text-decoration: none;
   color: inherit;

@@ -1,0 +1,116 @@
+.poembookmenu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  scroll-snap-align: start;
+}
+.poembookmenu button {
+  margin-right: auto;
+  padding: 5px 10px;
+}
+.poembook-viewer {
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  max-height: calc(100vh - 65px);
+  scroll-behavior: smooth;
+  transition: transform 0.3s ease;
+  max-width: 90vw;
+  width: 1500px;
+  border-radius: 4px;
+  border: 4px solid var(--bg-color-3);
+  box-shadow: 0 0 30px 10px inset
+    color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
+  background-color: var(--bg-color-3);
+  padding: 30px;
+}
+.poembook-viewer.vertical {
+  flex-direction: column;
+  flex-flow: wrap;
+  row-gap: 15px;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.poembook-viewer.horizontal {
+  scroll-snap-type: x mandatory;
+  row-gap: 0;
+  column-gap: 20px;
+  padding: 150px 30px;
+}
+.poembook-viewer.rtl {
+  direction: rtl;
+}
+.poembook-page {
+  flex: 0 0 40%;
+  transition: all 0.3s ease;
+  cursor: zoom-in;
+  box-shadow: 0 0 10px 3px
+    color-mix(in srgb, var(--C-SeaWeb_Purple) 30%, transparent);
+}
+.poembook-viewer.horizontal .poembook-page {
+  flex: 0 0 30%;
+}
+.poembook-page img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.poembook-page.zoomed {
+  transform: scale(1.5);
+  cursor: zoom-out;
+  box-shadow: 0 0 30px 10px
+    color-mix(in srgb, var(--C-SeaWeb_Purple) 30%, transparent);
+}
+.poembook-wrapper {
+  position: relative;
+}
+.poembook-scroll-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 64px;
+  background-color: var(--poembook-scroll-btn);
+  color: var(--bg-color-3);
+  font-size: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+.poembook-scroll-btn.left {
+  left: 0;
+}
+.poembook-scroll-btn.right {
+  right: 0;
+}
+.poembook-wrapper:hover .poembook-scroll-btn {
+  opacity: 1;
+}
+.poembook-wrapper:hover button {
+  font-style: normal;
+}
+
+@media only screen and (max-width: 800px) {
+  .poembook-viewer {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 500px;
+  }
+  .poembook-page.zoomed {
+    position: absolute;
+    transform: scale(1);
+    z-index: 10;
+  }
+  .poembook-viewer.horizontal {
+    width: 100%;
+    padding: 50px 15px;
+    height: 200px;
+    align-items: center;
+    justify-content: start;
+  }
+}
