@@ -25,5 +25,144 @@
       "title": "",
       "desc": ""
     }
+  },
+  "Seava": {
+    "name": "Seava",
+    "altname": "",
+    "pfpname": {
+      "0": "Ascended Mode",
+      "1": "Tempest Mode",
+      "2": "Zephyr Mode"
+    },
+    "detDesc1": {
+      "title": "Seava's blue colors",
+      "desc": "With affinity to water and ice, both darker blue and lighter blue are his colors. The cream color is mostly for representing sand."
+    },
+    "detDesc2": {
+      "title": "Seava's Tempest Mode",
+      "desc": "In addition to his regular colors, he got extra colors in this mode. As the name suggest, this is when he got the power of storm so yellow fits his new electrical energy."
+    },
+    "detDesc3": {
+      "title": "Seava's Zephyr Mode",
+      "desc": "When he got this mode, he strengthened his wind power. Flowing like the wind, the cyan color fits his power and his new personality."
+    },
+    "detDesc4": {
+      "title": "The wave pattern",
+      "desc": "He got a special color that shows waves mark all over his body. This color symbolize the power to utilize water and ice at the same time."
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Vesnea": {
+    "name": "Vesnea",
+    "altname": "",
+    "pfpname": {
+      "0": "Vesnea",
+      "1": "Seavalanche",
+      "2": "Blossom Mode"
+    },
+    "detDesc1": {
+      "title": "The inherited color",
+      "desc": "These are the pink colors that is inherited from Seavalanche.\n\nShe has taken most of the feminity trait of the original Seavalanche out of all of her pieces."
+    },
+    "detDesc2": {
+      "title": "Seavalanche Mode",
+      "desc": "When she got a part of Seava's power, she reached what we called Seavalanche Mode.\n\nThis is a form believed to be able to match the original Seavalanche's power. But it is mostly only a combination of Seava and Vesnea, so it is actually not quite the same."
+    },
+    "detDesc3": {
+      "title": "Vesnea's Blossom Mode",
+      "desc": "As the name suggest, it is mainly her with a newfound Nature attribute. Her body is covered with leaves-like fabric."
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Korazu": {
+    "name": "Korazu",
+    "altname": "",
+    "pfpname": {
+      "0": "Korazu"
+    },
+    "detDesc1": {
+      "title": "Sun's glow",
+      "desc": "Korazu inherited Myth Seavalanche's golden shine."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Uzakon": {
+    "name": "Uzakon",
+    "altname": "",
+    "pfpname": {
+      "0": "Uzakon"
+    },
+    "detDesc1": {
+      "title": "Moon's shine",
+      "desc": "Uzakon inherited Myth Seavalanche's hidden power without the golden shine."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Zumiko": {
+    "name": "Zumiko",
+    "altname": "",
+    "pfpname": {
+      "0": "Zumiko"
+    },
+    "detDesc1": {
+      "title": "Star's flame",
+      "desc": "Zumiko inherited Myth Seavalanche's burst of power."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
   }
 }

@@ -3203,6 +3203,9 @@ html {
 .VT-char-name .alt {
   font-size: 12pt;
 }
+.VT-char-name .hide {
+  display: none;
+}
 .VT-pfp-img,
 .VT-pfp-name {
   display: none;
@@ -3233,9 +3236,12 @@ html {
   display: flex;
   flex-direction: row;
   align-items: start;
-  width: 100%;
+  width: calc(var(--color-cell-size) * 12);
   border-radius: 4px;
   overflow: hidden;
+}
+.VT-color-palette:hover {
+  width: calc(var(--color-cell-size) * 12.5);
 }
 .VT-color-cell {
   display: flex;
@@ -3257,6 +3263,9 @@ html {
 }
 .VT-color-name {
   display: none;
+}
+.VT-color-cell:hover .VT-color-name {
+  width: calc(var(--color-cell-size) * 1.2);
 }
 .VT-details {
   display: none;
@@ -3290,15 +3299,49 @@ html {
   border-radius: 4px;
   overflow: hidden;
 }
+.VT-color-palette2:hover{
+  
+  overflow: visible;
+}
 .VT-color-swatch2 {
   display: flex;
   align-items: end;
   justify-content: center;
   width: calc(var(--color-cell-size) * 0.75);
   height: calc(var(--color-cell-size) * 0.75);
-  /* border-radius: 50%; */
 }
 .VT-det-desc {
   white-space: pre-line;
   width: calc(var(--color-cell-size) * 3.8);
+}
+.VT-color-tooltip-container {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+}
+.VT-tooltip-text {
+  visibility: hidden;
+  background-color: var(--button-border2-active);
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  color: var(--bg-color-1);
+  /* font-weight: bold; */
+  /* background-color: var(--cutepink2); */
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px 8px;
+  position: absolute;
+  z-index: 11;
+  bottom:110%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.1s;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.VT-color-swatch2:hover .VT-tooltip-text {
+  visibility: visible;
+  opacity: 1;
 }

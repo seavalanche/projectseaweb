@@ -2,7 +2,7 @@
   {
     "id": "MythSeavalanche",
     "namestyle": "",
-    "altnamestyle": "italic",
+    "altnamestyle": "",
     "pfp": [
       {
         "image": "/Assets/charcardPFP/PFP_MythSeavalanche.png",
@@ -13,9 +13,9 @@
       { "hex": "#4C2C57", "name": "Purple" },
       { "hex": "#F29CC2", "name": "Pink" },
       { "hex": "#FDC4D3", "name": "Pink" },
-      { "hex": "#F4CEBD", "name": "Cream" },
-      { "hex": "#D8B86D", "name": "Gold" },
-      { "hex": "#F4DF7E", "name": "Gold" },
+      { "hex": "#F4CEBD", "name": "Pink Cream" },
+      { "hex": "#D8B86D", "name": "Dark Gold" },
+      { "hex": "#F4DF7E", "name": "Golden" },
       { "hex": "#FBEFA1", "name": "Yellow" },
       { "hex": "#E6F3F8", "name": "Light Blue" },
       { "hex": "#9EBB98", "name": "Pale Green" },
@@ -57,9 +57,322 @@
     "detDesc4": {
       "visibility": ""
     },
+    "detColor4": [{ "hex": "#F4CEBD" }, { "hex": "#E6F3F8" }],
+    "detDesc5": {
+      "visibility": "hide"
+    },
+    "detColor5": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ]
+  },
+  {
+    "id": "Seava",
+    "namestyle": "",
+    "altnamestyle": "hide",
+    "pfp": [
+      {
+        "image": "/Assets/charcardPFP/PFP_Seava.png",
+        "size": "big"
+      },
+      {
+        "image": "/Assets/charcardPFP/PFP_SeavaTM.png",
+        "size": ""
+      },
+      {
+        "image": "/Assets/charcardPFP/PFP_SeavaZM.png",
+        "size": ""
+      }
+    ],
+    "colors": [
+      { "hex": "#3E4F7B", "name": "Blue" },
+      { "hex": "#4C77AE", "name": "Blue" },
+      { "hex": "#9BD0E2", "name": "Icy Blue" },
+      { "hex": "#FEF2D3", "name": "Cream" },
+      { "hex": "#FCFBF6", "name": "White" },
+      { "hex": "#FFE941", "name": "Flash Yellow" },
+      { "hex": "#BFB97E", "name": "Old Yellow" },
+      { "hex": "#8F969E", "name": "Gray" },
+      { "hex": "#9BE2C9", "name": "Cyan" },
+      { "hex": "#D3F0EA", "name": "Cyan" },
+      { "hex": "#EDF6FA", "name": "Cyan White" }
+    ],
+    "detDesc1": {
+      "visibility": ""
+    },
+    "detColor1": [
+      { "hex": "#3E4F7B" },
+      { "hex": "#4C77AE" },
+      { "hex": "#9BD0E2" },
+      { "hex": "#FEF2D3" }
+    ],
+    "detDesc2": {
+      "visibility": ""
+    },
+    "detColor2": [
+      { "hex": "#FFE941" },
+      { "hex": "#BFB97E" },
+      { "hex": "#8F969E" }
+    ],
+    "detDesc3": {
+      "visibility": ""
+    },
+    "detColor3": [
+      { "hex": "#9BE2C9" },
+      { "hex": "#D3F0EA" },
+      { "hex": "#EDF6FA" }
+    ],
+    "detDesc4": {
+      "visibility": ""
+    },
+    "detColor4": [{ "hex": "#9BD0E2" }],
+    "detDesc5": {
+      "visibility": "hide"
+    },
+    "detColor5": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ]
+  },
+  {
+    "id": "Vesnea",
+    "namestyle": "",
+    "altnamestyle": "hide",
+    "pfp": [
+      {
+        "image": "/Assets/charcardPFP/PFP_Vesnea.png",
+        "size": "big"
+      },
+      {
+        "image": "/Assets/charcardPFP/PFP_Seavalanche.png",
+        "size": ""
+      },
+      {
+        "image": "/Assets/charcardPFP/PFP_VesneaBM.png",
+        "size": ""
+      }
+    ],
+    "colors": [
+      { "hex": "#4C2C57", "name": "Purple" },
+      { "hex": "#F29CC2", "name": "Pink" },
+      { "hex": "#FDC4D3", "name": "Pink" },
+      { "hex": "#FEF2F6", "name": "Pink White" },
+      { "hex": "#FEFCFC", "name": "White" },
+      { "hex": "#9BD0E2", "name": "Icy Blue" },
+      { "hex": "#BBE2F0", "name": "Icy Blue" },
+      { "hex": "#FEF2D3", "name": "Cream" },
+      { "hex": "#97B699", "name": "Green" },
+      { "hex": "#E1FDC4", "name": "Light Green" }
+    ],
+    "detDesc1": {
+      "visibility": ""
+    },
+    "detColor1": [
+      { "hex": "#4C2C57", "name": "Purple" },
+      { "hex": "#F29CC2", "name": "Pink" },
+      { "hex": "#FDC4D3", "name": "Pink" }
+    ],
+    "detDesc2": {
+      "visibility": ""
+    },
+    "detColor2": [
+      { "hex": "#9BD0E2", "name": "Icy Blue" },
+      { "hex": "#BBE2F0", "name": "Icy Blue" },
+      { "hex": "#FEF2D3", "name": "Cream" }
+    ],
+    "detDesc3": {
+      "visibility": ""
+    },
+    "detColor3": [
+      { "hex": "#97B699", "name": "Green" },
+      { "hex": "#E1FDC4", "name": "Light Green" }
+    ],
+    "detDesc4": {
+      "visibility": "hide"
+    },
     "detColor4": [
-      { "hex": "#F4CEBD" },
-      { "hex": "#E6F3F8" }
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc5": {
+      "visibility": "hide"
+    },
+    "detColor5": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ]
+  },
+  {
+    "id": "Korazu",
+    "namestyle": "",
+    "altnamestyle": "hide",
+    "pfp": [
+      {
+        "image": "/Assets/charcardPFP/PFP_Korazu.png",
+        "size": "big"
+      }
+    ],
+    "colors": [
+      { "hex": "#FCBB9F", "name": "Orange" },
+      { "hex": "#EBD7A5", "name": "Pale Gold" },
+      { "hex": "#F5EED8", "name": "Ivory" },
+      { "hex": "#FBF9ED", "name": "Pale Ivory" },
+      { "hex": "#FFFFFF", "name": "White" }
+    ],
+    "detDesc1": {
+      "visibility": ""
+    },
+    "detColor1": [
+      { "hex": "#FCBB9F", "name": "Orange" },
+      { "hex": "#EBD7A5", "name": "Pale Gold" },
+      { "hex": "#F5EED8", "name": "Ivory" },
+      { "hex": "#FBF9ED", "name": "Pale Ivory" }
+    ],
+    "detDesc2": {
+      "visibility": "hide"
+    },
+    "detColor2": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc3": {
+      "visibility": "hide"
+    },
+    "detColor3": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc4": {
+      "visibility": "hide"
+    },
+    "detColor4": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc5": {
+      "visibility": "hide"
+    },
+    "detColor5": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ]
+  },
+  {
+    "id": "Uzakon",
+    "namestyle": "",
+    "altnamestyle": "hide",
+    "pfp": [
+      {
+        "image": "/Assets/charcardPFP/PFP_Uzakon.png",
+        "size": "big"
+      }
+    ],
+    "colors": [
+      { "hex": "#948ABF", "name": "Lavender" },
+      { "hex": "#C5B0CF", "name": "Lilac" },
+      { "hex": "#D8D4E5", "name": "Purple Gray" },
+      { "hex": "#EEECF7", "name": "Lavender" },
+      { "hex": "#FFFFFF", "name": "White" }
+    ],
+    "detDesc1": {
+      "visibility": ""
+    },
+    "detColor1": [
+      { "hex": "#948ABF", "name": "Lavender" },
+      { "hex": "#C5B0CF", "name": "Lilac" },
+      { "hex": "#D8D4E5", "name": "Purple Gray" },
+      { "hex": "#EEECF7", "name": "Lavender" }
+    ],
+    "detDesc2": {
+      "visibility": "hide"
+    },
+    "detColor2": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc3": {
+      "visibility": "hide"
+    },
+    "detColor3": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc4": {
+      "visibility": "hide"
+    },
+    "detColor4": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc5": {
+      "visibility": "hide"
+    },
+    "detColor5": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ]
+  },
+  {
+    "id": "Zumiko",
+    "namestyle": "",
+    "altnamestyle": "hide",
+    "pfp": [
+      {
+        "image": "/Assets/charcardPFP/PFP_Zumiko.png",
+        "size": "big"
+      }
+    ],
+    "colors": [
+      { "hex": "#E28194", "name": "Pale Red" },
+      { "hex": "#F8BED6", "name": "Pink" },
+      { "hex": "#F3CBD4", "name": "Pale Pink" },
+      { "hex": "#F9E9EC", "name": "Pink White" },
+      { "hex": "#FFFFFF", "name": "White" }
+    ],
+    "detDesc1": {
+      "visibility": ""
+    },
+    "detColor1": [
+      { "hex": "#E28194", "name": "Pale Red" },
+      { "hex": "#F8BED6", "name": "Pink" },
+      { "hex": "#F3CBD4", "name": "Pale Pink" },
+      { "hex": "#F9E9EC", "name": "Pink White" }
+    ],
+    "detDesc2": {
+      "visibility": "hide"
+    },
+    "detColor2": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc3": {
+      "visibility": "hide"
+    },
+    "detColor3": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc4": {
+      "visibility": "hide"
+    },
+    "detColor4": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
     ],
     "detDesc5": {
       "visibility": "hide"

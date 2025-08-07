@@ -20,7 +20,7 @@ const VesneaThemes = () => {
                         <div className='VT-char-main'>
                             <div className="VT-char-name">
                                 <div style={{ fontStyle: char.namestyle }}>{t(`characters.${char.id}.name`)}</div>
-                                <div className="VT-charname alt" style={{ fontStyle: char.altnamestyle }}>{t(`characters.${char.id}.altname`)}</div>
+                                <div className={`VT-charname alt ${char.altnamestyle}`} style={{ fontStyle: char.altnamestyle }}>{t(`characters.${char.id}.altname`)}</div>
                             </div>
                             <div className='VT-char-pfp-container'>
                                 {char.pfp.map((pfp, i) => (
@@ -47,8 +47,13 @@ const VesneaThemes = () => {
                                     <div className='VT-det-details'>
                                         <div className='VT-color-palette2'>
                                             {char.detColor1.map((color, i) => (
-                                                <div key={i}>
-                                                    <div className="VT-color-swatch2" style={{ backgroundColor: color.hex }}></div>
+                                                <div key={i} className="VT-color-tooltip-container">
+                                                    <div
+                                                        className="VT-color-swatch2"
+                                                        style={{ backgroundColor: color.hex }}
+                                                    >
+                                                        <span className="VT-tooltip-text">{color.hex}</span>
+                                                    </div>
                                                 </div>
                                             ))}
                                         </div>
@@ -60,8 +65,13 @@ const VesneaThemes = () => {
                                     <div className='VT-det-details'>
                                         <div className='VT-color-palette2'>
                                             {char.detColor2.map((color, i) => (
-                                                <div key={i}>
-                                                    <div className="VT-color-swatch2" style={{ backgroundColor: color.hex }}></div>
+                                                <div key={i} className="VT-color-tooltip-container">
+                                                    <div
+                                                        className="VT-color-swatch2"
+                                                        style={{ backgroundColor: color.hex }}
+                                                    >
+                                                        <span className="VT-tooltip-text">{color.hex}</span>
+                                                    </div>
                                                 </div>
                                             ))}
                                         </div>
@@ -75,8 +85,13 @@ const VesneaThemes = () => {
                                     <div className='VT-det-details'>
                                         <div className='VT-color-palette2'>
                                             {char.detColor3.map((color, i) => (
-                                                <div key={i}>
-                                                    <div className="VT-color-swatch2" style={{ backgroundColor: color.hex }}></div>
+                                                <div key={i} className="VT-color-tooltip-container">
+                                                    <div
+                                                        className="VT-color-swatch2"
+                                                        style={{ backgroundColor: color.hex }}
+                                                    >
+                                                        <span className="VT-tooltip-text">{color.hex}</span>
+                                                    </div>
                                                 </div>
                                             ))}
                                         </div>
@@ -88,8 +103,13 @@ const VesneaThemes = () => {
                                     <div className='VT-det-details'>
                                         <div className='VT-color-palette2'>
                                             {char.detColor4.map((color, i) => (
-                                                <div key={i}>
-                                                    <div className="VT-color-swatch2" style={{ backgroundColor: color.hex }}></div>
+                                                <div key={i} className="VT-color-tooltip-container">
+                                                    <div
+                                                        className="VT-color-swatch2"
+                                                        style={{ backgroundColor: color.hex }}
+                                                    >
+                                                        <span className="VT-tooltip-text">{color.hex}</span>
+                                                    </div>
                                                 </div>
                                             ))}
                                         </div>
