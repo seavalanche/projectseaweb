@@ -8,8 +8,8 @@ const VesneaThemes = () => {
 
     return (
         <div className="generalbody">
-            <div className="generalbigtitle">Vesnea Themes</div>
-            <div className="generaltitle">This is the list of my characters' color palettes.</div>
+            <div className="generalbigtitle">{t(`themes.title`)}</div>
+            <div className="generaltitle">{t(`themes.subtitle`)}</div>
             <ul className="VT-container">
                 {charactersData.map((char) => (
                     <li

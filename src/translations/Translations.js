@@ -16,6 +16,7 @@ const translations = {
         poembook: require('./en/common/poembook.json'),
         gamepage: require('./en/common/gamepage.json'),
         tictactoe: require('./en/pages/Games/TicTacToe.json'),
+        themes: require('./en/pages/VesneaThemesCom.json'),
         characters: require('./en/pages/VesneaThemesLang.json')
     },
     jp: {
@@ -35,6 +36,7 @@ const translations = {
         poembook: require('./jp/common/poembook.json'),
         gamepage: require('./jp/common/gamepage.json'),
         tictactoe: require('./jp/pages/Games/TicTacToe.json'),
+        themes: require('./jp/pages/VesneaThemesCom.json'),
         characters: require('./jp/pages/VesneaThemesLang.json')
     },
 };
