@@ -1,0 +1,73 @@
+[
+  {
+    "id": "MythSeavalanche",
+    "namestyle": "",
+    "altnamestyle": "italic",
+    "pfp": [
+      {
+        "image": "/Assets/charcardPFP/PFP_MythSeavalanche.png",
+        "size": "big"
+      }
+    ],
+    "colors": [
+      { "hex": "#4C2C57", "name": "Purple" },
+      { "hex": "#F29CC2", "name": "Pink" },
+      { "hex": "#FDC4D3", "name": "Pink" },
+      { "hex": "#F4CEBD", "name": "Cream" },
+      { "hex": "#D8B86D", "name": "Gold" },
+      { "hex": "#F4DF7E", "name": "Gold" },
+      { "hex": "#FBEFA1", "name": "Yellow" },
+      { "hex": "#E6F3F8", "name": "Light Blue" },
+      { "hex": "#9EBB98", "name": "Pale Green" },
+      { "hex": "#C1CC83", "name": "Lime" },
+      { "hex": "#E0E98B", "name": "Lime" },
+      { "hex": "#FFFFFF", "name": "White" }
+    ],
+    "detDesc1": {
+      "visibility": ""
+    },
+    "detColor1": [
+      { "hex": "#F4CEBD" },
+      { "hex": "#E6F3F8" },
+      { "hex": "#D8B86D" },
+      { "hex": "#9EBB98" },
+      { "hex": "#F4DF7E" },
+      { "hex": "#C1CC83" },
+      { "hex": "#FBEFA1" },
+      { "hex": "#E0E98B" }
+    ],
+    "detDesc2": {
+      "visibility": ""
+    },
+    "detColor2": [
+      { "hex": "#4C2C57" },
+      { "hex": "#F29CC2" },
+      { "hex": "#FDC4D3" },
+      { "hex": "#FFFFFF" }
+    ],
+    "detDesc3": {
+      "visibility": ""
+    },
+    "detColor3": [
+      { "hex": "#F4DF7E" },
+      { "hex": "#C1CC83" },
+      { "hex": "#FBEFA1" },
+      { "hex": "#E0E98B" }
+    ],
+    "detDesc4": {
+      "visibility": ""
+    },
+    "detColor4": [
+      { "hex": "#F4CEBD" },
+      { "hex": "#E6F3F8" }
+    ],
+    "detDesc5": {
+      "visibility": "hide"
+    },
+    "detColor5": [
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" },
+      { "hex": "#FFFFFF" }
+    ]
+  }
+]

@@ -15,7 +15,8 @@ const translations = {
         artpage: require('./en/common/artpage.json'),
         poembook: require('./en/common/poembook.json'),
         gamepage: require('./en/common/gamepage.json'),
-        tictactoe: require('./en/pages/Games/TicTacToe.json')
+        tictactoe: require('./en/pages/Games/TicTacToe.json'),
+        characters: require('./en/pages/VesneaThemesLang.json')
     },
     jp: {
         navbar: require('./jp/common/navbar.json'),
@@ -33,7 +34,8 @@ const translations = {
         artpage: require('./jp/common/artpage.json'),
         poembook: require('./jp/common/poembook.json'),
         gamepage: require('./jp/common/gamepage.json'),
-        tictactoe: require('./jp/pages/Games/TicTacToe.json')
+        tictactoe: require('./jp/pages/Games/TicTacToe.json'),
+        characters: require('./jp/pages/VesneaThemesLang.json')
     },
 };
 
