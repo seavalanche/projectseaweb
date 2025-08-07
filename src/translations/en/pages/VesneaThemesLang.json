@@ -2,7 +2,9 @@
   "MythSeavalanche": {
     "name": "Seavalanche",
     "altname": "aka. MythSeavalanche",
-    "pfpname": "Myth Seavalanche",
+    "pfpname": {
+      "0": "Myth Seavalanche"
+    },
     "detDesc1": {
       "title": "Original Seavalanche colors",
       "desc": "These are the colors which Seavalanche possesses that doesn't get to pass down to her pieces.\n\nCream and light blue color showed her softness, gold her Aether attribute, and green her Nature attribute."

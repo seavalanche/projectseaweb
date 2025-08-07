@@ -2,7 +2,9 @@
   "MythSeavalanche": {
     "name": "Seavalanche",
     "altname": "別名：MythSeavalanche",
-    "pfpname": "Myth Seavalanche",
+    "pfpname": {
+      "0": "Myth Seavalanche"
+    },
     "detDesc1": {
       "title": "オリジナルのSeavalancheカラー",
       "desc": "これはSeavalancheが持つ色で、彼女のピースには引き継がれない色です。\n\nクリーム色とライトブルーは彼女の優しさを示し、ゴールドは彼女のエーテル属性、グリーンは自然属性を表しています。"
