@@ -1,4 +1,58 @@
 {
+  "SeaWeb": {
+    "name": "Project Sea Web theme",
+    "altname": "",
+    "pfpname": {
+      "0": ""
+    },
+    "detDesc1": {
+      "title": "Special-made for the website",
+      "desc": "Deep dark purple to the super bright pink were created specifically for this website so it can complement the existing color schemes."
+    },
+    "detDesc2": {
+      "title": "Myth Seavalanche and Vesnea",
+      "desc": "These are the color scheme of Myth Seavalanche and Vesnea, mainly used as accents throughout the website's components.\n\nZumiko's pink is close to Vesnea's pink, so sometimes it might appear subtly."
+    },
+    "detDesc3": {
+      "title": "Korazu and Uzakon",
+      "desc": "The pastel colors of the two Seavalanche cats perfectly complements the website's overal color schemes, especially for the darker theme."
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Attributes": {
+    "name": "Seavalanche World Attributes",
+    "altname": "",
+    "pfpname": {
+      "0": ""
+    },
+    "detDesc1": {
+      "title": "The Celestial Attributes",
+      "desc": "Gold to represent Aether,\nBlack for Void,\nWhite for Light,\nPurple Gray for Darkness."
+    },
+    "detDesc2": {
+      "title": "The Natural Attributes",
+      "desc": "Bright Red for Fire,\nDenim Blue for Water,\nMuted Green for Nature.\n\nSteel Gray for Metal,\nFlash Yellow for Electric,\nCyan for Wind."
+    },
+    "detDesc3": {
+      "title": "The Mental Attributes",
+      "desc": "Pink for Magical,\nSweet Purple for Psionic,\nViolet for Spirit,\nSweet Pink for Sound."
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
   "MythSeavalanche": {
     "name": "Seavalanche",
     "altname": "aka. MythSeavalanche",
@@ -65,7 +119,7 @@
     },
     "detDesc1": {
       "title": "The inherited color",
-      "desc": "These are the pink colors that is inherited from Seavalanche.\n\nShe has taken most of the feminity trait of the original Seavalanche out of all of her pieces."
+      "desc": "These are the pink colors that is inherited from Seavalanche.\n\nShe has taken most of the feminity trait of the original Seavalanche out of all of her pieces.\n\nThis is also the symbol of friendliness and kindness of Myth Seavalanche."
     },
     "detDesc2": {
       "title": "Seavalanche Mode",
@@ -151,6 +205,196 @@
     "detDesc2": {
       "title": "",
       "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Baldor": {
+    "name": "Baldor",
+    "altname": "",
+    "pfpname": {
+      "0": "Baldor"
+    },
+    "detDesc1": {
+      "title": "Baldor's rocky body",
+      "desc": "They gray colors are Baldor's basalt external body's color while the brown colors are his granite and sandstone poking out from his rocky body."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Arna": {
+    "name": "Arna",
+    "altname": "",
+    "pfpname": {
+      "0": "Arna",
+      "1": "Mini Arna"
+    },
+    "detDesc1": {
+      "title": "Arna's red color",
+      "desc": "The red colors appeared mainly due to her generational albino white fur, but then she obtained a power to take advantage of her lineage power in healing.\n\nThe male sex of her species are mainly smaller and fully red like what her three Mini Arnas have shown."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Rakariki": {
+    "name": "Rakariki",
+    "altname": "",
+    "pfpname": {
+      "0": "Rakariki"
+    },
+    "detDesc1": {
+      "title": "Flash Rakariki",
+      "desc": "The bright yellow and blue color mainly represents the speed that Rakariki possessed, faster than a blink of an eye kind of speed."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Fondan": {
+    "name": "Fondan",
+    "altname": "",
+    "pfpname": {
+      "0": "Fondan"
+    },
+    "detDesc1": {
+      "title": "Black and White",
+      "desc": "Fondan's naturally dark gray color is being contrasted by his love of white things."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Veranite": {
+    "name": "Veranite",
+    "altname": "",
+    "pfpname": {
+      "0": "Veranite"
+    },
+    "detDesc1": {
+      "title": "The void",
+      "desc": "His inky black fur hides him well everywhere except when his yellow marks glow.\n\nWhen it does glow, his body looks like the outer space filled with stars."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Sarchie": {
+    "name": "Sarchie",
+    "altname": "",
+    "pfpname": {
+      "0": "Sarchie"
+    },
+    "detDesc1": {
+      "title": "Beautiful blue bird",
+      "desc": "She has four shades of blue feathers adorning her body. The outer feathers are mainly the sky blue color, while the inner feathers are cyan color."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Deimev": {
+    "name": "Deimev",
+    "altname": "",
+    "pfpname": {
+      "0": "Deimev"
+    },
+    "detDesc1": {
+      "title": "Hidden ghost",
+      "desc": "Deimev's wispy purple color blends in every dark corner in the world perfectly, fitting as a ghostly creature."
+    },
+    "detDesc2": {
+      "title": "Deimev's Judgment Gale",
+      "desc": "His weapon isn't as hidden as he is, but still not that flashy."
     },
     "detDesc3": {
       "title": "",

@@ -32,7 +32,7 @@ const VesneaThemes = () => {
                             </div>
                         </div>
                         <div className='VT-char-sub'>
-                            <div className="VT-color-palette">
+                            <div className={`VT-color-palette ${char.id}`}>
                                 {char.colors.map((color, i) => (
                                     <div className="VT-color-cell" key={i}>
                                         <div className="VT-color-swatch" style={{ backgroundColor: color.hex }}></div>

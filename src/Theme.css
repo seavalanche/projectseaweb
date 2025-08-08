@@ -2022,3 +2022,100 @@ input[type="color"] {
   font-weight: bold;
 }
 /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */
+
+.VT-list {
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.VT-list:hover {
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  transition: all 0.1s ease;
+  transform: scale(1.03);
+}
+.VT-list.active {
+  border: 1px solid var(--button-border2-active);
+  border-radius: 6px;
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  transition: all 0.1s ease;
+  transform: scale(1.03);
+}
+.VT-color-cell:hover .VT-color-name {
+  word-break: break-word;
+  line-height: 1.2;
+  transition: all 0.1s ease;
+  transform: scale(1.43);
+}
+.VT-list.active .VT-color-name {
+  word-break: break-word;
+  line-height: 1.2;
+}
+.VT-list.active .VT-color-cell:hover .VT-color-name {
+  font-weight: bold;
+  transition: font-weight 0.2s ease;
+}
+.VT-list.active .VT-pfp-img {
+  border: 1px dashed
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  border-radius: 4px;
+  box-shadow: 0 4px 6px
+    color-mix(in srgb, var(--button-border2-active) 10%, transparent) inset;
+  opacity: 35%;
+}
+.VT-list.active .VT-pfp-img.big {
+  border: 1px dashed
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  border-radius: 50%;
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 20%, transparent) inset;
+  opacity: 100%;
+}
+.VT-list.active .VT-pfp-img:hover {
+  opacity: 100%;
+}
+.VT-char-pfp:hover .VT-pfp-name {
+  font-size: 12pt;
+  transition: all 0.1s ease;
+}
+.VT-char-name {
+  word-break: break-word;
+}
+.VT-char-name .alt {
+  font-size: 12pt;
+}
+.VT-color-palette {
+  border-radius: 4px;
+}
+.VT-color-cell {
+  font-size: 12pt;
+}
+.VT-color-hexcode {
+  font-size: 10pt;
+}
+.VT-det-title {
+  font-weight: bold;
+}
+.VT-color-palette2 {
+  border-radius: 4px;
+}
+.VT-det-desc {
+  white-space: pre-line;
+}
+.VT-tooltip-text {
+  font-size: 12px;
+  white-space: nowrap;
+  color: var(--bg-color-1);
+  background-color: var(--button-border2-active);
+  border: 1px solid var(--button-border2-active);
+  border-radius: 4px;
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  transition: opacity 0.1s;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.VT-color-swatch2:hover .VT-tooltip-text {
+  opacity: 1;
+}
