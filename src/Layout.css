@@ -3202,10 +3202,10 @@ html {
   width: var(--color-palette-size);
 }
 .VT-color-palette:hover {
-  width: calc(var(--color-palette-size) + 0.5);
+  width: calc(var(--color-palette-size) + (0.5 * var(--color-cell-size)));
 }
 .VT-color-palette.Attributes:hover {
-  width: calc(var(--color-palette-size-forattributes) + 0.5);
+  width: calc(var(--color-palette-size-forattributes) + (0.5 * var(--color-cell-size)));
 }
 .VT-color-cell {
   display: flex;
@@ -3356,6 +3356,9 @@ html {
   .VT-color-palette {
     width: var(--color-palette-size);
     flex-wrap: wrap;
+  }
+  .VT-color-palette:hover {
+    width: var(--color-palette-size);
   }
   .VT-color-cell {
     margin-bottom: calc(var(--margin-multiplication) * 1);
