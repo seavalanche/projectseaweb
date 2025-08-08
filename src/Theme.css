@@ -2023,6 +2023,9 @@ input[type="color"] {
 }
 /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */
 
+/* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */
+/* VT-list */ /* VT-list */
+/* VT-list */ /* VT-list */
 .VT-list {
   border: 1px solid transparent;
   border-radius: 4px;
@@ -2042,20 +2045,7 @@ input[type="color"] {
   transition: all 0.1s ease;
   transform: scale(1.03);
 }
-.VT-color-cell:hover .VT-color-name {
-  word-break: break-word;
-  line-height: 1.2;
-  transition: all 0.1s ease;
-  transform: scale(1.43);
-}
-.VT-list.active .VT-color-name {
-  word-break: break-word;
-  line-height: 1.2;
-}
-.VT-list.active .VT-color-cell:hover .VT-color-name {
-  font-weight: bold;
-  transition: font-weight 0.2s ease;
-}
+ /* VT-list .VT-Char-main */ 
 .VT-list.active .VT-pfp-img {
   border: 1px dashed
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
@@ -2075,33 +2065,58 @@ input[type="color"] {
 .VT-list.active .VT-pfp-img:hover {
   opacity: 100%;
 }
-.VT-char-pfp:hover .VT-pfp-name {
-  font-size: 12pt;
-  transition: all 0.1s ease;
+ /* VT-list .VT-Char-sub */ 
+.VT-list.active .VT-color-name {
+  word-break: break-word;
+  line-height: 1.2;
 }
+.VT-list.active .VT-color-cell:hover .VT-color-name {
+  font-weight: bold;
+  transition: font-weight 0.2s ease;
+}
+
+/* VT-Char-main */ /* VT-Char-main */ 
+/* VT-Char-main */ /* VT-Char-main */
+/* VT-Char-name */
 .VT-char-name {
   word-break: break-word;
 }
 .VT-char-name .alt {
   font-size: 12pt;
 }
+/* VT-Char-pfp */
+.VT-char-pfp:hover .VT-pfp-name {
+  font-size: 12pt;
+  transition: all 0.1s ease;
+}
+
+/* VT-Char-sub */ /* VT-Char-sub */ 
+/* VT-Char-sub */ /* VT-Char-sub */ 
+/* VT-color-palette */
 .VT-color-palette {
   border-radius: 4px;
 }
 .VT-color-cell {
   font-size: 12pt;
 }
+.VT-color-cell:hover .VT-color-name {
+  word-break: break-word;
+  line-height: 1.2;
+  transition: all 0.1s ease;
+  transform: scale(1.43);
+}
 .VT-color-hexcode {
   font-size: 10pt;
 }
+/* VT-details */
 .VT-det-title {
   font-weight: bold;
 }
 .VT-color-palette2 {
   border-radius: 4px;
 }
-.VT-det-desc {
-  white-space: pre-line;
+.VT-color-swatch2:hover .VT-tooltip-text {
+  opacity: 1;
 }
 .VT-tooltip-text {
   font-size: 12px;
@@ -2116,6 +2131,7 @@ input[type="color"] {
   transform: translateX(-50%);
   opacity: 0;
 }
-.VT-color-swatch2:hover .VT-tooltip-text {
-  opacity: 1;
+.VT-det-desc {
+  white-space: pre-line;
 }
+/* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */

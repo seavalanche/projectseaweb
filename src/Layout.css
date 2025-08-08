@@ -3061,6 +3061,8 @@ html {
   text-align: center;
 }
 /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */ /* GAMES */
+
+/* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */
 * {
   --color-cell-size: 75px;
 }
@@ -3072,6 +3074,8 @@ html {
   padding: 15px 50px;
   gap: 10px;
 }
+/* VT-list */ /* VT-list */
+/* VT-list */ /* VT-list */
 .VT-list {
   display: flex;
   flex-direction: row;
@@ -3086,28 +3090,11 @@ html {
   margin: 10px 0;
   padding: 15px 25px;
 }
-.VT-color-cell:hover .VT-color-name {
+ /* VT-list .VT-Char-main */ 
+.VT-list.active .VT-char-pfp {
   display: flex;
-  align-items: start;
-  justify-content: center;
-  text-align: center;
-  width: calc(var(--color-cell-size) * 1);
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.VT-list.active .VT-color-name {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  text-align: center;
-  width: calc(var(--color-cell-size) * 0.95);
-  margin-top: 10px;
-}
-.VT-list.active .VT-color-palette.Attributes {
-  min-width: calc(var(--color-cell-size) * 14);
-}
-.VT-list.active .VT-color-cell:hover .VT-color-hexcode {
-  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .VT-list.active .VT-pfp-img {
   display: flex;
@@ -3119,17 +3106,26 @@ html {
 .VT-list.active .VT-pfp-img.hide {
   display: none;
 }
-.VT-list.active .VT-char-pfp {
+ /* VT-list .VT-Char-sub */ 
+.VT-list.active .VT-color-palette.Attributes {
+  min-width: calc(var(--color-cell-size) * 14);
+}
+.VT-list.active .VT-color-cell:hover .VT-color-hexcode {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.VT-list.active .VT-color-name {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  width: calc(var(--color-cell-size) * 0.95);
+  margin-top: 10px;
 }
 .VT-list.active .VT-details {
   display: flex;
 }
-.VT-char-pfp:hover .VT-pfp-name {
-  display: flex;
-}
+/* VT-Char-main */ /* VT-Char-main */ 
+/* VT-Char-main */ /* VT-Char-main */ 
 .VT-char-main {
   display: flex;
   flex-shrink: 0;
@@ -3138,6 +3134,7 @@ html {
   justify-content: center;
   width: calc(var(--color-cell-size) * 3);
 }
+/* VT-Char-name */
 .VT-char-name {
   display: flex;
   flex-shrink: 0;
@@ -3150,10 +3147,7 @@ html {
 .VT-char-name .hide {
   display: none;
 }
-.VT-pfp-img,
-.VT-pfp-name {
-  display: none;
-}
+/* VT-Char-pfp */
 .VT-char-pfp-container {
   display: flex;
   flex-shrink: 0;
@@ -3171,11 +3165,21 @@ html {
   justify-content: center;
   max-width: 100%;
 }
+.VT-char-pfp:hover .VT-pfp-name {
+  display: flex;
+}
+.VT-pfp-img,
+.VT-pfp-name {
+  display: none;
+}
+/* VT-Char-sub */ /* VT-Char-sub */ 
+/* VT-Char-sub */ /* VT-Char-sub */ 
 .VT-char-sub {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
+/* VT-color-palette */
 .VT-color-palette {
   overflow: hidden;
   display: flex;
@@ -3195,6 +3199,15 @@ html {
   align-items: center;
   justify-content: center;
 }
+.VT-color-cell:hover .VT-color-name {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  width: calc(var(--color-cell-size) * 1.5);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .VT-color-swatch {
   display: flex;
   align-items: end;
@@ -3208,9 +3221,7 @@ html {
 .VT-color-name {
   display: none;
 }
-.VT-color-cell:hover .VT-color-name {
-  width: calc(var(--color-cell-size) * 1.5);
-}
+/* VT-details */
 .VT-details {
   display: none;
   flex-wrap: wrap;
@@ -3246,8 +3257,8 @@ html {
   width: calc(var(--color-cell-size) * 0.75);
   height: calc(var(--color-cell-size) * 0.75);
 }
-.VT-det-desc {
-  width: calc(var(--color-cell-size) * 3.8);
+.VT-color-swatch2:hover .VT-tooltip-text {
+  visibility: visible;
 }
 .VT-color-tooltip-container {
   overflow: visible;
@@ -3263,6 +3274,7 @@ html {
   padding: 4px 8px;
   z-index: 11;
 }
-.VT-color-swatch2:hover .VT-tooltip-text {
-  visibility: visible;
+.VT-det-desc {
+  width: calc(var(--color-cell-size) * 3.8);
 }
+/* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */
