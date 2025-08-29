@@ -85,20 +85,27 @@
     0 0 30px 10px color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
 }
 @media only screen and (max-width: 500px) {
-.HPcarousel-prev,
-.HPcarousel-next {
-  width: 24px;
+  .HPcarousel-prev,
+  .HPcarousel-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: initial;
+    bottom: 0;
+    height: 72px;
+    width: 36px;
+  font-size: 2rem;
   }
   .HPcarousel-dot {
-  width: 12px;
+    width: 12px;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 800px) {
-.HPcarousel-prev,
-.HPcarousel-next {
-  width: 36px;
+  .HPcarousel-prev,
+  .HPcarousel-next {
+    width: 36px;
   }
   .HPcarousel-dot {
-  width: 24px;
+    width: 24px;
   }
 }
