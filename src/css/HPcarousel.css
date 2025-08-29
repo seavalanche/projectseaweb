@@ -36,28 +36,6 @@
   text-align: center;
   z-index: 2;
 }
-.HPcarousel-dot {
-  display: inline-block;
-  width: 36px;
-  height: 8px;
-  margin: 0 6px;
-  background-color: var(--poembook-scroll-btn);
-  border-radius: 20%;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-.HPcarousel-dot.active {
-  background-color: var(--button-border2-active);
-}
-.HPcarousel-dot:hover {
-  background-color: var(--button-background-active);
-  color: var(--button-text-active);
-  font-style: oblique;
-  border: 1px solid var(--button-border2-active);
-  box-shadow: 0 8px 12px
-      color-mix(in srgb, var(--button-border2-active) 50%, transparent),
-    0 0 30px 10px color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
-}
 .HPcarousel-prev,
 .HPcarousel-next {
   position: absolute;
@@ -73,8 +51,8 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   z-index: 2;
+  transition: all 0.3s ease;
 }
-
 .HPcarousel-prev {
   left: 0;
 }
@@ -84,13 +62,43 @@
 .HPcarousel:hover .HPcarousel-btn {
   opacity: 1;
 }
+.HPcarousel-dot {
+  display: inline-block;
+  width: 36px;
+  height: 8px;
+  margin: 0 6px;
+  background-color: var(--poembook-scroll-btn);
+  border-radius: 20%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.HPcarousel-dot.active {
+  background-color: var(--button-border2-active);
+}
+.HPcarousel-dot:hover {
+  background-color: var(--button-background-active);
+  color: var(--button-text-active);
+  font-style: oblique;
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+      color-mix(in srgb, var(--button-border2-active) 50%, transparent),
+    0 0 30px 10px color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
+}
 @media only screen and (max-width: 500px) {
-  .HPcarousel {
-    height: 50vh;
+.HPcarousel-prev,
+.HPcarousel-next {
+  width: 24px;
+  }
+  .HPcarousel-dot {
+  width: 12px;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 800px) {
-  .HPcarousel {
-    height: 70vh;
+.HPcarousel-prev,
+.HPcarousel-next {
+  width: 36px;
+  }
+  .HPcarousel-dot {
+  width: 24px;
   }
 }
