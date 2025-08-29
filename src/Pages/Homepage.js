@@ -1,8 +1,19 @@
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
 import smallintro2 from '../Assets/Homepage/shortintro/2023-18-Sprigatito.jpg';
 import { useLocalization } from '../localization/hooks/useLocalization';
+import '../css/HPcarousel.css';
+
+const wallpapers = [
+    `${process.env.PUBLIC_URL}/Homepage_Carousel/HPC01.jpg`,
+    `${process.env.PUBLIC_URL}/Homepage_Carousel/HPC02.jpg`,
+    `${process.env.PUBLIC_URL}/Homepage_Carousel/HPC03.jpg`,
+    `${process.env.PUBLIC_URL}/Homepage_Carousel/HPC04.jpg`,
+    `${process.env.PUBLIC_URL}/Homepage_Carousel/HPC05.jpg`,
+    `${process.env.PUBLIC_URL}/Homepage_Carousel/HPC06.jpg`,
+    `${process.env.PUBLIC_URL}/Homepage_Carousel/HPC07.jpg`,
+];
 
 const Homepage = () => {
     const { t } = useLocalization();
@@ -20,14 +31,57 @@ const Homepage = () => {
         return () => clearTimeout(timer);
     }, []);
 
+    const [currentCarousel, setCurrentCarousel] = useState(0);
+    // autoplay
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrentCarousel((prev) => (prev + 1) % wallpapers.length);
+        }, 10000); // 10s
+        return () => clearInterval(timer);
+    }, []);
+    // handlers
+    const handlePrev = () => {
+        setCurrentCarousel((prev) =>
+            prev === 0 ? wallpapers.length - 1 : prev - 1
+        );
+    };
+    const handleNext = () => {
+        setCurrentCarousel((prev) => (prev + 1) % wallpapers.length);
+    };
+
     return (
         <div>
-            <div className="introduction">
+            <div className="HPcarousel">
+                {wallpapers.map((src, idx) => (
+                    <div
+                        key={idx}
+                        className={`HPcarousel-slide ${idx === currentCarousel ? "active drift" : ""}`}
+                        style={{ backgroundImage: `url(${src})` }}
+                    ></div>
+                ))}
+                <button className="HPcarousel-btn HPcarousel-prev" onClick={handlePrev}>
+                    ‹
+                </button>
+                <button className="HPcarousel-btn HPcarousel-next" onClick={handleNext}>
+                    ›
+                </button>
+                <div className="HPcarousel-indicators">
+                    {wallpapers.map((_, idx) => (
+                        <span
+                            key={idx}
+                            className={`HPcarousel-dot ${idx === currentCarousel ? "active" : ""}`}
+                            onClick={() => setCurrentCarousel(idx)}
+                        ></span>
+                    ))}
+                </div>
             </div>
+            {/* <div className="introduction">
+            </div> */}
             <div className="welcome">
                 <div className={`welcomewrapper`}>
                     <div className='welcometextwrap'>
-                        <div id="targetSection" className={`welcometitle`}>{t("home.welcome")}</div>
+                        {/* <div id="targetSection" className={`welcometitle`}>{t("home.welcome")}</div> */}
+                        <div className={`welcometitle`}>{t("home.welcome")}</div>
                         <div className={`welcometext`}>{t("home.welcometext1")}</div>
                         <div className={`welcometext`}>{t("home.welcometext2")}</div>
                     </div>

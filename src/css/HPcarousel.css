@@ -1,0 +1,82 @@
+.HPcarousel {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 0 30px 10px
+    color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
+}
+.HPcarousel-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  left: 10%;
+  transform: scale(1.2) translateX(-2%);
+  transition: opacity 2s ease, transform 25s;
+}
+/* Active fade in */
+.HPcarousel-slide.active {
+  opacity: 1;
+}
+/* Drift effect applied while visible */
+.HPcarousel-slide.drift {
+  transition: opacity 1s ease-in-out, transform 12s linear;
+  transform: scale(1.2) translateX(-10%);
+}
+/* Indicators */
+.HPcarousel-indicators {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+.HPcarousel-dot {
+  display: inline-block;
+  width: 36px;
+  height: 8px;
+  margin: 0 6px;
+  background-color: var(--poembook-scroll-btn);
+  border-radius: 20%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.HPcarousel-dot.active{
+  background-color: var(--button-border2-active);
+}
+.HPcarousel-dot:hover {
+  background-color: var(--button-background-active);
+  color: var(--button-text-active);
+  font-style: oblique;
+  border: 1px solid var(--button-border2-active);
+  box-shadow: 0 8px 12px
+      color-mix(in srgb, var(--button-border2-active) 50%, transparent),
+    0 0 30px 10px color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
+}
+.HPcarousel-prev,
+.HPcarousel-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 64px;
+  background-color: var(--poembook-scroll-btn);
+  color: var(--bg-color-3);
+  font-size: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.HPcarousel-prev { left: 0; }
+.HPcarousel-next { right: 0; }
+.HPcarousel:hover .HPcarousel-btn {
+  opacity: 1;
+}
