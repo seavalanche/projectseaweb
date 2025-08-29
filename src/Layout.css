@@ -3296,6 +3296,12 @@ html {
 .VT-det-desc {
   width: var(--color-det-desc-size);
 }
+
+@media only screen and (min-width: 1201px) {
+  .VT-list.active .VT-color-palette {
+    width: calc(var(--color-palette-size) + (0.5 * var(--color-cell-size)));
+  }
+}
 @media only screen and (min-width: 1201px) and (max-width: 1450px) {
   * {
     --margin-multiplication: 5px;
@@ -3402,3 +3408,34 @@ html {
 }
 
 /* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */
+.VT-copied-popup {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  opacity: 0;
+  animation: fadePopup 1.5s ease;
+}
+
+@keyframes fadePopup {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(5px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-5px);
+  }
+}

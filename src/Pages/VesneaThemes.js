@@ -34,8 +34,17 @@ const VesneaThemes = () => {
                         <div className='VT-char-sub'>
                             <div className={`VT-color-palette ${char.id}`}>
                                 {char.colors.map((color, i) => (
-                                    <div className="VT-color-cell" key={i}>
-                                        <div className="VT-color-swatch" style={{ backgroundColor: color.hex }}></div>
+                                    <div className="VT-color-cell"
+                                        key={i}>
+                                        <div
+                                            className="VT-color-swatch"
+                                            onClick={(e) => {
+                                                e.stopPropagation(); // prevent triggering VT-list toggle
+                                                navigator.clipboard.writeText(color.hex)
+                                            }}
+                                            style={{ backgroundColor: color.hex, cursor: "pointer", position: "relative" }}
+                                            title="Click to copy"
+                                        ></div>
                                         <div className="VT-color-hexcode">{color.hex}</div>
                                         <div className="VT-color-name">{color.name}</div>
                                     </div>
@@ -50,7 +59,12 @@ const VesneaThemes = () => {
                                                 <div key={i} className="VT-color-tooltip-container">
                                                     <div
                                                         className="VT-color-swatch2"
-                                                        style={{ backgroundColor: color.hex }}
+                                                        onClick={(e) => {
+                                                            e.stopPropagation(); // prevent triggering VT-list toggle
+                                                            navigator.clipboard.writeText(color.hex)
+                                                        }}
+                                                        style={{ backgroundColor: color.hex, cursor: "pointer", position: "relative" }}
+                                                        title="Click to copy"
                                                     >
                                                         <span className="VT-tooltip-text">{color.hex}</span>
                                                     </div>
@@ -68,7 +82,12 @@ const VesneaThemes = () => {
                                                 <div key={i} className="VT-color-tooltip-container">
                                                     <div
                                                         className="VT-color-swatch2"
-                                                        style={{ backgroundColor: color.hex }}
+                                                        onClick={(e) => {
+                                                            e.stopPropagation(); // prevent triggering VT-list toggle
+                                                            navigator.clipboard.writeText(color.hex)
+                                                        }}
+                                                        style={{ backgroundColor: color.hex, cursor: "pointer", position: "relative" }}
+                                                        title="Click to copy"
                                                     >
                                                         <span className="VT-tooltip-text">{color.hex}</span>
                                                     </div>
@@ -88,7 +107,12 @@ const VesneaThemes = () => {
                                                 <div key={i} className="VT-color-tooltip-container">
                                                     <div
                                                         className="VT-color-swatch2"
-                                                        style={{ backgroundColor: color.hex }}
+                                                        onClick={(e) => {
+                                                            e.stopPropagation(); // prevent triggering VT-list toggle
+                                                            navigator.clipboard.writeText(color.hex)
+                                                        }}
+                                                        style={{ backgroundColor: color.hex, cursor: "pointer", position: "relative" }}
+                                                        title="Click to copy"
                                                     >
                                                         <span className="VT-tooltip-text">{color.hex}</span>
                                                     </div>
@@ -106,7 +130,12 @@ const VesneaThemes = () => {
                                                 <div key={i} className="VT-color-tooltip-container">
                                                     <div
                                                         className="VT-color-swatch2"
-                                                        style={{ backgroundColor: color.hex }}
+                                                        onClick={(e) => {
+                                                            e.stopPropagation(); // prevent triggering VT-list toggle
+                                                            navigator.clipboard.writeText(color.hex)
+                                                        }}
+                                                        style={{ backgroundColor: color.hex, cursor: "pointer", position: "relative" }}
+                                                        title="Click to copy"
                                                     >
                                                         <span className="VT-tooltip-text">{color.hex}</span>
                                                     </div>
@@ -122,7 +151,17 @@ const VesneaThemes = () => {
                                         <div className='VT-color-palette2'>
                                             {char.detColor5.map((color, i) => (
                                                 <div key={i}>
-                                                    <div className="VT-color-swatch2" style={{ backgroundColor: color.hex }}></div>
+                                                    <div
+                                                        className="VT-color-swatch2"
+                                                        onClick={(e) => {
+                                                            e.stopPropagation(); // prevent triggering VT-list toggle
+                                                            navigator.clipboard.writeText(color.hex)
+                                                        }}
+                                                        style={{ backgroundColor: color.hex, cursor: "pointer", position: "relative" }}
+                                                        title="Click to copy"
+                                                    >
+                                                        <span className="VT-tooltip-text">{color.hex}</span>
+                                                    </div>
                                                 </div>
                                             ))}
                                         </div>

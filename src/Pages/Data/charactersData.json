@@ -15,8 +15,8 @@
       { "hex": "#948ABF", "name": "Lavender" },
       { "hex": "#C5B0CF", "name": "Lilac" },
       { "hex": "#EEECF7", "name": "Lavender" },
-      { "hex": "#d63384", "name": "Love Pink" },
-      { "hex": "#ff69b4", "name": "Playful Pink" }
+      { "hex": "#D63384", "name": "Love Pink" },
+      { "hex": "#FF69B4", "name": "Playful Pink" }
     ],
     "detDesc1": {
       "visibility": ""
@@ -24,8 +24,8 @@
     "detColor1": [
       { "hex": "#181621", "name": "Dark Purple" },
       { "hex": "#2C233D", "name": "Purple" },
-      { "hex": "#d63384", "name": "Love Pink" },
-      { "hex": "#ff69b4", "name": "Playful Pink" }
+      { "hex": "#D63384", "name": "Love Pink" },
+      { "hex": "#FF69B4", "name": "Playful Pink" }
     ],
     "detDesc2": {
       "visibility": ""
