@@ -46,7 +46,7 @@
   cursor: pointer;
   transition: background 0.3s;
 }
-.HPcarousel-dot.active{
+.HPcarousel-dot.active {
   background-color: var(--button-border2-active);
 }
 .HPcarousel-dot:hover {
@@ -75,8 +75,22 @@
   z-index: 2;
 }
 
-.HPcarousel-prev { left: 0; }
-.HPcarousel-next { right: 0; }
+.HPcarousel-prev {
+  left: 0;
+}
+.HPcarousel-next {
+  right: 0;
+}
 .HPcarousel:hover .HPcarousel-btn {
   opacity: 1;
+}
+@media only screen and (max-width: 500px) {
+  .HPcarousel {
+    height: 50vh;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .HPcarousel {
+    height: 70vh;
+  }
 }
