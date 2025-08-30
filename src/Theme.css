@@ -2119,6 +2119,9 @@ input[type="color"] {
   transition: all 0.1s ease;
   transform: scale(1.43);
 }
+.VT-color-name {
+  transition: all 0.3s ease;
+}
 .VT-color-hexcode {
   font-size: var(--Fs-Content-smaller);
 }
