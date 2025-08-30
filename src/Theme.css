@@ -701,7 +701,6 @@ input[type="color"] {
   box-shadow: 0 0 10px color-mix(in srgb, var(--notfound-btn) 60%, transparent);
 }
 /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */
-
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 .generalbody {
   background-color: var(--bg-color-1);
@@ -756,7 +755,38 @@ input[type="color"] {
   line-height: 1;
 }
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
-
+/* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */
+* {
+  --toggle-color-active: var(--button-background-active);
+  --toggle-color-inactive: var(--button-background);
+  --toggle-color-switch: var(--C-Vesnea_white);
+  --toggle-color-disabled: #ddd;
+}
+.toggle-switch {
+  text-align: left;
+}
+.toggle-switch-label {
+  border-radius: var(--toggle-border-radius);
+}
+.toggle-switch-inner:before {
+  background-color: var(--toggle-color-active);
+}
+.toggle-switch-inner:after {
+  background-color: var(--toggle-color-inactive);
+}
+.toggle-switch-switch {
+  background: var(--toggle-color-switch);
+  border: 0 solid var(--toggle-color-inactive);
+  border-radius: var(--toggle-border-radius);
+  transition: all 0.1s ease;
+}
+.toggle-switch-disabled {
+  background-color: var(--toggle-color-disabled);
+}
+.toggle-switch-disabled:before {
+  background-color: var(--toggle-color-disabled);
+}
+/* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */
 /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */
 .attribute-badge {
   font-family: var(--F-Montserrat);

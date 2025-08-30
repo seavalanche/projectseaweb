@@ -2,7 +2,7 @@ import pfpSeava from '../Assets/Characters/charcardPFP/PFP_SeavaZM.png'
 import artwork00 from '../Assets/Characters/charcardArtwork/Seava Zephyr Mode/V03.jpg'
 import artwork01 from '../Assets/Characters/charcardArtwork/Seava Zephyr Mode/S168 - Seava Zephyr Mode.jpg'
 const SeavaZM = {
-    id: "seavaTM",
+    id: "seavaZM",
     profilePicture: pfpSeava,
     name: "Seava",
     alternateName: "Zephyr Mode",

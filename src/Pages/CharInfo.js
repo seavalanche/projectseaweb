@@ -1,5 +1,3 @@
-// import { useTheme } from "../Components/ThemeContext";
-// import useTranslation from '../Components/useTranslation';
 import { useState } from 'react';
 import CharacterCard from "../Components/CharacterCard";
 import characters from "../Characters/index";
@@ -11,77 +9,8 @@ function CharInfo() {
     <CharacterCard key={character.id} character={character} />
   ))
 
-  // const { theme } = useTheme();
-  // const { t } = useTranslation();
   const [viewSelector, setViewSelector] = useState('selectorinactive');
   const [displayContentB, setDisplayContentB] = useState('contentBinactive');
-
-  // const [isVisible, setIsVisible] = useState(true);
-  // const [screenSize, setScreenSize] = useState('large');
-
-  // const lastScrollY = useRef(0);
-  // const hideTimeout = useRef(null);
-  // const SELECTOR_ORIGINAL_OFFSET = 65; // adjust if needed
-
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     const width = window.innerWidth;
-  //     if (width < 800) {
-  //       setScreenSize('small');
-  //     } else if (width >= 801 && width <= 1119) {
-  //       setScreenSize('medium');
-  //     } else {
-  //       setScreenSize('large');
-  //     }
-  //   };
-
-  //   const handleScroll = () => {
-  //     const currentScrollY = window.scrollY;
-  //     const isNowFloating = currentScrollY > SELECTOR_ORIGINAL_OFFSET;
-
-  //     if (!isNowFloating) {
-  //       // At original position → always visible
-  //       setIsVisible(true);
-  //       if (hideTimeout.current) {
-  //         clearTimeout(hideTimeout.current);
-  //         hideTimeout.current = null;
-  //       }
-  //     } else {
-  //       if (screenSize === 'small') {
-  //         // Small screen: Hide when scrolling down, Show when scrolling up
-  //         if (currentScrollY > lastScrollY.current) {
-  //           setIsVisible(false); // Scrolling down
-  //         } else {
-  //           setIsVisible(true); // Scrolling up
-  //         }
-  //       } else {
-  //         // Medium and Large screen: floating timer behavior
-  //         setIsVisible(true);
-  //         if (hideTimeout.current) {
-  //           clearTimeout(hideTimeout.current);
-  //         }
-  //         hideTimeout.current = setTimeout(() => {
-  //           setIsVisible(false);
-  //         }, 3000); // Hide after 3s floating
-  //       }
-  //     }
-
-  //     lastScrollY.current = currentScrollY;
-  //   };
-
-  //   handleResize(); // Initial check
-
-  //   window.addEventListener('resize', handleResize);
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('resize', handleResize);
-  //     window.removeEventListener('scroll', handleScroll);
-  //     if (hideTimeout.current) {
-  //       clearTimeout(hideTimeout.current);
-  //     }
-  //   };
-  // }, [screenSize]);
 
   return (
     <div className="charinfobg">
@@ -91,6 +20,7 @@ function CharInfo() {
         ))}
       </div>
 
+      {/* <span className='character-selector-cover'></span> */}
       <div
         className={`contentB-btn  ${viewSelector}`}
       >
@@ -115,7 +45,6 @@ function CharInfo() {
           </div>
         </div>
       </div>
-
       <div className={`character-selector-wrapper  ${viewSelector}`}>
         <div
           className={`character-selector-btn  ${viewSelector}`}
@@ -124,11 +53,19 @@ function CharInfo() {
           }
         >
           <div className={`character-selector-btntext  ${viewSelector}`}>
-            {viewSelector === 'selectoractive' ? '˄' : '˅'}
+            {viewSelector === 'selectoractive' ?
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path d="M6 15l6-6 6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+
+              :
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            }
           </div>
         </div>
         <div
-          // className={`character-selector ${isVisible ? 'visible' : 'hidden'} ${viewSelector}`}
           className={`character-selector`}
           onClick={() =>
             setViewSelector(viewSelector === 'selectoractive' ? 'selectorinactive' : 'selectoractive')
