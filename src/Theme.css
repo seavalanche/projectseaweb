@@ -2072,6 +2072,7 @@ input[type="color"] {
 }
 .VT-list.active .VT-pfp-img:hover {
   opacity: 100%;
+  transition: all 1s ease;
 }
 /* VT-list .VT-Char-sub */
 .VT-list.active .VT-color-name {
@@ -2082,7 +2083,12 @@ input[type="color"] {
   font-weight: bold;
   transition: font-weight 0.2s ease;
 }
-
+.VT-list.active .VT-color-cell:hover {
+  background-color: hsl(from var(--bg-color-3) h s l / 0.5);
+}
+[data-theme="star"] .VT-list.active .VT-color-cell:hover {
+  background-color: hsl(from var(--C-Uzakon_Purple) h s l / 0.3);
+}
 /* VT-Char-main */ /* VT-Char-main */
 /* VT-Char-main */ /* VT-Char-main */
 /* VT-Char-name */

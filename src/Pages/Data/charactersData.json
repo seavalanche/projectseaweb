@@ -12,9 +12,9 @@
       { "hex": "#FDC4D3", "name": "Pink" },
       { "hex": "#FEFCFC", "name": "White" },
       { "hex": "#EBD7A5", "name": "Pale Gold" },
-      { "hex": "#948ABF", "name": "Lavender" },
+      { "hex": "#948ABF", "name": "Lavndr" },
       { "hex": "#C5B0CF", "name": "Lilac" },
-      { "hex": "#EEECF7", "name": "Lavender" },
+      { "hex": "#EEECF7", "name": "Lavndr White" },
       { "hex": "#D63384", "name": "Love Pink" },
       { "hex": "#FF69B4", "name": "Playful Pink" }
     ],
@@ -41,9 +41,9 @@
     },
     "detColor3": [
       { "hex": "#EBD7A5", "name": "Pale Gold" },
-      { "hex": "#948ABF", "name": "Lavender" },
+      { "hex": "#948ABF", "name": "Lavndr" },
       { "hex": "#C5B0CF", "name": "Lilac" },
-      { "hex": "#EEECF7", "name": "Lavender" }
+      { "hex": "#EEECF7", "name": "Lavndr" }
     ],
     "detDesc4": {
       "visibility": "hide"
@@ -358,20 +358,20 @@
       }
     ],
     "colors": [
-      { "hex": "#948ABF", "name": "Lavender" },
+      { "hex": "#948ABF", "name": "Lavndr" },
       { "hex": "#C5B0CF", "name": "Lilac" },
       { "hex": "#D8D4E5", "name": "Purple Gray" },
-      { "hex": "#EEECF7", "name": "Lavender" },
+      { "hex": "#EEECF7", "name": "Lavndr White" },
       { "hex": "#FFFFFF", "name": "White" }
     ],
     "detDesc1": {
       "visibility": ""
     },
     "detColor1": [
-      { "hex": "#948ABF", "name": "Lavender" },
+      { "hex": "#948ABF", "name": "Lavndr" },
       { "hex": "#C5B0CF", "name": "Lilac" },
       { "hex": "#D8D4E5", "name": "Purple Gray" },
-      { "hex": "#EEECF7", "name": "Lavender" }
+      { "hex": "#EEECF7", "name": "Lavndr White" }
     ],
     "detDesc2": {
       "visibility": "hide"

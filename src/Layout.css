@@ -3065,6 +3065,7 @@ html {
 /* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */ /* VESNEA THEMES */
 * {
   --margin-multiplication: 5px;
+  --hovermargin: 5px;
   --color-cell-size: 75px;
   --color-cell-hover-size: calc(var(--color-cell-size) * 1.5);
   --color-cell-hexcode-size: calc(var(--color-cell-size) * 0.25);
@@ -3297,15 +3298,38 @@ html {
   width: var(--color-det-desc-size);
 }
 
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1313px) {
+  .VT-list.active .VT-color-cell {
+    justify-content: start;
+    height: calc(2 * var(--color-cell-size));
+  }
+  .VT-list.active .VT-color-cell:hover {
+    width: calc(1.5 * var(--color-cell-size));
+    border-radius: 4px;
+    margin: 0 var(--hovermargin);
+  }
+  .VT-list.active .VT-color-cell:hover .VT-color-name {
+    width: calc(1 * var(--color-cell-size));
+    margin-top: calc(4 * var(--margin-multiplication));
+  }
   .VT-list.active .VT-color-palette {
-    width: calc(var(--color-palette-size) + (0.5 * var(--color-cell-size)));
+    width: calc(
+      var(--color-palette-size) + (0.5 * var(--color-cell-size)) + 2 *
+        var(--hovermargin)
+    );
+    height: calc(2 * var(--color-cell-size));
+  }
+  .VT-list.active .VT-color-palette.Attributes {
+    width: calc(
+      var(--color-palette-size-forattributes) + (0.5 * var(--color-cell-size)) +
+        2 * var(--hovermargin)
+    );
   }
 }
-@media only screen and (min-width: 1201px) and (max-width: 1450px) {
+@media only screen and (min-width: 1313px) and (max-width: 1490px) {
   * {
     --margin-multiplication: 5px;
-    --color-cell-size: 60px;
+    --color-cell-size: 65px;
     --color-cell-hover-size: calc(var(--color-cell-size) * 1.25);
     --color-cell-hexcode-size: calc(var(--color-cell-size) * 0.4);
     --color-palette-size: calc(var(--color-cell-size) * 12);
@@ -3315,8 +3339,17 @@ html {
     --color-det-cell-size: calc(var(--color-cell-size) * 0.75);
     --color-det-palette-col-size: 5;
   }
+  .VT-color-palette:hover {
+    height: calc(2 * var(--color-cell-size));
+  }
+  .VT-list.active .VT-color-cell {
+    height: calc(2.5 * var(--color-cell-size));
+  }
+  .VT-list.active .VT-color-palette {
+    height: calc(2.5 * var(--color-cell-size));
+  }
 }
-@media only screen and (min-width: 801px) and (max-width: 1200px) {
+@media only screen and (min-width: 801px) and (max-width: 1313px) {
   * {
     --margin-multiplication: 5px;
     --color-cell-size: 60px;
@@ -3341,6 +3374,19 @@ html {
   }
   .VT-list:hover {
     width: 85%;
+  }
+  .VT-list.active .VT-color-cell {
+    justify-content: start;
+    height: calc(2.5 * var(--color-cell-size));
+  }
+  .VT-list.active .VT-color-cell:hover {
+    width: calc(1.5 * var(--color-cell-size));
+    border-radius: 4px;
+    margin: 0 var(--hovermargin);
+  }
+  .VT-list.active .VT-color-cell:hover .VT-color-name {
+    width: calc(1 * var(--color-cell-size));
+    margin-top: calc(4 * var(--margin-multiplication));
   }
   .VT-color-palette {
     /* justify-content: center; */
@@ -3380,6 +3426,19 @@ html {
     flex-direction: column;
     padding: calc(var(--margin-multiplication) * 1) 0;
     width: 80%;
+  }
+  .VT-list.active .VT-color-cell {
+    justify-content: start;
+    height: calc(2.5 * var(--color-cell-size));
+  }
+  .VT-list.active .VT-color-cell:hover {
+    width: calc(1.5 * var(--color-cell-size));
+    border-radius: 4px;
+    margin: 0 var(--hovermargin);
+  }
+  .VT-list.active .VT-color-cell:hover .VT-color-name {
+    width: calc(1 * var(--color-cell-size));
+    margin-top: calc(4 * var(--margin-multiplication));
   }
   .VT-char-main {
     align-items: center;
