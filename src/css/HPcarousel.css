@@ -87,14 +87,8 @@
 @media only screen and (max-width: 500px) {
   .HPcarousel-prev,
   .HPcarousel-next {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: initial;
-    bottom: 0;
-    height: 72px;
-    width: 36px;
-  font-size: 2rem;
+    width: 24px;
+    font-size: 2rem;
   }
   .HPcarousel-dot {
     width: 12px;
