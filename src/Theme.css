@@ -1641,9 +1641,9 @@ input[type="color"] {
   color: var(--charcard-active-tab);
 }
 
-.charcard-artworks img {
+/* .charcard-artworks img {
   border: 3px solid var(--charcard-border);
-}
+} */
 .charcard-art-preview-overlay {
   background-color: color-mix(
     in srgb,

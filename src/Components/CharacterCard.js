@@ -1,34 +1,23 @@
 import { useState } from 'react';
 import { useLocalization } from '../localization/hooks/useLocalization';
+import { useRef } from 'react';
 
 function CharacterCard({ character }) {
+    const { t, language } = useLocalization();
+
     const [activeTab, setActiveTab] = useState(null); // tracks which tab is open
     const [selectedArt, setSelectedArt] = useState(null);
 
+    const cardRef = useRef(null); // tracks which card is the last focus
     const toggleTab = (tabName) => {
         setActiveTab((currentTab) => (currentTab === tabName ? null : tabName));
+        setTimeout(() => {
+            cardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 0);
     };
 
-    const { t, language } = useLocalization();
-
-    // Delay scroll until after DOM updates
-    // setTimeout(() => {
-    //     const el = document.getElementById(character.id);
-    //     if (el) {
-    //         el.scrollIntoView({
-    //             behavior: "smooth",
-    //             block: "start",
-    //         });
-    //     }
-        // if (el) {
-        //     const yOffset = -80;
-        //     const y = el.getBoundingClientRect().top + window.scrollY + yOffset;
-        //     window.scrollTo({ top: y, behavior: "smooth" });
-        // }
-    // }, 0);
-
     return (
-        <div id={character.id} className={`character-card ${selectedArt ? 'preview-open' : ''}`} >
+        <div id={character.id} ref={cardRef} className={`character-card ${selectedArt ? 'preview-open' : ''}`} >
             <div style={{ height: '80px', marginTop: '-80px', visibility: 'hidden' }}></div>
             {/* Multiple Tabs! */}
             <div className='charcard-tab-wrapper'>
@@ -136,7 +125,7 @@ function CharacterCard({ character }) {
                                         alt={art.caption[language] || art.caption.en}
                                         className="charcard-art-thumb"
                                     />
-                                    <figtitle className='charcardValue'>{art.title}</figtitle>
+                                    {/* <figtitle className='charcardValue'>{art.title}</figtitle> */}
                                 </figure>
                             ))}
                         </div>

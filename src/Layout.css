@@ -161,6 +161,7 @@ html {
 }
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */
+
 .attribute-badge {
   display: flex;
   justify-content: center;
