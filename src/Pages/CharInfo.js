@@ -3,25 +3,8 @@
 import { useState, useEffect, useRef } from 'react';
 import CharacterCard from "../Components/CharacterCard";
 import characters from "../Characters/index";
-import MythSeavalanche from '../Characters/MythSeavalanche';
-import Seavalanche from '../Characters/Seavalanche';
-import Seava from '../Characters/Seava';
-import SeavaTM from '../Characters/Seava Tempest Mode';
-import SeavaZM from '../Characters/Seava Zephyr Mode';
-import Vesnea from '../Characters/Vesnea';
-import VesneaBM from '../Characters/Vesnea Blossom Mode';
-import Korazu from '../Characters/Korazu';
-import Uzakon from '../Characters/Uzakon';
-import Zumiko from '../Characters/Zumiko';
-import Baldor from '../Characters/Baldor';
-import Arna from '../Characters/Arna';
-import MiniArna from '../Characters/Arna mini';
-import Rakariki from '../Characters/Rakariki';
-import Veranite from '../Characters/Veranite';
-import Fondan from '../Characters/Fondan';
-import Sarchie from '../Characters/Sarchie';
-import Deimev from '../Characters/Deimev';
 import { HashLink } from 'react-router-hash-link';
+import '../css/charinfo.css';
 
 function CharInfo() {
   // const { theme } = useTheme();
@@ -107,24 +90,9 @@ function CharInfo() {
         ))}
       </div>
       <div className="charinfowrapper">
-        <CharacterCard character={MythSeavalanche} />
-        <CharacterCard character={Seavalanche} />
-        <CharacterCard character={Seava} />
-        <CharacterCard character={SeavaTM} />
-        <CharacterCard character={SeavaZM} />
-        <CharacterCard character={Vesnea} />
-        <CharacterCard character={VesneaBM} />
-        <CharacterCard character={Korazu} />
-        <CharacterCard character={Uzakon} />
-        <CharacterCard character={Zumiko} />
-        <CharacterCard character={Baldor} />
-        <CharacterCard character={Arna} />
-        <CharacterCard character={MiniArna} />
-        <CharacterCard character={Rakariki} />
-        <CharacterCard character={Veranite} />
-        <CharacterCard character={Fondan} />
-        <CharacterCard character={Sarchie} />
-        <CharacterCard character={Deimev} />
+        {characters.map((char, idx) => (
+          <CharacterCard key={idx} character={char} />
+        ))}
       </div>
     </div>
   )

@@ -11,67 +11,84 @@ function CharacterCard({ character }) {
 
     const { t, language } = useLocalization();
 
+    // Delay scroll until after DOM updates
+    // setTimeout(() => {
+    //     const el = document.getElementById(character.id);
+    //     if (el) {
+    //         el.scrollIntoView({
+    //             behavior: "smooth",
+    //             block: "start",
+    //         });
+    //     }
+        // if (el) {
+        //     const yOffset = -80;
+        //     const y = el.getBoundingClientRect().top + window.scrollY + yOffset;
+        //     window.scrollTo({ top: y, behavior: "smooth" });
+        // }
+    // }, 0);
+
     return (
         <div id={character.id} className={`character-card ${selectedArt ? 'preview-open' : ''}`} >
             <div style={{ height: '80px', marginTop: '-80px', visibility: 'hidden' }}></div>
             {/* Multiple Tabs! */}
             <div className='charcard-tab-wrapper'>
                 <div className={`charcard-tab ${activeTab === 'charcard-moves' ? 'active' : ''}`} onClick={() => toggleTab('charcard-moves')}>
-                    {activeTab === 'charcard-moves' ? '▲ Moves' : '▼ Moves'}
+                    {activeTab === 'charcard-moves' ? 'Moves' : 'Moves'}
                 </div>
                 <div className={`charcard-tab ${activeTab === 'charcard-artworks' ? 'active' : ''}`} onClick={() => toggleTab('charcard-artworks')}>
-                    {activeTab === 'charcard-artworks' ? '▲ Artworks' : '▼ Artworks'}
+                    {activeTab === 'charcard-artworks' ? 'Artworks' : 'Artworks'}
                 </div>
             </div>
 
             <div className="charcard-content">
-                {/* Part one */}
-                <div className='charcard-contentA'>
-                    <div className='charcard-contentA1'>
-                        <img className='charcardPFP' src={character.profilePicture} alt={character.name} />
-                        <div className='charcardName'>{character.name}</div>
-                        <div className='charcardAltName'>{character.alternateName && (<h3>{character.alternateName}</h3>)}</div>
-                    </div>
+                <div className='charcard-content-main'>
+                    {/* Part one */}
+                    <div className='charcard-contentA'>
+                        <div className='charcard-contentA1'>
+                            <img className='charcardPFP' src={character.profilePicture} alt={character.name} />
+                            <div className='charcardName'>{character.name}</div>
+                            <div className='charcardAltName'>{character.alternateName && (<h3>{character.alternateName}</h3>)}</div>
+                        </div>
 
-                    {/* Part two */}
-                    <div className='charcard-contentA2'>
-                        <div className='charcardProp'>{t("charcard.gender")}</div>
-                        <div className='charcardValue'>{character.gender[language] || character.gender.en}</div>
-                        <div className='charcardProp'>{t("charcard.species")}</div>
-                        <div className='charcardValue'>{character.species[language] || character.species.en}</div>
-                        <div className='charcard-contentA2-WH'>
-                            <div className='charcard-contentA2-WH1'>
-                                <div className='charcardProp'>{t("charcard.height")}</div>
-                                <div className='charcardValue'>{character.height[language] || character.height.en}</div>
+                        {/* Part two */}
+                        <div className='charcard-contentA2'>
+                            <div className='charcardProp'>{t("charcard.gender")}</div>
+                            <div className='charcardValue'>{character.gender[language] || character.gender.en}</div>
+                            <div className='charcardProp'>{t("charcard.species")}</div>
+                            <div className='charcardValue'>{character.species[language] || character.species.en}</div>
+                            <div className='charcard-contentA2-WH'>
+                                <div className='charcard-contentA2-WH1'>
+                                    <div className='charcardProp'>{t("charcard.height")}</div>
+                                    <div className='charcardValue'>{character.height[language] || character.height.en}</div>
+                                </div>
+                                <div className='charcard-contentA2-WH2'>
+                                    <div className='charcardProp'>{t("charcard.weight")}</div>
+                                    <div className='charcardValue'>{character.weight[language] || character.weight.en}</div>
+                                </div>
                             </div>
-                            <div className='charcard-contentA2-WH2'>
-                                <div className='charcardProp'>{t("charcard.weight")}</div>
-                                <div className='charcardValue'>{character.weight[language] || character.weight.en}</div>
+                            <div className='charcardProp'>{t("charcard.createdDate")}</div>
+                            <div className='charcardValue'>{character.createdDate[language] || character.createdDate.en}</div>
+                            <div className='charcardProp'>{t("charcard.attributes")}</div>
+                            {/* Attributes */}
+                            <div className="charcardAttributes">
+                                {character.attributes.map((attr) => (
+                                    <span key={attr} className={`attribute-badge ${attr.toLowerCase()}`}>
+                                        {attr}
+                                    </span>
+                                ))}
                             </div>
                         </div>
-                        <div className='charcardProp'>{t("charcard.createdDate")}</div>
-                        <div className='charcardValue'>{character.createdDate[language] || character.createdDate.en}</div>
-                        <div className='charcardProp'>{t("charcard.attributes")}</div>
-                        {/* Attributes */}
-                        <div className="attributes">
-                            {character.attributes.map((attr) => (
-                                <span key={attr} className={`attribute-badge ${attr.toLowerCase()}`}>
-                                    {attr}
-                                </span>
-                            ))}
+                    </div>
+
+                    {/* Part three */}
+                    <div className='charcard-contentB'>
+                        <div className='charcardProp'>{t("charcard.meaning")}</div>
+                        <div className='charcardValue'>{character.nameMeaning[language] || character.nameMeaning.en}</div>
+                        <div className='charcard-contentB-bio'>
+                            <div className='charcardValue'>{character.bio[language] || character.bio.en}</div>
                         </div>
                     </div>
                 </div>
-
-                {/* Part three */}
-                <div className='charcard-contentB'>
-                    <div className='charcardProp'>{t("charcard.meaning")}</div>
-                    <div className='charcardValue'>{character.nameMeaning[language] || character.nameMeaning.en}</div>
-                    <div className='charcard-contentB-bio'>
-                        <div className='charcardValue'>{character.bio[language] || character.bio.en}</div>
-                    </div>
-                </div>
-
                 {/* Extra Info: moves + artworks */}
                 {activeTab === 'charcard-moves' && (
                     <div className="charcard-extra">

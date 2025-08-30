@@ -757,6 +757,74 @@ input[type="color"] {
 }
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 
+/* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */
+.attribute-badge {
+  font-family: var(--F-Montserrat);
+  font-size: var(--Fs-Content-small);
+  font-style: italic;
+  font-weight: bold;
+  box-shadow: 0 2px 2px
+    color-mix(in srgb, var(--charcard-border) 50%, transparent);
+  border-radius: 6px;
+}
+.attribute-badge.aether {
+  background-color: var(--attribute-aether);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.void {
+  background-color: var(--attribute-void);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.light {
+  background-color: var(--attribute-light);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.darkness {
+  background-color: var(--attribute-darkness);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.fire {
+  background-color: var(--attribute-fire);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.water {
+  background-color: var(--attribute-water);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.nature {
+  background-color: var(--attribute-nature);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.metal {
+  background-color: var(--attribute-metal);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.electric {
+  background-color: var(--attribute-electric);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.wind {
+  background-color: var(--attribute-wind);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.magical {
+  background-color: var(--attribute-magical);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+.attribute-badge.psionic {
+  background-color: var(--attribute-psionic);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.spirit {
+  background-color: var(--attribute-spirit);
+  color: var(--attribute-text-vesneawhite);
+}
+.attribute-badge.sound {
+  background-color: var(--attribute-sound);
+  color: var(--attribute-text-seawebdarkpurple);
+}
+/* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */
+
 /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */ /* NAVBAR */
 .navbar {
   background: var(--navbg);
@@ -1500,12 +1568,19 @@ input[type="color"] {
 /* >>> CharacterCard.js */
 .character-card {
   background: var(--charcard-bg);
-  border: 4px dashed var(--charcard-border);
-  border-radius: 25px;
+  /* border: 4px dashed var(--charcard-border); */
+  /* border-radius: 25px; */
+  border: 1px solid transparent;
+  border-radius: 8px;
 }
 .character-card:hover {
+  /* box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--charcard-border) 50%, transparent); */
+  border: 1px solid var(--button-border2-active);
   box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--charcard-border) 50%, transparent);
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  transition: all 0.1s ease-in;
+  /* transform: scale(1.03); */
 }
 .charinfowrapper {
   color: var(--charcard-text-value);
@@ -1537,86 +1612,21 @@ input[type="color"] {
   color: var(--charcard-text-value);
 }
 
-/* Attribute Badges */
-.attribute-badge {
-  font-family: var(--F-Montserrat);
-  font-size: var(--Fs-Content-small);
-  font-style: italic;
-  font-weight: bold;
-  box-shadow: 0 2px 2px
-    color-mix(in srgb, var(--charcard-border) 50%, transparent);
-  border-radius: 6px;
-}
-.attribute-badge.aether {
-  background-color: var(--attribute-aether);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.void {
-  background-color: var(--attribute-void);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.light {
-  background-color: var(--attribute-light);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.darkness {
-  background-color: var(--attribute-darkness);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.fire {
-  background-color: var(--attribute-fire);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.water {
-  background-color: var(--attribute-water);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.nature {
-  background-color: var(--attribute-nature);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.metal {
-  background-color: var(--attribute-metal);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.electric {
-  background-color: var(--attribute-electric);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.wind {
-  background-color: var(--attribute-wind);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.magical {
-  background-color: var(--attribute-magical);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.psionic {
-  background-color: var(--attribute-psionic);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.spirit {
-  background-color: var(--attribute-spirit);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.sound {
-  background-color: var(--attribute-sound);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-
 .charcard-tab {
-  background: var(--charcard-PFPbg);
+  /* background: var(--charcard-PFPbg); */
+  background-color: hsl(from var(--bg-color-3) h s l / 0.5);
   font-family: var(--F-Default);
   font-size: var(--Fs-Content-small);
-  color: var(--charcard-active-tab);
+  /* color: var(--charcard-active-tab); */
+  color: var(--charcard-text-value);
   font-weight: bold;
-  border: 2px solid var(--charcard-border);
-  border-top-right-radius: 15px;
+  /* border: 2px solid var(--charcard-border); */
+  /* border-top-right-radius: 15px; */
   cursor: pointer;
 }
-[data-theme="dark"] .charcard-tab {
+/* [data-theme="dark"] .charcard-tab {
   color: var(--charcard-bg);
-}
+} */
 .charcard-tab:hover {
   background: var(--charcard-border);
   color: var(--charcard-bg);
