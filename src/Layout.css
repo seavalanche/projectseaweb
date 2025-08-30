@@ -161,7 +161,6 @@ html {
 }
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */
-
 .attribute-badge {
   display: flex;
   justify-content: center;
@@ -2031,11 +2030,6 @@ html {
   }
 }
 /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
-
-/* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */
-
-/* CHARACTER INFORMATION */ /* CHARACTER INFORMATION */
-
 /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */
 .story-1st-wrapper {
   display: flex;
