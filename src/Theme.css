@@ -2038,8 +2038,8 @@ input[type="color"] {
 }
 .VT-list:hover {
   border: 1px solid var(--button-border2-active);
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  /* box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent); */
   transition: all 0.1s ease;
   transform: scale(1.03);
   /* transition-delay: 0.1s; */
@@ -2047,8 +2047,8 @@ input[type="color"] {
 .VT-list.active {
   border: 1px solid var(--button-border2-active);
   border-radius: 6px;
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  /* box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent); */
   transition: all 0.3s ease;
   transform: scale(1.03);
   transition-delay: 0.1s;
