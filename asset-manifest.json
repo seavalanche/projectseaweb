@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projectseaweb/static/css/main.d358ea80.css",
-    "main.js": "/projectseaweb/static/js/main.fa2c5925.js",
+    "main.js": "/projectseaweb/static/js/main.df0da83f.js",
     "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
     "static/js/86.9d983612.chunk.js": "/projectseaweb/static/js/86.9d983612.chunk.js",
     "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/S79 - Vesnea.gif": "/projectseaweb/static/media/S79 - Vesnea.91317ac1ff2421ee6125.gif",
     "static/media/S75 - Vesnea_b_338x450.gif": "/projectseaweb/static/media/S75 - Vesnea_b_338x450.d037db783abcf5253a0d.gif",
     "static/media/StarMode.jpg": "/projectseaweb/static/media/StarMode.b358cf2d75e9b5f0eb97.jpg",
+    "static/media/PFP_Tharos.gif": "/projectseaweb/static/media/PFP_Tharos.083c37a1074f907506f1.gif",
     "static/media/11-DigitalArt-AnimationArt.gif": "/projectseaweb/static/media/11-DigitalArt-AnimationArt.c0f95d8ee6918eeda8b7.gif",
     "static/media/S134 - Uzakon.gif": "/projectseaweb/static/media/S134 - Uzakon.243f4016bb918aaec921.gif",
     "static/media/Introduction-bg-full.jpg": "/projectseaweb/static/media/Introduction-bg-full.4c90e7e547e3829b535a.jpg",
@@ -26,8 +27,10 @@
     "static/media/S166 - Seava Tempest Mode.jpg": "/projectseaweb/static/media/S166 - Seava Tempest Mode.3fb47528ebd7a26d7639.jpg",
     "static/media/LightMode.jpg": "/projectseaweb/static/media/LightMode.bb1320585460f8d7d5c7.jpg",
     "static/media/D30 - Design Baldor.jpg": "/projectseaweb/static/media/D30 - Design Baldor.bcfd2f96e04761b0a753.jpg",
+    "static/media/PFP_Noira.gif": "/projectseaweb/static/media/PFP_Noira.ef7860680109a8695f73.gif",
     "static/media/D31 - Design Arna.jpg": "/projectseaweb/static/media/D31 - Design Arna.de249504c0bf02ef75c0.jpg",
     "static/media/DarkMode.jpg": "/projectseaweb/static/media/DarkMode.53dde727c0532d89251b.jpg",
+    "static/media/PFP_Zeo.gif": "/projectseaweb/static/media/PFP_Zeo.24fae0cd1194dc03cff4.gif",
     "static/media/D32 - Design Rakariki.jpg": "/projectseaweb/static/media/D32 - Design Rakariki.3af590cef44e8f05d781.jpg",
     "static/media/D36 - Design Deimev.jpg": "/projectseaweb/static/media/D36 - Design Deimev.3e831f6f42d603a88d23.jpg",
     "static/media/D34 - Design Veranite.jpg": "/projectseaweb/static/media/D34 - Design Veranite.ad14baed936ce084bd7b.jpg",
@@ -36,6 +39,7 @@
     "static/media/D33 - Design Fondan.jpg": "/projectseaweb/static/media/D33 - Design Fondan.3ce01c9e606af7883ba3.jpg",
     "static/media/WelcomeSect-dark.jpg": "/projectseaweb/static/media/WelcomeSect-dark.65f94a518eca11d76f30.jpg",
     "static/media/S51 - Vesnea.gif": "/projectseaweb/static/media/S51 - Vesnea.6810b5b725760c325383.gif",
+    "static/media/S183 - Veranite.png": "/projectseaweb/static/media/S183 - Veranite.d36d01323997d581e7ea.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/projectseaweb/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/Introduction-bg.jpg": "/projectseaweb/static/media/Introduction-bg.db82af113c96448b593b.jpg",
     "static/media/AboutTimelineMDark.svg": "/projectseaweb/static/media/AboutTimelineMDark.99b7098d8aca43c62a8a.svg",
@@ -139,6 +143,7 @@
     "static/media/PFP_Fondan.png": "/projectseaweb/static/media/PFP_Fondan.b1b5fea5c65d4d286d00.png",
     "static/media/PFP_Vesnea.png": "/projectseaweb/static/media/PFP_Vesnea.2ff87b1806258383cc6d.png",
     "static/media/PFP_Seavalanche.png": "/projectseaweb/static/media/PFP_Seavalanche.c888328cfa3e82bb918b.png",
+    "static/media/S184 - Vesnea.webp": "/projectseaweb/static/media/S184 - Vesnea.3aaa774f2c2075cfa97a.webp",
     "static/media/S100 - Vesnea.webp": "/projectseaweb/static/media/S100 - Vesnea.9c4d2efa30f1e9c652af.webp",
     "static/media/S48 - Vesnea.webp": "/projectseaweb/static/media/S48 - Vesnea.163100a0f18983a85f20.webp",
     "static/media/Baldor.webp": "/projectseaweb/static/media/Baldor.8a9663fda2d8581390f6.webp",
@@ -205,8 +210,11 @@
     "static/media/S171 - Fondan_fix1.webp": "/projectseaweb/static/media/S171 - Fondan_fix1.097a4da029c4d6fdf490.webp",
     "static/media/PFP_Sarchie.png": "/projectseaweb/static/media/PFP_Sarchie.55c5bf29c1b0c5ad1b5f.png",
     "static/media/S157 - Seavalanche.webp": "/projectseaweb/static/media/S157 - Seavalanche.343ed47b7f4a8d39f0ed.webp",
+    "static/media/PFP_Noira.png": "/projectseaweb/static/media/PFP_Noira.df353a76d391035a450f.png",
     "static/media/Rakariki.webp": "/projectseaweb/static/media/Rakariki.1c0c43e1faa58bdc8e90.webp",
+    "static/media/PFP_Tharos.png": "/projectseaweb/static/media/PFP_Tharos.eeab8af0c470a2422deb.png",
     "static/media/S98 - Vesnea See You.webp": "/projectseaweb/static/media/S98 - Vesnea See You.28fc4b5803c643bb881a.webp",
+    "static/media/PFP_Zeo.png": "/projectseaweb/static/media/PFP_Zeo.edf45591ae4132306aa5.png",
     "static/media/D08 - Vesnea pixelart_effect_bg.webp": "/projectseaweb/static/media/D08 - Vesnea pixelart_effect_bg.de368754144eb23c3f8a.webp",
     "static/media/Arna.webp": "/projectseaweb/static/media/Arna.a9288bebfa4df3276284.webp",
     "static/media/S94 - Vesnea.webp": "/projectseaweb/static/media/S94 - Vesnea.1d13465dff718fe7963a.webp",
@@ -227,6 +235,7 @@
     "static/media/NavbarLogo-pink2.png": "/projectseaweb/static/media/NavbarLogo-pink2.3e8c16d7cecf22e761c6.png",
     "static/media/NavbarLogo-light.png": "/projectseaweb/static/media/NavbarLogo-light.1c38aa6232c6bec0bc3f.png",
     "static/media/NavbarLogo-pink.png": "/projectseaweb/static/media/NavbarLogo-pink.678cf76cfdd4bc125ffd.png",
+    "static/media/S182 - Seava.webp": "/projectseaweb/static/media/S182 - Seava.dc61772be4d3ff413eb9.webp",
     "static/media/D09 - Seava pixelart_enlarged.webp": "/projectseaweb/static/media/D09 - Seava pixelart_enlarged.da752364a0c57f321baf.webp",
     "static/media/MythSeavalanche.webp": "/projectseaweb/static/media/MythSeavalanche.d713eaec1d048a4c7606.webp",
     "static/media/About-Icon-Instagram-Dark.svg": "/projectseaweb/static/media/About-Icon-Instagram-Dark.72a5ad5e787efaecdf47.svg",
@@ -283,11 +292,11 @@
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
     "main.d358ea80.css.map": "/projectseaweb/static/css/main.d358ea80.css.map",
-    "main.fa2c5925.js.map": "/projectseaweb/static/js/main.fa2c5925.js.map",
+    "main.df0da83f.js.map": "/projectseaweb/static/js/main.df0da83f.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d358ea80.css",
-    "static/js/main.fa2c5925.js"
+    "static/js/main.df0da83f.js"
   ]
 }
