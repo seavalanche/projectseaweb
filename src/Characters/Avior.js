@@ -7,7 +7,7 @@ const Avior = {
     name: "Avior",
     alternateName: "",
     nameMeaning: {
-        en: "an energetic name with sparks of joy.",
+        en: "Avior is the star Epsilon Carinae, one of the 57 stars used in celestial navigation. 'Avi' (Hebrew: my father) and 'or' (Hebrew: light), resulting in 'the father of light'. Avis in Latin means bird.",
         jp: "",
     },
     gender: { en: "Male", jp: "男性" },
