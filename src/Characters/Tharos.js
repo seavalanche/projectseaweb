@@ -12,8 +12,8 @@ const Tharos = {
     },
     gender: { en: "Male", jp: "男性" },
     species: { en: "Wolf creature", jp: "" },
-    height: { en: "1 m", jp: "0.5メートル" },
-    weight: { en: "50 kg", jp: "10キログラム" },
+    height: { en: "1 m", jp: "1メートル" },
+    weight: { en: "50 kg", jp: "50キログラム" },
     createdDate: { en: "23 August 2025", jp: "2025年8月23日" },
     attributes: ["Darkness", "Light"],
     bio: {

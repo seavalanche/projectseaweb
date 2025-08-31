@@ -12,8 +12,8 @@ const Zeo = {
     },
     gender: { en: "Male", jp: "男性" },
     species: { en: "Wolf creature", jp: "" },
-    height: { en: "0.9 m", jp: "0.5メートル" },
-    weight: { en: "40 kg", jp: "10キログラム" },
+    height: { en: "0.9 m", jp: "0.9メートル" },
+    weight: { en: "40 kg", jp: "40キログラム" },
     createdDate: { en: "23 August 2025", jp: "2025年8月23日" },
     attributes: ["Darkness", "Electric"],
     bio: {

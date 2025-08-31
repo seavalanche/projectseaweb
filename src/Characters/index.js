@@ -19,6 +19,7 @@ import Deimev from './Deimev';
 import Tharos from './Tharos';
 import Noira from './Noira';
 import Zeo from './Zeo';
+import Avior from './Avior';
 
 const characters = [
     MythSeavalanche,
@@ -41,7 +42,8 @@ const characters = [
     Deimev,
     Tharos,
     Noira,
-    Zeo
+    Zeo,
+    Avior
 ];
 
 export default characters;
