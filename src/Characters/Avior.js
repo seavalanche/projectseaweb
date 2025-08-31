@@ -11,7 +11,7 @@ const Avior = {
         jp: "",
     },
     gender: { en: "Male", jp: "男性" },
-    species: { en: "Wolf creature", jp: "" },
+    species: { en: "Bird creature", jp: "" },
     height: { en: "1.4 m", jp: "1.4メートル" },
     weight: { en: "65 kg", jp: "10キログラム" },
     createdDate: { en: "", jp: "" },
