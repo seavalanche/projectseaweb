@@ -624,6 +624,10 @@
   max-height: 70vh;
   object-fit: contain;
 }
+/* .charcard-art-preview-content-wrapper  {
+display: flex;
+flex-direction: column;
+} */
 .charcard-art-preview-content-wrapper .charcardValue {
   max-width: 500px;
   margin-left: 10px;
@@ -650,6 +654,10 @@
   }
 }
 @media only screen and (max-width: 800px) {
+  .charcard-art-preview-content {
+    gap: 0;
+    padding-bottom: 5px;
+  }
   .charcard-artworks img {
     height: 80px;
   }
