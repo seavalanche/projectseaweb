@@ -6,6 +6,7 @@ import artwork04 from '../Assets/Characters/charcardArtwork/MythSeavalanche/S178
 const MythSeavalanche = {
     id: "mythseavalanche",
     profilePicture: pfpMythSeavalanche,
+    profilePicture2: pfpMythSeavalanche,
     name: "Seavalanche",
     alternateName: "(aka Myth Seavalanche)",
     nameMeaning: {

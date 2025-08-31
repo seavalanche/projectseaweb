@@ -18,9 +18,12 @@ import artwork15 from '../Assets/Characters/charcardArtwork/Seava/S135 - Fabulou
 import artwork16 from '../Assets/Characters/charcardArtwork/Seava/S156 - Seava and Uzakon.webp'
 import artwork17 from '../Assets/Characters/charcardArtwork/Seava/S161 - Seava.webp'
 import artwork18 from '../Assets/Characters/charcardArtwork/Seava/S162 - Matching Clothes.webp'
+import artwork19 from '../Assets/Characters/charcardArtwork/Seava/S182 - Seava.webp'
+
 const Seava = {
     id: "seava",
     profilePicture: pfpSeava,
+    profilePicture2: pfpSeava,
     name: "Seava",
     alternateName: "",
     nameMeaning: {
@@ -163,6 +166,11 @@ const Seava = {
             src: artwork18,
             title: "S162 - Matching Clothes",
             caption: { en: "Seava posing in a cute school uniform together with Seavalanche and Vesnea.", jp: "SeavaがSeavalancheとVesneaと一緒に可愛い制服姿でポーズをとる。" }
+        },
+        {
+            src: artwork19,
+            title: "S182 - Seava",
+            caption: { en: "It's a portrait of Seava.", jp: "" }
         },
     ]
 };

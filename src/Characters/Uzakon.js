@@ -10,6 +10,7 @@ import artwork07 from '../Assets/Characters/charcardArtwork/Uzakon/S163 - Elemen
 const Uzakon = {
     id: "uzakon",
     profilePicture: pfpUzakon,
+    profilePicture2: pfpUzakon,
     name: "Uzakon",
     alternateName: "",
     nameMeaning: {

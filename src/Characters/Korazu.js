@@ -9,6 +9,7 @@ import artwork06 from '../Assets/Characters/charcardArtwork/Korazu/S163 - Elemen
 const Korazu = {
     id: "korazu",
     profilePicture: pfpKorazu,
+    profilePicture2: pfpKorazu,
     name: "Korazu",
     alternateName: "",
     nameMeaning: {

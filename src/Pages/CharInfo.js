@@ -73,7 +73,7 @@ function CharInfo() {
         >
           {characters.map((char, idx) => (
             <HashLink key={idx} to={`#${char.id}`} className="charinfo-icon">
-              <img src={char.profilePicture} alt={char.name} />
+              <img src={char.profilePicture2} alt={char.name} />
             </HashLink>
           ))}
         </div>

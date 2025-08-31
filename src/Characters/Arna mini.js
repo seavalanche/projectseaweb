@@ -4,6 +4,7 @@ import artwork01 from '../Assets/Characters/charcardArtwork/Arna/S172 - Arna.web
 const MiniArna = {
     id: "miniArna",
     profilePicture: pfp,
+    profilePicture2: pfp,
     name: "Mini Arna",
     alternateName: "",
     nameMeaning: {

@@ -3,6 +3,7 @@ import artwork00 from '../Assets/Characters/charcardArtwork/Sarchie/D35 - Design
 const Sarchie = {
     id: "sarchie",
     profilePicture: pfp,
+    profilePicture2: pfp,
     name: "Sarchie",
     alternateName: "",
     nameMeaning: {

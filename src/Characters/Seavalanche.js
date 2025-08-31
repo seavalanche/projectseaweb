@@ -13,6 +13,7 @@ import artwork10 from '../Assets/Characters/charcardArtwork/Seavalanche/S173 - S
 const Seavalanche = {
     id: "seavalanche",
     profilePicture: pfpSeavalanche,
+    profilePicture2: pfpSeavalanche,
     name: "Seavalanche",
     alternateName: "Vesnea Seavalanche Mode",
     nameMeaning: {

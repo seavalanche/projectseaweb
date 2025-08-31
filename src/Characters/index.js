@@ -16,6 +16,9 @@ import Veranite from './Veranite';
 import Fondan from './Fondan';
 import Sarchie from './Sarchie';
 import Deimev from './Deimev';
+import Tharos from './Tharos';
+import Noira from './Noira';
+import Zeo from './Zeo';
 
 const characters = [
     MythSeavalanche,
@@ -35,7 +38,10 @@ const characters = [
     Veranite,
     Fondan,
     Sarchie,
-    Deimev
+    Deimev,
+    Tharos,
+    Noira,
+    Zeo
 ];
 
 export default characters;

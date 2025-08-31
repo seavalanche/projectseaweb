@@ -3,6 +3,7 @@ import artwork00 from '../Assets/Characters/charcardArtwork/Rakariki/D32 - Desig
 const Rakariki = {
     id: "rakariki",
     profilePicture: pfp,
+    profilePicture2: pfp,
     name: "Rakariki",
     alternateName: "",
     nameMeaning: {

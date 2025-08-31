@@ -4,6 +4,7 @@ import artwork01 from '../Assets/Characters/charcardArtwork/Seava Tempest Mode/S
 const SeavaTM = {
     id: "seavaTM",
     profilePicture: pfpSeava,
+    profilePicture2: pfpSeava,
     name: "Seava",
     alternateName: "Tempest Mode",
     nameMeaning: {

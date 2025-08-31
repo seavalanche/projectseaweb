@@ -3,6 +3,7 @@ import artwork00 from '../Assets/Characters/charcardArtwork/Baldor/D30 - Design 
 const Baldor = {
     id: "baldor",
     profilePicture: pfp,
+    profilePicture2: pfp,
     name: "Baldor",
     alternateName: "",
     nameMeaning: {

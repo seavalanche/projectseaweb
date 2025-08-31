@@ -1,8 +1,10 @@
 import pfp from '../Assets/Characters/charcardPFP/PFP_Veranite.png'
 import artwork00 from '../Assets/Characters/charcardArtwork/Veranite/D34 - Design Veranite.jpg'
+import artwork01 from '../Assets/Characters/charcardArtwork/Veranite/S183 - Veranite.png'
 const Veranite = {
     id: "veranite",
     profilePicture: pfp,
+    profilePicture2: pfp,
     name: "Veranite",
     alternateName: "",
     nameMeaning: {
@@ -46,6 +48,11 @@ const Veranite = {
             src: artwork00,
             title: "D34 - Design Veranite",
             caption: { en: "The original Veranite reference sheet.", jp: "Veraniteのオリジナル設定資料。" }
+        },
+        {
+            src: artwork01,
+            title: "S183 - Veranite",
+            caption: { en: "Veranite is as dark as the space itself.", jp: "Veraniteのオリジナル設定資料。" }
         },
     ]
 };

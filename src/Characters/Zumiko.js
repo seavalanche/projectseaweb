@@ -10,6 +10,7 @@ import artwork07 from '../Assets/Characters/charcardArtwork/Zumiko/S163 - Elemen
 const Zumiko = {
     id: "zumiko",
     profilePicture: pfpZumiko,
+    profilePicture2: pfpZumiko,
     name: "Zumiko",
     alternateName: "",
     nameMeaning: {

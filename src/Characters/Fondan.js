@@ -4,6 +4,7 @@ import artwork01 from '../Assets/Characters/charcardArtwork/Fondan/S171 - Fondan
 const Fondan = {
     id: "fondan",
     profilePicture: pfp,
+    profilePicture2: pfp,
     name: "Fondan",
     alternateName: "",
     nameMeaning: {

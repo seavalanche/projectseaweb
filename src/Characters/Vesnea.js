@@ -49,9 +49,11 @@ import artwork40 from '../Assets/Characters/charcardArtwork/Vesnea/S136 - Vesnea
 import artwork41 from '../Assets/Characters/charcardArtwork/Vesnea/S138 - Vesnea_pattern_newpink.webp'
 import artwork42 from '../Assets/Characters/charcardArtwork/Vesnea/S160 - Vesnea.webp'
 import artwork43 from '../Assets/Characters/charcardArtwork/Vesnea/S162 - Matching Clothes.webp'
+import artwork44 from '../Assets/Characters/charcardArtwork/Vesnea/S184 - Vesnea.webp'
 const Vesnea = {
     id: "vesnea",
     profilePicture: pfpVesnea,
+    profilePicture2: pfpVesnea,
     name: "Vesnea",
     alternateName: "",
     nameMeaning: {
@@ -340,6 +342,10 @@ const Vesnea = {
             src: artwork43,
             title: "S162 - Matching Clothes",
             caption: { en: "Vesnea posing in a cute school uniform together with Seavalanche and Seava.", jp: "VesneaがSeavalancheとSeavaと一緒にかわいい制服でポーズしている。" }
+        },        {
+            src: artwork44,
+            title: "S184 - Vesnea",
+            caption: { en: "Vesnea is posing in a very cute way!", jp: "" }
         },
     ]
 };

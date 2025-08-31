@@ -4,6 +4,7 @@ import artwork01 from '../Assets/Characters/charcardArtwork/Seava Zephyr Mode/S1
 const SeavaZM = {
     id: "seavaZM",
     profilePicture: pfpSeava,
+    profilePicture2: pfpSeava,
     name: "Seava",
     alternateName: "Zephyr Mode",
     nameMeaning: {

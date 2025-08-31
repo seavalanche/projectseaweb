@@ -4,6 +4,7 @@ import artwork01 from '../Assets/Characters/charcardArtwork/Vesnea Blossom Mode/
 const VesneaBM = {
     id: "vesneaBM",
     profilePicture: pfpVesnea,
+    profilePicture2: pfpVesnea,
     name: "Vesnea",
     alternateName: "Blossom Mode",
     nameMeaning: {
