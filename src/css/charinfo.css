@@ -632,6 +632,7 @@ flex-direction: column;
   max-width: 500px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 .charcard-close-btn {
   cursor: pointer;
@@ -657,6 +658,14 @@ flex-direction: column;
   .charcard-art-preview-content {
     gap: 0;
     padding-bottom: 5px;
+  }
+  .charcard-art-preview-content-wrapper .charcardProp {
+    line-height: 1.8rem;
+    margin-bottom: -4px;
+  }
+  .charcard-art-preview-content-wrapper .charcardValue {
+    line-height: 1.2em;
+    margin-bottom: 1px;
   }
   .charcard-artworks img {
     height: 80px;
