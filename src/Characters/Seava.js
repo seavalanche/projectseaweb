@@ -25,7 +25,7 @@ const Seava = {
     profilePicture: pfpSeava,
     profilePicture2: pfpSeava,
     name: "Seava",
-    alternateName: "",
+    alternateName: "(Ascended form)",
     nameMeaning: {
         en: "A short version of Seavalanche.",
         jp: "Seavalancheの短縮形。",
