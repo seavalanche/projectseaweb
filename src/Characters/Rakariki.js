@@ -48,6 +48,20 @@ const Rakariki = {
             title: "D32 - Design Rakariki",
             caption: { en: "The original Rakariki reference sheet.", jp: "Rakarikiのオリジナル設定資料。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Rakariki;

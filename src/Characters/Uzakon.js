@@ -88,6 +88,20 @@ const Uzakon = {
             title: "S163 - Elemental Power",
             caption: { en: "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.", jp: "Korazuの太陽、Uzakonの月、Zumikoの火。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Uzakon;

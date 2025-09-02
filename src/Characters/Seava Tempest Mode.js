@@ -63,6 +63,20 @@ const SeavaTM = {
             title: "S166 - Seava Tempest Mode",
             caption: { en: "Seava Tempest Mode.", jp: "SeavaのTempest Mode。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default SeavaTM;

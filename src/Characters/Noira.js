@@ -40,6 +40,20 @@ const Noira = {
             title: "",
             caption: { en: "", jp: "" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Noira;

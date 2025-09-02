@@ -52,6 +52,20 @@ const Arna = {
             title: "S172 - Arna",
             caption: { en: "Arna and her three Mini Arnas.", jp: "Arnaと3匹のミニArna。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Arna;

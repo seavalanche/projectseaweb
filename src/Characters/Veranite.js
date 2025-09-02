@@ -54,6 +54,20 @@ const Veranite = {
             title: "S183 - Veranite",
             caption: { en: "Veranite is as dark as the space itself.", jp: "Veraniteのオリジナル設定資料。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Veranite;

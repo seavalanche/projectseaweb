@@ -54,6 +54,20 @@ const Fondan = {
             title: "S171 - Fondan",
             caption: { en: "Pretty cool Fondan pose with his white shirt and black tie.", jp: "白いシャツと黒いネクタイを着た、かっこいいFondanのポーズ。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Fondan;

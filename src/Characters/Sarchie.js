@@ -48,6 +48,20 @@ const Sarchie = {
             title: "D35 - Design Sarchie",
             caption: { en: "The original Sarchie reference sheet.", jp: "Sarchieのオリジナル設定資料。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Sarchie;

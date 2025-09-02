@@ -50,6 +50,20 @@ const Baldor = {
             title: "D30 - Design Baldor",
             caption: { en: "The original Baldor reference sheet.", jp: "Baldorのオリジナル設定資料。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Baldor;

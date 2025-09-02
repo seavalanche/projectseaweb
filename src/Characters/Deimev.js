@@ -52,6 +52,20 @@ const Deimev = {
             title: "D36 - Design Deimev",
             caption: { en: "The original Deimev reference sheet.", jp: "Deimevのオリジナル設定資料。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Deimev;

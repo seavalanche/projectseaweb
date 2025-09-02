@@ -50,6 +50,8 @@ import artwork41 from '../Assets/Characters/charcardArtwork/Vesnea/S138 - Vesnea
 import artwork42 from '../Assets/Characters/charcardArtwork/Vesnea/S160 - Vesnea.webp'
 import artwork43 from '../Assets/Characters/charcardArtwork/Vesnea/S162 - Matching Clothes.webp'
 import artwork44 from '../Assets/Characters/charcardArtwork/Vesnea/S184 - Vesnea.webp'
+import ga01 from '../Assets/Characters/charcardGiftarts/Vesnea/by Unifantingchan - 20240528 2.png'
+import co01 from '../Assets/Characters/charcardCommarts/Vesnea/by Shual commissioned by Vesnea - 20221023 1.png'
 const Vesnea = {
     id: "vesnea",
     profilePicture: pfpVesnea,
@@ -342,10 +344,24 @@ const Vesnea = {
             src: artwork43,
             title: "S162 - Matching Clothes",
             caption: { en: "Vesnea posing in a cute school uniform together with Seavalanche and Seava.", jp: "VesneaがSeavalancheとSeavaと一緒にかわいい制服でポーズしている。" }
-        },        {
+        }, {
             src: artwork44,
             title: "S184 - Vesnea",
             caption: { en: "Vesnea is posing in a very cute way!", jp: "" }
+        },
+    ],
+    giftarts: [
+        {
+            src: ga01,
+            title: "28 May 2024",
+            caption: { en: "by Unifantingchan", jp: "" }
+        },
+    ],
+    commarts: [
+        {
+            src: co01,
+            title: "23 October 2022",
+            caption: { en: "by Shual", jp: "" }
         },
     ]
 };

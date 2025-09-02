@@ -66,6 +66,20 @@ const MythSeavalanche = {
             title: "S178 - Myth Seavalanche",
             caption: { en: "Seavalanche profile at an angle.", jp: "斜めから見た神話Seavalancheの横顔。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default MythSeavalanche;

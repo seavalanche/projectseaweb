@@ -54,6 +54,20 @@ const VesneaBM = {
             title: "S165 - Vesnea Blossom Mode",
             caption: { en: "Vesnea Blossom Mode.", jp: "VesneaのBlossom Mode。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default VesneaBM;

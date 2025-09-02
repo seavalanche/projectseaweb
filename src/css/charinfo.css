@@ -271,6 +271,7 @@
 /* >>> CharacterCard.js */
 .character-card {
   position: relative;
+  overflow: hidden;
   padding: var(--charcard-card-padding);
   background: var(--charcard-bg);
   border: 1px solid transparent;
@@ -453,6 +454,9 @@
   * {
     --charcard-contentA1-width: 130px;
     --charcard-contentA2-width: 160px;
+  }
+  .character-card-container {
+    width: 95%;
   }
   .character-card {
     width: 100%;
@@ -672,3 +676,22 @@ flex-direction: column;
   }
 }
 /* CHARCARD EXTRA */ /* CHARCARD EXTRA */ /* CHARCARD EXTRA */ /* CHARCARD EXTRA */
+.charcard-tab2 {
+  width: 40px;
+}
+.character-card-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.charcard-optional {
+  display: flex;
+  width: calc(100% - var(--charcard-card-padding) * 2 - 2px);
+  margin-top: -10px;
+  padding-bottom: 40px;
+  background: color-mix(in srgb, var(--button-border2) 50%, transparent);
+  border-radius: 0 0 8px 8px;
+}
+[data-theme="light"] .charcard-optional {
+  background: color-mix(in srgb, var(--button-border2) 70%, transparent);
+}

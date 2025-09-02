@@ -172,6 +172,20 @@ const Seava = {
             title: "S182 - Seava",
             caption: { en: "It's a portrait of Seava.", jp: "" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Seava;

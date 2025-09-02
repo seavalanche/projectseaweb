@@ -116,6 +116,20 @@ const Seavalanche = {
             title: "S173 - Seavalanche Day",
             caption: { en: "Seavalanche hugging a sprigatito plush.", jp: "Seavalancheがニャオハのぬいぐるみを抱きしめている。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default Seavalanche;

@@ -63,6 +63,20 @@ const SeavaZM = {
             title: "S168 - Seava Zephyr Mode",
             caption: { en: "Seava Zephyr Mode.", jp: "Zephyr Mode。" }
         },
+    ],
+        giftarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
+    ],
+        commarts: [
+        {
+            src: "",
+            title: "",
+            caption: { en: "", jp: "" }
+        },
     ]
 };
 export default SeavaZM;
