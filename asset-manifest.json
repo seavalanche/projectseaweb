@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.d358ea80.css",
-    "main.js": "/projectseaweb/static/js/main.82478448.js",
+    "main.css": "/projectseaweb/static/css/main.fa5edd84.css",
+    "main.js": "/projectseaweb/static/js/main.e6d89418.js",
     "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
     "static/js/86.9d983612.chunk.js": "/projectseaweb/static/js/86.9d983612.chunk.js",
     "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/StarMode.jpg": "/projectseaweb/static/media/StarMode.b358cf2d75e9b5f0eb97.jpg",
     "static/media/PFP_Tharos.gif": "/projectseaweb/static/media/PFP_Tharos.083c37a1074f907506f1.gif",
     "static/media/11-DigitalArt-AnimationArt.gif": "/projectseaweb/static/media/11-DigitalArt-AnimationArt.c0f95d8ee6918eeda8b7.gif",
+    "static/media/by Unifantingchan - 20240528 2.png": "/projectseaweb/static/media/by Unifantingchan - 20240528 2.a72a90d151e675167574.png",
     "static/media/S134 - Uzakon.gif": "/projectseaweb/static/media/S134 - Uzakon.243f4016bb918aaec921.gif",
     "static/media/Introduction-bg-full.jpg": "/projectseaweb/static/media/Introduction-bg-full.4c90e7e547e3829b535a.jpg",
     "static/media/S124 - Seavas Scice.gif": "/projectseaweb/static/media/S124 - Seavas Scice.93a41e856617b6e0826f.gif",
@@ -30,6 +31,7 @@
     "static/media/PFP_Noira.gif": "/projectseaweb/static/media/PFP_Noira.ef7860680109a8695f73.gif",
     "static/media/D31 - Design Arna.jpg": "/projectseaweb/static/media/D31 - Design Arna.de249504c0bf02ef75c0.jpg",
     "static/media/DarkMode.jpg": "/projectseaweb/static/media/DarkMode.53dde727c0532d89251b.jpg",
+    "static/media/by Shual commissioned by Vesnea - 20221023 1.png": "/projectseaweb/static/media/by Shual commissioned by Vesnea - 20221023 1.b6c495f66e8d6d90d790.png",
     "static/media/PFP_Zeo.gif": "/projectseaweb/static/media/PFP_Zeo.24fae0cd1194dc03cff4.gif",
     "static/media/D32 - Design Rakariki.jpg": "/projectseaweb/static/media/D32 - Design Rakariki.3af590cef44e8f05d781.jpg",
     "static/media/D36 - Design Deimev.jpg": "/projectseaweb/static/media/D36 - Design Deimev.3e831f6f42d603a88d23.jpg",
@@ -291,12 +293,12 @@
     "static/media/Tidy-er-Dark.svg": "/projectseaweb/static/media/Tidy-er-Dark.49a885caeb277d6e00e9.svg",
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
-    "main.d358ea80.css.map": "/projectseaweb/static/css/main.d358ea80.css.map",
-    "main.82478448.js.map": "/projectseaweb/static/js/main.82478448.js.map",
+    "main.fa5edd84.css.map": "/projectseaweb/static/css/main.fa5edd84.css.map",
+    "main.e6d89418.js.map": "/projectseaweb/static/js/main.e6d89418.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d358ea80.css",
-    "static/js/main.82478448.js"
+    "static/css/main.fa5edd84.css",
+    "static/js/main.e6d89418.js"
   ]
 }
