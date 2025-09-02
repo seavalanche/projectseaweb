@@ -20,8 +20,14 @@ function CharacterCard({ character }) {
         <div id={character.id} ref={cardRef} className='character-card-container'>
             {activeTab === 'charcard-optional' && (
                 <div className={`charcard-optional character-card${selectedArt ? 'preview-open' : ''}`}>
-                    See other menu here:
+                    <div className='charcard-optional-text'>See other menu here:</div>
                     <div className='charcard-tab-wrapper'>
+                        <div className={`charcard-tab ${activeTab === 'charcard-tradearts' ? 'active' : ''}`} onClick={() => toggleTab('charcard-tradearts')}>
+                            {activeTab === 'charcard-tradearts' ? 'TradeArts' : 'TradeArts'}
+                        </div>
+                        <div className={`charcard-tab ${activeTab === 'charcard-collabarts' ? 'active' : ''}`} onClick={() => toggleTab('charcard-collabarts')}>
+                            {activeTab === 'charcard-collabarts' ? 'CollabArts' : 'CollabArts'}
+                        </div>
                         <div className={`charcard-tab ${activeTab === 'charcard-giftarts' ? 'active' : ''}`} onClick={() => toggleTab('charcard-giftarts')}>
                             {activeTab === 'charcard-giftarts' ? 'GiftArts' : 'GiftArts'}
                         </div>
@@ -154,6 +160,72 @@ function CharacterCard({ character }) {
                             )}
                         </div>
                     )}
+                    {activeTab === 'charcard-tradearts' && (
+                        <div className="charcard-extra">
+                            <div className='charcardProp'>{t("charcard.artworks")}</div>
+                            <div className="charcard-artworks">
+                                {character.giftarts.map((art, idx) => (
+                                    <figure
+                                        key={idx}
+                                        className='charcard-artworks-wrapper'
+                                        onClick={() => setSelectedArt(art)}
+                                    >
+                                        <img
+                                            src={art.src}
+                                            alt={art.caption[language] || art.caption.en}
+                                            className="charcard-art-thumb"
+                                        />
+                                        {/* <figtitle className='charcardValue'>{art.title}</figtitle> */}
+                                    </figure>
+                                ))}
+                            </div>
+                            {selectedArt && (
+                                <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
+                                    <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
+                                        <img src={selectedArt.src} alt={selectedArt.caption[language] || selectedArt.caption.en} />
+                                        <div className='charcard-art-preview-content-wrapper'>
+                                            <div className='charcardProp'>{selectedArt.title}</div>
+                                            <div className='charcardValue'>{selectedArt.caption[language] || selectedArt.caption.en}</div>
+                                        </div>
+                                        <button className="charcard-close-btn" onClick={() => setSelectedArt(null)}>✕</button>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    )}
+                    {activeTab === 'charcard-collabarts' && (
+                        <div className="charcard-extra">
+                            <div className='charcardProp'>{t("charcard.artworks")}</div>
+                            <div className="charcard-artworks">
+                                {character.giftarts.map((art, idx) => (
+                                    <figure
+                                        key={idx}
+                                        className='charcard-artworks-wrapper'
+                                        onClick={() => setSelectedArt(art)}
+                                    >
+                                        <img
+                                            src={art.src}
+                                            alt={art.caption[language] || art.caption.en}
+                                            className="charcard-art-thumb"
+                                        />
+                                        {/* <figtitle className='charcardValue'>{art.title}</figtitle> */}
+                                    </figure>
+                                ))}
+                            </div>
+                            {selectedArt && (
+                                <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
+                                    <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
+                                        <img src={selectedArt.src} alt={selectedArt.caption[language] || selectedArt.caption.en} />
+                                        <div className='charcard-art-preview-content-wrapper'>
+                                            <div className='charcardProp'>{selectedArt.title}</div>
+                                            <div className='charcardValue'>{selectedArt.caption[language] || selectedArt.caption.en}</div>
+                                        </div>
+                                        <button className="charcard-close-btn" onClick={() => setSelectedArt(null)}>✕</button>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    )}
                     {activeTab === 'charcard-giftarts' && (
                         <div className="charcard-extra">
                             <div className='charcardProp'>{t("charcard.artworks")}</div>
@@ -222,8 +294,6 @@ function CharacterCard({ character }) {
                     )}
                 </div>
             </div>
-
-
         </div>
     );
 }
