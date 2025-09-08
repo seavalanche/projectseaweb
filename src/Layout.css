@@ -230,7 +230,7 @@ html {
 * {
   --attribute-padding-top-bot: 4px;
   --attribute-padding-left-right: 10px;
-  --attribute-width: 85px;
+  --attribute-width: 75px;
   --attribute-height: 25px;
 }
 .attribute-badge {

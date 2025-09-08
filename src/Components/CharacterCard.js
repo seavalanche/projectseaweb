@@ -63,7 +63,7 @@ function CharacterCard({ character }) {
                             {/* Part two */}
                             <div className='charcard-contentA2'>
                                 <div className='charcardProp'>{t("charcard.gender")}</div>
-                                <div className='charcardValue'>{character.gender[language] || character.gender.en}</div>
+                                <div className={`charcardValue ${character.genderColor}`}>{character.gender[language] || character.gender.en}</div>
                                 <div className='charcardProp'>{t("charcard.species")}</div>
                                 <div className='charcardValue'>{character.species[language] || character.species.en}</div>
                                 <div className='charcard-contentA2-WH'>
@@ -78,7 +78,7 @@ function CharacterCard({ character }) {
                                 </div>
                                 <div className='charcardProp'>{t("charcard.createdDate")}</div>
                                 <div className='charcardValue'>{character.createdDate[language] || character.createdDate.en}</div>
-                                <div className='charcardProp'>{t("charcard.attributes")}</div>
+                                <div className='charcardProp charcardAttributes'>{t("charcard.attributes")}</div>
                                 {/* Attributes */}
                                 <div className="charcardAttributes">
                                     {character.attributes.map((attr) => (

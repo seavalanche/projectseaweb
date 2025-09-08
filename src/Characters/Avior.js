@@ -1,16 +1,17 @@
-// import pfp from '../Assets/Characters/charcardPFP/PFP_Zeo.gif'
+import pfp from '../Assets/Characters/charcardPFP/PFP_placeholder.png'
 // import pfp2 from '../Assets/Characters/charcardPFP/PFP_Zeo.png'
 const Avior = {
     id: "Avior",
-    profilePicture: "",
-    profilePicture2: "",
+    profilePicture: pfp,
+    profilePicture2: pfp,
     name: "Avior",
     alternateName: "",
     nameMeaning: {
         en: "Avior is the star Epsilon Carinae, one of the 57 stars used in celestial navigation. 'Avi' (Hebrew: my father) and 'or' (Hebrew: light), resulting in 'the father of light'. Avis in Latin means bird.",
         jp: "",
     },
-    gender: { en: "Male", jp: "男性" },
+    gender: { en: "Male ♂", jp: "男性 ♂" },
+    genderColor: "Male",
     species: { en: "Bird creature", jp: "" },
     height: { en: "1.4 m", jp: "1.4メートル" },
     weight: { en: "65 kg", jp: "10キログラム" },

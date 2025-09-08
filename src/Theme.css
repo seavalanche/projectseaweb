@@ -346,7 +346,8 @@ input[type="color"] {
   --charcard-text-name: var(--C-SeaWeb_Dark_Purple);
   --charcard-text-altname: var(--C-Uzakon_Purple);
   --charcard-border: var(--C-Vesnea_Light_Pink);
-  --charcard-PFPborder: var(--C-Vesnea_Pink);
+  --charcard-PFPborder: var(--C-Vesnea_white);
+  --charcard-closebtn: var(--C-Vesnea_Pink);
   --charcard-active-tab: var(--attribute-sound);
   --charcard-active-tab-border: var(--attribute-sound);
   --charcard-active-tab-text: var(--C-Vesnea_white);
@@ -470,7 +471,8 @@ input[type="color"] {
   --charcard-text-name: var(--C-Vesnea_white);
   --charcard-text-altname: var(--C-Uzakon_Light_Purple);
   --charcard-border: var(--C-Uzakon_Light_Purple);
-  --charcard-PFPborder: var(--C-Uzakon_Purple);
+  --charcard-PFPborder: var(--C-Korazu_Yellow);
+  --charcard-closebtn: var(--C-Uzakon_Purple);
   --charcard-active-tab: var(--C-Korazu_Yellow);
   --charcard-active-tab-border: var(--C-Korazu_Yellow);
   --charcard-active-tab-text: var(--C-SeaWeb_Purple);
@@ -596,6 +598,7 @@ input[type="color"] {
   --charcard-text-altname: var(--C-Uzakon_Purple);
   --charcard-border: var(--C-Uzakon_Purple);
   --charcard-PFPborder: var(--C-Uzakon_Purple);
+  --charcard-closebtn: var(--C-Uzakon_Purple);
   --charcard-active-tab: var(--C-Uzakon_Purple);
   --charcard-active-tab-border: var(--C-Uzakon_Purple);
   --charcard-active-tab-text: var(--C-Uzakon_White);
