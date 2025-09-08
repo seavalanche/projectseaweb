@@ -3,8 +3,11 @@ import CharacterCard from "../Components/CharacterCard";
 import characters from "../Characters/index";
 import { HashLink } from 'react-router-hash-link';
 import '../css/charinfo.css';
+import { useLocalization } from '../localization/hooks/useLocalization';
 
 function CharInfo() {
+  const { t } = useLocalization();
+
   characters.map(character => (
     <CharacterCard key={character.id} character={character} />
   ))
@@ -25,7 +28,7 @@ function CharInfo() {
         className={`contentB-btn  ${viewSelector}`}
       >
         <div className={`contentB-text  ${displayContentB}`}>
-          Show Description
+          {t("charcard.showbiobtn")}
         </div>
         <div className='contentB-toggle'>
           <div className="toggle-switch">

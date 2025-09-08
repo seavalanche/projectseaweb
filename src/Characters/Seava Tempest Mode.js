@@ -22,6 +22,34 @@ const SeavaTM = {
         en: "Seava gained the power of Storm and it affected his form. His eyes glow bright yellow while the Scice become jagged and even more pointy. In this form, Seava is more focused on overpowering and controlling any obstacles more of because he is afraid of the uncertainty if it wasn't.",
         jp: "Seavaは嵐の力を得て、その影響で姿が変化しました。彼の目は明るい黄色に輝き、Sciceはギザギザでさらに鋭くなっています。この姿のSeavaは、障害を力でねじ伏せ、制御しようとする傾向が強くなります。そうしなければ何が起こるかわからないという不安から、恐れを抱いているのです。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: ``,
+        jp: ``,
+    },
+    personalityValues: {
+        en: ``,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: ``,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: ``,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: ``,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Levitation: Seava uses his psychic power to levitate.",

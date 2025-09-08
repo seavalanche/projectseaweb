@@ -41,6 +41,34 @@ const Seava = {
         en: "The village he protected were calling Seava as the Myth Seavalanche’s descendant. Seava is determined and always ready to help whoever needed the help. It is said that even the fiercest foe would cower under the appearance of him.",
         jp: "彼が守っていた村では、SeavaはMyth Seavalancheの子孫と呼ばれていた。Seavaは決意に満ち、助けを求める者には誰にでも手を差し伸べる準備ができている。その姿を見ただけで、どんな凶悪な敵もひるむと言われている。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: ``,
+        jp: ``,
+    },
+    personalityValues: {
+        en: ``,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: ``,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: ``,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: ``,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Levitation: Seava uses his psychic power to levitate.",

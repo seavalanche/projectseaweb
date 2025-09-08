@@ -28,6 +28,36 @@ const Uzakon = {
         en: "Uzakon is a half cat, half bunny creature that appeared around the time an elderly found Vesnea near a beach. Bearing the power of the moon, Uzakon will use the steady calmness to help the people he knows.",
         jp: "Uzakonは猫とうさぎが混ざったような生き物で、お年寄りがVesneaを浜辺で見つけた頃に現れた。月の力を宿し、落ち着いた静けさで大切な人々を助ける。",
     },
+    lifeBackground: {
+        en: `Together with Korazu and Zumiko, he woke up at the edge of a forest, near a beach saved by an elderly from drowning. He doesn't remember anything but he had a feeling his name is Uzakon. Along the way, he found out he felt connected with Korazu and Zumiko, also Vesnea which was also saved by the elderly. `,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `calm, reserved, patient`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `friends stayed patient`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `sometimes his patience is crossing his own self-boundaries`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `often times just observing and not reacting`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Uzakon is a half-cat, half-bunny creature. Purple fur adorning his body with two obvious tufts of fur on the tip of his left ear. His forehead has a crescent moon mark and his tail is a round bunny tail. His fur is noticeably longer than his counterparts, mostly visible near the joints.
+        
+        He wore a purple neckband with an almost-crescent pendant on his neck and a purple ribbon on his right foreleg. Both the neckband and ribbon aren't real accessories as he was born with it and they can be missing when he lose his sense of self. Like Korazu and Zumiko, he has a triangle mark near his left eye. Although his mark is below of his eye. `,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Levitation: Celestial energy grants Uzakon the ability of levitation.",

@@ -22,6 +22,34 @@ const SeavaZM = {
         en: "Seava Zephyr Mode is achieved when Seava has accepted his state of uncertainty. In this mode, Seava gained the ability to move more gently and subtly like a calm wind, or move more aggressively like a strong wind.",
         jp: "Zephyr ModeのSeavaは、自分の中にある不確かさを受け入れたときに到達します。この姿では、穏やかな風のようにやさしく繊細に動くことも、力強い風のように激しく動くこともできるようになります。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: ``,
+        jp: ``,
+    },
+    personalityValues: {
+        en: ``,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: ``,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: ``,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: ``,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Levitation: Seava uses his psychic power to levitate.",

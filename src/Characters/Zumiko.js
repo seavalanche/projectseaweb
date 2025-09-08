@@ -28,6 +28,36 @@ const Zumiko = {
         en: "Zumiko is a half cat, half dragon creature that appeared around the time an elderly found Vesnea near a beach. Bearing the power of the stars, Zumiko will use the burning desire to help the people he knows.",
         jp: "Zumikoは猫とドラゴンが混ざったような生き物で、お年寄りがVesneaを浜辺で見つけた頃に現れた。星の力を宿し、燃えるような願いをもって、大切な人々を助けようとする。",
     },
+    lifeBackground: {
+        en: `Together with Korazu and Uzakon, he woke up at the edge of a forest, near a beach saved by an elderly from drowning. He doesn't remember anything but he had a feeling his name is Zumiko. Along the way, he found out he felt connected with Korazu and Uzakon, also Vesnea which was also saved by the elderly. `,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `hopeful, optimistic, passionate`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `friends stayed positive`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `sometimes his wishes are unrealistic`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `often times ambitious`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Zumiko is a half-cat, half-dragon creature. Pink fur adorning his body with three obvious tufts of fur on the tip of his left ear. His forehead has a four-tipped star mark that is hidden below his pink hair and his tail is a sharp draconic tail. He has a pair of pink draconic wings as well.
+        
+        He wore a red bowtie with a four-tipped star pendant on top of the tie and a pink ribbon on his right foreleg. Both the neckband and ribbon aren't real accessories as he was born with it and they can be missing when he lose his sense of self. Like Korazu and Uzakon, he has a triangle mark near his left eye. Although his mark is on the side of his eye. `,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Levitation: Celestial energy grants Zumiko the ability of levitation.",

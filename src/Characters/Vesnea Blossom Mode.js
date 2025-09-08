@@ -11,7 +11,7 @@ const VesneaBM = {
         en: "An anagram of Seavalanche. Blossom is to symbolize the growth that Vesnea experiences marked by the leaves adorning her whole body.",
         jp: "Seavalancheのアナグラムです。「Blossom（開花）」は、Vesneaの全身を飾る葉に象徴される成長を表しています。",
     },
-    gender: { en: "Female ♀", jp: "女性♀" },
+    gender: { en: "Female ♀", jp: "女性 ♀" },
     genderColor: "Female",
     species: { en: "Fox-like creature", jp: "キツネのような生き物" },
     height: { en: "1.2 m", jp: "1.2メートル" },
@@ -21,6 +21,34 @@ const VesneaBM = {
     bio: {
         en: "The nature attribute has amplified her cheerful and friendly personality and it evolves into nurture and growth~! In this form, Vesnea realized that helping herself grow is as important as helping others grow.",
         jp: "自然の属性が、彼女の明るくてフレンドリーな性格をさらに引き立て、やがて育みと成長へと進化します〜！この姿のVesneaは、自分自身の成長を助けることも、他の誰かの成長を助けるのと同じくらい大切だと気づいたのです。",
+    },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: ``,
+        jp: ``,
+    },
+    personalityValues: {
+        en: ``,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: ``,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: ``,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: ``,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
     },
     abilities: {
         en: [

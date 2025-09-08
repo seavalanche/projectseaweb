@@ -1,15 +1,25 @@
 {
-
-    "aboutchar": "🔍 I want to know more about the characters! 🔎",
-    "meaning": "Name Meaning",
-    "gender": "Gender",
-    "species": "Species",
-    "height": "Height",
-    "weight": "Weight",
-    "createdDate": "Created Date",
-    "attributes": "Attributes",
-    "abilities": "Abilities",
-    "moves": "Moves",
-    "artworks": "Artworks"
-  
+  "aboutchar": "🔍 I want to know more about the characters! 🔎",
+  "meaning": "Name Meaning",
+  "gender": "Gender",
+  "species": "Species",
+  "height": "Height",
+  "weight": "Weight",
+  "createdDate": "Created Date",
+  "attributes": "Attributes",
+  "abilities": "Abilities",
+  "moves": "Moves",
+  "artworks": "Artworks",
+  "tradearts": "Art Trade Artworks",
+  "collabarts": "Collaboration Artworks",
+  "giftarts": "Gifted Artworks",
+  "commarts": "Commissioned Artworks",
+  "lifeBackground": "Life Background",
+  "personality": "Personality",
+  "personalityTraits": "Traits",
+  "personalityValues": "Values",
+  "personalityFlaws": "Flaws",
+  "personalityQuirks": "Quirks",
+  "bodyShapeDescription": "Body Shape Description",
+  "showbiobtn": "Show Bio"
 }

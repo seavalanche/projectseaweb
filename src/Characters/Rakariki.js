@@ -21,6 +21,36 @@ const Rakariki = {
         en: "Rakariki is a lean white-furred cat body adorned with yellow lightning stripes. He is a fearless cat due to his long winning streaks in his battles. That claim is proven by his lightning speed and his powerful lightning attack when it's raining. He has lightning-shaped fur on the tip of the ears and even the tail itself. He has a light blue collar on his neck and a yellow circle-shaped pendant as a physical proof of his courage.",
         jp: "Rakarikiは、白くてスリムな体に黄色の稲妻模様をまとったネコのようなクリーチャー。連戦連勝の戦績を誇る彼は、恐れを知らぬ存在として知られている。それを裏付けるかのように、彼は雷のようなスピードと、特に雨天時に威力を増す電撃攻撃を持っている。耳の先や尻尾の先にも雷の形をした毛が生えており、首には淡い水色の首輪と、勇気の証である黄色い丸いペンダントをつけている。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `fearless`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `always be the best`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `reckless`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `doesn't fear of consequences`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Rakariki has a lean white-furred cat body adorned with yellow lightning stripes. His face has bright yellow eyes, yellow nose, and small fangs visible even with mouth closed. He has lightning-shaped fur at the tip of the ears. And the tail itself looks like a lightning-shape. His feets are three toed paws with one big yellow pawpad.
+        
+        He has a light blue collar on his neck and a yellow circle-shaped pendant. The pendant has two parts, the smaller one looks like a ring, while the bigger one looks like a solid-shut locket.`,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Ultimate Reflex: As if the yellow pendant on his neck were a talisman, he seems to always able to evade attacks using his reflexes even if he doesn't see the incoming attack.",

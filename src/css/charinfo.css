@@ -74,6 +74,7 @@
   transition: all 0.1s ease-in;
 }
 .character-selector {
+  overflow: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -288,11 +289,6 @@
   transition: all 0.3s ease;
 }
 .character-card.opened {
-  /* background-color: color-mix(
-    in srgb,
-    var(--bg-color-3) 50%,
-    var(--charcard-bg) 50%
-  ); */
   background-color: color-mix(
     in srgb,
     var(--C-Vesnea_Purple) 10%,
@@ -302,11 +298,14 @@
     color-mix(in srgb, var(--button-border2-active) 30%, transparent);
   transition: all 0.1s ease-in;
 }
-[data-theme="light"]
+[data-theme="light"] .character-card.opened {
+  background-color: color-mix(in srgb, var(--charcard-bg) 90%, transparent);
+}
+/* [data-theme="light"]
   .character-card.opened
   .charcardProp:not(.charcardAttributes) {
   color: var(--C-Vesnea_white);
-}
+} */
 .character-card:hover {
   border: 1px solid var(--button-border2-active);
   box-shadow: 0 8px 12px
@@ -350,6 +349,7 @@
   --charcard-contentB-width: calc(
     var(--charcard-contentA1-width) * 2 + var(--charcard-content-gap)
   );
+  --charcard-contentB-height: var(--charcard-contentB-width);
 }
 .charcard-content {
   display: flex;
@@ -475,20 +475,78 @@
   color: var(--C-Uzakon_Purple);
 }
 .charcard-contentB {
-  padding-bottom: calc(
-    var(--charcard-tab-height) - var(--charcard-card-padding)
-  );
+  overflow: auto;
   width: var(--charcard-contentB-width);
+  /* height: var(--charcard-contentB-height); */
+  /* max-height: 80vh; */
+  padding-bottom: calc(
+    var(--charcard-tab-height) - var(--charcard-card-padding) +
+      var(--charcard-content-gap)
+  );
+  white-space: pre-line;
 }
-.charcard-contentB-bio {
-  margin-top: calc(var(--charcard-content-gap) * 2);
+.charcard-contentB-parts {
+  margin-top: calc(var(--charcard-content-gap));
+  padding: calc(var(--charcard-card-padding) / 2);
+  background-color: hsl(from var(--bg-color-3) h s l / 0.5);
+  border-radius: 8px;
+  white-space: pre-line;
 }
-@media only screen and (max-width: 1400px) {
+[data-theme="light"] .charcard-contentB-parts .charcardProp {
+  color: var(--C-Uzakon_Purple);
+}
+.charcard-contentB-parts.even {
+  background-color: hsl(from var(--bg-color-3) h s l / 0.2);
+}
+.charcard-contentB-parts:hover {
+  background-color: hsl(from var(--bg-color-3) h s l / 0.9);
+  box-shadow: 0px 0px 10px hsl(from var(--bg-color-3) h s l / 0.5);
+}
+.charcardpersonality {
+  display: flex;
+}
+.charcardpersonality-label {
+  min-width: 70px;
+  text-align: left;
+}
+.charcardpersonality-colon {
+  margin: 0 6px;
+}
+.charcardpersonality-value {
+  flex: 1;
+  text-align: left;
+}
+/* @media only screen and (max-width: 1400px) {
   * {
     --charcard-contentB-width: var(--charcard-contentA1-width);
   }
   .charcard-contentA {
     flex-direction: column;
+  }
+} */
+@media only screen and (min-width: 1120px) {
+  /* .character-card-container {
+    width: 95%;
+  }
+  .character-card {
+    width: 100%;
+  } */
+  /* .charcard-content-main {
+    flex-direction: row;
+  }
+  .charcard-contentB {
+    width: 100%;
+  } */
+}
+@media only screen and (min-width: 556px) and (max-width: 1260px) {
+  .character-card.opened .charcard-contentA {
+    flex-direction: column;
+  }
+  .charinfowrapper.contentBactive .charcard-content-main {
+    width: 80%;
+  }
+  .charcard-contentB {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -516,11 +574,11 @@
     gap: calc(var(--charcard-content-gap) * 2);
   }
 }
-
 @media only screen and (max-width: 555px) {
   * {
     --charcard-contentA1-width: 130px;
     --charcard-contentA2-width: 160px;
+    --charcard-contentB-height: 300px;
   }
   .character-card-container {
     width: 95%;
@@ -611,7 +669,8 @@
   justify-content: flex-start;
   width: 100%;
   max-height: 80vh;
-  padding-top: 15px;
+  /* padding-top: 15px; */
+  margin-top: -15px;
   transition: all 0.3s ease;
 }
 .charcard-move-list {

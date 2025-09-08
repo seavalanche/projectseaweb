@@ -22,6 +22,36 @@ const Veranite = {
         en: "Veranite is a Fennec fox look-alike with dark fur all over the body and some spots that can glow bright yellow. The fur is as dark as the void itself, but his eyes are bright yellow as bright as a star in the middle of a dark, empty space. Veranite has three tails instead of one, and those tails make it seems like he has a cloak covering his back in a battle. In a dark environment, with all of his glow spots glowing, Veranite might look like a galaxy in the sky.",
         jp: "Veraniteはフェネックに似たキツネの姿をしたクリーチャーで、全身が暗黒のような毛に覆われており、所々に明るい黄色に光るスポットがある。その毛はまるで虚無そのものであり、しかしその瞳は星のように輝く黄色で、暗い宇宙の中にひとつ浮かぶ光のようだ。彼には1本ではなく3本の尻尾があり、それが戦闘中にはマントのように背中を覆って見える。暗闇の中で発光するその姿は、まるで夜空に輝く銀河のように見える。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `shy, loyal`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `peace`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `pessimistic, too rigid (principle)`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `randomly hiding away from anyone`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Veranite looks like a completely dark fennec fox. The fur is as dark as the void itself, fitting to Veranite's attribute. Despite being all dark as his default state, his body actually is covered with some marks that can glow bright yellow. When it actually glow, his body will look like a galaxy in the night sky.
+        
+        Most of the times, his facial expression is quite sad as though he was on the verge of crying everyday. His eyes on the other hand is bright yellow, like double stars in the middle of a dark empty space if not due to his void symbol on his forehead that can also glow. Behind him, Veranite has three completely dark tails which he can use a cloak covering his back in a battle.`,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Darkness Cloak: Veranite's ability to hide from his opponent that always works in a dark environment.",

@@ -59,10 +59,10 @@ const Vesnea = {
     name: "Vesnea",
     alternateName: "",
     nameMeaning: {
-        en: "An anagram of Seavalanche.",
-        jp: "Seavalancheのアナグラムです。",
+        en: "An anagram of Seavalanche. 'Vesna' is a feminine goddess in Slavic mythology.",
+        jp: "",
     },
-    gender: { en: "Female ♀", jp: "女性♀" },
+    gender: { en: "Female ♀", jp: "女性 ♀" },
     genderColor: "Female",
     species: { en: "Fox-like creature", jp: "キツネのような生き物" },
     height: { en: "1.2 m", jp: "1.2メートル" },
@@ -72,6 +72,34 @@ const Vesnea = {
     bio: {
         en: "Vesnea is being called the kindest of the village when she was brought in by an elderly. She would offer help to whoever she thought needed it. Cheery as she is, everyone would feel better after a hard day around her.",
         jp: "Vesneaは、年配の人に連れられて村にやってきたとき、村で一番優しい存在だと呼ばれるようになりました。困っていそうな人を見つけると、すぐに助けの手を差し伸べます。いつも明るく元気な彼女のそばにいると、つらい一日も癒されてしまうのです。",
+    },
+    lifeBackground: {
+        en: `Vesnea woke up at a forest border, near the ocean, saved by an elderly. Losing her memories, she continued her life without any purpose other than trying to learn about herself. Along the way, she found out that she somehow feel connected with the three colorful cats that were also saved by the elderly.`,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `gentle, playful, cheerful, hopeful`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `accepted by others, giving others kindness`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `self-doubts, priority for others`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `overthinking even the smallest thing`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Vesnea is a fox-like creature with flippers as her hands and a heart-tipped mermaid tail. Her pink hairs are flowy and graceful, while her foxy legs are small compared to her flippers. Her small fangs sometimes are visible when she smiles. `,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
     },
     abilities: {
         en: [

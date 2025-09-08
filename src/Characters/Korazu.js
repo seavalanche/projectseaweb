@@ -27,6 +27,36 @@ const Korazu = {
         en: "Korazu is a half cat, half bird creature that appeared around the time an elderly found Vesnea near a beach. Bearing the power of the sun, Korazu will use the burning courage to help the people he knows.",
         jp: "Korazuは猫と鳥が混ざったような生き物で、お年寄りがVesneaを浜辺で見つけた頃に現れた。太陽の力を宿し、燃えるような勇気で大切な人々を助ける。",
     },
+    lifeBackground: {
+        en: `Together with Uzakon and Zumiko, he woke up at the edge of a forest, near a beach saved by an elderly from drowning. He doesn't remember anything but he had a feeling his name is Korazu. Along the way, he found out he felt connected with Uzakon and Zumiko, also Vesnea which was also saved by the elderly. `,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `brave, courageous, determined`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `friends stayed brave`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `often times faking his gentle heart`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `sometimes he hides his fear even if he is trembling`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Korazu is a half-cat, half-bird creature. Yellow fur adorning his body with one obvious tuft of fur on the tip of his left ear. His forehead has a sun mark and his tail is a bird tail. He also got a long tuft under his right ear, tidily secured with a hair band. Beside those, he also got a pair of bird wings.
+        
+        He wore a yellow neckband with a sun pendant on his neck and a orange ribbon on his right foreleg. Both the neckband and ribbon aren't real accessories as he was born with it and they can be missing when he lose his sense of self. Like Uzakon and Zumiko, he has a triangle mark near his left eye. Although his mark is on the upper of his eye. `,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Levitation: Celestial energy grants Korazu the ability of levitation.",

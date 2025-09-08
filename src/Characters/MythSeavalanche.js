@@ -9,11 +9,7 @@ const MythSeavalanche = {
     profilePicture2: pfpMythSeavalanche,
     name: "Seavalanche",
     alternateName: "(aka Myth Seavalanche)",
-    nameMeaning: {
-        en: "Sea + Avalanche. Calm and Powerful.",
-        jp: "海 (Sea) + 雪崩 (Avalanche)。静かでありながら力強い存在。",
-    },
-    gender: { en: "Female ♀", jp: "女性♀" },
+    gender: { en: "Female ♀", jp: "女性 ♀" },
     genderColor: "Female",
     species: { en: "Fox-cat creature", jp: "キツネとネコの混ざった生き物" },
     height: { en: "1.4 m", jp: "1.4メートル" },
@@ -21,8 +17,48 @@ const MythSeavalanche = {
     createdDate: { en: "6 January 2025", jp: "2025年1月6日" },
     attributes: ["Aether", "Nature", "Magical"],
     bio: {
-        en: "It is said that the world was incredibly peaceful when they existed. The creature was seen as pure, bright, powerful, intelligent, and kind. No one knows the exact appearance of the Myth Seavalanche.",
-        jp: "彼女が存在していた時代、世界は非常に平和だったと言われている。その存在は純粋で、輝きに満ち、力強く、知的で、優しいと称えられていた。Myth Seavalancheの正確な姿を知る者はいない。",
+        en: `Seavalanche is a white fox-cat creature with heterochromatic eyes, wore a golden necklace that has a gold stylized S-shaped pendant with a small heart attachment below it, matching her golden halo-like aether power concentrated on her back.
+
+        It is said that the world was incredibly peaceful when she existed. Seavalanche was seen as pure, bright, powerful, intelligent, and kind. But due to unknown factors, no one knows the exact appearance of the Myth Seavalanche anymore.`,
+        jp: ``,
+    },
+    nameMeaning: {
+        en: "A combination of 'sea' and 'avalanche' meaning calm, deep, flowing, silent turbulence, and powerful.",
+        jp: "",
+    },
+    lifeBackground: {
+        en: `Seavalanche was a ruler of an unknown past in her world. Until someday, she somehow was overwhelmed by many unknown factors that ended up pressuring her to retreat. In her own non-physical abode, she stayed and tried to recover her energy.
+        
+        At some point in her stay, she decided to split her energies into five and let them explore in her stead, which then she realized it will result in her fainting and fell unconscious for an undetermined time. Fate says she will wake up when her fragments needed her the most.`,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `determined, kind, cheery`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `peace, kindness, honestly, loyalty`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `too self-reliant, self-doubts, priority for others`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `panic attack whenever she can't solve things`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Seavalanche is a fully white fox-cat creature with a light blue-tipped long slender tail. She has heterochromatic eyes, green on the right, yellow on the left. Her eyelashes is quite prominent with her already huge eyes in contrast to her small pink nose.
+
+        She wore a golden elongated oval ring chain necklace that has a gold stylized S-shaped pendant (also symbolized infinity) with a small heart attachment below it, matching her golden halo-like aether power concentrated on her back.
+
+        She also wore an almost transparent pink piece of silk tulle fabric shaped like a bowtie with a trailing fabric on her left upper-arm. Under her left ear, she wore a pink earring that doesn't puncture her ear at all using a heart-shaped clamp and it features a pink tassle at the end of it. Her hands are four digits paws, while her feet are three digits paws, both have paw pads on it.`,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
     },
     abilities: {
         en: [
@@ -68,14 +104,14 @@ const MythSeavalanche = {
             caption: { en: "Seavalanche profile at an angle.", jp: "斜めから見た神話Seavalancheの横顔。" }
         },
     ],
-        giftarts: [
+    giftarts: [
         {
             src: "",
             title: "",
             caption: { en: "", jp: "" }
         },
     ],
-        commarts: [
+    commarts: [
         {
             src: "",
             title: "",

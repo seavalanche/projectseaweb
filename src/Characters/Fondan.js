@@ -22,6 +22,36 @@ const Fondan = {
         en: "Fondan is a wise anthromorphic wolf with three claws on his hands. His brown fur is rough and unkempt. He has a pair of long white ears and usually wore a white wizard pointy hat and a pair of white half-rim glasses. Fondan also carries a thick spell book that helped to increase his mental prowess. He usually talks in riddles, claimed to know everything in the world.",
         jp: "Fondanは三本の爪を持つ賢い人型のオオカミで、茶色い毛は荒く、手入れされていない。長い白い耳があり、白いとんがり帽子と白いハーフリム眼鏡をかけているのが特徴。厚い魔法書を常に携えており、それが彼の知力をさらに高めている。彼はしばしば謎めいた話し方をし、自分は世界のすべてを知っていると主張している。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `wise, loyal`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `new knowledge`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `idealistic`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `doesn't really think about anything else other than learning new things`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Fondan is an anthromorphic wolf that has rough and unkempt fur from head to toe. He wears a pair of white half-rim glasses covering his always droopy eyes. He has a pair of long white ears that is usually covered by a white wizard pointy hat, contrasting his mostly brown fur.
+
+        Even if his hands are ending in sharp claws, he always brought his brown thick spell book wherever he go. His tail usually lay low like he doesn't have energy to sway it.`,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Unfazed: Fondan's inner ability to be unaffected by emotional attacks. He is always focused to the current situation and his mind stay sharp.",
@@ -56,14 +86,14 @@ const Fondan = {
             caption: { en: "Pretty cool Fondan pose with his white shirt and black tie.", jp: "白いシャツと黒いネクタイを着た、かっこいいFondanのポーズ。" }
         },
     ],
-        giftarts: [
+    giftarts: [
         {
             src: "",
             title: "",
             caption: { en: "", jp: "" }
         },
     ],
-        commarts: [
+    commarts: [
         {
             src: "",
             title: "",

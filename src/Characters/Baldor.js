@@ -21,6 +21,36 @@ const Baldor = {
         en: "Baldor is a huge rock shaped like a big wall, composed of Basalt exterior with granite reinforcements and sandstone interior. Don't mess with him because even as huge and heavy as he is, he still can move quite fast with his two pillar-like arms beside him. He is very determined to outlast everything, even if hundreds of attackers fight him alone. With his root rocks, he also can't be toppled over by anyone except intentionally by himself.",
         jp: "Baldorは大きな壁のような形をした巨大な岩のクリーチャーで、外側は玄武岩、内部は花崗岩で補強され、中心には砂岩が使われている。その巨体と重量にもかかわらず、両脇の柱のような腕を使って素早く動くことができる。何百人もの敵に囲まれても耐え抜く覚悟を持っており、根のように地中に繋がった岩によって、自分の意思以外では倒されることはない。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `determined`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `the validation of being useful`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `stubborn, overconfidence`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `stands firm despite anything`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `A huge rock creature shaped like a big wall. Two round eyes visible on top of the 5 meters body, it's as wide as 3 meters and as thick as 2 meters. There are two burly hands on the side of the wall, some vertical reinforcements as the makeshift legs on both left and right side, and roots below him for added support. The roots consists of rocks tied with tree roots.
+        
+        The body is a giant rock composed of a combination of basalt exterior with granite reinforcements, while the interior is composed of sandstone. Basalt is extremely tough and dense, likewise with granite which is also resistant to erosion. Sandstone inner structure provides unyielding defense from impacts.`,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Natural Heal: Baldor's rock roots always sap energy from the soil whenever he is disengaged from combats, recovering his stamina and health in the process.",
@@ -52,14 +82,14 @@ const Baldor = {
             caption: { en: "The original Baldor reference sheet.", jp: "Baldorのオリジナル設定資料。" }
         },
     ],
-        giftarts: [
+    giftarts: [
         {
             src: "",
             title: "",
             caption: { en: "", jp: "" }
         },
     ],
-        commarts: [
+    commarts: [
         {
             src: "",
             title: "",

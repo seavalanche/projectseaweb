@@ -10,7 +10,7 @@ const Sarchie = {
         en: "Sachie (Japanese: happiness, blessed), archie (German: truly brave).",
         jp: "幸恵（しあわせ・祝福）とドイツ語の「アーチー」（真の勇敢さ）を組み合わせた名前。",
     },
-    gender: { en: "Female ♀", jp: "女性♀" },
+    gender: { en: "Female ♀", jp: "女性 ♀" },
     genderColor: "Female",
     species: { en: "Bird creature", jp: "鳥のようなクリーチャー" },
     height: { en: "0.3 m", jp: "0.3メートル" },
@@ -20,6 +20,36 @@ const Sarchie = {
     bio: {
         en: "Sarchie is a small, lightweight, hummingbird-like creature with incredible agility. She has a long, slender, and pointed beak. Two short head streamers extend from the top of her head, while two longer tail streamers flow from her bird-like tail, both ending in delicate heart shapes. Her beautiful singing has the power to heal an entire village, yet she can also unleash a piercing screech to disorient her opponents.",
         jp: "Sarchieは非常に軽くて小さなハチドリのようなクリーチャーで、驚異的な敏捷性を持つ。細長く尖ったくちばしを持ち、頭からは短いストリーマーが2本伸びており、尾からも2本の長いストリーマーが流れている。その両方は繊細なハート型で終わっている。彼女の美しい歌声には村全体を癒す力があるが、鋭い叫びを放って敵を混乱させることもできる。",
+    },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `determined`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `happiness for everyone`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `timid`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `humming whenever she is alone`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Sarchie is a small, lightweight, hummingbird-like creature with incredible agility. She has a long, slender, and pointed beak. Two short head streamers extend from the top of her head, while two longer tail streamers flow from her bird-like tail, both ending in delicate heart shapes.
+        
+        Her feathers are mostly green and light blue, including her streamers. Sarchie has almond-shaped blue eyes that usually are closed whenever she hums happily by herself.`,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
     },
     abilities: {
         en: [

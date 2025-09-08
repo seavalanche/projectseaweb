@@ -31,6 +31,34 @@ const Seavalanche = {
         en: "It is said that when Vesnea reached the power of the Myth Seavalanche, she will look more elegant and powerful. She gained a part of Seava’s power in dire times.",
         jp: "Vesneaが神話のSeavalancheの力を得たとき、彼女はより優雅で力強い姿になると言われている。彼女は危機の時にセアヴァの力の一部を手に入れた。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: ``,
+        jp: ``,
+    },
+    personalityValues: {
+        en: ``,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: ``,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: ``,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: ``,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Levitation: Seavalanche uses her psychic power to levitate.",

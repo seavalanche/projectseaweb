@@ -1,5 +1,6 @@
 import MythSeavalanche from './MythSeavalanche';
 import Seavalanche from './Seavalanche';
+import Seravyn from './Seravyn';
 import Seava from './Seava';
 import SeavaTM from './Seava Tempest Mode';
 import SeavaZM from './Seava Zephyr Mode';
@@ -24,6 +25,7 @@ import Avior from './Avior';
 const characters = [
     MythSeavalanche,
     Seavalanche,
+    Seravyn,
     Seava,
     SeavaTM,
     SeavaZM,

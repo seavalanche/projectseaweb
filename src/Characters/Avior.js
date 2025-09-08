@@ -21,6 +21,34 @@ const Avior = {
         en: "He is a green bird with orange streaks all over his body. He has green vines that looks like streamers that he can control to do whatever he wants. As the largest, he is both the largest in size and spirit. Very easygoing and even laughs off dangers. Usually not listening to Tharos, but still respects his orders. To him, Tharos is more of a thoughtful friend than a boss. As the eldest of the team, he usually will take responsibility of the team's wellbeing despite not being the leader.",
         jp: "",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: ``,
+        jp: ``,
+    },
+    personalityValues: {
+        en: ``,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: ``,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: ``,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: ``,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
 

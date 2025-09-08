@@ -21,6 +21,34 @@ const Deimev = {
         en: "Deimev is a big purple bull creature that has wispy endings instead of legs. He floats around with two purple/silver rings behind him called the Judgment Gale. His head has two horns and a big ring accessory on his left ear. He upholds justice no matter the circumstances using his Judgment Gale.",
         jp: "Deimevは、足の代わりにふわふわした端を持つ大きな紫色の牛のようなクリーチャー。彼は「ジャッジメントゲイル」と呼ばれる2つの紫と銀のリングを背後に浮かせながら移動する。彼の頭には2本の角と左耳に大きなリングのアクセサリーがある。どんな状況でも「ジャッジメントゲイル」を使って正義を貫く。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `Upholds justice no matter the circumstances, reserved`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `justice`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `stubborn, too rigid (principle)`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `always wants to have a solo battle despite situation`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Deimev is a big purple bull creature that has wispy endings instead of legs. He floats around like a spirit attribute holder does. Two horns sprouted on his head, with a big ring accessory hanging on his left ear. There are two rings called the Judgment Gale that float behind Deimev. The rings are purple on the inside, and silver on the outside where the blade is. It can spin at high speeds, slicing any opponent Deimev deemed necessary.`,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Judgment Recoil: If an attack is justified or hit the target, Deimev got a temporary buff to his strength. On the other hand, if the attack is unjustified or missed the target, Deimev got a temporary debuff to his strength.",

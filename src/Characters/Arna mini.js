@@ -22,6 +22,34 @@ const MiniArna = {
         en: "Three Mini Arnas usually accompany Arna. While the three of them look identical, they are separate beings with their own thoughts and personalities. One thing in common with the three is that they are all agreed with protecting Arna from danger. Despite Arna's frequent protests, the three Mini Arnas will endure any injuries if it means Arna will be safe.",
         jp: "3体のMini Arnaは、通常Arnaに付き添っています。見た目は全く同じですが、それぞれが独立した存在であり、異なる思考や個性を持っています。共通しているのは、全員がArnaを危険から守ることに強く同意している点です。Arnaがどれだけ抗議しても、彼女を守るためなら、Mini Arnaたちは自ら傷つくことも厭いません。",
     },
+    lifeBackground: {
+        en: ``,
+        jp: ``,
+    },
+    personalityTraits: {
+        en: `bold`,
+        jp: ``,
+    },
+    personalityValues: {
+        en: `Arna being safe, winning anything`,
+        jp: ``,
+    },
+    personalityFlaws: {
+        en: `impulsive`,
+        jp: ``,
+    },
+    personalityQuirks: {
+        en: `doesn't overthink anything, just do it`,
+        jp: ``,
+    },
+    bodyShapeDescription: {
+        en: `Mini Arna's bunny body is completely covered with blood red fur, unlike Arna's brilliant white fur. In addition to that, their ears ended in jagged-edge with the same color to their body. Their face are adorned with brilliant white eyes, coupled with their big bunny teeth. At the end of their body, there is a short pink round tail and powerful bunny legs.`,
+        jp: ``,
+    },
+    trivia: {
+        en: ``,
+        jp: ``,
+    },
     abilities: {
         en: [
             "Endless Block: The Mini Arnas have special reflexes that always move to block an attack to protect Arna even if it means it will hurt them.",
@@ -54,14 +82,14 @@ const MiniArna = {
             caption: { en: "Arna and her three Mini Arnas.", jp: "Arnaと3匹のミニArna。" }
         },
     ],
-        giftarts: [
+    giftarts: [
         {
             src: "",
             title: "",
             caption: { en: "", jp: "" }
         },
     ],
-        commarts: [
+    commarts: [
         {
             src: "",
             title: "",
