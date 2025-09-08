@@ -37,7 +37,7 @@ function CharacterCard({ character }) {
                     </div>
                 </div>
             )}
-            <div className={`character-card ${selectedArt ? 'preview-open' : ''}`} >
+            <div className={`character-card ${selectedArt ? 'preview-open' : ''} ${activeTab ? 'opened' : ''}`} >
                 <div style={{ height: '80px', marginTop: '-80px', visibility: 'hidden' }}></div>
                 {/* Multiple Tabs! */}
                 <div className='charcard-tab-wrapper'>

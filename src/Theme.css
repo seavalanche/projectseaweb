@@ -38,14 +38,14 @@ html {
   line-height: 20pt;
   text-decoration: initial;
   font-weight: 300;
-  background-image: url("./Assets/Project Sea Web/CharInfo/VesBG_1.webp");
+  background-image: url("./Assets/Common/VesBG_1b.webp");
   background-size: 12%;
 }
 html[data-theme="dark"] {
-  background-image: url("./Assets/Project Sea Web/CharInfo/VesBG_2.webp");
+  background-image: url("./Assets/Common/VesBG_2.webp");
 }
 html[data-theme="star"] {
-  background-image: url("./Assets/Project Sea Web/CharInfo/VesBG_3.webp");
+  background-image: url("./Assets/Common/VesBG_3.webp");
 }
 .bigtitle {
   font-family: "Baskervville", "Noto Serif JP", serif;
