@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.18d32b9a.css",
-    "main.js": "/projectseaweb/static/js/main.a338d97c.js",
+    "main.css": "/projectseaweb/static/css/main.0f02ce42.css",
+    "main.js": "/projectseaweb/static/js/main.60790a6c.js",
     "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
     "static/js/86.9d983612.chunk.js": "/projectseaweb/static/js/86.9d983612.chunk.js",
     "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
@@ -245,7 +245,6 @@
     "static/media/About-Icon-Instagram-Star.svg": "/projectseaweb/static/media/About-Icon-Instagram-Star.2d408b5ffc6030393125.svg",
     "static/media/VesBG_2.webp": "/projectseaweb/static/media/VesBG_2.7744be6b62d168f42e33.webp",
     "static/media/S145 - Zumiko.webp": "/projectseaweb/static/media/S145 - Zumiko.216a1f38875a9fe13226.webp",
-    "static/media/VesBG_1.webp": "/projectseaweb/static/media/VesBG_1.e3926c46173ca9e5d14d.webp",
     "static/media/VesBG_3.webp": "/projectseaweb/static/media/VesBG_3.3b5bf7de01b2b39ba04b.webp",
     "static/media/ResetBtnDarkActive.svg": "/projectseaweb/static/media/ResetBtnDarkActive.538365ca6c9aa9abb1b8.svg",
     "static/media/ResetBtnLightActive.svg": "/projectseaweb/static/media/ResetBtnLightActive.8d0ee15f767ad3e0aa50.svg",
@@ -262,6 +261,7 @@
     "static/media/About-Icon-Twitter-Star.svg": "/projectseaweb/static/media/About-Icon-Twitter-Star.3b296413294de9c93ed3.svg",
     "static/media/SearchingMyself.md": "/projectseaweb/static/media/SearchingMyself.a64b4f28fc7b4835c083.md",
     "static/media/KorazuSun.svg": "/projectseaweb/static/media/KorazuSun.8d3f9935c8c5ccc2ddfb.svg",
+    "static/media/VesBG_1b.webp": "/projectseaweb/static/media/VesBG_1b.86d33ec18ae3ca6aeb68.webp",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.9fb706875a8529cba24c.md",
     "static/media/intro.md": "/projectseaweb/static/media/intro.fe2d07c3b8f35625aba1.md",
     "static/media/SidebarBtnStarClose.svg": "/projectseaweb/static/media/SidebarBtnStarClose.8db6c38c4fdbf870a580.svg",
@@ -293,12 +293,12 @@
     "static/media/Tidy-er-Dark.svg": "/projectseaweb/static/media/Tidy-er-Dark.49a885caeb277d6e00e9.svg",
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
-    "main.18d32b9a.css.map": "/projectseaweb/static/css/main.18d32b9a.css.map",
-    "main.a338d97c.js.map": "/projectseaweb/static/js/main.a338d97c.js.map",
+    "main.0f02ce42.css.map": "/projectseaweb/static/css/main.0f02ce42.css.map",
+    "main.60790a6c.js.map": "/projectseaweb/static/js/main.60790a6c.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18d32b9a.css",
-    "static/js/main.a338d97c.js"
+    "static/css/main.0f02ce42.css",
+    "static/js/main.60790a6c.js"
   ]
 }
