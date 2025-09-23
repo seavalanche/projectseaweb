@@ -11,6 +11,7 @@ import ScrollToTopButton from './Components/ScrollToTopButton';
 import Homepage from './Pages/Homepage.js'
 import Projects from './Pages/Projects.js'
 import Characters from './Pages/Characters.js'
+import AttributePage from './Pages/AttributePage.js'
 import CharInfo from './Pages/CharInfo.js'
 import ProjectSeaWeb from './Pages/ProjectSeaWeb.js'
 // import Commissions from './Pages/Commissions.js'
@@ -56,6 +57,7 @@ function App() {
         {/* Art Page */}
         <Route path='/Characters' exact element={<Characters />} />
         <Route path='/CharInfo' exact element={<CharInfo />} />
+        <Route path='/Attributes' exact element={<AttributePage />} />
         <Route path='/Art' exact element={<ArtPage />} />
         <Route path='/Story' exact element={<Story />} />
         <Route path='/Poem' exact element={<Poem />} />

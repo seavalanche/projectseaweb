@@ -16,6 +16,7 @@ const GamePage = () => {
                 <ul>
                     <div className='listseparator first'>{t("artpage.separator1")}</div>
                     <li><Link to='/Characters' className='li'>{t("artpage.chars")}</Link></li>
+                    <li><Link to='/Attributes' className='li'>{t("artpage.attributes")}</Link></li>
                     <li><Link to='/Story' className='li'>{t("artpage.story")}</Link></li>
                     <li><Link to='/Poem' className='li'>{t("artpage.poem")}</Link></li>
                     <li><Link to='/Poem/UmbreonJourney' className='li'>{t("artpage.umbreonjourney")}</Link></li>

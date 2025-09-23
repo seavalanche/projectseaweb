@@ -1,0 +1,594 @@
+* {
+  --AP-bg-A-1: #7f7f7f;
+  --AP-bg-A-2: #595959;
+  --AP-bg-B-1: #949494;
+  --AP-bg-B-2: #7f7f7f;
+  --AP-color-white: var(--attribute-light);
+  --AP-color-black: var(--attribute-void);
+
+  --AP-table-gap: calc(var(--AP-cell-size) / 2);
+
+  --AP-cell-size: 40px;
+  --AP-cell-width: var(--AP-cell-size);
+  --AP-cell-height: calc(var(--AP-cell-size) - var(--AP-cell-padding-top));
+  --AP-cell-height: var(--AP-cell-size);
+  --AP-cell-padding-top: 5px;
+  --AP-text-indent: var(--AP-cell-padding-top);
+  --AP-cell-border-size-1: 3px;
+  --AP-cell-border-size-2: calc(var(--AP-cell-border-size-1) / 2);
+  --AP-cell-border-color: var(--AP-color-black);
+  --AP-fullborder: var(--AP-cell-border-size-1) solid
+    var(--AP-cell-border-color);
+  --AP-halfborder: var(--AP-cell-border-size-2) solid
+    var(--AP-cell-border-color);
+  --AP-cell-A4C-color: var(--AP-color-white);
+
+  --AP-defending-1: #8ab833;
+  --AP-defending-2: var(--AP-color-black);
+  --AP-attacking-1: #c00000;
+  --AP-attacking-2: var(--AP-color-white);
+  --AP-cell-plus-bg: #c6efce;
+  --AP-cell-plus-color: #006000;
+  --AP-cell-minus-bg: #ffc7ce;
+  --AP-cell-minus-color: #940000;
+  --AP-celestial-1: #b9ad8d;
+  --AP-celestial-2: #d2cab6;
+  --AP-celestial-3: #2e2c27;
+  --AP-natural-1: #8ead8f;
+  --AP-natural-2: #d6e2dc;
+  --AP-natural-3: #242a25;
+  --AP-mental-1: #d6a9d1;
+  --AP-mental-2: #f0d8ee;
+  --AP-mental-3: #251f24;
+
+  --AP-cell-wanted-size: 60px;
+  --AP-cell-border-top: var(--AP-cell-border-size-1);
+  --AP-cell-border-left: var(--AP-cell-border-size-1);
+  --AP-cell-border-right: var(--AP-cell-border-size-1);
+  --AP-cell-border-bottom: var(--AP-cell-border-size-1);
+  --AP-cell-width: calc(
+    var(--AP-cell-wanted-size) - var(--AP-cell-border-left) -
+      var(--AP-cell-border-right)
+  );
+  --AP-cell-height: calc(
+    var(--AP-cell-wanted-size) - var(--AP-cell-border-top) -
+      var(--AP-cell-border-bottom)
+  );
+}
+.AP-wrapper-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+.AP-wrapper-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.AP-wrapper-A {
+  display: grid;
+  grid-template-columns: [first] auto [second] auto [end];
+  padding: var(--AP-table-gap);
+  gap: var(--AP-table-gap);
+  background-color: var(--AP-bg-A-1);
+}
+.AP-wrapper-A1 {
+  display: flex;
+  flex-direction: column;
+}
+.AP-wrapper-A1-part {
+  display: flex;
+  flex-direction: row;
+}
+.AP-wrapper-A1-defending {
+  display: flex;
+  flex-direction: column;
+}
+.AP-wrapper-A1-defending-labels {
+  display: flex;
+  flex-direction: row;
+}
+.AP-wrapper-A1-attacking {
+  display: flex;
+  flex-direction: row;
+}
+.AP-wrapper-A1-attacking-labels {
+  display: flex;
+  flex-direction: column;
+}
+.AP-wrapper-A1-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* width: calc(var(--AP-cell-width) * 3); */
+  width: calc(var(--AP-cell-wanted-size) * 3);
+}
+.AP-title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: var(--AP-cell-height);
+  color: var(--AP-color-white);
+}
+.AP-subtitle {
+  color: var(--AP-color-white);
+  position: absolute;
+  /* margin-top: calc(var(--AP-cell-height) * 5 / 2);
+  margin-left: calc(var(--AP-cell-width) * 6 / 2); */
+  margin-top: calc(var(--AP-cell-wanted-size) * 5 / 2);
+  margin-left: calc(var(--AP-cell-wanted-size) * 6 / 2);
+  transform: rotate(-90deg);
+  text-indent: var(--AP-cell-padding-top);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: calc(var(--AP-cell-width) * 5);
+  height: var(--AP-cell-height); */
+  width: calc(var(--AP-cell-wanted-size) * 5);
+  height: var(--AP-cell-wanted-size);
+}
+.AP-wrapper-A2 {
+  display: flex;
+  flex-direction: column;
+}
+.AP-wrapper-A2-theme-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: var(--AP-table-gap);
+}
+.AP-wrapper-A2-theme {
+  display: flex;
+  flex-direction: column;
+}
+.AP-wrapper-A2-labels {
+  display: flex;
+  flex-direction: row;
+}
+.AP-wrapper-A2-colors {
+  display: flex;
+  flex-direction: row;
+}
+.AP-wrapper-A3 {
+  display: flex;
+  flex-direction: row;
+}
+.AP-wrapper-A3-theme-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: var(--AP-table-gap);
+}
+.AP-wrapper-A3-theme {
+  display: flex;
+  flex-direction: row;
+}
+.AP-wrapper-A3-labels {
+  display: flex;
+  flex-direction: column;
+}
+.AP-wrapper-A3-colors {
+  display: flex;
+  flex-direction: column;
+}
+.AP-wrapper-A4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--AP-table-gap);
+  /* width: calc(var(--AP-cell-width) * 15); */
+  width: calc(var(--AP-cell-wanted-size) * 15);
+}
+.AP-wrapper-A4-cell-A {
+  display: flex;
+  flex-wrap: wrap;
+}
+.AP-wrapper-A4-cell-B {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14pt;
+  line-height: 0.9rem;
+}
+.AP-wrapper-A4-cell-C {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12pt;
+  line-height: 0.7rem;
+}
+.AP-A4-C-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: var(--AP-cell-height);
+  background-color: var(--AP-cell-A4C-color);
+}
+.AP-A4-1,
+.AP-A4-7,
+.AP-A4-3,
+.AP-A4-9 {
+  width: calc(var(--AP-cell-width) * 4 - var(--AP-cell-border-size-2));
+  height: calc(var(--AP-cell-height) * 4 - var(--AP-cell-border-size-2));
+  width: calc(var(--AP-cell-wanted-size) * 4);
+  height: calc(var(--AP-cell-wanted-size) * 4);
+  /* width: calc(var(--AP-cell-width) * 4);
+  height: calc(var(--AP-cell-height) * 4); */
+}
+.AP-A4-2,
+.AP-A4-8 {
+  width: calc(var(--AP-cell-width) * 6 - var(--AP-cell-border-size-2));
+  height: calc(var(--AP-cell-height) * 4 - var(--AP-cell-border-size-2));
+  width: calc(var(--AP-cell-wanted-size) * 6);
+  height: calc(var(--AP-cell-wanted-size) * 4);
+    /* width: calc(var(--AP-cell-width) * 6);
+  height: calc(var(--AP-cell-height) * 4); */
+}
+.AP-A4-4,
+.AP-A4-6 {
+  width: calc(var(--AP-cell-width) * 4 - var(--AP-cell-border-size-2));
+  height: calc(var(--AP-cell-height) * 6 - var(--AP-cell-border-size-2));
+  width: calc(var(--AP-cell-wanted-size) * 4);
+  height: calc(var(--AP-cell-wanted-size) * 6);
+    /* width: calc(var(--AP-cell-width) * 4);
+  height: calc(var(--AP-cell-height) * 6); */
+}
+.AP-A4-5 {
+  width: calc(var(--AP-cell-width) * 6 - var(--AP-cell-border-size-2));
+  height: calc(var(--AP-cell-height) * 6 - var(--AP-cell-border-size-2));
+  width: calc(var(--AP-cell-wanted-size) * 6);
+  height: calc(var(--AP-cell-wanted-size) * 6);
+    /* width: calc(var(--AP-cell-width) * 6);
+  height: calc(var(--AP-cell-height) * 6); */
+}
+.AP-wrapper-A5 {
+  grid-column: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  font-size: 12pt;
+  gap: 0;
+}
+.AP-wrapper-A5 .AP-table-cell {
+  height: calc(var(--AP-cell-height) * 0.5);
+  /* height: calc(var(--AP-cell-wanted-size) * 0.5); */
+}
+.AP-wrapper-A5-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: var(--AP-cell-padding-top);
+  /* height: calc(var(--AP-cell-height) * 0.5); */
+  height: calc(var(--AP-cell-wanted-size) * 0.5);
+}
+.AP-wrapper-B {
+  display: grid;
+  grid-template-columns: [first] auto [second] auto [end];
+  padding: var(--AP-table-gap);
+  gap: var(--AP-table-gap);
+  background-color: var(--AP-bg-B-1);
+}
+.AP-table-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--AP-cell-width) - var(--AP-cell-border-size-1) * 2);
+  height: calc(var(--AP-cell-height) - var(--AP-cell-border-size-1) * 2);
+  border: var(--AP-cell-border-size-1) solid var(--AP-cell-border-color);
+  width: var(--AP-cell-width);
+  height: var(--AP-cell-height);
+  /* width: var(--AP-cell-wanted-size);
+  height: var(--AP-cell-wanted-size); */
+}
+.AP-cell-1 {
+  --AP-cell-border-right: var(--AP-cell-border-size-2);
+  --AP-cell-border-bottom: var(--AP-cell-border-size-2);
+  border-right: var(--AP-halfborder);
+  border-bottom: var(--AP-halfborder);
+  /* width: calc(
+    var(--AP-cell-width) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  );
+  height: calc(
+    var(--AP-cell-height) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  ); */
+}
+.AP-cell-2 {
+  border-left: var(--AP-halfborder);
+  border-right: var(--AP-halfborder);
+  border-bottom: var(--AP-halfborder);
+  /* width: calc(var(--AP-cell-width) - var(--AP-cell-border-size-1));
+  height: calc(
+    var(--AP-cell-height) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  ); */
+  --AP-cell-border-left: var(--AP-cell-border-size-2);
+  --AP-cell-border-right: var(--AP-cell-border-size-2);
+  --AP-cell-border-bottom: var(--AP-cell-border-size-2);
+}
+.AP-cell-3 {
+  border-left: var(--AP-halfborder);
+  border-bottom: var(--AP-halfborder);
+  /* width: calc(
+    var(--AP-cell-width) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  );
+  height: calc(
+    var(--AP-cell-height) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  ); */
+  --AP-cell-border-left: var(--AP-cell-border-size-2);
+  --AP-cell-border-bottom: var(--AP-cell-border-size-2);
+}
+.AP-cell-4 {
+  border-top: var(--AP-halfborder);
+  border-right: var(--AP-halfborder);
+  border-bottom: var(--AP-halfborder);
+  /* width: calc(
+    var(--AP-cell-width) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  );
+  height: calc(var(--AP-cell-height) - var(--AP-cell-border-size-1)); */
+  --AP-cell-border-top: var(--AP-cell-border-size-2);
+  --AP-cell-border-right: var(--AP-cell-border-size-2);
+  --AP-cell-border-bottom: var(--AP-cell-border-size-2);
+}
+.AP-cell-5 {
+  border: var(--AP-halfborder);
+  /* width: calc(var(--AP-cell-width) - var(--AP-cell-border-size-1));
+  height: calc(var(--AP-cell-height) - var(--AP-cell-border-size-1)); */
+
+  --AP-cell-border-top: var(--AP-cell-border-size-2);
+  --AP-cell-border-left: var(--AP-cell-border-size-2);
+  --AP-cell-border-right: var(--AP-cell-border-size-2);
+  --AP-cell-border-bottom: var(--AP-cell-border-size-2);
+}
+.AP-cell-6 {
+  border-top: var(--AP-halfborder);
+  border-left: var(--AP-halfborder);
+  border-bottom: var(--AP-halfborder);
+  /* width: calc(
+    var(--AP-cell-width) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  );
+  height: calc(var(--AP-cell-height) - var(--AP-cell-border-size-1)); */
+  --AP-cell-border-top: var(--AP-cell-border-size-2);
+  --AP-cell-border-left: var(--AP-cell-border-size-2);
+  --AP-cell-border-bottom: var(--AP-cell-border-size-2);
+}
+.AP-cell-7 {
+  border-top: var(--AP-halfborder);
+  border-right: var(--AP-halfborder);
+  /* width: calc(
+    var(--AP-cell-width) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  );
+  height: calc(
+    var(--AP-cell-height) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  ); */
+  --AP-cell-border-top: var(--AP-cell-border-size-2);
+  --AP-cell-border-right: var(--AP-cell-border-size-2);
+}
+.AP-cell-8 {
+  border-top: var(--AP-halfborder);
+  border-left: var(--AP-halfborder);
+  border-right: var(--AP-halfborder);
+  /* width: calc(var(--AP-cell-width) - var(--AP-cell-border-size-1));
+  height: calc(
+    var(--AP-cell-height) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  ); */
+  --AP-cell-border-top: var(--AP-cell-border-size-2);
+  --AP-cell-border-left: var(--AP-cell-border-size-2);
+  --AP-cell-border-right: var(--AP-cell-border-size-2);
+}
+.AP-cell-9 {
+  border-top: var(--AP-halfborder);
+  border-left: var(--AP-halfborder);
+  /* width: calc(
+    var(--AP-cell-width) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  );
+  height: calc(
+    var(--AP-cell-height) - var(--AP-cell-border-size-1) -
+      var(--AP-cell-border-size-2)
+  ); */
+  --AP-cell-border-top: var(--AP-cell-border-size-2);
+  --AP-cell-border-left: var(--AP-cell-border-size-2);
+}
+.AP-cell-A1 {
+  width: var(--AP-cell-width);
+  height: var(--AP-cell-height);
+  /* width: var(--AP-cell-wanted-size);
+  height: var(--AP-cell-wanted-size); */
+}
+.AP-cell-A2 {
+  width: var(--AP-cell-width);
+  height: var(--AP-cell-height);
+  /* width: var(--AP-cell-wanted-size);
+  height: var(--AP-cell-wanted-size); */
+}
+.AP-cell-A3 {
+  width: var(--AP-cell-width);
+  height: var(--AP-cell-height);
+  /* width: var(--AP-cell-wanted-size);
+  height: var(--AP-cell-wanted-size); */
+}
+.AP-cell-B1 {
+  width: var(--AP-cell-width);
+  height: var(--AP-cell-height);
+  /* width: var(--AP-cell-wanted-size);
+  height: var(--AP-cell-wanted-size); */
+}
+.AP-cell-B2 {
+  width: var(--AP-cell-width);
+  height: var(--AP-cell-height);
+  /* width: var(--AP-cell-wanted-size);
+  height: var(--AP-cell-wanted-size); */
+}
+.AP-cell-B3 {
+  width: var(--AP-cell-width);
+  height: var(--AP-cell-height);
+  /* width: var(--AP-cell-wanted-size);
+  height: var(--AP-cell-wanted-size); */
+}
+.AP-cell-plus {
+  background-color: var(--AP-cell-plus-bg);
+  color: var(--AP-cell-plus-color);
+}
+.AP-cell-plus::before {
+  content: "+";
+}
+.AP-cell-minus {
+  background-color: var(--AP-cell-minus-bg);
+  color: var(--AP-cell-minus-color);
+}
+.AP-cell-minus::before {
+  content: "-";
+}
+.AP-aether {
+  background-color: var(--attribute-aether);
+}
+.AP-void {
+  background-color: var(--attribute-void);
+}
+.AP-light {
+  background-color: var(--attribute-light);
+}
+.AP-darkness {
+  background-color: var(--attribute-darkness);
+}
+.AP-fire {
+  background-color: var(--attribute-fire);
+}
+.AP-water {
+  background-color: var(--attribute-water);
+}
+.AP-nature {
+  background-color: var(--attribute-nature);
+}
+.AP-metal {
+  background-color: var(--attribute-metal);
+}
+.AP-electric {
+  background-color: var(--attribute-electric);
+}
+.AP-wind {
+  background-color: var(--attribute-wind);
+}
+.AP-magical {
+  background-color: var(--attribute-magical);
+}
+.AP-psionic {
+  background-color: var(--attribute-psionic);
+}
+.AP-spirit {
+  background-color: var(--attribute-spirit);
+}
+.AP-sound {
+  background-color: var(--attribute-sound);
+}
+
+.AP-celestial-2,
+.AP-natural-2,
+.AP-mental-2 {
+  width: var(--AP-cell-width);
+  height: calc(var(--AP-cell-height) * 3);
+  /* width: var(--AP-cell-wanted-size);
+  height: calc(var(--AP-cell-wanted-size) * 3); */
+}
+.AP-wrapper-A3-labels .AP-celestial-2,
+.AP-wrapper-A3-labels .AP-natural-2,
+.AP-wrapper-A3-labels .AP-mental-2 {
+  width: calc(var(--AP-cell-height) * 3);
+  height: calc(var(--AP-cell-width));
+  /* width: calc(var(--AP-cell-wanted-size) * 3);
+  height: var(--AP-cell-wanted-size); */
+}
+.AP-celestial-1 {
+  background-color: var(--AP-celestial-1);
+  color: var(--AP-celestial-3);
+}
+.AP-celestial-2 {
+  background-color: var(--AP-celestial-2);
+  color: var(--AP-celestial-3);
+}
+.AP-natural-1 {
+  background-color: var(--AP-natural-1);
+  color: var(--AP-natural-3);
+}
+.AP-natural-2 {
+  background-color: var(--AP-natural-2);
+  color: var(--AP-natural-3);
+}
+.AP-mental-1 {
+  background-color: var(--AP-mental-1);
+  color: var(--AP-mental-3);
+}
+.AP-mental-2 {
+  background-color: var(--AP-mental-2);
+  color: var(--AP-mental-3);
+}
+.AP-defending {
+  width: auto;
+  background-color: var(--AP-defending-1);
+  color: var(--AP-defending-2);
+}
+.AP-defending-1 {
+  width: calc(var(--AP-cell-width) * 3);
+  /* width: calc(var(--AP-cell-wanted-size) * 3); */
+}
+.AP-defending-2 {
+  width: auto;
+}
+.AP-attacking {
+  height: auto;
+  background-color: var(--AP-attacking-1);
+  color: var(--AP-attacking-2);
+}
+.AP-attacking-1 {
+  height: calc(var(--AP-cell-height) * 3);
+  /* height: calc(var(--AP-cell-wanted-size) * 3); */
+}
+.AP-attacking-2 {
+  height: auto;
+}
+.AP-icon {
+  width: calc(var(--AP-cell-width) * 2);
+  height: calc(var(--AP-cell-height) * 2);
+  /* width: calc(var(--AP-cell-wanted-size) * 2);
+  height: calc(var(--AP-cell-wanted-size) * 2); */
+}
+.AP-vertical-label {
+  transform: rotate(-90deg);
+  text-indent: var(--AP-cell-padding-top);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  min-width: calc(var(--AP-cell-width) * 3);
+  height: calc(var(--AP-cell-height) * 1);
+  /* min-width: calc(var(--AP-cell-wanted-size) * 3);
+  height: calc(var(--AP-cell-wanted-size) * 1); */
+}
+.AP-center-label {
+  text-indent: initial;
+  justify-content: center;
+}
+.AP-table-cell.AP-attacking .AP-vertical-label {
+  position: absolute;
+}
