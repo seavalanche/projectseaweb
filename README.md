@@ -10,7 +10,7 @@ https://seavalanche.wixsite.com/seava
 ## V2
 The second website that I created.
 I wrote it myself in ReactJS!
-https://seavalanche.github.io/
+https://seavalanche.github.io/v2-projectseaweb/
 ## V3
 This is the website!
 I also wrote it from scratch in ReactJS!
