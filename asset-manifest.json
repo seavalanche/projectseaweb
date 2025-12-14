@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/projectseaweb/static/css/main.d55a528d.css",
-    "main.js": "/projectseaweb/static/js/main.e0de131a.js",
-    "static/js/22.50aff300.chunk.js": "/projectseaweb/static/js/22.50aff300.chunk.js",
+    "main.js": "/projectseaweb/static/js/main.298857e0.js",
+    "static/js/176.f3faa440.chunk.js": "/projectseaweb/static/js/176.f3faa440.chunk.js",
     "static/js/86.9d983612.chunk.js": "/projectseaweb/static/js/86.9d983612.chunk.js",
-    "static/js/163.3cedb762.chunk.js": "/projectseaweb/static/js/163.3cedb762.chunk.js",
-    "static/js/281.f244e449.chunk.js": "/projectseaweb/static/js/281.f244e449.chunk.js",
+    "static/js/163.05981631.chunk.js": "/projectseaweb/static/js/163.05981631.chunk.js",
+    "static/js/525.a2ab7aeb.chunk.js": "/projectseaweb/static/js/525.a2ab7aeb.chunk.js",
+    "static/js/995.42463a82.chunk.js": "/projectseaweb/static/js/995.42463a82.chunk.js",
     "static/js/643.100650b7.chunk.js": "/projectseaweb/static/js/643.100650b7.chunk.js",
-    "static/js/972.432f9768.chunk.js": "/projectseaweb/static/js/972.432f9768.chunk.js",
+    "static/js/972.3097c056.chunk.js": "/projectseaweb/static/js/972.3097c056.chunk.js",
+    "static/js/630.70faef70.chunk.js": "/projectseaweb/static/js/630.70faef70.chunk.js",
     "static/js/184.f1273216.chunk.js": "/projectseaweb/static/js/184.f1273216.chunk.js",
     "static/js/374.d3d655b7.chunk.js": "/projectseaweb/static/js/374.d3d655b7.chunk.js",
     "static/js/223.51700e91.chunk.js": "/projectseaweb/static/js/223.51700e91.chunk.js",
@@ -231,7 +233,7 @@
     "static/media/FootbarLogoX2_DarkMode.png": "/projectseaweb/static/media/FootbarLogoX2_DarkMode.98b883d935850061edbb.png",
     "static/media/FootbarLogoX2_LightMode.png": "/projectseaweb/static/media/FootbarLogoX2_LightMode.295ffb037b4838574a8d.png",
     "static/media/10-DigitalArt-PixelArt.webp": "/projectseaweb/static/media/10-DigitalArt-PixelArt.5467ecbb3501b0876544.webp",
-    "static/media/chapter1.md": "/projectseaweb/static/media/chapter1.e73543ba43c773aa3d99.md",
+    "static/media/chapter1_old.md": "/projectseaweb/static/media/chapter1_old.e73543ba43c773aa3d99.md",
     "static/media/NavbarLogo-dark.png": "/projectseaweb/static/media/NavbarLogo-dark.3e7e5be72f18b386e907.png",
     "static/media/NavbarLogo-star.png": "/projectseaweb/static/media/NavbarLogo-star.66dadd4977a4ccb3063a.png",
     "static/media/NavbarLogo-pink2.png": "/projectseaweb/static/media/NavbarLogo-pink2.3e8c16d7cecf22e761c6.png",
@@ -262,7 +264,7 @@
     "static/media/SearchingMyself.md": "/projectseaweb/static/media/SearchingMyself.a64b4f28fc7b4835c083.md",
     "static/media/KorazuSun.svg": "/projectseaweb/static/media/KorazuSun.8d3f9935c8c5ccc2ddfb.svg",
     "static/media/VesBG_1b.webp": "/projectseaweb/static/media/VesBG_1b.86d33ec18ae3ca6aeb68.webp",
-    "static/media/prologue.md": "/projectseaweb/static/media/prologue.9fb706875a8529cba24c.md",
+    "static/media/prologue_old.md": "/projectseaweb/static/media/prologue_old.9fb706875a8529cba24c.md",
     "static/media/intro.md": "/projectseaweb/static/media/intro.fe2d07c3b8f35625aba1.md",
     "static/media/SidebarBtnStarClose.svg": "/projectseaweb/static/media/SidebarBtnStarClose.8db6c38c4fdbf870a580.svg",
     "static/media/SidebarBtnMStarClose.svg": "/projectseaweb/static/media/SidebarBtnMStarClose.2f15274e296d9192e4ec.svg",
@@ -293,12 +295,13 @@
     "static/media/Tidy-er-Dark.svg": "/projectseaweb/static/media/Tidy-er-Dark.49a885caeb277d6e00e9.svg",
     "static/media/Tidy-er-Light.svg": "/projectseaweb/static/media/Tidy-er-Light.337cc898a68c939a76a6.svg",
     "static/media/Tidy-er-Star.svg": "/projectseaweb/static/media/Tidy-er-Star.5f56a61bea84acdfbec0.svg",
+    "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
     "main.d55a528d.css.map": "/projectseaweb/static/css/main.d55a528d.css.map",
-    "main.e0de131a.js.map": "/projectseaweb/static/js/main.e0de131a.js.map",
+    "main.298857e0.js.map": "/projectseaweb/static/js/main.298857e0.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d55a528d.css",
-    "static/js/main.e0de131a.js"
+    "static/js/main.298857e0.js"
   ]
 }
