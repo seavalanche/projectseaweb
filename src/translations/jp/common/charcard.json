@@ -9,5 +9,17 @@
   "attributes": "属性",
   "abilities": "アビリティ",
   "moves": "技",
-  "artworks": "アートワーク"
+  "artworks": "アートワーク",
+  "tradearts": "アート交換作品",
+  "collabarts": "コラボ作品",
+  "giftarts": "贈り物作品",
+  "commarts": "依頼作品",
+  "lifeBackground": "人生背景",
+  "personality": "性格",
+  "personalityTraits": "特性",
+  "personalityValues": "価値観",
+  "personalityFlaws": "欠点",
+  "personalityQuirks": "癖・特徴",
+  "bodyShapeDescription": "体型の説明",
+  "showbiobtn": "プロフィールを表示"
 }
