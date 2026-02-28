@@ -286,7 +286,6 @@
   background: var(--charcard-bg);
   border: 1px solid transparent;
   border-radius: 8px;
-  transition: all 0.3s ease;
 }
 .character-card.opened {
   background-color: color-mix(
@@ -296,21 +295,14 @@
   );
   box-shadow: 0 0 8px 4px
     color-mix(in srgb, var(--button-border2-active) 30%, transparent);
-  transition: all 0.1s ease-in;
 }
 [data-theme="light"] .character-card.opened {
   background-color: color-mix(in srgb, var(--charcard-bg) 90%, transparent);
 }
-/* [data-theme="light"]
-  .character-card.opened
-  .charcardProp:not(.charcardAttributes) {
-  color: var(--C-Vesnea_white);
-} */
 .character-card:hover {
   border: 1px solid var(--button-border2-active);
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
-  transition: all 0.1s ease-in;
 }
 .character-card.preview-open {
   transform: none !important;
@@ -321,9 +313,6 @@
     --charcard-wrapper-gap: 10px;
     --charcard-card-padding: 10px;
   }
-  /* .character-card {
-    padding: var(--charcard-card-padding) calc(var(--charcard-card-padding) * 3);
-  } */
 }
 /* CHARCARD */ /* CHARCARD */ /* CHARCARD */ /* CHARCARD */ /* CHARCARD */
 /* CHARCARD CONTENT */ /* CHARCARD CONTENT */ /* CHARCARD CONTENT */
