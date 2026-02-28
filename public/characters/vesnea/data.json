@@ -1,0 +1,418 @@
+{
+  "id": "vesnea",
+  "profilePicture": "PFP_Vesnea.png",
+  "profilePicture2": "PFP_Vesnea.png",
+  "name": "Vesnea",
+  "alternateName": "",
+  "genderColor": "Female",
+  "attributes": ["Aether", "Nature", "Magical"],
+
+  "artworks": [
+    {
+      "src": "D25 - Vesnea Ref Design.webp",
+      "title": "D25 - Vesnea Ref Design",
+      "caption": {
+        "en": "The updated Vesnea reference sheet.",
+        "jp": "更新されたVesneaの参考シートです。"
+      }
+    },
+    {
+      "src": "D25 - Vesnea Ref Design2.webp",
+      "title": "D25 - Vesnea Ref Design",
+      "caption": {
+        "en": "The updated Vesnea reference sheet.",
+        "jp": "更新されたVesneaの参考シートです。"
+      }
+    },
+    {
+      "src": "D27 - Vesnea Clothing Ref_only clothing_updated1.webp",
+      "title": "D27 - Vesnea Clothing Ref",
+      "caption": {
+        "en": "The Vesnea's Casual Clothing reference sheet.",
+        "jp": "Vesneaの普段着の参考シートです。"
+      }
+    },
+    {
+      "src": "D06_Dark Theme.webp",
+      "title": "D06",
+      "caption": {
+        "en": "The original Vesnea reference sheet.",
+        "jp": "オリジナルのVesnea参考シートです。"
+      }
+    },
+    {
+      "src": "D07 - Ko-fi commission banner_dark.webp",
+      "title": "D07 - Ko-fi commission banner",
+      "caption": {
+        "en": "The original commission banner drawn with Seava.",
+        "jp": "Seavaと一緒に描かれた最初のコミッションバナーです。"
+      }
+    },
+    {
+      "src": "D08 - Vesnea pixelart_effect_bg.webp",
+      "title": "D08 - Vesnea pixelart",
+      "caption": {
+        "en": "The first time Vesnea was drawn in pixelart style.",
+        "jp": "Vesneaがピクセルアートで初めて描かれた作品です。"
+      }
+    },
+    {
+      "src": "D11 - Commission Banner v2.webp",
+      "title": "D11 - Commission Banner v2",
+      "caption": {
+        "en": "A commission banner design of Seava and Vesnea.",
+        "jp": "SeavaとVesneaのコミッションバナーデザインです。"
+      }
+    },
+    {
+      "src": "S12.webp",
+      "title": "S12",
+      "caption": {
+        "en": "The first ever Vesnea artwork after the original reference sheet.",
+        "jp": "オリジナル参考シートの後、最初に描かれたVesneaのアートワークです。"
+      }
+    },
+    {
+      "src": "S13 - Vesnea.webp",
+      "title": "S13 - Vesnea",
+      "caption": { "en": "Vesnea on the stairway.", "jp": "階段にいるVesnea。" }
+    },
+    {
+      "src": "S16 - Vesnea.webp",
+      "title": "S16 - Vesnea",
+      "caption": { "en": "Vesnea at a beach.", "jp": "ビーチにいるVesnea。" }
+    },
+    {
+      "src": "S20 - Vesnea.webp",
+      "title": "S20 - Vesnea",
+      "caption": {
+        "en": "Vesnea with starry background.",
+        "jp": "星空を背景にしたVesnea。"
+      }
+    },
+    {
+      "src": "S24 - Vesnea.webp",
+      "title": "S24 - Vesnea",
+      "caption": {
+        "en": "Vesnea portrait with a big open mouth smile.",
+        "jp": "口を大きく開けて笑っているVesneaのポートレート。"
+      }
+    },
+    {
+      "src": "S30 - Vesnea.webp",
+      "title": "S30 - Vesnea",
+      "caption": {
+        "en": "A chibi-style Vesnea with a cute costume.",
+        "jp": "かわいい衣装を着たちびVesnea。"
+      }
+    },
+    {
+      "src": "S31 - Vesnea.webp",
+      "title": "S31 - Vesnea",
+      "caption": {
+        "en": "Vesnea in a girly tennis costume.",
+        "jp": "ガーリーなテニス衣装のVesnea。"
+      }
+    },
+    {
+      "src": "S35 - Vesnea_wipA.webp",
+      "title": "S35a - Vesnea",
+      "caption": {
+        "en": "Vesnea waving, drawn from the back.",
+        "jp": "後ろ姿で手を振るVesnea。"
+      }
+    },
+    {
+      "src": "S35 - Vesnea_wipB.webp",
+      "title": "S35b - Vesnea",
+      "caption": {
+        "en": "Vesnea waving at the camera.",
+        "jp": "カメラに向かって手を振るVesnea。"
+      }
+    },
+    {
+      "src": "S38 - Vesnea.webp",
+      "title": "S38 - Vesnea",
+      "caption": {
+        "en": "Vesnea jumping happily.",
+        "jp": "楽しそうにジャンプするVesnea。"
+      }
+    },
+    {
+      "src": "S44 - Vesnea.webp",
+      "title": "S44 - Vesnea",
+      "caption": {
+        "en": "Vesnea with her small Seava plush.",
+        "jp": "小さなSeavaのぬいぐるみを持つVesnea。"
+      }
+    },
+    {
+      "src": "S47 - Vesnea.webp",
+      "title": "S47 - Vesnea",
+      "caption": {
+        "en": "Vesnea politely let someone pass.",
+        "jp": "誰かに道を譲る礼儀正しいVesnea。"
+      }
+    },
+    {
+      "src": "S48 - Vesnea.webp",
+      "title": "S48 - Vesnea",
+      "caption": {
+        "en": "Vesnea doing some cute dance.",
+        "jp": "かわいいダンスを踊るVesnea。"
+      }
+    },
+    {
+      "src": "S50 - Vesnea.webp",
+      "title": "S50 - Vesnea",
+      "caption": {
+        "en": "Vesnea cutely sitting down.",
+        "jp": "かわいく座っているVesnea。"
+      }
+    },
+    {
+      "src": "S51 - Vesnea.gif",
+      "title": "S51 - Vesnea",
+      "caption": {
+        "en": "Vesnea in various maid dress colors.",
+        "jp": "さまざまなメイド服カラーのVesnea。"
+      }
+    },
+    {
+      "src": "S52 - Vesnea.webp",
+      "title": "S52 - Vesnea",
+      "caption": {
+        "en": "Vesnea open both flippers.",
+        "jp": "両方のヒレを広げるVesnea。"
+      }
+    },
+    {
+      "src": "S53 - Vesnea.webp",
+      "title": "S53 - Vesnea",
+      "caption": {
+        "en": "Vesnea doing some modern pose.",
+        "jp": "現代風のポーズをとるVesnea。"
+      }
+    },
+    {
+      "src": "S54 - Vesnea.gif",
+      "title": "S54 - Vesnea",
+      "caption": {
+        "en": "The first Vesnea animation!",
+        "jp": "初めてのVesneaアニメーション！"
+      }
+    },
+    {
+      "src": "S55 - Vesnea_wip3.gif",
+      "title": "S55 - Vesnea",
+      "caption": {
+        "en": "Vesnea jump skip her own tail.",
+        "jp": "自分のしっぽを飛び越えるVesnea。"
+      }
+    },
+    {
+      "src": "S58 - Vesnea.webp",
+      "title": "S58 - Vesnea",
+      "caption": {
+        "en": "Vesnea in a cyberpunk setting.",
+        "jp": "サイバーパンク風のVesnea。"
+      }
+    },
+    {
+      "src": "S60 - Vesnea.webp",
+      "title": "S60 - Vesnea",
+      "caption": {
+        "en": "Vesnea in an apocalypse setting.",
+        "jp": "終末世界のVesnea。"
+      }
+    },
+    {
+      "src": "S61 - Vesnea.webp",
+      "title": "S61 - Vesnea",
+      "caption": {
+        "en": "A closeup of Vesnea.",
+        "jp": "Vesneaのクローズアップ。"
+      }
+    },
+    {
+      "src": "S75 - Vesnea_b.webp",
+      "title": "S75 - Vesnea",
+      "caption": {
+        "en": "Vesnea on a big pink heart background.",
+        "jp": "大きなピンクのハート背景のVesnea。"
+      }
+    },
+    {
+      "src": "S79 - Vesnea.gif",
+      "title": "S79 - Vesnea",
+      "caption": {
+        "en": "Vesnea waving to the right with both flippers.",
+        "jp": "右側に両ヒレで手を振るVesnea。"
+      }
+    },
+    {
+      "src": "S84 - Vesnea_varC - B2_dark.webp",
+      "title": "S84 - Vesnea",
+      "caption": {
+        "en": "Vesnea clasped both flippers to the heart.",
+        "jp": "胸に両ヒレを当てているVesnea。"
+      }
+    },
+    {
+      "src": "S91 - Tea Party Style Vesnea.webp",
+      "title": "S91 - Tea Party Style Vesnea",
+      "caption": {
+        "en": "Vesnea in the Tea Party Style outfit.",
+        "jp": "ティーパーティースタイルの衣装を着たVesnea。"
+      }
+    },
+    {
+      "src": "S92 - Blep Vesnea.webp",
+      "title": "S92 - Blep Vesnea",
+      "caption": { "en": "Blepppppp.", "jp": "べろ〜ん。" }
+    },
+    {
+      "src": "S94 - Vesnea.webp",
+      "title": "S94 - Vesnea",
+      "caption": {
+        "en": "Vesnea angled down and put both arms to the side.",
+        "jp": "下を向いて両腕を横に広げたVesnea。"
+      }
+    },
+    {
+      "src": "S97 - Vesnea Star.webp",
+      "title": "S97 - Vesnea",
+      "caption": { "en": "Vesnea Star!", "jp": "Vesneaスター！" }
+    },
+    {
+      "src": "S98 - Vesnea See You.webp",
+      "title": "S98 - Vesnea",
+      "caption": {
+        "en": "Vesnea is looking at you~",
+        "jp": "Vesneaがあなたを見つめてる〜"
+      }
+    },
+    {
+      "src": "S99 - Vesnea.webp",
+      "title": "S99 - Vesnea",
+      "caption": { "en": "UwU Vesnea.", "jp": "うるうるVesnea。" }
+    },
+    {
+      "src": "S100 - Vesnea.webp",
+      "title": "S100 - Vesnea",
+      "caption": {
+        "en": "Vesnea relaxing.",
+        "jp": "リラックスしているVesnea。"
+      }
+    },
+    {
+      "src": "S102 - Vesnea.webp",
+      "title": "S102 - Vesnea",
+      "caption": {
+        "en": "Vesnea in a cute outfit.",
+        "jp": "かわいい服を着たVesnea。"
+      }
+    },
+    {
+      "src": "Instagram S103 - Behind Wall_B.webp",
+      "title": "S103 - Behind Wall",
+      "caption": {
+        "en": "Vesnea is behind the wall!",
+        "jp": "Vesneaが壁の後ろにいるよ！"
+      }
+    },
+    {
+      "src": "S104b.webp",
+      "title": "S104 - Deep Sadness",
+      "caption": {
+        "en": "Vesnea has felt one of the deepest sadness in her life.",
+        "jp": "Vesneaは人生で最も深い悲しみの一つを感じている。"
+      }
+    },
+    {
+      "src": "S114 - Vesnea.webp",
+      "title": "S114 - Vesnea",
+      "caption": {
+        "en": "Vesnea is deep in thoughts.",
+        "jp": "Vesneaは深く考え込んでいる。"
+      }
+    },
+    {
+      "src": "S117 - Vesnea.webp",
+      "title": "S117 - Vesnea",
+      "caption": {
+        "en": "Hey! I have a cute pink ribbon and a cute pink gold bracelet!",
+        "jp": "ねえ！かわいいピンクのリボンとピンクゴールドのブレスレットがあるよ！"
+      }
+    },
+    {
+      "src": "S120 - Vesnea.webp",
+      "title": "S120 - Vesnea",
+      "caption": { "en": "Woah!", "jp": "わあっ！" }
+    },
+    {
+      "src": "S129 - Vesnea.webp",
+      "title": "S129 - Vesnea",
+      "caption": { "en": "Hehe~", "jp": "えへへ〜" }
+    },
+    {
+      "src": "S136 - Vesnea.gif",
+      "title": "S136 - Vesnea",
+      "caption": { "en": "Look there!", "jp": "見て見て、あそこだよ！" }
+    },
+    {
+      "src": "S138 - Vesnea_pattern_newpink.webp",
+      "title": "S138 - Vesnea",
+      "caption": {
+        "en": "Vesnea's modest pose.",
+        "jp": "Vesneaの控えめなポーズ。"
+      }
+    },
+    {
+      "src": "S160 - Vesnea.webp",
+      "title": "S160 - Vesnea",
+      "caption": { "en": "Woah, what are these?", "jp": "わあ、これ何？" }
+    },
+    {
+      "src": "S162 - Matching Clothes.webp",
+      "title": "S162 - Matching Clothes",
+      "caption": {
+        "en": "Vesnea posing in a cute school uniform together with Seavalanche and Seava.",
+        "jp": "VesneaがSeavalancheとSeavaと一緒にかわいい制服でポーズしている。"
+      }
+    },
+    {
+      "src": "S184 - Vesnea.webp",
+      "title": "S184 - Vesnea",
+      "caption": { "en": "Vesnea is posing in a very cute way!", "jp": "" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "by Unifantingchan - 20240528 2.png",
+      "title": "by Unifantingchan (28 May 2024)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "by Shual commissioned by Vesnea - 20221023 1.png",
+      "title": "by Shual (23 October 2022)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}
