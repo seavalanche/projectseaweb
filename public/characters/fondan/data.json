@@ -1,0 +1,56 @@
+{
+  "id": "fondan",
+  "profilePicture": "PFP_Fondan.png",
+  "profilePicture2": "PFP_Fondan.png",
+  "name": "Fondan",
+  "alternateName": "",
+  "genderColor": "Male",
+  "attributes": ["Light"],
+
+  "artworks": [
+    {
+      "src": "D33 - Design Fondan.jpg",
+      "title": "D33 - Design Fondan",
+      "caption": {
+        "en": "The original Fondan reference sheet.",
+        "jp": "Fondanのオリジナル設定資料。"
+      }
+    },
+    {
+      "src": "S171 - Fondan_fix1.webp",
+      "title": "S171 - Fondan",
+      "caption": {
+        "en": "Pretty cool Fondan pose with his white shirt and black tie.",
+        "jp": "白いシャツと黒いネクタイを着た、かっこいいFondanのポーズ。"
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

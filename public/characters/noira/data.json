@@ -1,0 +1,45 @@
+{
+  "id": "noira",
+  "profilePicture": "PFP_Noira.gif",
+  "profilePicture2": "PFP_Noira.png",
+  "name": "Noira",
+  "alternateName": "",
+  "genderColor": "Female",
+  "attributes": ["Darkness", "Sound"],
+
+  "artworks": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

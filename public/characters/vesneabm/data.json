@@ -1,0 +1,56 @@
+{
+  "id": "vesneabm",
+  "profilePicture": "PFP_VesneaBM.png",
+  "profilePicture2": "PFP_VesneaBM.png",
+  "name": "Vesnea",
+  "alternateName": "Blossom Mode",
+  "genderColor": "Female",
+  "attributes": ["Magical", "Nature"],
+
+  "artworks": [
+    {
+      "src": "V01.jpg",
+      "title": "V01",
+      "caption": {
+        "en": "Vesnea Blossom Mode's reference sheet.",
+        "jp": "VesneaのBlossom Modeの設定資料です。"
+      }
+    },
+    {
+      "src": "S165 - Vesnea Blossom Mode.jpg",
+      "title": "S165 - Vesnea Blossom Mode",
+      "caption": {
+        "en": "Vesnea Blossom Mode.",
+        "jp": "VesneaのBlossom Mode。"
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "by Unifantingchan - 20240528 2.png",
+      "title": "by Unifantingchan (28 May 2024)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "by Shual commissioned by Vesnea - 20221023 1.png",
+      "title": "by Shual (23 October 2022)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

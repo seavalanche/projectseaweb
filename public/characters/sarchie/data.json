@@ -1,0 +1,48 @@
+{
+  "id": "sarchie",
+  "profilePicture": "PFP_Sarchie.png",
+  "profilePicture2": "PFP_Sarchie.png",
+  "name": "Sarchie",
+  "alternateName": "",
+  "genderColor": "Female",
+  "attributes": ["Sound"],
+
+  "artworks": [
+    {
+      "src": "D35 - Design Sarchie.jpg",
+      "title": "D35 - Design Sarchie",
+      "caption": {
+        "en": "The original Sarchie reference sheet.",
+        "jp": "Sarchieのオリジナル設定資料。"
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

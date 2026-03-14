@@ -1,0 +1,45 @@
+{
+  "id": "zeo",
+  "profilePicture": "PFP_Zeo.gif",
+  "profilePicture2": "PFP_Zeo.png",
+  "name": "Zeo",
+  "alternateName": "",
+  "genderColor": "Male",
+  "attributes": ["Darkness", "Electric"],
+
+  "artworks": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "deimev",
+  "profilePicture": "PFP_Deimev.png",
+  "profilePicture2": "PFP_Deimev.png",
+  "name": "Deimev",
+  "alternateName": "",
+  "genderColor": "Male",
+  "attributes": ["Wind", "Spirit"],
+
+  "artworks": [
+    {
+      "src": "D36 - Design Deimev.jpg",
+      "title": "D36 - Design Deimev",
+      "caption": {
+        "en": "The original Deimev reference sheet.",
+        "jp": "Deimevのオリジナル設定資料。"
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

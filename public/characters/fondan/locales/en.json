@@ -1,0 +1,25 @@
+{
+  "gender": "Male ♂",
+  "species": "Wolf creature",
+  "height": "1.2 m",
+  "weight": "30 kg",
+  "createdDate": "1 March 2025",
+  "bio": "Fondan is a wise anthromorphic wolf with three claws on his hands. His brown fur is rough and unkempt. He has a pair of long white ears and usually wore a white wizard pointy hat and a pair of white half-rim glasses. Fondan also carries a thick spell book that helped to increase his mental prowess. He usually talks in riddles, claimed to know everything in the world.",
+  "nameMeaning": "A distortion of the word 'boulder'.",
+  "lifeBackground": "",
+  "personalityTraits": "wise, loyal",
+  "personalityValues": "new knowledge",
+  "personalityFlaws": "idealistic",
+  "personalityQuirks": "doesn't really think about anything else other than learning new things",
+  "bodyShapeDescription": "Fondan is an anthromorphic wolf that has rough and unkempt fur from head to toe. He wears a pair of white half-rim glasses covering his always droopy eyes. He has a pair of long white ears that is usually covered by a white wizard pointy hat, contrasting his mostly brown fur.\n\nEven if his hands are ending in sharp claws, he always brought his brown thick spell book wherever he go. His tail usually lay low like he doesn't have energy to sway it.",
+  "trivia": "",
+  "abilities": [
+    "Unfazed: Fondan's inner ability to be unaffected by emotional attacks. He is always focused to the current situation and his mind stay sharp."
+  ],
+  "moves": [
+    "Light of Knowledge: Fondan summon a bright light using his spell book to burn his target.",
+    "Light Pillar: Fondan summon a bright light concentrated into several spots from the sky that looks like big pillars of light to burn his target.",
+    "Energy Palm: Fondan can fight in close range using his paws covered with light energy.",
+    "Last Information: Fondan's last move if he is cornered and he is very certain his future is no more. He will concentrate all of his light power into his book and throw it as far as possible. His intention is to store the information of his attacker so that others who stumbled upon his book can help spread it. He will then helplessly try to escape the battlefield without attacking back."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "miniarna",
+  "profilePicture": "PFP_Arnamini.png",
+  "profilePicture2": "PFP_Arnamini.png",
+  "name": "Mini Arna",
+  "alternateName": "",
+  "genderColor": "Male",
+  "attributes": ["Magical"],
+
+  "artworks": [
+    {
+      "src": "D31 - Design Arna.jpg",
+      "title": "D31 - Design Arna",
+      "caption": {
+        "en": "The original Arna reference sheet.",
+        "jp": "Arnaのオリジナル設定資料。"
+      }
+    },
+    {
+      "src": "S172 - Arna.webp",
+      "title": "S172 - Arna",
+      "caption": {
+        "en": "Arna and her three Mini Arnas.",
+        "jp": "Arnaと3匹のミニArna。"
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}
