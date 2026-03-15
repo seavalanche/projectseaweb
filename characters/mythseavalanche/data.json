@@ -1,0 +1,98 @@
+{
+  "id": "mythseavalanche",
+  "profilePicture": "PFP_MythSeavalanche.png",
+  "profilePicture2": "PFP_MythSeavalanche.png",
+  "name": "Seavalanche",
+  "alternateName": "(Myth Seavalanche)",
+  "genderColor": "Female",
+  "attributes": ["Aether", "Nature", "Magical"],
+
+  "artworks": [
+    {
+      "src": "V04.jpg",
+      "title": "V04",
+      "caption": {
+        "en": "The original Myth Seavalanche reference sheet.",
+        "jp": "オリジナルMyth Seavalancheの設定画。"
+      }
+    },
+    {
+      "src": "S169 - Seavalanche.webp",
+      "title": "S169 - Seavalanche",
+      "caption": {
+        "en": "Seavalanche at her abode.",
+        "jp": "Seavalancheの住処にて。"
+      }
+    },
+    {
+      "src": "S170 - Some Nights.webp",
+      "title": "S170 - Some Nights",
+      "caption": {
+        "en": "Some nights do be sad.",
+        "jp": "ある夜は、やっぱり寂しくなる。"
+      }
+    },
+    {
+      "src": "S178 - Myth Seavalanche.webp",
+      "title": "S178 - Myth Seavalanche",
+      "caption": {
+        "en": "Seavalanche profile at an angle.",
+        "jp": "斜めから見た神話Seavalancheの横顔。"
+      }
+    },
+    {
+      "src": "S191 - Myth Seavalanche.webp",
+      "title": "S191 - Myth Seavalanche",
+      "caption": {
+        "en": "",
+        "jp": ""
+      }
+    },
+    {
+      "src": "S191 - Myth Seavalanche_dark.webp",
+      "title": "S191 - Myth Seavalanche",
+      "caption": {
+        "en": "",
+        "jp": ""
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "AF25 - by CerbTheSquirrel - head in the clouds - 20250722.webp",
+      "title": "by CerbTheSquirrel (22 July 2025)",
+      "caption": { "en": "Head in the Clouds", "jp": "Head in the Clouds" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "by bas_cha - 20250406.webp",
+      "title": "by bas_cha (6 April 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Enma - 20250331_1.webp",
+      "title": "by Enma (31 March 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by KohotoKun - 20260221.webp",
+      "title": "by KohotoKun (21 February 2026)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "by Haineko - 20250123.webp",
+      "title": "by Haineko (23 January 2025)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "seravyn",
+  "profilePicture": "PFP_Placeholder.png",
+  "profilePicture2": "PFP_Placeholder.png",
+  "name": "Seravyn",
+  "alternateName": "",
+  "genderColor": "Genderless",
+  "attributes": ["Water", "Psionic"],
+
+  "artworks": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

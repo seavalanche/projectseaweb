@@ -1,0 +1,82 @@
+{
+  "id": "vesneasylveon",
+  "profilePicture": "PFP_Vesneon.png",
+  "profilePicture2": "PFP_Vesneon.png",
+  "name": "Vesneon",
+  "alternateName": "(Vesnea Sylveon)",
+  "genderColor": "Female",
+  "attributes": ["Magical", "Nature"],
+
+  "artworks": [
+    {
+      "src": "D39 - Vesnea Sylveon.webp",
+      "title": "D39 - Vesnea Sylveon",
+      "caption": {
+        "en": "An introductory artwork of Vesneon (Vesnea Sylveon).",
+        "jp": ""
+      }
+    },
+    {
+      "src": "B04 - Christmas Collab_sylveon-transparent2_cropped.webp",
+      "title": "B04 - Christmas Collab (Vesneon only)",
+      "caption": {
+        "en": "Vesneon is laying down with one eye opened.",
+        "jp": ""
+      }
+    },
+    {
+      "src": "B06 - Chinese New Year Vesneon_crop.webp",
+      "title": "B06 - Chinese New Year Vesneon (Vesneon only)",
+      "caption": {
+        "en": "Vesneon in a Chinese New Year style clothing, holding a red lantern with a ponyta on it.",
+        "jp": ""
+      }
+    },
+    {
+      "src": "S198 - Vesneon.webp",
+      "title": "S198 - Vesneon",
+      "caption": {
+        "en": "Vesneon is sitting down with one of her leg extended and facing her back towards the viewer.",
+        "jp": ""
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "B04 - Christmas Collab.webp",
+      "title": "B04 - Christmas Collab",
+      "caption": { "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the right bottom side, laying down with one eye opened.", "jp": "" }
+    },
+    {
+      "src": "B06 - Chinese New Year Vesneon.webp",
+      "title": "B06 - Chinese New Year Vesneon",
+      "caption": { "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the center, wearing a Chinese New Year style clothes holding a red lantern with a Ponyta on it.", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "by Enma - 20260209.webp",
+      "title": "by Enma (9 February 2026)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Esthermsb - 20260224.webp",
+      "title": "by Esthermsb (24 February 2026)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

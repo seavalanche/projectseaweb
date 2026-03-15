@@ -1,0 +1,133 @@
+{
+  "id": "zumiko",
+  "profilePicture": "PFP_Zumiko.png",
+  "profilePicture2": "PFP_Zumiko.png",
+  "name": "Zumiko",
+  "alternateName": "",
+  "genderColor": "Male",
+  "attributes": ["Fire", "Aether"],
+
+  "artworks": [
+    {
+      "src": "D18 - Korazu, Uzakon, and Zumiko_full ref.webp",
+      "title": "D18 - Korazu, Uzakon, and Zumiko",
+      "caption": {
+        "en": "The original Seavalanche's Three Cats design.",
+        "jp": "Seavalancheの三匹の猫たちの元デザイン。"
+      }
+    },
+    {
+      "src": "S113 - Korazu, Uzakon, Zumiko_wip2.webp",
+      "title": "S113 - Korazu, Uzakon, Zumiko",
+      "caption": {
+        "en": "The Seavalanche's Three Cats.",
+        "jp": "Seavalancheの三匹の猫たち。"
+      }
+    },
+    {
+      "src": "S115 - Zumiko.webp",
+      "title": "S115 - Zumiko",
+      "caption": { "en": "Nom Nom!", "jp": "もぐもぐ！" }
+    },
+    {
+      "src": "S119 - Zumiko.webp",
+      "title": "S119 - Zumiko",
+      "caption": { "en": "Zumiko with the stars.", "jp": "星と一緒のZumiko。" }
+    },
+    {
+      "src": "S145 - Zumiko.webp",
+      "title": "S145 - Zumiko",
+      "caption": { "en": "Zumiko cutie.", "jp": "かわいいZumiko。" }
+    },
+    {
+      "src": "S151 - Zumiko.webp",
+      "title": "S151 - Zumiko",
+      "caption": {
+        "en": "Zumiko with a fashionable outfit.",
+        "jp": "おしゃれな服を着たZumiko。"
+      }
+    },
+    {
+      "src": "S158 - Korazu, Uzakon, and Zumiko.webp",
+      "title": "S158 - Korazu, Uzakon, and Zumiko",
+      "caption": {
+        "en": "The Seavalanche's Three Cats.",
+        "jp": "Seavalancheの三匹の猫たち。"
+      }
+    },
+    {
+      "src": "S163 - Elemental Power_full.webp",
+      "title": "S163 - Elemental Power",
+      "caption": {
+        "en": "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.",
+        "jp": "Korazuの太陽、Uzakonの月、Zumikoの火。"
+      }
+    },
+    {
+      "src": "S190 - Korazu Uzakon Zumiko.webp",
+      "title": "S190 - Korazu Uzakon Zumiko",
+      "caption": {
+        "en": "Zumiko is playfully showing Uzakon's paw to Korazu.",
+        "jp": ""
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "by Ailia - 20240719_1.webp",
+      "title": "by Ailia (19 July 2024)",
+      "caption": { "en": "Seavalanche Three Cats", "jp": "" }
+    },
+    {
+      "src": "by Hinawashi - 20240801.webp",
+      "title": "by Hinawashi (1 August 2024)",
+      "caption": { "en": "Seavalanche Three Cats", "jp": "" }
+    },
+    {
+      "src": "AF25 - by Enma - Zumiko Elegant style! - 20250723.webp",
+      "title": "by Enma (23 July 2025)",
+      "caption": { "en": "Zumiko Elegant style!", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "by Miamafu - 20240115_1.webp",
+      "title": "by Miamafu (15 January 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Spacecrow - 20240907.webp",
+      "title": "by Spacecrow (7 September 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Natsuneko - 20240930.webp",
+      "title": "by Natsuneko (30 September 2024)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "by Haineko - 20240214.webp",
+      "title": "by Haineko (14 February 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by 水無月 - 20240703 1.webp",
+      "title": "by 水無月 (3 July 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by 水無月 - 20240703 2.webp",
+      "title": "by 水無月 (3 July 2024)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

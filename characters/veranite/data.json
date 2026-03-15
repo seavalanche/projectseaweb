@@ -1,0 +1,64 @@
+{
+  "id": "veranite",
+  "profilePicture": "PFP_Veranite.png",
+  "profilePicture2": "PFP_Veranite.png",
+  "name": "Veranite",
+  "alternateName": "",
+  "genderColor": "Male",
+  "attributes": ["Void"],
+
+  "artworks": [
+    {
+      "src": "D34 - Design Veranite.jpg",
+      "title": "D34 - Design Veranite",
+      "caption": {
+        "en": "The original Veranite reference sheet.",
+        "jp": "Veraniteのオリジナル設定資料。"
+      }
+    },
+    {
+      "src": "S183 - Veranite.png",
+      "title": "S183 - Veranite",
+      "caption": {
+        "en": "Veranite is as dark as the space itself.",
+        "jp": "Veraniteのオリジナル設定資料。"
+      }
+    },
+    {
+      "src": "S197 - Void of Uncertainty.webp",
+      "title": "S197 - Void of Uncertainty",
+      "caption": {
+        "en": "Veranite is using Void of Uncertainty. He is spreading dark aura of uncertainty towards everyone nearby, making them doubt themselves and their situation.",
+        "jp": ""
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

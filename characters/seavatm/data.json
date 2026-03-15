@@ -1,0 +1,53 @@
+{
+  "id": "seavatm",
+  "profilePicture": "PFP_SeavaTM.png",
+  "profilePicture2": "PFP_SeavaTM.png",
+  "name": "Seava",
+  "alternateName": "Tempest Mode",
+  "genderColor": "Genderless",
+  "attributes": ["Electric", "Wind", "Water", "Psionic"],
+
+  "artworks": [
+    {
+      "src": "V02.jpg",
+      "title": "V02",
+      "caption": {
+        "en": "Seava Tempest Mode's reference sheet.",
+        "jp": "SeavaのTempest Modeの設定資料です。"
+      }
+    },
+    {
+      "src": "S166 - Seava Tempest Mode.jpg",
+      "title": "S166 - Seava Tempest Mode",
+      "caption": { "en": "Seava Tempest Mode.", "jp": "SeavaのTempest Mode。" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

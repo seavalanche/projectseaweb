@@ -1,0 +1,136 @@
+{
+  "id": "korazu",
+  "profilePicture": "PFP_Korazu.png",
+  "profilePicture2": "PFP_Korazu.png",
+  "name": "Korazu",
+  "alternateName": "",
+  "genderColor": "Male",
+  "attributes": ["Light", "Aether"],
+
+  "artworks": [
+    {
+      "src": "D18 - Korazu, Uzakon, and Zumiko_full ref.webp",
+      "title": "D18 - Korazu, Uzakon, and Zumiko",
+      "caption": {
+        "en": "The original Seavalanche's Three Cats design.",
+        "jp": "Seavalancheの三匹の猫たちの元デザイン。"
+      }
+    },
+    {
+      "src": "S113 - Korazu, Uzakon, Zumiko_wip2.webp",
+      "title": "S113 - Korazu, Uzakon, Zumiko",
+      "caption": {
+        "en": "The Seavalanche's Three Cats.",
+        "jp": "Seavalancheの三匹の猫たち。"
+      }
+    },
+    {
+      "src": "S118 - Korazu.webp",
+      "title": "S118 - Korazu",
+      "caption": {
+        "en": "Korazu is licking a popsicle.",
+        "jp": "Korazuがアイスキャンディーをぺろぺろしている。"
+      }
+    },
+    {
+      "src": "S133 - Korazu.webp",
+      "title": "S133 - Korazu",
+      "caption": { "en": "Korazu on a cloud.", "jp": "雲の上にいるKorazu。" }
+    },
+    {
+      "src": "S139 - Korazu_pattern.webp",
+      "title": "S139 - Korazu",
+      "caption": {
+        "en": "Korazu with a modest pose.",
+        "jp": "控えめなポーズのKorazu。"
+      }
+    },
+    {
+      "src": "S158 - Korazu, Uzakon, and Zumiko.webp",
+      "title": "S158 - Korazu, Uzakon, and Zumiko",
+      "caption": {
+        "en": "The Seavalanche's Three Cats.",
+        "jp": "Seavalancheの三匹の猫たち。"
+      }
+    },
+    {
+      "src": "S163 - Elemental Power_full.webp",
+      "title": "S163 - Elemental Power",
+      "caption": {
+        "en": "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.",
+        "jp": "Korazuの太陽、Uzakonの月、Zumikoの火。"
+      }
+    },
+    {
+      "src": "S190 - Korazu Uzakon Zumiko.webp",
+      "title": "S190 - Korazu Uzakon Zumiko",
+      "caption": {
+        "en": "Zumiko is playfully showing Uzakon's paw to Korazu.",
+        "jp": ""
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "by Ailia - 20240719_1.webp",
+      "title": "by Ailia (19 July 2024)",
+      "caption": { "en": "Seavalanche Three Cats", "jp": "" }
+    },
+    {
+      "src": "by Hinawashi - 20240801.webp",
+      "title": "by Hinawashi (1 August 2024)",
+      "caption": { "en": "Seavalanche Three Cats", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "by Spacecrow - 20240907.webp",
+      "title": "by Spacecrow (7 September 2024)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "by Haineko - 20240910.webp",
+      "title": "by Haineko (10 September 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by 水無月 - 20240423 1.webp",
+      "title": "by 水無月 (23 April 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by 水無月 - 20240423 2.webp",
+      "title": "by 水無月 (23 April 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by 水無月 - 20240513 1.webp",
+      "title": "by 水無月 (13 May 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by 水無月 - 20240513 2.webp",
+      "title": "by 水無月 (13 May 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by 水無月 - 20240703 1.webp",
+      "title": "by 水無月 (3 July 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by 水無月 - 20240703 2.webp",
+      "title": "by 水無月 (3 July 2024)",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

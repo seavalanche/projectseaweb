@@ -1,0 +1,45 @@
+{
+  "id": "tharos",
+  "profilePicture": "PFP_Tharos.gif",
+  "profilePicture2": "PFP_Tharos.png",
+  "name": "Tharos",
+  "alternateName": "",
+  "genderColor": "Male",
+  "attributes": ["Darkness", "Light"],
+
+  "artworks": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

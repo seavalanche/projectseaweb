@@ -1,0 +1,56 @@
+{
+  "id": "baldor",
+  "profilePicture": "PFP_Baldor.png",
+  "profilePicture2": "PFP_Baldor.png",
+  "name": "Baldor",
+  "alternateName": "",
+  "genderColor": "Genderless",
+  "attributes": ["Nature"],
+
+  "artworks": [
+    {
+      "src": "D30 - Design Baldor.jpg",
+      "title": "D30 - Design Baldor",
+      "caption": {
+        "en": "The original Baldor reference sheet.",
+        "jp": "Baldorのオリジナル設定資料。"
+      }
+    },
+    {
+      "src": "S193 - Baldor Day.webp",
+      "title": "S193 - Baldor Day",
+      "caption": {
+        "en": "Baldor laying on a grass. Moss seems to have grew on him.",
+        "jp": ""
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

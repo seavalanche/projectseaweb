@@ -1,0 +1,45 @@
+{
+  "id": "avior",
+  "profilePicture": "PFP_placeholder.png",
+  "profilePicture2": "PFP_placeholder.png",
+  "name": "Avior",
+  "alternateName": "",
+  "genderColor": "Male",
+  "attributes": ["Nature", "Fire"],
+
+  "artworks": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

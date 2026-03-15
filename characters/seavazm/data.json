@@ -1,0 +1,53 @@
+{
+  "id": "seavazm",
+  "profilePicture": "PFP_SeavaZM.png",
+  "profilePicture2": "PFP_SeavaZM.png",
+  "name": "Seava",
+  "alternateName": "Zephyr Mode",
+  "genderColor": "Genderless",
+  "attributes": ["Wind", "Water", "Psionic"],
+
+  "artworks": [
+    {
+      "src": "V03.jpg",
+      "title": "V03",
+      "caption": {
+        "en": "Seava Zephyr Mode's reference sheet.",
+        "jp": "SeavaのZephyr Modeの設定資料です。"
+      }
+    },
+    {
+      "src": "S168 - Seava Zephyr Mode.jpg",
+      "title": "S168 - Seava Zephyr Mode",
+      "caption": { "en": "Seava Zephyr Mode.", "jp": "Zephyr Mode。" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}

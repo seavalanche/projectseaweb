@@ -1,0 +1,25 @@
+{
+  "gender": "Male ♂",
+  "species": "Cat creature",
+  "height": "0.6 m",
+  "weight": "10 kg",
+  "createdDate": "27 February 2025",
+  "bio": "Rakariki is a lean white-furred cat body adorned with yellow lightning stripes. He is a fearless cat due to his long winning streaks in his battles. That claim is proven by his lightning speed and his powerful lightning attack when it's raining. He has lightning-shaped fur on the tip of the ears and even the tail itself. He has a light blue collar on his neck and a yellow circle-shaped pendant as a physical proof of his courage.",
+  "nameMeaning": "A distortion to the word 'reckless'.",
+  "lifeBackground": "",
+  "personalityTraits": "fearless",
+  "personalityValues": "always be the best",
+  "personalityFlaws": "reckless",
+  "personalityQuirks": "doesn't fear of consequences",
+  "bodyShapeDescription": "Rakariki has a lean white-furred cat body adorned with yellow lightning stripes. His face has bright yellow eyes, yellow nose, and small fangs visible even with mouth closed. He has lightning-shaped fur at the tip of the ears. And the tail itself looks like a lightning-shape. His feets are three toed paws with one big yellow pawpad.\n\nHe has a light blue collar on his neck and a yellow circle-shaped pendant. The pendant has two parts, the smaller one looks like a ring, while the bigger one looks like a solid-shut locket.",
+  "trivia": "",
+  "abilities": [
+    "Ultimate Reflex: As if the yellow pendant on his neck were a talisman, he seems to always able to evade attacks using his reflexes even if he doesn't see the incoming attack."
+  ],
+  "moves": [
+    "Bolt Strike: Rakariki launches himself into his target with a speed of a lightning, damaging the opponent with electricity and physical hit.",
+    "Quick Attack: This is an even faster move than Bolt Strike because Rakariki doesn't need to think to use this move. It's useful when he needed to evade an attack or needed to test the opponent's skills.",
+    "Lightning: When it's raining, Rakariki can use electricity charges on the cloud to summon a lightning to strike his target. Less accurate and also slower than his Bolt Strike, but more lethal than all of his other moves.",
+    "Last Zap: Rakariki's last resort attack when he is already out of energy to sustain himself in a battle. He can choose between fleeing the arena or use this move. But if he chose to do this, he will concentrate all of his power into his pendant and then unleashes the rest of his remaining power everywhere in the hopes that it will do enough damage to defeat his opponent."
+  ]
+}
