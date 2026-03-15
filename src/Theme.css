@@ -341,6 +341,7 @@ input[type="color"] {
   /* Charcard */
   --charcard-bg: var(--C-Vesnea_white);
   --charcard-PFPbg: var(--C-Zumiko_White);
+  --charcard-art-title: var(--C-Vesnea_white);
   --charcard-text-prop: var(--C-Uzakon_Light_Purple);
   --charcard-text-value: var(--C-SeaWeb_Dark_Purple);
   --charcard-text-name: var(--C-SeaWeb_Dark_Purple);
@@ -466,6 +467,7 @@ input[type="color"] {
   /* Charcard */
   --charcard-bg: var(--C-SeaWeb_Purple);
   --charcard-PFPbg: var(--C-Uzakon_Lighter_Light_Purple);
+  --charcard-art-title: var(--C-Uzakon_Purple);
   --charcard-text-prop: var(--C-Uzakon_Purple);
   --charcard-text-value: var(--C-Uzakon_White);
   --charcard-text-name: var(--C-Vesnea_white);
@@ -588,6 +590,11 @@ input[type="color"] {
   /* Charcard */
   --charcard-bg: var(--C-SeaWeb_Dark_Purple);
   --charcard-PFPbg: var(--C-SeaWeb_Purple);
+  --charcard-art-title: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 50%,
+    transparent
+  );
   --charcard-text-prop: color-mix(
     in srgb,
     var(--C-Uzakon_Purple) 50%,
@@ -1673,11 +1680,8 @@ input[type="color"] {
   font-family: var(--F-Default);
   font-size: var(--Fs-Content);
   color: var(--text-color-1b);
-  box-shadow: 0 30px 50px -40px color-mix(
-      in srgb,
-      var(--button-border2-active) 50%,
-      transparent
-    ) inset;
+  box-shadow: 0 30px 50px -40px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent) inset;
 }
 #story-content-wrapper h1,
 #poem-content-wrapper h1 {

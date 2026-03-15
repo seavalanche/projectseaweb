@@ -65,6 +65,62 @@
       }
     },
     {
+      "src": "D15 - Seavalanche.webp",
+      "title": "D15 - Seavalanche",
+      "caption": {
+        "en": "Vesnea Seavalanche Mode, Vesnea, and Seava.",
+        "jp": ""
+      }
+    },
+    {
+      "src": "O02_vesnea.webp",
+      "title": "O02 vesnea",
+      "caption": {
+        "en": "Vesnea laying down.",
+        "jp": ""
+      }
+    },
+    {
+      "src": "O07 - Small Vesnea.webp",
+      "title": "O07 - Small Vesnea",
+      "caption": {
+        "en": "It's a portrait of Vesnea.",
+        "jp": ""
+      }
+    },
+    {
+      "src": "O30 - Vesnea_128.webp",
+      "title": "O30 - Vesnea",
+      "caption": {
+        "en": "Vesnea in a PMD style portrait.",
+        "jp": ""
+      }
+    },
+    {
+      "src": "O30 - Vesnea_128_Angry.webp",
+      "title": "O30 - Vesnea (Angry)",
+      "caption": {
+        "en": "Vesnea in a PMD style portrait (angry).",
+        "jp": ""
+      }
+    },
+    {
+      "src": "O30 - Vesnea_128_Crying.webp",
+      "title": "O30 - Vesnea (Crying)",
+      "caption": {
+        "en": "Vesnea in a PMD style portrait (crying).",
+        "jp": ""
+      }
+    },
+    {
+      "src": "O48 - Valentine Vesnea.webp",
+      "title": "O48 - Valentine Vesnea",
+      "caption": {
+        "en": "Vesnea offering a heart-shaped box of chocolate.",
+        "jp": ""
+      }
+    },
+    {
       "src": "S12.webp",
       "title": "S12",
       "caption": {
@@ -385,20 +441,68 @@
       "src": "S184 - Vesnea.webp",
       "title": "S184 - Vesnea",
       "caption": { "en": "Vesnea is posing in a very cute way!", "jp": "" }
+    },
+    {
+      "src": "S188 - Christmas Vesnea.webp",
+      "title": "S188 - Christmas Vesnea",
+      "caption": { "en": "Vesnea is in a Christmas Festive vibe!", "jp": "" }
+    },
+    {
+      "src": "V06 - Vesnea.webp",
+      "title": "V06 - Vesnea",
+      "caption": { "en": "An artwork of Vesnea following the sea wave.", "jp": "" }
     }
   ],
   "tradearts": [
     {
-      "src": "",
-      "title": "",
-      "caption": { "en": "", "jp": "" }
+      "src": "AF24 - D02 - Vesnea by misspiggyf381 - 20240714.webp",
+      "title": "by misspiggyf381 (14 July 2024)",
+      "caption": { "en": "Vesnea.", "jp": "" }
+    },
+    {
+      "src": "AF24 - D04 - Vesnea by Plussol - 20240723.webp",
+      "title": "by Plussol (23 July 2024)",
+      "caption": { "en": "Vesnea.", "jp": "" }
+    },
+    {
+      "src": "AF24 - D05a - Vesnea by Mozonite - 20240723 2.webp",
+      "title": "by Mozonite (23 July 2024)",
+      "caption": { "en": "Vesnea.", "jp": "" }
+    },
+    {
+      "src": "AF24 - D05b - Vesnea by Mozonite - 20240723.webp",
+      "title": "by Mozonite (23 July 2024)",
+      "caption": { "en": "Vesnea.", "jp": "" }
+    },
+    {
+      "src": "AF24 - D06 - Vesnea by SmollCuteFenne - 20240730.webp",
+      "title": "by SmollCuteFenne (30 July 2024)",
+      "caption": { "en": "Vesnea.", "jp": "" }
+    },
+    {
+      "src": "AF24 - D10 - Vesnea by Lerunechka - 20240802.webp",
+      "title": "by Lerunechka (2 August 2024)",
+      "caption": { "en": "Vesnea.", "jp": "" }
+    },
+    {
+      "src": "AF25 - by GreninjaxSylveonlove - Vesnea! - 20250717.webp",
+      "title": "by GreninjaxSylveonlove (17 July 2025)",
+      "caption": { "en": "Vesnea!", "jp": "" }
+    },
+    {
+      "src": "AF25 - by Stoakadora - Vesnea the cutie - 20250717.webp",
+      "title": "by Stoakadora (17 July 2025)",
+      "caption": { "en": "Vesnea the cutie.", "jp": "" }
     }
   ],
   "collabarts": [
     {
-      "src": "",
-      "title": "",
-      "caption": { "en": "", "jp": "" }
+      "src": "B05 - Valentine Group Art.webp",
+      "title": "B05 - Valentine Group Art",
+      "caption": {
+        "en": "A group art featuring Vesnea! (Two Vesnea, somehow)",
+        "jp": ""
+      }
     }
   ],
   "giftarts": [
@@ -410,8 +514,58 @@
   ],
   "commarts": [
     {
+      "src": "by Mystic commissioned by Vesnea - 20220620.webp",
+      "title": "by Mystic (20 June 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Kumedu - 20220916.webp",
+      "title": "by Kumedu (16 September 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Haineko commissioned by Vesnea - 20221018.webp",
+      "title": "by Haineko (18 October 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Haineko - 20221018 2.webp",
+      "title": "by Haineko (18 October 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
       "src": "by Shual commissioned by Vesnea - 20221023 1.png",
       "title": "by Shual (23 October 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Haineko - 20221230.webp",
+      "title": "by Haineko (30 December 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Catsbell commissioned by Vesnea - 20230126.webp",
+      "title": "by Catsbell (26 January 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Haineko - 20230228.webp",
+      "title": "by Haineko (28 February 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Yurano commissioned by Vesnea - 20230531.webp",
+      "title": "by Yurano (31 May 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by 水無月 - 20240423 1.webp",
+      "title": "by 水無月 (23 April 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "",
+      "title": "",
       "caption": { "en": "", "jp": "" }
     }
   ]

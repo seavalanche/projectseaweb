@@ -41,15 +41,20 @@
   ],
   "giftarts": [
     {
-      "src": "by Unifantingchan - 20240528 2.png",
-      "title": "by Unifantingchan (28 May 2024)",
+      "src": "",
+      "title": "",
       "caption": { "en": "", "jp": "" }
     }
   ],
   "commarts": [
     {
-      "src": "by Shual commissioned by Vesnea - 20221023 1.png",
-      "title": "by Shual (23 October 2022)",
+      "src": "by Haineko - 20250300.webp",
+      "title": "by Haineko (March 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Haineko - 20251225.webp",
+      "title": "by Haineko (25 December 2025)",
       "caption": { "en": "", "jp": "" }
     }
   ]

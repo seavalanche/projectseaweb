@@ -17,6 +17,22 @@
       }
     },
     {
+      "src": "D15 - Seavalanche.webp",
+      "title": "D15 - Seavalanche",
+      "caption": {
+        "en": "Vesnea Seavalanche Mode, Vesnea, and Seava.",
+        "jp": ""
+      }
+    },
+    {
+      "src": "O32 - Seavalanche.webp",
+      "title": "O32 - Seavalanche",
+      "caption": {
+        "en": "Vesnea Seavalanche Mode in a PMD Style icon.",
+        "jp": ""
+      }
+    },
+    {
       "src": "S63 - Seavalanche_b.webp",
       "title": "S63 - Seavalanche",
       "caption": {
@@ -38,6 +54,14 @@
       "caption": {
         "en": "A whimsical Seavalanche.",
         "jp": "気まぐれなSeavalanche。"
+      }
+    },
+    {
+      "src": "S68 - Seavalanche emote.webp",
+      "title": "S68 - Seavalanche emote",
+      "caption": {
+        "en": "A Seavalanche emote.",
+        "jp": ""
       }
     },
     {
@@ -96,9 +120,19 @@
   ],
   "tradearts": [
     {
-      "src": "",
-      "title": "",
-      "caption": { "en": "", "jp": "" }
+      "src": "AF24 - by tor_kl - Seavalanche - 20240730.webp",
+      "title": "by tor_kl (30 July 2024)",
+      "caption": { "en": "Seavalanche.", "jp": "" }
+    },
+    {
+      "src": "AF25 - by SnappiQ - Swim, but the swim is silent - 20250717.webp",
+      "title": "by SnappiQ (17 July 2024)",
+      "caption": { "en": "Swim, but the swim is silent.", "jp": "" }
+    },
+    {
+      "src": "AF25 - by Zombiepro89 - A Carefree Swim - 20250726.webp",
+      "title": "by Zombiepro89 (26 July 2025)",
+      "caption": { "en": "A Carefree Swim.", "jp": "" }
     }
   ],
   "collabarts": [
@@ -110,8 +144,53 @@
   ],
   "giftarts": [
     {
-      "src": "",
-      "title": "",
+      "src": "by Haineko - 20230406.webp",
+      "title": "by Haineko (6 April 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Azshorark - 20230606.webp",
+      "title": "by Azshorark (6 June 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Gabsudeyo - 20230407.webp",
+      "title": "by Gabsudeyo (7 April 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Enma - 20230407.webp",
+      "title": "by Enma (7 April 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Runway55 - 20230610.webp",
+      "title": "by Runway55 (10 June 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Enma - 20240330.webp",
+      "title": "by Enma (30 March 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20240330.webp",
+      "title": "by super_EX1 (30 March 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Haineko - 20240406.webp",
+      "title": "by Haineko (6 April 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Azshorark - 20241231 2.webp",
+      "title": "by Azshorark (31 December 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Azshorark - 20250106.webp",
+      "title": "by Azshorark (6 January 2025)",
       "caption": { "en": "", "jp": "" }
     }
   ],

@@ -70,6 +70,14 @@ function CharInfo() {
 
   return (
     <div className="charinfobg">
+      <div className='generalbody'>
+        <div className='generalbigtitle'>
+          {t("charcard.title")}
+        </div>
+        <div className='generaltitle'>
+          {t("charcard.subtitle")}
+        </div>
+      </div>
       <div className={`charinfowrapper ${displayContentB}`}>
         {characters.map((char, idx) => (
           <CharacterCard key={idx} character={char} />

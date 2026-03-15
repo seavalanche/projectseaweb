@@ -23,13 +23,21 @@
         "en": "Pretty cool Fondan pose with his white shirt and black tie.",
         "jp": "白いシャツと黒いネクタイを着た、かっこいいFondanのポーズ。"
       }
+    },
+    {
+      "src": "S196 - Light Pillar.webp",
+      "title": "S196 - Light Pillar",
+      "caption": {
+        "en": "Fondan uses Light Pillar. There are three pillars of light visible from far away.",
+        "jp": ""
+      }
     }
   ],
   "tradearts": [
     {
-      "src": "",
-      "title": "",
-      "caption": { "en": "", "jp": "" }
+      "src": "AF25 - by DerpyCloud - Grey Area! - 20250729.webp",
+      "title": "by DerpyCloud (29 July 2025)",
+      "caption": { "en": "Grey Area!", "jp": "" }
     }
   ],
   "collabarts": [
@@ -41,15 +49,25 @@
   ],
   "giftarts": [
     {
-      "src": "",
-      "title": "",
+      "src": "by super_EX1 - 20250306.webp",
+      "title": "by super_EX1 (6 March 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20250724.webp",
+      "title": "by super_EX1 (24 July 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20260301.webp",
+      "title": "by super_EX1 (1 March 2026)",
       "caption": { "en": "", "jp": "" }
     }
   ],
   "commarts": [
     {
-      "src": "",
-      "title": "",
+      "src": "by Haineko - 20250827.webp",
+      "title": "by Haineko (27 August 2025",
       "caption": { "en": "", "jp": "" }
     }
   ]
