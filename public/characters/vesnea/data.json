@@ -450,7 +450,10 @@
     {
       "src": "V06 - Vesnea.webp",
       "title": "V06 - Vesnea",
-      "caption": { "en": "An artwork of Vesnea following the sea wave.", "jp": "" }
+      "caption": {
+        "en": "An artwork of Vesnea following the sea wave.",
+        "jp": ""
+      }
     }
   ],
   "tradearts": [
@@ -507,8 +510,248 @@
   ],
   "giftarts": [
     {
+      "src": "by Olyester - 20220621.webp",
+      "title": "by Olyester (21 June 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Noko - 20220803.webp",
+      "title": "by Nokosansan (3 August 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Noko - 20220814.webp",
+      "title": "by Nokosansan (14 August 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Noko - 20221003 2.webp",
+      "title": "by Nokosansan (3 October 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Noko - 20221024 1.webp",
+      "title": "by Nokosansan (24 October 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Noko - 20221121.webp",
+      "title": "by Nokosansan (21 November 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Zazie - 20221215.webp",
+      "title": "by Zazie (15 December 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Noko and Vesnea - 20221224_cropped.webp",
+      "title": "by Nokosansan (24 December 2022) (cropped)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Noko - 20230113_cropped.webp",
+      "title": "by Nokosansan (13 January 2023) (cropped)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20230227.webp",
+      "title": "by super_EX1 (27 February 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by opggtalk - 20230406.webp",
+      "title": "by opggtalk (6 April 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Snowy - 20230506.webp",
+      "title": "by Snowy (6 May 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by LaguThongX - 20230522.webp",
+      "title": "by LaguThongX (22 May 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Sasa - 20230613.webp",
+      "title": "by Sasa (13 June 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by opggtalk - 20230630.webp",
+      "title": "by opggtalk (30 June 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by LaguThongx - 20230705.webp",
+      "title": "by LaguThongx (5 July 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Shinyprowl - 20230826.webp",
+      "title": "by Shinyprowl (26 August 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Shinyprowl - 20230827.webp",
+      "title": "by Shinyprowl (27 August 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Shinyprowl - 20230827_2.webp",
+      "title": "by Shinyprowl (27 August 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by mia_mafu - 20230915.webp",
+      "title": "by mia_mafu (15 September 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Enma - 20230923_1.webp",
+      "title": "by Enma (23 September 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20231225.webp",
+      "title": "by super_EX1 (25 December 2023)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Shinyprowl - 20240219.webp",
+      "title": "by Shinyprowl (19 February 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Shinyprowl - 20240222.webp",
+      "title": "by Shinyprowl (22 February 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Mystic - 20240306.webp",
+      "title": "by Mystic (6 March 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20240406.webp",
+      "title": "by super_EX1 (6 April 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by LaguThongx - 20240423.webp",
+      "title": "by LaguThongx (23 April 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Pryexel48 - 20240424.webp",
+      "title": "by Pryexel48 (24 April 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
       "src": "by Unifantingchan - 20240528 2.png",
       "title": "by Unifantingchan (28 May 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by DerpyCloud11731 - 20240603.webp",
+      "title": "by DerpyCloud11731 (3 June 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Arshina - 20240607.webp",
+      "title": "by Arshina (7 June 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Arshina - 20240608 1.webp",
+      "title": "by Arshina (8 June 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20240623.webp",
+      "title": "by super_EX1 (23 June 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by mia_mafu - 20240722_optimized.gif",
+      "title": "by mia_mafu (22 July 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by LaguThongx - 20240802.webp",
+      "title": "by LaguThongx (2 August 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Bunnymagika - 20241023.webp",
+      "title": "by Bunnymagika (23 October 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20241117.webp",
+      "title": "by super_EX1 (17 November 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Shinyprowl - 20241224.webp",
+      "title": "by Shinyprowl (24 December 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20241225.webp",
+      "title": "by super_EX1 (25 December 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Azhorark - 20241231.webp",
+      "title": "by Azhorark (31 December 2024)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Azshorark - 20250106.webp",
+      "title": "by Azshorark (6 January 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20250406.webp",
+      "title": "by super_EX1 (6 April 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by mia_mafu - 20250501.webp",
+      "title": "by mia_mafu (1 May 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Enma - 20251006.webp",
+      "title": "by Enma (6 Oct 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Shinyprowl - 20251030.webp",
+      "title": "by Shinyprowl (30 October 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Enma - 20251127.webp",
+      "title": "by Enma (27 November 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by princey via discord secret santa - 20251225.webp",
+      "title": "by princey (25 December 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by super_EX1 - 20251226.webp",
+      "title": "by super_EX1 (26 December 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "",
+      "title": "",
       "caption": { "en": "", "jp": "" }
     }
   ],
@@ -541,6 +784,11 @@
     {
       "src": "by Haineko - 20221230.webp",
       "title": "by Haineko (30 December 2022)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by Nakiko commissioned by Ruzik - 20230101.webp",
+      "title": "by Nakiko (1 January 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
