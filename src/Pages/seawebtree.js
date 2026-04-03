@@ -1,4 +1,4 @@
-import UC from '../Components/UnderConstruction'
+import UC from '../components2/UnderConstruction'
 const SeaWebTree = () => {
 
     return (

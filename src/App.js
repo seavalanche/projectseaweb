@@ -4,10 +4,10 @@ import './css/Navbar.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
 // import Navbar from './Components/navbar.js';
-import Navbar2 from './Components/navbar2.js';
-import Footer from './Components/footer.js';
-import ScrollToTop from './Components/ScrollToTop.js';
-import ScrollToTopButton from './Components/ScrollToTopButton.js';
+import Navbar2 from './components2/navbar2.js';
+import Footer from './components2/footer.js';
+import ScrollToTop from './components2/ScrollToTop.js';
+import ScrollToTopButton from './components2/ScrollToTopButton.js';
 import Homepage from './Pages/homepage.js'
 import Projects from './Pages/projects.js'
 import Characters from './Pages/characters.js'
@@ -20,7 +20,7 @@ import AboutVesnea from './Pages/aboutvesnea.js'
 import Tools from './Tools/texttohtmlconverter.js'
 import TestComponent from './Tools/highlightmessage.js';
 import YCHStory from './Tools/StoryYCH/ychstory.js';
-import NotFound from './Components/NotFound.js';
+import NotFound from './components2/NotFound.js';
 import SeaWebTree from './Pages/seawebtree.js';
 
 // Art Pages

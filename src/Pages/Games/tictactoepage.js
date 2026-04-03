@@ -1,4 +1,4 @@
-import GameLayout from '../../Components/GameLayout.js';
+import GameLayout from '../../components2/GameLayout.js';
 import { useLocalization } from '../../localization/hooks/useLocalization.js';
 
 const TicTacToePage = () => {

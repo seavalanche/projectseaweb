@@ -20,7 +20,7 @@ import aboutkorazu from '../Assets/About/AC/korazu.png';
 import aboutuzakon from '../Assets/About/AC/uzakon.png';
 import aboutzumiko from '../Assets/About/AC/zumiko.png';
 import aboutseparator from '../Assets/s75_-_vesnea_b_338x450.gif';
-import { useTheme } from "../Components/ThemeContext";
+import { useTheme } from "../components2/ThemeContext";
 import { useLocalization } from '../localization/hooks/useLocalization';
 import { Link } from 'react-router-dom';
 

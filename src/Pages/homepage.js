@@ -6,13 +6,13 @@ import { useLocalization } from '../localization/hooks/useLocalization';
 import '../css/hpcarousel.css';
 
 const wallpapers = [
-    `${process.env.PUBLIC_URL}/homepage_carousel/HPC01.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/HPC02.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/HPC03.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/HPC04.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/HPC05.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/HPC06.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/HPC07.jpg`,
+    `${process.env.PUBLIC_URL}/homepage_carousel/hpc01.jpg`,
+    `${process.env.PUBLIC_URL}/homepage_carousel/hpc02.jpg`,
+    `${process.env.PUBLIC_URL}/homepage_carousel/hpc03.jpg`,
+    `${process.env.PUBLIC_URL}/homepage_carousel/hpc04.jpg`,
+    `${process.env.PUBLIC_URL}/homepage_carousel/hpc05.jpg`,
+    `${process.env.PUBLIC_URL}/homepage_carousel/hpc06.jpg`,
+    `${process.env.PUBLIC_URL}/homepage_carousel/hpc07.jpg`,
 ];
 
 const Homepage = () => {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import StorySidebar from '../Components/StorySidebar'
-import StoryFnBar from '../Components/StoryFnBar'
-import StoryContent from '../Components/StoryContent'
+import StorySidebar from '../components2/StorySidebar'
+import StoryFnBar from '../components2/StoryFnBar'
+import StoryContent from '../components2/StoryContent'
 
 function Story() {
     // This is for rendering the mobile version of the Story page

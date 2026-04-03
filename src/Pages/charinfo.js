@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import CharacterCard from "../Components/CharacterCard";
+import CharacterCard from "../components2/CharacterCard";
 import { HashLink } from 'react-router-hash-link';
 import '../css/charinfo.css';
 import { useLocalization } from '../localization/hooks/useLocalization';
