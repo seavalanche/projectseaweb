@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprojectseaweb=self.webpackChunkprojectseaweb||[]).push([[525],{2525:(e,s,c)=>{e.exports=c.p+"static/media/prologue_old.53ee336abc27816f5e9c.md"}}]);

@@ -1,7 +1,7 @@
 {
   "id": "seava",
-  "profilePicture": "PFP_Seava.png",
-  "profilePicture2": "PFP_Seava.png",
+  "profilePicture": "pfp_seava.png",
+  "profilePicture2": "pfp_seava.png",
   "name": "Seava",
   "alternateName": "(Ascended form)",
   "genderColor": "Genderless",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "D05.webp",
+      "src": "d05.webp",
       "title": "D05",
       "caption": {
         "en": "Seava's Updated Reference Sheet.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "D01 - Seava Ref v1.webp",
+      "src": "d01_-_seava_ref_v1.webp",
       "title": "D01 - Seava Ref v1",
       "caption": {
         "en": "The original Seava Normal Form reference sheet.",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "src": "D02 - Design 2.webp",
+      "src": "d02_-_design_2.webp",
       "title": "D02 - Design 2",
       "caption": {
         "en": "The original Seava Child Form reference.",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "src": "D03.webp",
+      "src": "d03.webp",
       "title": "D03",
       "caption": {
         "en": "The original Seava Ascended Form reference sketch.",
@@ -41,7 +41,7 @@
       }
     },
     {
-      "src": "D04.webp",
+      "src": "d04.webp",
       "title": "D04",
       "caption": {
         "en": "A cropped full face drawing of Seava.",
@@ -49,7 +49,7 @@
       }
     },
     {
-      "src": "D07 - Ko-fi commission banner_dark.webp",
+      "src": "d07_-_ko-fi_commission_banner_dark.webp",
       "title": "D07 - Ko-fi commission banner",
       "caption": {
         "en": "The original commission banner drawn with Vesnea.",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "src": "D09 - Seava pixelart_enlarged.webp",
+      "src": "d09_-_seava_pixelart_enlarged.webp",
       "title": "D09 - Seava pixelart",
       "caption": {
         "en": "The first ever pixelart of Seava.",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "src": "D11 - Commission Banner v2.webp",
+      "src": "d11_-_commission_banner_v2.webp",
       "title": "D11 - Commission Banner v2",
       "caption": {
         "en": "A commission banner design of Seava and Vesnea.",
@@ -73,7 +73,7 @@
       }
     },
     {
-      "src": "D15 - Seavalanche.webp",
+      "src": "d15_-_seavalanche.webp",
       "title": "D15 - Seavalanche",
       "caption": {
         "en": "Vesnea Seavalanche Mode, Vesnea, and Seava.",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "src": "O07 - Small Seava.webp",
+      "src": "o07_-_small_seava.webp",
       "title": "O07 - Small Seava",
       "caption": {
         "en": "It's a portrait of Seava.",
@@ -89,7 +89,7 @@
       }
     },
     {
-      "src": "O31 - Seava_AF_128_Normal.webp",
+      "src": "o31_-_seava_af_128_normal.webp",
       "title": "O31 - Seava (Ascended Form)",
       "caption": {
         "en": "Seava in a PMD style portrait (Ascended Form)",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "src": "O31 - Seava_AF3_128_Normal.webp",
+      "src": "o31_-_seava_af3_128_normal.webp",
       "title": "O31 - Seava (Ascended Form) alt",
       "caption": {
         "en": "Seava in a PMD style portrait (Ascended Form)",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "src": "O31 - Seava_CF_128_Normal.webp",
+      "src": "o31_-_seava_cf_128_normal.webp",
       "title": "O31 - Seava (Child Form)",
       "caption": {
         "en": "Seava in a PMD style portrait (Child Form)",
@@ -113,7 +113,7 @@
       }
     },
     {
-      "src": "O31 - Seava_NF_128_Normal.webp",
+      "src": "o31_-_seava_nf_128_normal.webp",
       "title": "O31 - Seava (Normal Form)",
       "caption": {
         "en": "Seava in a PMD style portrait (Normal Form)",
@@ -121,7 +121,7 @@
       }
     },
     {
-      "src": "S04 - Fear Karin.webp",
+      "src": "s04_-_fear_karin.webp",
       "title": "S04 - Fear Karin",
       "caption": {
         "en": "Seava Child Form bitten playfully by Karin the Fennekin (Katsuro Kurosaki's OC).",
@@ -129,7 +129,7 @@
       }
     },
     {
-      "src": "S10 - Katsuro Birthday.webp",
+      "src": "s10_-_katsuro_birthday.webp",
       "title": "S10 - Katsuro Birthday",
       "caption": {
         "en": "Seava Normal Form carrying Karin the Fennekin (Katsuro Kurosaki's OC).",
@@ -137,7 +137,7 @@
       }
     },
     {
-      "src": "S39 - Seava.webp",
+      "src": "s39_-_seava.webp",
       "title": "S39 - Seava",
       "caption": {
         "en": "Seava with a comfy cloak!",
@@ -145,7 +145,7 @@
       }
     },
     {
-      "src": "S49 - Frost Force.webp",
+      "src": "s49_-_frost_force.webp",
       "title": "S49 - Frost Force",
       "caption": {
         "en": "Seava uses Frost Force.",
@@ -153,7 +153,7 @@
       }
     },
     {
-      "src": "S57 - Seava 500x406px.gif",
+      "src": "s57_-_seava_500x406px_optimized.gif",
       "title": "S57 - Seava",
       "caption": {
         "en": "The first animation with Seava.",
@@ -161,7 +161,7 @@
       }
     },
     {
-      "src": "S59 - Seava.webp",
+      "src": "s59_-_seava.webp",
       "title": "S59 - Seava",
       "caption": {
         "en": "Seava in a forest setting.",
@@ -169,7 +169,7 @@
       }
     },
     {
-      "src": "S62 - Seava.webp",
+      "src": "s62_-_seava.webp",
       "title": "S62 - Seava",
       "caption": {
         "en": "Seava with his power aura.",
@@ -177,17 +177,17 @@
       }
     },
     {
-      "src": "S69 - Takeaway Food.webp",
+      "src": "s69_-_takeaway_food.webp",
       "title": "S69 - Takeaway Food",
       "caption": { "en": "Nom Nom!", "jp": "もぐもぐタイム！" }
     },
     {
-      "src": "S106 - Exude Power.webp",
+      "src": "s106_-_exude_power.webp",
       "title": "S106 - Exude Power",
       "caption": { "en": "Seava levitating with his powerful aura.", "jp": "" }
     },
     {
-      "src": "S124 - Seavas Scice.gif",
+      "src": "s124_-_seavas_scice_optimized.gif",
       "title": "S124 - Seava's Scice",
       "caption": {
         "en": "Seava using Frost Force from the converted Scice.",
@@ -195,7 +195,7 @@
       }
     },
     {
-      "src": "S135 - Fabulous Seava_A.webp",
+      "src": "s135_-_fabulous_seava_a.webp",
       "title": "S135 - Fabulous Seava",
       "caption": {
         "en": "Seava in a fabulous outfit.",
@@ -203,7 +203,7 @@
       }
     },
     {
-      "src": "S156 - Seava and Uzakon.webp",
+      "src": "s156_-_seava_and_uzakon.webp",
       "title": "S156 - Seava and Uzakon",
       "caption": {
         "en": "Seava pats Uzakon on the head.",
@@ -211,7 +211,7 @@
       }
     },
     {
-      "src": "S161 - Seava.webp",
+      "src": "s161_-_seava.webp",
       "title": "S161 - Seava",
       "caption": {
         "en": "Seava is leaning on a road sign.",
@@ -219,7 +219,7 @@
       }
     },
     {
-      "src": "S162 - Matching Clothes.webp",
+      "src": "s162_-_matching_clothes.webp",
       "title": "S162 - Matching Clothes",
       "caption": {
         "en": "Seava posing in a cute school uniform together with Seavalanche and Vesnea.",
@@ -227,36 +227,36 @@
       }
     },
     {
-      "src": "S182 - Seava.webp",
+      "src": "s182_-_seava.webp",
       "title": "S182 - Seava",
       "caption": { "en": "It's a portrait of Seava.", "jp": "" }
     }
   ],
   "tradearts": [
     {
-      "src": "by Noko - 20221128.webp",
+      "src": "by_noko_-_20221128.webp",
       "title": "by Noko (28 November 2022)",
       "caption": { "en": "Seava and Noko (Nokosansan's OC).", "jp": "Seava" }
     },
     {
-      "src": "A04 - Noko and Seava.webp",
+      "src": "a04_-_noko_and_seava.webp",
       "title": "A04 - Noko and Seava",
       "caption": { "en": "Seava and Noko (Nokosansan's OC).", "jp": "Seava" }
     },
     {
-      "src": "by Enma - 20240801.webp",
+      "src": "by_enma_-_20240801.webp",
       "title": "by Enma (1 August 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "AF25 - by Ailia - Seava - 20250801.webp",
+      "src": "af25_-_by_ailia_-_seava_-_20250801.webp",
       "title": "by Ailia (1 August 2025)",
       "caption": { "en": "Seava.", "jp": "Seava." }
     }
   ],
   "collabarts": [
     {
-      "src": "B01 - Noko and Seava.webp",
+      "src": "b01_-_noko_and_seava.webp",
       "title": "B01 - Noko and Seava",
       "caption": {
         "en": "Drawn by Nokosansan and Vesnea. Featuring Seava and Noko (Nokosansan's OC).",
@@ -264,7 +264,7 @@
       }
     },
     {
-      "src": "B01 - Noko and Seava_cropped.webp",
+      "src": "b01_-_noko_and_seava_cropped.webp",
       "title": "B01 - Noko and Seava (cropped)",
       "caption": {
         "en": "Drawn by Nokosansan and Vesnea. Featuring Seava and Noko (Nokosansan's OC).",
@@ -274,124 +274,124 @@
   ],
   "giftarts": [
     {
-      "src": "by Zazie - 20220113.webp",
+      "src": "by_zazie_-_20220113.webp",
       "title": "by Zazie (13 January 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Mystic - 20220406.webp",
+      "src": "by_mystic_-_20220406.webp",
       "title": "by Mystic (6 April 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by glcwinter - 20220406.webp",
+      "src": "by_glcwinter_-_20220406.webp",
       "title": "by glcwinter (6 April 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Sleepy64_ - 20220406.webp",
+      "src": "by_sleepy64__-_20220406.webp",
       "title": "by Sleepy64_ (6 April 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Teknoss - 20220410.webp",
+      "src": "by_teknoss_-_20220410.webp",
       "title": "by Teknoss (10 April 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20220607.webp",
+      "src": "by_noko_-_20220607.webp",
       "title": "by Nokosansan (7 June 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by KohotoKun - 20220608.webp",
+      "src": "by_kohotokun_-_20220608.webp",
       "title": "by KohotoKun (8 June 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20220704.webp",
+      "src": "by_noko_-_20220704.webp",
       "title": "by Nokosansan (4 July 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20220710.webp",
+      "src": "by_noko_-_20220710.webp",
       "title": "by Nokosansan (10 July 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by KohotoKun - 20220809.webp",
+      "src": "by_kohotokun_-_20220809.webp",
       "title": "by KohotoKun (9 August 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Azshorark - 20221003.webp",
+      "src": "by_azshorark_-_20221003.webp",
       "title": "by Azshorark (3 October 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20221003 2.webp",
+      "src": "by_noko_-_20221003_2.webp",
       "title": "by Nokosansan (3 October 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20221024 1.webp",
+      "src": "by_noko_-_20221024_1.webp",
       "title": "by Nokosansan (24 October 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Azshorark - 20250106.webp",
+      "src": "by_azshorark_-_20250106.webp",
       "title": "by Azshorark (6 October 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20221206.webp",
+      "src": "by_noko_-_20221206.webp",
       "title": "by Nokosansan (6 December 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko and Vesnea - 20221224_cropped.webp",
+      "src": "by_noko_and_vesnea_-_20221224_cropped.webp",
       "title": "by Nokosansan (24 December 2022) (cropped)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "Q01 - Seava and Vesnea by Sasa.webp",
+      "src": "q01_-_seava_and_vesnea_by_sasa.webp",
       "title": "by Sasa (13 June 2023)",
       "caption": { "en": "Seava and Vesnea", "jp": "" }
     },
     {
-      "src": "by Enma - 20240119.webp",
+      "src": "by_enma_-_20240119.webp",
       "title": "by Enma (19 January 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Olyester - 20240130.webp",
+      "src": "by_olyester_-_20240130.webp",
       "title": "by Olyester (30 January 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20240227 1.webp",
+      "src": "by_super_ex1_-_20240227_1.webp",
       "title": "by super_EX1 (27 February 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by mia_mafu - 20240305.webp",
+      "src": "by_mia_mafu_-_20240305.webp",
       "title": "by mia_mafu (5 March 2024)",
       "caption": { "en": "", "jp": "" }
     }
   ],
   "commarts": [
     {
-      "src": "by qatoqat commissioned by Ruzik - 20220507.webp",
+      "src": "by_qatoqat_commissioned_by_ruzik_-_20220507.webp",
       "title": "by qatoqat (7 May 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Catsbell commissioned by Vesnea - 20230126.webp",
+      "src": "by_catsbell_commissioned_by_vesnea_-_20230126.webp",
       "title": "by Catsbell (26 January 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Haineko - 20231121.webp",
+      "src": "by_haineko_-_20231121.webp",
       "title": "by Haineko (21 November 2023)",
       "caption": { "en": "", "jp": "" }
     }

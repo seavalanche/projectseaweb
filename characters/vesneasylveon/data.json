@@ -1,7 +1,7 @@
 {
   "id": "vesneasylveon",
-  "profilePicture": "PFP_Vesneon.png",
-  "profilePicture2": "PFP_Vesneon.png",
+  "profilePicture": "pfp_vesneon.png",
+  "profilePicture2": "pfp_vesneon.png",
   "name": "Vesneon",
   "alternateName": "(Vesnea Sylveon)",
   "genderColor": "Female",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "D39 - Vesnea Sylveon.webp",
+      "src": "d39_-_vesnea_sylveon.webp",
       "title": "D39 - Vesnea Sylveon",
       "caption": {
         "en": "An introductory artwork of Vesneon (Vesnea Sylveon).",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "B04 - Christmas Collab_sylveon-transparent2_cropped.webp",
+      "src": "b04_-_christmas_collab_sylveon-transparent2_cropped.webp",
       "title": "B04 - Christmas Collab (Vesneon only)",
       "caption": {
         "en": "Vesneon is laying down with one eye opened.",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "src": "B06 - Chinese New Year Vesneon_crop.webp",
+      "src": "b06_-_chinese_new_year_vesneon_crop.webp",
       "title": "B06 - Chinese New Year Vesneon (Vesneon only)",
       "caption": {
         "en": "Vesneon in a Chinese New Year style clothing, holding a red lantern with a ponyta on it.",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "src": "S198 - Vesneon.webp",
+      "src": "s198_-_vesneon.webp",
       "title": "S198 - Vesneon",
       "caption": {
         "en": "Vesneon is sitting down with one of her leg extended and facing her back towards the viewer.",
@@ -50,24 +50,24 @@
   ],
   "collabarts": [
     {
-      "src": "B04 - Christmas Collab.webp",
+      "src": "b04_-_christmas_collab.webp",
       "title": "B04 - Christmas Collab",
       "caption": { "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the right bottom side, laying down with one eye opened.", "jp": "" }
     },
     {
-      "src": "B06 - Chinese New Year Vesneon.webp",
+      "src": "b06_-_chinese_new_year_vesneon.webp",
       "title": "B06 - Chinese New Year Vesneon",
       "caption": { "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the center, wearing a Chinese New Year style clothes holding a red lantern with a Ponyta on it.", "jp": "" }
     }
   ],
   "giftarts": [
     {
-      "src": "by Enma - 20260209.webp",
+      "src": "by_enma_-_20260209.webp",
       "title": "by Enma (9 February 2026)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Esthermsb - 20260224.webp",
+      "src": "by_esthermsb_-_20260224.webp",
       "title": "by Esthermsb (24 February 2026)",
       "caption": { "en": "", "jp": "" }
     }

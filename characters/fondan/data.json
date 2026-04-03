@@ -1,7 +1,7 @@
 {
   "id": "fondan",
-  "profilePicture": "PFP_Fondan.png",
-  "profilePicture2": "PFP_Fondan.png",
+  "profilePicture": "pfp_fondan.webp",
+  "profilePicture2": "pfp_fondan.webp",
   "name": "Fondan",
   "alternateName": "",
   "genderColor": "Male",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "D33 - Design Fondan.jpg",
+      "src": "d33_-_design_fondan.jpg",
       "title": "D33 - Design Fondan",
       "caption": {
         "en": "The original Fondan reference sheet.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "S171 - Fondan_fix1.webp",
+      "src": "s171_-_fondan_fix1.webp",
       "title": "S171 - Fondan",
       "caption": {
         "en": "Pretty cool Fondan pose with his white shirt and black tie.",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "src": "S196 - Light Pillar.webp",
+      "src": "s196_-_light_pillar.webp",
       "title": "S196 - Light Pillar",
       "caption": {
         "en": "Fondan uses Light Pillar. There are three pillars of light visible from far away.",
@@ -35,7 +35,7 @@
   ],
   "tradearts": [
     {
-      "src": "AF25 - by DerpyCloud - Grey Area! - 20250729.webp",
+      "src": "af25_-_by_derpycloud_-_grey_area!_-_20250729.webp",
       "title": "by DerpyCloud (29 July 2025)",
       "caption": { "en": "Grey Area!", "jp": "" }
     }
@@ -49,24 +49,24 @@
   ],
   "giftarts": [
     {
-      "src": "by super_EX1 - 20250306.webp",
+      "src": "by_super_ex1_-_20250306.webp",
       "title": "by super_EX1 (6 March 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20250724.webp",
+      "src": "by_super_ex1_-_20250724.webp",
       "title": "by super_EX1 (24 July 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20260301.webp",
+      "src": "by_super_ex1_-_20260301.webp",
       "title": "by super_EX1 (1 March 2026)",
       "caption": { "en": "", "jp": "" }
     }
   ],
   "commarts": [
     {
-      "src": "by Haineko - 20250827.webp",
+      "src": "by_haineko_-_20250827.webp",
       "title": "by Haineko (27 August 2025",
       "caption": { "en": "", "jp": "" }
     }

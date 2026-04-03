@@ -1,7 +1,7 @@
 {
   "id": "vesneabm",
-  "profilePicture": "PFP_VesneaBM.png",
-  "profilePicture2": "PFP_VesneaBM.png",
+  "profilePicture": "pfp_vesneabm.png",
+  "profilePicture2": "pfp_vesneabm.png",
   "name": "Vesnea",
   "alternateName": "Blossom Mode",
   "genderColor": "Female",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "V01.jpg",
+      "src": "v01.jpg",
       "title": "V01",
       "caption": {
         "en": "Vesnea Blossom Mode's reference sheet.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "S165 - Vesnea Blossom Mode.jpg",
+      "src": "s165_-_vesnea_blossom_mode.jpg",
       "title": "S165 - Vesnea Blossom Mode",
       "caption": {
         "en": "Vesnea Blossom Mode.",
@@ -48,12 +48,12 @@
   ],
   "commarts": [
     {
-      "src": "by Haineko - 20250300.webp",
+      "src": "by_haineko_-_20250300.webp",
       "title": "by Haineko (March 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Haineko - 20251225.webp",
+      "src": "by_haineko_-_20251225.webp",
       "title": "by Haineko (25 December 2025)",
       "caption": { "en": "", "jp": "" }
     }

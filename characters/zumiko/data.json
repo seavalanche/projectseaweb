@@ -1,7 +1,7 @@
 {
   "id": "zumiko",
-  "profilePicture": "PFP_Zumiko.png",
-  "profilePicture2": "PFP_Zumiko.png",
+  "profilePicture": "pfp_zumiko.png",
+  "profilePicture2": "pfp_zumiko.png",
   "name": "Zumiko",
   "alternateName": "",
   "genderColor": "Male",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "D18 - Korazu, Uzakon, and Zumiko_full ref.webp",
+      "src": "d18_-_korazu,_uzakon,_and_zumiko_full_ref.webp",
       "title": "D18 - Korazu, Uzakon, and Zumiko",
       "caption": {
         "en": "The original Seavalanche's Three Cats design.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "S113 - Korazu, Uzakon, Zumiko_wip2.webp",
+      "src": "s113_-_korazu,_uzakon,_zumiko_wip2.webp",
       "title": "S113 - Korazu, Uzakon, Zumiko",
       "caption": {
         "en": "The Seavalanche's Three Cats.",
@@ -25,22 +25,22 @@
       }
     },
     {
-      "src": "S115 - Zumiko.webp",
+      "src": "s115_-_zumiko.webp",
       "title": "S115 - Zumiko",
       "caption": { "en": "Nom Nom!", "jp": "もぐもぐ！" }
     },
     {
-      "src": "S119 - Zumiko.webp",
+      "src": "s119_-_zumiko.webp",
       "title": "S119 - Zumiko",
       "caption": { "en": "Zumiko with the stars.", "jp": "星と一緒のZumiko。" }
     },
     {
-      "src": "S145 - Zumiko.webp",
+      "src": "s145_-_zumiko.webp",
       "title": "S145 - Zumiko",
       "caption": { "en": "Zumiko cutie.", "jp": "かわいいZumiko。" }
     },
     {
-      "src": "S151 - Zumiko.webp",
+      "src": "s151_-_zumiko.webp",
       "title": "S151 - Zumiko",
       "caption": {
         "en": "Zumiko with a fashionable outfit.",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "src": "S158 - Korazu, Uzakon, and Zumiko.webp",
+      "src": "s158_-_korazu,_uzakon,_and_zumiko.webp",
       "title": "S158 - Korazu, Uzakon, and Zumiko",
       "caption": {
         "en": "The Seavalanche's Three Cats.",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "src": "S163 - Elemental Power_full.webp",
+      "src": "s163_-_elemental_power_full.webp",
       "title": "S163 - Elemental Power",
       "caption": {
         "en": "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "src": "S190 - Korazu Uzakon Zumiko.webp",
+      "src": "s190_-_korazu_uzakon_zumiko.webp",
       "title": "S190 - Korazu Uzakon Zumiko",
       "caption": {
         "en": "Zumiko is playfully showing Uzakon's paw to Korazu.",
@@ -74,17 +74,17 @@
   ],
   "tradearts": [
     {
-      "src": "by Ailia - 20240719_1.webp",
+      "src": "by_ailia_-_20240719_1.webp",
       "title": "by Ailia (19 July 2024)",
       "caption": { "en": "Seavalanche Three Cats", "jp": "" }
     },
     {
-      "src": "by Hinawashi - 20240801.webp",
+      "src": "by_hinawashi_-_20240801.webp",
       "title": "by Hinawashi (1 August 2024)",
       "caption": { "en": "Seavalanche Three Cats", "jp": "" }
     },
     {
-      "src": "AF25 - by Enma - Zumiko Elegant style! - 20250723.webp",
+      "src": "af25_-_by_enma_-_zumiko_elegant_style!_-_20250723.webp",
       "title": "by Enma (23 July 2025)",
       "caption": { "en": "Zumiko Elegant style!", "jp": "" }
     }
@@ -98,34 +98,34 @@
   ],
   "giftarts": [
     {
-      "src": "by Miamafu - 20240115_1.webp",
+      "src": "by_miamafu_-_20240115_1.webp",
       "title": "by Miamafu (15 January 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Spacecrow - 20240907.webp",
+      "src": "by_spacecrow_-_20240907.webp",
       "title": "by Spacecrow (7 September 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Natsuneko - 20240930.webp",
+      "src": "by_natsuneko_-_20240930.webp",
       "title": "by Natsuneko (30 September 2024)",
       "caption": { "en": "", "jp": "" }
     }
   ],
   "commarts": [
     {
-      "src": "by Haineko - 20240214.webp",
+      "src": "by_haineko_-_20240214.webp",
       "title": "by Haineko (14 February 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by 水無月 - 20240703 1.webp",
+      "src": "by_水無月_-_20240703_1.webp",
       "title": "by 水無月 (3 July 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by 水無月 - 20240703 2.webp",
+      "src": "by_水無月_-_20240703_2.webp",
       "title": "by 水無月 (3 July 2024)",
       "caption": { "en": "", "jp": "" }
     }
