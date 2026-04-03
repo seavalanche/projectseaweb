@@ -4,37 +4,37 @@ import './styles/Navbar.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
 // import Navbar from './Components/navbar.js';
-import Navbar2 from './components/Navbar2-temp.js';
-import Footer from './components/Footer-temp.js';
+import Navbar2 from './components/Navbar2.js';
+import Footer from './components/Footer.js';
 import ScrollToTop from './components/ScrollToTop.js';
 import ScrollToTopButton from './components/ScrollToTopButton.js';
-import Homepage from './pages/Homepage-temp.js'
-import Projects from './pages/projects.js'
-import Characters from './pages/characters.js'
-import AttributePage from './pages/AttributePage-temp.js'
-import CharInfo from './pages/CharInfo-temp.js'
-import ProjectSeaWeb from './pages/projectseaweb.js'
+import Homepage from './pages/Homepage.js'
+import Projects from './pages/Projects.js'
+import Characters from './pages/Characters.js'
+import AttributePage from './pages/AttributePage.js'
+import CharInfo from './pages/CharInfo.js'
+import ProjectSeaWeb from './pages/ProjectSeaWeb.js'
 // import Commissions from './Pages/commissions.js'
 // import About from './Pages/About.js'
-import AboutVesnea from './pages/aboutvesnea.js'
+import AboutVesnea from './pages/AboutVesnea.js'
 import Tools from './Tools/texttohtmlconverter.js'
 import TestComponent from './Tools/highlightmessage.js';
 import YCHStory from './Tools/StoryYCH/ychstory.js';
 import NotFound from './components/NotFound.js';
-import SeaWebTree from './pages/seawebtree.js';
+import SeaWebTree from './pages/SeaWebTree.js';
 
 // Art Pages
-import ArtPage from './pages/artpage.js'
-import Story from './pages/story.js'
+import ArtPage from './pages/ArtPage.js'
+import Story from './pages/Story.js'
 import Poem from './pages/Poem.js'
 import VesneaThemes from './pages/VesneaThemes.js'
-import VesneaMerch from './pages/vesneamerch.js'
+import VesneaMerch from './pages/VesneaMerch.js'
 // import UmbreonJourney from './Pages/umbreonjourney.js'
-import UmbreonJourney from './pages/PoemBook-temp.js'
+import UmbreonJourney from './pages/PoemBook.js'
 
 // Game Pages
-import GamePage from './pages/gamepage.js'
-import TicTacToe from './pages/games/tictactoepage.js'
+import GamePage from './pages/GamePage.js'
+import TicTacToe from './pages/games/TicTacToePage.js'
 
 function App() {
   const [theme, setTheme] = useState("light");
