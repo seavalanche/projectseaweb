@@ -1,7 +1,7 @@
 {
   "id": "Seavalanche",
-  "profilePicture": "pfp_seavalanche.png",
-  "profilePicture2": "pfp_seavalanche.png",
+  "profilePicture": "pfp-seavalanche.png",
+  "profilePicture2": "pfp-seavalanche.png",
   "name": "Seavalanche",
   "alternateName": "Vesnea Seavalanche Mode",
   "genderColor": "Female",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "d26_-_seavalanche_upscaled.webp",
+      "src": "d26-seavalanche-upscaled.webp",
       "title": "D26 - Seavalanche",
       "caption": {
         "en": "The updated Seavalanche reference sheet.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "d15_-_seavalanche.webp",
+      "src": "d15-seavalanche.webp",
       "title": "D15 - Seavalanche",
       "caption": {
         "en": "Vesnea Seavalanche Mode, Vesnea, and Seava.",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "src": "o32_-_seavalanche.webp",
+      "src": "o32-seavalanche.webp",
       "title": "O32 - Seavalanche",
       "caption": {
         "en": "Vesnea Seavalanche Mode in a PMD Style icon.",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "src": "s63_-_seavalanche_b.webp",
+      "src": "s63-seavalanche-b.webp",
       "title": "S63 - Seavalanche",
       "caption": {
         "en": "The original Seavalanche artwork.",
@@ -41,7 +41,7 @@
       }
     },
     {
-      "src": "s64_-_seavalanche.webp",
+      "src": "s64-seavalanche.webp",
       "title": "S64 - Seavalanche",
       "caption": {
         "en": "Seavalanche goes for a swim.",
@@ -49,7 +49,7 @@
       }
     },
     {
-      "src": "s65_-_seavalanche.webp",
+      "src": "s65-seavalanche.webp",
       "title": "S65 - Seavalanche",
       "caption": {
         "en": "A whimsical Seavalanche.",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "src": "s68_-_seavalanche_emote.webp",
+      "src": "s68-seavalanche-emote.webp",
       "title": "S68 - Seavalanche emote",
       "caption": {
         "en": "A Seavalanche emote.",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "src": "s85_-_seavalanche_dark.webp",
+      "src": "s85-seavalanche-dark.webp",
       "title": "S85 - Seavalanche",
       "caption": {
         "en": "Seavalanche's modest pose.",
@@ -73,7 +73,7 @@
       }
     },
     {
-      "src": "s128_-_seavalanche.webp",
+      "src": "s128-seavalanche.webp",
       "title": "S128 - Seavalanche",
       "caption": {
         "en": "Seavalanche showing the Magical power and the Water power.",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "src": "s141_-_seavalanche.webp",
+      "src": "s141-seavalanche.webp",
       "title": "S141 - Seavalanche",
       "caption": {
         "en": "Seavalanche relaxing at a bar.",
@@ -89,12 +89,12 @@
       }
     },
     {
-      "src": "s157_-_seavalanche.webp",
+      "src": "s157-seavalanche.webp",
       "title": "S157 - Seavalanche",
       "caption": { "en": "Seavalanche waving.", "jp": "手を振るSeavalanche。" }
     },
     {
-      "src": "s159_-_seavalanche.webp",
+      "src": "s159-seavalanche.webp",
       "title": "S159 - Seavalanche",
       "caption": {
         "en": "Seavalanche appeared behind a pillar.",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "src": "s162_-_matching_clothes.webp",
+      "src": "s162-matching-clothes.webp",
       "title": "S162 - Matching Clothes",
       "caption": {
         "en": "Seavalanche posing in a cute school uniform together with Vesnea and Seava.",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "src": "s173_-_seavalanche_day.webp",
+      "src": "s173-seavalanche-day.webp",
       "title": "S173 - Seavalanche Day",
       "caption": {
         "en": "Seavalanche hugging a sprigatito plush.",
@@ -120,17 +120,17 @@
   ],
   "tradearts": [
     {
-      "src": "af24_-_by_tor_kl_-_seavalanche_-_20240730.webp",
+      "src": "af24-by-tor-kl-seavalanche-20240730.webp",
       "title": "by tor_kl (30 July 2024)",
       "caption": { "en": "Seavalanche.", "jp": "" }
     },
     {
-      "src": "af25_-_by_snappiq_-_swim,_but_the_swim_is_silent_-_20250717.webp",
+      "src": "af25-by-snappiq-swim,-but-the-swim-is-silent-20250717.webp",
       "title": "by SnappiQ (17 July 2024)",
       "caption": { "en": "Swim, but the swim is silent.", "jp": "" }
     },
     {
-      "src": "af25_-_by_zombiepro89_-_a_carefree_swim_-_20250726.webp",
+      "src": "af25-by-zombiepro89-a-carefree-swim-20250726.webp",
       "title": "by Zombiepro89 (26 July 2025)",
       "caption": { "en": "A Carefree Swim.", "jp": "" }
     }
@@ -144,57 +144,57 @@
   ],
   "giftarts": [
     {
-      "src": "by_haineko_-_20230406.webp",
+      "src": "by-haineko-20230406.webp",
       "title": "by Haineko (6 April 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_azshorark_-_20230606.webp",
+      "src": "by-azshorark-20230606.webp",
       "title": "by Azshorark (6 June 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_gabsudeyo_-_20230407.webp",
+      "src": "by-gabsudeyo-20230407.webp",
       "title": "by Gabsudeyo (7 April 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_enma_-_20230407.webp",
+      "src": "by-enma-20230407.webp",
       "title": "by Enma (7 April 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_runway55_-_20230610.webp",
+      "src": "by-runway55-20230610.webp",
       "title": "by Runway55 (10 June 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_enma_-_20240330.webp",
+      "src": "by-enma-20240330.webp",
       "title": "by Enma (30 March 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_super_ex1_-_20240330.webp",
+      "src": "by-super-ex1-20240330.webp",
       "title": "by super_EX1 (30 March 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_haineko_-_20240406.webp",
+      "src": "by-haineko-20240406.webp",
       "title": "by Haineko (6 April 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_arshina_-_20240607.webp",
+      "src": "by-arshina-20240607.webp",
       "title": "by Arshina (7 June 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_azshorark_-_20241231_2.webp",
+      "src": "by-azshorark-20241231-2.webp",
       "title": "by Azshorark (31 December 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by_azshorark_-_20250106.webp",
+      "src": "by-azshorark-20250106.webp",
       "title": "by Azshorark (6 January 2025)",
       "caption": { "en": "", "jp": "" }
     }

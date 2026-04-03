@@ -1,7 +1,7 @@
 {
   "id": "veranite",
-  "profilePicture": "pfp_veranite.png",
-  "profilePicture2": "pfp_veranite.png",
+  "profilePicture": "pfp-veranite.png",
+  "profilePicture2": "pfp-veranite.png",
   "name": "Veranite",
   "alternateName": "",
   "genderColor": "Male",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "d34_-_design_veranite.jpg",
+      "src": "d34-design-veranite.jpg",
       "title": "D34 - Design Veranite",
       "caption": {
         "en": "The original Veranite reference sheet.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "s183_-_veranite.webp",
+      "src": "s183-veranite.webp",
       "title": "S183 - Veranite",
       "caption": {
         "en": "Veranite is as dark as the space itself.",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "src": "s197_-_void_of_uncertainty.webp",
+      "src": "s197-void-of-uncertainty.webp",
       "title": "S197 - Void of Uncertainty",
       "caption": {
         "en": "Veranite is using Void of Uncertainty. He is spreading dark aura of uncertainty towards everyone nearby, making them doubt themselves and their situation.",
