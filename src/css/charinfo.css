@@ -429,6 +429,7 @@
   font-weight: 500;
 }
 .charcardValue.Male {
+  color: var(--attribute-water); /* fallback */
   color: hsl(
     from var(--attribute-water) calc(h + 5) calc(s + 15) calc(l + 15) / 1
   );
@@ -439,6 +440,7 @@
   font-weight: 500;
 }
 [data-theme="light"] .charcardValue.Genderless {
+  color: var(--attribute-wind); /* fallback */
   color: hsl(from var(--attribute-wind) h s calc(l - 20) / 1);
 }
 .charcardValue.NA {
@@ -676,6 +678,7 @@
   font-weight: bold;
 }
 [data-theme="light"] .charcard-move-name {
+  color: var(--charcard-text-value); /* fallback */
   color: hsl(from var(--charcard-text-value) calc(h + 30) calc(s + 70) l / 0.6);
 }
 .charcard-artworkselections {
