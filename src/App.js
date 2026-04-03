@@ -1,18 +1,18 @@
 import './layout.css';
 import './theme.css';
-import './css/Navbar.css';
+import './styles/Navbar.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
 // import Navbar from './Components/navbar.js';
-import Navbar2 from './components/navbar2.js';
-import Footer from './components/footer.js';
+import Navbar2 from './components/Navbar2-temp.js';
+import Footer from './components/Footer-temp.js';
 import ScrollToTop from './components/ScrollToTop.js';
 import ScrollToTopButton from './components/ScrollToTopButton.js';
-import Homepage from './pages/homepage.js'
+import Homepage from './pages/Homepage-temp.js'
 import Projects from './pages/projects.js'
 import Characters from './pages/characters.js'
-import AttributePage from './pages/attributepage.js'
-import CharInfo from './pages/charinfo.js'
+import AttributePage from './pages/AttributePage-temp.js'
+import CharInfo from './pages/CharInfo-temp.js'
 import ProjectSeaWeb from './pages/projectseaweb.js'
 // import Commissions from './Pages/commissions.js'
 // import About from './Pages/About.js'
@@ -30,7 +30,7 @@ import Poem from './pages/Poem.js'
 import VesneaThemes from './pages/VesneaThemes.js'
 import VesneaMerch from './pages/vesneamerch.js'
 // import UmbreonJourney from './Pages/umbreonjourney.js'
-import UmbreonJourney from './pages/poembook.js'
+import UmbreonJourney from './pages/PoemBook-temp.js'
 
 // Game Pages
 import GamePage from './pages/gamepage.js'

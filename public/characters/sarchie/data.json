@@ -1,7 +1,7 @@
 {
   "id": "sarchie",
-  "profilePicture": "pfp_sarchie.png",
-  "profilePicture2": "pfp_sarchie.png",
+  "profilePicture": "pfp-sarchie.png",
+  "profilePicture2": "pfp-sarchie.png",
   "name": "Sarchie",
   "alternateName": "",
   "genderColor": "Female",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "d35_-_design_sarchie.jpg",
+      "src": "d35-design-sarchie.jpg",
       "title": "D35 - Design Sarchie",
       "caption": {
         "en": "The original Sarchie reference sheet.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "s199_-_wingbeat_screech.webp",
+      "src": "s199-wingbeat-screech.webp",
       "title": "S199 - Wingbeat Screech",
       "caption": {
         "en": "Sarchie uses Wingbeat Screech. Flapping her wings and screeching.",

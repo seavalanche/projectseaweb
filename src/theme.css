@@ -1,35 +1,35 @@
 @font-face {
   font-family: "F-Navbar";
-  src: url(./Assets/Fonts/montserrat-variablefont_wght.ttf);
+  src: url(./Assets/fonts/montserrat-variable.ttf);
 }
 
 @font-face {
   font-family: "F-NavbarTitle";
-  src: url(./Assets/Fonts/montserrat-semibold.ttf);
+  src: url(./Assets/fonts/montserrat-semibold.ttf);
 }
 
 @font-face {
   font-family: "F-BigTitle";
-  src: url(./Assets/Fonts/baskervville-regular.ttf);
+  src: url(./Assets/fonts/baskervville-regular.ttf);
 }
 
 @font-face {
   font-family: "F-Content";
-  src: url(./Assets/Fonts/montserrat-variablefont_wght.ttf);
+  src: url(./Assets/fonts/montserrat-variable.ttf);
 }
 
 @font-face {
   font-family: "F-Link";
-  src: url(./Assets/Fonts/intertight-extralightitalic.ttf);
+  src: url(./Assets/fonts/intertight-extralightitalic.ttf);
 }
 
 @font-face {
   font-family: "OpenDyslexic";
-  src: url(./Assets/Fonts/opendyslexic-regular.otf);
+  src: url(./Assets/fonts/opendyslexic-regular.otf);
 }
 @font-face {
   font-family: "F-AboutVesnea";
-  src: url(./Assets/Fonts/josefinsans-italic-variablefont_wght.ttf);
+  src: url(./Assets/fonts/josefinsans-italic-variable.ttf);
 }
 html {
   scroll-behavior: smooth;
@@ -38,14 +38,14 @@ html {
   line-height: 20pt;
   text-decoration: initial;
   font-weight: 300;
-  background-image: url("./Assets/Common/vesbg_1b.webp");
+  background-image: url("./Assets/Common/vesbg-1b.webp");
   background-size: 12%;
 }
 html[data-theme="dark"] {
-  background-image: url("./Assets/Common/vesbg_2.webp");
+  background-image: url("./Assets/Common/vesbg-2.webp");
 }
 html[data-theme="star"] {
-  background-image: url("./Assets/Common/vesbg_3.webp");
+  background-image: url("./Assets/Common/vesbg-3.webp");
 }
 .bigtitle {
   font-family: "Baskervville", "Noto Serif JP", serif;
@@ -1028,13 +1028,13 @@ input[type="color"] {
   text-shadow: 3px 4px 7px var(--C-SeaWeb_Dark_Purple2);
 }
 [data-theme="light"] .footnavbg {
-  background-image: url("./Assets/Footer/lightmode.jpg");
+  background-image: url("./Assets/footer/lightmode.jpg");
 }
 [data-theme="dark"] .footnavbg {
-  background-image: url("./Assets/Footer/darkmode.jpg");
+  background-image: url("./Assets/footer/darkmode.jpg");
 }
 [data-theme="star"] .footnavbg {
-  background-image: url("./Assets/Footer/starmode.jpg");
+  background-image: url("./Assets/footer/starmode.jpg");
 }
 
 [data-theme="star"] .footnav-wrapperX {
@@ -1063,13 +1063,13 @@ input[type="color"] {
 
 @media only screen and (max-width: 639px) {
   [data-theme="light"] .footnavbg {
-    background-image: url("./Assets/Footer/lightmode_xssize.jpg");
+    background-image: url("./Assets/footer/lightmode-xssize.jpg");
   }
   [data-theme="dark"] .footnavbg {
-    background-image: url("./Assets/Footer/darkmode_xssize.jpg");
+    background-image: url("./Assets/footer/darkmode-xssize.jpg");
   }
   [data-theme="star"] .footnavbg {
-    background-image: url("./Assets/Footer/starmode.jpg");
+    background-image: url("./Assets/footer/starmode.jpg");
   }
 }
 /* Footnav */ /* Footnav */ /* Footnav */ /* Footnav */ /* Footnav */
@@ -1088,13 +1088,13 @@ input[type="color"] {
   background-position: center;
 }
 [data-theme="light"] .footbar-logo {
-  background-image: url("./Assets/Footer/footbarlogox2_lightmode.png");
+  background-image: url("./Assets/footer/footbarlogox2-lightmode.png");
 }
 [data-theme="dark"] .footbar-logo {
-  background-image: url("./Assets/Footer/footbarlogox2_darkmode.png");
+  background-image: url("./Assets/footer/footbarlogox2-darkmode.png");
 }
 [data-theme="star"] .footbar-logo {
-  background-image: url("./Assets/Footer/footbarlogox2_starmode.png");
+  background-image: url("./Assets/footer/footbarlogox2-starmode.png");
 }
 .footbar-text {
   font-family: var(--F-Montserrat);
@@ -1732,7 +1732,7 @@ input[type="color"] {
 .slider::-webkit-slider-thumb,
 .slider::-moz-range-thumb {
   background-color: transparent;
-  background-image: url("Assets/pfp_vesnea.png");
+  background-image: url("Assets/pfp-vesnea.png");
   background-size: cover;
   background-position: center;
   border: none;

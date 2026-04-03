@@ -1,4 +1,4 @@
-import mythseavalanche from '../Assets/About/ACinfo/myth_seavalanche.png';
+import mythseavalanche from '../Assets/About/ACinfo/myth-seavalanche.png';
 import seavalanche from '../Assets/About/ACinfo/seavalanche.png';
 import seava from '../Assets/About/ACinfo/seava.png';
 import vesnea from '../Assets/About/ACinfo/vesnea.png';
@@ -19,7 +19,7 @@ import aboutvesnea from '../Assets/About/AC/vesnea.png';
 import aboutkorazu from '../Assets/About/AC/korazu.png';
 import aboutuzakon from '../Assets/About/AC/uzakon.png';
 import aboutzumiko from '../Assets/About/AC/zumiko.png';
-import aboutseparator from '../Assets/s75_-_vesnea_b_338x450.gif';
+import aboutseparator from '../Assets/s75-vesnea-b-338x450.gif';
 import { useTheme } from "../components/ThemeContext";
 import { useLocalization } from '../localization/hooks/useLocalization';
 import { Link } from 'react-router-dom';

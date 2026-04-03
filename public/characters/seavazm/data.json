@@ -1,7 +1,7 @@
 {
   "id": "seavazm",
-  "profilePicture": "pfp_seavazm.png",
-  "profilePicture2": "pfp_seavazm.png",
+  "profilePicture": "pfp-seavazm.png",
+  "profilePicture2": "pfp-seavazm.png",
   "name": "Seava",
   "alternateName": "Zephyr Mode",
   "genderColor": "Genderless",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "s168_-_seava_zephyr_mode.webp",
+      "src": "s168-seava-zephyr-mode.webp",
       "title": "S168 - Seava Zephyr Mode",
       "caption": { "en": "Seava Zephyr Mode.", "jp": "Zephyr Mode。" }
     }

@@ -18,8 +18,8 @@ logText.split(/\r?\n/).forEach(line => {
     const oldFullPath = m[1].trim();
     const newFullPath = m[2].trim();
 
-    const oldName = path.basename(oldFullPath); // "d31_-_design_arna.jpg"
-    const newName = path.basename(newFullPath); // "d31_-_design_arna.jpg"
+    const oldName = path.basename(oldFullPath); // "d31-design-arna.jpg"
+    const newName = path.basename(newFullPath); // "d31-design-arna.jpg"
 
     renameMap[oldName] = newName;
 });

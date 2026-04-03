@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import smallintro1 from '../Assets/Homepage/shortintro/s98_-_vesnea_see_you.png';
+import smallintro1 from '../Assets/Homepage/shortintro/s98-vesnea-see-you.png';
 import smallintro2 from '../Assets/Homepage/shortintro/2023-18-sprigatito.jpg';
 import { useLocalization } from '../localization/hooks/useLocalization';
-import '../css/hpcarousel.css';
+import '../styles/HPCarousel.css';
 
 const wallpapers = [
-    `${process.env.PUBLIC_URL}/homepage_carousel/hpc01.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/hpc02.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/hpc03.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/hpc04.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/hpc05.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/hpc06.jpg`,
-    `${process.env.PUBLIC_URL}/homepage_carousel/hpc07.jpg`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc01.jpg`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc02.jpg`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc03.jpg`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc04.jpg`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc05.jpg`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc06.jpg`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc07.jpg`,
 ];
 
 const Homepage = () => {

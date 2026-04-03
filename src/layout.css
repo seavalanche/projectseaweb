@@ -1836,8 +1836,8 @@ html {
   width: 100%;
   height: min(30vw, 400px);
   aspect-ratio: 3.7 / 1;
-  background-image: url("./Assets/About/AboutVesnea/aboutvesnea-header_2.png"),
-    url("./Assets/About/AboutVesnea/aboutvesnea-header_2-shadow.png");
+  background-image: url("./Assets/About/AboutVesnea/aboutvesnea-header-2.png"),
+    url("./Assets/About/AboutVesnea/aboutvesnea-header-2-shadow.png");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-position: center;

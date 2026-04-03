@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import CharacterCard from "../components/CharacterCard";
 import { HashLink } from 'react-router-hash-link';
-import '../css/charinfo.css';
+import '../styles/CharInfo.css';
 import { useLocalization } from '../localization/hooks/useLocalization';
 
 function CharInfo() {

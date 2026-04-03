@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import html2canvas from "html2canvas";
-import '../css/attributepage.css'
+import '../styles/AttributePage.css'
 
 export default function AttributePage() {
   const tableRef = useRef();

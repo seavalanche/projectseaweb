@@ -1,7 +1,7 @@
 {
   "id": "seavatm",
-  "profilePicture": "pfp_seavatm.png",
-  "profilePicture2": "pfp_seavatm.png",
+  "profilePicture": "pfp-seavatm.png",
+  "profilePicture2": "pfp-seavatm.png",
   "name": "Seava",
   "alternateName": "Tempest Mode",
   "genderColor": "Genderless",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "s166_-_seava_tempest_mode.webp",
+      "src": "s166-seava-tempest-mode.webp",
       "title": "S166 - Seava Tempest Mode",
       "caption": { "en": "Seava Tempest Mode.", "jp": "SeavaのTempest Mode。" }
     }

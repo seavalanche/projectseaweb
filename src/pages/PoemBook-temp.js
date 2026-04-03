@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import '../css/poembook.css';
+import '../styles/PoemBook.css';
 import { useLocalization } from '../localization/hooks/useLocalization';
 
 const pages = [
