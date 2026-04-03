@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projectseaweb/static/css/main.14f7a11d.css",
-    "main.js": "/projectseaweb/static/js/main.c070f3bf.js",
+    "main.js": "/projectseaweb/static/js/main.2f399241.js",
     "static/js/176.3bd95182.chunk.js": "/projectseaweb/static/js/176.3bd95182.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
     "static/js/163.05981631.chunk.js": "/projectseaweb/static/js/163.05981631.chunk.js",
@@ -160,11 +160,11 @@
     "static/media/tidy-er-star.svg": "/projectseaweb/static/media/tidy-er-star.5f56a61bea84acdfbec0.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
     "main.14f7a11d.css.map": "/projectseaweb/static/css/main.14f7a11d.css.map",
-    "main.c070f3bf.js.map": "/projectseaweb/static/js/main.c070f3bf.js.map",
+    "main.2f399241.js.map": "/projectseaweb/static/js/main.2f399241.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14f7a11d.css",
-    "static/js/main.c070f3bf.js"
+    "static/js/main.2f399241.js"
   ]
 }
