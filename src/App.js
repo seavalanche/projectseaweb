@@ -29,7 +29,6 @@ import Story from './pages/Story.js'
 import Poem from './pages/Poem.js'
 import VesneaThemes from './pages/VesneaThemes.js'
 import VesneaMerch from './pages/VesneaMerch.js'
-// import UmbreonJourney from './Pages/umbreonjourney.js'
 import UmbreonJourney from './pages/PoemBook.js'
 
 // Game Pages
