@@ -1,35 +1,35 @@
 @font-face {
   font-family: "F-Navbar";
-  src: url(./Assets/Fonts/Montserrat-VariableFont_wght.ttf);
+  src: url(./Assets/Fonts/montserrat-variablefont_wght.ttf);
 }
 
 @font-face {
   font-family: "F-NavbarTitle";
-  src: url(./Assets/Fonts/Montserrat-SemiBold.ttf);
+  src: url(./Assets/Fonts/montserrat-semibold.ttf);
 }
 
 @font-face {
   font-family: "F-BigTitle";
-  src: url(./Assets/Fonts/Baskervville-Regular.ttf);
+  src: url(./Assets/Fonts/baskervville-regular.ttf);
 }
 
 @font-face {
   font-family: "F-Content";
-  src: url(./Assets/Fonts/Montserrat-VariableFont_wght.ttf);
+  src: url(./Assets/Fonts/montserrat-variablefont_wght.ttf);
 }
 
 @font-face {
   font-family: "F-Link";
-  src: url(./Assets/Fonts/InterTight-ExtraLightItalic.ttf);
+  src: url(./Assets/Fonts/intertight-extralightitalic.ttf);
 }
 
 @font-face {
   font-family: "OpenDyslexic";
-  src: url(./Assets/Fonts/OpenDyslexic-Regular.otf);
+  src: url(./Assets/Fonts/opendyslexic-regular.otf);
 }
 @font-face {
   font-family: "F-AboutVesnea";
-  src: url(./Assets/Fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+  src: url(./Assets/Fonts/josefinsans-italic-variablefont_wght.ttf);
 }
 html {
   scroll-behavior: smooth;
@@ -38,14 +38,14 @@ html {
   line-height: 20pt;
   text-decoration: initial;
   font-weight: 300;
-  background-image: url("./Assets/Common/VesBG_1b.webp");
+  background-image: url("./Assets/Common/vesbg_1b.webp");
   background-size: 12%;
 }
 html[data-theme="dark"] {
-  background-image: url("./Assets/Common/VesBG_2.webp");
+  background-image: url("./Assets/Common/vesbg_2.webp");
 }
 html[data-theme="star"] {
-  background-image: url("./Assets/Common/VesBG_3.webp");
+  background-image: url("./Assets/Common/vesbg_3.webp");
 }
 .bigtitle {
   font-family: "Baskervville", "Noto Serif JP", serif;
@@ -874,22 +874,22 @@ input[type="color"] {
   cursor: pointer;
 }
 [data-theme="light"] .brand-logo {
-  background-image: url("./Assets/Navbar/NavbarLogo-light.png");
+  background-image: url("./Assets/Navbar/navbarlogo-light.png");
 }
 [data-theme="dark"] .brand-logo {
-  background-image: url("./Assets/Navbar/NavbarLogo-dark.png");
+  background-image: url("./Assets/Navbar/navbarlogo-dark.png");
 }
 [data-theme="star"] .brand-logo {
-  background-image: url("./Assets/Navbar/NavbarLogo-star.png");
+  background-image: url("./Assets/Navbar/navbarlogo-star.png");
 }
 .brand-logo:hover {
-  background-image: url("./Assets/Navbar/NavbarLogo-pink.png");
+  background-image: url("./Assets/Navbar/navbarlogo-pink.png");
   text-shadow: 0 2px 5px
     color-mix(in srgb, var(--navtext-accent) 50%, transparent);
   transform: scale(1.02);
 }
 [data-theme="light"] .brand-logo:hover {
-  background-image: url("./Assets/Navbar/NavbarLogo-pink2.png");
+  background-image: url("./Assets/Navbar/navbarlogo-pink2.png");
 }
 .navbar-menu-text {
   font-family: var(--F-Montserrat);
@@ -909,13 +909,13 @@ input[type="color"] {
   transition: transform 0.1s ease;
 }
 .theme-btn1 {
-  background-image: url("./Assets/Navbar/KorazuSun.svg");
+  background-image: url("./Assets/Navbar/korazusun.svg");
 }
 .theme-btn2 {
-  background-image: url("./Assets/Navbar/ZumikoStar.svg");
+  background-image: url("./Assets/Navbar/zumikostar.svg");
 }
 .theme-btn3 {
-  background-image: url("./Assets/Navbar/UzakonMoon.svg");
+  background-image: url("./Assets/Navbar/uzakonmoon.svg");
 }
 .theme-btn1:hover,
 .theme-btn2:hover,
@@ -1028,13 +1028,13 @@ input[type="color"] {
   text-shadow: 3px 4px 7px var(--C-SeaWeb_Dark_Purple2);
 }
 [data-theme="light"] .footnavbg {
-  background-image: url("./Assets/Footer/LightMode.jpg");
+  background-image: url("./Assets/Footer/lightmode.jpg");
 }
 [data-theme="dark"] .footnavbg {
-  background-image: url("./Assets/Footer/DarkMode.jpg");
+  background-image: url("./Assets/Footer/darkmode.jpg");
 }
 [data-theme="star"] .footnavbg {
-  background-image: url("./Assets/Footer/StarMode.jpg");
+  background-image: url("./Assets/Footer/starmode.jpg");
 }
 
 [data-theme="star"] .footnav-wrapperX {
@@ -1063,13 +1063,13 @@ input[type="color"] {
 
 @media only screen and (max-width: 639px) {
   [data-theme="light"] .footnavbg {
-    background-image: url("./Assets/Footer/LightMode_XSSize.jpg");
+    background-image: url("./Assets/Footer/lightmode_xssize.jpg");
   }
   [data-theme="dark"] .footnavbg {
-    background-image: url("./Assets/Footer/DarkMode_XSSize.jpg");
+    background-image: url("./Assets/Footer/darkmode_xssize.jpg");
   }
   [data-theme="star"] .footnavbg {
-    background-image: url("./Assets/Footer/StarMode.jpg");
+    background-image: url("./Assets/Footer/starmode.jpg");
   }
 }
 /* Footnav */ /* Footnav */ /* Footnav */ /* Footnav */ /* Footnav */
@@ -1088,13 +1088,13 @@ input[type="color"] {
   background-position: center;
 }
 [data-theme="light"] .footbar-logo {
-  background-image: url("./Assets/Footer/FootbarLogoX2_LightMode.png");
+  background-image: url("./Assets/Footer/footbarlogox2_lightmode.png");
 }
 [data-theme="dark"] .footbar-logo {
-  background-image: url("./Assets/Footer/FootbarLogoX2_DarkMode.png");
+  background-image: url("./Assets/Footer/footbarlogox2_darkmode.png");
 }
 [data-theme="star"] .footbar-logo {
-  background-image: url("./Assets/Footer/FootbarLogoX2_StarMode.png");
+  background-image: url("./Assets/Footer/footbarlogox2_starmode.png");
 }
 .footbar-text {
   font-family: var(--F-Montserrat);
@@ -1127,19 +1127,19 @@ input[type="color"] {
 
 /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
 .introduction {
-  background-image: url("./Assets/Homepage/Introduction-bg.jpg");
+  background-image: url("./Assets/Homepage/introduction-bg.jpg");
 }
 .welcome {
   background-color: var(--bg-color-2);
 }
 [data-theme="light"] .welcomewrapper {
-  background-image: url("./Assets/Homepage/WelcomeSect-light.jpg");
+  background-image: url("./Assets/Homepage/welcomesect-light.jpg");
 }
 [data-theme="dark"] .welcomewrapper {
-  background-image: url("./Assets/Homepage/WelcomeSect-dark.jpg");
+  background-image: url("./Assets/Homepage/welcomesect-dark.jpg");
 }
 [data-theme="star"] .welcomewrapper {
-  background-image: url("./Assets/Homepage/WelcomeSect-star.jpg");
+  background-image: url("./Assets/Homepage/welcomesect-star.jpg");
 }
 .welcometitle {
   font-family: var(--F-Default);
@@ -1165,13 +1165,13 @@ input[type="color"] {
   background-color: var(--bg-color-1);
 }
 [data-theme="light"] .commsectbanner {
-  background-image: url("./Assets/CommBanner1.webp");
+  background-image: url("./Assets/commbanner1.webp");
 }
 [data-theme="dark"] .commsectbanner {
-  background-image: url("./Assets/CommBanner2.webp");
+  background-image: url("./Assets/commbanner2.webp");
 }
 [data-theme="star"] .commsectbanner {
-  background-image: url("./Assets/CommBanner2.webp");
+  background-image: url("./Assets/commbanner2.webp");
 }
 .commsectitemcard {
   border-color: var(--text-color-1b);
@@ -1195,17 +1195,17 @@ input[type="color"] {
 }
 @media only screen and (max-width: 800px) {
   .introduction {
-    background-image: url("./Assets/Homepage/Introduction-bg-full.jpg");
+    background-image: url("./Assets/Homepage/introduction-bg-full.jpg");
   }
 
   [data-theme="light"] .commsectbanner {
-    background-image: url("./Assets/CommBanner1m.webp");
+    background-image: url("./Assets/commbanner1m.webp");
   }
   [data-theme="dark"] .commsectbanner {
-    background-image: url("./Assets/CommBanner2m.webp");
+    background-image: url("./Assets/commbanner2m.webp");
   }
   [data-theme="star"] .commsectbanner {
-    background-image: url("./Assets/CommBanner2m.webp");
+    background-image: url("./Assets/commbanner2m.webp");
   }
 }
 /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */ /* HOMEPAGE */
@@ -1596,40 +1596,40 @@ input[type="color"] {
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
 }
 .sidebar-btn-open {
-  background-image: url("./Assets/Common/SidebarBtnLightOpen.svg");
+  background-image: url("./Assets/Common/sidebarbtnlightopen.svg");
 }
 .sidebar-btn-close {
-  background-image: url("./Assets/Common/SidebarBtnLightClose.svg");
+  background-image: url("./Assets/Common/sidebarbtnlightclose.svg");
 }
 .sidebar-btn-open:hover {
-  background-image: url("./Assets/Common/SidebarBtnLightCloseHover.svg");
+  background-image: url("./Assets/Common/sidebarbtnlightclosehover.svg");
 }
 .sidebar-btn-close:hover {
-  background-image: url("./Assets/Common/SidebarBtnLightOpenHover.svg");
+  background-image: url("./Assets/Common/sidebarbtnlightopenhover.svg");
 }
 [data-theme="dark"] .sidebar-btn-open {
-  background-image: url("./Assets/Common/SidebarBtnDarkOpen.svg");
+  background-image: url("./Assets/Common/sidebarbtndarkopen.svg");
 }
 [data-theme="dark"] .sidebar-btn-close {
-  background-image: url("./Assets/Common/SidebarBtnDarkClose.svg");
+  background-image: url("./Assets/Common/sidebarbtndarkclose.svg");
 }
 [data-theme="dark"] .sidebar-btn-open:hover {
-  background-image: url("./Assets/Common/SidebarBtnDarkCloseHover.svg");
+  background-image: url("./Assets/Common/sidebarbtndarkclosehover.svg");
 }
 [data-theme="dark"] .sidebar-btn-close:hover {
-  background-image: url("./Assets/Common/SidebarBtnDarkOpenHover.svg");
+  background-image: url("./Assets/Common/sidebarbtndarkopenhover.svg");
 }
 [data-theme="star"] .sidebar-btn-open {
-  background-image: url("./Assets/Common/SidebarBtnStarOpen.svg");
+  background-image: url("./Assets/Common/sidebarbtnstaropen.svg");
 }
 [data-theme="star"] .sidebar-btn-close {
-  background-image: url("./Assets/Common/SidebarBtnStarClose.svg");
+  background-image: url("./Assets/Common/sidebarbtnstarclose.svg");
 }
 [data-theme="star"] .sidebar-btn-open:hover {
-  background-image: url("./Assets/Common/SidebarBtnStarCloseHover.svg");
+  background-image: url("./Assets/Common/sidebarbtnstarclosehover.svg");
 }
 [data-theme="star"] .sidebar-btn-close:hover {
-  background-image: url("./Assets/Common/SidebarBtnStarOpenHover.svg");
+  background-image: url("./Assets/Common/sidebarbtnstaropenhover.svg");
 }
 .sidebar-toc-title {
   color: var(--storyfnbar-toctext);
@@ -1732,7 +1732,7 @@ input[type="color"] {
 .slider::-webkit-slider-thumb,
 .slider::-moz-range-thumb {
   background-color: transparent;
-  background-image: url("Assets/PFP_Vesnea.png");
+  background-image: url("Assets/pfp_vesnea.png");
   background-size: cover;
   background-position: center;
   border: none;
@@ -1778,40 +1778,40 @@ input[type="color"] {
     border-radius: 5px;
   }
   .sidebar-btn-mobile-open {
-    background-image: url("./Assets/Common/SidebarBtnMLightOpen.svg");
+    background-image: url("./Assets/Common/sidebarbtnmlightopen.svg");
   }
   .sidebar-btn-mobile-close {
-    background-image: url("./Assets/Common/SidebarBtnMLightClose.svg");
+    background-image: url("./Assets/Common/sidebarbtnmlightclose.svg");
   }
   .sidebar-btn-mobile-open:hover {
-    background-image: url("./Assets/Common/SidebarBtnMLightCloseHover.svg");
+    background-image: url("./Assets/Common/sidebarbtnmlightclosehover.svg");
   }
   .sidebar-btn-mobile-close:hover {
-    background-image: url("./Assets/Common/SidebarBtnMLightOpenHover.svg");
+    background-image: url("./Assets/Common/sidebarbtnmlightopenhover.svg");
   }
   [data-theme="dark"] .sidebar-btn-mobile-open {
-    background-image: url("./Assets/Common/SidebarBtnMDarkOpen.svg");
+    background-image: url("./Assets/Common/sidebarbtnmdarkopen.svg");
   }
   [data-theme="dark"] .sidebar-btn-mobile-close {
-    background-image: url("./Assets/Common/SidebarBtnMDarkClose.svg");
+    background-image: url("./Assets/Common/sidebarbtnmdarkclose.svg");
   }
   [data-theme="dark"] .sidebar-btn-mobile-open:hover {
-    background-image: url("./Assets/Common/SidebarBtnMDarkCloseHover.svg");
+    background-image: url("./Assets/Common/sidebarbtnmdarkclosehover.svg");
   }
   [data-theme="dark"] .sidebar-btn-mobile-close:hover {
-    background-image: url("./Assets/Common/SidebarBtnMDarkOpenHover.svg");
+    background-image: url("./Assets/Common/sidebarbtnmdarkopenhover.svg");
   }
   [data-theme="star"] .sidebar-btn-mobile-open {
-    background-image: url("./Assets/Common/SidebarBtnMStarOpen.svg");
+    background-image: url("./Assets/Common/sidebarbtnmstaropen.svg");
   }
   [data-theme="star"] .sidebar-btn-mobile-close {
-    background-image: url("./Assets/Common/SidebarBtnMStarClose.svg");
+    background-image: url("./Assets/Common/sidebarbtnmstarclose.svg");
   }
   [data-theme="star"] .sidebar-btn-mobile-open:hover {
-    background-image: url("./Assets/Common/SidebarBtnMStarCloseHover.svg");
+    background-image: url("./Assets/Common/sidebarbtnmstarclosehover.svg");
   }
   [data-theme="star"] .sidebar-btn-mobile-close:hover {
-    background-image: url("./Assets/Common/SidebarBtnMStarOpenHover.svg");
+    background-image: url("./Assets/Common/sidebarbtnmstaropenhover.svg");
   }
   .fnbar-default-menu {
     background-color: var(--button-background);
@@ -1821,13 +1821,13 @@ input[type="color"] {
     border: 1px solid var(--button-border);
     border-radius: 5px;
     cursor: pointer;
-    background-image: url("./Assets/Common/ResetBtnLight.svg");
+    background-image: url("./Assets/Common/resetbtnlight.svg");
   }
   [data-theme="dark"] .fnbar-default-menu {
-    background-image: url("./Assets/Common/ResetBtnDark.svg");
+    background-image: url("./Assets/Common/resetbtndark.svg");
   }
   [data-theme="star"] .fnbar-default-menu {
-    background-image: url("./Assets/Common/ResetBtnStar.svg");
+    background-image: url("./Assets/Common/resetbtnstar.svg");
   }
   .sidebar-btn-mobile:hover,
   .fnbar-default-menu:hover {
@@ -1838,13 +1838,13 @@ input[type="color"] {
       color-mix(in srgb, var(--button-border2-active) 50%, transparent);
   }
   .fnbar-default-menu:hover {
-    background-image: url("./Assets/Common/ResetBtnLightActive.svg");
+    background-image: url("./Assets/Common/resetbtnlightactive.svg");
   }
   [data-theme="dark"] .fnbar-default-menu:hover {
-    background-image: url("./Assets/Common/ResetBtnDarkActive.svg");
+    background-image: url("./Assets/Common/resetbtndarkactive.svg");
   }
   [data-theme="star"] .fnbar-default-menu:hover {
-    background-image: url("./Assets/Common/ResetBtnStarActive.svg");
+    background-image: url("./Assets/Common/resetbtnstaractive.svg");
   }
 }
 /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */

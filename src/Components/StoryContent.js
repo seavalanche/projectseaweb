@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { getBookmark, saveBookmark } from '../Components/StoryBookmark'
+import { getBookmark, saveBookmark } from './StoryBookmark'
 import { useLocalization } from '../localization/hooks/useLocalization';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';

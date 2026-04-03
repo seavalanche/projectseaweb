@@ -3,7 +3,7 @@ import { useLocalization } from '../../localization/hooks/useLocalization.js';
 
 const TicTacToePage = () => {
     const { t } = useLocalization();
-    
+
     return (
         <GameLayout
             gamewidth="570px"

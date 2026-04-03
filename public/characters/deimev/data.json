@@ -1,7 +1,7 @@
 {
   "id": "deimev",
-  "profilePicture": "PFP_Deimev.png",
-  "profilePicture2": "PFP_Deimev.png",
+  "profilePicture": "pfp_deimev.png",
+  "profilePicture2": "pfp_deimev.png",
   "name": "Deimev",
   "alternateName": "",
   "genderColor": "Male",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "D36 - Design Deimev.jpg",
+      "src": "d36_-_design_deimev.jpg",
       "title": "D36 - Design Deimev",
       "caption": {
         "en": "The original Deimev reference sheet.",

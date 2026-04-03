@@ -9,15 +9,15 @@ const CACHE_VERSION = '1754006940|332435740';
 const CACHE_PREFIX = 'Tic Tac Toe Fun-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
-const OFFLINE_URL = 'TicTacToe.offline.html';
+const OFFLINE_URL = 'tictactoe.offline.html';
 /** @type {boolean} */
 const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 // Files that will be cached on load.
 /** @type {string[]} */
-const CACHED_FILES = ["TicTacToe.html","TicTacToe.js","TicTacToe.offline.html","TicTacToe.icon.png","TicTacToe.apple-touch-icon.png","TicTacToe.audio.worklet.js","TicTacToe.audio.position.worklet.js"];
+const CACHED_FILES = ["tictactoe.html","tictactoe.js","tictactoe.offline.html","tictactoe.icon.png","tictactoe.apple-touch-icon.png","tictactoe.audio.worklet.js","tictactoe.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
-const CACHEABLE_FILES = ["TicTacToe.wasm","TicTacToe.pck"];
+const CACHEABLE_FILES = ["tictactoe.wasm","tictactoe.pck"];
 const FULL_CACHE = CACHED_FILES.concat(CACHEABLE_FILES);
 
 self.addEventListener('install', (event) => {

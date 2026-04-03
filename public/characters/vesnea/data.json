@@ -1,7 +1,7 @@
 {
   "id": "vesnea",
-  "profilePicture": "PFP_Vesnea.png",
-  "profilePicture2": "PFP_Vesnea.png",
+  "profilePicture": "pfp_vesnea.png",
+  "profilePicture2": "pfp_vesnea.png",
   "name": "Vesnea",
   "alternateName": "",
   "genderColor": "Female",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "D25 - Vesnea Ref Design.webp",
+      "src": "d25_-_vesnea_ref_design.webp",
       "title": "D25 - Vesnea Ref Design",
       "caption": {
         "en": "The updated Vesnea reference sheet.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "D25 - Vesnea Ref Design2.webp",
+      "src": "d25_-_vesnea_ref_design2.webp",
       "title": "D25 - Vesnea Ref Design",
       "caption": {
         "en": "The updated Vesnea reference sheet.",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "src": "D27 - Vesnea Clothing Ref_only clothing_updated1.webp",
+      "src": "d27_-_vesnea_clothing_ref_only_clothing_updated1.webp",
       "title": "D27 - Vesnea Clothing Ref",
       "caption": {
         "en": "The Vesnea's Casual Clothing reference sheet.",
@@ -33,7 +33,7 @@
       }
     },
     {
-      "src": "D06_Dark Theme.webp",
+      "src": "d06_dark_theme.webp",
       "title": "D06",
       "caption": {
         "en": "The original Vesnea reference sheet.",
@@ -41,7 +41,7 @@
       }
     },
     {
-      "src": "D07 - Ko-fi commission banner_dark.webp",
+      "src": "d07_-_ko-fi_commission_banner_dark.webp",
       "title": "D07 - Ko-fi commission banner",
       "caption": {
         "en": "The original commission banner drawn with Seava.",
@@ -49,7 +49,7 @@
       }
     },
     {
-      "src": "D08 - Vesnea pixelart_effect_bg.webp",
+      "src": "d08_-_vesnea_pixelart_effect_bg.webp",
       "title": "D08 - Vesnea pixelart",
       "caption": {
         "en": "The first time Vesnea was drawn in pixelart style.",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "src": "D11 - Commission Banner v2.webp",
+      "src": "d11_-_commission_banner_v2.webp",
       "title": "D11 - Commission Banner v2",
       "caption": {
         "en": "A commission banner design of Seava and Vesnea.",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "src": "D15 - Seavalanche.webp",
+      "src": "d15_-_seavalanche.webp",
       "title": "D15 - Seavalanche",
       "caption": {
         "en": "Vesnea Seavalanche Mode, Vesnea, and Seava.",
@@ -73,7 +73,7 @@
       }
     },
     {
-      "src": "O02_vesnea.webp",
+      "src": "o02_vesnea.webp",
       "title": "O02 vesnea",
       "caption": {
         "en": "Vesnea laying down.",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "src": "O07 - Small Vesnea.webp",
+      "src": "o07_-_small_vesnea.webp",
       "title": "O07 - Small Vesnea",
       "caption": {
         "en": "It's a portrait of Vesnea.",
@@ -89,7 +89,7 @@
       }
     },
     {
-      "src": "O30 - Vesnea_128.webp",
+      "src": "o30_-_vesnea_128.webp",
       "title": "O30 - Vesnea",
       "caption": {
         "en": "Vesnea in a PMD style portrait.",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "src": "O30 - Vesnea_128_Angry.webp",
+      "src": "o30_-_vesnea_128_angry.webp",
       "title": "O30 - Vesnea (Angry)",
       "caption": {
         "en": "Vesnea in a PMD style portrait (angry).",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "src": "O30 - Vesnea_128_Crying.webp",
+      "src": "o30_-_vesnea_128_crying.webp",
       "title": "O30 - Vesnea (Crying)",
       "caption": {
         "en": "Vesnea in a PMD style portrait (crying).",
@@ -113,7 +113,7 @@
       }
     },
     {
-      "src": "O48 - Valentine Vesnea.webp",
+      "src": "o48_-_valentine_vesnea.webp",
       "title": "O48 - Valentine Vesnea",
       "caption": {
         "en": "Vesnea offering a heart-shaped box of chocolate.",
@@ -121,7 +121,7 @@
       }
     },
     {
-      "src": "S12.webp",
+      "src": "s12.webp",
       "title": "S12",
       "caption": {
         "en": "The first ever Vesnea artwork after the original reference sheet.",
@@ -129,17 +129,17 @@
       }
     },
     {
-      "src": "S13 - Vesnea.webp",
+      "src": "s13_-_vesnea.webp",
       "title": "S13 - Vesnea",
       "caption": { "en": "Vesnea on the stairway.", "jp": "階段にいるVesnea。" }
     },
     {
-      "src": "S16 - Vesnea.webp",
+      "src": "s16_-_vesnea.webp",
       "title": "S16 - Vesnea",
       "caption": { "en": "Vesnea at a beach.", "jp": "ビーチにいるVesnea。" }
     },
     {
-      "src": "S20 - Vesnea.webp",
+      "src": "s20_-_vesnea.webp",
       "title": "S20 - Vesnea",
       "caption": {
         "en": "Vesnea with starry background.",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "src": "S24 - Vesnea.webp",
+      "src": "s24_-_vesnea.webp",
       "title": "S24 - Vesnea",
       "caption": {
         "en": "Vesnea portrait with a big open mouth smile.",
@@ -155,7 +155,7 @@
       }
     },
     {
-      "src": "S30 - Vesnea.webp",
+      "src": "s30_-_vesnea.webp",
       "title": "S30 - Vesnea",
       "caption": {
         "en": "A chibi-style Vesnea with a cute costume.",
@@ -163,7 +163,7 @@
       }
     },
     {
-      "src": "S31 - Vesnea.webp",
+      "src": "s31_-_vesnea.webp",
       "title": "S31 - Vesnea",
       "caption": {
         "en": "Vesnea in a girly tennis costume.",
@@ -171,7 +171,7 @@
       }
     },
     {
-      "src": "S35 - Vesnea_wipA.webp",
+      "src": "s35_-_vesnea_wipa.webp",
       "title": "S35a - Vesnea",
       "caption": {
         "en": "Vesnea waving, drawn from the back.",
@@ -179,7 +179,7 @@
       }
     },
     {
-      "src": "S35 - Vesnea_wipB.webp",
+      "src": "s35_-_vesnea_wipb.webp",
       "title": "S35b - Vesnea",
       "caption": {
         "en": "Vesnea waving at the camera.",
@@ -187,7 +187,7 @@
       }
     },
     {
-      "src": "S38 - Vesnea.webp",
+      "src": "s38_-_vesnea.webp",
       "title": "S38 - Vesnea",
       "caption": {
         "en": "Vesnea jumping happily.",
@@ -195,7 +195,7 @@
       }
     },
     {
-      "src": "S44 - Vesnea.webp",
+      "src": "s44_-_vesnea.webp",
       "title": "S44 - Vesnea",
       "caption": {
         "en": "Vesnea with her small Seava plush.",
@@ -203,7 +203,7 @@
       }
     },
     {
-      "src": "S47 - Vesnea.webp",
+      "src": "s47_-_vesnea.webp",
       "title": "S47 - Vesnea",
       "caption": {
         "en": "Vesnea politely let someone pass.",
@@ -211,7 +211,7 @@
       }
     },
     {
-      "src": "S48 - Vesnea.webp",
+      "src": "s48_-_vesnea.webp",
       "title": "S48 - Vesnea",
       "caption": {
         "en": "Vesnea doing some cute dance.",
@@ -219,7 +219,7 @@
       }
     },
     {
-      "src": "S50 - Vesnea.webp",
+      "src": "s50_-_vesnea.webp",
       "title": "S50 - Vesnea",
       "caption": {
         "en": "Vesnea cutely sitting down.",
@@ -227,7 +227,7 @@
       }
     },
     {
-      "src": "S51 - Vesnea_optimized.gif",
+      "src": "s51_-_vesnea_optimized.gif",
       "title": "S51 - Vesnea",
       "caption": {
         "en": "Vesnea in various maid dress colors.",
@@ -235,7 +235,7 @@
       }
     },
     {
-      "src": "S52 - Vesnea.webp",
+      "src": "s52_-_vesnea.webp",
       "title": "S52 - Vesnea",
       "caption": {
         "en": "Vesnea open both flippers.",
@@ -243,7 +243,7 @@
       }
     },
     {
-      "src": "S53 - Vesnea.webp",
+      "src": "s53_-_vesnea.webp",
       "title": "S53 - Vesnea",
       "caption": {
         "en": "Vesnea doing some modern pose.",
@@ -251,7 +251,7 @@
       }
     },
     {
-      "src": "S54 - Vesnea_optimized.gif",
+      "src": "s54_-_vesnea_optimized.gif",
       "title": "S54 - Vesnea",
       "caption": {
         "en": "The first Vesnea animation!",
@@ -259,7 +259,7 @@
       }
     },
     {
-      "src": "S55 - Vesnea_wip3_optimized.gif",
+      "src": "s55_-_vesnea_wip3_optimized.gif",
       "title": "S55 - Vesnea",
       "caption": {
         "en": "Vesnea jump skip her own tail.",
@@ -267,7 +267,7 @@
       }
     },
     {
-      "src": "S58 - Vesnea.webp",
+      "src": "s58_-_vesnea.webp",
       "title": "S58 - Vesnea",
       "caption": {
         "en": "Vesnea in a cyberpunk setting.",
@@ -275,7 +275,7 @@
       }
     },
     {
-      "src": "S60 - Vesnea.webp",
+      "src": "s60_-_vesnea.webp",
       "title": "S60 - Vesnea",
       "caption": {
         "en": "Vesnea in an apocalypse setting.",
@@ -283,7 +283,7 @@
       }
     },
     {
-      "src": "S61 - Vesnea.webp",
+      "src": "s61_-_vesnea.webp",
       "title": "S61 - Vesnea",
       "caption": {
         "en": "A closeup of Vesnea.",
@@ -291,7 +291,7 @@
       }
     },
     {
-      "src": "S75 - Vesnea_b.webp",
+      "src": "s75_-_vesnea_b.webp",
       "title": "S75 - Vesnea",
       "caption": {
         "en": "Vesnea on a big pink heart background.",
@@ -299,7 +299,7 @@
       }
     },
     {
-      "src": "S79 - Vesnea_optimized.gif",
+      "src": "s79_-_vesnea_optimized.gif",
       "title": "S79 - Vesnea",
       "caption": {
         "en": "Vesnea waving to the right with both flippers.",
@@ -307,7 +307,7 @@
       }
     },
     {
-      "src": "S84 - Vesnea_varC - B2_dark.webp",
+      "src": "s84_-_vesnea_varc_-_b2_dark.webp",
       "title": "S84 - Vesnea",
       "caption": {
         "en": "Vesnea clasped both flippers to the heart.",
@@ -315,7 +315,7 @@
       }
     },
     {
-      "src": "S91 - Tea Party Style Vesnea.webp",
+      "src": "s91_-_tea_party_style_vesnea.webp",
       "title": "S91 - Tea Party Style Vesnea",
       "caption": {
         "en": "Vesnea in the Tea Party Style outfit.",
@@ -323,12 +323,12 @@
       }
     },
     {
-      "src": "S92 - Blep Vesnea.webp",
+      "src": "s92_-_blep_vesnea.webp",
       "title": "S92 - Blep Vesnea",
       "caption": { "en": "Blepppppp.", "jp": "べろ〜ん。" }
     },
     {
-      "src": "S94 - Vesnea.webp",
+      "src": "s94_-_vesnea.webp",
       "title": "S94 - Vesnea",
       "caption": {
         "en": "Vesnea angled down and put both arms to the side.",
@@ -336,12 +336,12 @@
       }
     },
     {
-      "src": "S97 - Vesnea Star.webp",
+      "src": "s97_-_vesnea_star.webp",
       "title": "S97 - Vesnea",
       "caption": { "en": "Vesnea Star!", "jp": "Vesneaスター！" }
     },
     {
-      "src": "S98 - Vesnea See You.webp",
+      "src": "s98_-_vesnea_see_you.webp",
       "title": "S98 - Vesnea",
       "caption": {
         "en": "Vesnea is looking at you~",
@@ -349,12 +349,12 @@
       }
     },
     {
-      "src": "S99 - Vesnea.webp",
+      "src": "s99_-_vesnea.webp",
       "title": "S99 - Vesnea",
       "caption": { "en": "UwU Vesnea.", "jp": "うるうるVesnea。" }
     },
     {
-      "src": "S100 - Vesnea.webp",
+      "src": "s100_-_vesnea.webp",
       "title": "S100 - Vesnea",
       "caption": {
         "en": "Vesnea relaxing.",
@@ -362,7 +362,7 @@
       }
     },
     {
-      "src": "S102 - Vesnea.webp",
+      "src": "s102_-_vesnea.webp",
       "title": "S102 - Vesnea",
       "caption": {
         "en": "Vesnea in a cute outfit.",
@@ -370,7 +370,7 @@
       }
     },
     {
-      "src": "Instagram S103 - Behind Wall_B.webp",
+      "src": "instagram_s103_-_behind_wall_b.webp",
       "title": "S103 - Behind Wall",
       "caption": {
         "en": "Vesnea is behind the wall!",
@@ -378,7 +378,7 @@
       }
     },
     {
-      "src": "S104b.webp",
+      "src": "s104b.webp",
       "title": "S104 - Deep Sadness",
       "caption": {
         "en": "Vesnea has felt one of the deepest sadness in her life.",
@@ -386,7 +386,7 @@
       }
     },
     {
-      "src": "S114 - Vesnea.webp",
+      "src": "s114_-_vesnea.webp",
       "title": "S114 - Vesnea",
       "caption": {
         "en": "Vesnea is deep in thoughts.",
@@ -394,7 +394,7 @@
       }
     },
     {
-      "src": "S117 - Vesnea.webp",
+      "src": "s117_-_vesnea.webp",
       "title": "S117 - Vesnea",
       "caption": {
         "en": "Hey! I have a cute pink ribbon and a cute pink gold bracelet!",
@@ -402,22 +402,22 @@
       }
     },
     {
-      "src": "S120 - Vesnea.webp",
+      "src": "s120_-_vesnea.webp",
       "title": "S120 - Vesnea",
       "caption": { "en": "Woah!", "jp": "わあっ！" }
     },
     {
-      "src": "S129 - Vesnea.webp",
+      "src": "s129_-_vesnea.webp",
       "title": "S129 - Vesnea",
       "caption": { "en": "Hehe~", "jp": "えへへ〜" }
     },
     {
-      "src": "S136 - Vesnea_optimized.gif",
+      "src": "s136_-_vesnea_optimized.gif",
       "title": "S136 - Vesnea",
       "caption": { "en": "Look there!", "jp": "見て見て、あそこだよ！" }
     },
     {
-      "src": "S138 - Vesnea_pattern_newpink.webp",
+      "src": "s138_-_vesnea_pattern_newpink.webp",
       "title": "S138 - Vesnea",
       "caption": {
         "en": "Vesnea's modest pose.",
@@ -425,12 +425,12 @@
       }
     },
     {
-      "src": "S160 - Vesnea.webp",
+      "src": "s160_-_vesnea.webp",
       "title": "S160 - Vesnea",
       "caption": { "en": "Woah, what are these?", "jp": "わあ、これ何？" }
     },
     {
-      "src": "S162 - Matching Clothes.webp",
+      "src": "s162_-_matching_clothes.webp",
       "title": "S162 - Matching Clothes",
       "caption": {
         "en": "Vesnea posing in a cute school uniform together with Seavalanche and Seava.",
@@ -438,17 +438,17 @@
       }
     },
     {
-      "src": "S184 - Vesnea.webp",
+      "src": "s184_-_vesnea.webp",
       "title": "S184 - Vesnea",
       "caption": { "en": "Vesnea is posing in a very cute way!", "jp": "" }
     },
     {
-      "src": "S188 - Christmas Vesnea.webp",
+      "src": "s188_-_christmas_vesnea.webp",
       "title": "S188 - Christmas Vesnea",
       "caption": { "en": "Vesnea is in a Christmas Festive vibe!", "jp": "" }
     },
     {
-      "src": "V06 - Vesnea.webp",
+      "src": "v06_-_vesnea.webp",
       "title": "V06 - Vesnea",
       "caption": {
         "en": "An artwork of Vesnea following the sea wave.",
@@ -458,49 +458,49 @@
   ],
   "tradearts": [
     {
-      "src": "AF24 - D02 - Vesnea by misspiggyf381 - 20240714.webp",
+      "src": "af24_-_d02_-_vesnea_by_misspiggyf381_-_20240714.webp",
       "title": "by misspiggyf381 (14 July 2024)",
       "caption": { "en": "Vesnea.", "jp": "" }
     },
     {
-      "src": "AF24 - D04 - Vesnea by Plussol - 20240723.webp",
+      "src": "af24_-_d04_-_vesnea_by_plussol_-_20240723.webp",
       "title": "by Plussol (23 July 2024)",
       "caption": { "en": "Vesnea.", "jp": "" }
     },
     {
-      "src": "AF24 - D05a - Vesnea by Mozonite - 20240723 2.webp",
+      "src": "af24_-_d05a_-_vesnea_by_mozonite_-_20240723_2.webp",
       "title": "by Mozonite (23 July 2024)",
       "caption": { "en": "Vesnea.", "jp": "" }
     },
     {
-      "src": "AF24 - D05b - Vesnea by Mozonite - 20240723.webp",
+      "src": "af24_-_d05b_-_vesnea_by_mozonite_-_20240723.webp",
       "title": "by Mozonite (23 July 2024)",
       "caption": { "en": "Vesnea.", "jp": "" }
     },
     {
-      "src": "AF24 - D06 - Vesnea by SmollCuteFenne - 20240730.webp",
+      "src": "af24_-_d06_-_vesnea_by_smollcutefenne_-_20240730.webp",
       "title": "by SmollCuteFenne (30 July 2024)",
       "caption": { "en": "Vesnea.", "jp": "" }
     },
     {
-      "src": "AF24 - D10 - Vesnea by Lerunechka - 20240802.webp",
+      "src": "af24_-_d10_-_vesnea_by_lerunechka_-_20240802.webp",
       "title": "by Lerunechka (2 August 2024)",
       "caption": { "en": "Vesnea.", "jp": "" }
     },
     {
-      "src": "AF25 - by GreninjaxSylveonlove - Vesnea! - 20250717.webp",
+      "src": "af25_-_by_greninjaxsylveonlove_-_vesnea!_-_20250717.webp",
       "title": "by GreninjaxSylveonlove (17 July 2025)",
       "caption": { "en": "Vesnea!", "jp": "" }
     },
     {
-      "src": "AF25 - by Stoakadora - Vesnea the cutie - 20250717.webp",
+      "src": "af25_-_by_stoakadora_-_vesnea_the_cutie_-_20250717.webp",
       "title": "by Stoakadora (17 July 2025)",
       "caption": { "en": "Vesnea the cutie.", "jp": "" }
     }
   ],
   "collabarts": [
     {
-      "src": "B05 - Valentine Group Art.webp",
+      "src": "b05_-_valentine_group_art.webp",
       "title": "B05 - Valentine Group Art",
       "caption": {
         "en": "A group art featuring Vesnea! (Two Vesnea, somehow)",
@@ -510,142 +510,142 @@
   ],
   "giftarts": [
     {
-      "src": "by Olyester - 20220621.webp",
+      "src": "by_olyester_-_20220621.webp",
       "title": "by Olyester (21 June 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20220803.webp",
+      "src": "by_noko_-_20220803.webp",
       "title": "by Nokosansan (3 August 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20220814.webp",
+      "src": "by_noko_-_20220814.webp",
       "title": "by Nokosansan (14 August 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20221003 2.webp",
+      "src": "by_noko_-_20221003_2.webp",
       "title": "by Nokosansan (3 October 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20221024 1.webp",
+      "src": "by_noko_-_20221024_1.webp",
       "title": "by Nokosansan (24 October 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20221121.webp",
+      "src": "by_noko_-_20221121.webp",
       "title": "by Nokosansan (21 November 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Zazie - 20221215.webp",
+      "src": "by_zazie_-_20221215.webp",
       "title": "by Zazie (15 December 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko and Vesnea - 20221224_cropped.webp",
+      "src": "by_noko_and_vesnea_-_20221224_cropped.webp",
       "title": "by Nokosansan (24 December 2022) (cropped)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Noko - 20230113_cropped.webp",
+      "src": "by_noko_-_20230113_cropped.webp",
       "title": "by Nokosansan (13 January 2023) (cropped)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20230227.webp",
+      "src": "by_super_ex1_-_20230227.webp",
       "title": "by super_EX1 (27 February 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by opggtalk - 20230406.webp",
+      "src": "by_opggtalk_-_20230406.webp",
       "title": "by opggtalk (6 April 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Snowy - 20230506.webp",
+      "src": "by_snowy_-_20230506.webp",
       "title": "by Snowy (6 May 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by LaguThongX - 20230522.webp",
+      "src": "by_laguthongx_-_20230522.webp",
       "title": "by LaguThongX (22 May 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Sasa - 20230613.webp",
+      "src": "by_sasa_-_20230613.webp",
       "title": "by Sasa (13 June 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by opggtalk - 20230630.webp",
+      "src": "by_opggtalk_-_20230630.webp",
       "title": "by opggtalk (30 June 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by LaguThongx - 20230705.webp",
+      "src": "by_laguthongx_-_20230705.webp",
       "title": "by LaguThongx (5 July 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Shinyprowl - 20230826.webp",
+      "src": "by_shinyprowl_-_20230826.webp",
       "title": "by Shinyprowl (26 August 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Shinyprowl - 20230827.webp",
+      "src": "by_shinyprowl_-_20230827.webp",
       "title": "by Shinyprowl (27 August 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Shinyprowl - 20230827_2.webp",
+      "src": "by_shinyprowl_-_20230827_2.webp",
       "title": "by Shinyprowl (27 August 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by mia_mafu - 20230915.webp",
+      "src": "by_mia_mafu_-_20230915.webp",
       "title": "by mia_mafu (15 September 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Enma - 20230923_1.webp",
+      "src": "by_enma_-_20230923_1.webp",
       "title": "by Enma (23 September 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20231225.webp",
+      "src": "by_super_ex1_-_20231225.webp",
       "title": "by super_EX1 (25 December 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Shinyprowl - 20240219.webp",
+      "src": "by_shinyprowl_-_20240219.webp",
       "title": "by Shinyprowl (19 February 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Shinyprowl - 20240222.webp",
+      "src": "by_shinyprowl_-_20240222.webp",
       "title": "by Shinyprowl (22 February 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Mystic - 20240306.webp",
+      "src": "by_mystic_-_20240306.webp",
       "title": "by Mystic (6 March 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20240406.webp",
+      "src": "by_super_ex1_-_20240406.webp",
       "title": "by super_EX1 (6 April 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by LaguThongx - 20240423.webp",
+      "src": "by_laguthongx_-_20240423.webp",
       "title": "by LaguThongx (23 April 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Pryexel48 - 20240424.webp",
+      "src": "by_pryexel48_-_20240424.webp",
       "title": "by Pryexel48 (24 April 2024)",
       "caption": { "en": "", "jp": "" }
     },
@@ -655,97 +655,97 @@
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by DerpyCloud11731 - 20240603.webp",
+      "src": "by_derpycloud11731_-_20240603.webp",
       "title": "by DerpyCloud11731 (3 June 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Arshina - 20240607.webp",
+      "src": "by_arshina_-_20240607.webp",
       "title": "by Arshina (7 June 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Arshina - 20240608 1.webp",
+      "src": "by_arshina_-_20240608_1.webp",
       "title": "by Arshina (8 June 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20240623.webp",
+      "src": "by_super_ex1_-_20240623.webp",
       "title": "by super_EX1 (23 June 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by mia_mafu - 20240722_optimized.gif",
+      "src": "by_mia_mafu_-_20240722_optimized.gif",
       "title": "by mia_mafu (22 July 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by LaguThongx - 20240802.webp",
+      "src": "by_laguthongx_-_20240802.webp",
       "title": "by LaguThongx (2 August 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Bunnymagika - 20241023.webp",
+      "src": "by_bunnymagika_-_20241023.webp",
       "title": "by Bunnymagika (23 October 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20241117.webp",
+      "src": "by_super_ex1_-_20241117.webp",
       "title": "by super_EX1 (17 November 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Shinyprowl - 20241224.webp",
+      "src": "by_shinyprowl_-_20241224.webp",
       "title": "by Shinyprowl (24 December 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20241225.webp",
+      "src": "by_super_ex1_-_20241225.webp",
       "title": "by super_EX1 (25 December 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Azhorark - 20241231.webp",
+      "src": "by_azhorark_-_20241231.webp",
       "title": "by Azhorark (31 December 2024)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Azshorark - 20250106.webp",
+      "src": "by_azshorark_-_20250106.webp",
       "title": "by Azshorark (6 January 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20250406.webp",
+      "src": "by_super_ex1_-_20250406.webp",
       "title": "by super_EX1 (6 April 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by mia_mafu - 20250501.webp",
+      "src": "by_mia_mafu_-_20250501.webp",
       "title": "by mia_mafu (1 May 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Enma - 20251006.webp",
+      "src": "by_enma_-_20251006.webp",
       "title": "by Enma (6 Oct 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Shinyprowl - 20251030.webp",
+      "src": "by_shinyprowl_-_20251030.webp",
       "title": "by Shinyprowl (30 October 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Enma - 20251127.webp",
+      "src": "by_enma_-_20251127.webp",
       "title": "by Enma (27 November 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by princey via discord secret santa - 20251225.webp",
+      "src": "by_princey_via_discord_secret_santa_-_20251225.webp",
       "title": "by princey (25 December 2025)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by super_EX1 - 20251226.webp",
+      "src": "by_super_ex1_-_20251226.webp",
       "title": "by super_EX1 (26 December 2025)",
       "caption": { "en": "", "jp": "" }
     },
@@ -757,22 +757,22 @@
   ],
   "commarts": [
     {
-      "src": "by Mystic commissioned by Vesnea - 20220620.webp",
+      "src": "by_mystic_commissioned_by_vesnea_-_20220620.webp",
       "title": "by Mystic (20 June 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Kumedu - 20220916.webp",
+      "src": "by_kumedu_-_20220916.webp",
       "title": "by Kumedu (16 September 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Haineko commissioned by Vesnea - 20221018.webp",
+      "src": "by_haineko_commissioned_by_vesnea_-_20221018.webp",
       "title": "by Haineko (18 October 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Haineko - 20221018 2.webp",
+      "src": "by_haineko_-_20221018_2.webp",
       "title": "by Haineko (18 October 2022)",
       "caption": { "en": "", "jp": "" }
     },
@@ -782,32 +782,32 @@
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Haineko - 20221230.webp",
+      "src": "by_haineko_-_20221230.webp",
       "title": "by Haineko (30 December 2022)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Nakiko commissioned by Ruzik - 20230101.webp",
+      "src": "by_nakiko_commissioned_by_ruzik_-_20230101.webp",
       "title": "by Nakiko (1 January 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Catsbell commissioned by Vesnea - 20230126.webp",
+      "src": "by_catsbell_commissioned_by_vesnea_-_20230126.webp",
       "title": "by Catsbell (26 January 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Haineko - 20230228.webp",
+      "src": "by_haineko_-_20230228.webp",
       "title": "by Haineko (28 February 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by Yurano commissioned by Vesnea - 20230531.webp",
+      "src": "by_yurano_commissioned_by_vesnea_-_20230531.webp",
       "title": "by Yurano (31 May 2023)",
       "caption": { "en": "", "jp": "" }
     },
     {
-      "src": "by 水無月 - 20240423 1.webp",
+      "src": "by_水無月_-_20240423_1.webp",
       "title": "by 水無月 (23 April 2024)",
       "caption": { "en": "", "jp": "" }
     },

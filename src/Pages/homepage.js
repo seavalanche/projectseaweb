@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import smallintro1 from '../Assets/Homepage/shortintro/S98 - Vesnea See You.png';
-import smallintro2 from '../Assets/Homepage/shortintro/2023-18-Sprigatito.jpg';
+import smallintro1 from '../Assets/Homepage/shortintro/s98_-_vesnea_see_you.png';
+import smallintro2 from '../Assets/Homepage/shortintro/2023-18-sprigatito.jpg';
 import { useLocalization } from '../localization/hooks/useLocalization';
-import '../css/HPcarousel.css';
+import '../css/hpcarousel.css';
 
 const wallpapers = [
     `${process.env.PUBLIC_URL}/homepage_carousel/HPC01.jpg`,

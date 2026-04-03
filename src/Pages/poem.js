@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import StorySidebar from '../Components/StorySidebar'
-import StoryFnBar from '../Components/StoryFnBar'
-import StoryContent from '../Components/StoryContent'
+import PoemSidebar from '../Components/PoemSidebar'
+import PoemFnBar from '../Components/PoemFnbBar'
+import PoemContent from '../Components/PoemContent'
 
 function Story() {
     // This is for rendering the mobile version of the Story page
@@ -21,17 +21,17 @@ function Story() {
     const renderMobileLayout = () => (
         <div className="story-1st-wrapper">
             <div className="story-2nd-wrapper">
-                <StoryContent
+                <PoemContent
                     chapterId={currentChapter}
                 />
-                <StorySidebar
+                <PoemSidebar
                     readingProgress={readingProgress}
                     visible={sidebarVisible}
                     toggleSidebar={toggleSidebar}
                     currentChapter={currentChapter}
                     onChapterSelect={setCurrentChapter}
                 />
-                <StoryFnBar
+                <PoemFnBar
                     toggleSidebar={toggleSidebar}
                     sidebarVisible={sidebarVisible}
                     currentChapter={currentChapter}
@@ -77,21 +77,21 @@ function Story() {
         <div>
             {isSmallScreen ? (renderMobileLayout()) : (
                 <div className="story-1st-wrapper">
-                        <StorySidebar
-                            readingProgress={readingProgress}
-                            visible={sidebarVisible}
-                            toggleSidebar={toggleSidebar}
-                            currentChapter={currentChapter}
-                            onChapterSelect={setCurrentChapter}
-                        />
+                    <PoemSidebar
+                        readingProgress={readingProgress}
+                        visible={sidebarVisible}
+                        toggleSidebar={toggleSidebar}
+                        currentChapter={currentChapter}
+                        onChapterSelect={setCurrentChapter}
+                    />
                     <div className="story-2nd-wrapper">
-                        <StoryFnBar
+                        <PoemFnBar
                             toggleSidebar={toggleSidebar}
                             sidebarVisible={sidebarVisible}
                             currentChapter={currentChapter}
                             setCurrentChapter={setCurrentChapter}
                         />
-                        <StoryContent
+                        <PoemContent
                             chapterId={currentChapter}
                         />
                     </div>

@@ -51,22 +51,22 @@
   background-position: center;
   border: none;
   cursor: pointer;
-  background-image: url("../Assets/Navbar/NavbarLogo-light.png");
+  background-image: url("../Assets/Navbar/navbarlogo-light.png");
 }
 [data-theme="dark"] .NV-logo {
-  background-image: url("../Assets/Navbar/NavbarLogo-dark.png");
+  background-image: url("../Assets/Navbar/navbarlogo-dark.png");
 }
 [data-theme="star"] .NV-logo {
-  background-image: url("../Assets/Navbar/NavbarLogo-star.png");
+  background-image: url("../Assets/Navbar/navbarlogo-star.png");
 }
 .NV-logo:hover {
-  background-image: url("../Assets/Navbar/NavbarLogo-pink.png");
+  background-image: url("../Assets/Navbar/navbarlogo-pink.png");
   text-shadow: 0 2px 5px
     color-mix(in srgb, var(--navtext-accent) 50%, transparent);
   transform: scale(1.02);
 }
 [data-theme="light"] .NV-logo:hover {
-  background-image: url("../Assets/Navbar/NavbarLogo-pink2.png");
+  background-image: url("../Assets/Navbar/navbarlogo-pink2.png");
 }
 /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
 
@@ -147,13 +147,13 @@
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
 }
 .NVbtn1 {
-  background-image: url("../Assets/Navbar/KorazuSun.svg");
+  background-image: url("../Assets/Navbar/korazusun.svg");
 }
 .NVbtn2 {
-  background-image: url("../Assets/Navbar/ZumikoStar.svg");
+  background-image: url("../Assets/Navbar/zumikostar.svg");
 }
 .NVbtn3 {
-  background-image: url("../Assets/Navbar/UzakonMoon.svg");
+  background-image: url("../Assets/Navbar/uzakonmoon.svg");
 }
 [data-theme="light"] .NVbtn1 {
   display: none;
@@ -215,13 +215,13 @@
 
 @media only screen and (max-width: 900px) {
   .NV-logo:active {
-    background-image: url("../Assets/Navbar/NavbarLogo-pink.png");
+    background-image: url("../Assets/Navbar/navbarlogo-pink.png");
     text-shadow: 0 2px 5px
       color-mix(in srgb, var(--navtext-accent) 50%, transparent);
     transform: scale(1.02);
   }
   [data-theme="light"] .NV-logo:active {
-    background-image: url("../Assets/Navbar/NavbarLogo-pink2.png");
+    background-image: url("../Assets/Navbar/navbarlogo-pink2.png");
   }
 
   .NV-body-main {

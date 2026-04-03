@@ -1,16 +1,16 @@
 import commheroimg from '../Assets/CommHero.jpg';
-import seavaicon from '../Assets/Seava icon.png';
-import vesneaicon from '../Assets/Vesnea icon.png';
-import promo1 from '../Assets/Promotional1.png';
-import promo2 from '../Assets/Promotional2.png';
-import vesneacomminfo from '../Assets/CommStatusimg.png';
-import kofinav from '../Assets/KofiNav.png';
-import commboard from '../Assets/CommBoard.jpg';
-import artstyleimg from '../Assets/ArtStyleWrap.jpg';
+import seavaicon from '../Assets/seava_icon.png';
+import vesneaicon from '../Assets/vesnea_icon.png';
+import promo1 from '../Assets/promotional1.png';
+import promo2 from '../Assets/promotional2.png';
+import vesneacomminfo from '../Assets/commstatusimg.png';
+import kofinav from '../Assets/kofinav.png';
+import commboard from '../Assets/commboard.jpg';
+import artstyleimg from '../Assets/artstylewrap.jpg';
 import commamount from '../Assets/Commission Amount.png';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import item01 from '../Assets/Completed Commission/SEA 2022 - C01 - Truffles and Claus - 220529-0088.jpg';
+import item01 from '../Assets/Completed Commission/sea_2022_-_c01_-_truffles_and_claus_-_220529-0088.jpg';
 
 // const itemsLength = Array.from({ length: 5 });
 // const items = itemsLength.map((item, index) => {
@@ -20,8 +20,8 @@ import item01 from '../Assets/Completed Commission/SEA 2022 - C01 - Truffles and
 
 // const handleDragStart = (e) => e.preventDefault();
 // const items = [
-//     <img src="../Assets/Completed Commission/SEA 2022 - C01 - Truffles and Claus - 220529-0088.jpg" onDragStart={handleDragStart} role="presentation" alt=''/>,
-//     <img src="../Assets/Completed Commission/SEA 2022 - C01b - Truffles and Claus - 220529-0039.jpg" onDragStart={handleDragStart} role="presentation" alt=''/>,
+//     <img src="../Assets/Completed Commission/sea_2022_-_c01_-_truffles_and_claus_-_220529-0088.jpg" onDragStart={handleDragStart} role="presentation" alt=''/>,
+//     <img src="../Assets/Completed Commission/sea_2022_-_c01b_-_truffles_and_claus_-_220529-0039.jpg" onDragStart={handleDragStart} role="presentation" alt=''/>,
 //     <img src="path-to-img" onDragStart={handleDragStart} role="presentation" alt=''/>,
 // ];
 

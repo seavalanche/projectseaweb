@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Icon from '../Assets/VesCursor.png'
+import Icon from '../Assets/vescursor.png'
 
 function ScrollToTopButton() {
     const [isVisible, setIsVisible] = useState(false);

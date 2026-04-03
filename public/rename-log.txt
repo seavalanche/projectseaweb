@@ -1,0 +1,599 @@
+Renaming process started
+1. Change case: all in lowercase, using Windows' locale settings
+404.html was not renamed : new name is the same than old name
+android-icon-144x144.png was not renamed : new name is the same than old name
+android-icon-192x192.png was not renamed : new name is the same than old name
+android-icon-36x36.png was not renamed : new name is the same than old name
+android-icon-48x48.png was not renamed : new name is the same than old name
+android-icon-72x72.png was not renamed : new name is the same than old name
+android-icon-96x96.png was not renamed : new name is the same than old name
+apple-icon-114x114.png was not renamed : new name is the same than old name
+apple-icon-120x120.png was not renamed : new name is the same than old name
+apple-icon-144x144.png was not renamed : new name is the same than old name
+apple-icon-152x152.png was not renamed : new name is the same than old name
+apple-icon-180x180.png was not renamed : new name is the same than old name
+apple-icon-57x57.png was not renamed : new name is the same than old name
+apple-icon-60x60.png was not renamed : new name is the same than old name
+apple-icon-72x72.png was not renamed : new name is the same than old name
+apple-icon-76x76.png was not renamed : new name is the same than old name
+apple-icon-precomposed.png was not renamed : new name is the same than old name
+apple-icon.png was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Arna.png renamed to pfp_arna.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Arnamini.png renamed to pfp_arnamini.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Baldor.png renamed to pfp_baldor.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Deimev.png renamed to pfp_deimev.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Fondan.png renamed to pfp_fondan.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Korazu.png renamed to pfp_korazu.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_MythSeavalanche.png renamed to pfp_mythseavalanche.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Noira.gif renamed to pfp_noira.gif
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Noira.png renamed to pfp_noira.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Noira_glow.png renamed to pfp_noira_glow.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_placeholder.png renamed to pfp_placeholder.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Rakariki.png renamed to pfp_rakariki.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Sarchie.png renamed to pfp_sarchie.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Seava.png renamed to pfp_seava.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Seavalanche.png renamed to pfp_seavalanche.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_SeavaTM.png renamed to pfp_seavatm.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_SeavaZM.png renamed to pfp_seavazm.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Tharos.gif renamed to pfp_tharos.gif
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Tharos.png renamed to pfp_tharos.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Tharos_glow.png renamed to pfp_tharos_glow.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Tharos_silver.png renamed to pfp_tharos_silver.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Tharos_silver_glow.png renamed to pfp_tharos_silver_glow.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Uzakon.png renamed to pfp_uzakon.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Veranite.png renamed to pfp_veranite.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Vesnea.png renamed to pfp_vesnea.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_VesneaBM.png renamed to pfp_vesneabm.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Zeo.gif renamed to pfp_zeo.gif
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Zeo.png renamed to pfp_zeo.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Zeo_glow.png renamed to pfp_zeo_glow.png
+E:\Github\projectseaweb\public\Assets\charcardPFP\PFP_Zumiko.png renamed to pfp_zumiko.png
+E:\Github\projectseaweb\public\characters\arna\artworks\D31_-_Design_Arna.jpg renamed to d31_-_design_arna.jpg
+E:\Github\projectseaweb\public\characters\arna\artworks\S172_-_Arna.webp renamed to s172_-_arna.webp
+E:\Github\projectseaweb\public\characters\arna\artworks\S194_-_Arna_and_Mini_Arna_Day.webp renamed to s194_-_arna_and_mini_arna_day.webp
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\arna\PFP_Arna.webp renamed to pfp_arna.webp
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\avior\PFP_placeholder.png renamed to pfp_placeholder.png
+E:\Github\projectseaweb\public\characters\baldor\artworks\D30_-_Design_Baldor.jpg renamed to d30_-_design_baldor.jpg
+E:\Github\projectseaweb\public\characters\baldor\artworks\S193_-_Baldor_Day.webp renamed to s193_-_baldor_day.webp
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\baldor\PFP_Baldor.webp renamed to pfp_baldor.webp
+E:\Github\projectseaweb\public\characters\deimev\artworks\D36_-_Design_Deimev.jpg renamed to d36_-_design_deimev.jpg
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\deimev\PFP_Deimev.png renamed to pfp_deimev.png
+E:\Github\projectseaweb\public\characters\fondan\artworks\D33_-_Design_Fondan.jpg renamed to d33_-_design_fondan.jpg
+E:\Github\projectseaweb\public\characters\fondan\artworks\S171_-_Fondan_fix1.webp renamed to s171_-_fondan_fix1.webp
+E:\Github\projectseaweb\public\characters\fondan\artworks\S196_-_Light_Pillar.webp renamed to s196_-_light_pillar.webp
+E:\Github\projectseaweb\public\characters\fondan\commarts\by_Haineko_-_20250827.webp renamed to by_haineko_-_20250827.webp
+data.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\fondan\giftarts\by_super_EX1_-_20250306.webp renamed to by_super_ex1_-_20250306.webp
+E:\Github\projectseaweb\public\characters\fondan\giftarts\by_super_EX1_-_20250724.webp renamed to by_super_ex1_-_20250724.webp
+E:\Github\projectseaweb\public\characters\fondan\giftarts\by_super_EX1_-_20260301.webp renamed to by_super_ex1_-_20260301.webp
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\fondan\PFP_Fondan.webp renamed to pfp_fondan.webp
+E:\Github\projectseaweb\public\characters\fondan\tradearts\AF25_-_by_DerpyCloud_-_Grey_Area!_-_20250729.webp renamed to af25_-_by_derpycloud_-_grey_area!_-_20250729.webp
+index.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\korazu\artworks\D18_-_Korazu,_Uzakon,_and_Zumiko_full_ref.webp renamed to d18_-_korazu,_uzakon,_and_zumiko_full_ref.webp
+E:\Github\projectseaweb\public\characters\korazu\artworks\S113_-_Korazu,_Uzakon,_Zumiko_wip2.webp renamed to s113_-_korazu,_uzakon,_zumiko_wip2.webp
+E:\Github\projectseaweb\public\characters\korazu\artworks\S118_-_Korazu.webp renamed to s118_-_korazu.webp
+E:\Github\projectseaweb\public\characters\korazu\artworks\S133_-_Korazu.webp renamed to s133_-_korazu.webp
+E:\Github\projectseaweb\public\characters\korazu\artworks\S139_-_Korazu_pattern.webp renamed to s139_-_korazu_pattern.webp
+E:\Github\projectseaweb\public\characters\korazu\artworks\S158_-_Korazu,_Uzakon,_and_Zumiko.webp renamed to s158_-_korazu,_uzakon,_and_zumiko.webp
+E:\Github\projectseaweb\public\characters\korazu\artworks\S163_-_Elemental_Power_full.webp renamed to s163_-_elemental_power_full.webp
+E:\Github\projectseaweb\public\characters\korazu\artworks\S190_-_Korazu_Uzakon_Zumiko.webp renamed to s190_-_korazu_uzakon_zumiko.webp
+E:\Github\projectseaweb\public\characters\korazu\commarts\by_Haineko_-_20240910.webp renamed to by_haineko_-_20240910.webp
+by_水無月_-_20240423_1.webp was not renamed : new name is the same than old name
+by_水無月_-_20240423_2.webp was not renamed : new name is the same than old name
+by_水無月_-_20240513_1.webp was not renamed : new name is the same than old name
+by_水無月_-_20240513_2.webp was not renamed : new name is the same than old name
+by_水無月_-_20240703_1.webp was not renamed : new name is the same than old name
+by_水無月_-_20240703_2.webp was not renamed : new name is the same than old name
+data.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\korazu\giftarts\by_Spacecrow_-_20240907.webp renamed to by_spacecrow_-_20240907.webp
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\korazu\PFP_Korazu.png renamed to pfp_korazu.png
+E:\Github\projectseaweb\public\characters\korazu\tradearts\by_Ailia_-_20240719_1.webp renamed to by_ailia_-_20240719_1.webp
+E:\Github\projectseaweb\public\characters\korazu\tradearts\by_Hinawashi_-_20240801.webp renamed to by_hinawashi_-_20240801.webp
+E:\Github\projectseaweb\public\characters\miniarna\artworks\D31_-_Design_Arna.jpg renamed to d31_-_design_arna.jpg
+E:\Github\projectseaweb\public\characters\miniarna\artworks\S172_-_Arna.webp renamed to s172_-_arna.webp
+E:\Github\projectseaweb\public\characters\miniarna\artworks\S194_-_Arna_and_Mini_Arna_Day.webp renamed to s194_-_arna_and_mini_arna_day.webp
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\miniarna\PFP_Arnamini.webp renamed to pfp_arnamini.webp
+E:\Github\projectseaweb\public\characters\mythseavalanche\artworks\S169_-_Seavalanche.webp renamed to s169_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\mythseavalanche\artworks\S170_-_Some_Nights.webp renamed to s170_-_some_nights.webp
+E:\Github\projectseaweb\public\characters\mythseavalanche\artworks\S178_-_Myth_Seavalanche.webp renamed to s178_-_myth_seavalanche.webp
+E:\Github\projectseaweb\public\characters\mythseavalanche\artworks\S191_-_Myth_Seavalanche.webp renamed to s191_-_myth_seavalanche.webp
+E:\Github\projectseaweb\public\characters\mythseavalanche\artworks\S191_-_Myth_Seavalanche_dark.webp renamed to s191_-_myth_seavalanche_dark.webp
+E:\Github\projectseaweb\public\characters\mythseavalanche\artworks\V04.jpg renamed to v04.jpg
+E:\Github\projectseaweb\public\characters\mythseavalanche\commarts\by_Haineko_-_20250123.webp renamed to by_haineko_-_20250123.webp
+data.json was not renamed : new name is the same than old name
+by_bas_cha_-_20250406.webp was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\mythseavalanche\giftarts\by_Enma_-_20250331_1.webp renamed to by_enma_-_20250331_1.webp
+E:\Github\projectseaweb\public\characters\mythseavalanche\giftarts\by_KohotoKun_-_20260221.webp renamed to by_kohotokun_-_20260221.webp
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\mythseavalanche\PFP_MythSeavalanche.png renamed to pfp_mythseavalanche.png
+E:\Github\projectseaweb\public\characters\mythseavalanche\tradearts\AF25_-_by_CerbTheSquirrel_-_head_in_the_clouds_-_20250722.webp renamed to af25_-_by_cerbthesquirrel_-_head_in_the_clouds_-_20250722.webp
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\noira\PFP_Noira.webp renamed to pfp_noira.webp
+E:\Github\projectseaweb\public\characters\noira\PFP_Noira_glow.webp renamed to pfp_noira_glow.webp
+E:\Github\projectseaweb\public\characters\noira\PFP_Noira_optimized.gif renamed to pfp_noira_optimized.gif
+E:\Github\projectseaweb\public\characters\rakariki\artworks\D32_-_Design_Rakariki.jpg renamed to d32_-_design_rakariki.jpg
+E:\Github\projectseaweb\public\characters\rakariki\artworks\S195_-_Rakariki_Day.webp renamed to s195_-_rakariki_day.webp
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\rakariki\PFP_Rakariki.webp renamed to pfp_rakariki.webp
+E:\Github\projectseaweb\public\characters\sarchie\artworks\D35_-_Design_Sarchie.jpg renamed to d35_-_design_sarchie.jpg
+E:\Github\projectseaweb\public\characters\sarchie\artworks\S199_-_Wingbeat_Screech.webp renamed to s199_-_wingbeat_screech.webp
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\sarchie\PFP_Sarchie.png renamed to pfp_sarchie.png
+E:\Github\projectseaweb\public\characters\seava\artworks\D01_-_Seava_Ref_v1.webp renamed to d01_-_seava_ref_v1.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\D02_-_Design_2.webp renamed to d02_-_design_2.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\D03.webp renamed to d03.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\D04.webp renamed to d04.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\D05.webp renamed to d05.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\D07_-_Ko-fi_commission_banner_dark.webp renamed to d07_-_ko-fi_commission_banner_dark.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\D09_-_Seava_pixelart_enlarged.webp renamed to d09_-_seava_pixelart_enlarged.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\D11_-_Commission_Banner_v2.webp renamed to d11_-_commission_banner_v2.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\D15_-_Seavalanche.webp renamed to d15_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\hidden\S01_-_Matching_Clothes.webp renamed to s01_-_matching_clothes.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\hidden\S03_-_Flying_Ruru.webp renamed to s03_-_flying_ruru.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\hidden\S06_-_Ruru_Birthday.webp renamed to s06_-_ruru_birthday.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\hidden\S08_-_Hug_Ruru.webp renamed to s08_-_hug_ruru.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\O07_-_Small_Seava.webp renamed to o07_-_small_seava.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\O31_-_Seava_AF3_128_Normal.webp renamed to o31_-_seava_af3_128_normal.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\O31_-_Seava_AF_128_Normal.webp renamed to o31_-_seava_af_128_normal.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\O31_-_Seava_CF_128_Normal.webp renamed to o31_-_seava_cf_128_normal.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\O31_-_Seava_NF_128_Normal.webp renamed to o31_-_seava_nf_128_normal.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S04_-_Fear_Karin.webp renamed to s04_-_fear_karin.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S106_-_Exude_Power.webp renamed to s106_-_exude_power.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S10_-_Katsuro_Birthday.webp renamed to s10_-_katsuro_birthday.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S124_-_Seavas_Scice_optimized.gif renamed to s124_-_seavas_scice_optimized.gif
+E:\Github\projectseaweb\public\characters\seava\artworks\S135_-_Fabulous_Seava_A.webp renamed to s135_-_fabulous_seava_a.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S156_-_Seava_and_Uzakon.webp renamed to s156_-_seava_and_uzakon.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S161_-_Seava.webp renamed to s161_-_seava.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S162_-_Matching_Clothes.webp renamed to s162_-_matching_clothes.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S182_-_Seava.webp renamed to s182_-_seava.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S39_-_Seava.webp renamed to s39_-_seava.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S49_-_Frost_Force.webp renamed to s49_-_frost_force.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S57_-_Seava_500x406px_optimized.gif renamed to s57_-_seava_500x406px_optimized.gif
+E:\Github\projectseaweb\public\characters\seava\artworks\S59_-_Seava.webp renamed to s59_-_seava.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S62_-_Seava.webp renamed to s62_-_seava.webp
+E:\Github\projectseaweb\public\characters\seava\artworks\S69_-_Takeaway_Food.webp renamed to s69_-_takeaway_food.webp
+E:\Github\projectseaweb\public\characters\seava\collabarts\B01_-_Noko_and_Seava.webp renamed to b01_-_noko_and_seava.webp
+E:\Github\projectseaweb\public\characters\seava\collabarts\B01_-_Noko_and_Seava_cropped.webp renamed to b01_-_noko_and_seava_cropped.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\by_Catsbell_commissioned_by_Vesnea_-_20230126.webp renamed to by_catsbell_commissioned_by_vesnea_-_20230126.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\by_Haineko_-_20231121.webp renamed to by_haineko_-_20231121.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\by_qatoqat_commissioned_by_Ruzik_-_20220507.webp renamed to by_qatoqat_commissioned_by_ruzik_-_20220507.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\hidden\by_Haineko_-_20221102.webp renamed to by_haineko_-_20221102.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\hidden\by_Haineko_commissioned_by_Vesnea_-_20221012.webp renamed to by_haineko_commissioned_by_vesnea_-_20221012.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\hidden\by_Katia_commissioned_by_Ruzik_-_20230531.webp renamed to by_katia_commissioned_by_ruzik_-_20230531.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\hidden\by_Lumpsugar_commissioned_by_Ruzik_-_20220406.webp renamed to by_lumpsugar_commissioned_by_ruzik_-_20220406.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\hidden\by_Makotoo_commissioned_by_Vesnea_-_20220524.webp renamed to by_makotoo_commissioned_by_vesnea_-_20220524.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\hidden\by_Noko_-_20220430.webp renamed to by_noko_-_20220430.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\hidden\by_ron_H0404_commissioned_by_Ruzik_-_20220418.webp renamed to by_ron_h0404_commissioned_by_ruzik_-_20220418.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\hidden\by_Shin_commissioned_by_Ruzik_-_20221209.webp renamed to by_shin_commissioned_by_ruzik_-_20221209.webp
+E:\Github\projectseaweb\public\characters\seava\commarts\hidden\by_unknown_commissioned_by_Ruzik_-_20220902.webp renamed to by_unknown_commissioned_by_ruzik_-_20220902.webp
+data.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Azshorark_-_20221003.webp renamed to by_azshorark_-_20221003.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Azshorark_-_20250106.webp renamed to by_azshorark_-_20250106.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Enma_-_20240119.webp renamed to by_enma_-_20240119.webp
+by_glcwinter_-_20220406.webp was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_KohotoKun_-_20220608.webp renamed to by_kohotokun_-_20220608.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_KohotoKun_-_20220809.webp renamed to by_kohotokun_-_20220809.webp
+by_mia_mafu_-_20240305.webp was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Mystic_-_20220406.webp renamed to by_mystic_-_20220406.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Noko_-_20220607.webp renamed to by_noko_-_20220607.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Noko_-_20220704.webp renamed to by_noko_-_20220704.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Noko_-_20220710.webp renamed to by_noko_-_20220710.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Noko_-_20221003_2.webp renamed to by_noko_-_20221003_2.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Noko_-_20221024_1.webp renamed to by_noko_-_20221024_1.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Noko_-_20221206.webp renamed to by_noko_-_20221206.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Noko_and_Vesnea_-_20221224_cropped.webp renamed to by_noko_and_vesnea_-_20221224_cropped.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Olyester_-_20240130.webp renamed to by_olyester_-_20240130.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Sleepy64__-_20220406.webp renamed to by_sleepy64__-_20220406.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_super_EX1_-_20240227_1.webp renamed to by_super_ex1_-_20240227_1.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Teknoss_-_20220410.webp renamed to by_teknoss_-_20220410.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\by_Zazie_-_20220113.webp renamed to by_zazie_-_20220113.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Dec_-_20220428.webp renamed to by_dec_-_20220428.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Glory_-_20230920.webp renamed to by_glory_-_20230920.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Glory_-_20230923_1.webp renamed to by_glory_-_20230923_1.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Hyrell_-_20220704.webp renamed to by_hyrell_-_20220704.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Hyrell_-_20220814.webp renamed to by_hyrell_-_20220814.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20220619.webp renamed to by_noko_-_20220619.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20220707.webp renamed to by_noko_-_20220707.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20220721.webp renamed to by_noko_-_20220721.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20220731.webp renamed to by_noko_-_20220731.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20220801.webp renamed to by_noko_-_20220801.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20220814.webp renamed to by_noko_-_20220814.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20220912.webp renamed to by_noko_-_20220912.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20221003_1.webp renamed to by_noko_-_20221003_1.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20221003_3.webp renamed to by_noko_-_20221003_3.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20221024_2.webp renamed to by_noko_-_20221024_2.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20221205.webp renamed to by_noko_-_20221205.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20221206_2.webp renamed to by_noko_-_20221206_2.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20221209_1.webp renamed to by_noko_-_20221209_1.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20221209_2.webp renamed to by_noko_-_20221209_2.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20221224.webp renamed to by_noko_-_20221224.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20230111.webp renamed to by_noko_-_20230111.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_-_20230113.webp renamed to by_noko_-_20230113.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_and_Hooni_-_20220918.webp renamed to by_noko_and_hooni_-_20220918.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Noko_and_Vesnea_-_20221224.webp renamed to by_noko_and_vesnea_-_20221224.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_RuzikNF_-_20211222.webp renamed to by_ruziknf_-_20211222.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Ruzik_-_20211222.webp renamed to by_ruzik_-_20211222.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Ruzik_-_20220101.webp renamed to by_ruzik_-_20220101.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Ruzik_-_20220425.webp renamed to by_ruzik_-_20220425.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Ruzik_-_20220716.webp renamed to by_ruzik_-_20220716.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Ruzik_-_20230221.webp renamed to by_ruzik_-_20230221.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Uni_-_20220108.webp renamed to by_uni_-_20220108.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\hidden\by_Zazie_-_20230108.webp renamed to by_zazie_-_20230108.webp
+E:\Github\projectseaweb\public\characters\seava\giftarts\Q01_-_Seava_and_Vesnea_by_Sasa.webp renamed to q01_-_seava_and_vesnea_by_sasa.webp
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\seava\PFP_Seava.png renamed to pfp_seava.png
+E:\Github\projectseaweb\public\characters\seava\tradearts\A04_-_Noko_and_Seava.webp renamed to a04_-_noko_and_seava.webp
+E:\Github\projectseaweb\public\characters\seava\tradearts\AF25_-_by_Ailia_-_Seava_-_20250801.webp renamed to af25_-_by_ailia_-_seava_-_20250801.webp
+E:\Github\projectseaweb\public\characters\seava\tradearts\by_Enma_-_20240801.webp renamed to by_enma_-_20240801.webp
+E:\Github\projectseaweb\public\characters\seava\tradearts\by_Noko_-_20221128.webp renamed to by_noko_-_20221128.webp
+E:\Github\projectseaweb\public\characters\seava\tradearts\hidden\by_Kapoiser_-_20240714.webp renamed to by_kapoiser_-_20240714.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\D15_-_Seavalanche.webp renamed to d15_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\D26_-_Seavalanche_upscaled.webp renamed to d26_-_seavalanche_upscaled.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\O32_-_Seavalanche.webp renamed to o32_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S128_-_Seavalanche.webp renamed to s128_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S141_-_Seavalanche.webp renamed to s141_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S157_-_Seavalanche.webp renamed to s157_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S159_-_Seavalanche.webp renamed to s159_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S162_-_Matching_Clothes.webp renamed to s162_-_matching_clothes.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S173_-_Seavalanche_Day.webp renamed to s173_-_seavalanche_day.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S63_-_Seavalanche_b.webp renamed to s63_-_seavalanche_b.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S64_-_Seavalanche.webp renamed to s64_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S65_-_Seavalanche.webp renamed to s65_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S68_-_Seavalanche_emote.webp renamed to s68_-_seavalanche_emote.webp
+E:\Github\projectseaweb\public\characters\seavalanche\artworks\S85_-_Seavalanche_dark.webp renamed to s85_-_seavalanche_dark.webp
+data.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Arshina_-_20240607.webp renamed to by_arshina_-_20240607.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Azshorark_-_20230606.webp renamed to by_azshorark_-_20230606.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Azshorark_-_20241231_2.webp renamed to by_azshorark_-_20241231_2.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Azshorark_-_20250106.webp renamed to by_azshorark_-_20250106.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Enma_-_20230407.webp renamed to by_enma_-_20230407.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Enma_-_20240330.webp renamed to by_enma_-_20240330.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Gabsudeyo_-_20230407.webp renamed to by_gabsudeyo_-_20230407.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Haineko_-_20230406.webp renamed to by_haineko_-_20230406.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Haineko_-_20240406.webp renamed to by_haineko_-_20240406.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_Runway55_-_20230610.webp renamed to by_runway55_-_20230610.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\by_super_EX1_-_20240330.webp renamed to by_super_ex1_-_20240330.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\hidden\by_Azshorark_-_20230408.webp renamed to by_azshorark_-_20230408.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\hidden\by_Glory_-_20230918_2.webp renamed to by_glory_-_20230918_2.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\hidden\by_Glory_-_20230918_3.webp renamed to by_glory_-_20230918_3.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\hidden\by_Glory_-_20230920.webp renamed to by_glory_-_20230920.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\hidden\by_Jenny_-_20230503.webp renamed to by_jenny_-_20230503.webp
+E:\Github\projectseaweb\public\characters\seavalanche\giftarts\hidden\by_Ruzik_-_20240405.webp renamed to by_ruzik_-_20240405.webp
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\seavalanche\PFP_Seavalanche.png renamed to pfp_seavalanche.png
+E:\Github\projectseaweb\public\characters\seavalanche\tradearts\AF24_-_by_tor_kl_-_Seavalanche_-_20240730.webp renamed to af24_-_by_tor_kl_-_seavalanche_-_20240730.webp
+E:\Github\projectseaweb\public\characters\seavalanche\tradearts\AF25_-_by_SnappiQ_-_Swim,_but_the_swim_is_silent_-_20250717.webp renamed to af25_-_by_snappiq_-_swim,_but_the_swim_is_silent_-_20250717.webp
+E:\Github\projectseaweb\public\characters\seavalanche\tradearts\AF25_-_by_Zombiepro89_-_A_Carefree_Swim_-_20250726.webp renamed to af25_-_by_zombiepro89_-_a_carefree_swim_-_20250726.webp
+E:\Github\projectseaweb\public\characters\seavatm\artworks\S166_-_Seava_Tempest_Mode.webp renamed to s166_-_seava_tempest_mode.webp
+E:\Github\projectseaweb\public\characters\seavatm\artworks\V02.jpg renamed to v02.jpg
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\seavatm\PFP_SeavaTM.png renamed to pfp_seavatm.png
+E:\Github\projectseaweb\public\characters\seavazm\artworks\S168_-_Seava_Zephyr_Mode.webp renamed to s168_-_seava_zephyr_mode.webp
+E:\Github\projectseaweb\public\characters\seavazm\artworks\V03.jpg renamed to v03.jpg
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\seavazm\PFP_SeavaZM.png renamed to pfp_seavazm.png
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\seravyn\PFP_placeholder.png renamed to pfp_placeholder.png
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\tharos\PFP_Tharos.webp renamed to pfp_tharos.webp
+E:\Github\projectseaweb\public\characters\tharos\PFP_Tharos_glow.webp renamed to pfp_tharos_glow.webp
+E:\Github\projectseaweb\public\characters\tharos\PFP_Tharos_optimized.gif renamed to pfp_tharos_optimized.gif
+E:\Github\projectseaweb\public\characters\tharos\PFP_Tharos_silver.webp renamed to pfp_tharos_silver.webp
+E:\Github\projectseaweb\public\characters\tharos\PFP_Tharos_silver_glow.webp renamed to pfp_tharos_silver_glow.webp
+E:\Github\projectseaweb\public\characters\uzakon\artworks\D18_-_Korazu,_Uzakon,_and_Zumiko_full_ref.webp renamed to d18_-_korazu,_uzakon,_and_zumiko_full_ref.webp
+E:\Github\projectseaweb\public\characters\uzakon\artworks\S113_-_Korazu,_Uzakon,_Zumiko_wip2.webp renamed to s113_-_korazu,_uzakon,_zumiko_wip2.webp
+E:\Github\projectseaweb\public\characters\uzakon\artworks\S116_-_Uzakon.webp renamed to s116_-_uzakon.webp
+E:\Github\projectseaweb\public\characters\uzakon\artworks\S134_-_Uzakon_optimized.gif renamed to s134_-_uzakon_optimized.gif
+E:\Github\projectseaweb\public\characters\uzakon\artworks\S142_-_Uzakon.webp renamed to s142_-_uzakon.webp
+E:\Github\projectseaweb\public\characters\uzakon\artworks\S156_-_Seava_and_Uzakon.webp renamed to s156_-_seava_and_uzakon.webp
+E:\Github\projectseaweb\public\characters\uzakon\artworks\S158_-_Korazu,_Uzakon,_and_Zumiko.webp renamed to s158_-_korazu,_uzakon,_and_zumiko.webp
+E:\Github\projectseaweb\public\characters\uzakon\artworks\S163_-_Elemental_Power_full.webp renamed to s163_-_elemental_power_full.webp
+E:\Github\projectseaweb\public\characters\uzakon\artworks\S190_-_Korazu_Uzakon_Zumiko.webp renamed to s190_-_korazu_uzakon_zumiko.webp
+E:\Github\projectseaweb\public\characters\uzakon\commarts\by_Haineko_-_20240619.webp renamed to by_haineko_-_20240619.webp
+by_水無月_-_20240513_1.webp was not renamed : new name is the same than old name
+by_水無月_-_20240513_2.webp was not renamed : new name is the same than old name
+by_水無月_-_20240703_1.webp was not renamed : new name is the same than old name
+by_水無月_-_20240703_2.webp was not renamed : new name is the same than old name
+data.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\uzakon\giftarts\by_Enma_-_20240413.webp renamed to by_enma_-_20240413.webp
+E:\Github\projectseaweb\public\characters\uzakon\giftarts\by_Spacecrow_-_20240907.webp renamed to by_spacecrow_-_20240907.webp
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\uzakon\PFP_Uzakon.png renamed to pfp_uzakon.png
+E:\Github\projectseaweb\public\characters\uzakon\tradearts\by_Ailia_-_20240719_1.webp renamed to by_ailia_-_20240719_1.webp
+E:\Github\projectseaweb\public\characters\uzakon\tradearts\by_DarkneyFactory_-_20240714.webp renamed to by_darkneyfactory_-_20240714.webp
+E:\Github\projectseaweb\public\characters\uzakon\tradearts\by_Hinawashi_-_20240801.webp renamed to by_hinawashi_-_20240801.webp
+E:\Github\projectseaweb\public\characters\veranite\artworks\D34_-_Design_Veranite.jpg renamed to d34_-_design_veranite.jpg
+E:\Github\projectseaweb\public\characters\veranite\artworks\S183_-_Veranite.webp renamed to s183_-_veranite.webp
+E:\Github\projectseaweb\public\characters\veranite\artworks\S197_-_Void_of_Uncertainty.webp renamed to s197_-_void_of_uncertainty.webp
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\veranite\PFP_Veranite.png renamed to pfp_veranite.png
+E:\Github\projectseaweb\public\characters\vesnea\artworks\D06_Dark_Theme.webp renamed to d06_dark_theme.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\D07_-_Ko-fi_commission_banner_dark.webp renamed to d07_-_ko-fi_commission_banner_dark.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\D08_-_Vesnea_pixelart_effect_bg.webp renamed to d08_-_vesnea_pixelart_effect_bg.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\D11_-_Commission_Banner_v2.webp renamed to d11_-_commission_banner_v2.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\D15_-_Seavalanche.webp renamed to d15_-_seavalanche.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\D25_-_Vesnea_Ref_Design.webp renamed to d25_-_vesnea_ref_design.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\D25_-_Vesnea_Ref_Design2.webp renamed to d25_-_vesnea_ref_design2.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\D27_-_Vesnea_Clothing_Ref_only_clothing_updated1.webp renamed to d27_-_vesnea_clothing_ref_only_clothing_updated1.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\hidden\S155_-_Halloween_Friends.webp renamed to s155_-_halloween_friends.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\hidden\S164_-_The_Cutie_Trio_transparent.webp renamed to s164_-_the_cutie_trio_transparent.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\Instagram_S103_-_Behind_Wall_B.webp renamed to instagram_s103_-_behind_wall_b.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\O02_vesnea.webp renamed to o02_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\O07_-_Small_Vesnea.webp renamed to o07_-_small_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\O30_-_Vesnea_128.webp renamed to o30_-_vesnea_128.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\O30_-_Vesnea_128_Angry.webp renamed to o30_-_vesnea_128_angry.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\O30_-_Vesnea_128_Crying.webp renamed to o30_-_vesnea_128_crying.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\O48_-_Valentine_Vesnea.webp renamed to o48_-_valentine_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S100_-_Vesnea.webp renamed to s100_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S102_-_Vesnea.webp renamed to s102_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S104b.webp renamed to s104b.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S114_-_Vesnea.webp renamed to s114_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S117_-_Vesnea.webp renamed to s117_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S12.webp renamed to s12.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S120_-_Vesnea.webp renamed to s120_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S129_-_Vesnea.webp renamed to s129_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S136_-_Vesnea_optimized.gif renamed to s136_-_vesnea_optimized.gif
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S138_-_Vesnea_pattern_newpink.webp renamed to s138_-_vesnea_pattern_newpink.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S13_-_Vesnea.webp renamed to s13_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S160_-_Vesnea.webp renamed to s160_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S162_-_Matching_Clothes.webp renamed to s162_-_matching_clothes.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S16_-_Vesnea.webp renamed to s16_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S184_-_Vesnea.webp renamed to s184_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S188_-_Christmas_Vesnea.webp renamed to s188_-_christmas_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S20_-_Vesnea.webp renamed to s20_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S24_-_Vesnea.webp renamed to s24_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S30_-_Vesnea.webp renamed to s30_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S31_-_Vesnea.webp renamed to s31_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S35_-_Vesnea_wipA.webp renamed to s35_-_vesnea_wipa.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S35_-_Vesnea_wipB.webp renamed to s35_-_vesnea_wipb.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S38_-_Vesnea.webp renamed to s38_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S44_-_Vesnea.webp renamed to s44_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S47_-_Vesnea.webp renamed to s47_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S48_-_Vesnea.webp renamed to s48_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S50_-_Vesnea.webp renamed to s50_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S51_-_Vesnea_optimized.gif renamed to s51_-_vesnea_optimized.gif
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S52_-_Vesnea.webp renamed to s52_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S53_-_Vesnea.webp renamed to s53_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S54_-_Vesnea_optimized.gif renamed to s54_-_vesnea_optimized.gif
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S55_-_Vesnea_wip3_optimized.gif renamed to s55_-_vesnea_wip3_optimized.gif
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S58_-_Vesnea.webp renamed to s58_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S60_-_Vesnea.webp renamed to s60_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S61_-_Vesnea.webp renamed to s61_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S75_-_Vesnea_b.webp renamed to s75_-_vesnea_b.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S79_-_Vesnea_optimized.gif renamed to s79_-_vesnea_optimized.gif
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S84_-_Vesnea_varC_-_B2_dark.webp renamed to s84_-_vesnea_varc_-_b2_dark.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S91_-_Tea_Party_Style_Vesnea.webp renamed to s91_-_tea_party_style_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S92_-_Blep_Vesnea.webp renamed to s92_-_blep_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S94_-_Vesnea.webp renamed to s94_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S97_-_Vesnea_Star.webp renamed to s97_-_vesnea_star.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S98_-_Vesnea_See_You.webp renamed to s98_-_vesnea_see_you.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\S99_-_Vesnea.webp renamed to s99_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\artworks\V06_-_Vesnea.webp renamed to v06_-_vesnea.webp
+E:\Github\projectseaweb\public\characters\vesnea\collabarts\B05_-_Valentine_Group_Art.webp renamed to b05_-_valentine_group_art.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Catsbell_commissioned_by_Vesnea_-_20230126.webp renamed to by_catsbell_commissioned_by_vesnea_-_20230126.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Haineko_-_20221018_2.webp renamed to by_haineko_-_20221018_2.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Haineko_-_20221230.webp renamed to by_haineko_-_20221230.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Haineko_-_20230228.webp renamed to by_haineko_-_20230228.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Haineko_commissioned_by_Vesnea_-_20221018.webp renamed to by_haineko_commissioned_by_vesnea_-_20221018.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Kumedu_-_20220916.webp renamed to by_kumedu_-_20220916.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Kumedu_commissioned_by_Vesnea_-_20220915.webp renamed to by_kumedu_commissioned_by_vesnea_-_20220915.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Mystic_commissioned_by_Vesnea_-_20220620.webp renamed to by_mystic_commissioned_by_vesnea_-_20220620.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Nakiko_commissioned_by_Ruzik_-_20230101.webp renamed to by_nakiko_commissioned_by_ruzik_-_20230101.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Shual_commissioned_by_Vesnea_-_20221023_1.webp renamed to by_shual_commissioned_by_vesnea_-_20221023_1.webp
+E:\Github\projectseaweb\public\characters\vesnea\commarts\by_Yurano_commissioned_by_Vesnea_-_20230531.webp renamed to by_yurano_commissioned_by_vesnea_-_20230531.webp
+by_水無月_-_20240423_1.webp was not renamed : new name is the same than old name
+data.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Arshina_-_20240607.webp renamed to by_arshina_-_20240607.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Arshina_-_20240608_1.webp renamed to by_arshina_-_20240608_1.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Azhorark_-_20241231.webp renamed to by_azhorark_-_20241231.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Azshorark_-_20250106.webp renamed to by_azshorark_-_20250106.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Bunnymagika_-_20241023.webp renamed to by_bunnymagika_-_20241023.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_DerpyCloud11731_-_20240603.webp renamed to by_derpycloud11731_-_20240603.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Enma_-_20230923_1.webp renamed to by_enma_-_20230923_1.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Enma_-_20251006.webp renamed to by_enma_-_20251006.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Enma_-_20251127.webp renamed to by_enma_-_20251127.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_LaguThongX_-_20230522.webp renamed to by_laguthongx_-_20230522.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_LaguThongx_-_20230705.webp renamed to by_laguthongx_-_20230705.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_LaguThongx_-_20240423.webp renamed to by_laguthongx_-_20240423.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_LaguThongx_-_20240802.webp renamed to by_laguthongx_-_20240802.webp
+by_mia_mafu_-_20230915.webp was not renamed : new name is the same than old name
+by_mia_mafu_-_20240722_optimized.gif was not renamed : new name is the same than old name
+by_mia_mafu_-_20250501.webp was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Mystic_-_20240306.webp renamed to by_mystic_-_20240306.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Noko_-_20220803.webp renamed to by_noko_-_20220803.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Noko_-_20220814.webp renamed to by_noko_-_20220814.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Noko_-_20221003_2.webp renamed to by_noko_-_20221003_2.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Noko_-_20221024_1.webp renamed to by_noko_-_20221024_1.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Noko_-_20221121.webp renamed to by_noko_-_20221121.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Noko_-_20230113_cropped.webp renamed to by_noko_-_20230113_cropped.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Noko_and_Vesnea_-_20221224_cropped.webp renamed to by_noko_and_vesnea_-_20221224_cropped.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Olyester_-_20220621.webp renamed to by_olyester_-_20220621.webp
+by_opggtalk_-_20230406.webp was not renamed : new name is the same than old name
+by_opggtalk_-_20230630.webp was not renamed : new name is the same than old name
+by_princey_via_discord_secret_santa_-_20251225.webp was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Pryexel48_-_20240424.webp renamed to by_pryexel48_-_20240424.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Sasa_-_20230613.webp renamed to by_sasa_-_20230613.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Shinyprowl_-_20230826.webp renamed to by_shinyprowl_-_20230826.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Shinyprowl_-_20230827.webp renamed to by_shinyprowl_-_20230827.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Shinyprowl_-_20230827_2.webp renamed to by_shinyprowl_-_20230827_2.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Shinyprowl_-_20240219.webp renamed to by_shinyprowl_-_20240219.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Shinyprowl_-_20240222.webp renamed to by_shinyprowl_-_20240222.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Shinyprowl_-_20241224.webp renamed to by_shinyprowl_-_20241224.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Shinyprowl_-_20251030.webp renamed to by_shinyprowl_-_20251030.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Snowy_-_20230506.webp renamed to by_snowy_-_20230506.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_super_EX1_-_20230227.webp renamed to by_super_ex1_-_20230227.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_super_EX1_-_20231225.webp renamed to by_super_ex1_-_20231225.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_super_EX1_-_20240406.webp renamed to by_super_ex1_-_20240406.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_super_EX1_-_20240623.webp renamed to by_super_ex1_-_20240623.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_super_EX1_-_20241117.webp renamed to by_super_ex1_-_20241117.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_super_EX1_-_20241225.webp renamed to by_super_ex1_-_20241225.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_super_EX1_-_20250406.webp renamed to by_super_ex1_-_20250406.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_super_EX1_-_20251226.webp renamed to by_super_ex1_-_20251226.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Unifantingchan_-_20240528_2.webp renamed to by_unifantingchan_-_20240528_2.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\by_Zazie_-_20221215.webp renamed to by_zazie_-_20221215.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\hidden\by_Arshina_-_20240608_2.webp renamed to by_arshina_-_20240608_2.webp
+E:\Github\projectseaweb\public\characters\vesnea\giftarts\hidden\by_Azshorark_-_20230422.webp renamed to by_azshorark_-_20230422.webp
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\vesnea\PFP_Vesnea.png renamed to pfp_vesnea.png
+E:\Github\projectseaweb\public\characters\vesnea\tradearts\AF24_-_D02_-_Vesnea_by_misspiggyf381_-_20240714.webp renamed to af24_-_d02_-_vesnea_by_misspiggyf381_-_20240714.webp
+E:\Github\projectseaweb\public\characters\vesnea\tradearts\AF24_-_D04_-_Vesnea_by_Plussol_-_20240723.webp renamed to af24_-_d04_-_vesnea_by_plussol_-_20240723.webp
+E:\Github\projectseaweb\public\characters\vesnea\tradearts\AF24_-_D05a_-_Vesnea_by_Mozonite_-_20240723_2.webp renamed to af24_-_d05a_-_vesnea_by_mozonite_-_20240723_2.webp
+E:\Github\projectseaweb\public\characters\vesnea\tradearts\AF24_-_D05b_-_Vesnea_by_Mozonite_-_20240723.webp renamed to af24_-_d05b_-_vesnea_by_mozonite_-_20240723.webp
+E:\Github\projectseaweb\public\characters\vesnea\tradearts\AF24_-_D06_-_Vesnea_by_SmollCuteFenne_-_20240730.webp renamed to af24_-_d06_-_vesnea_by_smollcutefenne_-_20240730.webp
+E:\Github\projectseaweb\public\characters\vesnea\tradearts\AF24_-_D10_-_Vesnea_by_Lerunechka_-_20240802.webp renamed to af24_-_d10_-_vesnea_by_lerunechka_-_20240802.webp
+E:\Github\projectseaweb\public\characters\vesnea\tradearts\AF25_-_by_GreninjaxSylveonlove_-_Vesnea!_-_20250717.webp renamed to af25_-_by_greninjaxsylveonlove_-_vesnea!_-_20250717.webp
+E:\Github\projectseaweb\public\characters\vesnea\tradearts\AF25_-_by_Stoakadora_-_Vesnea_the_cutie_-_20250717.webp renamed to af25_-_by_stoakadora_-_vesnea_the_cutie_-_20250717.webp
+E:\Github\projectseaweb\public\characters\vesneabm\artworks\S165_-_Vesnea_Blossom_Mode.jpg renamed to s165_-_vesnea_blossom_mode.jpg
+E:\Github\projectseaweb\public\characters\vesneabm\artworks\V01.jpg renamed to v01.jpg
+E:\Github\projectseaweb\public\characters\vesneabm\commarts\by_Haineko_-_20250300.webp renamed to by_haineko_-_20250300.webp
+E:\Github\projectseaweb\public\characters\vesneabm\commarts\by_Haineko_-_20251225.webp renamed to by_haineko_-_20251225.webp
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\vesneabm\PFP_VesneaBM.png renamed to pfp_vesneabm.png
+E:\Github\projectseaweb\public\characters\vesneasylveon\artworks\B04_-_Christmas_Collab_sylveon-transparent2_cropped.webp renamed to b04_-_christmas_collab_sylveon-transparent2_cropped.webp
+E:\Github\projectseaweb\public\characters\vesneasylveon\artworks\B06_-_Chinese_New_Year_Vesneon_crop.webp renamed to b06_-_chinese_new_year_vesneon_crop.webp
+E:\Github\projectseaweb\public\characters\vesneasylveon\artworks\D39_-_Vesnea_Sylveon.webp renamed to d39_-_vesnea_sylveon.webp
+E:\Github\projectseaweb\public\characters\vesneasylveon\artworks\S198_-_Vesneon.webp renamed to s198_-_vesneon.webp
+E:\Github\projectseaweb\public\characters\vesneasylveon\collabarts\B04_-_Christmas_Collab.webp renamed to b04_-_christmas_collab.webp
+E:\Github\projectseaweb\public\characters\vesneasylveon\collabarts\B06_-_Chinese_New_Year_Vesneon.webp renamed to b06_-_chinese_new_year_vesneon.webp
+data.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\vesneasylveon\giftarts\by_Enma_-_20260209.webp renamed to by_enma_-_20260209.webp
+E:\Github\projectseaweb\public\characters\vesneasylveon\giftarts\by_Esthermsb_-_20260224.webp renamed to by_esthermsb_-_20260224.webp
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\vesneasylveon\PFP_Vesneon.png renamed to pfp_vesneon.png
+data.json was not renamed : new name is the same than old name
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\zeo\PFP_Zeo.webp renamed to pfp_zeo.webp
+E:\Github\projectseaweb\public\characters\zeo\PFP_Zeo_glow.webp renamed to pfp_zeo_glow.webp
+E:\Github\projectseaweb\public\characters\zeo\PFP_Zeo_optimized.gif renamed to pfp_zeo_optimized.gif
+E:\Github\projectseaweb\public\characters\zumiko\artworks\D18_-_Korazu,_Uzakon,_and_Zumiko_full_ref.webp renamed to d18_-_korazu,_uzakon,_and_zumiko_full_ref.webp
+E:\Github\projectseaweb\public\characters\zumiko\artworks\S113_-_Korazu,_Uzakon,_Zumiko_wip2.webp renamed to s113_-_korazu,_uzakon,_zumiko_wip2.webp
+E:\Github\projectseaweb\public\characters\zumiko\artworks\S115_-_Zumiko.webp renamed to s115_-_zumiko.webp
+E:\Github\projectseaweb\public\characters\zumiko\artworks\S119_-_Zumiko.webp renamed to s119_-_zumiko.webp
+E:\Github\projectseaweb\public\characters\zumiko\artworks\S145_-_Zumiko.webp renamed to s145_-_zumiko.webp
+E:\Github\projectseaweb\public\characters\zumiko\artworks\S151_-_Zumiko.webp renamed to s151_-_zumiko.webp
+E:\Github\projectseaweb\public\characters\zumiko\artworks\S158_-_Korazu,_Uzakon,_and_Zumiko.webp renamed to s158_-_korazu,_uzakon,_and_zumiko.webp
+E:\Github\projectseaweb\public\characters\zumiko\artworks\S163_-_Elemental_Power_full.webp renamed to s163_-_elemental_power_full.webp
+E:\Github\projectseaweb\public\characters\zumiko\artworks\S190_-_Korazu_Uzakon_Zumiko.webp renamed to s190_-_korazu_uzakon_zumiko.webp
+E:\Github\projectseaweb\public\characters\zumiko\commarts\by_Haineko_-_20240214.webp renamed to by_haineko_-_20240214.webp
+by_水無月_-_20240703_1.webp was not renamed : new name is the same than old name
+by_水無月_-_20240703_2.webp was not renamed : new name is the same than old name
+data.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\zumiko\giftarts\by_Miamafu_-_20240115_1.webp renamed to by_miamafu_-_20240115_1.webp
+E:\Github\projectseaweb\public\characters\zumiko\giftarts\by_Natsuneko_-_20240930.webp renamed to by_natsuneko_-_20240930.webp
+E:\Github\projectseaweb\public\characters\zumiko\giftarts\by_Spacecrow_-_20240907.webp renamed to by_spacecrow_-_20240907.webp
+en.json was not renamed : new name is the same than old name
+jp.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\characters\zumiko\PFP_Zumiko.png renamed to pfp_zumiko.png
+E:\Github\projectseaweb\public\characters\zumiko\tradearts\AF25_-_by_Enma_-_Zumiko_Elegant_style!_-_20250723.webp renamed to af25_-_by_enma_-_zumiko_elegant_style!_-_20250723.webp
+E:\Github\projectseaweb\public\characters\zumiko\tradearts\by_Ailia_-_20240719_1.webp renamed to by_ailia_-_20240719_1.webp
+E:\Github\projectseaweb\public\characters\zumiko\tradearts\by_Hinawashi_-_20240801.webp renamed to by_hinawashi_-_20240801.webp
+favicon-16x16.png was not renamed : new name is the same than old name
+favicon-32x32.png was not renamed : new name is the same than old name
+favicon-96x96.png was not renamed : new name is the same than old name
+favicon.ico was not renamed : new name is the same than old name
+E:\Github\projectseaweb\public\game\TicTacToe.144x144.png renamed to tictactoe.144x144.png
+E:\Github\projectseaweb\public\game\TicTacToe.180x180.png renamed to tictactoe.180x180.png
+E:\Github\projectseaweb\public\game\TicTacToe.512x512.png renamed to tictactoe.512x512.png
+E:\Github\projectseaweb\public\game\TicTacToe.apple-touch-icon.png renamed to tictactoe.apple-touch-icon.png
+E:\Github\projectseaweb\public\game\TicTacToe.audio.position.worklet.js renamed to tictactoe.audio.position.worklet.js
+E:\Github\projectseaweb\public\game\TicTacToe.audio.worklet.js renamed to tictactoe.audio.worklet.js
+E:\Github\projectseaweb\public\game\TicTacToe.html renamed to tictactoe.html
+E:\Github\projectseaweb\public\game\TicTacToe.icon.png renamed to tictactoe.icon.png
+E:\Github\projectseaweb\public\game\TicTacToe.js renamed to tictactoe.js
+E:\Github\projectseaweb\public\game\TicTacToe.manifest.json renamed to tictactoe.manifest.json
+E:\Github\projectseaweb\public\game\TicTacToe.offline.html renamed to tictactoe.offline.html
+E:\Github\projectseaweb\public\game\TicTacToe.pck renamed to tictactoe.pck
+E:\Github\projectseaweb\public\game\TicTacToe.png renamed to tictactoe.png
+E:\Github\projectseaweb\public\game\TicTacToe.service.worker.js renamed to tictactoe.service.worker.js
+E:\Github\projectseaweb\public\game\TicTacToe.wasm renamed to tictactoe.wasm
+E:\Github\projectseaweb\public\homepage_carousel\HPC01.jpg renamed to hpc01.jpg
+E:\Github\projectseaweb\public\homepage_carousel\HPC02.jpg renamed to hpc02.jpg
+E:\Github\projectseaweb\public\homepage_carousel\HPC03.jpg renamed to hpc03.jpg
+E:\Github\projectseaweb\public\homepage_carousel\HPC04.jpg renamed to hpc04.jpg
+E:\Github\projectseaweb\public\homepage_carousel\HPC05.jpg renamed to hpc05.jpg
+E:\Github\projectseaweb\public\homepage_carousel\HPC06.jpg renamed to hpc06.jpg
+E:\Github\projectseaweb\public\homepage_carousel\HPC07.jpg renamed to hpc07.jpg
+index.html was not renamed : new name is the same than old name
+manifest.json was not renamed : new name is the same than old name
+ms-icon-144x144.png was not renamed : new name is the same than old name
+ms-icon-150x150.png was not renamed : new name is the same than old name
+ms-icon-310x310.png was not renamed : new name is the same than old name
+ms-icon-70x70.png was not renamed : new name is the same than old name
+noscript-bg.webp was not renamed : new name is the same than old name
+noscript-bg.webp was not renamed : new name is the same than old name
+noscript-pfp.png was not renamed : new name is the same than old name
+noscript.css was not renamed : new name is the same than old name
+page_1.jpg was not renamed : new name is the same than old name
+page_10.jpg was not renamed : new name is the same than old name
+page_11.jpg was not renamed : new name is the same than old name
+page_12.jpg was not renamed : new name is the same than old name
+page_13.jpg was not renamed : new name is the same than old name
+page_14.jpg was not renamed : new name is the same than old name
+page_15.jpg was not renamed : new name is the same than old name
+page_16.jpg was not renamed : new name is the same than old name
+page_17.jpg was not renamed : new name is the same than old name
+page_18.jpg was not renamed : new name is the same than old name
+page_19.jpg was not renamed : new name is the same than old name
+page_2.jpg was not renamed : new name is the same than old name
+page_20.jpg was not renamed : new name is the same than old name
+page_21.jpg was not renamed : new name is the same than old name
+page_22.jpg was not renamed : new name is the same than old name
+page_23.jpg was not renamed : new name is the same than old name
+page_24.jpg was not renamed : new name is the same than old name
+page_25.jpg was not renamed : new name is the same than old name
+page_3.jpg was not renamed : new name is the same than old name
+page_4.jpg was not renamed : new name is the same than old name
+page_5.jpg was not renamed : new name is the same than old name
+page_6.jpg was not renamed : new name is the same than old name
+page_7.jpg was not renamed : new name is the same than old name
+page_8.jpg was not renamed : new name is the same than old name
+page_9.jpg was not renamed : new name is the same than old name
+rename-log.txt was not renamed : new name is the same than old name
+robots.txt was not renamed : new name is the same than old name
+update-imports-2.js was not renamed : new name is the same than old name
+update-imports.js was not renamed : new name is the same than old name
+Renaming process finished

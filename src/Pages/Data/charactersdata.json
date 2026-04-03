@@ -119,7 +119,7 @@
     "altnamestyle": "",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_MythSeavalanche.png",
+        "image": "/Assets/charcardPFP/PFP_Mythseavalanche.png",
         "size": "big"
       }
     ],
@@ -183,7 +183,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Seava.png",
+        "image": "/Assets/charcardPFP/PFP_seava.png",
         "size": "big"
       },
       {
@@ -248,11 +248,11 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Vesnea.png",
+        "image": "/Assets/charcardPFP/pfp_vesnea.png",
         "size": "big"
       },
       {
-        "image": "/Assets/charcardPFP/PFP_Seavalanche.png",
+        "image": "/Assets/charcardPFP/PFP_seavalanche.png",
         "size": ""
       },
       {
@@ -310,7 +310,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Korazu.png",
+        "image": "/Assets/charcardPFP/PFP_korazu.png",
         "size": "big"
       }
     ],
@@ -353,7 +353,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Uzakon.png",
+        "image": "/Assets/charcardPFP/PFP_uzakon.png",
         "size": "big"
       }
     ],
@@ -396,7 +396,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Zumiko.png",
+        "image": "/Assets/charcardPFP/PFP_zumiko.png",
         "size": "big"
       }
     ],

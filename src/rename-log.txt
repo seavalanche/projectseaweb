@@ -1,0 +1,328 @@
+Renaming process started
+1. Change case: all in lowercase, using Windows' locale settings
+E:\Github\projectseaweb\src\App.js renamed to app.js
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\01-DigitalArt-Blocky.webp renamed to 01-digitalart-blocky.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\02-DigitalArt-Brushy.webp renamed to 02-digitalart-brushy.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\03-DigitalArt-Clean.webp renamed to 03-digitalart-clean.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\04-DigitalArt-Artsy.webp renamed to 04-digitalart-artsy.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\05-DigitalArt-Grainy.webp renamed to 05-digitalart-grainy.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\06-DigitalArt-Fluffy.webp renamed to 06-digitalart-fluffy.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\07-DigitalArt-Abstract.webp renamed to 07-digitalart-abstract.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\08-DigitalArt-Dreamy.webp renamed to 08-digitalart-dreamy.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\09-DigitalArt-3D-Like.webp renamed to 09-digitalart-3d-like.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\10-DigitalArt-PixelArt.webp renamed to 10-digitalart-pixelart.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\11-DigitalArt-AnimationArt.gif renamed to 11-digitalart-animationart.gif
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\12-2D-Modeling-And-Rigging.webp renamed to 12-2d-modeling-and-rigging.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutMyStyle\13-3D-Modeling-And-Rigging.webp renamed to 13-3d-modeling-and-rigging.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Bluesky-Dark.svg renamed to about-icon-bluesky-dark.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Bluesky-Light.svg renamed to about-icon-bluesky-light.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Bluesky-Star.svg renamed to about-icon-bluesky-star.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Instagram-Dark.svg renamed to about-icon-instagram-dark.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Instagram-Light.svg renamed to about-icon-instagram-light.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Instagram-Star.svg renamed to about-icon-instagram-star.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Kofi-Dark.svg renamed to about-icon-kofi-dark.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Kofi-Light.svg renamed to about-icon-kofi-light.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Kofi-Star.svg renamed to about-icon-kofi-star.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Twitter-Dark.svg renamed to about-icon-twitter-dark.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Twitter-Light.svg renamed to about-icon-twitter-light.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutSocials\About-Icon-Twitter-Star.svg renamed to about-icon-twitter-star.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineDark.svg renamed to abouttimelinedark.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineDarkJP.svg renamed to abouttimelinedarkjp.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineLight.svg renamed to abouttimelinelight.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineLightJP.svg renamed to abouttimelinelightjp.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineMDark.svg renamed to abouttimelinemdark.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineMDarkJP.svg renamed to abouttimelinemdarkjp.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineMLight.svg renamed to abouttimelinemlight.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineMLightJP.svg renamed to abouttimelinemlightjp.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineMStar.svg renamed to abouttimelinemstar.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineMStarJP.svg renamed to abouttimelinemstarjp.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineStar.svg renamed to abouttimelinestar.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutTimeline\AboutTimelineStarJP.svg renamed to abouttimelinestarjp.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutVesnea-Header.webp renamed to aboutvesnea-header.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutVesnea-Header_2-shadow.png renamed to aboutvesnea-header_2-shadow.png
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutVesnea-Header_2.png renamed to aboutvesnea-header_2.png
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\AboutVesnea-PFP.webp renamed to aboutvesnea-pfp.webp
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\Tidy-er-Dark.svg renamed to tidy-er-dark.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\Tidy-er-Light.svg renamed to tidy-er-light.svg
+E:\Github\projectseaweb\src\Assets\About\AboutVesnea\Tidy-er-Star.svg renamed to tidy-er-star.svg
+E:\Github\projectseaweb\src\Assets\About\AC\Korazu.png renamed to korazu.png
+E:\Github\projectseaweb\src\Assets\About\AC\MythSeavalanche.webp renamed to mythseavalanche.webp
+E:\Github\projectseaweb\src\Assets\About\AC\Seava.png renamed to seava.png
+E:\Github\projectseaweb\src\Assets\About\AC\Seavalanche.png renamed to seavalanche.png
+E:\Github\projectseaweb\src\Assets\About\AC\Uzakon.png renamed to uzakon.png
+E:\Github\projectseaweb\src\Assets\About\AC\Vesnea.png renamed to vesnea.png
+E:\Github\projectseaweb\src\Assets\About\AC\Zumiko.png renamed to zumiko.png
+E:\Github\projectseaweb\src\Assets\About\ACinfo\AntagonistA\Arna.webp renamed to arna.webp
+E:\Github\projectseaweb\src\Assets\About\ACinfo\AntagonistA\Baldor.webp renamed to baldor.webp
+E:\Github\projectseaweb\src\Assets\About\ACinfo\AntagonistA\Deimev.webp renamed to deimev.webp
+E:\Github\projectseaweb\src\Assets\About\ACinfo\AntagonistA\Fondan.webp renamed to fondan.webp
+E:\Github\projectseaweb\src\Assets\About\ACinfo\AntagonistA\Rakariki.webp renamed to rakariki.webp
+E:\Github\projectseaweb\src\Assets\About\ACinfo\AntagonistA\Sarchie.webp renamed to sarchie.webp
+E:\Github\projectseaweb\src\Assets\About\ACinfo\AntagonistA\Veranite.webp renamed to veranite.webp
+E:\Github\projectseaweb\src\Assets\About\ACinfo\Korazu.png renamed to korazu.png
+E:\Github\projectseaweb\src\Assets\About\ACinfo\Myth_Seavalanche.png renamed to myth_seavalanche.png
+E:\Github\projectseaweb\src\Assets\About\ACinfo\Seava.png renamed to seava.png
+E:\Github\projectseaweb\src\Assets\About\ACinfo\Seavalanche.png renamed to seavalanche.png
+E:\Github\projectseaweb\src\Assets\About\ACinfo\Uzakon.png renamed to uzakon.png
+E:\Github\projectseaweb\src\Assets\About\ACinfo\Vesnea.png renamed to vesnea.png
+E:\Github\projectseaweb\src\Assets\About\ACinfo\Zumiko.png renamed to zumiko.png
+E:\Github\projectseaweb\src\Assets\Arrow.png renamed to arrow.png
+E:\Github\projectseaweb\src\Assets\ArtStyleWrap.jpg renamed to artstylewrap.jpg
+E:\Github\projectseaweb\src\Assets\CommBanner1.webp renamed to commbanner1.webp
+E:\Github\projectseaweb\src\Assets\CommBanner1m.webp renamed to commbanner1m.webp
+E:\Github\projectseaweb\src\Assets\CommBanner2.webp renamed to commbanner2.webp
+E:\Github\projectseaweb\src\Assets\CommBanner2m.webp renamed to commbanner2m.webp
+E:\Github\projectseaweb\src\Assets\CommBoard.jpg renamed to commboard.jpg
+E:\Github\projectseaweb\src\Assets\Common\ResetBtnDark.svg renamed to resetbtndark.svg
+E:\Github\projectseaweb\src\Assets\Common\ResetBtnDarkActive.svg renamed to resetbtndarkactive.svg
+E:\Github\projectseaweb\src\Assets\Common\ResetBtnLight.svg renamed to resetbtnlight.svg
+E:\Github\projectseaweb\src\Assets\Common\ResetBtnLightActive.svg renamed to resetbtnlightactive.svg
+E:\Github\projectseaweb\src\Assets\Common\ResetBtnStar.svg renamed to resetbtnstar.svg
+E:\Github\projectseaweb\src\Assets\Common\ResetBtnStarActive.svg renamed to resetbtnstaractive.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtn.svg renamed to sidebarbtn.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtn2.svg renamed to sidebarbtn2.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnDarkClose.svg renamed to sidebarbtndarkclose.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnDarkCloseHover.svg renamed to sidebarbtndarkclosehover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnDarkOpen.svg renamed to sidebarbtndarkopen.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnDarkOpenHover.svg renamed to sidebarbtndarkopenhover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnLightClose.svg renamed to sidebarbtnlightclose.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnLightCloseHover.svg renamed to sidebarbtnlightclosehover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnLightOpen.svg renamed to sidebarbtnlightopen.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnLightOpenHover.svg renamed to sidebarbtnlightopenhover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMDarkClose.svg renamed to sidebarbtnmdarkclose.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMDarkCloseHover.svg renamed to sidebarbtnmdarkclosehover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMDarkOpen.svg renamed to sidebarbtnmdarkopen.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMDarkOpenHover.svg renamed to sidebarbtnmdarkopenhover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMLightClose.svg renamed to sidebarbtnmlightclose.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMLightCloseHover.svg renamed to sidebarbtnmlightclosehover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMLightOpen.svg renamed to sidebarbtnmlightopen.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMLightOpenHover.svg renamed to sidebarbtnmlightopenhover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMStarClose.svg renamed to sidebarbtnmstarclose.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMStarCloseHover.svg renamed to sidebarbtnmstarclosehover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMStarOpen.svg renamed to sidebarbtnmstaropen.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnMStarOpenHover.svg renamed to sidebarbtnmstaropenhover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnStarClose.svg renamed to sidebarbtnstarclose.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnStarCloseHover.svg renamed to sidebarbtnstarclosehover.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnStarOpen.svg renamed to sidebarbtnstaropen.svg
+E:\Github\projectseaweb\src\Assets\Common\SidebarBtnStarOpenHover.svg renamed to sidebarbtnstaropenhover.svg
+E:\Github\projectseaweb\src\Assets\Common\VesBG_1.webp renamed to vesbg_1.webp
+E:\Github\projectseaweb\src\Assets\Common\VesBG_1b.webp renamed to vesbg_1b.webp
+E:\Github\projectseaweb\src\Assets\Common\VesBG_2.webp renamed to vesbg_2.webp
+E:\Github\projectseaweb\src\Assets\Common\VesBG_3.webp renamed to vesbg_3.webp
+E:\Github\projectseaweb\src\Assets\CommStatusimg.png renamed to commstatusimg.png
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C01b_-_Truffles_and_Claus_-_220529-0039.jpg renamed to sea_2022_-_c01b_-_truffles_and_claus_-_220529-0039.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C01_-_Truffles_and_Claus_-_220529-0088.jpg renamed to sea_2022_-_c01_-_truffles_and_claus_-_220529-0088.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C02_-_Ruru_-_220531-0109.jpg renamed to sea_2022_-_c02_-_ruru_-_220531-0109.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C03_-_Ruru_-_220608-0051.jpg renamed to sea_2022_-_c03_-_ruru_-_220608-0051.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C04_-_Mystic_-_220611-0160.jpg renamed to sea_2022_-_c04_-_mystic_-_220611-0160.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C05_-_Ninetales_-_220619-0113.jpg renamed to sea_2022_-_c05_-_ninetales_-_220619-0113.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C06_-_Soldreon_-_220628-0239.jpg renamed to sea_2022_-_c06_-_soldreon_-_220628-0239.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C07_-_Ninetales_and_Delphox_-_220710-0408.jpg renamed to sea_2022_-_c07_-_ninetales_and_delphox_-_220710-0408.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C08_-_Arcanum_and_Vis_-_220716-0415.jpg renamed to sea_2022_-_c08_-_arcanum_and_vis_-_220716-0415.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C09_-_Spicy__Nutzz_-_220724-0104.jpg renamed to sea_2022_-_c09_-_spicy__nutzz_-_220724-0104.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C10b_-_Ruby_-_220731-0094.jpg renamed to sea_2022_-_c10b_-_ruby_-_220731-0094.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C10_-_Ruby_-_220731-0067.jpg renamed to sea_2022_-_c10_-_ruby_-_220731-0067.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C11_-_Fizzy_-_220909-0306.jpg renamed to sea_2022_-_c11_-_fizzy_-_220909-0306.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C12_-_Diamant_-_220914-0313.jpg renamed to sea_2022_-_c12_-_diamant_-_220914-0313.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C13_-_Togeshi_-_220924-0091.jpg renamed to sea_2022_-_c13_-_togeshi_-_220924-0091.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C14_-_Daniel_-_221003-0214.jpg renamed to sea_2022_-_c14_-_daniel_-_221003-0214.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C15_-_AWildPukachu_-_221026-0155.jpg renamed to sea_2022_-_c15_-_awildpukachu_-_221026-0155.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C16_-_Rinko_-_221117-0080.jpg renamed to sea_2022_-_c16_-_rinko_-_221117-0080.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C17_-_Ruru_-_221117-0065.jpg renamed to sea_2022_-_c17_-_ruru_-_221117-0065.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C18_-_Jenny_-_221120-0119.jpg renamed to sea_2022_-_c18_-_jenny_-_221120-0119.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C19_-_Jenny_and_Zolt_-_221219-0144.jpg renamed to sea_2022_-_c19_-_jenny_and_zolt_-_221219-0144.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C20_-_Receive_Ribbon_-_221230-0209.jpg renamed to sea_2022_-_c20_-_receive_ribbon_-_221230-0209.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2022_-_C22_-_Foxes_Playing_-_221231-0099.jpg renamed to sea_2022_-_c22_-_foxes_playing_-_221231-0099.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2023_-_C21_-_Moonlight_Blush_-_230101-0231.jpg renamed to sea_2023_-_c21_-_moonlight_blush_-_230101-0231.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2023_-_C23_-_YLA,_Luna,_and_Kaicho_-_230118-0353.jpg renamed to sea_2023_-_c23_-_yla,_luna,_and_kaicho_-_230118-0353.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2023_-_C24_-_Klonoa_-_230219-0180.jpg renamed to sea_2023_-_c24_-_klonoa_-_230219-0180.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2023_-_C25_-_Dan_and_Rinko_-_230219-0096.jpg renamed to sea_2023_-_c25_-_dan_and_rinko_-_230219-0096.jpg
+E:\Github\projectseaweb\src\Assets\Completed Commission\SEA_2023_-_C26_-_Konqi_-_230404-0151.jpg renamed to sea_2023_-_c26_-_konqi_-_230404-0151.jpg
+E:\Github\projectseaweb\src\Assets\Fonts\Baskervville-Regular.ttf renamed to baskervville-regular.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\InterTight-ExtraLightItalic.ttf renamed to intertight-extralightitalic.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\InterTight-Italic-VariableFont_wght.ttf renamed to intertight-italic-variablefont_wght.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\JosefinSans-Italic-VariableFont_wght.ttf renamed to josefinsans-italic-variablefont_wght.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\JosefinSans-VariableFont_wght.ttf renamed to josefinsans-variablefont_wght.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\Lora-Bold.ttf renamed to lora-bold.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\Lora-VariableFont_wght.ttf renamed to lora-variablefont_wght.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\Montserrat-Bold.ttf renamed to montserrat-bold.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\Montserrat-SemiBold.ttf renamed to montserrat-semibold.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\Montserrat-VariableFont_wght.ttf renamed to montserrat-variablefont_wght.ttf
+E:\Github\projectseaweb\src\Assets\Fonts\OpenDyslexic-Regular.otf renamed to opendyslexic-regular.otf
+E:\Github\projectseaweb\src\Assets\Footer\DarkMode.jpg renamed to darkmode.jpg
+E:\Github\projectseaweb\src\Assets\Footer\DarkMode_XSSize.jpg renamed to darkmode_xssize.jpg
+E:\Github\projectseaweb\src\Assets\Footer\FootbarLogoX2_DarkMode.png renamed to footbarlogox2_darkmode.png
+E:\Github\projectseaweb\src\Assets\Footer\FootbarLogoX2_LightMode.png renamed to footbarlogox2_lightmode.png
+E:\Github\projectseaweb\src\Assets\Footer\FootbarLogoX2_StarMode.png renamed to footbarlogox2_starmode.png
+E:\Github\projectseaweb\src\Assets\Footer\LightMode.jpg renamed to lightmode.jpg
+E:\Github\projectseaweb\src\Assets\Footer\LightMode_XSSize.jpg renamed to lightmode_xssize.jpg
+E:\Github\projectseaweb\src\Assets\Footer\StarMode.jpg renamed to starmode.jpg
+E:\Github\projectseaweb\src\Assets\Homepage\Introduction-bg-full.jpg renamed to introduction-bg-full.jpg
+E:\Github\projectseaweb\src\Assets\Homepage\Introduction-bg.jpg renamed to introduction-bg.jpg
+E:\Github\projectseaweb\src\Assets\Homepage\shortintro\2023-18-Sprigatito.jpg renamed to 2023-18-sprigatito.jpg
+E:\Github\projectseaweb\src\Assets\Homepage\shortintro\S98_-_Vesnea_See_You.png renamed to s98_-_vesnea_see_you.png
+E:\Github\projectseaweb\src\Assets\Homepage\WelcomeSect-dark.jpg renamed to welcomesect-dark.jpg
+E:\Github\projectseaweb\src\Assets\Homepage\WelcomeSect-light.jpg renamed to welcomesect-light.jpg
+E:\Github\projectseaweb\src\Assets\Homepage\WelcomeSect-star.jpg renamed to welcomesect-star.jpg
+E:\Github\projectseaweb\src\Assets\KofiNav.png renamed to kofinav.png
+E:\Github\projectseaweb\src\Assets\Navbar\KorazuSun.svg renamed to korazusun.svg
+E:\Github\projectseaweb\src\Assets\Navbar\NavbarButton.svg renamed to navbarbutton.svg
+E:\Github\projectseaweb\src\Assets\Navbar\NavbarLogo-dark.png renamed to navbarlogo-dark.png
+E:\Github\projectseaweb\src\Assets\Navbar\NavbarLogo-light.png renamed to navbarlogo-light.png
+E:\Github\projectseaweb\src\Assets\Navbar\NavbarLogo-pink.png renamed to navbarlogo-pink.png
+E:\Github\projectseaweb\src\Assets\Navbar\NavbarLogo-pink2.png renamed to navbarlogo-pink2.png
+E:\Github\projectseaweb\src\Assets\Navbar\NavbarLogo-star.png renamed to navbarlogo-star.png
+E:\Github\projectseaweb\src\Assets\Navbar\UzakonMoon.svg renamed to uzakonmoon.svg
+E:\Github\projectseaweb\src\Assets\Navbar\ZumikoStar.svg renamed to zumikostar.svg
+E:\Github\projectseaweb\src\Assets\Others\AF25_-_05_-_Ailia's_Nastasia_transparent.png renamed to af25_-_05_-_ailia's_nastasia_transparent.png
+E:\Github\projectseaweb\src\Assets\Others\AF25_-_06_-_DerpyCloud's_Kumo_and_Blu.png renamed to af25_-_06_-_derpycloud's_kumo_and_blu.png
+E:\Github\projectseaweb\src\Assets\Others\AF25_-_06_-_DerpyCloud's_Kumo_and_Blu_transparent.png renamed to af25_-_06_-_derpycloud's_kumo_and_blu_transparent.png
+E:\Github\projectseaweb\src\Assets\Others\AF25_-_06_-_DerpyCloud's_Kumo_and_Blu_transparent2.png renamed to af25_-_06_-_derpycloud's_kumo_and_blu_transparent2.png
+E:\Github\projectseaweb\src\Assets\PFP_Vesnea.png renamed to pfp_vesnea.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\weblinktree\Vesnea.png renamed to vesnea.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\SeaWebColorStyles.png renamed to seawebcolorstyles.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\Separator1.png renamed to separator1.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\Separator2.png renamed to separator2.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V1_Website_1.png renamed to v1_website_1.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V1_Website_2.png renamed to v1_website_2.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V1_Website_3.png renamed to v1_website_3.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V1_Website_4.png renamed to v1_website_4.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V1_Website_5.png renamed to v1_website_5.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V2_Website_1.png renamed to v2_website_1.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V2_Website_2.png renamed to v2_website_2.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V2_Website_3.png renamed to v2_website_3.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V2_Website_4.png renamed to v2_website_4.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V2_Website_5.png renamed to v2_website_5.png
+E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\V2_Website_6.png renamed to v2_website_6.png
+E:\Github\projectseaweb\src\Assets\ProjectSeaWeb_icon.jpg renamed to projectseaweb_icon.jpg
+E:\Github\projectseaweb\src\Assets\ProjectSeaWeb_icon_32.png renamed to projectseaweb_icon_32.png
+E:\Github\projectseaweb\src\Assets\Promotional1.png renamed to promotional1.png
+E:\Github\projectseaweb\src\Assets\Promotional2.png renamed to promotional2.png
+E:\Github\projectseaweb\src\Assets\S75_-_Vesnea_b_338x450.gif renamed to s75_-_vesnea_b_338x450.gif
+E:\Github\projectseaweb\src\Assets\Seava.png renamed to seava.png
+E:\Github\projectseaweb\src\Assets\Seavalanche.png renamed to seavalanche.png
+E:\Github\projectseaweb\src\Assets\Seava_icon.png renamed to seava_icon.png
+E:\Github\projectseaweb\src\Assets\small-Seava-and-Vesnea.jpg renamed to small-seava-and-vesnea.jpg
+E:\Github\projectseaweb\src\Assets\Timelinehelper.png renamed to timelinehelper.png
+E:\Github\projectseaweb\src\Assets\VesCursor.png renamed to vescursor.png
+E:\Github\projectseaweb\src\Assets\Vesnea.png renamed to vesnea.png
+E:\Github\projectseaweb\src\Assets\Vesnea_Art_Fight_2025.png renamed to vesnea_art_fight_2025.png
+E:\Github\projectseaweb\src\Assets\Vesnea_icon.png renamed to vesnea_icon.png
+E:\Github\projectseaweb\src\Assets\Vesnea_see_you.jpg renamed to vesnea_see_you.jpg
+E:\Github\projectseaweb\src\Components\CharacterCard.js renamed to charactercard.js
+E:\Github\projectseaweb\src\Components\Footer.js renamed to footer.js
+E:\Github\projectseaweb\src\Components\GameLayout.js renamed to gamelayout.js
+E:\Github\projectseaweb\src\Components\LanguageSwitcher.js renamed to languageswitcher.js
+E:\Github\projectseaweb\src\Components\Navbar.js renamed to navbar.js
+E:\Github\projectseaweb\src\Components\Navbar2.js renamed to navbar2.js
+E:\Github\projectseaweb\src\Components\NotFound.js renamed to notfound.js
+E:\Github\projectseaweb\src\Components\PoemBookmark.js renamed to poembookmark.js
+E:\Github\projectseaweb\src\Components\PoemContent.js renamed to poemcontent.js
+E:\Github\projectseaweb\src\Components\PoemFnBar.js renamed to poemfnbar.js
+E:\Github\projectseaweb\src\Components\PoemSidebar.js renamed to poemsidebar.js
+E:\Github\projectseaweb\src\Components\ReadingStats.js renamed to readingstats.js
+E:\Github\projectseaweb\src\Components\ScrollToTop.js renamed to scrolltotop.js
+E:\Github\projectseaweb\src\Components\ScrollToTopButton.js renamed to scrolltotopbutton.js
+E:\Github\projectseaweb\src\Components\SpeechPlayer.js renamed to speechplayer.js
+E:\Github\projectseaweb\src\Components\StoryBookmark.js renamed to storybookmark.js
+E:\Github\projectseaweb\src\Components\StoryContent.js renamed to storycontent.js
+E:\Github\projectseaweb\src\Components\StoryFnBar.js renamed to storyfnbar.js
+E:\Github\projectseaweb\src\Components\StorySidebar.js renamed to storysidebar.js
+E:\Github\projectseaweb\src\Components\ThemeContext.js renamed to themecontext.js
+E:\Github\projectseaweb\src\Components\UnderConstruction.js renamed to underconstruction.js
+attributepage.css was not renamed : new name is the same than old name
+charinfo.css was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\css\HPcarousel.css renamed to hpcarousel.css
+navbar.css was not renamed : new name is the same than old name
+poembook.css was not renamed : new name is the same than old name
+index.js was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\Layout.css renamed to layout.css
+E:\Github\projectseaweb\src\localization\contexts\LanguageContext.js renamed to languagecontext.js
+E:\Github\projectseaweb\src\localization\hooks\useLocalization.js renamed to uselocalization.js
+E:\Github\projectseaweb\src\localization\hooks\useTranslation.js renamed to usetranslation.js
+localization.js was not renamed : new name is the same than old name
+logo.svg was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\Pages\AboutVesnea.js renamed to aboutvesnea.js
+E:\Github\projectseaweb\src\Pages\ArtPage.js renamed to artpage.js
+E:\Github\projectseaweb\src\Pages\AttributePage.js renamed to attributepage.js
+metadata.js was not renamed : new name is the same than old name
+poem-metadata.js was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\Pages\Characters.js renamed to characters.js
+E:\Github\projectseaweb\src\Pages\CharInfo.js renamed to charinfo.js
+E:\Github\projectseaweb\src\Pages\Commissions.js renamed to commissions.js
+E:\Github\projectseaweb\src\Pages\Data\charactersData.json renamed to charactersdata.json
+E:\Github\projectseaweb\src\Pages\GamePage.js renamed to gamepage.js
+E:\Github\projectseaweb\src\Pages\Games\TicTacToePage.js renamed to tictactoepage.js
+E:\Github\projectseaweb\src\Pages\Homepage.js renamed to homepage.js
+E:\Github\projectseaweb\src\Pages\Poem.js renamed to poem.js
+E:\Github\projectseaweb\src\Pages\PoemBook.js renamed to poembook.js
+E:\Github\projectseaweb\src\Pages\Projects.js renamed to projects.js
+E:\Github\projectseaweb\src\Pages\ProjectSeaWeb.js renamed to projectseaweb.js
+E:\Github\projectseaweb\src\Pages\SeaWebTree.js renamed to seawebtree.js
+E:\Github\projectseaweb\src\Pages\Story.js renamed to story.js
+E:\Github\projectseaweb\src\Pages\UmbreonJourney.js renamed to umbreonjourney.js
+E:\Github\projectseaweb\src\Pages\VesneaMerch.js renamed to vesneamerch.js
+E:\Github\projectseaweb\src\Pages\VesneaThemes.js renamed to vesneathemes.js
+rename-log.txt was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\reportWebVitals.js renamed to reportwebvitals.js
+E:\Github\projectseaweb\src\setupTests.js renamed to setuptests.js
+E:\Github\projectseaweb\src\Theme.css renamed to theme.css
+E:\Github\projectseaweb\src\Tools\HighlightMessage.js renamed to highlightmessage.js
+E:\Github\projectseaweb\src\Tools\StoryYCH\YCHStory.js renamed to ychstory.js
+E:\Github\projectseaweb\src\Tools\StoryYCH\YCHStoryBookmark.js renamed to ychstorybookmark.js
+E:\Github\projectseaweb\src\Tools\StoryYCH\YCHStoryContent.js renamed to ychstorycontent.js
+E:\Github\projectseaweb\src\Tools\StoryYCH\YCHStoryFnBar.js renamed to ychstoryfnbar.js
+E:\Github\projectseaweb\src\Tools\StoryYCH\YCHStoryTTH.js renamed to ychstorytth.js
+E:\Github\projectseaweb\src\Tools\TextToHtmlConverter.js renamed to texttohtmlconverter.js
+artpage.json was not renamed : new name is the same than old name
+charcard.json was not renamed : new name is the same than old name
+footer.json was not renamed : new name is the same than old name
+gamepage.json was not renamed : new name is the same than old name
+navbar.json was not renamed : new name is the same than old name
+poembook.json was not renamed : new name is the same than old name
+storyfnbar.json was not renamed : new name is the same than old name
+storysidebar.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\translations\en\pages\AboutVesnea.json renamed to aboutvesnea.json
+E:\Github\projectseaweb\src\translations\en\pages\AboutWebsite.json renamed to aboutwebsite.json
+E:\Github\projectseaweb\src\translations\en\pages\Characters\ACcontent.json renamed to accontent.json
+E:\Github\projectseaweb\src\translations\en\pages\Characters\ACinfo.json renamed to acinfo.json
+E:\Github\projectseaweb\src\translations\en\pages\Characters\ACtitle.json renamed to actitle.json
+E:\Github\projectseaweb\src\translations\en\pages\Games\TicTacToe.json renamed to tictactoe.json
+E:\Github\projectseaweb\src\translations\en\pages\Homepage.json renamed to homepage.json
+E:\Github\projectseaweb\src\translations\en\pages\NotFound.json renamed to notfound.json
+E:\Github\projectseaweb\src\translations\en\pages\VesneaThemesCom.json renamed to vesneathemescom.json
+E:\Github\projectseaweb\src\translations\en\pages\VesneaThemesLang.json renamed to vesneathemeslang.json
+intro.md was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\translations\en\poemchapters\SearchingMyself.md renamed to searchingmyself.md
+chapter1_old.md was not renamed : new name is the same than old name
+intro.md was not renamed : new name is the same than old name
+prologue.md was not renamed : new name is the same than old name
+prologue_old.md was not renamed : new name is the same than old name
+artpage.json was not renamed : new name is the same than old name
+charcard.json was not renamed : new name is the same than old name
+footer.json was not renamed : new name is the same than old name
+gamepage.json was not renamed : new name is the same than old name
+navbar.json was not renamed : new name is the same than old name
+poembook.json was not renamed : new name is the same than old name
+storyfnbar.json was not renamed : new name is the same than old name
+storysidebar.json was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\translations\jp\pages\AboutVesnea.json renamed to aboutvesnea.json
+E:\Github\projectseaweb\src\translations\jp\pages\AboutWebsite.json renamed to aboutwebsite.json
+E:\Github\projectseaweb\src\translations\jp\pages\Characters\ACcontent.json renamed to accontent.json
+E:\Github\projectseaweb\src\translations\jp\pages\Characters\ACinfo.json renamed to acinfo.json
+E:\Github\projectseaweb\src\translations\jp\pages\Characters\ACtitle.json renamed to actitle.json
+E:\Github\projectseaweb\src\translations\jp\pages\Games\TicTacToe.json renamed to tictactoe.json
+E:\Github\projectseaweb\src\translations\jp\pages\Homepage.json renamed to homepage.json
+E:\Github\projectseaweb\src\translations\jp\pages\NotFound.json renamed to notfound.json
+E:\Github\projectseaweb\src\translations\jp\pages\VesneaThemesCom.json renamed to vesneathemescom.json
+E:\Github\projectseaweb\src\translations\jp\pages\VesneaThemesLang.json renamed to vesneathemeslang.json
+intro.md was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\translations\jp\poemchapters\SearchingMyself.md renamed to searchingmyself.md
+chapter1_old.md was not renamed : new name is the same than old name
+intro.md was not renamed : new name is the same than old name
+prologue.md was not renamed : new name is the same than old name
+prologue_old.md was not renamed : new name is the same than old name
+E:\Github\projectseaweb\src\translations\Translations.js renamed to translations.js
+update-imports-2.js was not renamed : new name is the same than old name
+update-imports.js was not renamed : new name is the same than old name
+Renaming process finished

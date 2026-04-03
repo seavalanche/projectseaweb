@@ -1,7 +1,7 @@
 {
   "id": "miniarna",
-  "profilePicture": "PFP_Arnamini.webp",
-  "profilePicture2": "PFP_Arnamini.webp",
+  "profilePicture": "pfp_arnamini.webp",
+  "profilePicture2": "pfp_arnamini.webp",
   "name": "Mini Arna",
   "alternateName": "",
   "genderColor": "Male",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "D31 - Design Arna.jpg",
+      "src": "d31_-_design_arna.jpg",
       "title": "D31 - Design Arna",
       "caption": {
         "en": "The original Arna reference sheet.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "S172 - Arna.webp",
+      "src": "s172_-_arna.webp",
       "title": "S172 - Arna",
       "caption": {
         "en": "Arna and her three Mini Arnas.",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "src": "S194 - Arna and Mini Arna Day.webp",
+      "src": "s194_-_arna_and_mini_arna_day.webp",
       "title": "S194 - Arna and Mini Arna Day",
       "caption": {
         "en": "Arna and her three Mini Arnas.",

@@ -1817,13 +1817,13 @@ html {
   width: 1px;
   background-size: cover;
   background-position: center;
-  background-image: url("./Assets/About/AboutVesnea/Tidy-er-Light.svg");
+  background-image: url("./Assets/About/AboutVesnea/tidy-er-light.svg");
 }
 [data-theme="dark"] .AVTidy-er {
-  background-image: url("./Assets/About/AboutVesnea/Tidy-er-Dark.svg");
+  background-image: url("./Assets/About/AboutVesnea/tidy-er-dark.svg");
 }
 [data-theme="star"] .AVTidy-er {
-  background-image: url("./Assets/About/AboutVesnea/Tidy-er-Star.svg");
+  background-image: url("./Assets/About/AboutVesnea/tidy-er-star.svg");
 }
 /* AboutVesnea Header */
 .AVSectionContent {
@@ -1836,8 +1836,8 @@ html {
   width: 100%;
   height: min(30vw, 400px);
   aspect-ratio: 3.7 / 1;
-  background-image: url("./Assets/About/AboutVesnea/AboutVesnea-Header_2.png"),
-    url("./Assets/About/AboutVesnea/AboutVesnea-Header_2-shadow.png");
+  background-image: url("./Assets/About/AboutVesnea/aboutvesnea-header_2.png"),
+    url("./Assets/About/AboutVesnea/aboutvesnea-header_2-shadow.png");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-position: center;
@@ -1889,25 +1889,25 @@ html {
   max-height: 300px;
   aspect-ratio: 1000 / 244;
   margin: 25px;
-  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineLight.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinelight.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 [data-theme="dark"] .AVTimeline {
-  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineDark.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinedark.svg");
 }
 [data-theme="star"] .AVTimeline {
-  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineStar.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinestar.svg");
 }
 [data-language="jp"] .AVTimeline {
-  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineLightJP.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinelightjp.svg");
 }
 [data-language="jp"][data-theme="dark"] .AVTimeline {
-  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineDarkJP.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinedarkjp.svg");
 }
 [data-language="jp"][data-theme="star"] .AVTimeline {
-  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineStarJP.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinestarjp.svg");
 }
 /* AboutVesnea Socials */
 .AVSectionContent2-left,
@@ -1931,93 +1931,93 @@ html {
 .AVSocials-kofi {
   width: 174px;
   height: 30px;
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Light.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-light.svg");
 }
 .AVSocials-kofi:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Dark.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-dark.svg");
 }
 .AVSocials-bluesky {
   width: 30px;
   height: 27px;
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Light.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-bluesky-light.svg");
 }
 .AVSocials-bluesky:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Dark.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-bluesky-dark.svg");
 }
 .AVSocials-twitter {
   width: 35px;
   height: 26px;
-  background-image: url("./Assets//About//AboutVesnea//AboutSocials//About-Icon-Twitter-Light.svg");
+  background-image: url("./Assets//About//AboutVesnea//AboutSocials//about-icon-twitter-light.svg");
 }
 .AVSocials-twitter:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Dark.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-twitter-dark.svg");
 }
 .AVSocials-instagram {
   width: 30px;
   height: 30px;
-  background-image: url("./Assets//About//AboutVesnea//AboutSocials//About-Icon-Instagram-Light.svg");
+  background-image: url("./Assets//About//AboutVesnea//AboutSocials//about-icon-instagram-light.svg");
 }
 .AVSocials-instagram:hover {
   transform: scale(1.05);
 }
 
 [data-theme="dark"] .AVSocials-kofi {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Dark.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-dark.svg");
 }
 [data-theme="dark"] .AVSocials-kofi:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Light.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-light.svg");
 }
 [data-theme="star"] .AVSocials-kofi {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Star.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-star.svg");
 }
 [data-theme="star"] .AVSocials-kofi:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Star.svg"),
-    url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Kofi-Light.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-star.svg"),
+    url("./Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-light.svg");
   background-blend-mode: hue;
   opacity: 0.8;
 }
 
 [data-theme="dark"] .AVSocials-bluesky {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Dark.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-bluesky-dark.svg");
 }
 [data-theme="dark"] .AVSocials-bluesky:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Light.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-bluesky-light.svg");
 }
 [data-theme="star"] .AVSocials-bluesky {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Star.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-bluesky-star.svg");
 }
 [data-theme="star"] .AVSocials-bluesky:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Star.svg"),
-    url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Bluesky-Light.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-bluesky-star.svg"),
+    url("./Assets/About/AboutVesnea/AboutSocials/about-icon-bluesky-light.svg");
   background-blend-mode: hue;
   opacity: 0.8;
 }
 
 [data-theme="dark"] .AVSocials-twitter {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Dark.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-twitter-dark.svg");
 }
 [data-theme="dark"] .AVSocials-twitter:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Light.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-twitter-light.svg");
 }
 [data-theme="star"] .AVSocials-twitter {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Star.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-twitter-star.svg");
 }
 [data-theme="star"] .AVSocials-twitter:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Star.svg"),
-    url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Twitter-Light.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-twitter-star.svg"),
+    url("./Assets/About/AboutVesnea/AboutSocials/about-icon-twitter-light.svg");
   background-blend-mode: hue;
   opacity: 0.8;
 }
 
 [data-theme="dark"] .AVSocials-instagram {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Dark.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-instagram-dark.svg");
 }
 [data-theme="star"] .AVSocials-instagram {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Star.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-instagram-star.svg");
 }
 [data-theme="star"] .AVSocials-instagram:hover {
-  background-image: url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Star.svg"),
-    url("./Assets/About/AboutVesnea/AboutSocials/About-Icon-Instagram-Dark.svg");
+  background-image: url("./Assets/About/AboutVesnea/AboutSocials/about-icon-instagram-star.svg"),
+    url("./Assets/About/AboutVesnea/AboutSocials/about-icon-instagram-dark.svg");
   background-blend-mode: screen;
   opacity: 0.7;
 }
@@ -2066,22 +2066,22 @@ html {
     width: min(80vw, 410px);
     max-height: initial;
     aspect-ratio: 410 / 632.12;
-    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMLight.svg");
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinemlight.svg");
   }
   [data-theme="dark"] .AVTimeline {
-    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMDark.svg");
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinemdark.svg");
   }
   [data-theme="star"] .AVTimeline {
-    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMStar.svg");
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinemstar.svg");
   }
   [data-language="jp"] .AVTimeline {
-    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMLightJP.svg");
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinemlightjp.svg");
   }
   [data-language="jp"][data-theme="dark"] .AVTimeline {
-    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMDarkJP.svg");
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinemdarkjp.svg");
   }
   [data-language="jp"][data-theme="star"] .AVTimeline {
-    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/AboutTimelineMStarJP.svg");
+    background-image: url("./Assets/About/AboutVesnea/AboutTimeline/abouttimelinemstarjp.svg");
   }
 }
 @media only screen and (max-width: 800px) {

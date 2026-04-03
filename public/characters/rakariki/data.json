@@ -1,7 +1,7 @@
 {
   "id": "rakariki",
-  "profilePicture": "PFP_Rakariki.webp",
-  "profilePicture2": "PFP_Rakariki.webp",
+  "profilePicture": "pfp_rakariki.webp",
+  "profilePicture2": "pfp_rakariki.webp",
   "name": "Rakariki",
   "alternateName": "",
   "genderColor": "Male",
@@ -9,7 +9,7 @@
 
   "artworks": [
     {
-      "src": "D32 - Design Rakariki.jpg",
+      "src": "d32_-_design_rakariki.jpg",
       "title": "D32 - Design Rakariki",
       "caption": {
         "en": "The original Rakariki reference sheet.",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "src": "S195 - Rakariki Day.webp",
+      "src": "s195_-_rakariki_day.webp",
       "title": "S195 - Rakariki Day",
       "caption": {
         "en": "Rakariki dashing with some sparks visible around him.",

@@ -1,19 +1,19 @@
 import { Link } from 'react-router-dom';
 import { useLocalization } from '../localization/hooks/useLocalization';
-import VesneaPFP from '../Assets/About/AboutVesnea/AboutVesnea-PFP.webp';
-import MyStyle01 from '../Assets/About/AboutVesnea/AboutMyStyle/01-DigitalArt-Blocky.webp';
-import MyStyle02 from '../Assets/About/AboutVesnea/AboutMyStyle/02-DigitalArt-Brushy.webp';
-import MyStyle03 from '../Assets/About/AboutVesnea/AboutMyStyle/03-DigitalArt-Clean.webp';
-import MyStyle04 from '../Assets/About/AboutVesnea/AboutMyStyle/04-DigitalArt-Artsy.webp';
-import MyStyle05 from '../Assets/About/AboutVesnea/AboutMyStyle/05-DigitalArt-Grainy.webp';
-import MyStyle06 from '../Assets/About/AboutVesnea/AboutMyStyle/06-DigitalArt-Fluffy.webp';
-import MyStyle07 from '../Assets/About/AboutVesnea/AboutMyStyle/07-DigitalArt-Abstract.webp';
-import MyStyle08 from '../Assets/About/AboutVesnea/AboutMyStyle/08-DigitalArt-Dreamy.webp';
-import MyStyle09 from '../Assets/About/AboutVesnea/AboutMyStyle/09-DigitalArt-3D-Like.webp';
-import MyStyle10 from '../Assets/About/AboutVesnea/AboutMyStyle/10-DigitalArt-PixelArt.webp';
-import MyStyle11 from '../Assets/About/AboutVesnea/AboutMyStyle/11-DigitalArt-AnimationArt.gif';
-import MyStyle12 from '../Assets/About/AboutVesnea/AboutMyStyle/12-2D-Modeling-And-Rigging.webp';
-import MyStyle13 from '../Assets/About/AboutVesnea/AboutMyStyle/13-3D-Modeling-And-Rigging.webp';
+import VesneaPFP from '../Assets/About/AboutVesnea/aboutvesnea-pfp.webp';
+import MyStyle01 from '../Assets/About/AboutVesnea/AboutMyStyle/01-digitalart-blocky.webp';
+import MyStyle02 from '../Assets/About/AboutVesnea/AboutMyStyle/02-digitalart-brushy.webp';
+import MyStyle03 from '../Assets/About/AboutVesnea/AboutMyStyle/03-digitalart-clean.webp';
+import MyStyle04 from '../Assets/About/AboutVesnea/AboutMyStyle/04-digitalart-artsy.webp';
+import MyStyle05 from '../Assets/About/AboutVesnea/AboutMyStyle/05-digitalart-grainy.webp';
+import MyStyle06 from '../Assets/About/AboutVesnea/AboutMyStyle/06-digitalart-fluffy.webp';
+import MyStyle07 from '../Assets/About/AboutVesnea/AboutMyStyle/07-digitalart-abstract.webp';
+import MyStyle08 from '../Assets/About/AboutVesnea/AboutMyStyle/08-digitalart-dreamy.webp';
+import MyStyle09 from '../Assets/About/AboutVesnea/AboutMyStyle/09-digitalart-3d-like.webp';
+import MyStyle10 from '../Assets/About/AboutVesnea/AboutMyStyle/10-digitalart-pixelart.webp';
+import MyStyle11 from '../Assets/About/AboutVesnea/AboutMyStyle/11-digitalart-animationart.gif';
+import MyStyle12 from '../Assets/About/AboutVesnea/AboutMyStyle/12-2d-modeling-and-rigging.webp';
+import MyStyle13 from '../Assets/About/AboutVesnea/AboutMyStyle/13-3d-modeling-and-rigging.webp';
 
 const About = () => {
     const { t } = useLocalization();
