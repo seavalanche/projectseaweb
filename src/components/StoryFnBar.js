@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import { chapters } from '../Pages/Chapters/poem-metadata';
+import { chapters } from '../pages/chapters/metadata';
 import { useLocalization } from "../localization/hooks/useLocalization";
 
-function PoemFnBar({
+function StoryFnBar({
     toggleSidebar,
     sidebarVisible,
     currentChapter,
@@ -46,7 +46,7 @@ function PoemFnBar({
                             <div className="fnbar-comps">
                                 <span>{t("storyfnbar.fontsize")}</span>
                                 <div className="slider-wrapper">
-                                    <button className="slider-btn" onClick={() => adjustSetting('fontSize2', -1)}>-</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('fontSize', -1)}>-</button>
                                     <div className="slide-container">
                                         <input
                                             className="slider"
@@ -54,18 +54,18 @@ function PoemFnBar({
                                             min="8"
                                             max="24"
                                             step="1"
-                                            value={settings.fontSize2}
-                                            onChange={(e) => updateSetting('fontSize2', e.target.value)}
+                                            value={settings.fontSize}
+                                            onChange={(e) => updateSetting('fontSize', e.target.value)}
                                         />
                                     </div>
-                                    <button className="slider-btn" onClick={() => adjustSetting('fontSize2', 1)}>+</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('fontSize', 1)}>+</button>
                                 </div>
                             </div>
                             {/* Letter Spacing */}
                             <div className="fnbar-comps">
                                 <span>{t("storyfnbar.letterspacing")}</span>
                                 <div className="slider-wrapper">
-                                    <button className="slider-btn" onClick={() => adjustSetting('letterSpacing2', -1)}>-</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('letterSpacing', -1)}>-</button>
                                     <div className="slide-container">
                                         <input
                                             className="slider"
@@ -73,18 +73,18 @@ function PoemFnBar({
                                             min="0"
                                             max="5"
                                             step="1"
-                                            value={settings.letterSpacing2}
-                                            onChange={(e) => updateSetting('letterSpacing2', e.target.value)}
+                                            value={settings.letterSpacing}
+                                            onChange={(e) => updateSetting('letterSpacing', e.target.value)}
                                         />
                                     </div>
-                                    <button className="slider-btn" onClick={() => adjustSetting('letterSpacing2', 1)}>+</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('letterSpacing', 1)}>+</button>
                                 </div>
                             </div>
                             {/* Word Spacing */}
                             <div className="fnbar-comps">
                                 <span>{t("storyfnbar.wordspacing")}</span>
                                 <div className="slider-wrapper">
-                                    <button className="slider-btn" onClick={() => adjustSetting('wordSpacing2', -1)}>-</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('wordSpacing', -1)}>-</button>
                                     <div className="slide-container">
                                         <input
                                             className="slider"
@@ -92,11 +92,11 @@ function PoemFnBar({
                                             min="0"
                                             max="5"
                                             step="1"
-                                            value={settings.wordSpacing2}
-                                            onChange={(e) => updateSetting('wordSpacing2', e.target.value)}
+                                            value={settings.wordSpacing}
+                                            onChange={(e) => updateSetting('wordSpacing', e.target.value)}
                                         />
                                     </div>
-                                    <button className="slider-btn" onClick={() => adjustSetting('wordSpacing2', 1)}>+</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('wordSpacing', 1)}>+</button>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ function PoemFnBar({
                             <div className="fnbar-comps">
                                 <span>{t("storyfnbar.padding")}</span>
                                 <div className="slider-wrapper">
-                                    <button className="slider-btn" onClick={() => adjustSetting('contentPadding2', -1)}>-</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('contentPadding', -1)}>-</button>
                                     <div className="slide-container">
                                         <input
                                             className="slider"
@@ -113,18 +113,18 @@ function PoemFnBar({
                                             min="1"
                                             max="25"
                                             step="1"
-                                            value={settings.contentPadding2}
-                                            onChange={(e) => updateSetting('contentPadding2', e.target.value)}
+                                            value={settings.contentPadding}
+                                            onChange={(e) => updateSetting('contentPadding', e.target.value)}
                                         />
                                     </div>
-                                    <button className="slider-btn" onClick={() => adjustSetting('contentPadding2', 1)}>+</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('contentPadding', 1)}>+</button>
                                 </div>
                             </div>
                             {/* Line Spacing */}
                             <div className="fnbar-comps">
                                 <span>{t("storyfnbar.linespacing")}</span>
                                 <div className="slider-wrapper">
-                                    <button className="slider-btn" onClick={() => adjustSetting('lineHeight2', -0.1)}>-</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('lineHeight', -0.1)}>-</button>
                                     <div className="slide-container">
                                         <input
                                             className="slider"
@@ -132,18 +132,18 @@ function PoemFnBar({
                                             min="1.0"
                                             max="3.0"
                                             step="0.1"
-                                            value={settings.lineHeight2}
-                                            onChange={(e) => updateSetting('lineHeight2', e.target.value)}
+                                            value={settings.lineHeight}
+                                            onChange={(e) => updateSetting('lineHeight', e.target.value)}
                                         />
                                     </div>
-                                    <button className="slider-btn" onClick={() => adjustSetting('lineHeight2', 0.1)}>+</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('lineHeight', 0.1)}>+</button>
                                 </div>
                             </div>
                             {/* Paragraph Spacing */}
                             <div className="fnbar-comps">
                                 <span>{t("storyfnbar.paragraphspacing")}</span>
                                 <div className="slider-wrapper">
-                                    <button className="slider-btn" onClick={() => adjustSetting('paragraphGap2', -1)}>-</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', -1)}>-</button>
                                     <div className="slide-container">
                                         <input
                                             className="slider"
@@ -151,11 +151,11 @@ function PoemFnBar({
                                             min="1"
                                             max="50"
                                             step="1"
-                                            value={settings.paragraphGap2}
-                                            onChange={(e) => updateSetting('paragraphGap2', e.target.value)}
+                                            value={settings.paragraphGap}
+                                            onChange={(e) => updateSetting('paragraphGap', e.target.value)}
                                         />
                                     </div>
-                                    <button className="slider-btn" onClick={() => adjustSetting('paragraphGap2', 1)}>+</button>
+                                    <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', 1)}>+</button>
                                 </div>
                             </div>
                         </div>
@@ -187,8 +187,8 @@ function PoemFnBar({
                             <span>{t("storyfnbar.textcolor")}</span>
                             <input
                                 type="color"
-                                value={settings.fontColor2}
-                                onChange={(e) => handleColorChange('fontColor2', e.target.value)}
+                                value={settings.fontColor}
+                                onChange={(e) => handleColorChange('fontColor', e.target.value)}
                             />
                         </div>
 
@@ -197,8 +197,8 @@ function PoemFnBar({
                             <span>{t("storyfnbar.backgroundcolor")}</span>
                             <input
                                 type="color"
-                                value={settings.bgColor2}
-                                onChange={(e) => handleColorChange('bgColor2', e.target.value)}
+                                value={settings.bgColor}
+                                onChange={(e) => handleColorChange('bgColor', e.target.value)}
                             />
                         </div>
                     </div>
@@ -246,15 +246,15 @@ function PoemFnBar({
     // State initialization with loading flag
     const [isLoaded, setIsLoaded] = useState(false);
     const [settings, setSettings] = useState({
-        fontSize2: '--Fs-Content',
-        fontFamily2: '--F-Default',
-        fontColor2: '#000000',
-        bgColor2: '--text-color-1b',
-        contentPadding2: '--content-padding2',
-        lineHeight2: '--line-height2',
-        paragraphGap2: '--paragraph-gap2',
-        letterSpacing2: '--letter-spacing2',
-        wordSpacing2: '--word-spacing2',
+        fontSize: '--Fs-Content',
+        fontFamily: '--F-Default',
+        fontColor: '#000000',
+        bgColor: '--text-color-1b',
+        contentPadding: '--content-padding',
+        lineHeight: '--line-height',
+        paragraphGap: '--paragraph-gap',
+        letterSpacing: '--letter-spacing',
+        wordSpacing: '--word-spacing',
     });
 
     // Get CSS defaults with proper unit handling
@@ -268,32 +268,32 @@ function PoemFnBar({
         };
 
         return {
-            fontSize2: getNumericValue('--Fs-Content'),
-            fontFamily2: styles.getPropertyValue('--F-Default').trim(),
-            fontColor2: styles.getPropertyValue('--text-color-1b').trim(),
-            bgColor2: styles.getPropertyValue('--bg-color-3').trim(),
-            contentPadding2: getNumericValue('--content-padding2'),
-            lineHeight2: getNumericValue('--line-height2'),
-            paragraphGap2: getNumericValue('--paragraph-gap2'),
-            letterSpacing2: getNumericValue('--letter-spacing2'),
-            wordSpacing2: getNumericValue('--word-spacing2'),
+            fontSize: getNumericValue('--Fs-Content'),
+            fontFamily: styles.getPropertyValue('--F-Default').trim(),
+            fontColor: styles.getPropertyValue('--text-color-1b').trim(),
+            bgColor: styles.getPropertyValue('--bg-color-3').trim(),
+            contentPadding: getNumericValue('--content-padding'),
+            lineHeight: getNumericValue('--line-height'),
+            paragraphGap: getNumericValue('--paragraph-gap'),
+            letterSpacing: getNumericValue('--letter-spacing'),
+            wordSpacing: getNumericValue('--word-spacing'),
         };
     }, []);
 
     // Apply styles to DOM
     const applyStyles = useCallback(() => {
-        const root = document.getElementById('poem-content-wrapper');
+        const root = document.getElementById('story-content-wrapper');
         if (!root) return;
 
-        root.style.setProperty('--Fs-Content', `${settings.fontSize2}pt`);
-        root.style.setProperty('--F-Default', settings.fontFamily2);
-        root.style.setProperty('--text-color-1b', settings.fontColor2);
-        root.style.setProperty('--bg-color-3', settings.bgColor2);
-        root.style.setProperty('--content-padding2', `${settings.contentPadding2}vw`);
-        root.style.setProperty('--line-height2', settings.lineHeight2);
-        root.style.setProperty('--paragraph-gap2', `${settings.paragraphGap2}px`);
-        root.style.setProperty('--letter-spacing2', `${settings.letterSpacing2}px`);
-        root.style.setProperty('--word-spacing2', `${settings.wordSpacing2}px`);
+        root.style.setProperty('--Fs-Content', `${settings.fontSize}pt`);
+        root.style.setProperty('--F-Default', settings.fontFamily);
+        root.style.setProperty('--text-color-1b', settings.fontColor);
+        root.style.setProperty('--bg-color-3', settings.bgColor);
+        root.style.setProperty('--content-padding', `${settings.contentPadding}vw`);
+        root.style.setProperty('--line-height', settings.lineHeight);
+        root.style.setProperty('--paragraph-gap', `${settings.paragraphGap}px`);
+        root.style.setProperty('--letter-spacing', `${settings.letterSpacing}px`);
+        root.style.setProperty('--word-spacing', `${settings.wordSpacing}px`);
     }, [settings]);
 
     // Load initial settings
@@ -301,15 +301,15 @@ function PoemFnBar({
         const loadSettings = () => {
             const cssDefaults = getCSSDefaults();
             const savedSettings = {
-                fontSize2: parseFloat(localStorage.getItem('fontSize2')) || cssDefaults.fontSize2,
-                fontFamily2: localStorage.getItem('fontFamily2') || cssDefaults.fontFamily2,
-                fontColor2: localStorage.getItem('fontColor2') || cssDefaults.fontColor2,
-                bgColor2: localStorage.getItem('bgColor2') || cssDefaults.bgColor2,
-                contentPadding2: parseFloat(localStorage.getItem('contentPadding2')) || cssDefaults.contentPadding2,
-                lineHeight2: parseFloat(localStorage.getItem('lineHeight2')) || cssDefaults.lineHeight2,
-                paragraphGap2: parseFloat(localStorage.getItem('paragraphGap2')) || cssDefaults.paragraphGap2,
-                letterSpacing2: parseFloat(localStorage.getItem('letterSpacing2')) || cssDefaults.letterSpacing2,
-                wordSpacing2: parseFloat(localStorage.getItem('wordSpacing2')) || cssDefaults.wordSpacing2,
+                fontSize: parseFloat(localStorage.getItem('fontSize')) || cssDefaults.fontSize,
+                fontFamily: localStorage.getItem('fontFamily') || cssDefaults.fontFamily,
+                fontColor: localStorage.getItem('fontColor') || cssDefaults.fontColor,
+                bgColor: localStorage.getItem('bgColor') || cssDefaults.bgColor,
+                contentPadding: parseFloat(localStorage.getItem('contentPadding')) || cssDefaults.contentPadding,
+                lineHeight: parseFloat(localStorage.getItem('lineHeight')) || cssDefaults.lineHeight,
+                paragraphGap: parseFloat(localStorage.getItem('paragraphGap')) || cssDefaults.paragraphGap,
+                letterSpacing: parseFloat(localStorage.getItem('letterSpacing')) || cssDefaults.letterSpacing,
+                wordSpacing: parseFloat(localStorage.getItem('wordSpacing')) || cssDefaults.wordSpacing,
             };
 
             setSettings(savedSettings);
@@ -341,12 +341,12 @@ function PoemFnBar({
         let newValue = parseFloat(value);
 
         // Apply constraints
-        if (key === 'fontSize2') newValue = Math.max(8, Math.min(36, newValue));
-        if (key === 'contentPadding2') newValue = Math.max(1, Math.min(40, newValue));
-        if (key === 'lineHeight2') newValue = Math.max(1.0, Math.min(3.0, newValue));
-        if (key === 'paragraphGap2') newValue = Math.max(1, Math.min(50, newValue));
-        if (key === 'letterSpacing2') newValue = Math.max(0, Math.min(5, newValue));
-        if (key === 'wordSpacing2') newValue = Math.max(0, Math.min(5, newValue));
+        if (key === 'fontSize') newValue = Math.max(8, Math.min(36, newValue));
+        if (key === 'contentPadding') newValue = Math.max(1, Math.min(40, newValue));
+        if (key === 'lineHeight') newValue = Math.max(1.0, Math.min(3.0, newValue));
+        if (key === 'paragraphGap') newValue = Math.max(1, Math.min(50, newValue));
+        if (key === 'letterSpacing') newValue = Math.max(0, Math.min(5, newValue));
+        if (key === 'wordSpacing') newValue = Math.max(0, Math.min(5, newValue));
 
         const newSettings = {
             ...settings,
@@ -376,10 +376,10 @@ function PoemFnBar({
     const handleFontFamilyChange = (family) => {
         const newSettings = {
             ...settings,
-            fontFamily2: family
+            fontFamily: family
         };
         setSettings(newSettings);
-        localStorage.setItem('fontFamily2', family);
+        localStorage.setItem('fontFamily', family);
     };
 
     const [isVisible, setIsVisible] = useState(true);
@@ -466,7 +466,7 @@ function PoemFnBar({
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.fontsize")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('fontSize2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('fontSize', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -474,18 +474,18 @@ function PoemFnBar({
                                                 min="12"
                                                 max="36"
                                                 step="1"
-                                                value={settings.fontSize2}
-                                                onChange={(e) => updateSetting('fontSize2', e.target.value)}
+                                                value={settings.fontSize}
+                                                onChange={(e) => updateSetting('fontSize', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('fontSize2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('fontSize', 1)}>+</button>
                                     </div>
                                 </div>
                                 {/* Letter Spacing */}
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.letterspacing")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('letterSpacing2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('letterSpacing', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -493,18 +493,18 @@ function PoemFnBar({
                                                 min="0"
                                                 max="5"
                                                 step="1"
-                                                value={settings.letterSpacing2}
-                                                onChange={(e) => updateSetting('letterSpacing2', e.target.value)}
+                                                value={settings.letterSpacing}
+                                                onChange={(e) => updateSetting('letterSpacing', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('letterSpacing2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('letterSpacing', 1)}>+</button>
                                     </div>
                                 </div>
                                 {/* Word Spacing */}
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.wordspacing")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('wordSpacing2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('wordSpacing', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -512,11 +512,11 @@ function PoemFnBar({
                                                 min="0"
                                                 max="5"
                                                 step="1"
-                                                value={settings.wordSpacing2}
-                                                onChange={(e) => updateSetting('wordSpacing2', e.target.value)}
+                                                value={settings.wordSpacing}
+                                                onChange={(e) => updateSetting('wordSpacing', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('wordSpacing2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('wordSpacing', 1)}>+</button>
                                     </div>
                                 </div>
                             </div>
@@ -525,7 +525,7 @@ function PoemFnBar({
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.padding")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('contentPadding2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('contentPadding', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -533,18 +533,18 @@ function PoemFnBar({
                                                 min="1"
                                                 max="40"
                                                 step="1"
-                                                value={settings.contentPadding2}
-                                                onChange={(e) => updateSetting('contentPadding2', e.target.value)}
+                                                value={settings.contentPadding}
+                                                onChange={(e) => updateSetting('contentPadding', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('contentPadding2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('contentPadding', 1)}>+</button>
                                     </div>
                                 </div>
                                 {/* Line Spacing */}
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.linespacing")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('lineHeight2', -0.1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('lineHeight', -0.1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -552,18 +552,18 @@ function PoemFnBar({
                                                 min="1.0"
                                                 max="3.0"
                                                 step="0.1"
-                                                value={settings.lineHeight2}
-                                                onChange={(e) => updateSetting('lineHeight2', e.target.value)}
+                                                value={settings.lineHeight}
+                                                onChange={(e) => updateSetting('lineHeight', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('lineHeight2', 0.1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('lineHeight', 0.1)}>+</button>
                                     </div>
                                 </div>
                                 {/* Paragraph Spacing */}
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.paragraphspacing")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('paragraphGap2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -571,11 +571,11 @@ function PoemFnBar({
                                                 min="1"
                                                 max="50"
                                                 step="1"
-                                                value={settings.paragraphGap2}
-                                                onChange={(e) => updateSetting('paragraphGap2', e.target.value)}
+                                                value={settings.paragraphGap}
+                                                onChange={(e) => updateSetting('paragraphGap', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('paragraphGap2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', 1)}>+</button>
                                     </div>
                                 </div>
                             </div>
@@ -586,7 +586,7 @@ function PoemFnBar({
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.fontsize")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('fontSize2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('fontSize', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -594,18 +594,18 @@ function PoemFnBar({
                                                 min="12"
                                                 max="36"
                                                 step="1"
-                                                value={settings.fontSize2}
-                                                onChange={(e) => updateSetting('fontSize2', e.target.value)}
+                                                value={settings.fontSize}
+                                                onChange={(e) => updateSetting('fontSize', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('fontSize2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('fontSize', 1)}>+</button>
                                     </div>
                                 </div>
                                 {/* Letter Spacing */}
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.letterspacing")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('letterSpacing2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('letterSpacing', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -613,11 +613,11 @@ function PoemFnBar({
                                                 min="0"
                                                 max="5"
                                                 step="1"
-                                                value={settings.letterSpacing2}
-                                                onChange={(e) => updateSetting('letterSpacing2', e.target.value)}
+                                                value={settings.letterSpacing}
+                                                onChange={(e) => updateSetting('letterSpacing', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('letterSpacing2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('letterSpacing', 1)}>+</button>
                                     </div>
                                 </div>
                             </div>
@@ -626,7 +626,7 @@ function PoemFnBar({
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.wordspacing")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('wordSpacing2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('wordSpacing', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -634,18 +634,18 @@ function PoemFnBar({
                                                 min="0"
                                                 max="5"
                                                 step="1"
-                                                value={settings.wordSpacing2}
-                                                onChange={(e) => updateSetting('wordSpacing2', e.target.value)}
+                                                value={settings.wordSpacing}
+                                                onChange={(e) => updateSetting('wordSpacing', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('wordSpacing2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('wordSpacing', 1)}>+</button>
                                     </div>
                                 </div>
                                 {/* Padding */}
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.padding")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('contentPadding2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('contentPadding', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -653,11 +653,11 @@ function PoemFnBar({
                                                 min="1"
                                                 max="40"
                                                 step="1"
-                                                value={settings.contentPadding2}
-                                                onChange={(e) => updateSetting('contentPadding2', e.target.value)}
+                                                value={settings.contentPadding}
+                                                onChange={(e) => updateSetting('contentPadding', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('contentPadding2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('contentPadding', 1)}>+</button>
                                     </div>
                                 </div>
                             </div>
@@ -666,7 +666,7 @@ function PoemFnBar({
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.linespacing")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('lineHeight2', -0.1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('lineHeight', -0.1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -674,18 +674,18 @@ function PoemFnBar({
                                                 min="1.0"
                                                 max="3.0"
                                                 step="0.1"
-                                                value={settings.lineHeight2}
-                                                onChange={(e) => updateSetting('lineHeight2', e.target.value)}
+                                                value={settings.lineHeight}
+                                                onChange={(e) => updateSetting('lineHeight', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('lineHeight2', 0.1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('lineHeight', 0.1)}>+</button>
                                     </div>
                                 </div>
                                 {/* Paragraph Spacing */}
                                 <div className="fnbar-comps">
                                     <span>{t("storyfnbar.paragraphspacing")}</span>
                                     <div className="slider-wrapper">
-                                        <button className="slider-btn" onClick={() => adjustSetting('paragraphGap2', -1)}>-</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', -1)}>-</button>
                                         <div className="slide-container">
                                             <input
                                                 className="slider"
@@ -693,11 +693,11 @@ function PoemFnBar({
                                                 min="1"
                                                 max="50"
                                                 step="1"
-                                                value={settings.paragraphGap2}
-                                                onChange={(e) => updateSetting('paragraphGap2', e.target.value)}
+                                                value={settings.paragraphGap}
+                                                onChange={(e) => updateSetting('paragraphGap', e.target.value)}
                                             />
                                         </div>
-                                        <button className="slider-btn" onClick={() => adjustSetting('paragraphGap2', 1)}>+</button>
+                                        <button className="slider-btn" onClick={() => adjustSetting('paragraphGap', 1)}>+</button>
                                     </div>
                                 </div>
                             </div>
@@ -740,8 +740,8 @@ function PoemFnBar({
                                         <span>{t("storyfnbar.textcolor")}</span>
                                         <input
                                             type="color"
-                                            value={settings.fontColor2}
-                                            onChange={(e) => handleColorChange('fontColor2', e.target.value)}
+                                            value={settings.fontColor}
+                                            onChange={(e) => handleColorChange('fontColor', e.target.value)}
                                         />
                                     </div>
 
@@ -750,8 +750,8 @@ function PoemFnBar({
                                         <span>{t("storyfnbar.backgroundcolor")}</span>
                                         <input
                                             type="color"
-                                            value={settings.bgColor2}
-                                            onChange={(e) => handleColorChange('bgColor2', e.target.value)}
+                                            value={settings.bgColor}
+                                            onChange={(e) => handleColorChange('bgColor', e.target.value)}
                                         />
                                     </div>
                                     <button className="fnbar-default-sub2" onClick={resetToDefault}>{t("storyfnbar.reset")}</button>
@@ -782,4 +782,4 @@ function PoemFnBar({
     );
 }
 
-export default PoemFnBar;
+export default StoryFnBar;

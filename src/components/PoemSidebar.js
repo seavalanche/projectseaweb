@@ -1,7 +1,7 @@
 import { useState, useContext } from 'react';
 import { useEffect, useRef } from "react";
 import { LanguageContext } from '../localization/contexts/LanguageContext';
-import { chapters } from '../Pages/Chapters/metadata';
+import { chapters } from '../pages/chapters/poem-metadata';
 import { useLocalization } from '../localization/hooks/useLocalization';
 
 function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect }) {
@@ -95,7 +95,7 @@ function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect 
                     <div className="sidebar-search textpanel">
                         <input
                             type="text"
-                            placeholder={t("storysidebar.searchplaceholder")}
+                            placeholder={t("storysidebar.searchplaceholder2")}
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
                         />
