@@ -400,8 +400,9 @@
   color: var(--charcard-text-name);
 }
 .charcardAltName {
-  font-family: var(--F-CharCard);
-  font-size: var(--Fs-Content-small);
+  font-family: var(--font-accent);
+  font-size: var(--fs-sm);
+  /* font-style: italic; */
   color: var(--charcard-text-altname);
   text-align: center;
 }

@@ -1,0 +1,623 @@
+@font-face {
+  font-family: "F-Navbar";
+  src: url(/src/Assets/fonts/montserrat-variable.ttf);
+}
+
+@font-face {
+  font-family: "F-NavbarTitle";
+  src: url(/src/Assets/fonts/montserrat-semibold.ttf);
+}
+
+@font-face {
+  font-family: "F-BigTitle";
+  src: url(/src/Assets/fonts/baskervville-regular.ttf);
+}
+
+@font-face {
+  font-family: "F-Content";
+  src: url(/src/Assets/fonts/montserrat-variable.ttf);
+}
+
+@font-face {
+  font-family: "F-Link";
+  src: url(/src/Assets/fonts/intertight-extralightitalic.ttf);
+}
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url(/src/Assets/fonts/opendyslexic-regular.otf);
+}
+@font-face {
+  font-family: "F-AboutVesnea";
+  src: url(/src/Assets/fonts/josefinsans-italic-variable.ttf);
+}
+:root {
+    /* Z-Index */
+    --navbar-z-index: 10;
+}
+:root {
+  /* Fonts - Tier 1 */
+  --F-Montserrat: "Montserrat", "Noto Sans JP", sans-serif;
+  --F-Footbar: "Josefin Sans", "Noto Sans JP", sans-serif;
+  --F-Default: "Josefin Sans", "Noto Sans JP", sans-serif;
+  --F-CharCard: "Crimson Pro", "BIZ UDPMincho", serif;
+  --F-TextPanel: "Josefin Sans", "Noto Sans JP", sans-serif;
+  --F-AboutVesnea: "Josefin Sans", "Noto Sans JP", sans-serif;
+
+  --font-layout: "Montserrat", "Noto Sans JP", sans-serif;
+  --font-heading: "Baskervville", "Noto Serif JP", serif;
+  --font-main: "Josefin Sans", "Noto Sans JP", sans-serif;
+  --font-accent: "Dancing Script", "Zen Kurenaido", cursive, sans-serif;
+
+  /* Font Sizes - Tier 1 (Scale) */
+  --fs-xs: 0.7rem;
+  --fs-sm: 0.8rem; 
+  --fs-base: 1rem; 
+  --fs-md: 1.25rem; 
+  --fs-lg: 1.5rem; 
+  --fs-xl: 2rem; 
+  --fs-hero: 3.5rem; 
+
+  /* Font Sizes - Tier 2 (Type) */
+  --fs-body: var(--fs-base);
+  --fs-h1: var(--fs-xl); 
+  --fs-h2: var(--fs-lg); 
+  --fs-h3: var(--fs-md); 
+  --fs-h4: var(--fs-base);
+  --fs-h5: var(--fs-base);
+  --fs-h6: var(--fs-base);
+  --spacing-md: var(--fs-lg); 
+
+  /* Spacing Scale - Tier 1 */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+
+  /* Component Jobs - Tier 2 */
+  --container-padding: var(--space-lg);
+  --card-gap: var(--space-md);
+}
+/*These are the color palette*/
+/* 1. THE PALETTE (Raw Colors) */
+:root {
+  --C-SeaWeb_Dark_Purple: #181621; /*Main Color*/
+  --C-SeaWeb_Dark_Purple2: rgba(24, 22, 33, 0.75);
+  --C-SeaWeb_Purple: #2c233d;
+  --C-SeaWeb_Purple2: rgba(44, 35, 61, 0.5);
+  --C-SeaWeb_Purple3: rgba(44, 35, 61, 0.75);
+
+  --C-Seavalanche_Light_Blue: #bbe2f0;
+
+  --C-Vesnea_Purple: #4c2c57;
+  --C-Vesnea_Pink: #f29cc2;
+  --C-Vesnea_Light_Pink: #fdc4d3;
+  --C-Vesnea_white: #fefcfc;
+  --C-Vesnea_whiteb: rgba(240, 248, 252, 0.98);
+  --C-Vesnea_whitec: rgba(240, 248, 252, 0.7);
+
+  --C-Seava_Dark_Blue: #3e4f7b;
+  --C-Seava_Lighter_Dark_Blue: #536e9d;
+  --C-Seava_Blue: #4c77ae;
+  --C-Seava_Light_Blue: #9bd0e2;
+  --C-Seava_Yellow: rgb(252, 243, 217);
+  --C-Seava_Yellowb: rgba(252, 243, 217, 0.3);
+
+  --C-Korazu_Orange: #fcba9f;
+  --C-Korazu_Yellow: #ebd6a5;
+  --C-Korazu_Light_Yellow: #f5eeda;
+  --C-Korazu_White: #fbf8ee;
+
+  --C-Uzakon_Purple: #958abf;
+  --C-Uzakon_Light_Purple: #c6b0cf;
+  --C-Uzakon_Lighter_Light_Purple: #d8d3e5;
+  --C-Uzakon_White: #eeecf4;
+
+  --C-Zumiko_Red: #e28094;
+  --C-Zumiko_Light_Red: #f2cbd4;
+  --C-Zumiko_Pink: #f8bed5;
+  --C-Zumiko_White: #f9e8ec;
+
+  --C-MythSeavalanche_Light_Yellow: #fbefa1;
+  --C-MythSeavalanche_Yellow: #f4df7e;
+  --C-MythSeavalanche_Dark_Yellow: #d8b86d;
+  --C-MythSeavalanche_Light_Green: #e0e98b;
+  --C-MythSeavalanche_Green: #c1cc83;
+  --C-MythSeavalanche_Dark_Green: #9ebb98;
+  --C-MythSeavalanche_Blue: #e6f3f8;
+  --C-MythSeavalanche_Peach: #f4cebd;
+
+  --cutepink: #ff69b4;
+  --cutepink2: #d63384;
+
+  --TC-BG_Light: var(--C-Vesnea_white);
+  --TC-BG_Light2: var(--C-Uzakon_Light_Purple);
+  --TC-BG_Light3: var(--C-Uzakon_Lighter_Light_Purple);
+  --TC-BG_Dark: var(--C-SeaWeb_Purple);
+  --TC-BG_Dark2: var(--C-SeaWeb_Dark_Purple);
+  --TC-Text_Light: var(--C-SeaWeb_Purple);
+  --TC-Text_Light2: var(--C-Vesnea_Purple);
+  --TC-Text_Dark: var(--C-Korazu_Yellow);
+  --TC-Text_Dark2: var(--C-Vesnea_white);
+
+  /* Attributes */
+  --attribute-aether: #f4df7e;
+  --attribute-void: #1c1b1d;
+  --attribute-light: #ffffff;
+  --attribute-darkness: #382f3c;
+  --attribute-fire: #e1294d;
+  --attribute-water: #3e4f7b;
+  --attribute-nature: #70bb74;
+  --attribute-metal: #5a6775;
+  --attribute-electric: #ffe941;
+  --attribute-wind: #9be2c9;
+  --attribute-magical: #fdc4d3;
+  --attribute-psionic: #ce36be;
+  --attribute-spirit: #70488c;
+  --attribute-sound: #ec6f97;
+  --attribute-text-seawebdarkpurple: #181621;
+  --attribute-text-vesneawhite: #fefcfc;
+}
+/* 2. THE THEMES (Assigning jobs to the palette) */
+/* Default / Light Theme */
+:root,
+[data-theme="light"] {
+  --navbg: var(--C-Vesnea_white);
+  --navbg-ext: var(--C-Vesnea_Light_Pink);
+  --navbg-secondary: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 50%,
+    transparent
+  );
+  --navbg-secondary-m: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 20%,
+    var(--navbg) 70%
+  );
+  --navtext-a: var(--C-SeaWeb_Purple);
+  --navtext-b: var(--C-SeaWeb_Purple);
+  --navtext-accent: var(--C-Vesnea_Pink);
+
+  --footnavtext-a: var(--C-Vesnea_white);
+  --footnavtext-b: var(--C-Korazu_white);
+
+  --bg-color-1: var(--C-Vesnea_white);
+  --text-color-1a: var(--C-SeaWeb_Purple);
+  --text-color-1b: var(--C-SeaWeb_Purple);
+
+  --bg-color-2: var(--C-Uzakon_Light_Purple);
+  --text-color-2a: var(--C-Vesnea_Purple);
+  --text-color-2b: var(--C-Vesnea_Purple);
+
+  --bg-color-3: var(--C-Uzakon_Lighter_Light_Purple);
+  --text-color-3a: var(--C-Vesnea_Purple);
+  --text-color-3b: var(--C-Vesnea_Purple);
+
+  /* Texts */
+  --text-hover: var(--cutepink);
+
+  /* Buttons */
+  --button-background: var(--bg-color-3);
+  --button-text: var(--C-SeaWeb_Dark_Purple);
+  --button-border: var(--C-Uzakon_Light_Purple);
+  --button-border2: var(--C-Uzakon_Lighter_Light_Purple);
+  --button-background-active: color-mix(
+    in srgb,
+    var(--attribute-sound) 80%,
+    transparent
+  );
+  --button-text-active: var(--C-Vesnea_white);
+  --button-border-active: var(--C-SeaWeb_Dark_Purple);
+  --button-border2-active: var(--cutepink);
+
+  /* Textpanels */
+  --textpanel-background: var(--C-Uzakon_Lighter_Light_Purple);
+  --textpanel-text: var(--C-Vesnea_Purple);
+  --textpanel-border: var(--C-Uzakon_Light_Purple);
+  --textpanel-border2: var(--C-Uzakon_Lighter_Light_Purple);
+  --textpanel-background-active: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 50%,
+    transparent
+  );
+  --textpanel-text-active: var(--C-Vesnea_Purple);
+  --textpanel-border-active: var(--cutepink);
+
+  /* Sliders */
+  --slider-background-active: var(--textpanel-background-active);
+
+  /* Charcard */
+  --charcard-bg: var(--C-Vesnea_white);
+  --charcard-PFPbg: var(--C-Zumiko_White);
+  --charcard-art-title: var(--C-Vesnea_white);
+  --charcard-text-prop: var(--C-Uzakon_Light_Purple);
+  --charcard-text-value: var(--C-SeaWeb_Dark_Purple);
+  --charcard-text-name: var(--C-SeaWeb_Dark_Purple);
+  --charcard-text-altname: var(--C-Uzakon_Purple);
+  --charcard-border: var(--C-Vesnea_Light_Pink);
+  --charcard-PFPborder: var(--C-Vesnea_white);
+  --charcard-closebtn: var(--C-Vesnea_Pink);
+  --charcard-active-tab: var(--attribute-sound);
+  --charcard-active-tab-border: var(--attribute-sound);
+  --charcard-active-tab-text: var(--C-Vesnea_white);
+
+  --storyfnbar-text: var(--C-SeaWeb_Dark_Purple);
+  --storyfnbar-text2: var(--C-Vesnea_Purple);
+  --aboutvesnea-bg: var(--C-Zumiko_White);
+  --aboutvesnea-text: var(--C-Vesnea_Purple);
+  --aboutvesnea-link: var(--attribute-sound);
+  --aboutvesnea-cardborder: var(--C-Zumiko_Pink);
+  --generaltitle-text: var(--C-Vesnea_Purple);
+  --generalcontent-text: var(--C-Vesnea_Purple);
+  --generalcontent-texthover: var(--cutepink2);
+  --generalcontent-textshadow: var(--C-Vesnea_Pink);
+  --poembook-scroll-btn: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 30%,
+    transparent
+  );
+  --listseparator-text: var(--cutepink2);
+  --listseparator-bg: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 30%,
+    transparent
+  );
+  --notfound-bg1: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 10%,
+    var(--C-Vesnea_white) 90%
+  );
+  --notfound-bg2: color-mix(
+    in srgb,
+    var(--C-Vesnea_Pink) 35%,
+    var(--C-Vesnea_white) 65%
+  );
+  --notfound-text1: var(--cutepink2);
+  --notfound-text2: var(--cutepink2);
+  --notfound-textbtn: color-mix(
+    in srgb,
+    var(--C-Vesnea_white) 90%,
+    var(--C-Vesnea_Pink) 10%
+  );
+  --notfound-btn: color-mix(
+    in srgb,
+    var(--cutepink) 80%,
+    var(--C-Vesnea_Purple) 20%
+  );
+}
+:root,
+[data-theme="light"] {
+  --bg-primary: var(--C-Vesnea_white);
+  --bg-secondary: var(--C-Uzakon_Light_Purple);
+  --bg-brand: var(--C-Uzakon_Lighter_Light_Purple);
+  --text-on-primary: var(--C-Vesnea_Purple);
+  --text-on-secondary: var(--C-Vesnea_Purple);
+  --text-on-brand: var(--C-Vesnea_Purple);
+  --accent: var(--C-Vesnea_Pink);
+  --text-active: var(--cutepink);
+
+  --navbg-secondary: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 50%,
+    transparent
+  );
+  --navbg-secondary-m: color-mix(
+    in srgb,
+    var(--C-Vesnea_Light_Pink) 20%,
+    var(--navbg) 70%
+  );
+}
+[data-theme="dark"] {
+  /* Dark Theme */
+  --navbg: var(--C-SeaWeb_Purple);
+  --navbg-ext: var(--C-Vesnea_white);
+  --navbg-secondary: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 50%,
+    transparent
+  );
+  --navbg-secondary-m: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 20%,
+    var(--navbg) 70%
+  );
+  --navtext-a: var(--C-Korazu_Yellow);
+  --navtext-b: var(--C-Korazu_Yellow);
+  --navtext-accent: var(--C-Vesnea_Pink);
+
+  --footnavtext-a: var(--C-Vesnea_white);
+  --footnavtext-b: var(--C-Korazu_White);
+
+  --bg-color-1: var(--C-SeaWeb_Purple);
+  --text-color-1a: var(--C-Korazu_Yellow);
+  --text-color-1b: var(--C-Vesnea_white);
+
+  --bg-color-2: var(--C-SeaWeb_Dark_Purple);
+  --text-color-2a: var(--C-Korazu_Yellow);
+  --text-color-2b: var(--C-Vesnea_white);
+
+  --bg-color-3: var(--C-SeaWeb_Dark_Purple);
+  --text-color-3a: var(--C-Vesnea_white);
+  --text-color-3b: var(--C-Korazu_White);
+
+  /* Texts */
+  --text-hover: var(--C-Korazu_Yellow);
+
+  /* Buttons */
+  --button-background: var(--C-SeaWeb_Dark_Purple);
+  --button-text: var(--C-Uzakon_White);
+  --button-border: var(--C-Uzakon_Purple);
+  --button-border2: var(--C-SeaWeb_Purple);
+  --button-background-active: color-mix(
+    in srgb,
+    var(--C-Korazu_Yellow) 80%,
+    transparent
+  );
+  --button-text-active: var(--C-SeaWeb_Purple);
+  --button-border-active: var(--C-Uzakon_White);
+  --button-border2-active: var(--C-Korazu_Yellow);
+
+  /* Textpanels */
+  --textpanel-background: var(--C-SeaWeb_Dark_Purple);
+  --textpanel-text: var(--C-Uzakon_Light_Purple);
+  --textpanel-border: var(--C-Uzakon_Purple);
+  --textpanel-border2: var(--textpanel-border);
+  --textpanel-background-active: var(--C-SeaWeb_Purple);
+  --textpanel-background-active: color-mix(
+    in srgb,
+    var(--C-Korazu_Yellow) 30%,
+    var(--C-SeaWeb_Dark_Purple) 80%
+  );
+  --textpanel-text-active: var(--C-Korazu_Yellow);
+  --textpanel-border-active: var(--C-Korazu_Yellow);
+
+  /* Sliders */
+  --slider-background-active: var(--textpanel-background-active);
+
+  /* Charcard */
+  --charcard-bg: var(--C-SeaWeb_Purple);
+  --charcard-PFPbg: var(--C-Uzakon_Lighter_Light_Purple);
+  --charcard-art-title: var(--C-Uzakon_Purple);
+  --charcard-text-prop: var(--C-Uzakon_Purple);
+  --charcard-text-value: var(--C-Uzakon_White);
+  --charcard-text-name: var(--C-Vesnea_white);
+  --charcard-text-altname: var(--C-Uzakon_Light_Purple);
+  --charcard-border: var(--C-Uzakon_Light_Purple);
+  --charcard-PFPborder: var(--C-Korazu_Yellow);
+  --charcard-closebtn: var(--C-Uzakon_Purple);
+  --charcard-active-tab: var(--C-Korazu_Yellow);
+  --charcard-active-tab-border: var(--C-Korazu_Yellow);
+  --charcard-active-tab-text: var(--C-SeaWeb_Purple);
+
+  --storyfnbar-text: var(--C-Uzakon_White);
+  --storyfnbar-text2: var(--C-Uzakon_Purple);
+  --aboutvesnea-bg: var(--C-SeaWeb_Purple);
+  --aboutvesnea-text: var(--C-Zumiko_Light_Red);
+  --aboutvesnea-link: var(--C-Zumiko_Red);
+  --aboutvesnea-cardborder: var(--C-Vesnea_Purple);
+  --generaltitle-text: var(--C-Zumiko_Light_Red);
+  --generalcontent-text: var(--C-Zumiko_Light_Red);
+  --generalcontent-texthover: var(--C-Korazu_Yellow);
+  --generalcontent-textshadow: var(--C-Korazu_Yellow);
+  --poembook-scroll-btn: rgba(0, 0, 0, 0.15);
+  --listseparator-text: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 70%,
+    var(--C-Vesnea_Purple) 10%
+  );
+  --listseparator-text: color-mix(
+    in srgb,
+    var(--C-Korazu_Yellow) 80%,
+    transparent
+  );
+  --listseparator-bg: color-mix(
+    in srgb,
+    var(--C-Vesnea_Purple) 30%,
+    var(--C-Vesnea_white) 20%
+  );
+  --listseparator-bg: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 40%,
+    transparent
+  );
+  --notfound-bg1: var(--C-SeaWeb_Purple);
+  --notfound-bg2: var(--C-SeaWeb_Dark_Purple);
+  --notfound-text1: var(--C-Korazu_Yellow);
+  --notfound-text2: var(--C-Vesnea_Light_Pink);
+  --notfound-textbtn: var(--C-Vesnea_white);
+  --notfound-btn: var(--C-SeaWeb_Purple);
+}
+[data-theme="dark"] {
+  --bg-primary: var(--C-SeaWeb_Purple);
+  --bg-secondary: var(--C-SeaWeb_Dark_Purple);
+  --bg-brand: var(--C-SeaWeb_Dark_Purple);
+  --text-on-primary: var(--C-Korazu_White);
+  --text-on-secondary: var(--C-Korazu_White);
+  --text-on-brand: var(--C-Korazu_Yellow);
+  --accent: var(--C-Vesnea_Pink);
+  --text-active: var(--C-Korazu_Yellow);
+
+  --navbg-secondary: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 50%,
+    transparent
+  );
+  --navbg-secondary-m: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Dark_Purple) 20%,
+    var(--navbg) 70%
+  );
+}
+[data-theme="star"] {
+  /* Star Theme */
+  --navbg: var(--C-SeaWeb_Dark_Purple);
+  --navbg-ext: var(--C-Vesnea_white);
+  --navbg-secondary: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 5%,
+    var(--navbg) 95%
+  );
+  --navbg-secondary-m: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Purple) 10%,
+    var(--navbg) 80%
+  );
+  --navtext-a: var(--C-Uzakon_Light_Purple);
+  --navtext-b: var(--C-Uzakon_Purple);
+  --navtext-accent: var(--C-Vesnea_Pink);
+
+  --footnavtext-a: var(--C-Vesnea_white);
+  --footnavtext-b: var(--C-Korazu_white);
+
+  --bg-color-1: var(--C-SeaWeb_Dark_Purple);
+  --text-color-1a: var(--C-Uzakon_Light_Purple);
+  --text-color-1b: var(--C-Uzakon_Purple);
+
+  --bg-color-2: var(--C-SeaWeb_Dark_Purple);
+  --text-color-2a: var(--C-Uzakon_Light_Purple);
+  --text-color-2b: var(--C-Uzakon_Purple);
+
+  --bg-color-3: var(--C-SeaWeb_Dark_Purple);
+  --text-color-3a: var(--C-Uzakon_Light_Purple);
+  --text-color-3b: var(--C-Uzakon_Purple);
+
+  /* Texts */
+  --text-hover: var(--C-Uzakon_Lighter_Light_Purple);
+
+  /* Buttons */
+  --button-background: var(--bg-color-3);
+  --button-text: var(--C-Uzakon_Purple);
+  --button-border: color-mix(in srgb, var(--C-Uzakon_Purple) 50%, transparent);
+  --button-border2: color-mix(in srgb, var(--C-Uzakon_Purple) 20%, transparent);
+  --button-background-active: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 80%,
+    transparent
+  );
+  --button-text-active: var(--C-Uzakon_White);
+  --button-border-active: var(--C-Uzakon_Purple);
+  --button-border2-active: var(--C-Uzakon_Purple);
+
+  /* Textpanels */
+  --textpanel-background: var(--bg-color-3);
+  --textpanel-text: var(--C-Uzakon_Purple);
+  --textpanel-border: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 20%,
+    transparent
+  );
+  --textpanel-border2: var(--textpanel-border);
+  --textpanel-background-active: color-mix(
+    in srgb,
+    var(--C-Vesnea_Purple) 10%,
+    var(--C-Uzakon_Purple) 40%
+  );
+  --textpanel-text-active: var(--C-Uzakon_Light_Purple);
+  --textpanel-border-active: var(--C-Uzakon_Purple);
+
+  /* Sliders */
+  --slider-background-active: var(--textpanel-background-active);
+
+  /* Charcard */
+  --charcard-bg: var(--C-SeaWeb_Dark_Purple);
+  --charcard-PFPbg: var(--C-SeaWeb_Purple);
+  --charcard-art-title: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 50%,
+    transparent
+  );
+  --charcard-text-prop: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 50%,
+    transparent
+  );
+  --charcard-text-value: var(--C-Uzakon_Purple);
+  --charcard-text-name: var(--C-Uzakon_Light_Purple);
+  --charcard-text-altname: var(--C-Uzakon_Purple);
+  --charcard-border: var(--C-Uzakon_Purple);
+  --charcard-PFPborder: var(--C-Uzakon_Purple);
+  --charcard-closebtn: var(--C-Uzakon_Purple);
+  --charcard-active-tab: var(--C-Uzakon_Purple);
+  --charcard-active-tab-border: var(--C-Uzakon_Purple);
+  --charcard-active-tab-text: var(--C-Uzakon_White);
+
+  --storyfnbar-text: var(--C-Uzakon_Purple);
+  --storyfnbar-text2: var(--C-Uzakon_Purple);
+  --aboutvesnea-bg: var(--C-SeaWeb_Dark_Purple);
+  --aboutvesnea-text: var(--C-Uzakon_Light_Purple);
+  --aboutvesnea-link: var(--C-Uzakon_Purple);
+  --aboutvesnea-cardborder: var(--C-SeaWeb_Purple);
+  --generaltitle-text: var(--C-Uzakon_Light_Purple);
+  --generalcontent-text: var(--C-Uzakon_Light_Purple);
+  --generalcontent-texthover: var(--C-Uzakon_Purple);
+  --generalcontent-textshadow: var(--C-Vesnea_Pink);
+  --poembook-scroll-btn: rgba(0, 0, 0, 0.15);
+  --listseparator-text: color-mix(
+    in srgb,
+    var(--C-Uzakon_Light_Purple) 50%,
+    var(--C-Uzakon_White) 20%
+  );
+  --listseparator-bg: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 30%,
+    var(--C-SeaWeb_Dark_Purple) 70%
+  );
+  --notfound-bg1: var(--C-SeaWeb_Dark_Purple);
+  --notfound-bg2: var(--C-SeaWeb_Dark_Purple);
+  --notfound-text1: var(--C-Uzakon_Lighter_Light_Purple);
+  --notfound-text2: var(--C-Uzakon_Light_Purple);
+  --notfound-textbtn: var(--C-Uzakon_Lighter_Light_Purple);
+  --notfound-btn: var(--C-SeaWeb_Purple);
+}
+[data-theme="star"] {
+  --bg-primary: var(--C-SeaWeb_Dark_Purple);
+  --bg-secondary: var(--C-SeaWeb_Dark_Purple);
+  --bg-brand: var(--C-SeaWeb_Dark_Purple);
+  --text-on-primary: var(--C-Uzakon_Light_Purple);
+  --text-on-secondary: var(--C-Uzakon_Light_Purple);
+  --text-on-brand: var(--C-Uzakon_Light_Purple);
+  --accent: var(--C-Vesnea_Pink);
+  --text-active: var(--C-Uzakon_Lighter_Light_Purple);
+
+  --navbg-secondary: color-mix(
+    in srgb,
+    var(--C-Uzakon_Purple) 5%,
+    var(--navbg) 95%
+  );
+  --navbg-secondary-m: color-mix(
+    in srgb,
+    var(--C-SeaWeb_Purple) 10%,
+    var(--navbg) 80%
+  );
+}
+
+/* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */
+:root,
+[data-theme="light"] {
+  --navbar-img: url("/src/Assets/Navbar/navbarlogo-light.png");
+  --navbar-img-hover: url("/src/Assets/Navbar/navbarlogo-pink2.png");
+  --navbar-theme-btn1: url("/src/Assets/Navbar/korazusun.svg");
+  --navbar-theme-btn2: url("/src/Assets/Navbar/uzakonmoon.svg");
+  --navbar-theme-btn3: url("/src/Assets/Navbar/zumikostar.svg");
+  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-light.jpg");
+  --homepage-commsect-img: url("/src/Assets/commbanner1.webp");
+  --homepage-commsect-img-m: url("/src/Assets/commbanner1m.webp");
+}
+
+[data-theme="dark"] {
+  --navbar-img: url("/src/Assets/Navbar/navbarlogo-dark.png");
+  --navbar-img-hover: url("/src/Assets/Navbar/navbarlogo-pink.png");
+  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-dark.jpg");
+  --homepage-commsect-img: url("/src/Assets/commbanner2.webp");
+  --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
+}
+
+[data-theme="star"] {
+  --navbar-img: url("/src/Assets/Navbar/navbarlogo-star.png");
+  --navbar-img-hover: url("/src/Assets/Navbar/navbarlogo-pink.png");
+  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-star.jpg");
+  --homepage-commsect-img: url("/src/Assets/commbanner2.webp");
+  --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
+}
+/* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */

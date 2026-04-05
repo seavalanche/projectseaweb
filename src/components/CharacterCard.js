@@ -74,7 +74,7 @@ function CharacterCard({ character }) {
                             <div className='charcard-contentA1'>
                                 <img className='charcardPFP' src={character.profilePicture} alt={character.name} />
                                 <div className='charcardName'>{character.name}</div>
-                                <div className='charcardAltName'>{character.alternateName && (<h3>{character.alternateName}</h3>)}</div>
+                                <div className='charcardAltName'>{character.alternateName && (<span>{character.alternateName}</span>)}</div>
                             </div>
                             <div className='charcard-contentA2'>
                                 <div className='charcardProp'>{t("charcard.gender")}</div>

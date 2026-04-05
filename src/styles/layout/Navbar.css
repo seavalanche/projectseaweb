@@ -17,8 +17,8 @@
   justify-content: center;
   position: sticky;
   top: 0px;
-  z-index: 10;
-  background: var(--navbg);
+  z-index: var(--navbar-z-index);
+  background: var(--bg-primary);
   width: 100%;
   flex-direction: column;
 }
@@ -51,22 +51,11 @@
   background-position: center;
   border: none;
   cursor: pointer;
-  background-image: url("../Assets/Navbar/navbarlogo-light.png");
-}
-[data-theme="dark"] .NV-logo {
-  background-image: url("../Assets/Navbar/navbarlogo-dark.png");
-}
-[data-theme="star"] .NV-logo {
-  background-image: url("../Assets/Navbar/navbarlogo-star.png");
+  background-image: var(--navbar-img);
 }
 .NV-logo:hover {
-  background-image: url("../Assets/Navbar/navbarlogo-pink.png");
-  text-shadow: 0 2px 5px
-    color-mix(in srgb, var(--navtext-accent) 50%, transparent);
+  background-image: var(--navbar-img-hover);
   transform: scale(1.02);
-}
-[data-theme="light"] .NV-logo:hover {
-  background-image: url("../Assets/Navbar/navbarlogo-pink2.png");
 }
 /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
 
@@ -81,16 +70,14 @@
 }
 .NV-menu-body .active {
   font-weight: bold;
-  color: var(--navtext-accent);
+  color: var(--accent);
 }
 .NV-menu-text {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--F-Montserrat);
-  font-size: var(--Fs-Navbar);
-  text-decoration: none;
-  color: var(--navtext-b);
+  font-family: var(--font-layout);
+  color: var(--text-on-brand);
   padding: 0 var(--navbar-paddingitem);
   height: 90%;
   border: 1px solid transparent;
@@ -102,11 +89,17 @@
     var(--button-background-active) 20%,
     transparent
   );
-  color: var(--navtext-a);
-  font-weight: normal;
   border: 1px solid var(--button-border2-active);
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+}
+.NV-body-secondary .NV-menu-body .NV-menu-text {
+  font-size: var(--fs-xs);
+}
+@media only screen and (max-width: 769px) {
+  .NV-body-secondary .NV-menu-body .NV-menu-text {
+    font-size: var(--fs-sm);
+  }
 }
 /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */
 
@@ -147,13 +140,13 @@
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
 }
 .NVbtn1 {
-  background-image: url("../Assets/Navbar/korazusun.svg");
+  background-image: var(--navbar-theme-btn1);
 }
 .NVbtn2 {
-  background-image: url("../Assets/Navbar/zumikostar.svg");
+  background-image: var(--navbar-theme-btn2);
 }
 .NVbtn3 {
-  background-image: url("../Assets/Navbar/uzakonmoon.svg");
+  background-image: var(--navbar-theme-btn3);
 }
 [data-theme="light"] .NVbtn1 {
   display: none;
@@ -176,14 +169,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--F-Montserrat);
-  font-size: var(--Fs-Navbar);
+  font-family: var(--font-layout);
+  font-size: var(--fs-sm);
   text-decoration: none;
-  color: var(--navtext-b);
+  color: var(--text-on-brand);
   padding: 0 var(--navbar-paddingitem);
   border: 1px solid transparent;
   height: 90%;
   border-radius: 3px;
+  background: none;
+  cursor: pointer;
 }
 .language-switcher button:hover {
   background-color: color-mix(
@@ -191,11 +186,15 @@
     var(--button-background-active) 20%,
     transparent
   );
-  color: var(--navtext-a);
+  color: var(--text-on-brand);
   font-weight: normal;
   border: 1px solid var(--button-border2-active);
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  font-style: normal;
+}
+.language-switcher .inact {
+  display: none;
 }
 /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */
 
@@ -213,17 +212,7 @@
 }
 /* Navbar Secondary */ /* Navbar Secondary */ /* Navbar Secondary */
 
-@media only screen and (max-width: 900px) {
-  .NV-logo:active {
-    background-image: url("../Assets/Navbar/navbarlogo-pink.png");
-    text-shadow: 0 2px 5px
-      color-mix(in srgb, var(--navtext-accent) 50%, transparent);
-    transform: scale(1.02);
-  }
-  [data-theme="light"] .NV-logo:active {
-    background-image: url("../Assets/Navbar/navbarlogo-pink2.png");
-  }
-
+@media only screen and (max-width: 899px) {
   .NV-body-main {
     display: flex;
     align-items: center;

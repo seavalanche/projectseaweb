@@ -1,0 +1,49 @@
+html {
+  font-size: 24px;
+  color: var(--text-on-primary);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h3);
+}
+h4 {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h4);
+  font-weight: bold;
+}
+h5 {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h5);
+  font-weight: bold;
+}
+h6 {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h6);
+  font-weight: bold;
+}
+
+p {
+  font-family: var(--font-main);
+  font-size: var(--fs-body);
+}
+
+a {
+  font-family: var(--font-main);
+  font-size: var(--fs-sm);
+  text-decoration: none;
+}

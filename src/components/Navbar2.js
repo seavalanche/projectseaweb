@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { NavLink } from 'react-router-dom';
 import { useLocalization } from '../localization/hooks/useLocalization';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import '../styles/layout/Navbar.css';
 
 const Navbar = ({ toggleTheme }) => {
     const [isSmallScreen, setIsSmallScreen] = useState(false);

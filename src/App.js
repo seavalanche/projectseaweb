@@ -1,10 +1,11 @@
 import './layout.css';
 import './theme.css';
-import './styles/Navbar.css';
+import './styles/base/variable.css'
+import './styles/base/base.css'
+import './styles/components/scrollbar.css'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
-// import Navbar from './Components/navbar.js';
-import Navbar2 from './components/Navbar2.js';
+import Navbar from './components/Navbar2.js';
 import Footer from './components/Footer.js';
 import ScrollToTop from './components/ScrollToTop.js';
 import ScrollToTopButton from './components/ScrollToTopButton.js';
@@ -26,7 +27,7 @@ import SeaWebTree from './pages/SeaWebTree.js';
 // Art Pages
 import ArtPage from './pages/ArtPage.js'
 import Story from './pages/Story.js'
-import Poem from './pages/Poem.js'
+import Poem from './pages/Poem-temp.js'
 import VesneaThemes from './pages/VesneaThemes.js'
 import VesneaMerch from './pages/VesneaMerch.js'
 import UmbreonJourney from './pages/PoemBook.js'
@@ -47,8 +48,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      {/* <Navbar theme={theme} toggleTheme={toggleTheme} /> */}
-      <Navbar2 theme={theme} toggleTheme={toggleTheme} />
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Routes>
         <Route path='/' exact element={<Homepage />} />
         <Route path='/SeaWebTree' exact element={<SeaWebTree />} />

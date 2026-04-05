@@ -1,0 +1,33 @@
+.welcome {
+  background-color: var(--bg-secondary);
+}
+.welcomewrapper {
+  background-image: var(--homepage-welcome-img);
+}
+.welcometitle {
+  color: var(--text-on-brand);
+}
+.shortintro {
+  background-image: linear-gradient(var(--bg-secondary), var(--bg-primary));
+}
+
+.commsect {
+  background-color: var(--bg-primary);
+}
+.commsectbanner {
+  background-image: var(--homepage-commsect-img);
+}
+.commsectitemcard {
+  border-color: var(--text-on-primary);
+}
+.commsectitemtitle {
+  color: var(--text-on-brand);
+}
+.commsectlearnmore {
+  color: var(--text-on-brand);
+}
+@media only screen and (max-width: 800px) {
+  .commsectbanner {
+    background-image: var(--homepage-commsect-img-m);
+  }
+}
