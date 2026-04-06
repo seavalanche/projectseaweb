@@ -448,6 +448,14 @@
       "caption": { "en": "Vesnea is in a Christmas Festive vibe!", "jp": "" }
     },
     {
+      "src": "s201-vesnea.webp",
+      "title": "S201 - Vesnea",
+      "caption": {
+        "en": "An artwork of Vesnea on a park, beside a pond.",
+        "jp": ""
+      }
+    },
+    {
       "src": "v06-vesnea.webp",
       "title": "V06 - Vesnea",
       "caption": {
@@ -747,6 +755,21 @@
     {
       "src": "by-super-ex1-20251226.webp",
       "title": "by super_EX1 (26 December 2025)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by-kohotokun-20260406.webp",
+      "title": "by KohotoKun (6 April 2026)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by-enma-20260406.webp",
+      "title": "by Enma (6 April 2026)",
+      "caption": { "en": "", "jp": "" }
+    },
+    {
+      "src": "by-super_ex1-20260406.webp",
+      "title": "by super_EX1 (6 April 2026)",
       "caption": { "en": "", "jp": "" }
     },
     {
