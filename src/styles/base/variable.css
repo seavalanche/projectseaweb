@@ -32,8 +32,8 @@
   src: url(/src/Assets/fonts/josefinsans-italic-variable.ttf);
 }
 :root {
-    /* Z-Index */
-    --navbar-z-index: 10;
+  /* Z-Index */
+  --navbar-z-index: 10;
 }
 :root {
   /* Fonts - Tier 1 */
@@ -51,22 +51,22 @@
 
   /* Font Sizes - Tier 1 (Scale) */
   --fs-xs: 0.7rem;
-  --fs-sm: 0.8rem; 
-  --fs-base: 1rem; 
-  --fs-md: 1.25rem; 
-  --fs-lg: 1.5rem; 
-  --fs-xl: 2rem; 
-  --fs-hero: 3.5rem; 
+  --fs-sm: 0.8rem;
+  --fs-base: 1rem;
+  --fs-md: 1.25rem;
+  --fs-lg: 1.5rem;
+  --fs-xl: 2rem;
+  --fs-hero: 3.5rem;
 
   /* Font Sizes - Tier 2 (Type) */
   --fs-body: var(--fs-base);
-  --fs-h1: var(--fs-xl); 
-  --fs-h2: var(--fs-lg); 
-  --fs-h3: var(--fs-md); 
+  --fs-h1: var(--fs-xl);
+  --fs-h2: var(--fs-lg);
+  --fs-h3: var(--fs-md);
   --fs-h4: var(--fs-base);
   --fs-h5: var(--fs-base);
   --fs-h6: var(--fs-base);
-  --spacing-md: var(--fs-lg); 
+  --spacing-md: var(--fs-lg);
 
   /* Spacing Scale - Tier 1 */
   --space-xs: 0.25rem;
@@ -297,6 +297,7 @@
   --accent: var(--C-Vesnea_Pink);
   --text-active: var(--cutepink);
 
+  /* navbar */
   --navbg-secondary: color-mix(
     in srgb,
     var(--C-Vesnea_Light_Pink) 50%,
@@ -307,6 +308,32 @@
     var(--C-Vesnea_Light_Pink) 20%,
     var(--navbg) 70%
   );
+  /* footer */
+  --footnav-height: 500px;
+  --footnav-positioner-margin: 0 0 0 210px;
+  --footnav-positioner-padding: 55px 0 0 0;
+  --footnav-box-margin: 0 0 0 0;
+  --footnav-box-padding: 1rem;
+  --footnav-box-bg: hsl(from var(--bg-primary) h s l / 0.9);
+  --footnav-box-shadow: 3px 4px 7px hsl(from var(--bg-primary) h s l / 0.8);
+  --footnav-box-shadow-hover: 0 0 6px 6px
+    hsl(from var(--bg-secondary) h s l / 0.5);
+  --footnav-box-radius: 12pt;
+  --footnav-card-flow: row;
+  --footnav-card-margin: 0 0 0 0;
+  --footnav-card-padding: 0.5rem 1rem 0.5rem 0.5rem;
+  --footnav-card-gap:  0.5rem;
+  --footnav-menu-gap: 1rem;
+  --footnav-text-gap: 0.5rem;
+  --footnav-text1: var(--text-on-brand);
+  --footnav-text2: var(--text-on-primary);
+  --footnav-text-shadow: var(--text-on-primary);
+  --footnav-height-m: auto;
+  --footnav-positioner-margin-m: 0 0 0 0;
+  --footnav-positioner-padding-m: 1.5rem 0 1.5rem 0;
+  --footnav-box-margin-m: 0;
+  --footnav-card-flow-m: row;
+  --footnav-card-margin-m: 0 0 0 0;
 }
 [data-theme="dark"] {
   /* Dark Theme */
@@ -438,6 +465,7 @@
   --accent: var(--C-Vesnea_Pink);
   --text-active: var(--C-Korazu_Yellow);
 
+  /* navbar */
   --navbg-secondary: color-mix(
     in srgb,
     var(--C-SeaWeb_Dark_Purple) 50%,
@@ -448,6 +476,33 @@
     var(--C-SeaWeb_Dark_Purple) 20%,
     var(--navbg) 70%
   );
+  /* footer */
+  --footnav-height: 500px;
+  --footnav-positioner-margin: 0 210px 0 0;
+  --footnav-positioner-padding: 55px 0 0 0;
+  --footnav-box-margin: 0 0 0 0;
+  --footnav-box-padding: 1rem;
+  --footnav-box-bg: hsl(from var(--bg-primary) h s l / 0.9);
+  --footnav-box-shadow: 3px 4px 7px hsl(from var(--bg-primary) h s l / 0.8);
+  --footnav-box-shadow-hover: 0 0 6px 6px
+    hsl(from var(--bg-secondary) h s l / 0.5);
+  --footnav-box-radius: 12pt;
+  --footnav-card-flow: row;
+  --footnav-card-margin: 0 0 0 0;
+  --footnav-card-padding: 0.5rem 1rem 0.5rem 0.5rem;
+  --footnav-card-gap: 0.5rem;
+  --footnav-menu-gap: 1rem;
+  --footnav-text-gap: 0.5rem;
+  --footnav-text1: var(--text-on-brand);
+  --footnav-text2: var(--text-on-primary);
+  --footnav-text-shadow: var(--text-on-primary);
+  --footnav-height-m: auto;
+  --footnav-positioner-margin-m: 0 0 0 0;
+  --footnav-positioner-padding-m: 1.5rem 0 1.5rem 0;
+  --footnav-box-margin-m: 0;
+  --footnav-box-padding-m: 0;
+  --footnav-card-flow-m: row;
+  --footnav-card-margin-m: 0 0 0 0;
 }
 [data-theme="star"] {
   /* Star Theme */
@@ -580,6 +635,7 @@
   --accent: var(--C-Vesnea_Pink);
   --text-active: var(--C-Uzakon_Lighter_Light_Purple);
 
+  /* navbar */
   --navbg-secondary: color-mix(
     in srgb,
     var(--C-Uzakon_Purple) 5%,
@@ -590,6 +646,33 @@
     var(--C-SeaWeb_Purple) 10%,
     var(--navbg) 80%
   );
+  /* footer */
+  --footnav-height: 800px;
+  --footnav-positioner-margin: 0 194px 0 0;
+  --footnav-positioner-padding: 70px 0 0 0;
+  --footnav-box-margin: 0 -510px 0 0;
+  --footnav-box-padding: 1rem;
+  --footnav-box-bg: hsl(from var(--bg-primary) h s l / 0.8);
+  --footnav-box-shadow: 3px 4px 7px hsl(from var(--bg-primary) h s l / 0.8);
+  --footnav-box-shadow-hover: 0 0 6px 6px
+    hsl(from var(--bg-secondary) h s l / 0.5);
+  --footnav-box-radius: 12pt;
+  --footnav-card-flow: column;
+  --footnav-card-margin: 0 0 0 0;
+  --footnav-card-padding: 0.5rem 1rem 0.5rem 0.5rem;
+  --footnav-card-gap: 0.5rem;
+  --footnav-menu-gap: 1rem;
+  --footnav-text-gap: 0.5rem;
+  --footnav-text1: var(--text-on-brand);
+  --footnav-text2: var(--text-on-primary);
+  --footnav-text-shadow: var(--text-on-primary);
+  --footnav-height-m: auto;
+  --footnav-positioner-margin-m: 0 0 0 0;
+  --footnav-positioner-padding-m: 1.5rem 0 1.5rem 0;
+  --footnav-box-margin-m: 0;
+  --footnav-box-padding-m: 0;
+  --footnav-card-flow-m: row;
+  --footnav-card-margin-m: 0 0 0 0;
 }
 
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */
@@ -603,6 +686,9 @@
   --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-light.jpg");
   --homepage-commsect-img: url("/src/Assets/commbanner1.webp");
   --homepage-commsect-img-m: url("/src/Assets/commbanner1m.webp");
+  --footnav-img: url("/src/Assets/footer/lightmode.jpg");
+  --footnav-img-m: url("/src/Assets/footer/lightmode-xssize.jpg");
+  --footbar-img: url("/src/Assets/footer/footbarlogox2-lightmode.png");
 }
 
 [data-theme="dark"] {
@@ -611,6 +697,9 @@
   --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-dark.jpg");
   --homepage-commsect-img: url("/src/Assets/commbanner2.webp");
   --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
+  --footnav-img: url("/src/Assets/footer/darkmode.jpg");
+  --footnav-img-m: url("/src/Assets/footer/darkmode-xssize.jpg");
+  --footbar-img: url("/src/Assets/footer/footbarlogox2-darkmode.png");
 }
 
 [data-theme="star"] {
@@ -619,5 +708,8 @@
   --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-star.jpg");
   --homepage-commsect-img: url("/src/Assets/commbanner2.webp");
   --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
+  --footnav-img: url("/src/Assets/footer/starmode.jpg");
+  --footnav-img-m: url("/src/Assets/footer/starmode.jpg");
+  --footbar-img: url("/src/Assets/footer/footbarlogox2-starmode.png");
 }
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */

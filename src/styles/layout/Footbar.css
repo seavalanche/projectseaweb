@@ -1,0 +1,47 @@
+.footbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2.5rem;
+  background: var(--bg-primary);
+}
+.footbar-wrapper {
+  width: 45rem;
+  display: flex;
+  margin: 0 1rem;
+}
+.footbar-logo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  aspect-ratio: 210.94 / 26;
+  height: 1.2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: var(--footbar-img);
+}
+.footbar-text {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-family: var(--font-layout);
+  font-size: var(--fs-xs);
+  color: var(--text-on-brand);
+}
+
+@media only screen and (max-width: 639px) {
+  .footbar {
+    height: 4rem;
+  }
+  .footbar-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footbar-text {
+    margin-right: auto;
+    text-align: center;
+  }
+}

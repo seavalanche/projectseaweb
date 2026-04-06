@@ -3,6 +3,7 @@ import './theme.css';
 import './styles/base/variable.css'
 import './styles/base/base.css'
 import './styles/components/scrollbar.css'
+import './styles/components/ScrollToTop.css'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
 import Navbar from './components/Navbar.js';

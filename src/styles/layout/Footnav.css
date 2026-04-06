@@ -1,0 +1,82 @@
+.footnav {
+  width: 100%;
+  height: var(--footnav-height);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.1s ease;
+  background-image: var(--footnav-img);
+}
+.footnav-positioner {
+  display: flex;
+  justify-content: center;
+  margin: var(--footnav-positioner-margin);
+  padding: var(--footnav-positioner-padding);
+  transition: all 0.1s ease;
+}
+.footnav-box {
+  display: flex;
+  flex-direction: var(--footnav-card-flow);
+  margin: var(--footnav-box-margin);
+  padding: calc(var(--footnav-box-padding) / 2);
+  gap: var(--footnav-card-gap);
+  background-color: var(--footnav-box-bg);
+  box-shadow: var(--footnav-box-shadow);
+  border: 1px solid transparent;
+  border-radius: var(--footnav-box-radius);
+}
+.footnav-box:hover {
+  border: 1px solid var(--bg-primary);
+  box-shadow: var(--footnav-box-shadow-hover);
+}
+.footnav-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--footnav-menu-gap);
+  margin: var(--footnav-card-margin);
+  padding: var(--footnav-card-padding);
+  border: 1px solid transparent;
+  border-radius: var(--footnav-box-radius);
+}
+.footnav-card:hover {
+  border: 1px solid var(--text-on-brand);
+}
+.footnav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: var(--footnav-text-gap);
+}
+.footnav-title {
+  color: var(--footnav-text1);
+}
+.footnav-link {
+  font-size: var(--fs-sm);
+  color: var(--footnav-text2);
+  text-decoration: none;
+}
+.footnav-link:hover {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 769px) {
+  .footnav {
+    height: var(--footnav-height-m);
+    background-image: var(--footnav-img-m);
+  }
+  .footnav-positioner {
+    margin: var(--footnav-positioner-margin-m);
+    padding: var(--footnav-positioner-padding-m);
+  }
+  .footnav-box {
+    margin: var(--footnav-box-margin-m);
+  flex-direction: var(--footnav-card-flow-m);
+  }
+  .footnav-card {
+    margin: var(--footnav-card-margin-m);
+  }
+  .footnav-title {
+    font-size: var(--fs-base);
+  }
+  .footnav-link {
+    font-size: var(--fs-base);
+  }
+}
