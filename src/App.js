@@ -5,7 +5,7 @@ import './styles/base/base.css'
 import './styles/components/scrollbar.css'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import React, { useState } from "react";
-import Navbar from './components/Navbar2.js';
+import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 import ScrollToTop from './components/ScrollToTop.js';
 import ScrollToTopButton from './components/ScrollToTopButton.js';
@@ -27,7 +27,7 @@ import SeaWebTree from './pages/SeaWebTree.js';
 // Art Pages
 import ArtPage from './pages/ArtPage.js'
 import Story from './pages/Story.js'
-import Poem from './pages/Poem-temp.js'
+import Poem from './pages/Poem.js'
 import VesneaThemes from './pages/VesneaThemes.js'
 import VesneaMerch from './pages/VesneaMerch.js'
 import UmbreonJourney from './pages/PoemBook.js'
