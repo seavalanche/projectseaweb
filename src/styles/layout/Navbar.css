@@ -1,16 +1,3 @@
-* {
-  --navbar-paddingbody: 50px;
-  --navbar-paddingmenu: 20px;
-  --navbar-paddingitem: 10px;
-}
-@media only screen and (max-width: 800px) {
-  * {
-    --navbar-paddingbody: 20px;
-    --navbar-paddingmenu: 10px;
-    --navbar-paddingitem: 5px;
-  }
-}
-
 .NV-body {
   display: flex;
   align-items: center;
@@ -22,13 +9,13 @@
   width: 100%;
   flex-direction: column;
 }
-.NV-body-main {
+.NV-body-primary {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 65px;
-  width: calc(100% - 2 * var(--navbar-paddingbody));
-  padding: 0 var(--navbar-paddingbody);
+  height: var(--navbar-height-primary);
+  width: var(--navbar-width);
+  padding: var(--navbar-padding);
 }
 .NV-body-secondary {
   display: none;
@@ -36,15 +23,14 @@
   position: absolute;
   align-items: center;
   justify-content: center;
-  height: 45px;
+  height: var(--navbar-height-secondary);
   background: var(--navbg-secondary);
-  width: calc(100% - 2 * var(--navbar-paddingbody));
-  padding: 0 var(--navbar-paddingbody);
+  width: var(--navbar-width);
+  padding: var(--navbar-padding);
 }
-
 /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
 .NV-logo {
-  width: 165px;
+  width: var(--navbar-logo-height);
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -58,7 +44,6 @@
   transform: scale(1.02);
 }
 /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
-
 /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */
 .NV-menu-body {
   display: flex;
@@ -66,7 +51,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin: 0 var(--navbar-paddingmenu) 0 auto;
+  margin: 0 var(--navbar-menu-gap) 0 auto;
 }
 .NV-menu-body .active {
   font-weight: bold;
@@ -77,8 +62,10 @@
   align-items: center;
   justify-content: center;
   font-family: var(--font-layout);
+  text-align: center;
+  line-height: 1rem;
   color: var(--text-on-brand);
-  padding: 0 var(--navbar-paddingitem);
+  padding: 0 var(--navbar-item-gap);
   height: 90%;
   border: 1px solid transparent;
   border-radius: 3px;
@@ -94,22 +81,16 @@
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
 }
 .NV-body-secondary .NV-menu-body .NV-menu-text {
-  font-size: var(--fs-xs);
-}
-@media only screen and (max-width: 769px) {
-  .NV-body-secondary .NV-menu-body .NV-menu-text {
-    font-size: var(--fs-sm);
-  }
+  font-size: var(--navbar-menu-font-size);
 }
 /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */
-
 /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */
 .NV-theme-body {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--navbar-paddingmenu);
+  gap: var(--navbar-menu-gap);
   height: 100%;
 }
 .NV-theme-selection {
@@ -120,6 +101,9 @@
   height: 100%;
 }
 .NV-theme-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: initial;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,13 +123,23 @@
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
 }
-.NVbtn1 {
+.NVbtn0 {
+  display: flex;
+  background-color: initial;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90%;
+  max-height: 70%;
+  aspect-ratio: 1;
+}
+.NVbtn0.NVbtn1 {
   background-image: var(--navbar-theme-btn1);
 }
-.NVbtn2 {
+.NVbtn0.NVbtn2 {
   background-image: var(--navbar-theme-btn2);
 }
-.NVbtn3 {
+.NVbtn0.NVbtn3 {
   background-image: var(--navbar-theme-btn3);
 }
 [data-theme="light"] .NVbtn1 {
@@ -170,10 +164,10 @@
   align-items: center;
   justify-content: center;
   font-family: var(--font-layout);
-  font-size: var(--fs-sm);
+  font-size: var(--navbar-menu-font-size);
   text-decoration: none;
   color: var(--text-on-brand);
-  padding: 0 var(--navbar-paddingitem);
+  padding: 0 var(--navbar-item-gap);
   border: 1px solid transparent;
   height: 90%;
   border-radius: 3px;
@@ -197,13 +191,12 @@
   display: none;
 }
 /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */
-
 /* Navbar Secondary */ /* Navbar Secondary */ /* Navbar Secondary */
-.NV-body-wrapper:hover .NV-body-main {
+.NV-body-wrapper:hover .NV-body-primary {
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
 }
-[data-theme="dark"] .NV-body .NV-body-main {
+[data-theme="dark"] .NV-body .NV-body-primary {
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--button-border2) 50%, transparent);
 }
@@ -212,17 +205,16 @@
 }
 /* Navbar Secondary */ /* Navbar Secondary */ /* Navbar Secondary */
 
-@media only screen and (max-width: 899px) {
-  .NV-body-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 65px;
-    width: calc(100% - 2 * var(--navbar-paddingbody));
-    padding: 0 var(--navbar-paddingbody);
+@media only screen and (max-width: 769px) and (min-height: 416px) {
+  .NV-body-secondary .NV-menu-body .NV-menu-text,
+  .language-switcher button {
+    font-size: var(--navbar-menu-font-size-m);
   }
+}
+@media only screen and (max-width: 899px) and (min-height: 416px) {
   .NV-logo {
     margin-right: auto;
+    margin-left: calc(-1 * var(--navbar-padding-sides) / 3);
   }
   .NV-menu-toggle {
     background-color: initial;
@@ -231,6 +223,7 @@
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 3px;
+    margin-right: calc(-1 * var(--navbar-padding-sides) / 3);
   }
   .NV-menu-toggle:hover,
   .NV-menu-toggle:active {
@@ -244,15 +237,17 @@
       color-mix(in srgb, var(--button-border2-active) 50%, transparent);
   }
   .NV-menu-toggle-btn {
-    color: var(--navtext-a);
+    color: var(--text-on-brand);
+    width: 2rem;
+    aspect-ratio: 2;
   }
   .NV-body-secondary {
     transition: transform 0.1s ease-in-out;
     transform: translateX(100%);
     display: flex;
-    width: 200px;
+    width: auto;
     height: initial;
-    top: 64px;
+    top: var(--navbar-height-primary);
     right: 0;
     position: fixed;
     flex-direction: column;
@@ -261,7 +256,6 @@
   }
   .NV-body-secondary.open {
     transform: translateX(0);
-    right: 0;
   }
   .NV-menu-body {
     display: flex;
@@ -270,7 +264,7 @@
   }
   .NV-menu-text {
     width: 100%;
-    padding: 15px;
+    padding: var(--navbar-item-gap-m);
     justify-content: end;
   }
   .NV-menu-text:active {
@@ -279,7 +273,7 @@
       var(--button-background-active) 20%,
       transparent
     );
-    color: var(--navtext-a);
+    color: var(--text-on-brand);
     font-weight: normal;
     border: 1px solid var(--button-border2-active);
     box-shadow: 0 8px 12px

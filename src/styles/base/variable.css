@@ -298,6 +298,17 @@
   --text-active: var(--cutepink);
 
   /* navbar */
+  --navbar-height-primary: 2.5rem;
+  --navbar-height-secondary: 2rem;
+  --navbar-padding-sides: 2rem;
+  --navbar-padding: 0 var(--navbar-padding-sides);
+  --navbar-width: calc(100% - 2 * var(--navbar-padding-sides));
+  --navbar-menu-gap: 0.8rem;
+  --navbar-item-gap: 0.4rem;
+  --navbar-item-gap-m: 0.8rem;
+  --navbar-logo-height: 7rem;
+  --navbar-menu-font-size: var(--fs-xs);
+  --navbar-menu-font-size-m: var(--fs-base);
   --navbg-secondary: color-mix(
     in srgb,
     var(--C-Vesnea_Light_Pink) 50%,
@@ -322,7 +333,7 @@
   --footnav-card-flow: row;
   --footnav-card-margin: 0 0 0 0;
   --footnav-card-padding: 0.5rem 1rem 0.5rem 0.5rem;
-  --footnav-card-gap:  0.5rem;
+  --footnav-card-gap: 0.5rem;
   --footnav-menu-gap: 1rem;
   --footnav-text-gap: 0.5rem;
   --footnav-text1: var(--text-on-brand);
