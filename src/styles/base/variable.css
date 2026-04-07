@@ -83,7 +83,7 @@
 /* 1. THE PALETTE (Raw Colors) */
 :root {
   --C-SeaWeb_Dark_Purple: #181621; /*Main Color*/
-  --C-SeaWeb_Dark_Purple2: rgba(24, 22, 33, 0.75);
+  --C-SeaWeb_Dark_Purple2: rgba(24, 22, 33, 0.749);
   --C-SeaWeb_Purple: #2c233d;
   --C-SeaWeb_Purple2: rgba(44, 35, 61, 0.5);
   --C-SeaWeb_Purple3: rgba(44, 35, 61, 0.75);

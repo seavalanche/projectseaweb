@@ -53,6 +53,17 @@
   height: 100%;
   margin: 0 var(--navbar-menu-gap) 0 auto;
 }
+.NV-menu-body:hover {
+  transition: all 0.2s ease-in;
+  --navbar-menu-gap: 1.5rem;
+  font-weight: bold;
+  background-color: color-mix(
+    in srgb,
+    var(--button-background-active) 10%,
+    transparent
+  );
+  padding: 0 20px;
+}
 .NV-menu-body .active {
   font-weight: bold;
   color: var(--accent);
@@ -71,9 +82,10 @@
   border-radius: 3px;
 }
 .NV-menu-text:hover {
+  color: var(--bg-primary);
   background-color: color-mix(
     in srgb,
-    var(--button-background-active) 20%,
+    var(--button-background-active) 90%,
     transparent
   );
   border: 1px solid var(--button-border2-active);
@@ -100,6 +112,15 @@
   justify-content: center;
   height: 100%;
 }
+.NV-theme-selection:hover {
+  transition: all 0.2s ease-in;
+  padding: 0 20px;
+  background-color: color-mix(
+    in srgb,
+    var(--button-background-active) 10%,
+    transparent
+  );
+}
 .NV-theme-button {
   display: flex;
   align-items: center;
@@ -116,7 +137,7 @@
 .NV-theme-button:hover {
   background-color: color-mix(
     in srgb,
-    var(--button-background-active) 20%,
+    var(--button-background-active) 90%,
     transparent
   );
   border: 1px solid var(--button-border2-active);
@@ -132,6 +153,9 @@
   height: 90%;
   max-height: 70%;
   aspect-ratio: 1;
+}
+.NVbtn0:hover {
+  filter: brightness(130%);
 }
 .NVbtn0.NVbtn1 {
   background-image: var(--navbar-theme-btn1);
@@ -175,17 +199,19 @@
   cursor: pointer;
 }
 .language-switcher button:hover {
+  color: var(--bg-primary);
   background-color: color-mix(
     in srgb,
-    var(--button-background-active) 20%,
+    var(--button-background-active) 90%,
     transparent
   );
-  color: var(--text-on-brand);
-  font-weight: normal;
+  font-weight: bold;
   border: 1px solid var(--button-border2-active);
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--button-border2-active) 50%, transparent);
   font-style: normal;
+  transition: all 0.2s ease-in;
+  padding: 0 10px;
 }
 .language-switcher .inact {
   display: none;
@@ -262,6 +288,12 @@
     flex-direction: column;
     width: 100%;
   }
+  .NV-menu-body:hover {
+    transition: initial;
+    font-weight: initial;
+    background-color: initial;
+    padding: initial;
+  }
   .NV-menu-text {
     width: 100%;
     padding: var(--navbar-item-gap-m);
@@ -286,10 +318,20 @@
   .NV-theme-selection {
     width: 100%;
   }
+  .NV-theme-selection:hover {
+    transition: initial;
+    background-color: initial;
+    padding: initial;
+  }
   .NV-theme-button {
     height: 100%;
   }
   .language-switcher {
     width: 100%;
   }
+.language-switcher button:hover {
+  font-weight: initial;
+    transition: initial;
+  padding: 0 var(--navbar-item-gap);
+}
 }
