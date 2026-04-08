@@ -50,6 +50,7 @@
   --font-accent: "Dancing Script", "Zen Kurenaido", cursive, sans-serif;
 
   /* Font Sizes - Tier 1 (Scale) */
+  --fs-xxs: 0.65rem;
   --fs-xs: 0.7rem;
   --fs-sm: 0.8rem;
   --fs-base: 1rem;
@@ -291,9 +292,13 @@
   --bg-primary: var(--C-Vesnea_white);
   --bg-secondary: var(--C-Uzakon_Light_Purple);
   --bg-brand: var(--C-Uzakon_Lighter_Light_Purple);
+  --bg-special: var(--C-Zumiko_White);
   --text-on-primary: var(--C-Vesnea_Purple);
   --text-on-secondary: var(--C-Vesnea_Purple);
   --text-on-brand: var(--C-Vesnea_Purple);
+  --text-on-special: var(--C-Vesnea_Purple);
+  --text-on-special-link: var(--attribute-sound);
+  --border-on-special: var(--C-Zumiko_Pink);
   --accent: var(--C-Vesnea_Pink);
   --text-active: var(--cutepink);
 
@@ -345,6 +350,8 @@
   --footnav-box-margin-m: 0;
   --footnav-card-flow-m: row;
   --footnav-card-margin-m: 0 0 0 0;
+  /* About Vesnea */
+  --about-vesnea-my-style-img-bg: #3c1a2c;
 }
 [data-theme="dark"] {
   /* Dark Theme */
@@ -470,9 +477,13 @@
   --bg-primary: var(--C-SeaWeb_Purple);
   --bg-secondary: var(--C-SeaWeb_Dark_Purple);
   --bg-brand: var(--C-SeaWeb_Dark_Purple);
+  --bg-special: var(--C-SeaWeb_Purple);
   --text-on-primary: var(--C-Korazu_White);
   --text-on-secondary: var(--C-Korazu_White);
   --text-on-brand: var(--C-Korazu_Yellow);
+  --text-on-special: var(--C-Zumiko_Light_Red);
+  --text-on-special-link: var(--C-Zumiko_Red);
+  --border-on-special: var(--C-Vesnea_Purple);
   --accent: var(--C-Vesnea_Pink);
   --text-active: var(--C-Korazu_Yellow);
 
@@ -514,6 +525,8 @@
   --footnav-box-padding-m: 0;
   --footnav-card-flow-m: row;
   --footnav-card-margin-m: 0 0 0 0;
+  /* About Vesnea */
+  --about-vesnea-my-style-img-bg: #211b2b;
 }
 [data-theme="star"] {
   /* Star Theme */
@@ -640,9 +653,13 @@
   --bg-primary: var(--C-SeaWeb_Dark_Purple);
   --bg-secondary: var(--C-SeaWeb_Dark_Purple);
   --bg-brand: var(--C-SeaWeb_Dark_Purple);
+  --bg-special: var(--C-SeaWeb_Dark_Purple);
   --text-on-primary: var(--C-Uzakon_Light_Purple);
   --text-on-secondary: var(--C-Uzakon_Light_Purple);
   --text-on-brand: var(--C-Uzakon_Light_Purple);
+  --text-on-special: var(--C-Uzakon_Light_Purple);
+  --text-on-special-link: var(--C-Uzakon_Purple);
+  --border-on-special: var(--C-SeaWeb_Purple);
   --accent: var(--C-Vesnea_Pink);
   --text-active: var(--C-Uzakon_Lighter_Light_Purple);
 
@@ -684,6 +701,8 @@
   --footnav-box-padding-m: 0;
   --footnav-card-flow-m: row;
   --footnav-card-margin-m: 0 0 0 0;
+  /* About Vesnea */
+  --about-vesnea-my-style-img-bg: #1f1b2c;
 }
 
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */
@@ -694,12 +713,21 @@
   --navbar-theme-btn1: url("/src/Assets/Navbar/korazusun.svg");
   --navbar-theme-btn2: url("/src/Assets/Navbar/uzakonmoon.svg");
   --navbar-theme-btn3: url("/src/Assets/Navbar/zumikostar.svg");
-  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-light.jpg");
+  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-light.webp");
   --homepage-commsect-img: url("/src/Assets/commbanner1.webp");
   --homepage-commsect-img-m: url("/src/Assets/commbanner1m.webp");
   --footnav-img: url("/src/Assets/footer/lightmode.jpg");
   --footnav-img-m: url("/src/Assets/footer/lightmode-xssize.jpg");
   --footbar-img: url("/src/Assets/footer/footbarlogox2-lightmode.png");
+  --about-vesnea-header-img: url("/src/Assets/About/AboutVesnea/aboutvesnea-header-2.png");
+  --about-vesnea-header-shadow: url("/src/Assets/About/AboutVesnea/aboutvesnea-header-2-shadow.png");
+  --about-vesnea-separator: url("/src/Assets/About/AboutVesnea/tidy-er-light.svg");
+  --about-vesnea-timeline: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimeline.svg");
+  --about-vesnea-timeline-jp: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinejp.svg");
+  --about-vesnea-timeline-m: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinem.svg");
+  --about-vesnea-timeline-m-jp: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinemjp.svg");
+  --about-vesnea-socials-kofi:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-light.svg");
+  --about-vesnea-socials-kofi-hover:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-dark.svg");
 }
 
 [data-theme="dark"] {
@@ -711,6 +739,9 @@
   --footnav-img: url("/src/Assets/footer/darkmode.jpg");
   --footnav-img-m: url("/src/Assets/footer/darkmode-xssize.jpg");
   --footbar-img: url("/src/Assets/footer/footbarlogox2-darkmode.png");
+  --about-vesnea-separator: url("/src/Assets/About/AboutVesnea/tidy-er-dark.svg");
+  --about-vesnea-socials-kofi:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-dark.svg");
+  --about-vesnea-socials-kofi-hover:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-light.svg");
 }
 
 [data-theme="star"] {
@@ -722,5 +753,10 @@
   --footnav-img: url("/src/Assets/footer/starmode.jpg");
   --footnav-img-m: url("/src/Assets/footer/starmode.jpg");
   --footbar-img: url("/src/Assets/footer/footbarlogox2-starmode.png");
+  --about-vesnea-separator: url("/src/Assets/About/AboutVesnea/tidy-er-star.svg");
+  --about-vesnea-socials-kofi:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-star.svg");
+  --about-vesnea-socials-kofi-hover:
+    url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-star.svg"),
+    url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-light.svg");
 }
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */

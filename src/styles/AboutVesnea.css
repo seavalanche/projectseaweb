@@ -1,0 +1,244 @@
+/* General AboutVesnea */
+.AV-wrapper {
+  transition: all 0.3s ease;
+  background-color: var(--bg-special);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--text-on-special);
+}
+.AV-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+.AV-wrapper2-header {
+  background-image: linear-gradient(var(--bg-primary), var(--bg-special));
+}
+.AV-choicewrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+  gap: 20px;
+}
+.AVTidy-er {
+  height: 47px;
+  width: 1px;
+  background-size: cover;
+  background-position: center;
+  background-image: var(--about-vesnea-separator);
+}
+/* AboutVesnea Header */
+.AVSectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--text-on-special);
+}
+.AVLink:hover {
+  color: var(--text-on-special-link);
+}
+/* AboutVesnea Intro */
+.AVIntroHeader {
+  width: 100%;
+  height: min(30vw, 400px);
+  aspect-ratio: 3.7 / 1;
+  background-image:
+    var(--about-vesnea-header-img), var(--about-vesnea-header-shadow);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:
+    cover,
+    120% min(30vw, 400px);
+}
+.AV-introwrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+  gap: 20px;
+}
+.AVIntroPFP {
+  height: 200px;
+}
+.AVIntroContent {
+  max-width: 500px;
+}
+/* AboutVesnea MyStyle */
+.AV-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.AVMyStyleCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: -4px;
+  padding: 20px;
+  border-top: 4px dashed var(--aboutvesnea-cardborder);
+  border-bottom: 4px dashed var(--aboutvesnea-cardborder);
+}
+.AVMyStyleImg {
+  width: 150px;
+  background-color: var(--about-vesnea-my-style-img-bg);
+  border-radius: 5px;
+}
+.AVMyStyleText {
+  width: 300px;
+}
+.AVMyStyleAlt {
+  font-size: var(--fs-xxs);
+}
+.AVMyStyleTools {
+  width: 150px;
+}
+/* AboutVesnea Timeline */
+.AVTimeline {
+  width: 1000px;
+  min-width: 80vw;
+  max-height: 300px;
+  aspect-ratio: 1000 / 244;
+  margin: 25px;
+  background-color: var(--text-on-special);
+  -webkit-mask-image: var(--about-vesnea-timeline);
+  mask-image:  var(--about-vesnea-timeline);
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+}
+[data-language="jp"] .AVTimeline {
+  -webkit-mask-image: var(--about-vesnea-timeline-jp);
+  mask-image:  var(--about-vesnea-timeline-jp);
+}
+/* AboutVesnea Socials */
+.AVSectionContent2-left,
+.AVSectionContent2-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+}
+.AVSectionContent2-left {
+  justify-content: end;
+  margin-right: 2px;
+}
+.AVSocials.kofi {
+  width: 174px;
+  height: 30px;
+}
+.AVSocials {
+  --svg-primary: var(--bg-special);
+  --svg-secondary: var(--text-on-special);
+  --svg-tertiary: var(--accent);
+}
+.AVSocials.instagram {
+  --svg-primary: var(--bg-special);
+  --svg-secondary: var(--text-on-special);
+  --svg-tertiary: var(--bg-special);
+}
+.AVSocials:hover {
+  transform: scale(1.05);
+  --svg-primary: var(--text-on-special);
+  --svg-secondary: var(--bg-special);
+}
+.AVSocials.instagram:hover {
+  --svg-primary: var(--bg-special);
+  --svg-secondary: var(--bg-special);
+  --svg-tertiary: var(--text-on-special);
+  --opacity-1: 0;
+  --opacity-2: 1;
+}
+.AVSocials.twitter {
+  width: 35px;
+  height: 26px;
+}
+.AVSocials.instagram {
+  width: 30px;
+  height: 30px;
+}
+.AVSocials.bluesky {
+  width: 30px;
+  height: 27px;
+}
+@media only screen and (max-width: 1200px) {
+  /* General AboutVesnea */
+  .AV-wrapper {
+    padding-bottom: 15px;
+  }
+  .AV-wrapper2 {
+    gap: 5px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+  .AV-choicewrapper {
+    margin: 5px;
+    gap: 15px;
+  }
+  .AVTidy-er {
+    height: 34px;
+  }
+  /* AboutVesnea Header */
+  .AVSectionContent {
+    align-items: center;
+  }
+  /* AboutVesnea Intro */
+  .AV-introwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 10px;
+    gap: 10px;
+  }
+  .AVIntroPFP {
+    height: min(150px, 25vw);
+  }
+  /* AboutVesnea MyStyle */
+  .AVMyStyleText {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  /* AboutVesnea Timeline */
+  .AVTimeline {
+    min-width: initial;
+    width: min(80vw, 410px);
+    max-height: initial;
+    aspect-ratio: 410 / 632.12;
+    -webkit-mask-image: var(--about-vesnea-timeline-m);
+    mask-image: var(--about-vesnea-timeline-m);
+  }
+  [data-language="jp"] .AVTimeline {
+    -webkit-mask-image: var(--about-vesnea-timeline-m-jp);
+    mask-image: var(--about-vesnea-timeline-m-jp);
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* AboutVesnea Intro */
+  .AV-introwrapper {
+    width: 90vw;
+  }
+  /* AboutVesnea MyStyle */
+  .AVMyStyleCard {
+    gap: 18px;
+    padding: 18px;
+  }
+  .AVMyStyleImg {
+    width: 100px;
+  }
+  .AVMyStyleText {
+    width: 30vw;
+  }
+  .AVMyStyleTools {
+    width: 15vw;
+  }
+}

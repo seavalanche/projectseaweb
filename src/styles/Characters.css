@@ -1,0 +1,278 @@
+.AC {
+  transition: all 0.1s ease;
+}
+.ACinfo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.1s ease;
+}
+.ACspacer {
+  display: none;
+}
+.ACinfoitem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ACinfoitemcard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Antagonist1 {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: min(20px, 8vw);
+}
+.ACinfoitemtitle0,
+.ACinfoitemtitle1,
+.ACinfoitemtitle2,
+.ACinfoitemtitle3,
+.ACinfoitemtitle4,
+.ACinfoitemtitle5,
+.ACinfoitemtitle6,
+.ACinfoitemtitleA1 {
+  padding-bottom: 16px;
+}
+.ACinfoitemtext {
+  text-align: center;
+}
+.AC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 35px;
+}
+.ACmythseavalancheint,
+.ACseavalancheint,
+.ACseavaint,
+.ACvesneaint,
+.ACkorazuint,
+.ACuzakonint,
+.ACzumikoint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: min(75%, 975px);
+  gap: 30px;
+  padding: 5px;
+  padding: 15px 35px;
+}
+.ACitem {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  gap: 45px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.ACcard1 .ACcardtitle {
+  text-align: end;
+}
+.ACcard2 .ACcardtitle {
+  text-align: start;
+}
+.ACcontent1,
+.ACcontent2 {
+  padding-top: 15px;
+}
+.ACcontent1 {
+  text-align: end;
+}
+.ACcontent2 {
+  text-align: start;
+}
+
+.aboutseparator {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutseparatorimg1 {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 800px) {
+  .ACinfo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .ACspacer {
+    display: inline;
+  }
+  .ACinfoitem {
+    gap: 15px;
+  }
+  .ACinfoitemcard {
+    width: min(345px, 43vw);
+    height: max(400px, 40vw);
+  }
+  .aboutmythseavalanche {
+    max-width: 90vw;
+    max-height: 450px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+  }
+  .aboutseavalanche {
+    max-width: 90vw;
+    max-height: 450px;
+  }
+  .aboutseava {
+    width: 90vw;
+    max-width: 795px;
+    max-height: 635px;
+  }
+  .aboutvesnea {
+    width: 90vw;
+    max-width: 375px;
+    max-height: 400px;
+  }
+  .aboutkorazu,
+  .aboutuzakon,
+  .aboutzumiko {
+    max-width: 90vw;
+  }
+
+  .ACmythseavalancheint,
+  .ACseavalancheint,
+  .ACseavaint,
+  .ACvesneaint,
+  .ACkorazuint,
+  .ACuzakonint,
+  .ACzumikoint {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+
+  .ACitem {
+    gap: 45px;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .ACcard1 .ACcardtitle,
+  .ACcard2 .ACcardtitle {
+    text-align: center;
+  }
+  .ACcontent1,
+  .ACcontent2 {
+    text-align: start;
+  }
+  .ACcard1,
+  .ACcard2 {
+    text-align: center;
+    width: 80vw;
+  }
+  .aboutseparator {
+    height: min(500px, 120vw);
+  }
+  .aboutseparatorimg1 {
+    max-width: 80%;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .ACinfo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: max(30px, calc(700px - 99.5vw));
+  }
+  .ACinfoitem {
+    max-width: 80%;
+    min-width: 800px;
+    gap: max(30px, calc(700px - 99.5vw));
+  }
+  .ACinfoitemcard {
+    width: 345px;
+    height: min(480px, 65vw);
+  }
+
+  .aboutmythseavalanche {
+    width: auto;
+    max-height: 450px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+  }
+  .aboutseavalanche {
+    width: auto;
+    max-height: 450px;
+  }
+  .aboutseava {
+    width: 90vw;
+    max-width: 795px;
+    max-height: 635px;
+  }
+  .aboutvesnea {
+    width: 90vw;
+    max-width: 375px;
+    max-height: 400px;
+  }
+
+  .ACmythseavalancheinttitle {
+    min-width: 235px;
+    max-width: 300px;
+  }
+
+  .ACitem {
+    gap: 30px;
+    width: 80vw;
+  }
+  .ACcard1,
+  .ACcard2 {
+    text-align: right;
+    width: max(310px, 37vw);
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .ACinfo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+  }
+  .ACinfoitem {
+    max-width: 1400px;
+    gap: max(30px, calc(700px - 99.5vw));
+  }
+  .ACinfoitemcard {
+    width: 345px;
+    height: 532px;
+  }
+
+  .aboutmythseavalanche {
+    width: auto;
+    height: 450px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+  }
+  .aboutseavalanche {
+    width: auto;
+    height: 450px;
+  }
+  .aboutseava {
+    width: 795px;
+    height: 635px;
+  }
+  .aboutvesnea {
+    height: 400px;
+  }
+
+  .ACitem {
+    width: 885px;
+  }
+  .ACcard1,
+  .ACcard2 {
+    text-align: right;
+    width: 420px;
+  }
+}

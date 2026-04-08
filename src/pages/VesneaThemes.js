@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import charactersData from './data/charactersdata.json'
 import { useLocalization } from '../localization/hooks/useLocalization';
+import '../styles/VesneaThemes.css'
 
 const VesneaThemes = () => {
     const { t } = useLocalization();

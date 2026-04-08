@@ -14,6 +14,11 @@ import MyStyle10 from '../Assets/About/AboutVesnea/AboutMyStyle/10-digitalart-pi
 import MyStyle11 from '../Assets/About/AboutVesnea/AboutMyStyle/11-digitalart-animationart.gif';
 import MyStyle12 from '../Assets/About/AboutVesnea/AboutMyStyle/12-2d-modeling-and-rigging.webp';
 import MyStyle13 from '../Assets/About/AboutVesnea/AboutMyStyle/13-3d-modeling-and-rigging.webp';
+import '../styles/AboutVesnea.css';
+import { ReactComponent as Kofi } from '../Assets/About/AboutVesnea/AboutSocials/about-icon-kofi.svg';
+import { ReactComponent as Twitter } from '../Assets/About/AboutVesnea/AboutSocials/about-icon-twitter.svg';
+import { ReactComponent as Instagram } from '../Assets/About/AboutVesnea/AboutSocials/about-icon-instagram.svg';
+import { ReactComponent as Bluesky } from '../Assets/About/AboutVesnea/AboutSocials/about-icon-bluesky.svg';
 
 const About = () => {
     const { t } = useLocalization();
@@ -176,19 +181,16 @@ const About = () => {
                         {t("about.commissionme")}
                         <div className='AVSectionContent2-left'>
                             {/* <div className='AVSocials-kofi' /> */}
-                            <a href="https://ko-fi.com/seavalanche" target='_blank' rel="noreferrer" className='AVSocials-kofi'> </a>
+                            <a href="https://ko-fi.com/seavalanche" target='_blank' rel="noreferrer" className='AVSocials kofi'><Kofi/></a>
                         </div>
                     </div>
                     <div className='AVTidy-er' />
                     <div className='AVSectionContent title'>
                         {t("about.followme")}
                         <div className='AVSectionContent2-right'>
-                            {/* <div className='AVSocials-twitter' /> */}
-                            <a href="https://www.twitter.com/CeruleanFrost" target='_blank' rel="noreferrer" className='AVSocials-twitter'> </a>
-                            {/* <div className='AVSocials-instagram' /> */}
-                            <a href="https://www.instagram.com/seavalanche" target='_blank' rel="noreferrer" className='AVSocials-instagram'> </a>
-                            {/* <div className='AVSocials-bluesky' /> */}
-                            <a href="https://bsky.app/profile/seavalanche.bsky.social" target='_blank' rel="noreferrer" className='AVSocials-bluesky'> </a>
+                            <a href="https://www.twitter.com/CeruleanFrost" target='_blank' rel="noreferrer" className='AVSocials twitter'><Twitter/></a>
+                            <a href="https://www.instagram.com/seavalanche" target='_blank' rel="noreferrer" className='AVSocials instagram'><Instagram/></a>
+                            <a href="https://bsky.app/profile/seavalanche.bsky.social" target='_blank' rel="noreferrer" className='AVSocials bluesky'><Bluesky/></a>
                         </div>
                     </div>
                 </div>

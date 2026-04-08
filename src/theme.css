@@ -622,42 +622,6 @@ input[type="color"] {
   }
 }
 /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */
-
-/* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
-/* General AboutVesnea */
-.AV-wrapper {
-  background-color: var(--aboutvesnea-bg);
-  font-style: italic;
-  font-weight: 300;
-  color: var(--aboutvesnea-text);
-}
-.AV-wrapper2-header {
-  background-image: linear-gradient(var(--navbg), var(--aboutvesnea-bg));
-}
-/* AboutVesnea Header */
-.AVSectionContent {
-  color: var(--aboutvesnea-text);
-  font-size: var(--Fs-AboutVesneaTitle);
-}
-.AVLink:hover {
-  color: var(--aboutvesnea-link);
-}
-/* AboutVesnea MyStyle */
-.AVMyStyleImg {
-  background-color: #3c1a2c;
-  border-radius: 5px;
-}
-[data-theme="dark"] .AVMyStyleImg {
-  background-color: #211b2b;
-}
-[data-theme="star"] .AVMyStyleImg {
-  background-color: #1f1b2c;
-}
-.AVMyStyleAlt {
-  font-size: var(--Fs-Content-small);
-}
-/* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */ /* ABOUT */
-
 /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 .commhero {
   background-color: var(--C-Vesnea_white);

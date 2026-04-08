@@ -23,6 +23,7 @@ import aboutseparator from '../Assets/s75-vesnea-b-338x450.gif';
 import { useTheme } from "../components/ThemeContext";
 import { useLocalization } from '../localization/hooks/useLocalization';
 import { Link } from 'react-router-dom';
+import '../styles/Characters.css'
 
 function About() {
     const { theme } = useTheme();

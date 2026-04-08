@@ -1,33 +1,216 @@
+.introduction {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 65px);
+  background-size: cover;
+  background-position-x: center;
+  transition: all 0.1s ease;
+}
 .welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--bg-secondary);
 }
 .welcomewrapper {
+  justify-content: center;
+  background-size: cover;
+  background-position-x: center;
+  width: 50%;
+  height: auto;
+  aspect-ratio: 3/2;
+  transition: all 0.1s ease;
   background-image: var(--homepage-welcome-img);
 }
+.welcometextwrap {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
 .welcometitle {
+  padding-bottom: 15px;
   color: var(--text-on-brand);
 }
 .shortintro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-image: linear-gradient(var(--bg-secondary), var(--bg-primary));
+}
+.shortintro1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 15px;
+  width: 705px;
+}
+.smallintro1 {
+  width: 235px;
+}
+.shortintro2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: right;
+  padding-bottom: 15px;
+  width: 705px;
+}
+.shortintro3 {
+  display: flex;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  width: 705px;
 }
 
 .commsect {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 45px;
   background-color: var(--bg-primary);
 }
 .commsectbanner {
+  width: 1065px;
+  height: auto;
+  aspect-ratio: 3/1;
+  border-radius: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-image: var(--homepage-commsect-img);
 }
+.commsectitem {
+  padding-top: 25px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all 0.1s ease;
+  max-width: 90vw;
+}
 .commsectitemcard {
+  width: 325px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 15px;
+  padding: 15px;
   border-color: var(--text-on-primary);
 }
 .commsectitemtitle {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
   color: var(--text-on-brand);
+}
+.commsectitemtext {
+  text-align: center;
+  white-space: pre-line;
 }
 .commsectlearnmore {
+  text-align: center;
+  margin-top: auto;
+  padding-bottom: 12px;
   color: var(--text-on-brand);
 }
+@media only screen and (max-width: 500px) {
+  .welcomewrapper {
+    margin-top: 60px;
+  }
+  .welcometextwrap {
+    position: relative;
+    top: -35px;
+    padding-top: 0px;
+    transition: all 0.1s ease;
+  }
+}
 @media only screen and (max-width: 800px) {
+  .introduction {
+    height: calc(100vh - 65px);
+  }
+  .welcomewrapper {
+    width: 100%;
+  }
+
+  .shortintro {
+    padding-bottom: 15px;
+  }
+  .shortintro1 {
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+  }
+  .shortintro2 {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 10px;
+    flex-direction: column;
+  }
+  .shortintro3 {
+    width: 80%;
+    height: auto;
+  }
+  .smallintro1,
+  .smallintro2 {
+    display: none;
+  }
+
+  .commsect {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  .commsectitem {
+    gap: 15px;
+  }
   .commsectbanner {
+    width: 90%;
+    aspect-ratio: 600/525;
     background-image: var(--homepage-commsect-img-m);
+  }
+  .commsectitemcard {
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1199px) {
+  .welcomewrapper {
+    width: 100%;
+  }
+
+  .shortintro {
+    padding-bottom: 15px;
+  }
+  .shortintro1 {
+    width: 550px;
+  }
+  .shortintro2 {
+    width: 550px;
+  }
+  .shortintro3 {
+    width: 550px;
+  }
+
+  .commsect {
+    padding-top: 15px;
+  }
+  .commsectitem {
+    gap: 20px;
+  }
+  .commsectbanner {
+    width: 80vw;
+  }
+  .commsectitemcard {
+    width: 300px;
+    height: 350px;
   }
 }
