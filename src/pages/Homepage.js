@@ -7,13 +7,16 @@ import '../styles/Homepage.css'
 import '../styles/HPCarousel.css';
 
 const wallpapers = [
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc01.jpg`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc02.jpg`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc03.jpg`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc04.jpg`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc05.jpg`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc06.jpg`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc07.jpg`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc01.webp`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc02.webp`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc03.webp`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc04.webp`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc05.webp`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc06.webp`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc07.webp`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc08.webp`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc09.webp`,
+    `${process.env.PUBLIC_URL}/hp-carousel/hpc10.webp`,
 ];
 
 const Homepage = () => {
