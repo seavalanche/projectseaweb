@@ -22,7 +22,7 @@ const Navbar = ({ toggleTheme }) => {
     const renderMobileLayout = () => (
         <div className={`NV-body`}>
             <div className='NV-body-primary'>
-                <NavLink to='/' className={"NV-logo"} onClick={closeMenu}>
+                <NavLink to='/' className={"NV-logo"} onClick={closeMenu}><Navbarlogo />
                 </NavLink>
                 <button className={`NV-menu-toggle`} onClick={handleMenuToggle} activeclassname='active'>
                     <svg
@@ -87,8 +87,7 @@ const Navbar = ({ toggleTheme }) => {
             ) : (
                 <div className="NV-body-wrapper NV-body">
                     <div className='NV-body-primary'>
-                        <NavLink to='/' className={"NV-logo"}><Navbarlogo />
-                        </NavLink>
+                        <NavLink to='/' className={"NV-logo"}><Navbarlogo /></NavLink>
                         <div className={`NV-menu-body`}>
                             <NavLink to='/Characters' className={`NV-menu-text`} activeclassname='active'>
                                 {t("navbar.characters1")}
