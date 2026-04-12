@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { NavLink } from 'react-router-dom';
 import { useLocalization } from '../localization/hooks/useLocalization';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { ReactComponent as Navbarlogo } from '../Assets/Navbar/navbarlogo.svg';
 import '../styles/layout/Navbar.css';
 
 const Navbar = ({ toggleTheme }) => {
@@ -86,7 +87,7 @@ const Navbar = ({ toggleTheme }) => {
             ) : (
                 <div className="NV-body-wrapper NV-body">
                     <div className='NV-body-primary'>
-                        <NavLink to='/' className={"NV-logo"}>
+                        <NavLink to='/' className={"NV-logo"}><Navbarlogo />
                         </NavLink>
                         <div className={`NV-menu-body`}>
                             <NavLink to='/Characters' className={`NV-menu-text`} activeclassname='active'>

@@ -30,17 +30,15 @@
 }
 /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
 .NV-logo {
+  display: flex;
+  align-items: center;
   width: var(--navbar-logo-height);
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   border: none;
   cursor: pointer;
-  background-image: var(--navbar-img);
+  --svg-primary: var(--text-on-brand);
 }
 .NV-logo:hover {
-  background-image: var(--navbar-img-hover);
+  --svg-primary: var(--navbar-logo-hover);
   transform: scale(1.02);
 }
 /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
@@ -329,9 +327,9 @@
   .language-switcher {
     width: 100%;
   }
-.language-switcher button:hover {
-  font-weight: initial;
+  .language-switcher button:hover {
+    font-weight: initial;
     transition: initial;
-  padding: 0 var(--navbar-item-gap);
-}
+    padding: 0 var(--navbar-item-gap);
+  }
 }

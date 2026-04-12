@@ -30,7 +30,9 @@
   width: 1px;
   background-size: cover;
   background-position: center;
-  background-image: var(--about-vesnea-separator);
+  background-color: var(--text-on-special);
+  -webkit-mask-image: var(--about-vesnea-separator);
+  mask-image: var(--about-vesnea-separator);
 }
 /* AboutVesnea Header */
 .AVSectionContent {

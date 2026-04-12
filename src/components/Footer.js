@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useLocalization } from '../localization/hooks/useLocalization';
+import { ReactComponent as Footbarlogo1 } from '../Assets/footer/footbarlogo-seavalanche.svg';
+import { ReactComponent as Footbarlogo2 } from '../Assets/footer/footbarlogo-star.svg';
+import { ReactComponent as Footbarlogo3 } from '../Assets/footer/footbarlogo-oshyarena.svg';
 import '../styles/layout/Footnav.css';
 import '../styles/layout/Footbar.css';
 
@@ -40,8 +43,12 @@ const Footer = () => {
             </div>
             <div className={`footbar`}>
                 <div className='footbar-wrapper'>
-                    <div className={`footbar-logo`}></div>
-                    <div className={`footbar-text`}>Copyright © 2021 - 2025 Seavalanche</div>
+                    <div className={`footbar-logo`}>
+                        <Footbarlogo1 className='footbarlogo logo1' />
+                        <Footbarlogo2 className='footbarlogo logo2' />
+                        <Footbarlogo3 className='footbarlogo logo3' />
+                    </div>
+                    <div className={`footbar-text`}>Copyright © 2015 - 2026 Seavalanche</div>
                 </div>
             </div>
         </div>

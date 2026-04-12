@@ -7,20 +7,17 @@
   background: var(--bg-primary);
 }
 .footbar-wrapper {
-  width: 45rem;
   display: flex;
+  width: 45rem;
+  height: 90%;
   margin: 0 1rem;
+  gap: 1px;
 }
 .footbar-logo {
-  background: none;
-  border: none;
-  cursor: pointer;
-  aspect-ratio: 210.94 / 26;
-  height: 1.2rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: var(--footbar-img);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
 }
 .footbar-text {
   display: flex;
@@ -29,6 +26,20 @@
   font-family: var(--font-layout);
   font-size: var(--fs-xs);
   color: var(--text-on-brand);
+}
+.footbarlogo {
+  display: flex;
+  --svg-primary: var(--text-on-brand);
+  --svg-secondary: var(--border-on-special);
+}
+.footbarlogo.logo1 {
+  height: 1.05rem;
+}
+.footbarlogo.logo2 {
+  height: 0.5rem;
+}
+.footbarlogo.logo3 {
+  height: 1.2rem;
 }
 
 @media only screen and (min-width: 640px) and (max-width: 769px) {

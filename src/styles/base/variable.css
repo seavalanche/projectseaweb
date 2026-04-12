@@ -324,6 +324,7 @@
     var(--C-Vesnea_Light_Pink) 20%,
     var(--navbg) 70%
   );
+  --navbar-logo-hover: var(--cutepink2);
   /* footer */
   --footnav-height: 500px;
   --footnav-positioner-margin: 0 0 0 210px;
@@ -498,6 +499,7 @@
     var(--C-SeaWeb_Dark_Purple) 20%,
     var(--navbg) 70%
   );
+  --navbar-logo-hover: var(--C-Vesnea_Light_Pink);
   /* footer */
   --footnav-height: 500px;
   --footnav-positioner-margin: 0 210px 0 0;
@@ -674,6 +676,7 @@
     var(--C-SeaWeb_Purple) 10%,
     var(--navbg) 80%
   );
+  --navbar-logo-hover: var(--C-Vesnea_Light_Pink);
   /* footer */
   --footnav-height: 800px;
   --footnav-positioner-margin: 0 194px 0 0;
@@ -708,8 +711,6 @@
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */
 :root,
 [data-theme="light"] {
-  --navbar-img: url("/src/Assets/Navbar/navbarlogo-light.png");
-  --navbar-img-hover: url("/src/Assets/Navbar/navbarlogo-pink2.png");
   --navbar-theme-btn1: url("/src/Assets/Navbar/korazusun.svg");
   --navbar-theme-btn2: url("/src/Assets/Navbar/uzakonmoon.svg");
   --navbar-theme-btn3: url("/src/Assets/Navbar/zumikostar.svg");
@@ -718,7 +719,6 @@
   --homepage-commsect-img-m: url("/src/Assets/commbanner1m.webp");
   --footnav-img: url("/src/Assets/footer/lightmode.jpg");
   --footnav-img-m: url("/src/Assets/footer/lightmode-xssize.jpg");
-  --footbar-img: url("/src/Assets/footer/footbarlogox2-lightmode.png");
   --about-vesnea-header-img: url("/src/Assets/About/AboutVesnea/aboutvesnea-header-2.png");
   --about-vesnea-header-shadow: url("/src/Assets/About/AboutVesnea/aboutvesnea-header-2-shadow.png");
   --about-vesnea-separator: url("/src/Assets/About/AboutVesnea/tidy-er-light.svg");
@@ -726,37 +726,21 @@
   --about-vesnea-timeline-jp: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinejp.svg");
   --about-vesnea-timeline-m: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinem.svg");
   --about-vesnea-timeline-m-jp: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinemjp.svg");
-  --about-vesnea-socials-kofi:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-light.svg");
-  --about-vesnea-socials-kofi-hover:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-dark.svg");
 }
 
 [data-theme="dark"] {
-  --navbar-img: url("/src/Assets/Navbar/navbarlogo-dark.png");
-  --navbar-img-hover: url("/src/Assets/Navbar/navbarlogo-pink.png");
   --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-dark.jpg");
   --homepage-commsect-img: url("/src/Assets/commbanner2.webp");
   --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
   --footnav-img: url("/src/Assets/footer/darkmode.jpg");
   --footnav-img-m: url("/src/Assets/footer/darkmode-xssize.jpg");
-  --footbar-img: url("/src/Assets/footer/footbarlogox2-darkmode.png");
-  --about-vesnea-separator: url("/src/Assets/About/AboutVesnea/tidy-er-dark.svg");
-  --about-vesnea-socials-kofi:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-dark.svg");
-  --about-vesnea-socials-kofi-hover:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-light.svg");
 }
 
 [data-theme="star"] {
-  --navbar-img: url("/src/Assets/Navbar/navbarlogo-star.png");
-  --navbar-img-hover: url("/src/Assets/Navbar/navbarlogo-pink.png");
   --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-star.jpg");
   --homepage-commsect-img: url("/src/Assets/commbanner2.webp");
   --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
-  --footnav-img: url("/src/Assets/footer/starmode.jpg");
+  --footnav-img: url("/src/Assets/footer/starmode.webp");
   --footnav-img-m: url("/src/Assets/footer/starmode.jpg");
-  --footbar-img: url("/src/Assets/footer/footbarlogox2-starmode.png");
-  --about-vesnea-separator: url("/src/Assets/About/AboutVesnea/tidy-er-star.svg");
-  --about-vesnea-socials-kofi:url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-star.svg");
-  --about-vesnea-socials-kofi-hover:
-    url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-star.svg"),
-    url("/src/Assets/About/AboutVesnea/AboutSocials/about-icon-kofi-light.svg");
 }
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */
