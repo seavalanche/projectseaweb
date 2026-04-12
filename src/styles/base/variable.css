@@ -34,6 +34,7 @@
 :root {
   /* Z-Index */
   --navbar-z-index: 10;
+  --character-selector-z-index: 5;
 }
 :root {
   /* Fonts - Tier 1 */
@@ -131,6 +132,7 @@
 
   --cutepink: #ff69b4;
   --cutepink2: #d63384;
+  --cutepink3: #ec6f97cc;
 
   --TC-BG_Light: var(--C-Vesnea_white);
   --TC-BG_Light2: var(--C-Uzakon_Light_Purple);
@@ -299,8 +301,14 @@
   --text-on-special: var(--C-Vesnea_Purple);
   --text-on-special-link: var(--attribute-sound);
   --border-on-special: var(--C-Zumiko_Pink);
-  --accent: var(--C-Vesnea_Pink);
+  --accent: var(--cutepink2);
   --text-active: var(--cutepink);
+
+  /* buttons */
+  --button-bg-hover: hsl(from var(--text-on-brand) h s l / 0.5);
+  --button-text-hover: var(--bg-primary);
+  --button-border-hover: 1px solid var(--text-on-brand);
+  --button-shadow-hover: 0 8px 12px hsl(from var(--text-on-brand) h s l / 0.5);
 
   /* navbar */
   --navbar-height-primary: 2.5rem;
@@ -314,30 +322,32 @@
   --navbar-logo-height: 7rem;
   --navbar-menu-font-size: var(--fs-xs);
   --navbar-menu-font-size-m: var(--fs-base);
-  --navbg-secondary: color-mix(
-    in srgb,
-    var(--C-Vesnea_Light_Pink) 50%,
-    transparent
-  );
-  --navbg-secondary-m: color-mix(
-    in srgb,
-    var(--C-Vesnea_Light_Pink) 20%,
-    var(--navbg) 70%
-  );
   --navbar-logo-hover: var(--cutepink2);
+  --navbg-secondary: hsl(from var(--bg-brand) h s l / 0.5);
+  --navbg-secondary-hover: hsl(from var(--bg-brand) h s l / 0.95);
+  --navbg-shadow: hsl(from var(--text-on-brand) h calc(s + 50) l / 0.3);
+  --navbg-bg-hover: hsl(from var(--text-on-special) h calc(s + 50) l / 0.1);
+  --navbg-bg-hover-border: var(--bg-brand);
   /* footer */
   --footnav-height: 500px;
+  --footnav-height-m: auto;
   --footnav-positioner-margin: 0 0 0 210px;
+  --footnav-positioner-margin-m: 0 0 0 0;
   --footnav-positioner-padding: 55px 0 0 0;
+  --footnav-positioner-padding-m: 1.5rem 0 1.5rem 0;
   --footnav-box-margin: 0 0 0 0;
+  --footnav-box-margin-m: 0;
   --footnav-box-padding: 1rem;
+  --footnav-box-padding-m: 0;
   --footnav-box-bg: hsl(from var(--bg-primary) h s l / 0.9);
   --footnav-box-shadow: 3px 4px 7px hsl(from var(--bg-primary) h s l / 0.8);
   --footnav-box-shadow-hover: 0 0 6px 6px
     hsl(from var(--bg-secondary) h s l / 0.5);
   --footnav-box-radius: 12pt;
   --footnav-card-flow: row;
+  --footnav-card-flow-m: row;
   --footnav-card-margin: 0 0 0 0;
+  --footnav-card-margin-m: 0 0 0 0;
   --footnav-card-padding: 0.5rem 1rem 0.5rem 0.5rem;
   --footnav-card-gap: 0.5rem;
   --footnav-menu-gap: 1rem;
@@ -345,20 +355,15 @@
   --footnav-text1: var(--text-on-brand);
   --footnav-text2: var(--text-on-primary);
   --footnav-text-shadow: var(--text-on-primary);
-  --footnav-height-m: auto;
-  --footnav-positioner-margin-m: 0 0 0 0;
-  --footnav-positioner-padding-m: 1.5rem 0 1.5rem 0;
-  --footnav-box-margin-m: 0;
-  --footnav-card-flow-m: row;
-  --footnav-card-margin-m: 0 0 0 0;
   /* About Vesnea */
   --about-vesnea-my-style-img-bg: #3c1a2c;
+  /* charcard */
 }
 [data-theme="dark"] {
   /* Dark Theme */
   --navbg: var(--C-SeaWeb_Purple);
   --navbg-ext: var(--C-Vesnea_white);
-  --navbg-secondary: color-mix(
+  /* --navbg-secondary: color-mix(
     in srgb,
     var(--C-SeaWeb_Dark_Purple) 50%,
     transparent
@@ -367,7 +372,7 @@
     in srgb,
     var(--C-SeaWeb_Dark_Purple) 20%,
     var(--navbg) 70%
-  );
+  ); */
   --navtext-a: var(--C-Korazu_Yellow);
   --navtext-b: var(--C-Korazu_Yellow);
   --navtext-accent: var(--C-Vesnea_Pink);
@@ -489,44 +494,10 @@
   --text-active: var(--C-Korazu_Yellow);
 
   /* navbar */
-  --navbg-secondary: color-mix(
-    in srgb,
-    var(--C-SeaWeb_Dark_Purple) 50%,
-    transparent
-  );
-  --navbg-secondary-m: color-mix(
-    in srgb,
-    var(--C-SeaWeb_Dark_Purple) 20%,
-    var(--navbg) 70%
-  );
   --navbar-logo-hover: var(--C-Vesnea_Light_Pink);
+  --navbg-shadow: hsl(from var(--bg-primary) h calc(s + 50) l / 0.3);
   /* footer */
-  --footnav-height: 500px;
   --footnav-positioner-margin: 0 210px 0 0;
-  --footnav-positioner-padding: 55px 0 0 0;
-  --footnav-box-margin: 0 0 0 0;
-  --footnav-box-padding: 1rem;
-  --footnav-box-bg: hsl(from var(--bg-primary) h s l / 0.9);
-  --footnav-box-shadow: 3px 4px 7px hsl(from var(--bg-primary) h s l / 0.8);
-  --footnav-box-shadow-hover: 0 0 6px 6px
-    hsl(from var(--bg-secondary) h s l / 0.5);
-  --footnav-box-radius: 12pt;
-  --footnav-card-flow: row;
-  --footnav-card-margin: 0 0 0 0;
-  --footnav-card-padding: 0.5rem 1rem 0.5rem 0.5rem;
-  --footnav-card-gap: 0.5rem;
-  --footnav-menu-gap: 1rem;
-  --footnav-text-gap: 0.5rem;
-  --footnav-text1: var(--text-on-brand);
-  --footnav-text2: var(--text-on-primary);
-  --footnav-text-shadow: var(--text-on-primary);
-  --footnav-height-m: auto;
-  --footnav-positioner-margin-m: 0 0 0 0;
-  --footnav-positioner-padding-m: 1.5rem 0 1.5rem 0;
-  --footnav-box-margin-m: 0;
-  --footnav-box-padding-m: 0;
-  --footnav-card-flow-m: row;
-  --footnav-card-margin-m: 0 0 0 0;
   /* About Vesnea */
   --about-vesnea-my-style-img-bg: #211b2b;
 }
@@ -534,7 +505,7 @@
   /* Star Theme */
   --navbg: var(--C-SeaWeb_Dark_Purple);
   --navbg-ext: var(--C-Vesnea_white);
-  --navbg-secondary: color-mix(
+  /* --navbg-secondary: color-mix(
     in srgb,
     var(--C-Uzakon_Purple) 5%,
     var(--navbg) 95%
@@ -543,7 +514,7 @@
     in srgb,
     var(--C-SeaWeb_Purple) 10%,
     var(--navbg) 80%
-  );
+  ); */
   --navtext-a: var(--C-Uzakon_Light_Purple);
   --navtext-b: var(--C-Uzakon_Purple);
   --navtext-accent: var(--C-Vesnea_Pink);
@@ -666,46 +637,47 @@
   --text-active: var(--C-Uzakon_Lighter_Light_Purple);
 
   /* navbar */
-  --navbg-secondary: color-mix(
-    in srgb,
-    var(--C-Uzakon_Purple) 5%,
-    var(--navbg) 95%
-  );
-  --navbg-secondary-m: color-mix(
-    in srgb,
-    var(--C-SeaWeb_Purple) 10%,
-    var(--navbg) 80%
-  );
   --navbar-logo-hover: var(--C-Vesnea_Light_Pink);
+  --navbg-shadow: hsl(from var(--bg-primary) h calc(s + 50) l / 0.3);
   /* footer */
   --footnav-height: 800px;
   --footnav-positioner-margin: 0 194px 0 0;
   --footnav-positioner-padding: 70px 0 0 0;
   --footnav-box-margin: 0 -510px 0 0;
-  --footnav-box-padding: 1rem;
   --footnav-box-bg: hsl(from var(--bg-primary) h s l / 0.8);
-  --footnav-box-shadow: 3px 4px 7px hsl(from var(--bg-primary) h s l / 0.8);
-  --footnav-box-shadow-hover: 0 0 6px 6px
-    hsl(from var(--bg-secondary) h s l / 0.5);
-  --footnav-box-radius: 12pt;
   --footnav-card-flow: column;
-  --footnav-card-margin: 0 0 0 0;
-  --footnav-card-padding: 0.5rem 1rem 0.5rem 0.5rem;
-  --footnav-card-gap: 0.5rem;
-  --footnav-menu-gap: 1rem;
-  --footnav-text-gap: 0.5rem;
-  --footnav-text1: var(--text-on-brand);
-  --footnav-text2: var(--text-on-primary);
-  --footnav-text-shadow: var(--text-on-primary);
-  --footnav-height-m: auto;
-  --footnav-positioner-margin-m: 0 0 0 0;
-  --footnav-positioner-padding-m: 1.5rem 0 1.5rem 0;
-  --footnav-box-margin-m: 0;
-  --footnav-box-padding-m: 0;
-  --footnav-card-flow-m: row;
-  --footnav-card-margin-m: 0 0 0 0;
   /* About Vesnea */
   --about-vesnea-my-style-img-bg: #1f1b2c;
+}
+
+[data-theme="infinity"] {
+  --bg-primary: hsl(
+    from var(--C-MythSeavalanche_Light_Yellow) h s calc(l + 35)
+  );
+  --bg-secondary: hsl(from var(--C-MythSeavalanche_Yellow) h s calc(l + 15));
+  --bg-brand: hsl(from var(--C-MythSeavalanche_Light_Green) h s calc(l + 15));
+  --bg-special: hsl(from var(--C-MythSeavalanche_Green) h s calc(l + 15));
+  --text-on-primary: hsl(
+    from var(--C-MythSeavalanche_Dark_Yellow) calc(h - 50) s calc(l - 45)
+  );
+  --text-on-secondary: hsl(
+    from var(--C-MythSeavalanche_Dark_Yellow) calc(h - 50) s calc(l - 45)
+  );
+  --text-on-brand: hsl(
+    from var(--C-MythSeavalanche_Dark_Green) calc(h - 20) calc(s - 5)
+      calc(l - 35)
+  );
+  --text-on-special: hsl(
+    from var(--C-MythSeavalanche_Dark_Green) calc(h - 20) calc(s - 5)
+      calc(l - 35)
+  );
+  --text-on-special-link: var(--C-Uzakon_Purple);
+  --border-on-special: var(--C-SeaWeb_Purple);
+  --accent: hsl(from var(--C-MythSeavalanche_Peach) h s calc(l - 20));
+  --text-active: var(--C-Uzakon_Lighter_Light_Purple);
+
+  /* navbar */
+  --navbar-logo-hover: var(--C-MythSeavalanche_Dark_Yellow);
 }
 
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */
@@ -714,6 +686,7 @@
   --navbar-theme-btn1: url("/src/Assets/Navbar/korazusun.svg");
   --navbar-theme-btn2: url("/src/Assets/Navbar/uzakonmoon.svg");
   --navbar-theme-btn3: url("/src/Assets/Navbar/zumikostar.svg");
+  --navbar-theme-btn4: url("/src/Assets/Navbar/seavalancheinfinity.svg");
   --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-light.webp");
   --homepage-commsect-img: url("/src/Assets/commbanner1.webp");
   --homepage-commsect-img-m: url("/src/Assets/commbanner1m.webp");

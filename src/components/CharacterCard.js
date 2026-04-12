@@ -26,32 +26,8 @@ function CharacterCard({ character }) {
 
     return (
         <div id={character.id} ref={cardRef} className='character-card-container'>
-            {activeTab === 'charcard-optional' && (
-                <div className={`charcard-optional character-card${selectedArt ? 'preview-open' : ''}`}>
-                    <div className='charcard-optional-text'>See other menu here:</div>
-                    <div className='charcard-tab-wrapper'>
-                        <div className={`charcard-tab ${activeTab === 'charcard-tradearts' ? 'active' : ''}`} onClick={() => toggleTab('charcard-tradearts')}>
-                            {activeTab === 'charcard-tradearts' ? 'TradeArts' : 'TradeArts'}
-                        </div>
-                        <div className={`charcard-tab ${activeTab === 'charcard-collabarts' ? 'active' : ''}`} onClick={() => toggleTab('charcard-collabarts')}>
-                            {activeTab === 'charcard-collabarts' ? 'CollabArts' : 'CollabArts'}
-                        </div>
-                        <div className={`charcard-tab ${activeTab === 'charcard-giftarts' ? 'active' : ''}`} onClick={() => toggleTab('charcard-giftarts')}>
-                            {activeTab === 'charcard-giftarts' ? 'GiftArts' : 'GiftArts'}
-                        </div>
-                        <div className={`charcard-tab ${activeTab === 'charcard-commarts' ? 'active' : ''}`} onClick={() => toggleTab('charcard-commarts')}>
-                            {activeTab === 'charcard-commarts' ? 'CommArts' : 'CommArts'}
-                        </div>
-                    </div>
-                </div>
-            )}
             <div className={`character-card ${selectedArt ? 'preview-open' : ''} ${activeTab ? 'opened' : ''}`} >
-                <div style={{ height: '80px', marginTop: '-80px', visibility: 'hidden' }}></div>
-                {/* Multiple Tabs! */}
                 <div className='charcard-tab-wrapper'>
-                    <div className={`charcard-tab2 charcard-tab ${activeTab === 'charcard-optional' ? 'active' : ''}`} onClick={() => toggleTab('charcard-optional')}>
-                        {activeTab === 'charcard-optional' ? '🎁' : '🎁'}
-                    </div>
                     <div className={`charcard-tab ${activeTab === 'charcard-description' ? 'active' : ''}`} onClick={() => toggleTab('charcard-description')}>
                         {activeTab === 'charcard-description' ? 'Desc' : 'Desc'}
                     </div>
@@ -208,7 +184,7 @@ function CharacterCard({ character }) {
                             </div>
 
                             {activeArt === 'charcard-artworks' && (
-                                <div className="charcard-extra">
+                                <div className="charcard-extra-wrapper">
                                     <div className='charcardProp'>{t("charcard.artworks")}</div>
                                     <div className="charcard-artworks">
                                         {character.artworks.map((art, idx) => (
@@ -241,7 +217,7 @@ function CharacterCard({ character }) {
                                 </div>
                             )}
                             {activeArt === 'charcard-tradearts' && (
-                                <div className="charcard-extra">
+                                <div className="charcard-extra-wrapper">
                                     <div className='charcardProp'>{t("charcard.tradearts")}</div>
                                     <div className="charcard-artworks">
                                         {character.tradearts.map((art, idx) => (
@@ -274,7 +250,7 @@ function CharacterCard({ character }) {
                                 </div>
                             )}
                             {activeArt === 'charcard-collabarts' && (
-                                <div className="charcard-extra">
+                                <div className="charcard-extra-wrapper">
                                     <div className='charcardProp'>{t("charcard.collabarts")}</div>
                                     <div className="charcard-artworks">
                                         {character.collabarts.map((art, idx) => (
@@ -307,7 +283,7 @@ function CharacterCard({ character }) {
                                 </div>
                             )}
                             {activeArt === 'charcard-giftarts' && (
-                                <div className="charcard-extra">
+                                <div className="charcard-extra-wrapper">
                                     <div className='charcardProp'>{t("charcard.giftarts")}</div>
                                     <div className="charcard-artworks">
                                         {character.giftarts.map((art, idx) => (
@@ -340,7 +316,7 @@ function CharacterCard({ character }) {
                                 </div>
                             )}
                             {activeArt === 'charcard-commarts' && (
-                                <div className="charcard-extra">
+                                <div className="charcard-extra-wrapper">
                                     <div className='charcardProp'>{t("charcard.commarts")}</div>
                                     <div className="charcard-artworks">
                                         {character.commarts.map((art, idx) => (

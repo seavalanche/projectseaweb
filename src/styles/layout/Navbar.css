@@ -28,6 +28,9 @@
   width: var(--navbar-width);
   padding: var(--navbar-padding);
 }
+.NV-body-secondary:hover {
+  background: var(--navbg-secondary-hover);
+}
 /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
 .NV-logo {
   display: flex;
@@ -50,16 +53,16 @@
   justify-content: center;
   height: 100%;
   margin: 0 var(--navbar-menu-gap) 0 auto;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
 }
 .NV-menu-body:hover {
   transition: all 0.2s ease-in;
   --navbar-menu-gap: 1.5rem;
   font-weight: bold;
-  background-color: color-mix(
-    in srgb,
-    var(--button-background-active) 10%,
-    transparent
-  );
+  background: var(--navbg-bg-hover);
+  border-left: 2px solid var(--navbg-bg-hover-border);
+  border-right: 2px solid var(--navbg-bg-hover-border);
   padding: 0 20px;
 }
 .NV-menu-body .active {
@@ -80,15 +83,10 @@
   border-radius: 3px;
 }
 .NV-menu-text:hover {
-  color: var(--bg-primary);
-  background-color: color-mix(
-    in srgb,
-    var(--button-background-active) 90%,
-    transparent
-  );
-  border: 1px solid var(--button-border2-active);
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  background: var(--button-bg-hover);
+  color: var(--button-text-hover);
+  border: var(--button-border-hover);
+  box-shadow: var(--button-shadow-hover);
 }
 .NV-body-secondary .NV-menu-body .NV-menu-text {
   font-size: var(--navbar-menu-font-size);
@@ -107,17 +105,20 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100%;
+  width: calc(var(--navbar-height-primary) * 2 - 15px);
+  overflow: hidden;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
 }
 .NV-theme-selection:hover {
   transition: all 0.2s ease-in;
   padding: 0 20px;
-  background-color: color-mix(
-    in srgb,
-    var(--button-background-active) 10%,
-    transparent
-  );
+  background: var(--navbg-bg-hover);
+  border-left: 2px solid var(--navbg-bg-hover-border);
+  border-right: 2px solid var(--navbg-bg-hover-border);
+  width: initial;
 }
 .NV-theme-button {
   display: flex;
@@ -133,14 +134,10 @@
   border-radius: 3px;
 }
 .NV-theme-button:hover {
-  background-color: color-mix(
-    in srgb,
-    var(--button-background-active) 90%,
-    transparent
-  );
-  border: 1px solid var(--button-border2-active);
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  background: var(--button-bg-hover);
+  color: var(--button-text-hover);
+  border: var(--button-border-hover);
+  box-shadow: var(--button-shadow-hover);
 }
 .NVbtn0 {
   display: flex;
@@ -164,6 +161,9 @@
 .NVbtn0.NVbtn3 {
   background-image: var(--navbar-theme-btn3);
 }
+.NVbtn0.NVbtn4 {
+  background-image: var(--navbar-theme-btn4);
+}
 [data-theme="light"] .NVbtn1 {
   display: none;
 }
@@ -171,6 +171,9 @@
   display: none;
 }
 [data-theme="dark"] .NVbtn3 {
+  display: none;
+}
+[data-theme="infinity"] .NVbtn4 {
   display: none;
 }
 
@@ -197,19 +200,22 @@
   cursor: pointer;
 }
 .language-switcher button:hover {
-  color: var(--bg-primary);
-  background-color: color-mix(
+  /* background-color: color-mix(
     in srgb,
     var(--button-background-active) 90%,
     transparent
-  );
+  ); */
   font-weight: bold;
-  border: 1px solid var(--button-border2-active);
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  /* border: 1px solid var(--button-border2-active); */
+  /* box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent); */
   font-style: normal;
   transition: all 0.2s ease-in;
   padding: 0 10px;
+  background: var(--button-bg-hover);
+  color: var(--button-text-hover);
+  border: var(--button-border-hover);
+  box-shadow: var(--button-shadow-hover);
 }
 .language-switcher .inact {
   display: none;
@@ -217,19 +223,14 @@
 /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */
 /* Navbar Secondary */ /* Navbar Secondary */ /* Navbar Secondary */
 .NV-body-wrapper:hover .NV-body-primary {
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
-}
-[data-theme="dark"] .NV-body .NV-body-primary {
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--button-border2) 50%, transparent);
+  box-shadow: 0 8px 12px var(--navbg-shadow);
 }
 .NV-body-wrapper:hover .NV-body-secondary {
   display: flex;
 }
 /* Navbar Secondary */ /* Navbar Secondary */ /* Navbar Secondary */
 
-@media only screen and (max-width: 769px) and (min-height: 416px) {
+@media only screen and (max-width: 800px) and (min-height: 416px) {
   .NV-body-secondary .NV-menu-body .NV-menu-text,
   .language-switcher button {
     font-size: var(--navbar-menu-font-size-m);
@@ -276,7 +277,6 @@
     position: fixed;
     flex-direction: column;
     align-items: end;
-    background: var(--navbg-secondary-m);
   }
   .NV-body-secondary.open {
     transform: translateX(0);
@@ -285,12 +285,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    border: initial;
   }
   .NV-menu-body:hover {
     transition: initial;
     font-weight: initial;
     background-color: initial;
     padding: initial;
+    border: initial;
   }
   .NV-menu-text {
     width: 100%;
@@ -315,11 +317,14 @@
   }
   .NV-theme-selection {
     width: 100%;
+    overflow: initial;
+    border: initial;
   }
   .NV-theme-selection:hover {
     transition: initial;
     background-color: initial;
     padding: initial;
+    border: initial;
   }
   .NV-theme-button {
     height: 100%;

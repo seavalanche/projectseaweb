@@ -65,6 +65,7 @@ const Navbar = ({ toggleTheme }) => {
                             <button className="NV-theme-button NVbtn1" onClick={() => toggleTheme("light")} aria-label="Switch Theme"><span className="NVbtn0 NVbtn1"></span></button>
                             <button className="NV-theme-button NVbtn2" onClick={() => toggleTheme("star")} aria-label="Switch Theme"><span className="NVbtn0 NVbtn2"></span></button>
                             <button className="NV-theme-button NVbtn3" onClick={() => toggleTheme("dark")} aria-label="Switch Theme"><span className="NVbtn0 NVbtn3"></span></button>
+                            <button className="NV-theme-button NVbtn4" onClick={() => toggleTheme("infinity")} aria-label="Switch Theme"><span className="NVbtn0 NVbtn4"></span></button>
                         </div>
                     </div>
                 </div>
@@ -104,6 +105,7 @@ const Navbar = ({ toggleTheme }) => {
                                 <button className="NV-theme-button NVbtn1" onClick={() => toggleTheme("light")} aria-label="Switch Theme"><span className="NVbtn0 NVbtn1"></span></button>
                                 <button className="NV-theme-button NVbtn2" onClick={() => toggleTheme("star")} aria-label="Switch Theme"><span className="NVbtn0 NVbtn2"></span></button>
                                 <button className="NV-theme-button NVbtn3" onClick={() => toggleTheme("dark")} aria-label="Switch Theme"><span className="NVbtn0 NVbtn3"></span></button>
+                                <button className="NV-theme-button NVbtn4" onClick={() => toggleTheme("infinity")} aria-label="Switch Theme"><span className="NVbtn0 NVbtn4"></span></button>
                             </div>
                             <LanguageSwitcher />
                         </div>

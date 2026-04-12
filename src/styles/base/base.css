@@ -3,7 +3,7 @@ html {
   color: var(--text-on-primary);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   html {
     font-size: 16px;
   }

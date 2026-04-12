@@ -205,23 +205,21 @@ input[type="color"] {
 /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 .generalbody {
-  background-color: var(--bg-color-1);
-  color: var(--generalcontent-text);
+  background-color: var(--bg-primary);
+  color: var(--text-on-special);
 }
 .generalbigtitle {
-  font-family: "Baskervville", "Noto Serif JP", serif;
+  font-family: var(--font-heading);
   font-size: var(--Fs-BigTitle);
   line-height: normal;
   font-style: normal;
   text-decoration: initial;
-  color: var(--generaltitle-text);
 }
 .generaltitle {
   font-size: var(--Fs-Title);
   line-height: normal;
   font-style: italic;
   text-decoration: initial;
-  color: var(--generaltitle-text);
 }
 .generalcontent a {
   text-decoration: none;
