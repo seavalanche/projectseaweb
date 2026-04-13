@@ -5,7 +5,7 @@
   position: sticky;
   top: 0px;
   z-index: var(--navbar-z-index);
-  background: var(--bg-primary);
+  background-color: var(--bg-primary);
   width: 100%;
   flex-direction: column;
 }
@@ -24,12 +24,12 @@
   align-items: center;
   justify-content: center;
   height: var(--navbar-height-secondary);
-  background: var(--navbg-secondary);
+  background-color: var(--navbg-secondary);
   width: var(--navbar-width);
   padding: var(--navbar-padding);
 }
 .NV-body-secondary:hover {
-  background: var(--navbg-secondary-hover);
+  background-color: var(--navbg-secondary-hover);
 }
 /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
 .NV-logo {
@@ -60,7 +60,7 @@
   transition: all 0.2s ease-in;
   --navbar-menu-gap: 1.5rem;
   font-weight: bold;
-  background: var(--navbg-bg-hover);
+  background-color: var(--navbg-bg-hover);
   border-left: 2px solid var(--navbg-bg-hover-border);
   border-right: 2px solid var(--navbg-bg-hover-border);
   padding: 0 20px;
@@ -83,7 +83,7 @@
   border-radius: 3px;
 }
 .NV-menu-text:hover {
-  background: var(--button-bg-hover);
+  background-color: var(--button-bg-hover);
   color: var(--button-text-hover);
   border: var(--button-border-hover);
   box-shadow: var(--button-shadow-hover);
@@ -115,7 +115,7 @@
 .NV-theme-selection:hover {
   transition: all 0.2s ease-in;
   padding: 0 20px;
-  background: var(--navbg-bg-hover);
+  background-color: var(--navbg-bg-hover);
   border-left: 2px solid var(--navbg-bg-hover-border);
   border-right: 2px solid var(--navbg-bg-hover-border);
   width: initial;
@@ -134,7 +134,7 @@
   border-radius: 3px;
 }
 .NV-theme-button:hover {
-  background: var(--button-bg-hover);
+  background-color: var(--button-bg-hover);
   color: var(--button-text-hover);
   border: var(--button-border-hover);
   box-shadow: var(--button-shadow-hover);
@@ -212,7 +212,7 @@
   font-style: normal;
   transition: all 0.2s ease-in;
   padding: 0 10px;
-  background: var(--button-bg-hover);
+  background-color: var(--button-bg-hover);
   color: var(--button-text-hover);
   border: var(--button-border-hover);
   box-shadow: var(--button-shadow-hover);

@@ -85,8 +85,8 @@
   gap: 20px;
   margin-bottom: -4px;
   padding: 20px;
-  border-top: 4px dashed var(--aboutvesnea-cardborder);
-  border-bottom: 4px dashed var(--aboutvesnea-cardborder);
+  border-top: 4px dashed var(--border-on-special);
+  border-bottom: 4px dashed var(--border-on-special);
 }
 .AVMyStyleImg {
   width: 150px;

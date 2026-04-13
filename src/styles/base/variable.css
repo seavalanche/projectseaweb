@@ -35,6 +35,9 @@
   /* Z-Index */
   --navbar-z-index: 10;
   --character-selector-z-index: 5;
+  --charcard-tab-z-index: 4;
+  --charcard-art-preview-z-index: 10;
+  --charcard-bio-btn-z-index: 5;
 }
 :root {
   /* Fonts - Tier 1 */
@@ -304,6 +307,14 @@
   --accent: var(--cutepink2);
   --text-active: var(--cutepink);
 
+  /* general color scheme */
+  --gender-female: var(--attribute-sound);
+  --gender-male: hsl(
+    from var(--attribute-water) calc(h + 5) calc(s + 15) calc(l + 15) / 1
+  );
+  --gender-genderless: hsl(from var(--attribute-wind) h s calc(l - 20) / 1);
+  --gender-unknown: var(--text-on-primary);
+
   /* buttons */
   --button-bg-hover: hsl(from var(--text-on-brand) h s l / 0.5);
   --button-text-hover: var(--bg-primary);
@@ -358,6 +369,14 @@
   /* About Vesnea */
   --about-vesnea-my-style-img-bg: #3c1a2c;
   /* charcard */
+  --charcard-art-preview-shadow:
+    0px 1.8px 7.3px rgba(0, 0, 0, 0.071), 0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+    0px 0px 50px 20px hsl(from var(--bg-special) h s l / 0.5);
+  /* story and poem */
+  --story-poem-bg: hsl(from var(--bg-secondary) h s l / 0.5);
+  --story-poem-text: var(--text-on-secondary);
+  --story-poem-font-family: var(--F-Default);
+  --story-poem-font-size: 22pt;
 }
 [data-theme="dark"] {
   /* Dark Theme */
@@ -500,6 +519,10 @@
   --footnav-positioner-margin: 0 210px 0 0;
   /* About Vesnea */
   --about-vesnea-my-style-img-bg: #211b2b;
+  /* charcard */
+  --charcard-art-preview-shadow:
+    0px 1.8px 7.3px rgba(0, 0, 0, 0.071), 0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+    0px 0px 50px 20px hsl(from var(--text-on-brand) h s l / 0.5);
 }
 [data-theme="star"] {
   /* Star Theme */
@@ -648,8 +671,11 @@
   --footnav-card-flow: column;
   /* About Vesnea */
   --about-vesnea-my-style-img-bg: #1f1b2c;
+  /* charcard */
+  --charcard-art-preview-shadow:
+    0px 1.8px 7.3px rgba(0, 0, 0, 0.071), 0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+    0px 0px 50px 20px hsl(from var(--text-on-brand) h s l / 0.5);
 }
-
 [data-theme="infinity"] {
   --bg-primary: hsl(
     from var(--C-MythSeavalanche_Light_Yellow) h s calc(l + 35)
@@ -672,7 +698,7 @@
       calc(l - 35)
   );
   --text-on-special-link: var(--C-Uzakon_Purple);
-  --border-on-special: var(--C-SeaWeb_Purple);
+  --border-on-special: hsl(from var(--text-on-brand) h s calc(l + 20));
   --accent: hsl(from var(--C-MythSeavalanche_Peach) h s calc(l - 20));
   --text-active: var(--C-Uzakon_Lighter_Light_Purple);
 

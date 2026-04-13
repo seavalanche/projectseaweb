@@ -246,10 +246,10 @@ function StoryFnBar({
     // State initialization with loading flag
     const [isLoaded, setIsLoaded] = useState(false);
     const [settings, setSettings] = useState({
-        fontSize: '--Fs-Content',
-        fontFamily: '--F-Default',
+        fontSize: '--story-poem-font-size',
+        fontFamily: '--story-poem-font-family',
         fontColor: '#000000',
-        bgColor: '--text-color-1b',
+        bgColor: '--story-poem-text',
         contentPadding: '--content-padding',
         lineHeight: '--line-height',
         paragraphGap: '--paragraph-gap',
@@ -268,10 +268,10 @@ function StoryFnBar({
         };
 
         return {
-            fontSize: getNumericValue('--Fs-Content'),
-            fontFamily: styles.getPropertyValue('--F-Default').trim(),
-            fontColor: styles.getPropertyValue('--text-color-1b').trim(),
-            bgColor: styles.getPropertyValue('--bg-color-3').trim(),
+            fontSize: getNumericValue('--story-poem-font-size'),
+            fontFamily: styles.getPropertyValue('--story-poem-font-family').trim(),
+            fontColor: styles.getPropertyValue('--story-poem-text').trim(),
+            bgColor: styles.getPropertyValue('--story-poem-bg').trim(),
             contentPadding: getNumericValue('--content-padding'),
             lineHeight: getNumericValue('--line-height'),
             paragraphGap: getNumericValue('--paragraph-gap'),
@@ -285,10 +285,10 @@ function StoryFnBar({
         const root = document.getElementById('story-content-wrapper');
         if (!root) return;
 
-        root.style.setProperty('--Fs-Content', `${settings.fontSize}pt`);
-        root.style.setProperty('--F-Default', settings.fontFamily);
-        root.style.setProperty('--text-color-1b', settings.fontColor);
-        root.style.setProperty('--bg-color-3', settings.bgColor);
+        root.style.setProperty('--story-poem-font-size', `${settings.fontSize}pt`);
+        root.style.setProperty('--story-poem-font-family', settings.fontFamily);
+        root.style.setProperty('--story-poem-text', settings.fontColor);
+        root.style.setProperty('--story-poem-bg', settings.bgColor);
         root.style.setProperty('--content-padding', `${settings.contentPadding}vw`);
         root.style.setProperty('--line-height', settings.lineHeight);
         root.style.setProperty('--paragraph-gap', `${settings.paragraphGap}px`);

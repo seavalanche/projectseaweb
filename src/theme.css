@@ -168,7 +168,7 @@ input[type="color"] {
 }
 .not-found a {
   font-size: var(--Fs-NotFoundBtn);
-  background: var(--notfound-btn);
+  background-color: var(--notfound-btn);
   color: var(--notfound-textbtn);
   border-radius: 10px;
   text-decoration: none;
@@ -193,7 +193,7 @@ input[type="color"] {
 }
 .underconstruction a {
   font-size: var(--Fs-NotFoundBtn);
-  background: var(--notfound-btn);
+  background-color: var(--notfound-btn);
   color: var(--notfound-textbtn);
   border-radius: 10px;
   text-decoration: none;
@@ -203,58 +203,6 @@ input[type="color"] {
   box-shadow: 0 0 10px color-mix(in srgb, var(--notfound-btn) 60%, transparent);
 }
 /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */
-/* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
-.generalbody {
-  background-color: var(--bg-primary);
-  color: var(--text-on-special);
-}
-.generalbigtitle {
-  font-family: var(--font-heading);
-  font-size: var(--Fs-BigTitle);
-  line-height: normal;
-  font-style: normal;
-  text-decoration: initial;
-}
-.generaltitle {
-  font-size: var(--Fs-Title);
-  line-height: normal;
-  font-style: italic;
-  text-decoration: initial;
-}
-.generalcontent a {
-  text-decoration: none;
-  color: inherit;
-}
-.generalcontent li:hover {
-  color: var(--generalcontent-texthover);
-  text-shadow: 0 2px 5px
-    color-mix(in srgb, var(--generalcontent-textshadow) 50%, transparent);
-  transform: scale(1.5);
-  font-style: italic;
-}
-.generalcontent li:active {
-  font-weight: bold;
-}
-.listseparator {
-  color: var(--listseparator-text);
-  font-size: var(--Fs-Title);
-  font-style: normal;
-  font-weight: 600;
-  background-color: var(--listseparator-bg);
-  border-radius: 50px 4px;
-}
-.generaldesc-containerwrapper {
-  background-color: var(--bg-color-3);
-}
-.generaldesc-container .label {
-  font-weight: bold;
-  text-align: right;
-}
-.generaldisclaimer {
-  font-size: var(--Fs-Content-small);
-  line-height: 1;
-}
-/* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
 /* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */
 * {
   --toggle-color-active: var(--button-background-active);
@@ -275,7 +223,7 @@ input[type="color"] {
   background-color: var(--toggle-color-inactive);
 }
 .toggle-switch-switch {
-  background: var(--toggle-color-switch);
+  background-color: var(--toggle-color-switch);
   border: 0 solid var(--toggle-color-inactive);
   border-radius: var(--toggle-border-radius);
   transition: all 0.1s ease;
@@ -679,11 +627,11 @@ input[type="color"] {
 /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */ /* COMMISSIONS */
 /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */ /* STORYPAGE */
 .story-1st-wrapper {
-  background: var(--charcard-bg);
+  background-color: var(--charcard-bg);
 }
 /* Sidebar */
 .sidebar {
-  background: var(--charcard-bg);
+  background-color: var(--charcard-bg);
   color: var(--button-text);
 }
 .sidebar-hidden {
@@ -785,17 +733,22 @@ input[type="color"] {
 }
 #story-content-wrapper,
 #poem-content-wrapper {
-  background-color: var(--bg-color-3);
+  /* background-color: var(--bg-color-3);
   font-family: var(--F-Default);
   font-size: var(--Fs-Content);
-  color: var(--text-color-1b);
-  box-shadow: 0 30px 50px -40px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent) inset;
+  color: var(--text-color-1b); */
+  /* box-shadow: 0 30px 50px -40px
+    color-mix(in srgb, var(--button-border2-active) 50%, transparent) inset; */
+  font-family: var(--story-poem-font-family);
+  font-size: var(--story-poem-font-size);
+  background-color: var(--story-poem-bg);
+  color: var(--story-poem-text);
+  box-shadow: 0 30px 50px -40px hsl(from var(--text-on-secondary) h s l / 0.5) inset;
 }
-#story-content-wrapper h1,
+/* #story-content-wrapper h1,
 #poem-content-wrapper h1 {
   font-family: var(--F-Default);
-}
+} */
 #story-content-wrapper blockquote,
 #poem-content-wrapper blockquote {
   font-size: var(--Fs-Content-small);
