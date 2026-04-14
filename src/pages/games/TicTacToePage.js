@@ -16,7 +16,7 @@ const TicTacToePage = () => {
             engine={t("tictactoe.engine")}
             genre={t("tictactoe.genre")}
             instructions={t("tictactoe.instructions")}
-            iframeSrc={`${process.env.PUBLIC_URL}/game/TicTacToe.html`}
+            iframeSrc={`${process.env.PUBLIC_URL}/game/tictactoe.html`}
         />
     );
 };

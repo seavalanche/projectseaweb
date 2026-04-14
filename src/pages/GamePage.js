@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { useLocalization } from '../localization/hooks/useLocalization';
 
 const GamePage = () => {
@@ -16,7 +16,7 @@ const GamePage = () => {
                 <ul>
                     <div className='listseparator first'>{t("gamepage.separator1")}</div>
                     <li>
-                        <Link to='/Game/TicTacToe' className='li'>{t("tictactoe.title")}</Link>
+                        {/* <Link to='/Game/TicTacToe' className='li'>{t("tictactoe.title")}</Link> */}
                     </li>
                 </ul>
             </div>
