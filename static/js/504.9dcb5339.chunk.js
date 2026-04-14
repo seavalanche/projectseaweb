@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprojectseaweb=self.webpackChunkprojectseaweb||[]).push([[504],{1504:(e,a,s)=>{e.exports=s.p+"static/media/unfairexpectations.5a42f4a2ffd24bce54f9.md"}}]);
