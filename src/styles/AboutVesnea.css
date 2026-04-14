@@ -91,7 +91,7 @@
 .AVMyStyleImg {
   width: 150px;
   background-color: var(--about-vesnea-my-style-img-bg);
-  border-radius: 5px;
+  border-radius: var(--button-border-radius);
 }
 .AVMyStyleText {
   width: 300px;
@@ -111,14 +111,14 @@
   margin: 25px;
   background-color: var(--text-on-special);
   -webkit-mask-image: var(--about-vesnea-timeline);
-  mask-image:  var(--about-vesnea-timeline);
+  mask-image: var(--about-vesnea-timeline);
   mask-repeat: no-repeat;
   mask-size: contain;
   mask-position: center;
 }
 [data-language="jp"] .AVTimeline {
   -webkit-mask-image: var(--about-vesnea-timeline-jp);
-  mask-image:  var(--about-vesnea-timeline-jp);
+  mask-image: var(--about-vesnea-timeline-jp);
 }
 /* AboutVesnea Socials */
 .AVSectionContent2-left,

@@ -3,6 +3,7 @@ import { getBookmark, saveBookmark } from './PoemBookmark'
 import { useLocalization } from '../localization/hooks/useLocalization';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import '../styles/StoryPoem.css';
 
 function PoemContent({ chapterId }) {
     const { language } = useLocalization();

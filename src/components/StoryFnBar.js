@@ -1,6 +1,10 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { chapters } from '../pages/chapters/metadata';
 import { useLocalization } from "../localization/hooks/useLocalization";
+import { ReactComponent as SidebarBtnClose } from '../Assets/Common/sidebarbtn-close.svg';
+import { ReactComponent as SidebarBtnOpen } from '../Assets/Common/sidebarbtn-open.svg';
+import { ReactComponent as SidebarBtnCloseM } from '../Assets/Common/sidebarbtn-close-m.svg';
+import { ReactComponent as SidebarBtnOpenM } from '../Assets/Common/sidebarbtn-open-m.svg';
 
 function StoryFnBar({
     toggleSidebar,
@@ -211,9 +215,9 @@ function StoryFnBar({
                 >
                     {/* {sidebarVisible ? '↑' : '↓'} */}
                     {sidebarVisible ?
-                        <div className="sidebar-btn-mobile-open"></div>
+                        <div className="sidebar-btn-mobile-open"><SidebarBtnOpenM/></div>
                         :
-                        <div className="sidebar-btn-mobile-close"></div>
+                        <div className="sidebar-btn-mobile-close"><SidebarBtnCloseM/></div>
                     }
                 </div>
                 {prevChapter && (
@@ -444,9 +448,9 @@ function StoryFnBar({
             <div className={`sidebar-btn ${isVisible ? 'visible' : 'hidden'}`}
                 onClick={() => { toggleSidebar(); }}>
                 {sidebarVisible ?
-                    <div className="sidebar-btn-open"></div>
+                    <div className="sidebar-btn-open"><SidebarBtnClose /></div>
                     :
-                    <div className="sidebar-btn-close"></div>
+                    <div className="sidebar-btn-close"><SidebarBtnOpen /></div>
                 }
             </div>
             {isSmallScreen ? (
@@ -703,13 +707,6 @@ function StoryFnBar({
                             </div>
                         </div>
                         <div className="fnbar-sub-styles">
-                            <div className="chapter-nav">
-                                {prevChapter && (
-                                    <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(prevChapter.id)}>
-                                        {getTitle(prevChapter, 15)}
-                                    </button>
-                                )}
-                            </div>
                             <div className="fnbar-sub-fonts">
                                 {/* Font Family */}
                                 <div className="fnbar-comps font-family">
@@ -727,13 +724,6 @@ function StoryFnBar({
                                 </div>
                             </div>
                             <div className="fnbar-sub-styles2">
-                                <div className="chapter-nav2">
-                                    {prevChapter && (
-                                        <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(prevChapter.id)}>
-                                            {getTitle(prevChapter, 25)}
-                                        </button>
-                                    )}
-                                </div>
                                 <div className="fnbar-sub-colors">
                                     {/* Text Color */}
                                     <div className="fnbar-comps">
@@ -756,26 +746,27 @@ function StoryFnBar({
                                     </div>
                                     <button className="fnbar-default-sub2" onClick={resetToDefault}>{t("storyfnbar.reset")}</button>
                                 </div>
-                                <div className="chapter-nav2">
-                                    {nextChapter && (
-                                        <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(nextChapter.id)}>
-                                            {getTitle(nextChapter, 25)} →
-                                        </button>
-                                    )}
-                                </div>
+
                             </div>
                             <button className="fnbar-default-sub" onClick={resetToDefault}>{t("storyfnbar.reset")}</button>
-                            <div className="chapter-nav">
-                                {nextChapter && (
-                                    <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(nextChapter.id)}>
-                                        {getTitle(nextChapter, 15)} →
-                                    </button>
-                                )}
-                            </div>
                         </div>
                     </div>
-
-
+                    <div className="fnbar-chapter">
+                        <div className="chapter-nav left">
+                            {prevChapter && (
+                                <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(prevChapter.id)}>
+                                    ← {getTitle(prevChapter, 25)}
+                                </button>
+                            )}
+                        </div>
+                        <div className="chapter-nav right">
+                            {nextChapter && (
+                                <button className="chapter-nav-lrg-btn" onClick={() => setCurrentChapter(nextChapter.id)}>
+                                    {getTitle(nextChapter, 25)} →
+                                </button>
+                            )}
+                        </div>
+                    </div>
                 </div>
             )}
         </div>

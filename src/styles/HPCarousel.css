@@ -17,7 +17,9 @@
   opacity: 0;
   left: 10%;
   transform: scale(1.2) translateX(-2%);
-  transition: opacity 2s ease, transform 25s;
+  transition:
+    opacity 2s ease,
+    transform 25s;
 }
 /* Active fade in */
 .HPcarousel-slide.active {
@@ -25,7 +27,9 @@
 }
 /* Drift effect applied while visible */
 .HPcarousel-slide.drift {
-  transition: opacity 1s ease-in-out, transform 12s linear;
+  transition:
+    opacity 1s ease-in-out,
+    transform 12s linear;
   transform: scale(1.2) translateX(-10%);
 }
 /* Indicators */
@@ -79,9 +83,9 @@
   background-color: var(--button-background-active);
   color: var(--button-text-active);
   font-style: oblique;
-  border: 1px solid var(--button-border2-active);
-  box-shadow: 0 8px 12px
-      color-mix(in srgb, var(--button-border2-active) 50%, transparent),
+  border: var(--button-border-hover);
+  box-shadow:
+    0 8px 12px color-mix(in srgb, var(--button-border2-active) 50%, transparent),
     0 0 30px 10px color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
 }
 @media only screen and (max-width: 500px) {

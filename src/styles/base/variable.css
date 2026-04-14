@@ -84,6 +84,27 @@
   --container-padding: var(--space-lg);
   --card-gap: var(--space-md);
 }
+/* Story Poem page variables */
+* {
+  /* Story page */
+  --content-padding: 22vw;
+  --line-height: 1.6;
+  --paragraph-gap: 10px;
+  --letter-spacing: 1px;
+  --word-spacing: 0px;
+  /* Poem page */
+  --content-padding2: 32vw;
+  --line-height2: 1.6;
+  --paragraph-gap2: 10px;
+  --letter-spacing2: 1px;
+  --word-spacing2: 0px;
+}
+@media only screen and (max-width: 1715px) {
+  * {
+    --content-padding: 10vw;
+    --content-padding2: 10vw;
+  }
+}
 /*These are the color palette*/
 /* 1. THE PALETTE (Raw Colors) */
 :root {
@@ -306,6 +327,9 @@
   --border-on-special: var(--C-Zumiko_Pink);
   --accent: var(--cutepink2);
   --text-active: var(--cutepink);
+  --text-dimmed-on-primary: var(--C-Vesnea_Purple);
+  --button-bg-hover-of-choice: hsl(from var(--text-on-brand) h s l / 0.5);
+  --button-text-hover-of-choice: var(--bg-primary);
 
   /* general color scheme */
   --gender-female: var(--attribute-sound);
@@ -316,8 +340,15 @@
   --gender-unknown: var(--text-on-primary);
 
   /* buttons */
-  --button-bg-hover: hsl(from var(--text-on-brand) h s l / 0.5);
-  --button-text-hover: var(--bg-primary);
+  --button-border-radius: 5px;
+  --button-bg-primary: var(--bg-primary);
+  --button-bg-secondary: var(--bg-secondary);
+  --button-text-primary: var(--text-on-primary);
+  --button-text-secondary: var(--text-on-secondary);
+  --button-border-primary: 1px solid var(--bg-primary);
+  --button-border-secondary: 1px solid var(--bg-secondary);
+  --button-bg-hover: var(--button-bg-hover-of-choice);
+  --button-text-hover: var(--button-text-hover-of-choice);
   --button-border-hover: 1px solid var(--text-on-brand);
   --button-shadow-hover: 0 8px 12px hsl(from var(--text-on-brand) h s l / 0.5);
 
@@ -375,7 +406,7 @@
   /* story and poem */
   --story-poem-bg: hsl(from var(--bg-secondary) h s l / 0.5);
   --story-poem-text: var(--text-on-secondary);
-  --story-poem-font-family: var(--F-Default);
+  --story-poem-font-family: var(--font-main);
   --story-poem-font-size: 22pt;
 }
 [data-theme="dark"] {
@@ -511,6 +542,9 @@
   --border-on-special: var(--C-Vesnea_Purple);
   --accent: var(--C-Vesnea_Pink);
   --text-active: var(--C-Korazu_Yellow);
+  --text-dimmed-on-primary: var(--C-Uzakon_Purple);
+  --button-bg-hover-of-choice: hsl(from var(--text-on-brand) h s l / 0.3);
+  --button-text-hover-of-choice: var(--text-on-brand);
 
   /* navbar */
   --navbar-logo-hover: var(--C-Vesnea_Light_Pink);
@@ -647,7 +681,7 @@
 }
 [data-theme="star"] {
   --bg-primary: var(--C-SeaWeb_Dark_Purple);
-  --bg-secondary: var(--C-SeaWeb_Dark_Purple);
+  --bg-secondary: var(--C-SeaWeb_Purple);
   --bg-brand: var(--C-SeaWeb_Dark_Purple);
   --bg-special: var(--C-SeaWeb_Dark_Purple);
   --text-on-primary: var(--C-Uzakon_Light_Purple);
@@ -658,6 +692,9 @@
   --border-on-special: var(--C-SeaWeb_Purple);
   --accent: var(--C-Vesnea_Pink);
   --text-active: var(--C-Uzakon_Lighter_Light_Purple);
+  --text-dimmed-on-primary: var(--C-Uzakon_Purple);
+  --button-bg-hover-of-choice: hsl(from var(--text-on-brand) h s l / 0.3);
+  --button-text-hover-of-choice: var(--text-on-brand);
 
   /* navbar */
   --navbar-logo-hover: var(--C-Vesnea_Light_Pink);
@@ -700,7 +737,8 @@
   --text-on-special-link: var(--C-Uzakon_Purple);
   --border-on-special: hsl(from var(--text-on-brand) h s calc(l + 20));
   --accent: hsl(from var(--C-MythSeavalanche_Peach) h s calc(l - 20));
-  --text-active: var(--C-Uzakon_Lighter_Light_Purple);
+  --text-active: hsl(from var(--C-MythSeavalanche_Peach) h s calc(l - 20));
+  --text-dimmed-on-primary: var(--C-MythSeavalanche_Dark_Yellow);
 
   /* navbar */
   --navbar-logo-hover: var(--C-MythSeavalanche_Dark_Yellow);
@@ -725,6 +763,8 @@
   --about-vesnea-timeline-jp: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinejp.svg");
   --about-vesnea-timeline-m: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinem.svg");
   --about-vesnea-timeline-m-jp: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinemjp.svg");
+  --storypoem-fnbar-reset-btn: url("/src/Assets/Common/resetbtnlight.svg");
+  --storypoem-fnbar-reset-btn-hover: url("/src/Assets/Common/resetbtnlightactive.svg");
 }
 
 [data-theme="dark"] {
@@ -733,6 +773,8 @@
   --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
   --footnav-img: url("/src/Assets/footer/darkmode.jpg");
   --footnav-img-m: url("/src/Assets/footer/darkmode-xssize.jpg");
+  --storypoem-fnbar-reset-btn: url("/src/Assets/Common/resetbtndark.svg");
+  --storypoem-fnbar-reset-btn-hover: url("/src/Assets/Common/resetbtndarkactive.svg");
 }
 
 [data-theme="star"] {
@@ -741,5 +783,7 @@
   --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
   --footnav-img: url("/src/Assets/footer/starmode.webp");
   --footnav-img-m: url("/src/Assets/footer/starmode.jpg");
+  --storypoem-fnbar-reset-btn: url("/src/Assets/Common/resetbtnstar.svg");
+  --storypoem-fnbar-reset-btn-hover: url("/src/Assets/Common/resetbtnstaractive.svg");
 }
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */

@@ -206,7 +206,7 @@
     transparent
   ); */
   font-weight: bold;
-  /* border: 1px solid var(--button-border2-active); */
+  /* border: var(--button-border-hover); */
   /* box-shadow: 0 8px 12px
     color-mix(in srgb, var(--button-border2-active) 50%, transparent); */
   font-style: normal;
@@ -257,9 +257,8 @@
       var(--button-background-active) 20%,
       transparent
     );
-    border: 1px solid var(--button-border2-active);
-    box-shadow: 0 8px 12px
-      color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+    border: var(--button-border-hover);
+    box-shadow: var(--button-shadow-hover);
   }
   .NV-menu-toggle-btn {
     color: var(--text-on-brand);
@@ -307,9 +306,8 @@
     );
     color: var(--text-on-brand);
     font-weight: normal;
-    border: 1px solid var(--button-border2-active);
-    box-shadow: 0 8px 12px
-      color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+    border: var(--button-border-hover);
+    box-shadow: var(--button-shadow-hover);
   }
   .NV-theme-body {
     width: 100%;

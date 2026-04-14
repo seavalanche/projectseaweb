@@ -111,7 +111,16 @@ function StorySidebar({ visible, toggleSidebar, currentChapter, onChapterSelect 
                                     <div className="chapter-desc">{getDisplayText(chapter.description)}</div>
                                     {chapter.wordCount && (
                                         <div className="chapter-meta">
-                                            {Math.ceil(chapter.wordCount / 200)} {t("storysidebar.minread")}
+                                            {(() => {
+                                                const count = Number(getDisplayText(chapter.wordCount));
+                                                if (language === 'jp') {
+                                                    // For Japanese, we treat the number as character count.
+                                                    // Let's use 500 characters per minute as a safe average.
+                                                    return Math.ceil(count / 500);
+                                                } else {
+                                                    return Math.ceil(count / 200);
+                                                }
+                                            })()} {t("storysidebar.minread")}
                                         </div>
                                     )}
                                 </div>
