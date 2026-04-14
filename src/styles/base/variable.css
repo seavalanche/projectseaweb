@@ -786,4 +786,7 @@
   --storypoem-fnbar-reset-btn: url("/src/Assets/Common/resetbtnstar.svg");
   --storypoem-fnbar-reset-btn-hover: url("/src/Assets/Common/resetbtnstaractive.svg");
 }
+[data-theme="infinity"] {
+  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-infinity.webp");
+}
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */
