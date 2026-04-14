@@ -281,7 +281,7 @@ input[type="color"] {
 
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 .projectcarditem {
-  border-top: 2px dashed var(--aboutvesnea-cardborder);
+  border-top: 4px dashed var(--border-on-special);
 }
 .AVIntroContent {
   line-height: 25pt;
@@ -314,7 +314,7 @@ input[type="color"] {
 
 /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */ /* CHARACTERS */
 .ACinfo {
-  background-color: var(--bg-color-1);
+  background-color: var(--bg-primary);
 }
 .ACinfoitemcard {
   font-weight: bold;
@@ -389,17 +389,17 @@ input[type="color"] {
 .ACinfoitemtitle4,
 .ACinfoitemtitle5,
 .ACinfoitemtitle6 {
-  color: var(--text-color-1a);
+  color: var(--text-on-primary);
 }
 .ACinfoitemtext {
-  color: var(--text-color-1b);
+  color: var(--text-on-secondary);
   line-height: 15pt;
   font-style: italic;
   font-weight: 300;
 }
 
 .AC {
-  background-color: var(--bg-color-3);
+  background-color: var(--bg-secondary);
 }
 
 .ACmythseavalancheinttitle,
@@ -520,19 +520,18 @@ input[type="color"] {
 }
 
 .ACcardtitle {
-  color: var(--text-color-2a);
-  font-family: "Montserrat", "Noto Sans JP", sans-serif;
-  font-size: var(--Fs-ContentTitle);
+  color: var(--text-on-brand);
+  font-family: var(--font-layout);
   font-weight: bold;
 }
 .ACitem {
-  color: var(--text-color-3b);
+  color: var(--text-on-secondary);
 }
 .aboutseparator {
-  background-color: var(--bg-color-1);
+  background-color: var(--bg-primary);
 }
 .aboutseparatorimg1 {
-  border-color: var(--C-Seava_Yellowb);
+  border-color: var(--text-on-primary);
 }
 @media only screen and (max-width: 800px) {
   .aboutherotitle {
