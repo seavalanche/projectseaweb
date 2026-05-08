@@ -24,12 +24,19 @@ import { useTheme } from "../components/ThemeContext";
 import { useLocalization } from '../localization/hooks/useLocalization';
 import { Link } from 'react-router-dom';
 import '../styles/Characters.css'
+// import characterData from '../character-data.json';
+// import CharacterCard2 from '../components/CharacterCard2.js'
 
 function About() {
     const { theme } = useTheme();
     const { t } = useLocalization();
     return (
         <div>
+                    {/* <div style={{ padding: '20px', display: 'flex', flexWrap: 'wrap' }}>
+          {characterData.map((char, index) => (
+            <CharacterCard2 key={index} character={char} />
+          ))}
+        </div> */}
             <div className={`ACinfo ${theme || "light"}`}>
                 <div className='ACinfoitem'>
                     <div className='ACinfoitemcard'>

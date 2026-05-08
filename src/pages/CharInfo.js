@@ -1,66 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import CharacterCard from "../components/CharacterCard";
+import characterData from '../character-data.json';
 import { HashLink } from 'react-router-hash-link';
 import '../styles/CharInfo.css';
 import { useLocalization } from '../localization/hooks/useLocalization';
 
 function CharInfo() {
-  const { t, language } = useLocalization();
-
-  const [characters, setCharacters] = useState([]);
-  useEffect(() => {
-    async function loadCharacters() {
-      const res = await fetch(`${process.env.PUBLIC_URL}/characters/index.json`);
-      const ids = await res.json();
-
-      const loadedCharacters = await Promise.all(
-        ids.map(async (id) => {
-          // Fetch base data
-          const baseRes = await fetch(`${process.env.PUBLIC_URL}/characters/${id}/data.json`);
-          const baseData = await baseRes.json();
-
-          // Fetch selected language file
-          const localeRes = await fetch(`${process.env.PUBLIC_URL}/characters/${id}/locales/${language}.json`);
-          const localeData = await localeRes.json();
-
-          // Merge them
-          const charData = {
-            ...baseData,
-            ...localeData
-          };
-
-          return {
-            ...charData,
-            profilePicture: `${process.env.PUBLIC_URL}/characters/${id}/${charData.profilePicture}`,
-            profilePicture2: `${process.env.PUBLIC_URL}/characters/${id}/${charData.profilePicture2}`,
-            artworks: charData.artworks.map((art) => ({
-              ...art,
-              src: `${process.env.PUBLIC_URL}/characters/${id}/artworks/${art.src}`
-            })),
-            tradearts: charData.tradearts.map((art) => ({
-              ...art,
-              src: `${process.env.PUBLIC_URL}/characters/${id}/tradearts/${art.src}`
-            })),
-            collabarts: charData.collabarts.map((art) => ({
-              ...art,
-              src: `${process.env.PUBLIC_URL}/characters/${id}/collabarts/${art.src}`
-            })),
-            giftarts: charData.giftarts.map((art) => ({
-              ...art,
-              src: `${process.env.PUBLIC_URL}/characters/${id}/giftarts/${art.src}`
-            })),
-            commarts: charData.commarts.map((art) => ({
-              ...art,
-              src: `${process.env.PUBLIC_URL}/characters/${id}/commarts/${art.src}`
-            }))
-          };
-        })
-      );
-
-      setCharacters(loadedCharacters);
-    } loadCharacters();
-  }, [language]);
-
+  // const { t, language } = useLocalization();
+  const { t } = useLocalization();
+  const characters = characterData;
   characters.map(character => (
     <CharacterCard key={character.id} character={character} />
   ))
@@ -137,7 +85,8 @@ function CharInfo() {
         >
           {characters.map((char, idx) => (
             <HashLink key={idx} to={`#${char.id}`} className="charinfo-icon">
-              <img src={char.profilePicture2} alt={char.name} />
+              <img
+                src={`${process.env.PUBLIC_URL}/${char.profilePicture2}`} alt={char.name} />
               <div className='charinfo-name'>{char.name}</div>
             </HashLink>
           ))}

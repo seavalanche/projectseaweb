@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useLocalization } from '../localization/hooks/useLocalization';
 import { useRef } from 'react';
+// import ReactMarkdown from 'react-markdown';
 
 function CharacterCard({ character }) {
     const { t, language } = useLocalization();
@@ -48,13 +49,13 @@ function CharacterCard({ character }) {
                     <div className='charcard-content-main'>
                         <div className='charcard-contentA'>
                             <div className='charcard-contentA1'>
-                                <img className='charcardPFP' src={character.profilePicture} alt={character.name} />
+                                <img className='charcardPFP' src={`${process.env.PUBLIC_URL}/${character.profilePicture}`} alt={character.name} />
                                 <div className='charcardName'>{character.name}</div>
-                                <div className='charcardAltName'>{character.alternateName && (<span>{character.alternateName}</span>)}</div>
+                                <div className='charcardAltName'>{character.alternate_name && (<span>{character.alternate_name}</span>)}</div>
                             </div>
                             <div className='charcard-contentA2'>
                                 <div className='charcardProp'>{t("charcard.gender")}</div>
-                                <div className={`charcardValue ${character.genderColor}`}>{character.gender}</div>
+                                <div className={`charcardValue ${character.gender}`}>{character.gender}</div>
                                 <div className='charcardProp'>{t("charcard.species")}</div>
                                 <div className='charcardValue'>{character.species}</div>
                                 <div className='charcard-contentA2-WH'>
@@ -68,7 +69,15 @@ function CharacterCard({ character }) {
                                     </div>
                                 </div>
                                 <div className='charcardProp'>{t("charcard.createdDate")}</div>
-                                <div className='charcardValue'>{character.createdDate}</div>
+                                <div className='charcardValue'>
+                                    {character.created_date
+                                        ? new Intl.DateTimeFormat('en-GB', {
+                                            day: 'numeric',
+                                            month: 'long',
+                                            year: 'numeric'
+                                        }).format(new Date(character.created_date))
+                                        : 'N/A'}
+                                </div>
                                 <div className='charcardProp charcardAttributes'>{t("charcard.attributes")}</div>
                                 {/* Attributes */}
                                 <div className="charcardAttributes">
@@ -103,22 +112,22 @@ function CharacterCard({ character }) {
                                     <li className='charcardValue charcardpersonality'>
                                         <span className='charcardpersonality-label'>{t("charcard.personalityTraits")}</span>
                                         <span className="charcardpersonality-colon">:</span>
-                                        <span className='charcardpersonality-value'>{character.personalityTraits}</span>
+                                        <span className='charcardpersonality-value'>{character.traits}</span>
                                     </li>
                                     <li className='charcardValue charcardpersonality'>
                                         <span className='charcardpersonality-label'>{t("charcard.personalityValues")}</span>
                                         <span className="charcardpersonality-colon">:</span>
-                                        <span className='charcardpersonality-value'>{character.personalityValues}</span>
+                                        <span className='charcardpersonality-value'>{character.values}</span>
                                     </li>
                                     <li className='charcardValue charcardpersonality'>
                                         <span className='charcardpersonality-label'>{t("charcard.personalityFlaws")}</span>
                                         <span className="charcardpersonality-colon">:</span>
-                                        <span className='charcardpersonality-value'>{character.personalityFlaws}</span>
+                                        <span className='charcardpersonality-value'>{character.flaws}</span>
                                     </li>
                                     <li className='charcardValue charcardpersonality'>
                                         <span className='charcardpersonality-label'>{t("charcard.personalityQuirks")}</span>
                                         <span className="charcardpersonality-colon">:</span>
-                                        <span className='charcardpersonality-value'>{character.personalityQuirks}</span>
+                                        <span className='charcardpersonality-value'>{character.quirks}</span>
                                     </li>
                                 </ul>
                             </div>
@@ -134,12 +143,21 @@ function CharacterCard({ character }) {
                             <div className='charcard-contentB-parts'>
                                 <div className='charcardProp'>{t("charcard.abilities")}</div>
                                 <ul className='charcardValue'>
-                                    {(character.abilities).map((ability, idx) => {
-                                        const [abilityName, ...descParts] = ability.split(/[:：]/);
-                                        const abilityDesc = descParts.join(/[:：]/);
+                                    {/* 1. Convert string to array if necessary, or use as is if already an array */}
+                                    {(Array.isArray(character.abilities)
+                                        ? character.abilities
+                                        : (character.abilities ? character.abilities.split('\n').filter(line => line.trim().startsWith('-')) : [])
+                                    ).map((ability, idx) => {
+                                        // 2. Clean up the Markdown bullet and bold symbols from the string
+                                        const cleanAbility = ability.replace(/^-\s*\*\*/, '').replace(/\*\*/g, '');
+
+                                        // 3. Split by colon
+                                        const [abilityName, ...descParts] = cleanAbility.split(/[:：]/);
+                                        const abilityDesc = descParts.join(':');
+
                                         return (
                                             <li key={idx} className='charcard-move-list'>
-                                                <span className="charcard-move-name">{abilityName.trim()}</span>: {abilityDesc.trim()}
+                                                <span className="charcard-move-name">{abilityName?.trim()}</span>: {abilityDesc?.trim()}
                                             </li>
                                         );
                                     })}
@@ -148,12 +166,21 @@ function CharacterCard({ character }) {
                             <div className='charcard-contentB-parts even'>
                                 <div className='charcardProp'>{t("charcard.moves")}</div>
                                 <ul className='charcardValue'>
-                                    {(character.moves).map((move, idx) => {
-                                        const [moveName, ...descParts] = move.split(/[:：]/);
-                                        const moveDesc = descParts.join(/[:：]/);
+                                    {/* 1. Convert string to array if necessary, or use as is if already an array */}
+                                    {(Array.isArray(character.moves)
+                                        ? character.moves
+                                        : (character.moves ? character.moves.split('\n').filter(line => line.trim().startsWith('-')) : [])
+                                    ).map((move, idx) => {
+                                        // 2. Clean up the Markdown bullet and bold symbols from the string
+                                        const cleanMove = move.replace(/^-\s*\*\*/, '').replace(/\*\*/g, '');
+
+                                        // 3. Split by colon
+                                        const [moveName, ...descParts] = cleanMove.split(/[:：]/);
+                                        const moveDesc = descParts.join(':');
+
                                         return (
                                             <li key={idx} className='charcard-move-list'>
-                                                <span className="charcard-move-name">{moveName.trim()}</span>: {moveDesc.trim()}
+                                                <span className="charcard-move-name">{moveName?.trim()}</span>: {moveDesc?.trim()}
                                             </li>
                                         );
                                     })}
@@ -194,7 +221,7 @@ function CharacterCard({ character }) {
                                                 onClick={() => setSelectedArt(art)}
                                             >
                                                 <img
-                                                    src={art.src}
+                                                    src={`${process.env.PUBLIC_URL}/${art.src}`}
                                                     alt={art.caption[language] || art.caption.en}
                                                     className="charcard-art-thumb"
                                                 />
@@ -205,7 +232,7 @@ function CharacterCard({ character }) {
                                     {selectedArt && (
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
-                                                <img src={selectedArt.src} alt={selectedArt.caption[language] || selectedArt.caption.en} />
+                                                <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
                                                 <div className='charcard-art-preview-content-wrapper'>
                                                     <div className='charcardProp'>{selectedArt.title}</div>
                                                     <div className='charcardValue'>{selectedArt.caption[language] || selectedArt.caption.en}</div>
@@ -227,7 +254,7 @@ function CharacterCard({ character }) {
                                                 onClick={() => setSelectedArt(art)}
                                             >
                                                 <img
-                                                    src={art.src}
+                                                    src={`${process.env.PUBLIC_URL}/${art.src}`}
                                                     alt={art.caption[language] || art.caption.en}
                                                     className="charcard-art-thumb"
                                                 />
@@ -238,7 +265,7 @@ function CharacterCard({ character }) {
                                     {selectedArt && (
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
-                                                <img src={selectedArt.src} alt={selectedArt.caption[language] || selectedArt.caption.en} />
+                                                <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
                                                 <div className='charcard-art-preview-content-wrapper'>
                                                     <div className='charcardProp'>{selectedArt.title}</div>
                                                     <div className='charcardValue'>{selectedArt.caption[language] || selectedArt.caption.en}</div>
@@ -260,7 +287,7 @@ function CharacterCard({ character }) {
                                                 onClick={() => setSelectedArt(art)}
                                             >
                                                 <img
-                                                    src={art.src}
+                                                    src={`${process.env.PUBLIC_URL}/${art.src}`}
                                                     alt={art.caption[language] || art.caption.en}
                                                     className="charcard-art-thumb"
                                                 />
@@ -271,7 +298,7 @@ function CharacterCard({ character }) {
                                     {selectedArt && (
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
-                                                <img src={selectedArt.src} alt={selectedArt.caption[language] || selectedArt.caption.en} />
+                                                <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
                                                 <div className='charcard-art-preview-content-wrapper'>
                                                     <div className='charcardProp'>{selectedArt.title}</div>
                                                     <div className='charcardValue'>{selectedArt.caption[language] || selectedArt.caption.en}</div>
@@ -293,7 +320,7 @@ function CharacterCard({ character }) {
                                                 onClick={() => setSelectedArt(art)}
                                             >
                                                 <img
-                                                    src={art.src}
+                                                    src={`${process.env.PUBLIC_URL}/${art.src}`}
                                                     alt={art.caption[language] || art.caption.en}
                                                     className="charcard-art-thumb"
                                                 />
@@ -304,7 +331,7 @@ function CharacterCard({ character }) {
                                     {selectedArt && (
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
-                                                <img src={selectedArt.src} alt={selectedArt.caption[language] || selectedArt.caption.en} />
+                                                <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
                                                 <div className='charcard-art-preview-content-wrapper'>
                                                     <div className='charcardProp'>{selectedArt.title}</div>
                                                     <div className='charcardValue'>{selectedArt.caption[language] || selectedArt.caption.en}</div>
@@ -326,7 +353,7 @@ function CharacterCard({ character }) {
                                                 onClick={() => setSelectedArt(art)}
                                             >
                                                 <img
-                                                    src={art.src}
+                                                    src={`${process.env.PUBLIC_URL}/${art.src}`}
                                                     alt={art.caption[language] || art.caption.en}
                                                     className="charcard-art-thumb"
                                                 />
@@ -337,7 +364,7 @@ function CharacterCard({ character }) {
                                     {selectedArt && (
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
-                                                <img src={selectedArt.src} alt={selectedArt.caption[language] || selectedArt.caption.en} />
+                                                <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
                                                 <div className='charcard-art-preview-content-wrapper'>
                                                     <div className='charcardProp'>{selectedArt.title}</div>
                                                     <div className='charcardValue'>{selectedArt.caption[language] || selectedArt.caption.en}</div>

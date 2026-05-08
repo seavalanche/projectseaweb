@@ -1,0 +1,4917 @@
+[
+  {
+    "id": "mythseavalanche",
+    "profilePicture": "characters/mythseavalanche/pfp-mythseavalanche.png",
+    "profilePicture2": "characters/mythseavalanche/pfp-mythseavalanche.png",
+    "name": "Seavalanche",
+    "alternateName": "(Myth Seavalanche)",
+    "genderColor": "Female",
+    "attributes": [
+      "Aether",
+      "Nature",
+      "Magical"
+    ],
+    "artworks": [
+      {
+        "src": "characters/mythseavalanche/artworks/v04.jpg",
+        "title": "V04",
+        "caption": {
+          "en": "The original Myth Seavalanche reference sheet.",
+          "jp": "オリジナルMyth Seavalancheの設定画。"
+        }
+      },
+      {
+        "src": "characters/mythseavalanche/artworks/s169-seavalanche.webp",
+        "title": "S169 - Seavalanche",
+        "caption": {
+          "en": "Seavalanche at her abode.",
+          "jp": "Seavalancheの住処にて。"
+        }
+      },
+      {
+        "src": "characters/mythseavalanche/artworks/s170-some-nights.webp",
+        "title": "S170 - Some Nights",
+        "caption": {
+          "en": "Some nights do be sad.",
+          "jp": "ある夜は、やっぱり寂しくなる。"
+        }
+      },
+      {
+        "src": "characters/mythseavalanche/artworks/s178-myth-seavalanche.webp",
+        "title": "S178 - Myth Seavalanche",
+        "caption": {
+          "en": "Seavalanche profile at an angle.",
+          "jp": "斜めから見た神話Seavalancheの横顔。"
+        }
+      },
+      {
+        "src": "characters/mythseavalanche/artworks/s191-myth-seavalanche.webp",
+        "title": "S191 - Myth Seavalanche",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/mythseavalanche/artworks/s191-myth-seavalanche-dark.webp",
+        "title": "S191 - Myth Seavalanche",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/mythseavalanche/tradearts/af25-by-cerbthesquirrel-head-in-the-clouds-20250722.webp",
+        "title": "by CerbTheSquirrel (22 July 2025)",
+        "caption": {
+          "en": "Head in the Clouds",
+          "jp": "Head in the Clouds"
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/mythseavalanche/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/mythseavalanche/giftarts/by-bas-cha-20250406.webp",
+        "title": "by bas_cha (6 April 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/mythseavalanche/giftarts/by-enma-20250331-1.webp",
+        "title": "by Enma (31 March 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/mythseavalanche/giftarts/by-kohotokun-20260221.webp",
+        "title": "by KohotoKun (21 February 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/mythseavalanche/commarts/by-haineko-20250123.webp",
+        "title": "by Haineko (23 January 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": "(Myth Seavalanche)",
+    "portrait": "![[pfp-mythseavalanche.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Fox-cat creature",
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "1.4 m",
+    "weight": "40 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-01-06T00:00:00.000Z",
+    "status": "Alive",
+    "seavalanche": "",
+    "nameMeaning": "A combination of \"sea\" and \"avalanche\" meaning calm, deep, flowing, silent turbulence, and powerful.",
+    "storyPlotRole": "",
+    "bio": "Seavalanche is a white fox-cat creature with heterochromatic eyes, wore a golden necklace that has a gold stylized S-shaped pendant with a small heart attachment below it, matching her golden halo-like aether power concentrated on her back.\n\nIt is said that the world was incredibly peaceful when she existed. Seavalanche was seen as pure, bright, powerful, intelligent, and kind. But due to unknown factors, no one knows the exact appearance of the Myth Seavalanche anymore.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "determined, kind, cheery",
+    "values": "peace, kindness, honestly, loyalty",
+    "flaws": "too self-reliant, self-doubts, priority for others",
+    "quirks": "panic attack whenever she can't solve things",
+    "details": "",
+    "lifeBackground": "Seavalanche was a ruler of an unknown past in her world. Until someday, she somehow was overwhelmed by many unknown factors that ended up pressuring her to retreat. In her own non-physical abode, she stayed and tried to recover her energy.\n\nAt some point in her stay, she decided to split her energies into five and let them explore in her stead, which then she realized it will result in her fainting and fell unconscious for an undetermined time. Fate says she will wake up when her fragments needed her the most.",
+    "bodyShapeDescription": "Seavalanche is a fully white fox-cat creature with a light blue-tipped long slender tail. She has heterochromatic eyes, green on the right, yellow on the left. Her eyelashes is quite prominent with her already huge eyes in contrast to her small pink nose.\n\nShe wore a golden elongated oval ring chain necklace that has a gold stylized S-shaped pendant (also symbolized infinity) with a small heart attachment below it, matching her golden halo-like aether power concentrated on her back. She also wore an almost transparent pink piece of silk tulle fabric shaped like a bowtie with a trailing fabric on her left upper-arm.\n\nUnder her left ear, she wore a pink earring that doesn't puncture her ear at all using a heart-shaped clamp and it features a pink tassle at the end of it. Her hands are four digits paws, while her feet are three digits paws, both have paw pads on it.",
+    "abilities": "- **Permafrost Guard**: Seavalanche’s special ability to withstand and remain unaffected by even the most extreme cold temperatures, including those approaching absolute zero.\n- **Psionic Dash**: Seavalanche’s special ability to move to places in a short distance with no noticeable time delay.\n- **Hydroforce**: Seavalanche harnesses her water water attribute to manipulate any body of water. She can change the pressure of water to the point she can even wield any amount of water as a weapon.",
+    "moves": "- **Neural Implosion**: Seavalanche’s final option of psychic attack. A concentrated attack targeting the target’s brain. A psychic force so powerful it collapsed any neural functions of the target’s brain until it is destroyed.\n- **Divine Lightburst**: Seavalanche channels her fairy power to summon a concentrated beam of magical light, brimming with ethereal energy. This overwhelmingly powerful beam is able to obliterate any obstacles in its path. It Radiating with immensely beautiful colors that affects the mental of anyone experienced it. Those witnessed or struck by the beam find their resolve weakened and their desire to continue fighting dissipating.",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "seavalanche",
+    "profilePicture": "characters/seavalanche/pfp-seavalanche.png",
+    "profilePicture2": "characters/seavalanche/pfp-seavalanche.png",
+    "name": "Seavalanche",
+    "alternateName": "Vesnea Seavalanche Mode",
+    "genderColor": "Female",
+    "attributes": [
+      "Magical",
+      "Water",
+      "Psionic"
+    ],
+    "artworks": [
+      {
+        "src": "characters/seavalanche/artworks/d26-seavalanche-upscaled.webp",
+        "title": "D26 - Seavalanche",
+        "caption": {
+          "en": "The updated Seavalanche reference sheet.",
+          "jp": "最新版のSeavalanche設定資料。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/d15-seavalanche.webp",
+        "title": "D15 - Seavalanche",
+        "caption": {
+          "en": "Vesnea Seavalanche Mode, Vesnea, and Seava.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/o32-seavalanche.webp",
+        "title": "O32 - Seavalanche",
+        "caption": {
+          "en": "Vesnea Seavalanche Mode in a PMD Style icon.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s63-seavalanche-b.webp",
+        "title": "S63 - Seavalanche",
+        "caption": {
+          "en": "The original Seavalanche artwork.",
+          "jp": "初期のSeavalancheのアートワーク。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s64-seavalanche.webp",
+        "title": "S64 - Seavalanche",
+        "caption": {
+          "en": "Seavalanche goes for a swim.",
+          "jp": "Seavalancheが泳ぎに行く。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s65-seavalanche.webp",
+        "title": "S65 - Seavalanche",
+        "caption": {
+          "en": "A whimsical Seavalanche.",
+          "jp": "気まぐれなSeavalanche。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s68-seavalanche-emote.webp",
+        "title": "S68 - Seavalanche emote",
+        "caption": {
+          "en": "A Seavalanche emote.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s85-seavalanche-dark.webp",
+        "title": "S85 - Seavalanche",
+        "caption": {
+          "en": "Seavalanche's modest pose.",
+          "jp": "控えめなポーズのSeavalanche。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s128-seavalanche.webp",
+        "title": "S128 - Seavalanche",
+        "caption": {
+          "en": "Seavalanche showing the Magical power and the Water power.",
+          "jp": "Seavalancheが魔法の力と水の力を見せる。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s141-seavalanche.webp",
+        "title": "S141 - Seavalanche",
+        "caption": {
+          "en": "Seavalanche relaxing at a bar.",
+          "jp": "バーでくつろぐSeavalanche。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s157-seavalanche.webp",
+        "title": "S157 - Seavalanche",
+        "caption": {
+          "en": "Seavalanche waving.",
+          "jp": "手を振るSeavalanche。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s159-seavalanche.webp",
+        "title": "S159 - Seavalanche",
+        "caption": {
+          "en": "Seavalanche appeared behind a pillar.",
+          "jp": "柱の後ろから現れるSeavalanche。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s162-matching-clothes.webp",
+        "title": "S162 - Matching Clothes",
+        "caption": {
+          "en": "Seavalanche posing in a cute school uniform together with Vesnea and Seava.",
+          "jp": "SeavalancheがVesneaとセアヴァと一緒に可愛い制服姿でポーズをとる。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s173-seavalanche-day.webp",
+        "title": "S173 - Seavalanche Day",
+        "caption": {
+          "en": "Seavalanche hugging a sprigatito plush.",
+          "jp": "Seavalancheがニャオハのぬいぐるみを抱きしめている。"
+        }
+      },
+      {
+        "src": "characters/seavalanche/artworks/s200-vesnea-seavalanche.webp",
+        "title": "S200 - Vesnea's Seavalanche",
+        "caption": {
+          "en": "Seavalanche flies downward.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/seavalanche/tradearts/af24-by-tor-kl-seavalanche-20240730.webp",
+        "title": "by tor_kl (30 July 2024)",
+        "caption": {
+          "en": "Seavalanche.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/tradearts/af25-by-snappiq-swim,-but-the-swim-is-silent-20250717.webp",
+        "title": "by SnappiQ (17 July 2024)",
+        "caption": {
+          "en": "Swim, but the swim is silent.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/tradearts/af25-by-zombiepro89-a-carefree-swim-20250726.webp",
+        "title": "by Zombiepro89 (26 July 2025)",
+        "caption": {
+          "en": "A Carefree Swim.",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/seavalanche/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/seavalanche/giftarts/by-haineko-20230406.webp",
+        "title": "by Haineko (6 April 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-azshorark-20230606.webp",
+        "title": "by Azshorark (6 June 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-gabsudeyo-20230407.webp",
+        "title": "by Gabsudeyo (7 April 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-enma-20230407.webp",
+        "title": "by Enma (7 April 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-runway55-20230610.webp",
+        "title": "by Runway55 (10 June 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-enma-20240330.webp",
+        "title": "by Enma (30 March 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-super-ex1-20240330.webp",
+        "title": "by super_EX1 (30 March 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-haineko-20240406.webp",
+        "title": "by Haineko (6 April 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-arshina-20240607.webp",
+        "title": "by Arshina (7 June 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-azshorark-20241231-2.webp",
+        "title": "by Azshorark (31 December 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seavalanche/giftarts/by-azshorark-20250106.webp",
+        "title": "by Azshorark (6 January 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/seavalanche/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Mode",
+    "alternate_name": "Vesnea Seavalanche Mode",
+    "parent": "[[Vesnea]]",
+    "portrait": "![[pfp-seavalanche.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Fox-like creature",
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "1.8 m",
+    "weight": "55 kg",
+    "created_date": "2023-03-31T00:00:00.000Z",
+    "status": "Alive",
+    "vesneaSeavalancheMode": "",
+    "nameMeaning": "An anagram of Seavalanche. \"Vesna\" is a feminine goddess in Slavic mythology. Sea + Avalanche. Calm and Powerful.",
+    "storyPlotRole": "",
+    "bio": "It is said that when Vesnea reached the power of the Myth Seavalanche, she will look more elegant and powerful. She gained a part of Seava’s power in dire times.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "gentle, cheerful, kind, hopeful",
+    "values": "accepted by others, giving others kindness",
+    "flaws": "self-doubts, priority for others",
+    "quirks": "overthinking even the smallest thing",
+    "details": "",
+    "lifeBackground": "Vesnea woke up at a forest border, near the ocean, saved by an elderly. Losing her memories, she continued her life without any purpose other than trying to learn about herself. Along the way, she found out that she somehow feel connected with the three colorful cats that were also saved by the elderly.",
+    "bodyShapeDescription": "Vesnea is a fox-like creature with flippers as her hands and a heart-tipped mermaid tail. Her pink hairs are flowy and graceful, while her foxy legs are small compared to her flippers. Her small fangs sometimes are visible when she smiles.",
+    "abilities": "- **Levitation**: Seavalanche uses her psychic power to levitate.\n- **Telekinesis**: Seavalanche uses her psychic power to move things around.\n- **Water Breathing**: Seavalanche uses her water power to swim with no effort and can breath underwater.\n- **Aqua Regeneration**: Seavalanche can harness the innate power of water to heal her physical wounds and restore her vitality. This power accelerate her body’s natural healing processes, even able to heal from severe cuts and bruises.",
+    "moves": "- **Glacial Cataclysm**: Seavalanche lowers her surrounding temperature to extreme levels, creating an immense and rapidly expanding ice field. Massive ice formations and blizzards to materialize. Seavalanche channels an overwhelming psychic force to hurl these icy masses and freezing winds toward the target, engulfing everything in its path and leaving a frozen wasteland in its wake.\n- **Scice Barrage**: Seavalanche formed multiple Scice, each formed with razor-sharp tips. With a command, the multiple Scice take turns lashing out at the target in rapid succession, creating a continuous and unrelenting barrage of icy strikes. The relentless assault overwhelms the target, battering them from all directions with chilling precision.\n- **Psychic Maelstrom**: Seavalanche unleashes multiple powerful psychic waves relentlessly battering targets’ mind.\n- **Tidal Force**: Seavalanche shoot a massively high-pressure stream of water from one of her flipper. It is said to be able to bore hole into a mountain.\n- **Lumina Burst**: Seavalanche channels her fairy power to summon a concentrated beam of magical light, brimming with ethereal energy. The light radiates a dazzling brightness so intense it’s capable of piercing through darkness and obliterating obstacles in its path.",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "seava",
+    "profilePicture": "characters/seava/pfp-seava.png",
+    "profilePicture2": "characters/seava/pfp-seava.png",
+    "name": "Seava",
+    "alternateName": "(Ascended form)",
+    "genderColor": "Genderless",
+    "attributes": [
+      "Water",
+      "Psionic"
+    ],
+    "artworks": [
+      {
+        "src": "characters/seava/artworks/d05.webp",
+        "title": "D05",
+        "caption": {
+          "en": "Seava's Updated Reference Sheet.",
+          "jp": "Seavaの最新設定資料。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/d01-seava-ref-v1.webp",
+        "title": "D01 - Seava Ref v1",
+        "caption": {
+          "en": "The original Seava Normal Form reference sheet.",
+          "jp": "Seavaの通常形態の初期設定資料。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/d02-design-2.webp",
+        "title": "D02 - Design 2",
+        "caption": {
+          "en": "The original Seava Child Form reference.",
+          "jp": "Seava Child Formの初期設定資料。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/d03.webp",
+        "title": "D03",
+        "caption": {
+          "en": "The original Seava Ascended Form reference sketch.",
+          "jp": "Seava Ascended Formの初期スケッチ。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/d04.webp",
+        "title": "D04",
+        "caption": {
+          "en": "A cropped full face drawing of Seava.",
+          "jp": "Seavaの顔をアップにしたイラスト。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/d07-ko-fi-commission-banner-dark.webp",
+        "title": "D07 - Ko-fi commission banner",
+        "caption": {
+          "en": "The original commission banner drawn with Vesnea.",
+          "jp": "Vesneaと一緒に描かれた元のコミッションバナー。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/d09-seava-pixelart-enlarged.webp",
+        "title": "D09 - Seava pixelart",
+        "caption": {
+          "en": "The first ever pixelart of Seava.",
+          "jp": "Seavaの初めてのドット絵。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/d11-commission-banner-v2.webp",
+        "title": "D11 - Commission Banner v2",
+        "caption": {
+          "en": "A commission banner design of Seava and Vesnea.",
+          "jp": "SeavaとVesneaのコミッションバナーデザイン。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/d15-seavalanche.webp",
+        "title": "D15 - Seavalanche",
+        "caption": {
+          "en": "Vesnea Seavalanche Mode, Vesnea, and Seava.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/artworks/o07-small-seava.webp",
+        "title": "O07 - Small Seava",
+        "caption": {
+          "en": "It's a portrait of Seava.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/artworks/o31-seava-af-128-normal.webp",
+        "title": "O31 - Seava (Ascended Form)",
+        "caption": {
+          "en": "Seava in a PMD style portrait (Ascended Form)",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/artworks/o31-seava-af3-128-normal.webp",
+        "title": "O31 - Seava (Ascended Form) alt",
+        "caption": {
+          "en": "Seava in a PMD style portrait (Ascended Form)",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/artworks/o31-seava-cf-128-normal.webp",
+        "title": "O31 - Seava (Child Form)",
+        "caption": {
+          "en": "Seava in a PMD style portrait (Child Form)",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/artworks/o31-seava-nf-128-normal.webp",
+        "title": "O31 - Seava (Normal Form)",
+        "caption": {
+          "en": "Seava in a PMD style portrait (Normal Form)",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s04-fear-karin.webp",
+        "title": "S04 - Fear Karin",
+        "caption": {
+          "en": "Seava Child Form bitten playfully by Karin the Fennekin (Katsuro Kurosaki's OC).",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s10-katsuro-birthday.webp",
+        "title": "S10 - Katsuro Birthday",
+        "caption": {
+          "en": "Seava Normal Form carrying Karin the Fennekin (Katsuro Kurosaki's OC).",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s39-seava.webp",
+        "title": "S39 - Seava",
+        "caption": {
+          "en": "Seava with a comfy cloak!",
+          "jp": "快適なマントを身に着けたSeava！"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s49-frost-force.webp",
+        "title": "S49 - Frost Force",
+        "caption": {
+          "en": "Seava uses Frost Force.",
+          "jp": "Seavaがフロスト・フォースを使用。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s57-seava-500x406px-optimized.gif",
+        "title": "S57 - Seava",
+        "caption": {
+          "en": "The first animation with Seava.",
+          "jp": "Seavaが登場する初めてのアニメーション。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s59-seava.webp",
+        "title": "S59 - Seava",
+        "caption": {
+          "en": "Seava in a forest setting.",
+          "jp": "森の中にいるSeava。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s62-seava.webp",
+        "title": "S62 - Seava",
+        "caption": {
+          "en": "Seava with his power aura.",
+          "jp": "力のオーラをまとったSeava。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s69-takeaway-food.webp",
+        "title": "S69 - Takeaway Food",
+        "caption": {
+          "en": "Nom Nom!",
+          "jp": "もぐもぐタイム！"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s106-exude-power.webp",
+        "title": "S106 - Exude Power",
+        "caption": {
+          "en": "Seava levitating with his powerful aura.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s124-seavas-scice-optimized.gif",
+        "title": "S124 - Seava's Scice",
+        "caption": {
+          "en": "Seava using Frost Force from the converted Scice.",
+          "jp": "変形したスサイスからフロスト・フォースを使うSeava。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s135-fabulous-seava-a.webp",
+        "title": "S135 - Fabulous Seava",
+        "caption": {
+          "en": "Seava in a fabulous outfit.",
+          "jp": "華やかな衣装のSeava。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s156-seava-and-uzakon.webp",
+        "title": "S156 - Seava and Uzakon",
+        "caption": {
+          "en": "Seava pats Uzakon on the head.",
+          "jp": "SeavaがUzakonの頭をなでている。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s161-seava.webp",
+        "title": "S161 - Seava",
+        "caption": {
+          "en": "Seava is leaning on a road sign.",
+          "jp": "道標にもたれかかるSeava。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s162-matching-clothes.webp",
+        "title": "S162 - Matching Clothes",
+        "caption": {
+          "en": "Seava posing in a cute school uniform together with Seavalanche and Vesnea.",
+          "jp": "SeavaがSeavalancheとVesneaと一緒に可愛い制服姿でポーズをとる。"
+        }
+      },
+      {
+        "src": "characters/seava/artworks/s182-seava.webp",
+        "title": "S182 - Seava",
+        "caption": {
+          "en": "It's a portrait of Seava.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/seava/tradearts/by-noko-20221128.webp",
+        "title": "by Noko (28 November 2022)",
+        "caption": {
+          "en": "Seava and Noko (Nokosansan's OC).",
+          "jp": "Seava"
+        }
+      },
+      {
+        "src": "characters/seava/tradearts/a04-noko-and-seava.webp",
+        "title": "A04 - Noko and Seava",
+        "caption": {
+          "en": "Seava and Noko (Nokosansan's OC).",
+          "jp": "Seava"
+        }
+      },
+      {
+        "src": "characters/seava/tradearts/by-enma-20240801.webp",
+        "title": "by Enma (1 August 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/tradearts/af25-by-ailia-seava-20250801.webp",
+        "title": "by Ailia (1 August 2025)",
+        "caption": {
+          "en": "Seava.",
+          "jp": "Seava."
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/seava/collabarts/b01-noko-and-seava.webp",
+        "title": "B01 - Noko and Seava",
+        "caption": {
+          "en": "Drawn by Nokosansan and Vesnea. Featuring Seava and Noko (Nokosansan's OC).",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/collabarts/b01-noko-and-seava-cropped.webp",
+        "title": "B01 - Noko and Seava (cropped)",
+        "caption": {
+          "en": "Drawn by Nokosansan and Vesnea. Featuring Seava and Noko (Nokosansan's OC).",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/seava/giftarts/by-zazie-20220113.webp",
+        "title": "by Zazie (13 January 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-mystic-20220406.webp",
+        "title": "by Mystic (6 April 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-glcwinter-20220406.webp",
+        "title": "by glcwinter (6 April 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-sleepy64--20220406.webp",
+        "title": "by Sleepy64_ (6 April 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-teknoss-20220410.webp",
+        "title": "by Teknoss (10 April 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-noko-20220607.webp",
+        "title": "by Nokosansan (7 June 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-kohotokun-20220608.webp",
+        "title": "by KohotoKun (8 June 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-noko-20220704.webp",
+        "title": "by Nokosansan (4 July 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-noko-20220710.webp",
+        "title": "by Nokosansan (10 July 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-kohotokun-20220809.webp",
+        "title": "by KohotoKun (9 August 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-azshorark-20221003.webp",
+        "title": "by Azshorark (3 October 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-noko-20221003-2.webp",
+        "title": "by Nokosansan (3 October 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-noko-20221024-1.webp",
+        "title": "by Nokosansan (24 October 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-azshorark-20250106.webp",
+        "title": "by Azshorark (6 October 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-noko-20221206.webp",
+        "title": "by Nokosansan (6 December 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-noko-and-vesnea-20221224-cropped.webp",
+        "title": "by Nokosansan (24 December 2022) (cropped)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/q01-seava-and-vesnea-by-sasa.webp",
+        "title": "by Sasa (13 June 2023)",
+        "caption": {
+          "en": "Seava and Vesnea",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-enma-20240119.webp",
+        "title": "by Enma (19 January 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-olyester-20240130.webp",
+        "title": "by Olyester (30 January 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-super-ex1-20240227-1.webp",
+        "title": "by super_EX1 (27 February 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/giftarts/by-mia-mafu-20240305.webp",
+        "title": "by mia_mafu (5 March 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/seava/commarts/by-qatoqat-commissioned-by-ruzik-20220507.webp",
+        "title": "by qatoqat (7 May 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/commarts/by-catsbell-commissioned-by-vesnea-20230126.webp",
+        "title": "by Catsbell (26 January 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seava/commarts/by-haineko-20231121.webp",
+        "title": "by Haineko (21 November 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": "Ascended Form",
+    "portrait": "![[pfp-seava.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Fox-like creature",
+    "gender": "Genderless Ø",
+    "pronouns": [
+      "He/Him",
+      "She/Her"
+    ],
+    "height": "1.6 m",
+    "weight": "50 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2021-10-29T00:00:00.000Z",
+    "status": "Alive",
+    "seavaseravyn": "",
+    "nameMeaning": "A short version of Seavalanche",
+    "storyPlotRole": "",
+    "bio": "The village he protected were calling Seava as the Myth Seavalanche’s descendant. Seava is determined and always ready to help whoever needed the help. It is said that even the fiercest foe would cower under the appearance of him.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "logical, optimistic, willpower and determined, strong",
+    "values": "accepted by others, protecting everyone he cares",
+    "flaws": "constant self doubts, inner turbulence",
+    "quirks": "overthinking even the smallest thing",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "- **Levitation**: Seava uses his psychic power to levitate.\n- **Telekinesis**: Seava uses his psychic power to move things around.\n- **Psyche Soothe**: Seava’s innate ability to heal his mental injuries. This ability will numb any sensations from any injuries for the stretch of a battle, promoting heightened focus to end a battle. A Lengthened use of this ability will strain Seava after the battle.\n- **Aquatic Veil**: When Seava is underwater, he can summon a shimmering veil of air bubbles that surrounds his head. The bubble veil is created by his fairy and water aura, sustained by a gentle psychic force, glows with a soft, ethereal light, allowing him to breath effortlessly underwater. His psychic power protect him from extreme pressure underwater. The fairy power of the veil enhances his focus and clarity.\n- **Aqua Soothe**: Seava’s innate ability to heal his physical injuries. A small amount of restorative water washes over the affected area, promoting faster recovery and providing immediate relief. This ability will not help if the wound is bad and deep.",
+    "moves": "- **Frost Force**: Seava lowers his surrounding temperature until it is cold enough that ice forms, then pushes all of it using his psychic power towards the target.\n- **Scice Attack**: Seava uses the Scice to attack. It could bash, slash, wrap, or even change form into showers become Frost Force.\n- **Psychic Maelstrom**: Seava unleashes multiple powerful psychic waves relentlessly battering targets’ mind.\n- **Aqua Freeze**: Seava shoot a concentrated high-pressure stream of very cold water from his mouth or between two of his paws.",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "seavatm",
+    "profilePicture": "characters/seavatm/pfp-seavatm.png",
+    "profilePicture2": "characters/seavatm/pfp-seavatm.png",
+    "name": "Seava",
+    "alternateName": "Tempest Mode",
+    "genderColor": "Genderless",
+    "attributes": [
+      "Electric",
+      "Wind",
+      "Water",
+      "Psionic"
+    ],
+    "artworks": [
+      {
+        "src": "characters/seavatm/artworks/v02.jpg",
+        "title": "V02",
+        "caption": {
+          "en": "Seava Tempest Mode's reference sheet.",
+          "jp": "SeavaのTempest Modeの設定資料です。"
+        }
+      },
+      {
+        "src": "characters/seavatm/artworks/s166-seava-tempest-mode.webp",
+        "title": "S166 - Seava Tempest Mode",
+        "caption": {
+          "en": "Seava Tempest Mode.",
+          "jp": "SeavaのTempest Mode。"
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/seavatm/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/seavatm/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/seavatm/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/seavatm/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Mode",
+    "alternate_name": "Tempest Mode",
+    "parent": "[[Seava-Seravyn]]",
+    "portrait": "![[pfp-seavatm.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Fox-like creature",
+    "gender": "Genderless Ø",
+    "pronouns": [
+      "He/Him",
+      "She/Her"
+    ],
+    "height": "1.6 m",
+    "weight": "50 kg",
+    "created_date": "2025-01-03T00:00:00.000Z",
+    "status": "Alive",
+    "seavaTempestMode": "",
+    "nameMeaning": "A short version of Seavalanche. Tempest is to symbolize the turbulence in Seava's heart. But Seava chose to overpower and control the turbulence instead of letting it loose.",
+    "storyPlotRole": "",
+    "bio": "Seava gained the power of Storm and it affected his form. His eyes glow bright yellow while the Scice become jagged and even more pointy. In this form, Seava is more focused on overpowering and controlling any obstacles more of because he is afraid of the uncertainty if it wasn't.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "",
+    "values": "",
+    "flaws": "",
+    "quirks": "",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "-",
+    "moves": "-",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "seavazm",
+    "profilePicture": "characters/seavazm/pfp-seavazm.png",
+    "profilePicture2": "characters/seavazm/pfp-seavazm.png",
+    "name": "Seava",
+    "alternateName": "Zephyr Mode",
+    "genderColor": "Genderless",
+    "attributes": [
+      "Wind",
+      "Water",
+      "Psionic"
+    ],
+    "artworks": [
+      {
+        "src": "characters/seavazm/artworks/v03.jpg",
+        "title": "V03",
+        "caption": {
+          "en": "Seava Zephyr Mode's reference sheet.",
+          "jp": "SeavaのZephyr Modeの設定資料です。"
+        }
+      },
+      {
+        "src": "characters/seavazm/artworks/s168-seava-zephyr-mode.webp",
+        "title": "S168 - Seava Zephyr Mode",
+        "caption": {
+          "en": "Seava Zephyr Mode.",
+          "jp": "Zephyr Mode。"
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/seavazm/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/seavazm/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/seavazm/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/seavazm/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Mode",
+    "alternate_name": "Zephyr Mode",
+    "parent": "[[Seava-Seravyn]]",
+    "portrait": "![[pfp-seavazm.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Fox-like creature",
+    "gender": "Genderless Ø",
+    "pronouns": [
+      "He/Him",
+      "She/Her"
+    ],
+    "height": "1.6 m",
+    "weight": "50 kg",
+    "created_date": "2025-01-05T00:00:00.000Z",
+    "status": "Alive",
+    "seavaZephyrMode": "",
+    "nameMeaning": "A short version of Seavalanche. Zephyr is to symbolize the turbulence in Seava's heart. But Seava chose to accept it and flow with it.",
+    "storyPlotRole": "",
+    "bio": "Seava Zephyr Mode is achieved when Seava has accepted his state of uncertainty. In this mode, Seava gained the ability to move more gently and subtly like a calm wind, or move more aggressively like a strong wind.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "",
+    "values": "",
+    "flaws": "",
+    "quirks": "",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "-",
+    "moves": "-",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "seravyn",
+    "profilePicture": "characters/seravyn/pfp-seravyn.png",
+    "profilePicture2": "characters/seravyn/pfp-seravyn.png",
+    "name": "Seravyn",
+    "alternateName": "",
+    "genderColor": "Genderless",
+    "attributes": [
+      "Water",
+      "Psionic"
+    ],
+    "artworks": [
+      {
+        "src": "characters/seravyn/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/seravyn/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/seravyn/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/seravyn/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/seravyn/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-seravyn.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Fox-like creature",
+    "gender": "Genderless Ø",
+    "pronouns": [
+      "He/Him",
+      "She/Her"
+    ],
+    "height": "1.5 m",
+    "weight": "45 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": null,
+    "status": "Alive",
+    "seravyn": "",
+    "nameMeaning": "A combination of \"Serene\" and \"wave\", with a soft -yn ending. A graceful turbulence, like a calm wave carrying hidden strength.",
+    "storyPlotRole": "",
+    "bio": "The village he protected were calling Seava as the Myth Seavalanche’s descendant. Seava is determined and always ready to help whoever needed the help. It is said that even the fiercest foe would cower under the appearance of him.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "logical, optimistic, willpower and determined, strong",
+    "values": "accepted by others, protecting everyone he cares",
+    "flaws": "constant self doubts, inner turbulence",
+    "quirks": "overthinking even the smallest thing",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "-",
+    "moves": "-",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "vesnea",
+    "profilePicture": "characters/vesnea/pfp-vesnea.png",
+    "profilePicture2": "characters/vesnea/pfp-vesnea.png",
+    "name": "Vesnea",
+    "alternateName": "",
+    "genderColor": "Female",
+    "attributes": [
+      "Magical",
+      "Water"
+    ],
+    "artworks": [
+      {
+        "src": "characters/vesnea/artworks/d25-vesnea-ref-design.webp",
+        "title": "D25 - Vesnea Ref Design",
+        "caption": {
+          "en": "The updated Vesnea reference sheet.",
+          "jp": "更新されたVesneaの参考シートです。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/d25-vesnea-ref-design2.webp",
+        "title": "D25 - Vesnea Ref Design",
+        "caption": {
+          "en": "The updated Vesnea reference sheet.",
+          "jp": "更新されたVesneaの参考シートです。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/d27-vesnea-clothing-ref-only-clothing-updated1.webp",
+        "title": "D27 - Vesnea Clothing Ref",
+        "caption": {
+          "en": "The Vesnea's Casual Clothing reference sheet.",
+          "jp": "Vesneaの普段着の参考シートです。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/d06-dark-theme.webp",
+        "title": "D06",
+        "caption": {
+          "en": "The original Vesnea reference sheet.",
+          "jp": "オリジナルのVesnea参考シートです。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/d07-ko-fi-commission-banner-dark.webp",
+        "title": "D07 - Ko-fi commission banner",
+        "caption": {
+          "en": "The original commission banner drawn with Seava.",
+          "jp": "Seavaと一緒に描かれた最初のコミッションバナーです。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/d08-vesnea-pixelart-effect-bg.webp",
+        "title": "D08 - Vesnea pixelart",
+        "caption": {
+          "en": "The first time Vesnea was drawn in pixelart style.",
+          "jp": "Vesneaがピクセルアートで初めて描かれた作品です。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/d11-commission-banner-v2.webp",
+        "title": "D11 - Commission Banner v2",
+        "caption": {
+          "en": "A commission banner design of Seava and Vesnea.",
+          "jp": "SeavaとVesneaのコミッションバナーデザインです。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/d15-seavalanche.webp",
+        "title": "D15 - Seavalanche",
+        "caption": {
+          "en": "Vesnea Seavalanche Mode, Vesnea, and Seava.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/o02-vesnea.webp",
+        "title": "O02 vesnea",
+        "caption": {
+          "en": "Vesnea laying down.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/o07-small-vesnea.webp",
+        "title": "O07 - Small Vesnea",
+        "caption": {
+          "en": "It's a portrait of Vesnea.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/o30-vesnea-128.webp",
+        "title": "O30 - Vesnea",
+        "caption": {
+          "en": "Vesnea in a PMD style portrait.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/o30-vesnea-128-angry.webp",
+        "title": "O30 - Vesnea (Angry)",
+        "caption": {
+          "en": "Vesnea in a PMD style portrait (angry).",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/o30-vesnea-128-crying.webp",
+        "title": "O30 - Vesnea (Crying)",
+        "caption": {
+          "en": "Vesnea in a PMD style portrait (crying).",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/o48-valentine-vesnea.webp",
+        "title": "O48 - Valentine Vesnea",
+        "caption": {
+          "en": "Vesnea offering a heart-shaped box of chocolate.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s12.webp",
+        "title": "S12",
+        "caption": {
+          "en": "The first ever Vesnea artwork after the original reference sheet.",
+          "jp": "オリジナル参考シートの後、最初に描かれたVesneaのアートワークです。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s13-vesnea.webp",
+        "title": "S13 - Vesnea",
+        "caption": {
+          "en": "Vesnea on the stairway.",
+          "jp": "階段にいるVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s16-vesnea.webp",
+        "title": "S16 - Vesnea",
+        "caption": {
+          "en": "Vesnea at a beach.",
+          "jp": "ビーチにいるVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s20-vesnea.webp",
+        "title": "S20 - Vesnea",
+        "caption": {
+          "en": "Vesnea with starry background.",
+          "jp": "星空を背景にしたVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s24-vesnea.webp",
+        "title": "S24 - Vesnea",
+        "caption": {
+          "en": "Vesnea portrait with a big open mouth smile.",
+          "jp": "口を大きく開けて笑っているVesneaのポートレート。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s30-vesnea.webp",
+        "title": "S30 - Vesnea",
+        "caption": {
+          "en": "A chibi-style Vesnea with a cute costume.",
+          "jp": "かわいい衣装を着たちびVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s31-vesnea.webp",
+        "title": "S31 - Vesnea",
+        "caption": {
+          "en": "Vesnea in a girly tennis costume.",
+          "jp": "ガーリーなテニス衣装のVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s35-vesnea-wipa.webp",
+        "title": "S35a - Vesnea",
+        "caption": {
+          "en": "Vesnea waving, drawn from the back.",
+          "jp": "後ろ姿で手を振るVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s35-vesnea-wipb.webp",
+        "title": "S35b - Vesnea",
+        "caption": {
+          "en": "Vesnea waving at the camera.",
+          "jp": "カメラに向かって手を振るVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s38-vesnea.webp",
+        "title": "S38 - Vesnea",
+        "caption": {
+          "en": "Vesnea jumping happily.",
+          "jp": "楽しそうにジャンプするVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s44-vesnea.webp",
+        "title": "S44 - Vesnea",
+        "caption": {
+          "en": "Vesnea with her small Seava plush.",
+          "jp": "小さなSeavaのぬいぐるみを持つVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s47-vesnea.webp",
+        "title": "S47 - Vesnea",
+        "caption": {
+          "en": "Vesnea politely let someone pass.",
+          "jp": "誰かに道を譲る礼儀正しいVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s48-vesnea.webp",
+        "title": "S48 - Vesnea",
+        "caption": {
+          "en": "Vesnea doing some cute dance.",
+          "jp": "かわいいダンスを踊るVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s50-vesnea.webp",
+        "title": "S50 - Vesnea",
+        "caption": {
+          "en": "Vesnea cutely sitting down.",
+          "jp": "かわいく座っているVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s51-vesnea-optimized.gif",
+        "title": "S51 - Vesnea",
+        "caption": {
+          "en": "Vesnea in various maid dress colors.",
+          "jp": "さまざまなメイド服カラーのVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s52-vesnea.webp",
+        "title": "S52 - Vesnea",
+        "caption": {
+          "en": "Vesnea open both flippers.",
+          "jp": "両方のヒレを広げるVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s53-vesnea.webp",
+        "title": "S53 - Vesnea",
+        "caption": {
+          "en": "Vesnea doing some modern pose.",
+          "jp": "現代風のポーズをとるVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s54-vesnea-optimized.gif",
+        "title": "S54 - Vesnea",
+        "caption": {
+          "en": "The first Vesnea animation!",
+          "jp": "初めてのVesneaアニメーション！"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s55-vesnea-wip3-optimized.gif",
+        "title": "S55 - Vesnea",
+        "caption": {
+          "en": "Vesnea jump skip her own tail.",
+          "jp": "自分のしっぽを飛び越えるVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s58-vesnea.webp",
+        "title": "S58 - Vesnea",
+        "caption": {
+          "en": "Vesnea in a cyberpunk setting.",
+          "jp": "サイバーパンク風のVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s60-vesnea.webp",
+        "title": "S60 - Vesnea",
+        "caption": {
+          "en": "Vesnea in an apocalypse setting.",
+          "jp": "終末世界のVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s61-vesnea.webp",
+        "title": "S61 - Vesnea",
+        "caption": {
+          "en": "A closeup of Vesnea.",
+          "jp": "Vesneaのクローズアップ。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s75-vesnea-b.webp",
+        "title": "S75 - Vesnea",
+        "caption": {
+          "en": "Vesnea on a big pink heart background.",
+          "jp": "大きなピンクのハート背景のVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s79-vesnea-optimized.gif",
+        "title": "S79 - Vesnea",
+        "caption": {
+          "en": "Vesnea waving to the right with both flippers.",
+          "jp": "右側に両ヒレで手を振るVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s84-vesnea-varc-b2-dark.webp",
+        "title": "S84 - Vesnea",
+        "caption": {
+          "en": "Vesnea clasped both flippers to the heart.",
+          "jp": "胸に両ヒレを当てているVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s91-tea-party-style-vesnea.webp",
+        "title": "S91 - Tea Party Style Vesnea",
+        "caption": {
+          "en": "Vesnea in the Tea Party Style outfit.",
+          "jp": "ティーパーティースタイルの衣装を着たVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s92-blep-vesnea.webp",
+        "title": "S92 - Blep Vesnea",
+        "caption": {
+          "en": "Blepppppp.",
+          "jp": "べろ〜ん。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s94-vesnea.webp",
+        "title": "S94 - Vesnea",
+        "caption": {
+          "en": "Vesnea angled down and put both arms to the side.",
+          "jp": "下を向いて両腕を横に広げたVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s97-vesnea-star.webp",
+        "title": "S97 - Vesnea",
+        "caption": {
+          "en": "Vesnea Star!",
+          "jp": "Vesneaスター！"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s98-vesnea-see-you.webp",
+        "title": "S98 - Vesnea",
+        "caption": {
+          "en": "Vesnea is looking at you~",
+          "jp": "Vesneaがあなたを見つめてる〜"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s99-vesnea.webp",
+        "title": "S99 - Vesnea",
+        "caption": {
+          "en": "UwU Vesnea.",
+          "jp": "うるうるVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s100-vesnea.webp",
+        "title": "S100 - Vesnea",
+        "caption": {
+          "en": "Vesnea relaxing.",
+          "jp": "リラックスしているVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s102-vesnea.webp",
+        "title": "S102 - Vesnea",
+        "caption": {
+          "en": "Vesnea in a cute outfit.",
+          "jp": "かわいい服を着たVesnea。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/instagram-s103-behind-wall-b.webp",
+        "title": "S103 - Behind Wall",
+        "caption": {
+          "en": "Vesnea is behind the wall!",
+          "jp": "Vesneaが壁の後ろにいるよ！"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s104b.webp",
+        "title": "S104 - Deep Sadness",
+        "caption": {
+          "en": "Vesnea has felt one of the deepest sadness in her life.",
+          "jp": "Vesneaは人生で最も深い悲しみの一つを感じている。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s114-vesnea.webp",
+        "title": "S114 - Vesnea",
+        "caption": {
+          "en": "Vesnea is deep in thoughts.",
+          "jp": "Vesneaは深く考え込んでいる。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s117-vesnea.webp",
+        "title": "S117 - Vesnea",
+        "caption": {
+          "en": "Hey! I have a cute pink ribbon and a cute pink gold bracelet!",
+          "jp": "ねえ！かわいいピンクのリボンとピンクゴールドのブレスレットがあるよ！"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s120-vesnea.webp",
+        "title": "S120 - Vesnea",
+        "caption": {
+          "en": "Woah!",
+          "jp": "わあっ！"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s129-vesnea.webp",
+        "title": "S129 - Vesnea",
+        "caption": {
+          "en": "Hehe~",
+          "jp": "えへへ〜"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s136-vesnea-optimized.gif",
+        "title": "S136 - Vesnea",
+        "caption": {
+          "en": "Look there!",
+          "jp": "見て見て、あそこだよ！"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s138-vesnea-pattern-newpink.webp",
+        "title": "S138 - Vesnea",
+        "caption": {
+          "en": "Vesnea's modest pose.",
+          "jp": "Vesneaの控えめなポーズ。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s160-vesnea.webp",
+        "title": "S160 - Vesnea",
+        "caption": {
+          "en": "Woah, what are these?",
+          "jp": "わあ、これ何？"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s162-matching-clothes.webp",
+        "title": "S162 - Matching Clothes",
+        "caption": {
+          "en": "Vesnea posing in a cute school uniform together with Seavalanche and Seava.",
+          "jp": "VesneaがSeavalancheとSeavaと一緒にかわいい制服でポーズしている。"
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s184-vesnea.webp",
+        "title": "S184 - Vesnea",
+        "caption": {
+          "en": "Vesnea is posing in a very cute way!",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s188-christmas-vesnea.webp",
+        "title": "S188 - Christmas Vesnea",
+        "caption": {
+          "en": "Vesnea is in a Christmas Festive vibe!",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/s201-vesnea.webp",
+        "title": "S201 - Vesnea",
+        "caption": {
+          "en": "An artwork of Vesnea on a park, beside a pond.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/artworks/v06-vesnea.webp",
+        "title": "V06 - Vesnea",
+        "caption": {
+          "en": "An artwork of Vesnea following the sea wave.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/vesnea/tradearts/af24-d02-vesnea-by-misspiggyf381-20240714.webp",
+        "title": "by misspiggyf381 (14 July 2024)",
+        "caption": {
+          "en": "Vesnea.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/tradearts/af24-d04-vesnea-by-plussol-20240723.webp",
+        "title": "by Plussol (23 July 2024)",
+        "caption": {
+          "en": "Vesnea.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/tradearts/af24-d05a-vesnea-by-mozonite-20240723-2.webp",
+        "title": "by Mozonite (23 July 2024)",
+        "caption": {
+          "en": "Vesnea.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/tradearts/af24-d05b-vesnea-by-mozonite-20240723.webp",
+        "title": "by Mozonite (23 July 2024)",
+        "caption": {
+          "en": "Vesnea.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/tradearts/af24-d06-vesnea-by-smollcutefenne-20240730.webp",
+        "title": "by SmollCuteFenne (30 July 2024)",
+        "caption": {
+          "en": "Vesnea.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/tradearts/af24-d10-vesnea-by-lerunechka-20240802.webp",
+        "title": "by Lerunechka (2 August 2024)",
+        "caption": {
+          "en": "Vesnea.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/tradearts/af25-by-greninjaxsylveonlove-vesnea!-20250717.webp",
+        "title": "by GreninjaxSylveonlove (17 July 2025)",
+        "caption": {
+          "en": "Vesnea!",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/tradearts/af25-by-stoakadora-vesnea-the-cutie-20250717.webp",
+        "title": "by Stoakadora (17 July 2025)",
+        "caption": {
+          "en": "Vesnea the cutie.",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/vesnea/collabarts/b05-valentine-group-art.webp",
+        "title": "B05 - Valentine Group Art",
+        "caption": {
+          "en": "A group art featuring Vesnea! (Two Vesnea, somehow)",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/vesnea/giftarts/by-olyester-20220621.webp",
+        "title": "by Olyester (21 June 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-noko-20220803.webp",
+        "title": "by Nokosansan (3 August 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-noko-20220814.webp",
+        "title": "by Nokosansan (14 August 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-noko-20221003-2.webp",
+        "title": "by Nokosansan (3 October 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-noko-20221024-1.webp",
+        "title": "by Nokosansan (24 October 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-noko-20221121.webp",
+        "title": "by Nokosansan (21 November 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-zazie-20221215.webp",
+        "title": "by Zazie (15 December 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-noko-and-vesnea-20221224-cropped.webp",
+        "title": "by Nokosansan (24 December 2022) (cropped)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-noko-20230113-cropped.webp",
+        "title": "by Nokosansan (13 January 2023) (cropped)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-super-ex1-20230227.webp",
+        "title": "by super_EX1 (27 February 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-opggtalk-20230406.webp",
+        "title": "by opggtalk (6 April 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-snowy-20230506.webp",
+        "title": "by Snowy (6 May 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-laguthongx-20230522.webp",
+        "title": "by LaguThongX (22 May 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-sasa-20230613.webp",
+        "title": "by Sasa (13 June 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-opggtalk-20230630.webp",
+        "title": "by opggtalk (30 June 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-laguthongx-20230705.webp",
+        "title": "by LaguThongx (5 July 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-shinyprowl-20230826.webp",
+        "title": "by Shinyprowl (26 August 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-shinyprowl-20230827.webp",
+        "title": "by Shinyprowl (27 August 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-shinyprowl-20230827-2.webp",
+        "title": "by Shinyprowl (27 August 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-mia-mafu-20230915.webp",
+        "title": "by mia_mafu (15 September 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-enma-20230923-1.webp",
+        "title": "by Enma (23 September 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-super-ex1-20231225.webp",
+        "title": "by super_EX1 (25 December 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-shinyprowl-20240219.webp",
+        "title": "by Shinyprowl (19 February 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-shinyprowl-20240222.webp",
+        "title": "by Shinyprowl (22 February 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-mystic-20240306.webp",
+        "title": "by Mystic (6 March 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-super-ex1-20240406.webp",
+        "title": "by super_EX1 (6 April 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-laguthongx-20240423.webp",
+        "title": "by LaguThongx (23 April 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-pryexel48-20240424.webp",
+        "title": "by Pryexel48 (24 April 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by Unifantingchan - 20240528 2.png",
+        "title": "by Unifantingchan (28 May 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-derpycloud11731-20240603.webp",
+        "title": "by DerpyCloud11731 (3 June 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-arshina-20240607.webp",
+        "title": "by Arshina (7 June 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-arshina-20240608-1.webp",
+        "title": "by Arshina (8 June 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-super-ex1-20240623.webp",
+        "title": "by super_EX1 (23 June 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-mia-mafu-20240722-optimized.gif",
+        "title": "by mia_mafu (22 July 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-laguthongx-20240802.webp",
+        "title": "by LaguThongx (2 August 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-bunnymagika-20241023.webp",
+        "title": "by Bunnymagika (23 October 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-super-ex1-20241117.webp",
+        "title": "by super_EX1 (17 November 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-shinyprowl-20241224.webp",
+        "title": "by Shinyprowl (24 December 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-super-ex1-20241225.webp",
+        "title": "by super_EX1 (25 December 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-azhorark-20241231.webp",
+        "title": "by Azhorark (31 December 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-azshorark-20250106.webp",
+        "title": "by Azshorark (6 January 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-super-ex1-20250406.webp",
+        "title": "by super_EX1 (6 April 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-mia-mafu-20250501.webp",
+        "title": "by mia_mafu (1 May 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-enma-20251006.webp",
+        "title": "by Enma (6 Oct 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-shinyprowl-20251030.webp",
+        "title": "by Shinyprowl (30 October 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-enma-20251127.webp",
+        "title": "by Enma (27 November 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-princey-via-discord-secret-santa-20251225.webp",
+        "title": "by princey (25 December 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-super-ex1-20251226.webp",
+        "title": "by super_EX1 (26 December 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-kohotokun-20260406.webp",
+        "title": "by KohotoKun (6 April 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-enma-20260406.webp",
+        "title": "by Enma (6 April 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/by-super_ex1-20260406.webp",
+        "title": "by super_EX1 (6 April 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/vesnea/commarts/by-mystic-commissioned-by-vesnea-20220620.webp",
+        "title": "by Mystic (20 June 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by-kumedu-20220916.webp",
+        "title": "by Kumedu (16 September 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by-haineko-commissioned-by-vesnea-20221018.webp",
+        "title": "by Haineko (18 October 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by-haineko-20221018-2.webp",
+        "title": "by Haineko (18 October 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by Shual commissioned by Vesnea - 20221023 1.png",
+        "title": "by Shual (23 October 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by-haineko-20221230.webp",
+        "title": "by Haineko (30 December 2022)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by-nakiko-commissioned-by-ruzik-20230101.webp",
+        "title": "by Nakiko (1 January 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by-catsbell-commissioned-by-vesnea-20230126.webp",
+        "title": "by Catsbell (26 January 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by-haineko-20230228.webp",
+        "title": "by Haineko (28 February 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by-yurano-commissioned-by-vesnea-20230531.webp",
+        "title": "by Yurano (31 May 2023)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/by-水無月-20240423-1.webp",
+        "title": "by 水無月 (23 April 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesnea/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-vesnea.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Fox-like creature",
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "1.2 m",
+    "weight": "35 kg",
+    "forms": null,
+    "modes": [
+      "[[Vesnea Blossom Mode]]"
+    ],
+    "created_date": "2022-05-22T00:00:00.000Z",
+    "status": "Alive",
+    "vesnea": "",
+    "nameMeaning": "An anagram of Seavalanche. \"Vesna\" is a feminine goddess in Slavic mythology.",
+    "storyPlotRole": "",
+    "bio": "Vesnea is being called the kindest of the village when she was brought in by an elderly. She would offer help to whoever she thought needed it. Cheery as she is, everyone would feel better after a hard day around her.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "gentle, cheerful, kind, hopeful",
+    "values": "accepted by others, giving others kindness",
+    "flaws": "self-doubts, priority for others",
+    "quirks": "overthinking even the smallest thing",
+    "details": "",
+    "lifeBackground": "Vesnea woke up at a forest border, near the ocean, saved by an elderly. Losing her memories, she continued her life without any purpose other than trying to learn about herself. Along the way, she found out that she somehow feel connected with the three colorful cats that were also saved by the elderly.",
+    "bodyShapeDescription": "Vesnea is a fox-like creature with flippers as her hands and a heart-tipped mermaid tail. Her pink hairs are flowy and graceful, while her foxy legs are small compared to her flippers. Her small fangs sometimes are visible when she smiles.",
+    "abilities": "- **Water Breathing**: Vesnea can swim with no effort and can breath underwater.\n- **Aqua Regeneration**: Vesnea can harness the innate power of water to heal her physical wounds and restore her vitality. This power accelerate her body’s natural healing processes, even able to heal from severe cuts and bruises.\n- **Semi-levitation**: Vesnea’s innate ability of levitation using fairy power, but she can only use it in a short time in a short distance.",
+    "moves": "- **Aqua Blast**: Vesnea shoot a concentrated high-pressure stream of water from her mouth or between two of her flippers.\n- **Fairy Bubble Barrage**: Vesnea conjures a flurry of magical water bubbles infused with her fairy attribute. When these bubbles hit the target, they release a calming energy that soothes and pacifies, making the opponent lose their will to fight and promoting peace.",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "vesneabm",
+    "profilePicture": "characters/vesneabm/pfp-vesneabm.png",
+    "profilePicture2": "characters/vesneabm/pfp-vesneabm.png",
+    "name": "Vesnea",
+    "alternateName": "Blossom Mode",
+    "genderColor": "Female",
+    "attributes": [
+      "Magical",
+      "Nature"
+    ],
+    "artworks": [
+      {
+        "src": "characters/vesneabm/artworks/v01.jpg",
+        "title": "V01",
+        "caption": {
+          "en": "Vesnea Blossom Mode's reference sheet.",
+          "jp": "VesneaのBlossom Modeの設定資料です。"
+        }
+      },
+      {
+        "src": "characters/vesneabm/artworks/s165-vesnea-blossom-mode.jpg",
+        "title": "S165 - Vesnea Blossom Mode",
+        "caption": {
+          "en": "Vesnea Blossom Mode.",
+          "jp": "VesneaのBlossom Mode。"
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/vesneabm/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/vesneabm/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/vesneabm/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/vesneabm/commarts/by-haineko-20250300.webp",
+        "title": "by Haineko (March 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesneabm/commarts/by-haineko-20251225.webp",
+        "title": "by Haineko (25 December 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Mode",
+    "alternate_name": "Blossom Mode",
+    "parent": "[[Vesnea]]",
+    "portrait": "![[pfp-vesneabm.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Fox-like creature",
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "1.2 m",
+    "weight": "35 kg",
+    "created_date": "2024-12-31T00:00:00.000Z",
+    "status": "Alive",
+    "vesneaBlossomMode": "",
+    "nameMeaning": "An anagram of Seavalanche. \"Vesna\" is a feminine goddess in Slavic mythology.",
+    "storyPlotRole": "",
+    "bio": "Vesnea is being called the kindest of the village when she was brought in by an elderly. She would offer help to whoever she thought needed it. Cheery as she is, everyone would feel better after a hard day around her.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "gentle, cheerful, kind, hopeful",
+    "values": "accepted by others, giving others kindness",
+    "flaws": "self-doubts, priority for others",
+    "quirks": "overthinking even the smallest thing",
+    "details": "",
+    "lifeBackground": "Vesnea woke up at a forest border, near the ocean, saved by an elderly. Losing her memories, she continued her life without any purpose other than trying to learn about herself. Along the way, she found out that she somehow feel connected with the three colorful cats that were also saved by the elderly.",
+    "bodyShapeDescription": "Vesnea is a fox-like creature with flippers as her hands and a heart-tipped mermaid tail. Her pink hairs are flowy and graceful, while her foxy legs are small compared to her flippers. Her small fangs sometimes are visible when she smiles.",
+    "abilities": "- **Water Breathing**: Vesnea can swim with no effort and can breath underwater.\n- **Aqua Regeneration**: Vesnea can harness the innate power of water to heal her physical wounds and restore her vitality. This power accelerate her body’s natural healing processes, even able to heal from severe cuts and bruises.\n- **Semi-levitation**: Vesnea’s innate ability of levitation using fairy power, but she can only use it in a short time in a short distance.",
+    "moves": "- **Aqua Blast**: Vesnea shoot a concentrated high-pressure stream of water from her mouth or between two of her flippers.\n- **Fairy Bubble Barrage**: Vesnea conjures a flurry of magical water bubbles infused with her fairy attribute. When these bubbles hit the target, they release a calming energy that soothes and pacifies, making the opponent lose their will to fight and promoting peace.",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "korazu",
+    "profilePicture": "characters/korazu/pfp-korazu.png",
+    "profilePicture2": "characters/korazu/pfp-korazu.png",
+    "name": "Korazu",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Light",
+      "Aether"
+    ],
+    "artworks": [
+      {
+        "src": "characters/korazu/artworks/d18-korazu,-uzakon,-and-zumiko-full-ref.webp",
+        "title": "D18 - Korazu, Uzakon, and Zumiko",
+        "caption": {
+          "en": "The original Seavalanche's Three Cats design.",
+          "jp": "Seavalancheの三匹の猫たちの元デザイン。"
+        }
+      },
+      {
+        "src": "characters/korazu/artworks/s113-korazu,-uzakon,-zumiko-wip2.webp",
+        "title": "S113 - Korazu, Uzakon, Zumiko",
+        "caption": {
+          "en": "The Seavalanche's Three Cats.",
+          "jp": "Seavalancheの三匹の猫たち。"
+        }
+      },
+      {
+        "src": "characters/korazu/artworks/s118-korazu.webp",
+        "title": "S118 - Korazu",
+        "caption": {
+          "en": "Korazu is licking a popsicle.",
+          "jp": "Korazuがアイスキャンディーをぺろぺろしている。"
+        }
+      },
+      {
+        "src": "characters/korazu/artworks/s133-korazu.webp",
+        "title": "S133 - Korazu",
+        "caption": {
+          "en": "Korazu on a cloud.",
+          "jp": "雲の上にいるKorazu。"
+        }
+      },
+      {
+        "src": "characters/korazu/artworks/s139-korazu-pattern.webp",
+        "title": "S139 - Korazu",
+        "caption": {
+          "en": "Korazu with a modest pose.",
+          "jp": "控えめなポーズのKorazu。"
+        }
+      },
+      {
+        "src": "characters/korazu/artworks/s158-korazu,-uzakon,-and-zumiko.webp",
+        "title": "S158 - Korazu, Uzakon, and Zumiko",
+        "caption": {
+          "en": "The Seavalanche's Three Cats.",
+          "jp": "Seavalancheの三匹の猫たち。"
+        }
+      },
+      {
+        "src": "characters/korazu/artworks/s163-elemental-power-full.webp",
+        "title": "S163 - Elemental Power",
+        "caption": {
+          "en": "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.",
+          "jp": "Korazuの太陽、Uzakonの月、Zumikoの火。"
+        }
+      },
+      {
+        "src": "characters/korazu/artworks/s190-korazu-uzakon-zumiko.webp",
+        "title": "S190 - Korazu Uzakon Zumiko",
+        "caption": {
+          "en": "Zumiko is playfully showing Uzakon's paw to Korazu.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/korazu/tradearts/by-ailia-20240719-1.webp",
+        "title": "by Ailia (19 July 2024)",
+        "caption": {
+          "en": "Seavalanche Three Cats",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/korazu/tradearts/by-hinawashi-20240801.webp",
+        "title": "by Hinawashi (1 August 2024)",
+        "caption": {
+          "en": "Seavalanche Three Cats",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/korazu/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/korazu/giftarts/by-spacecrow-20240907.webp",
+        "title": "by Spacecrow (7 September 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/korazu/commarts/by-haineko-20240910.webp",
+        "title": "by Haineko (10 September 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/korazu/commarts/by-水無月-20240423-1.webp",
+        "title": "by 水無月 (23 April 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/korazu/commarts/by-水無月-20240423-2.webp",
+        "title": "by 水無月 (23 April 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/korazu/commarts/by-水無月-20240513-1.webp",
+        "title": "by 水無月 (13 May 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/korazu/commarts/by-水無月-20240513-2.webp",
+        "title": "by 水無月 (13 May 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/korazu/commarts/by-水無月-20240703-1.webp",
+        "title": "by 水無月 (3 July 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/korazu/commarts/by-水無月-20240703-2.webp",
+        "title": "by 水無月 (3 July 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": "The Seavalanche Cats",
+    "portrait": "![[pfp-korazu.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Cat-bird creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "0.4 m",
+    "weight": "8 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2024-01-04T00:00:00.000Z",
+    "status": "Alive",
+    "korazu": "",
+    "nameMeaning": "An arrangement of the word “courage”",
+    "storyPlotRole": "",
+    "bio": "Korazu is a half cat, half bird creature that appeared around the time an elderly found Vesnea near a beach. Bearing the power of the sun, Korazu will use the burning courage to help the people he knows.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "brave, calm, determined",
+    "values": "values emotional control, avoids showing weakness",
+    "flaws": "suppresses emotions, struggles with vulnerability",
+    "quirks": "trembles while maintaining composure, hides fear physically",
+    "details": "",
+    "lifeBackground": "Together with Uzakon and Zumiko, he woke up at the edge of a forest, near a beach saved by an elderly from drowning. He doesn't remember anything but he had a feeling his name is Korazu. Along the way, he found out he felt connected with Uzakon and Zumiko, also Vesnea which was also saved by the elderly.",
+    "bodyShapeDescription": "Korazu is a half-cat, half-bird creature. Yellow fur adorning his body with one obvious tuft of fur on the tip of his left ear. His forehead has a sun mark and his tail is a bird tail. He also got a long tuft under his right ear, tidily secured with a hair band. Beside those, he also got a pair of bird wings. He wore a yellow neckband with a sun pendant on his neck and a orange ribbon on his right foreleg. Both the neckband and ribbon aren't real accessories as he was born with it and they can be missing when he lose his sense of self. Like Uzakon and Zumiko, he has a triangle mark near his left eye. Although his mark is on the upper of his eye.",
+    "abilities": "- **Levitation**: Celestial energy grants Korazu the ability of levitation.",
+    "moves": "- **Luminous Nova**: Korazu unleashes a radiant burst of solar energy, engulfing the area in a dazzling explosion of light. The brilliance of the Nova blinds and disorients any who gaze upon it, leaving them vulnerable to subsequent attacks. Objects unfortunate enough to be caught in its path are incinerated by the intense heat, reduced to ashes in the aftermath of the radiant onslaught. Luminous Nova showcases the overwhelming power of Korazu's connection to the Sun element, leaving a trail of destruction in its wake.\n- **Eternal Courage**: Korazu's boundless courage shines brightly, infusing his allies with unshakeable resolve and determination. Even in the darkest of moments, he stands firm, a beacon of unwavering bravery. This move not only emboldens allies with renewed vigor but also undermines the confidence of enemies, casting doubt upon their ability to challenge Korazu's eternal courage.\n- **Darkness Eraser**: Korazu radiates an intense, blinding light that reaches into every corner and shadow. This brilliant aura eradicates any trace of darkness, obliterating those with malicious intent with its overwhelming purity.",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "uzakon",
+    "profilePicture": "characters/uzakon/pfp-uzakon.png",
+    "profilePicture2": "characters/uzakon/pfp-uzakon.png",
+    "name": "Uzakon",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Darkness",
+      "Aether"
+    ],
+    "artworks": [
+      {
+        "src": "characters/uzakon/artworks/d18-korazu,-uzakon,-and-zumiko-full-ref.webp",
+        "title": "D18 - Korazu, Uzakon, and Zumiko",
+        "caption": {
+          "en": "The original Seavalanche's Three Cats design.",
+          "jp": "Seavalancheの三匹の猫たちの元デザイン。"
+        }
+      },
+      {
+        "src": "characters/uzakon/artworks/s113-korazu,-uzakon,-zumiko-wip2.webp",
+        "title": "S113 - Korazu, Uzakon, Zumiko",
+        "caption": {
+          "en": "The Seavalanche's Three Cats.",
+          "jp": "Seavalancheの三匹の猫たち。"
+        }
+      },
+      {
+        "src": "characters/uzakon/artworks/s116-uzakon.webp",
+        "title": "S116 - Uzakon",
+        "caption": {
+          "en": "Sleeping Uzakon.",
+          "jp": "眠っているUzakon。"
+        }
+      },
+      {
+        "src": "characters/uzakon/artworks/s134-uzakon-optimized.gif",
+        "title": "S134 - Uzakon",
+        "caption": {
+          "en": "Uzakon rotating 360 degrees.",
+          "jp": "Uzakonが360度回転している。"
+        }
+      },
+      {
+        "src": "characters/uzakon/artworks/s142-uzakon.webp",
+        "title": "S142 - Uzakon",
+        "caption": {
+          "en": "Nyehehehe.",
+          "jp": "にぇへへへ〜。"
+        }
+      },
+      {
+        "src": "characters/uzakon/artworks/s156-seava-and-uzakon.webp",
+        "title": "S156 - Uzakon",
+        "caption": {
+          "en": "Seava pats Uzakon on the head.",
+          "jp": "SeavaがUzakonの頭をなでている。"
+        }
+      },
+      {
+        "src": "characters/uzakon/artworks/s158-korazu,-uzakon,-and-zumiko.webp",
+        "title": "S158 - Korazu, Uzakon, and Zumiko",
+        "caption": {
+          "en": "The Seavalanche's Three Cats.",
+          "jp": "Seavalancheの三匹の猫たち。"
+        }
+      },
+      {
+        "src": "characters/uzakon/artworks/s163-elemental-power-full.webp",
+        "title": "S163 - Elemental Power",
+        "caption": {
+          "en": "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.",
+          "jp": "Korazuの太陽、Uzakonの月、Zumikoの火。"
+        }
+      },
+      {
+        "src": "characters/uzakon/artworks/s190-korazu-uzakon-zumiko.webp",
+        "title": "S190 - Korazu Uzakon Zumiko",
+        "caption": {
+          "en": "Zumiko is playfully showing Uzakon's paw to Korazu.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/uzakon/tradearts/by-darkneyfactory-20240714.webp",
+        "title": "by DarkneyFactory (14 July 2024)",
+        "caption": {
+          "en": "Uzakon",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/uzakon/tradearts/by-ailia-20240719-1.webp",
+        "title": "by Ailia (19 July 2024)",
+        "caption": {
+          "en": "Seavalanche Three Cats",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/uzakon/tradearts/by-hinawashi-20240801.webp",
+        "title": "by Hinawashi (1 August 2024)",
+        "caption": {
+          "en": "Seavalanche Three Cats",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/uzakon/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/uzakon/giftarts/by-enma-20240413.webp",
+        "title": "by Enma (13 April 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/uzakon/giftarts/by-spacecrow-20240907.webp",
+        "title": "by Spacecrow (7 September 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/uzakon/commarts/by-haineko-20240619.webp",
+        "title": "by Haineko (19 June 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/uzakon/commarts/by-水無月-20240513-1.webp",
+        "title": "by 水無月 (13 May 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/uzakon/commarts/by-水無月-20240513-2.webp",
+        "title": "by 水無月 (13 May 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/uzakon/commarts/by-水無月-20240703-1.webp",
+        "title": "by 水無月 (3 July 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/uzakon/commarts/by-水無月-20240703-2.webp",
+        "title": "by 水無月 (3 July 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": "The Seavalanche Cats",
+    "portrait": "![[pfp-uzakon.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Cat-bunny creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "0.4 m",
+    "weight": "8 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2024-01-04T00:00:00.000Z",
+    "status": "Alive",
+    "uzakon": "",
+    "nameMeaning": "An arrangement of Korazu’s name and also 根気 (perseverance).",
+    "storyPlotRole": "",
+    "bio": "Uzakon is a half cat, half bunny creature that appeared around the time an elderly found Vesnea near a beach. Bearing the power of the moon, Uzakon will use the steady calmness to help the people he knows.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "calm, reserved, patient and persistent",
+    "values": "a state of peace and calm",
+    "flaws": "sometimes his patience is crossing his own self-boundaries or his patience actually ran out and he is secretly annoyed by it",
+    "quirks": "often times just observing and not reacting",
+    "details": "",
+    "lifeBackground": "Together with Korazu and Zumiko, he woke up at the edge of a forest, near a beach saved by an elderly from drowning. He doesn't remember anything but he had a feeling his name is Uzakon. Along the way, he found out he felt connected with Korazu and Zumiko, also Vesnea which was also saved by the elderly.",
+    "bodyShapeDescription": "Uzakon is a half-cat, half-bunny creature. Purple fur adorning his body with two obvious tufts of fur on the tip of his left ear. His forehead has a crescent moon mark and his tail is a round bunny tail. His fur is noticeably longer than his counterparts, mostly visible near the joints. He wore a purple neckband with an almost-crescent pendant on his neck and a purple ribbon on his right foreleg. Both the neckband and ribbon aren't real accessories as he was born with it and they can be missing when he lose his sense of self. Like Korazu and Zumiko, he has a triangle mark near his left eye. Although his mark is below of his eye.",
+    "abilities": "- **Levitation**: Celestial energy grants Uzakon the ability of levitation.",
+    "moves": "- **Shadow Eclipse**: Uzakon conjures a cloak of darkness that eclipses the area, engulfing foes in a shroud of shadow. This darkness saps away at the strength and resolve of enemies, leaving them vulnerable and disoriented. Those caught within the Shadow Eclipse find their senses dulled and their movements slowed, making them easy prey for Uzakon's subsequent attacks. A more potent manifestation of this ability can even disintegrate objects caught in its path, leaving destruction in its wake.\n- **Dark Resilience**: Uzakon's unyielding perseverance manifests as a cloak of darkness, enveloping himself and allies in a shield of resilience. Despite the odds, he stands firm, inspiring those around him to endure even the darkest of trials. This move not only fortifies the resolve of allies but also casts doubt and shadows over enemies, weakening their morale and resolve to confront Uzakon's unwavering determination.\n- **Moonlight Beacon**: Uzakon harnesses the calming power of the moon to illuminate even the darkest paths, guiding those who seek his help toward safety and clarity. However, those with ill intent who follow Uzakon feel their strength and will drained, forcing them to abandon their malicious intentions.",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "zumiko",
+    "profilePicture": "characters/zumiko/pfp-zumiko.png",
+    "profilePicture2": "characters/zumiko/pfp-zumiko.png",
+    "name": "Zumiko",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Fire",
+      "Aether"
+    ],
+    "artworks": [
+      {
+        "src": "characters/zumiko/artworks/d18-korazu,-uzakon,-and-zumiko-full-ref.webp",
+        "title": "D18 - Korazu, Uzakon, and Zumiko",
+        "caption": {
+          "en": "The original Seavalanche's Three Cats design.",
+          "jp": "Seavalancheの三匹の猫たちの元デザイン。"
+        }
+      },
+      {
+        "src": "characters/zumiko/artworks/s113-korazu,-uzakon,-zumiko-wip2.webp",
+        "title": "S113 - Korazu, Uzakon, Zumiko",
+        "caption": {
+          "en": "The Seavalanche's Three Cats.",
+          "jp": "Seavalancheの三匹の猫たち。"
+        }
+      },
+      {
+        "src": "characters/zumiko/artworks/s115-zumiko.webp",
+        "title": "S115 - Zumiko",
+        "caption": {
+          "en": "Nom Nom!",
+          "jp": "もぐもぐ！"
+        }
+      },
+      {
+        "src": "characters/zumiko/artworks/s119-zumiko.webp",
+        "title": "S119 - Zumiko",
+        "caption": {
+          "en": "Zumiko with the stars.",
+          "jp": "星と一緒のZumiko。"
+        }
+      },
+      {
+        "src": "characters/zumiko/artworks/s145-zumiko.webp",
+        "title": "S145 - Zumiko",
+        "caption": {
+          "en": "Zumiko cutie.",
+          "jp": "かわいいZumiko。"
+        }
+      },
+      {
+        "src": "characters/zumiko/artworks/s151-zumiko.webp",
+        "title": "S151 - Zumiko",
+        "caption": {
+          "en": "Zumiko with a fashionable outfit.",
+          "jp": "おしゃれな服を着たZumiko。"
+        }
+      },
+      {
+        "src": "characters/zumiko/artworks/s158-korazu,-uzakon,-and-zumiko.webp",
+        "title": "S158 - Korazu, Uzakon, and Zumiko",
+        "caption": {
+          "en": "The Seavalanche's Three Cats.",
+          "jp": "Seavalancheの三匹の猫たち。"
+        }
+      },
+      {
+        "src": "characters/zumiko/artworks/s163-elemental-power-full.webp",
+        "title": "S163 - Elemental Power",
+        "caption": {
+          "en": "Korazu's Sun, Uzakon's Moon, Zumiko's Fire.",
+          "jp": "Korazuの太陽、Uzakonの月、Zumikoの火。"
+        }
+      },
+      {
+        "src": "characters/zumiko/artworks/s190-korazu-uzakon-zumiko.webp",
+        "title": "S190 - Korazu Uzakon Zumiko",
+        "caption": {
+          "en": "Zumiko is playfully showing Uzakon's paw to Korazu.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/zumiko/tradearts/by-ailia-20240719-1.webp",
+        "title": "by Ailia (19 July 2024)",
+        "caption": {
+          "en": "Seavalanche Three Cats",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/zumiko/tradearts/by-hinawashi-20240801.webp",
+        "title": "by Hinawashi (1 August 2024)",
+        "caption": {
+          "en": "Seavalanche Three Cats",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/zumiko/tradearts/af25-by-enma-zumiko-elegant-style!-20250723.webp",
+        "title": "by Enma (23 July 2025)",
+        "caption": {
+          "en": "Zumiko Elegant style!",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/zumiko/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/zumiko/giftarts/by-miamafu-20240115-1.webp",
+        "title": "by Miamafu (15 January 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/zumiko/giftarts/by-spacecrow-20240907.webp",
+        "title": "by Spacecrow (7 September 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/zumiko/giftarts/by-natsuneko-20240930.webp",
+        "title": "by Natsuneko (30 September 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/zumiko/commarts/by-haineko-20240214.webp",
+        "title": "by Haineko (14 February 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/zumiko/commarts/by-水無月-20240703-1.webp",
+        "title": "by 水無月 (3 July 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/zumiko/commarts/by-水無月-20240703-2.webp",
+        "title": "by 水無月 (3 July 2024)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/zumiko/commarts/by-haineko-20260401.webp",
+        "title": "by Haineko (1 April 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": "The Seavalanche Cats",
+    "portrait": "![[pfp-zumiko.png|40]]",
+    "story_role": "Protagonist",
+    "species": "Cat-dragon creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "0.4 m",
+    "weight": "8 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2024-01-04T00:00:00.000Z",
+    "status": "Alive",
+    "zumiko": "",
+    "nameMeaning": "An arrangement of Korazu’s name and also 望み (wish, desire, hope).",
+    "storyPlotRole": "",
+    "bio": "Zumiko is a half cat, half dragon creature that appeared around the time an elderly found Vesnea near a beach. Bearing the power of the stars, Zumiko will use the burning desire to help the people he knows.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "wishful, hopeful, optimistic, passionate",
+    "values": "joyful life",
+    "flaws": "sometimes his wishes are unrealistic",
+    "quirks": "often times ambitious",
+    "details": "",
+    "lifeBackground": "Together with Korazu and Uzakon, he woke up at the edge of a forest, near a beach saved by an elderly from drowning. He doesn't remember anything but he had a feeling his name is Zumiko. Along the way, he found out he felt connected with Korazu and Uzakon, also Vesnea which was also saved by the elderly.",
+    "bodyShapeDescription": "Zumiko is a half-cat, half-dragon creature. Pink fur adorning his body with three obvious tufts of fur on the tip of his left ear. His forehead has a four-tipped star mark that is hidden below his pink hair and his tail is a sharp draconic tail. He has a pair of pink draconic wings as well. \n\nHe wore a red bowtie with a four-tipped star pendant on top of the tie and a pink ribbon on his right foreleg. Both the neckband and ribbon aren't real accessories as he was born with it and they can be missing when he lose his sense of self. Like Korazu and Uzakon, he has a triangle mark near his left eye. Although his mark is on the side of his eye.",
+    "abilities": "- **Levitation**: Celestial energy grants Zumiko the ability of levitation.",
+    "moves": "- **Stellar Inferno**: Zumiko summons the power of the stars, igniting a blazing inferno that scorches everything in its path. Flames dance and swirl with celestial energy, incinerating foes and leaving devastation in their wake. Those caught within the Stellar Inferno are consumed by searing heat, their flesh burnt to cinders by the intensity of Zumiko's flames. Even objects in the vicinity are reduced to ash, swept away by the unstoppable force of the inferno.\n- **Infernal Passion**: Zumiko's fiery desire blazes like an inferno, infusing his and his allies with unstoppable passion. Fueled by the flames of his ambition, he inspires those around him to pursue their goals with relentless fervor and determination. This move not only ignites the spirits of allies but also instills fear and uncertainty in enemies, as they face the overwhelming force of Zumiko's burning passion for victory.\n- **Vacuum Flare**: Zumiko leaps through space, his left forepaw blazing with an ethereal flame. The trail left behind resembles a rift in the cosmos, revealing a star-filled night sky. The effects of this flame depend on the target those with pure hearts remain unharmed, their resolve strengthened to pursue their dreams. Those with ill intent, however, are scorched by its searing heat, forced to relive their most painful memories as the fire consumes them.",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "baldor",
+    "profilePicture": "characters/baldor/pfp-baldor.webp",
+    "profilePicture2": "characters/baldor/pfp-baldor.webp",
+    "name": "Baldor",
+    "alternateName": "",
+    "genderColor": "Genderless",
+    "attributes": [
+      "Nature"
+    ],
+    "artworks": [
+      {
+        "src": "characters/baldor/artworks/d30-design-baldor.jpg",
+        "title": "D30 - Design Baldor",
+        "caption": {
+          "en": "The original Baldor reference sheet.",
+          "jp": "Baldorのオリジナル設定資料。"
+        }
+      },
+      {
+        "src": "characters/baldor/artworks/s193-baldor-day.webp",
+        "title": "S193 - Baldor Day",
+        "caption": {
+          "en": "Baldor laying on a grass. Moss seems to have grew on him.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/baldor/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/baldor/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/baldor/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/baldor/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-baldor.webp|40]]",
+    "story_role": "Psychological Antagonist",
+    "species": "Boulder creature",
+    "gender": "Genderless Ø",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "5 m",
+    "weight": "60000 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-02-26T00:00:00.000Z",
+    "status": "Alive",
+    "baldor": "",
+    "nameMeaning": "comes from \"boulder\"",
+    "storyPlotRole": "Teaches Seava: True willpower",
+    "bio": "Baldor is a huge rock shaped like a big wall, composed of Basalt exterior with granite reinforcements and sandstone interior. Don't mess with him because even as huge and heavy as he is, he still can move quite fast with his two pillar-like arms beside him. He is very determined to outlast everything, even if hundreds of attackers fight him alone. With his root rocks, he also can't be toppled over by anyone except intentionally by himself.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "A huge rock creature shaped like a big wall. Two round eyes visible on top of the 5 meters body, it's as wide as 3 meters and as thick as 2 meters. There are two burly hands on the side of the wall, some vertical reinforcements as the makeshift legs on both left and right side, and roots below him for added support. The roots consists of rocks tied with tree roots. The body is a giant rock composed of a combination of basalt exterior with granite reinforcements, while the interior is composed of sandstone. Basalt is extremely tough and dense, likewise with granite which is also resistant to erosion. Sandstone inner structure provides unyielding defense from impacts.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "determined",
+    "values": "the validation of being useful",
+    "flaws": "stubborn, overconfidence",
+    "quirks": "stands firm despite anything",
+    "details": "",
+    "abilities": "- **Natural Heal**: Baldor's rock roots always sap energy from the soil whenever he is disengaged from combats, recovering his stamina and health in the process.",
+    "moves": "- **Topplover**: Baldor press his body against the target, using his massive weight as a damaging move.\n- **Pebble Shards**: Baldor summoned many sharp pebbles to pelt the target.\n- **Unmoving**: Baldor endures damage by hardening his body.\n- **Nature's Call**: Baldor summoned natural energy surrounding him to overpower the target.\n- **Explosion**: Baldor's ultimate move, the one he doesn't dare doing because it means he is sacrificing his life. He will embrace all the power within him and then shove all of it outward, creating an explosion which can also destroy his solid body in the process. He ultimately will never use this move because he is determined that he can withstand anything without resorting to this move.",
+    "storyPlotDetails": "* **Antagonist behavior**: Scoffed at Seava's weak willpower to do anything. After being pelted by countless of sharp pebbles, Seava got down and didn't think he could win.\n* **Demise**: Seava tries to warn Baldor of a massive storm comes in. But Baldor simply said he can tank anything. The storm swallowed Baldor and he got flung into the sky and fell down into pieces.\n* **Character Analysis**: \n\t- His size and weight make him terrifying—he’s not something you just \"dodge\" easily.\n\t- He forces Seava into a battle of endurance, not speed.\n\t- His overconfidence fits with this movement style: “I don’t NEED to move fast. You will break before I do.”\n\t- The storm completely negates his strategy—suddenly, he’s the one being moved, and he CAN’T stop it."
+  },
+  {
+    "id": "arna",
+    "profilePicture": "characters/arna/pfp-arna.webp",
+    "profilePicture2": "characters/arna/pfp-arna.webp",
+    "name": "Arna",
+    "alternateName": "",
+    "genderColor": "Female",
+    "attributes": [
+      "Magical"
+    ],
+    "artworks": [
+      {
+        "src": "characters/arna/artworks/d31-design-arna.jpg",
+        "title": "D31 - Design Arna",
+        "caption": {
+          "en": "The original Arna reference sheet.",
+          "jp": "Arnaのオリジナル設定資料。"
+        }
+      },
+      {
+        "src": "characters/arna/artworks/s172-arna.webp",
+        "title": "S172 - Arna",
+        "caption": {
+          "en": "Arna and her three Mini Arnas.",
+          "jp": "Arnaと3匹のミニArna。"
+        }
+      },
+      {
+        "src": "characters/arna/artworks/s194-arna-and-mini-arna-day.webp",
+        "title": "S194 - Arna and Mini Arna Day",
+        "caption": {
+          "en": "Arna and her three Mini Arnas.",
+          "jp": "Arnaと3匹のミニArna。"
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/arna/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/arna/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/arna/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/arna/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-arna.webp|40]]",
+    "story_role": "Psychological Antagonist",
+    "species": "Rabbit creature",
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "1 m",
+    "weight": "12 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-02-27T00:00:00.000Z",
+    "status": "Alive",
+    "arna": "",
+    "nameMeaning": "A portmanteau of the words 'care' and 'N/A'.",
+    "storyPlotRole": "**Teaches Vesnea**: Kindness to herself",
+    "bio": "*Write character bio here*",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "kindness",
+    "values": "Mini Arnas being safe, others' happiness",
+    "flaws": "extreme altruism",
+    "quirks": "kept giving to others despite harming herself",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "Arna's bunny body is completely covered with brilliant white fur aside from her pinkish ears. Her face is adorned with blood red eyes, coupled with her big bunny teeth. The ears are slightly longer than normal bunnies, so long that it can wrap around her neck like a scarf. At the end of her body, there is a short pink round tail and powerful bunny legs.",
+    "abilities": "- **Endless Heal**: Arna uses her life force to heal her three Mini Arnas, draining her own life. This is activated as long as her Mini Arnas use moves.",
+    "moves": "- **Instant Heal**: Arna focuses on one Mini Arna then gave him her focused healing power to heal him completely, tiring Arna more in the process.\n- **Shield**: Arna tries to endure damages using her long ears.\n- **Peace Call**: When Arna decided that all of them can't survive the battle, she will unleash the remainder of her magical power to calm everyone in the surroundings so they can escape.",
+    "storyPlotDetails": "**Story plot antagonist behavior**: Challenged Vesnea to not need to care about herself. She tried to convince Vesnea that as long as everyone around her is happy, she is happy.\n\n**Story plot demise**: Arna got pushed too hard by her subordinates to the point that she can't even breath anymore due to her life force kept being suck out to heal them."
+  },
+  {
+    "id": "miniarna",
+    "profilePicture": "characters/miniarna/pfp-arnamini.webp",
+    "profilePicture2": "characters/miniarna/pfp-arnamini.webp",
+    "name": "Mini Arna",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Magical"
+    ],
+    "artworks": [
+      {
+        "src": "characters/miniarna/artworks/d31-design-arna.jpg",
+        "title": "D31 - Design Arna",
+        "caption": {
+          "en": "The original Arna reference sheet.",
+          "jp": "Arnaのオリジナル設定資料。"
+        }
+      },
+      {
+        "src": "characters/miniarna/artworks/s172-arna.webp",
+        "title": "S172 - Arna",
+        "caption": {
+          "en": "Arna and her three Mini Arnas.",
+          "jp": "Arnaと3匹のミニArna。"
+        }
+      },
+      {
+        "src": "characters/miniarna/artworks/s194-arna-and-mini-arna-day.webp",
+        "title": "S194 - Arna and Mini Arna Day",
+        "caption": {
+          "en": "Arna and her three Mini Arnas.",
+          "jp": "Arnaと3匹のミニArna。"
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/miniarna/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/miniarna/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/miniarna/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/miniarna/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-arnamini.webp|40]]",
+    "story_role": "Psychological Antagonist",
+    "species": "Rabbit creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "0.5 m",
+    "weight": "4 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-02-27T00:00:00.000Z",
+    "status": "Alive",
+    "miniArna": "",
+    "nameMeaning": "A portmanteau of the words 'care' and 'N/A'. Mini means small version.",
+    "storyPlotRole": "",
+    "bio": "Three Mini Arnas usually accompany Arna. While the three of them look identical, they are separate beings with their own thoughts and personalities. One thing in common with the three is that they are all agreed with protecting Arna from danger. Despite Arna's frequent protests, the three Mini Arnas will endure any injuries if it means Arna will be safe.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "bold",
+    "values": "Arna being safe, winning anything",
+    "flaws": "impulsive",
+    "quirks": "doesn't overthink anything, just do it",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "Mini Arna's bunny body is completely covered with blood red fur, unlike Arna's brilliant white fur. In addition to that, their ears ended in jagged-edge with the same color to their body. Their face are adorned with brilliant white eyes, coupled with their big bunny teeth. At the end of their body, there is a short pink round tail and powerful bunny legs.",
+    "abilities": "- **Endless Block**: The Mini Arnas have special reflexes that always move to block an attack to protect Arna even if it means it will hurt them.",
+    "moves": "- **Shield**: Mini Arnas try to endure damages using their bodies.\n- **Unseen Hit**: Mini Arnas attack by kicking the target so fast that it looks like a blur. The more hit the target sustained, the more damage this move deals.\n- **Tactical Escape**: When the Mini Arnas decided they can't win a battle and Arna got hit badly, they will create a distraction using their speed so Arna can escape.",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "rakariki",
+    "profilePicture": "characters/rakariki/pfp-rakariki.webp",
+    "profilePicture2": "characters/rakariki/pfp-rakariki.webp",
+    "name": "Rakariki",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Electric"
+    ],
+    "artworks": [
+      {
+        "src": "characters/rakariki/artworks/d32-design-rakariki.jpg",
+        "title": "D32 - Design Rakariki",
+        "caption": {
+          "en": "The original Rakariki reference sheet.",
+          "jp": "Rakarikiのオリジナル設定資料。"
+        }
+      },
+      {
+        "src": "characters/rakariki/artworks/s195-rakariki-day.webp",
+        "title": "S195 - Rakariki Day",
+        "caption": {
+          "en": "Rakariki dashing with some sparks visible around him.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/rakariki/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/rakariki/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/rakariki/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/rakariki/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-rakariki.webp|40]]",
+    "story_role": "Psychological Antagonist",
+    "species": "Cat creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "0.6 m",
+    "weight": "10 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-02-27T00:00:00.000Z",
+    "status": "Alive",
+    "rakariki": "",
+    "nameMeaning": "Reckless",
+    "storyPlotRole": "Teaches Korazu: courage isn't about being fearless, but it's acting despite fear",
+    "bio": "Rakariki is a lean white-furred cat body adorned with yellow lightning stripes. He is a fearless cat due to his long winning streaks in his battles. That claim is proven by his lightning speed and his powerful lightning attack when it's raining. He has lightning-shaped fur on the tip of the ears and even the tail itself. He has a light blue collar on his neck and a yellow circle-shaped pendant as a physical proof of his courage.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "Rakariki has a lean white-furred cat body adorned with yellow lightning stripes. His face has bright yellow eyes, yellow nose, and small fangs visible even with mouth closed. He has lightning-shaped fur at the tip of the ears. And the tail itself looks like a lightning-shape. His feets are three toed paws with one big yellow pawpad. He has a light blue collar on his neck and a yellow circle-shaped pendant. The pendant has two parts, the smaller one looks like a ring, while the bigger one looks like a solid-shut locket.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "fearless",
+    "values": "always be the best",
+    "flaws": "reckless",
+    "quirks": "doesn't fear of consequences",
+    "details": "",
+    "abilities": "- **Ultimate Reflex**: As if the yellow pendant on his neck were a talisman, he seems to always able to evade attacks using his reflexes even if he doesn't see the incoming attack.",
+    "moves": "- **Bolt Strike**: Rakariki launches himself into his target with a speed of a lightning, damaging the opponent with electricity and physical hit.\n- **Quick Attack**: This is an even faster move than Bolt Strike because Rakariki doesn't need to think to use this move. It's useful when he needed to evade an attack or needed to test the opponent's skills.\n- **Lightning**: When it's raining, Rakariki can use electricity charges on the cloud to summon a lightning to strike his target. Less accurate and also slower than his Bolt Strike, but more lethal than all of his other moves.\n- **Last Zap**: Rakariki's last resort attack when he is already out of energy to sustain himself in a battle. He can choose between fleeing the arena or use this move. But if he chose to do this, he will concentrate all of his power into his pendant and then unleashes the rest of his remaining power everywhere in the hopes that it will do enough damage to defeat his opponent.",
+    "storyPlotDetails": "* **Antagonist behavior**: His win streak has made him fearless. Rakariki never fear of losing, so he just recklessly doing things. He called Korazu a coward for not able to face him and the situation.\n* **Demise**: Rakariki was showing off to Korazu on how fast he can go. Even taunted Korazu to hit him even just once to proof his point. Raining was starting to pour, he began feeling arrogant saying he never lose a battle in a thunderstorm. He miscalculated and jumped to a big chasm, to not be ever seen again. The rain didn't help as he can't even climb the wall even with his super speed because it's slippery."
+  },
+  {
+    "id": "veranite",
+    "profilePicture": "characters/veranite/pfp-veranite.png",
+    "profilePicture2": "characters/veranite/pfp-veranite.png",
+    "name": "Veranite",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Void"
+    ],
+    "artworks": [
+      {
+        "src": "characters/veranite/artworks/d34-design-veranite.jpg",
+        "title": "D34 - Design Veranite",
+        "caption": {
+          "en": "The original Veranite reference sheet.",
+          "jp": "Veraniteのオリジナル設定資料。"
+        }
+      },
+      {
+        "src": "characters/veranite/artworks/s183-veranite.webp",
+        "title": "S183 - Veranite",
+        "caption": {
+          "en": "Veranite is as dark as the space itself.",
+          "jp": "Veraniteのオリジナル設定資料。"
+        }
+      },
+      {
+        "src": "characters/veranite/artworks/s197-void-of-uncertainty.webp",
+        "title": "S197 - Void of Uncertainty",
+        "caption": {
+          "en": "Veranite is using Void of Uncertainty. He is spreading dark aura of uncertainty towards everyone nearby, making them doubt themselves and their situation.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/veranite/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/veranite/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/veranite/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/veranite/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-veranite.png|40]]",
+    "story_role": "Psychological Antagonist",
+    "species": "Fennec fox creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "0.5 m",
+    "weight": "10 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-03-02T00:00:00.000Z",
+    "status": "Alive",
+    "veranite": "",
+    "nameMeaning": "Veran (faith, loyal, faithful), verán (Spanish, \"ver\" = to see)",
+    "storyPlotRole": "Teaches Zumiko: hope exists not because everything is perfect, but because things can still change",
+    "bio": "Veranite is a Fennec fox look-alike with dark fur all over the body and some spots that can glow bright yellow. The fur is as dark as the void itself, but his eyes are bright yellow as bright as a star in the middle of a dark, empty space. Veranite has three tails instead of one, and those tails make it seems like he has a cloak covering his back in a battle. In a dark environment, with all of his glow spots glowing, Veranite might look like a galaxy in the sky.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "Veranite looks like a completely dark fennec fox. The fur is as dark as the void itself, fitting to Veranite's attribute. Despite being all dark as his default state, his body actually is covered with some marks that can glow bright yellow. When it actually glow, his body will look like a galaxy in the night sky. Most of the times, his facial expression is quite sad as though he was on the verge of crying everyday. His eyes on the other hand is bright yellow, like double stars in the middle of a dark empty space if not due to his void symbol on his forehead that can also glow. Behind him, Veranite has three completely dark tails which he can use a cloak covering his back in a battle.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "shy, loyal",
+    "values": "peace",
+    "flaws": "pessimistic, too rigid (principle)",
+    "quirks": "randomly hiding away from anyone",
+    "details": "",
+    "abilities": "- **Darkness Cloak**: Veranite's ability to hide from his opponent that always works in a dark environment.\n- **Darkness Search**: Veranite's ability to search for all things that will work best in a dark environment.",
+    "moves": "- **Void of Uncertainty**: Veranite glows and spread dark aura of uncertainty towards everyone nearby, making them doubt themselves and their situation. From his opponent's point of view, the surroundings will become dark, with some random spots of very bright light. Because it's all in their mind, no matter how hard they close their eyes, it will never dim the bright lights. They will become uncertain of their goal and purpose, which Veranite hopes he won't need to continue battling.\n- **Void of False Hope**: Veranite glows and spread dark aura of hope towards everyone nearby, making them feeling hopeful of reaching their goal. But because most of the times Veranite is also doubtful of his own goal and hope, everyone affected by this also got the false version of their hope. With false method and false logic, they will succumb to their own scrambled thoughts so Veranite can escape without continuing the battle.\n- **Void of Doom**: Veranite's ultimate move when he felt cornered with no way of hiding or escaping the battlefield. He will consume his lights and absorb everything around him, creating a vacuum, almost like a black hole. It's a last resort because he isn't certain that he can survive this at all, but he will do it if it means the opponent also can't escape the doom. The moment things goes into him, he will lose consciousness and he will leave his fate into the vacuum of space.",
+    "storyPlotDetails": "* **Antagonist behavior**: Veranite was forced to face Zumiko into a battle despite his sadness. He told Zumiko that he is saddened by the fact he has seen many bad things his boss has done to the world. He acknowledged that he wanted a better world, the one that Myth Seavalanche has maintained in the past.\n* **Demise**: Zumiko realized that Veranite has seen everything and yet doesn't want to make a change for the world. Veranite declined Zumiko's suggestion because he believed he could do nothing to fix it. Veranite was then defeated by Zumiko who has realized his own true power of hope after seeing Veranite's lack of believe in change."
+  },
+  {
+    "id": "fondan",
+    "profilePicture": "characters/fondan/pfp-fondan.webp",
+    "profilePicture2": "characters/fondan/pfp-fondan.webp",
+    "name": "Fondan",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Light"
+    ],
+    "artworks": [
+      {
+        "src": "characters/fondan/artworks/d33-design-fondan.jpg",
+        "title": "D33 - Design Fondan",
+        "caption": {
+          "en": "The original Fondan reference sheet.",
+          "jp": "Fondanのオリジナル設定資料。"
+        }
+      },
+      {
+        "src": "characters/fondan/artworks/s171-fondan-fix1.webp",
+        "title": "S171 - Fondan",
+        "caption": {
+          "en": "Pretty cool Fondan pose with his white shirt and black tie.",
+          "jp": "白いシャツと黒いネクタイを着た、かっこいいFondanのポーズ。"
+        }
+      },
+      {
+        "src": "characters/fondan/artworks/s196-light-pillar.webp",
+        "title": "S196 - Light Pillar",
+        "caption": {
+          "en": "Fondan uses Light Pillar. There are three pillars of light visible from far away.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/fondan/tradearts/af25-by-derpycloud-grey-area!-20250729.webp",
+        "title": "by DerpyCloud (29 July 2025)",
+        "caption": {
+          "en": "Grey Area!",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/fondan/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/fondan/giftarts/by-super-ex1-20250306.webp",
+        "title": "by super_EX1 (6 March 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/fondan/giftarts/by-super-ex1-20250724.webp",
+        "title": "by super_EX1 (24 July 2025)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/fondan/giftarts/by-super-ex1-20260301.webp",
+        "title": "by super_EX1 (1 March 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/fondan/commarts/by-haineko-20250827.webp",
+        "title": "by Haineko (27 August 2025",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-fondan.webp|40]]",
+    "story_role": "Psychological Antagonist",
+    "species": "Wolf creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "1.2 m",
+    "weight": "30 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-03-01T00:00:00.000Z",
+    "status": "Alive",
+    "fondan": "",
+    "nameMeaning": "Fondan: helpful, researcher, foundation. Fondant: cake icing.",
+    "storyPlotRole": "Teaches Uzakon: true wisdom isn't about knowing everything, but knowing when to act and when to learn",
+    "bio": "Fondan is a wise anthromorphic wolf with three claws on his hands. His brown fur is rough and unkempt. He has a pair of long white ears and usually wore a white wizard pointy hat and a pair of white half-rim glasses. Fondan also carries a thick spell book that helped to increase his mental prowess. He usually talks in riddles, claimed to know everything in the world.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "Fondan is an anthromorphic wolf that has rough and unkempt fur from head to toe. He wears a pair of white half-rim glasses covering his always droopy eyes. He has a pair of long white ears that is usually covered by a white wizard pointy hat, contrasting his mostly brown fur. Even if his hands are ending in sharp claws, he always brought his brown thick spell book wherever he go. His tail usually lay low like he doesn't have energy to sway it.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "wise, loyal",
+    "values": "new knowledge",
+    "flaws": "idealistic",
+    "quirks": "doesn't really think about anything else other than learning new things",
+    "details": "",
+    "abilities": "- **Unfazed**: Fondan's inner ability to be unaffected by emotional attacks. He is always focused to the current situation and his mind stay sharp.",
+    "moves": "- **Light of Knowledge**: Fondan summon a bright light using his spell book to burn his target.\n- **Light Pillar**: Fondan summon a bright light concentrated into several spots from the sky that looks like big pillars of light to burn his target.\n- **Energy Palm**: Fondan can fight in close range using his paws covered with light energy.\n- **Last Information**: Fondan's last move if he is cornered and he is very certain his future is no more. He will concentrate all of his light power into his book and throw it as far as possible. His intention is to store the information of his attacker so that others who stumbled upon his book can help spread it. He will then helplessly try to escape the battlefield without attacking back.",
+    "storyPlotDetails": "* **Antagonist behavior**: Fondan were facing the very clueless Uzakon in an order by the upper ups. Uzakon was confused on the state of the world and also about his real purpose in the world after he appeared in the world without any past memories. Instead of actually fighting Uzakon, Fondan tried to help him clearing his mind.\n* **Demise**: Fondan ended up telling Uzakon the plot of his boss, lamenting he can't do anything about it. Uzakon then tried to convince Fondan to leave, but Fondan insisted to stay saying it's his fate. Fondan loses the battle to Uzakon."
+  },
+  {
+    "id": "sarchie",
+    "profilePicture": "characters/sarchie/pfp-sarchie.png",
+    "profilePicture2": "characters/sarchie/pfp-sarchie.png",
+    "name": "Sarchie",
+    "alternateName": "",
+    "genderColor": "Female",
+    "attributes": [
+      "Sound"
+    ],
+    "artworks": [
+      {
+        "src": "characters/sarchie/artworks/d35-design-sarchie.jpg",
+        "title": "D35 - Design Sarchie",
+        "caption": {
+          "en": "The original Sarchie reference sheet.",
+          "jp": "Sarchieのオリジナル設定資料。"
+        }
+      },
+      {
+        "src": "characters/sarchie/artworks/s199-wingbeat-screech.webp",
+        "title": "S199 - Wingbeat Screech",
+        "caption": {
+          "en": "Sarchie uses Wingbeat Screech. Flapping her wings and screeching.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/sarchie/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/sarchie/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/sarchie/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/sarchie/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-sarchie.png|40]]",
+    "story_role": "Psychological Antagonist",
+    "species": "Hummingbird creature",
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "0.3 m",
+    "weight": "3 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-03-04T00:00:00.000Z",
+    "status": "Alive",
+    "sarchie": "",
+    "nameMeaning": "Sachie (Japanese: happiness, blessed), Archie (German: truly brave)",
+    "storyPlotRole": "Teaches Vesnea: helping others doesn't mean shutting yourself away, it means connecting with them",
+    "bio": "Sarchie is a small, lightweight, hummingbird-like creature with incredible agility. She has a long, slender, and pointed beak. Two short head streamers extend from the top of her head, while two longer tail streamers flow from her bird-like tail, both ending in delicate heart shapes. Her beautiful singing has the power to heal an entire village, yet she can also unleash a piercing screech to disorient her opponents.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "Sarchie is a small, lightweight, hummingbird-like creature with incredible agility. She has a long, slender, and pointed beak. Two short head streamers extend from the top of her head, while two longer tail streamers flow from her bird-like tail, both ending in delicate heart shapes. Her feathers are mostly green and light blue, including her streamers. Sarchie has almond-shaped blue eyes that usually are closed whenever she hums happily by herself.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "determined",
+    "values": "happiness for everyone",
+    "flaws": "timid",
+    "quirks": "humming whenever she is alone",
+    "details": "",
+    "abilities": "- **Traumatic Instinct**: Sarchie's past made her very sensitive to bad intentions even if the offenders never showed it yet. Her instinct will tell her to avoid them instantly, which in turn saved her from bad things.",
+    "moves": "- **Wingbeat Screech**: Sarchie uses her wings combined with her voice to screech loudly at her opponents to hinder their train of thoughts. It can be so loud that it may deafen the target for a short period.\n- **Hum of the Heavens**: Sarchie's specialty in healing using her beautiful singing voice. This move can only heal if everyone nearby can hear sounds.\n- **Beak Stab**: Sarchie uses her beak to stab her target.\n- **Echo Shadow**: Sarchie's last effort to flee from a battle she can't win. She will use a special kind of screech to fool the opponents who believed she is still on the battlefield even though she already fled.",
+    "storyPlotDetails": "* **Antagonist behavior**: Sarchie was defending her village when she was \"adopted\" by her new boss when it was being raided. Now that she works for the new boss, she had to fake her timid personality and take on the boss' orders due to her kidnapped parents being on the line.\n* **Demise/Resolution**: Sarchie wasn't fighting Vesnea with her full power even if her moves are mostly for healing. Sarchie mostly told Vesnea her backstory and that in turn inspired Vesnea to change her ways in helping others. At the end of the fight, Vesnea successfully convinced Sarchie to stop working for her boss and instead help her gaining intel from the inside."
+  },
+  {
+    "id": "deimev",
+    "profilePicture": "characters/deimev/pfp-deimev.png",
+    "profilePicture2": "characters/deimev/pfp-deimev.png",
+    "name": "Deimev",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Wind",
+      "Spirit"
+    ],
+    "artworks": [
+      {
+        "src": "characters/deimev/artworks/d36-design-deimev.jpg",
+        "title": "D36 - Design Deimev",
+        "caption": {
+          "en": "The original Deimev reference sheet.",
+          "jp": "Deimevのオリジナル設定資料。"
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/deimev/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/deimev/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/deimev/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/deimev/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-deimev.png|40]]",
+    "story_role": "Psychological Antagonist",
+    "species": "Bull creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "2 m",
+    "weight": "60 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-03-07T00:00:00.000Z",
+    "status": "Alive",
+    "deimev": "",
+    "nameMeaning": "Deem (English: to come to think or judge : consider), Domevlo (Ghana: Don't take others at face value), δειμός (Ancient Greek, deimós, “terror”)",
+    "storyPlotRole": "Teaches Seava: true justice requires understanding, not just rigid rules",
+    "bio": "Deimev is a big purple bull creature that has wispy endings instead of legs. He floats around with two purple/silver rings behind him called the Judgment Gale. His head has two horns and a big ring accessory on his left ear. He upholds justice no matter the circumstances using his Judgment Gale.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "Deimev is a big purple bull creature that has wispy endings instead of legs. He floats around like a spirit attribute holder does. Two horns sprouted on his head, with a big ring accessory hanging on his left ear. There are two rings called the Judgment Gale that float behind Deimev. The rings are purple on the inside, and silver on the outside where the blade is. It can spin at high speeds, slicing any opponent Deimev deemed necessary.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "Upholds justice no matter the circumstances, reserved",
+    "values": "justice",
+    "flaws": "stubborn, too rigid (principle)",
+    "quirks": "always wants to have a solo battle despite situation",
+    "details": "",
+    "abilities": "- **Judgment Recoil**: If an attack is justified or hit the target, Deimev got a temporary buff to his strength. On the other hand, if the attack is unjustified or missed the target, Deimev got a temporary debuff to his strength.\n- **Phasing**: As a spirit attribute bearer, Deimev can temporarily phase through solid things without much effort. But with a downside that his weapon Judgment Gale will needed to be left behind as it can't phase through things.",
+    "moves": "- **Judgment Gale**: Deimev's Judgment Gale spins at high speeds, forming a slicing wind that cuts through anything deemed guilty in his eyes.\n- **Unwavering Justice**: Deimev's Judgment Gale cannot be stopped or deflected. If someone tries to evade, it adjusts its trajectory automatically, ensuring a guaranteed punishment.\n- **Horn of Pain**: Deimev charges forward using his horns to damage his opponent. If it connects, the receiver will feel short pains on the whole body with a random interval. As long as Deimev is around and is deeming the receiver to be in the wrong, they will keep receiving random pains.\n- **Ultimate Punishment**: Deimev's last resort move that he will use if he strongly believed his opponent is really truly in the wrong the whole time. He will concentrate all of his power onto his Judgment Gale that combined it into a singular, bigger Judgment Gale. Then he will throw it onto his opponent which will always connect whether now or later as the bigger Judgment Gale will circle around until it connects. It can slash through boulders without issues so hiding from it is futile.\n- **Shameful Retreat**: Deimev's last resort move that he will use if he realized his judgment has been wrong the whole time. He will leave his Judgment Gale behind and run away phasing through objects without attacking or defending back.",
+    "storyPlotDetails": "* **Antagonist behavior**: Deimev delivers unwavering, black-and-white justice without considering circumstances. Anyone mistakenly breaking any rule will face the wrath of justice by Deimev, whether a small mistake or a big mistake, whether friend or foe. He upholds justice more than anything else, even his own duty if it means he can deliver the justice he sees fit.\n* **Demise**: Seava was having a hard time hitting Deimev due to his agility as a spirit creature. It was amplified by the fact that Seava was still in his unfocused state, with many thoughts running in his mind. But at one point of the battle, Deimev's subordinate was barging in the battle to deliver a message to him, interrupting the battle in the process. Despite his subordinate's insistence that it was important enough to break Deimev's rule of not interrupting battle, he still punishes his subordinate brutally. With a renewed clarity, Seava charged ahead and beat Deimev.",
+    "weaponJudgementGale": "**Type**: A floating, segmented ring-blade (chakram-like)\n**Appearance**: \n- A large, circular weapon that hovers around Deimev like a halo of judgment.\n- The outer ring is shaped like a wind-swept guillotine, shimmering with ethereal energy.\n- The inner part consists of five floating, shifting segments that move independently like a spinning balance scale.\n- The weapon glows purple and silver, pulsing with energy when delivering a verdict.\n\n**Abilities**:\n- **Gale Severance**: The ring spins at high speed, forming a slicing wind that cuts through anything deemed “guilty” in Deimev’s eyes.\n- **Binding Guilt**: The weapon can expand, forming chains of wind that restrain those who break the rules, holding them in place for judgment.\n- **Absolute Verdict**: When Deimev deems an enemy unworthy, the weapon splits into multiple blades, attacking from different angles with razor-sharp wind.\n- **Unwavering Justice**: The weapon cannot be stopped or deflected by trickery. If someone tries to evade, it adjusts its trajectory automatically, ensuring punishment is delivered.\n- **Judgment Recoil**: If an attack is unjustified or misses its target, the weapon slightly backfires on Deimev, symbolizing the cost of blind justice."
+  },
+  {
+    "id": "tharos",
+    "profilePicture": "characters/tharos/pfp-tharos-optimized.gif",
+    "profilePicture2": "characters/tharos/pfp-tharos.webp",
+    "name": "Tharos",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Darkness",
+      "Light"
+    ],
+    "artworks": [
+      {
+        "src": "characters/tharos/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/tharos/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/tharos/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/tharos/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/tharos/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-tharos-glow.webp|40]]",
+    "story_role": "Deuteragonists",
+    "species": "Wolf creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "1 m",
+    "weight": "50 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-08-23T00:00:00.000Z",
+    "status": "Alive",
+    "tharos": "",
+    "nameMeaning": "Tharros means courage in Greek. Thanatos means death and was the personification of death (Greek mythology). -ρός (-rós) from Ancient Greek means -able, tending to X'ed (for the verb X).",
+    "storyPlotRole": "Leader of Team Emblem",
+    "bio": "Tharos is a silver wolf with black markings and black eyes, or a black wolf with silver markings and silver eyes, it is said it will change depends on the angle you see him but no one is sure. As unique as his fur condition is, he has dual attribute and it's the clashing Light and Darkness attribute. Despite this, he leads his team without any signs of dominance or violence as his members always listen to him when he speaks.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "A silver wolf with black markings and black eyes or a black wolf with silver markings and silver eyes, depends on how the viewer perceive it. His eyes always looks serious even when he is happy, although it is unknown whether he intended that or not. Despite the color of his eyes, it will glow white whenever he uses light-based moves. Above his head there is a tuft of fur that looks like hair, shaped like a moon crescent. When he is seen with silver fur, he seems to have a black aura resembling a cape behind him. And when he is seen with black fur, he seems to have a white aura resembling a cape behind him as well. Furthermore the fur on his legs looks like socks.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "calm, reserved, protective",
+    "values": "family is safe or nothing else mattered",
+    "flaws": "sometimes his duality made him unable to choose an action",
+    "quirks": "becomes the team's final hope when something bad happened",
+    "details": "",
+    "abilities": "",
+    "moves": "*(No specific moves were listed in the provided text, only design and bio notes)*",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "noira",
+    "profilePicture": "characters/noira/pfp-noira-optimized.gif",
+    "profilePicture2": "characters/noira/pfp-noira.webp",
+    "name": "Noira",
+    "alternateName": "",
+    "genderColor": "Female",
+    "attributes": [
+      "Darkness",
+      "Sound"
+    ],
+    "artworks": [
+      {
+        "src": "characters/noira/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/noira/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/noira/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/noira/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/noira/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-noira-glow.webp|40]]",
+    "story_role": "Deuteragonists",
+    "species": "Wolf creature",
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "0.9 m",
+    "weight": "45 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": null,
+    "status": "Alive",
+    "noira": "",
+    "nameMeaning": "Noir means black in French. Reimagined as \"The dark sound\" or \"Echo in the void.\"",
+    "storyPlotRole": "",
+    "bio": "She is a black wolf with pink markings on her stomach area. The silver fur on her legs area are quite longer and looks like boots. Depending on the viewer's perception, sometimes they will have hard time to see Noira at all at a certain sound level. Or they would see Noira as someone else altogether, like an illusion. Even if she always listens to Tharos, she wouldn't afraid to sway the team using her opinions.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "A black wolf with pink markings on her stomach and silver markings on her legs that looks like boots. She has silver eyes, but it will glow pink whenever she uses sound-based moves. Above her head there is a tuft of fur that looks like hair, shaped like a moon crescent. At a certain sound level, the viewer might have hard time looking at Noira as she would look like a blur or not even visible at all. Sometimes it might make the viewer to perceive her as someone else altogether. While standing still, she seems to have a pinkish aura around her neck, which looks like a flower necklace.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "sharp, outspoken, sharp but caring",
+    "values": "Tharos' safety above all else",
+    "flaws": "her tendency to not listen to Tharos' orders sometimes result in an unexpected outcome",
+    "quirks": "full trust to Tharos when she couldn't decide anything by herself",
+    "details": "",
+    "abilities": "*(No specific abilities were listed, though her design notes mention sound/movement echoes)*",
+    "moves": "*(No specific moves were listed in the provided text)*",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "zeo",
+    "profilePicture": "characters/zeo/pfp-zeo-optimized.gif",
+    "profilePicture2": "characters/zeo/pfp-zeo.webp",
+    "name": "Zeo",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Darkness",
+      "Electric"
+    ],
+    "artworks": [
+      {
+        "src": "characters/zeo/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/zeo/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/zeo/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/zeo/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/zeo/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": "![[pfp-zeo-glow.webp|40]]",
+    "story_role": "Deuteragonists",
+    "species": "Wolf creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "0.9 m",
+    "weight": "40 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": null,
+    "status": "Alive",
+    "zeo": "",
+    "nameMeaning": "an energetic name with sparks of joy.",
+    "storyPlotRole": "",
+    "bio": "He is a black wolf with some extra fluff that looks spiky despite it being very soft. As the youngest member of the team, he usually carries most of the team's stuffs using straps and bags on his body and it actually hindered his usually nimble movements. He will listen to Tharos most of the times, unless he noticed something he is interested in as he will go and figure things out by himself in excitement. But despite this, the team will be deeply saddened if he is missing.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "A black wolf with extra fluff that looks spiky despite it being very soft on his head, face, neck, back, and legs. He has silver eyes that brimmed with joy and excitement, but it will glow yellow whenever he uses electric-based moves. When he is agitated, he seems to have a yellowish aura around his whole body, which looks like a thunderstorm cloud. As the youngest member of the team, he usually carries most of the team's stuffs using straps and bags on his body. This actually hindered his usually nimble movements.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "energetic",
+    "values": "fits in the team and everyone accepts him",
+    "flaws": "doesn't believe in himself",
+    "quirks": "believes that if everyone told him he could do it, he could do it",
+    "details": "",
+    "abilities": "",
+    "moves": "*(No specific moves were listed in the provided text)*",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "avior",
+    "profilePicture": "characters/avior/pfp-placeholder.png",
+    "profilePicture2": "characters/avior/pfp-placeholder.png",
+    "name": "Avior",
+    "alternateName": "",
+    "genderColor": "Male",
+    "attributes": [
+      "Nature",
+      "Fire"
+    ],
+    "artworks": [
+      {
+        "src": "characters/avior/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/avior/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/avior/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/avior/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/avior/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": null,
+    "portrait": null,
+    "story_role": "Deuteragonists",
+    "species": "Bird creature",
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "1.4 m",
+    "weight": "65 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": null,
+    "status": "Alive",
+    "avior": "",
+    "nameMeaning": "Avior is the star Epsilon Carinae, one of the 57 stars used in celestial navigation. \"Avi\" (Hebrew: my father) and \"or\" (Hebrew: light), resulting in \"the father of light\". Avis in Latin means bird.",
+    "storyPlotRole": "",
+    "bio": "He is a green bird with orange streaks all over his body. He has green vines that looks like streamers that he can control to do whatever he wants. As the largest, he is both the largest in size and spirit. Very easygoing and even laughs off dangers. Usually not listening to Tharos, but still respects his orders. To him, Tharos is more of a thoughtful friend than a boss. As the eldest of the team, he usually will take responsibility of the team's wellbeing despite not being the leader.",
+    "lifeBackground": "",
+    "bodyShapeDescription": "a green bird with orange streaks throughout his body. A stark contrast of fresh green and fiery orange. His eyes, beak, and talon are orange in color. The tail has alternating green/orange colors. His feathers might look longer in some parts, which might be thought as streamers, but it is his green vines that he can control to do whatever he wants. As the largest member, he usually carries things that Zoe can't carry on his bag that he wears on his neck.",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "easygoing, caring",
+    "values": "a good life is one that is fun",
+    "flaws": "bad at teamwork",
+    "quirks": "he trusts his own intuition more than Tharos' orders",
+    "details": "",
+    "abilities": "*(No specific abilities were listed, though her design notes mention sound/movement echoes)*",
+    "moves": "*(No specific moves were listed in the provided text)*",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "nireth",
+    "profilePicture": "characters/nireth/pfp-placeholder.png",
+    "profilePicture2": "characters/nireth/pfp-placeholder.png",
+    "artworks": [
+      {
+        "src": "characters/nireth/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/nireth/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/nireth/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/nireth/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/nireth/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "name": "Nireth",
+    "alternate_name": null,
+    "portrait": null,
+    "story_role": "True Villains",
+    "species": "Deer-fish creature",
+    "attributes": [
+      "Magical",
+      "Psionic",
+      "Darkness"
+    ],
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "1.2 m",
+    "weight": "40 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": null,
+    "status": "Alive",
+    "nireth": "",
+    "nameMeaning": "comes from the word \"nihil\" (nothing); evokes emptiness or erasure: \"nirvana\" (liberation through dissolution).",
+    "storyPlotRole": "",
+    "bio": "*Write character bio here*",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "",
+    "values": "",
+    "flaws": "",
+    "quirks": "",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "-",
+    "moves": "-",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "zorynthia",
+    "profilePicture": "characters/zorynthia/pfp-placeholder.png",
+    "profilePicture2": "characters/zorynthia/pfp-placeholder.png",
+    "artworks": [
+      {
+        "src": "characters/zorynthia/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/zorynthia/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/zorynthia/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/zorynthia/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/zorynthia/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "name": "Zorynthia",
+    "alternate_name": null,
+    "portrait": null,
+    "story_role": "True Villains",
+    "species": "Fox creature",
+    "attributes": [
+      "Aether",
+      "Light",
+      "Magical"
+    ],
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "1.4 m",
+    "weight": "40 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": null,
+    "status": "Alive",
+    "zorynthia": "",
+    "nameMeaning": "derived from \"Zorya\" (Slavic goddess of dawn); \"Zorion\" (Basque: happiness). Also \"Thia\" ending for goddess/divine.",
+    "storyPlotRole": "",
+    "bio": "*Write character bio here*",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "",
+    "values": "",
+    "flaws": "",
+    "quirks": "",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "-",
+    "moves": "-",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "vaurion",
+    "profilePicture": "characters/vaurion/pfp-placeholder.png",
+    "profilePicture2": "characters/vaurion/pfp-placeholder.png",
+    "artworks": [
+      {
+        "src": "characters/vaurion/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/vaurion/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/vaurion/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/vaurion/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/vaurion/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "name": "Vaurion",
+    "alternate_name": null,
+    "portrait": null,
+    "story_role": "True Villains",
+    "species": "Rabbit creature",
+    "attributes": [
+      "Void",
+      "Spirit",
+      "Psionic"
+    ],
+    "gender": "Male ♂",
+    "pronouns": [
+      "He/Him"
+    ],
+    "height": "0.4 m",
+    "weight": "10 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": null,
+    "status": "Alive",
+    "vaurion": "",
+    "nameMeaning": "sounds like \"devour\"; reminiscent of \"valor\"; \"vaurien\" (French: scoundrel); \"vorare\" (Latin: consume). Also a honorific ending \"ion\" (strong; heroic/villainous).",
+    "storyPlotRole": "",
+    "bio": "*Write character bio here*",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "",
+    "values": "",
+    "flaws": "",
+    "quirks": "",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "-",
+    "moves": "-",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "thenull",
+    "profilePicture": "characters/thenull/pfp-placeholder.png",
+    "profilePicture2": "characters/thenull/pfp-placeholder.png",
+    "artworks": [
+      {
+        "src": "characters/thenull/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/thenull/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/thenull/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/thenull/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/thenull/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "name": "The Null",
+    "alternate_name": null,
+    "portrait": null,
+    "story_role": "True Villains",
+    "species": "Nothingness",
+    "attributes": [
+      "Void"
+    ],
+    "gender": "N/A",
+    "pronouns": null,
+    "height": "0",
+    "weight": "0",
+    "forms": null,
+    "modes": null,
+    "created_date": null,
+    "status": "Alive",
+    "theNull": "",
+    "nameMeaning": "nonexistence.",
+    "storyPlotRole": "",
+    "bio": "*Write character bio here*",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "",
+    "values": "",
+    "flaws": "",
+    "quirks": "",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "-",
+    "moves": "-",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "vesneasylveon",
+    "profilePicture": "characters/vesneasylveon/pfp-vesneon.png",
+    "profilePicture2": "characters/vesneasylveon/pfp-vesneon.png",
+    "name": "Vesneon",
+    "alternateName": "(Vesnea Sylveon)",
+    "genderColor": "Female",
+    "attributes": [
+      "Magical",
+      "Nature"
+    ],
+    "artworks": [
+      {
+        "src": "characters/vesneasylveon/artworks/d39-vesnea-sylveon.webp",
+        "title": "D39 - Vesnea Sylveon",
+        "caption": {
+          "en": "An introductory artwork of Vesneon (Vesnea Sylveon).",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesneasylveon/artworks/b04-christmas-collab-sylveon-transparent2-cropped.webp",
+        "title": "B04 - Christmas Collab (Vesneon only)",
+        "caption": {
+          "en": "Vesneon is laying down with one eye opened.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesneasylveon/artworks/b06-chinese-new-year-vesneon-crop.webp",
+        "title": "B06 - Chinese New Year Vesneon (Vesneon only)",
+        "caption": {
+          "en": "Vesneon in a Chinese New Year style clothing, holding a red lantern with a ponyta on it.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesneasylveon/artworks/s198-vesneon.webp",
+        "title": "S198 - Vesneon",
+        "caption": {
+          "en": "Vesneon is sitting down with one of her leg extended and facing her back towards the viewer.",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/vesneasylveon/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/vesneasylveon/collabarts/b04-christmas-collab.webp",
+        "title": "B04 - Christmas Collab",
+        "caption": {
+          "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the right bottom side, laying down with one eye opened.",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesneasylveon/collabarts/b06-chinese-new-year-vesneon.webp",
+        "title": "B06 - Chinese New Year Vesneon",
+        "caption": {
+          "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the center, wearing a Chinese New Year style clothes holding a red lantern with a Ponyta on it.",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/vesneasylveon/giftarts/by-enma-20260209.webp",
+        "title": "by Enma (9 February 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesneasylveon/giftarts/by-esthermsb-20260224.webp",
+        "title": "by Esthermsb (24 February 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/vesneasylveon/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "alternate_name": "(Vesnea Sylveon)",
+    "portrait": "![[pfp-vesneon.png|40]]",
+    "story_role": null,
+    "species": "Pokémon Sylveon",
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": "0.9 m",
+    "weight": "20 kg",
+    "forms": null,
+    "modes": null,
+    "created_date": "2025-12-21T00:00:00.000Z",
+    "status": "Alive",
+    "vesneon": "",
+    "nameMeaning": "A combination of Vesnea's name and a Pokémon Sylveon.",
+    "storyPlotRole": "",
+    "bio": "*Write character bio here*",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "",
+    "values": "",
+    "flaws": "",
+    "quirks": "",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "-",
+    "moves": "-",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  },
+  {
+    "id": "sweetstarlight",
+    "profilePicture": "characters/sweetstarlight/pfp-placeholder.png",
+    "profilePicture2": "characters/sweetstarlight/pfp-placeholder.png",
+    "artworks": [
+      {
+        "src": "characters/sweetstarlight/artworks/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "tradearts": [
+      {
+        "src": "characters/sweetstarlight/tradearts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "collabarts": [
+      {
+        "src": "characters/sweetstarlight/collabarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "giftarts": [
+      {
+        "src": "characters/sweetstarlight/giftarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "commarts": [
+      {
+        "src": "characters/sweetstarlight/commarts/",
+        "title": "",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "type": "Character Core",
+    "name": "Sweet Starlight",
+    "alternate_name": null,
+    "portrait": null,
+    "story_role": null,
+    "species": "Alicorn Pony",
+    "attributes": [
+      "Magical",
+      "Darkness"
+    ],
+    "gender": "Female ♀",
+    "pronouns": [
+      "She/Her"
+    ],
+    "height": null,
+    "weight": null,
+    "forms": null,
+    "modes": null,
+    "created_date": null,
+    "status": "Alive",
+    "sweetStarlight": "",
+    "nameMeaning": "",
+    "storyPlotRole": "",
+    "bio": "*Write character bio here*",
+    "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
+    "traits": "",
+    "values": "",
+    "flaws": "",
+    "quirks": "",
+    "details": "",
+    "lifeBackground": "",
+    "bodyShapeDescription": "",
+    "abilities": "-",
+    "moves": "-",
+    "storyPlotDetails": "*Input anything related to the story plot.*"
+  }
+]
