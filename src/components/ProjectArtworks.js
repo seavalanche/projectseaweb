@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../styles/ProjectArtworks.css'
 
 export default function ProjectArtworks({ art, projectId, language }) {
     const [selectedArt, setSelectedArt] = useState(null);

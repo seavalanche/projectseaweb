@@ -1,8 +1,17 @@
-.project-showcase{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  padding: 1rem;
+.gallerybg {
+  width: 100%;
+  margin: auto;
+  padding: 0px 0 50px 0;
+  background-color: hsl(from var(--bg-secondary) h s l / 0.8);
+}
+.project-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  margin: var(--charcard-wrapper-gap);
+  gap: var(--charcard-wrapper-gap);
+  color: var(--text-on-primary);
 }
 .project-section {
   display: flex;
@@ -10,9 +19,55 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: hsl(from var(--bg-secondary) h s l / 0.3);
-  /* border-radius: 15px; */
+  background-color:var(--bg-primary) ;
   padding: 1rem 0;
+  border-radius: 8px;
+}
+.project-selector {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.hero-section {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  border-radius: 8px;
+}
+.hero-section:hover {
+  background-color: hsl(from var(--text-on-brand) h s l / 0.3);
+  box-shadow: 0 0 10px 5px hsl(from var(--text-on-brand) h s l / 0.3);
+}
+.herolabel {
+  margin: 0;
+  padding: 0.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  justify-content: center;
+  background-color: hsl(from var(--bg-secondary) h s l / 0.8);
+  font-weight: bold;
+  font-size: var(--fs-base);
+  font-family: var(--font-main);
+  color: var(--text-on-primary);
+  text-decoration: none;
+}
+.hero-thumbnail {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  width: 100%;
+  background-color: hsl(from var(--bg-brand) h s l / 0.5);
+}
+.hero-thumbnail .art-thumbnail img {
+  height: 3rem;
 }
 .art-grid {
   display: flex;
