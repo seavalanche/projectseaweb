@@ -181,8 +181,8 @@ input[type="color"] {
 /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */
 /* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */
 * {
-  --toggle-color-active: var(--button-background-active);
-  --toggle-color-inactive: var(--button-background);
+  --toggle-color-active: hsl(from var(--text-on-brand) h s l / 0.8);
+  --toggle-color-inactive:  hsl(from var(--bg-secondary) h s l / 0.3);
   --toggle-color-switch: var(--C-Vesnea_white);
   --toggle-color-disabled: #ddd;
 }

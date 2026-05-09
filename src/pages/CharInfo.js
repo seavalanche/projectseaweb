@@ -13,6 +13,7 @@ function CharInfo() {
     <CharacterCard key={character.id} character={character} />
   ))
 
+  // The Top Character Selector
   // 1. First, we filter for ONLY "Character Core" types
   const coreCharacters = characters.filter(char => char.type === "Character Core");
 

@@ -184,13 +184,13 @@
   background-color: hsl(from var(--text-on-brand) h s l / 0.3);
   box-shadow: 0 0 10px 5px hsl(from var(--text-on-brand) h s l / 0.3);
 }
-.group-title{
+.group-title {
   display: flex;
   align-items: flex-end;
   justify-content: center;
   height: calc(var(--charinfo-icon-totalsize) * 1.2);
   padding: var(--selector-icons-gap) calc(var(--selector-icons-gap) * 1.2);
-  background-color: var(--bg-secondary);
+  background-color: hsl(from var(--bg-secondary) h s l / 0.8);
   font-size: var(--fs-base);
   text-align: center;
   font-family: var(--font-main);
@@ -198,7 +198,7 @@
 .group-container {
   display: flex;
   flex-direction: column;
-background-color: hsl(from var(--bg-brand) h s l / 0.5);
+  background-color: hsl(from var(--bg-brand) h s l / 0.5);
 }
 .charinfo-label {
   display: flex;
@@ -244,30 +244,18 @@ background-color: hsl(from var(--bg-brand) h s l / 0.5);
   align-items: center;
   justify-content: center;
   left: calc(var(--contentB-btn-padding) * 2);
-  bottom: calc(var(--contentB-btn-padding) * 2);
+  bottom: calc(var(--contentB-btn-padding) * 4);
   width: fit-content;
   padding: var(--contentB-btn-padding);
-  background-color: color-mix(
-    in srgb,
-    var(--button-background) 50%,
-    transparent
-  );
-  color: var(--charcard-text-value);
+  background-color: hsl(from var(--bg-brand) h s l / 0.5);
   border: 1px solid transparent;
   border-radius: 8px;
-  box-shadow: 0 0 30px 10px
-    color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
+  box-shadow: 0 0 30px 10px hsl(from var(--bg-brand) h s l / 0.5);
 }
 .contentB-btn:hover {
-  background-color: color-mix(
-    in srgb,
-    var(--button-background-active) 50%,
-    transparent
-  );
-  color: var(--charcard-bg);
+  background-color: hsl(from var(--text-on-brand) h s l / 0.3);
   border: var(--button-border-hover);
-  box-shadow: 0 0 30px 10px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent);
+  box-shadow: 0 0 30px 10px hsl(from var(--text-on-brand) h s l / 0.3);
   transition: all 0.1s ease-in;
 }
 .contentB-btn.selectoractive {
@@ -588,19 +576,12 @@ background-color: hsl(from var(--bg-brand) h s l / 0.5);
 .charcard-contentB-parts {
   margin-top: calc(var(--charcard-content-gap));
   padding: calc(var(--charcard-card-padding) / 2);
-  background-color: hsl(from var(--bg-color-3) h s l / 0.5);
+  background-color: hsl(from var(--bg-brand) h s l / 0.5);
   border-radius: 8px;
   white-space: pre-line;
 }
-[data-theme="light"] .charcard-contentB-parts .charcardProp {
-  color: var(--C-Uzakon_Purple);
-}
-.charcard-contentB-parts.even {
-  background-color: hsl(from var(--bg-color-3) h s l / 0.2);
-}
 .charcard-contentB-parts:hover {
-  background-color: hsl(from var(--bg-color-3) h s l / 0.9);
-  box-shadow: 0px 0px 10px hsl(from var(--bg-color-3) h s l / 0.5);
+  background-color: hsl(from var(--text-on-brand) h s l / 0.2);
 }
 .charcardpersonality {
   display: flex;
