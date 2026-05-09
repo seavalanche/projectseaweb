@@ -7,7 +7,7 @@ const matter = require('gray-matter');
 const obsidianRoot = "E:\\A3 - Cloud Syncs\\Syncthing\\Obsidian\\Seavalanche Story\\Infinity Book\\Characters Data";
 const charactersPublicDir = path.join(__dirname, 'public', 'characters');
 const indexFilePath = path.join(charactersPublicDir, 'index.json');
-const outputFile = path.join(__dirname, 'src', 'character-data.json');
+const outputFile = path.join(__dirname, 'src', 'pages', 'data', 'character-data.json');
 
 async function buildObsidianMap(dir, map = new Map()) {
   if (!await fs.pathExists(dir)) return map; // Safety check

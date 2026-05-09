@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import CharacterCard from "../components/CharacterCard";
-import characterData from '../character-data.json';
+import characterData from '../pages/data/character-data.json';
 import { HashLink } from 'react-router-hash-link';
 import '../styles/CharInfo.css';
 import { useLocalization } from '../localization/hooks/useLocalization';

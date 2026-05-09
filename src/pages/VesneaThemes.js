@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import charactersData from './data/charactersdata.json'
+import charactersData from './data/theme-colors-data.json'
 import { useLocalization } from '../localization/hooks/useLocalization';
 import '../styles/VesneaThemes.css'
 
