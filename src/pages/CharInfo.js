@@ -13,6 +13,19 @@ function CharInfo() {
     <CharacterCard key={character.id} character={character} />
   ))
 
+  // 1. First, we filter for ONLY "Character Core" types
+  const coreCharacters = characters.filter(char => char.type === "Character Core");
+
+  // 2. Then, we group THAT filtered list by their story_role
+  const groupedByRole = coreCharacters.reduce((acc, char) => {
+    const role = char.group || 'Other'; // Fallback if a character doesn't have a role
+    if (!acc[role]) {
+      acc[role] = [];
+    }
+    acc[role].push(char);
+    return acc;
+  }, {});
+
   const [viewSelector, setViewSelector] = useState('selectorinactive');
   const [displayContentB, setDisplayContentB] = useState('contentBinactive');
 
@@ -24,6 +37,25 @@ function CharInfo() {
         </div>
         <div className='generaltitle'>
           {t("charcard.subtitle")}
+        </div>
+        <div className="character-selector-top">
+          {Object.keys(groupedByRole).map((role) => (
+            <div key={role} className="character-group">
+              <h3 className="group-title">{role}</h3>
+              <div className="group-container">
+                {groupedByRole[role].map((char, idx) => (
+                  <HashLink key={idx} to={`#${char.id}`} className="charinfo-label">
+                    <img
+                      className="charinfo-icon-2"
+                      src={`${process.env.PUBLIC_URL}/${char.profilePicture2}`}
+                      alt={char.name}
+                    />
+                    <div className='charinfo-name-top'>{char.name}</div>
+                  </HashLink>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
       <div className={`charinfowrapper ${displayContentB}`}>
