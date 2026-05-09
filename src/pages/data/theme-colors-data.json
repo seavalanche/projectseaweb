@@ -119,7 +119,7 @@
     "altnamestyle": "",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Mythseavalanche.png",
+        "image": "characters/mythseavalanche/pfp-mythseavalanche.png",
         "size": "big"
       }
     ],
@@ -183,15 +183,15 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_seava.png",
+        "image": "characters/seava/pfp-seava.png",
         "size": "big"
       },
       {
-        "image": "/Assets/charcardPFP/PFP_SeavaTM.png",
+        "image": "characters/seavatm/pfp-seavatm.png",
         "size": ""
       },
       {
-        "image": "/Assets/charcardPFP/PFP_SeavaZM.png",
+        "image": "characters/seavazm/pfp-seavazm.png",
         "size": ""
       }
     ],
@@ -248,15 +248,15 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/pfp-vesnea.png",
+        "image": "characters/vesnea/pfp-vesnea.png",
         "size": "big"
       },
       {
-        "image": "/Assets/charcardPFP/PFP_seavalanche.png",
+        "image": "characters/seavalanche/pfp-seavalanche.png",
         "size": ""
       },
       {
-        "image": "/Assets/charcardPFP/PFP_VesneaBM.png",
+        "image": "characters/vesneabm/pfp-vesneabm.png",
         "size": ""
       }
     ],
@@ -310,7 +310,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_korazu.png",
+        "image": "characters/korazu/pfp-korazu.png",
         "size": "big"
       }
     ],
@@ -353,7 +353,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_uzakon.png",
+        "image": "characters/uzakon/pfp-uzakon.png",
         "size": "big"
       }
     ],
@@ -396,7 +396,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_zumiko.png",
+        "image": "characters/zumiko/pfp-zumiko.png",
         "size": "big"
       }
     ],
@@ -439,7 +439,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Baldor.png",
+        "image": "characters/baldor/pfp-baldor.webp",
         "size": "big"
       }
     ],
@@ -482,11 +482,11 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Arna.png",
+        "image": "characters/arna/pfp-arna.webp",
         "size": "big"
       },
       {
-        "image": "/Assets/charcardPFP/PFP_Arnamini.png",
+        "image": "characters/miniarna/pfp-arnamini.webp",
         "size": ""
       }
     ],
@@ -525,7 +525,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Rakariki.png",
+        "image": "characters/rakariki/pfp-rakariki.webp",
         "size": "big"
       }
     ],
@@ -564,7 +564,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Fondan.png",
+        "image": "characters/fondan/pfp-fondan.webp",
         "size": "big"
       }
     ],
@@ -604,7 +604,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Veranite.png",
+        "image": "characters/veranite/pfp-veranite.png",
         "size": "big"
       }
     ],
@@ -644,7 +644,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Sarchie.png",
+        "image": "characters/sarchie/pfp-sarchie.png",
         "size": "big"
       }
     ],
@@ -688,7 +688,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "/Assets/charcardPFP/PFP_Deimev.png",
+        "image": "characters/deimev/pfp-deimev.png",
         "size": "big"
       }
     ],

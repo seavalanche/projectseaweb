@@ -26,7 +26,7 @@ const VesneaThemes = () => {
                             <div className='VT-char-pfp-container'>
                                 {char.pfp.map((pfp, i) => (
                                     <div className='VT-char-pfp' key={i}>
-                                        <img className={`VT-pfp-img ${pfp.size}`} src={process.env.PUBLIC_URL + pfp.image} alt={pfp.name} />
+                                        <img className={`VT-pfp-img ${pfp.size}`} src={`${process.env.PUBLIC_URL}/${pfp.image}`} alt={pfp.name} />
                                         <div className={`VT-pfp-name ${pfp.size}`}>{t(`characters.${char.id}.pfpname.${i}`)}</div>
                                     </div>
                                 ))}
