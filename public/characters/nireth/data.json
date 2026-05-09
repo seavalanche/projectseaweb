@@ -1,0 +1,41 @@
+{
+  "id": "nireth",
+  "profilePicture": "pfp-placeholder.png",
+  "profilePicture2": "pfp-placeholder.png",
+
+  "artworks": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}
