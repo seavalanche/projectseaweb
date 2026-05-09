@@ -32,6 +32,7 @@ import Poem from './pages/Poem.js'
 import VesneaThemes from './pages/VesneaThemes.js'
 import VesneaMerch from './pages/VesneaMerch.js'
 import UmbreonJourney from './pages/PoemBook.js'
+import Gallery from './pages/Gallery.js'
 
 // Game Pages
 import GamePage from './pages/GamePage.js'
@@ -64,6 +65,7 @@ function App() {
         <Route path='/Poem/UmbreonJourney' exact element={<UmbreonJourney />} />
         <Route path='/Themes' exact element={<VesneaThemes />} />
         <Route path='/Merch' exact element={<VesneaMerch />} />
+        <Route path='/Gallery' exact element={<Gallery />} />
 
         {/* About Page */}
         <Route path='/AboutVesnea' exact element={<AboutVesnea />} />

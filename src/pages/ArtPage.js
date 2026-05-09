@@ -20,6 +20,7 @@ const GamePage = () => {
                     <li><Link to='/Story' className='li'>{t("artpage.story")}</Link></li>
                     <li><Link to='/Poem' className='li'>{t("artpage.poem")}</Link></li>
                     <li><Link to='/Poem/UmbreonJourney' className='li'>{t("artpage.umbreonjourney")}</Link></li>
+                    <li><Link to='/Gallery' className='li'>Vesnea's Art Gallery</Link></li>
 
                     <div className='listseparator'>{t("artpage.separator2")}</div>
                     <li><Link to='/GamePage' className='li'>{t("artpage.games")}</Link></li>

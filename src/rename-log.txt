@@ -1,328 +1,150 @@
-Renaming process started
-1. Replace "_" by "-", replace all occurences, case-sensitive
-App.js was not renamed : new name is the same than old name
-01-digitalart-blocky.webp was not renamed : new name is the same than old name
-02-digitalart-brushy.webp was not renamed : new name is the same than old name
-03-digitalart-clean.webp was not renamed : new name is the same than old name
-04-digitalart-artsy.webp was not renamed : new name is the same than old name
-05-digitalart-grainy.webp was not renamed : new name is the same than old name
-06-digitalart-fluffy.webp was not renamed : new name is the same than old name
-07-digitalart-abstract.webp was not renamed : new name is the same than old name
-08-digitalart-dreamy.webp was not renamed : new name is the same than old name
-09-digitalart-3d-like.webp was not renamed : new name is the same than old name
-10-digitalart-pixelart.webp was not renamed : new name is the same than old name
-11-digitalart-animationart.gif was not renamed : new name is the same than old name
-12-2d-modeling-and-rigging.webp was not renamed : new name is the same than old name
-13-3d-modeling-and-rigging.webp was not renamed : new name is the same than old name
-about-icon-bluesky-dark.svg was not renamed : new name is the same than old name
-about-icon-bluesky-light.svg was not renamed : new name is the same than old name
-about-icon-bluesky-star.svg was not renamed : new name is the same than old name
-about-icon-instagram-dark.svg was not renamed : new name is the same than old name
-about-icon-instagram-light.svg was not renamed : new name is the same than old name
-about-icon-instagram-star.svg was not renamed : new name is the same than old name
-about-icon-kofi-dark.svg was not renamed : new name is the same than old name
-about-icon-kofi-light.svg was not renamed : new name is the same than old name
-about-icon-kofi-star.svg was not renamed : new name is the same than old name
-about-icon-twitter-dark.svg was not renamed : new name is the same than old name
-about-icon-twitter-light.svg was not renamed : new name is the same than old name
-about-icon-twitter-star.svg was not renamed : new name is the same than old name
-abouttimelinedark.svg was not renamed : new name is the same than old name
-abouttimelinedarkjp.svg was not renamed : new name is the same than old name
-abouttimelinelight.svg was not renamed : new name is the same than old name
-abouttimelinelightjp.svg was not renamed : new name is the same than old name
-abouttimelinemdark.svg was not renamed : new name is the same than old name
-abouttimelinemdarkjp.svg was not renamed : new name is the same than old name
-abouttimelinemlight.svg was not renamed : new name is the same than old name
-abouttimelinemlightjp.svg was not renamed : new name is the same than old name
-abouttimelinemstar.svg was not renamed : new name is the same than old name
-abouttimelinemstarjp.svg was not renamed : new name is the same than old name
-abouttimelinestar.svg was not renamed : new name is the same than old name
-abouttimelinestarjp.svg was not renamed : new name is the same than old name
-aboutvesnea-header.webp was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\About\AboutVesnea\aboutvesnea-header_2-shadow.png renamed to aboutvesnea-header-2-shadow.png
-E:\Github\projectseaweb\src\Assets\About\AboutVesnea\aboutvesnea-header_2.png renamed to aboutvesnea-header-2.png
-aboutvesnea-pfp.webp was not renamed : new name is the same than old name
-tidy-er-dark.svg was not renamed : new name is the same than old name
-tidy-er-light.svg was not renamed : new name is the same than old name
-tidy-er-star.svg was not renamed : new name is the same than old name
-korazu.png was not renamed : new name is the same than old name
-mythseavalanche.webp was not renamed : new name is the same than old name
-seava.png was not renamed : new name is the same than old name
-seavalanche.png was not renamed : new name is the same than old name
-uzakon.png was not renamed : new name is the same than old name
-vesnea.png was not renamed : new name is the same than old name
-zumiko.png was not renamed : new name is the same than old name
-arna.webp was not renamed : new name is the same than old name
-baldor.webp was not renamed : new name is the same than old name
-deimev.webp was not renamed : new name is the same than old name
-fondan.webp was not renamed : new name is the same than old name
-rakariki.webp was not renamed : new name is the same than old name
-sarchie.webp was not renamed : new name is the same than old name
-veranite.webp was not renamed : new name is the same than old name
-korazu.png was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\About\ACinfo\myth_seavalanche.png renamed to myth-seavalanche.png
-seava.png was not renamed : new name is the same than old name
-seavalanche.png was not renamed : new name is the same than old name
-uzakon.png was not renamed : new name is the same than old name
-vesnea.png was not renamed : new name is the same than old name
-zumiko.png was not renamed : new name is the same than old name
-arrow.png was not renamed : new name is the same than old name
-artstylewrap.jpg was not renamed : new name is the same than old name
-commbanner1.webp was not renamed : new name is the same than old name
-commbanner1m.webp was not renamed : new name is the same than old name
-commbanner2.webp was not renamed : new name is the same than old name
-commbanner2m.webp was not renamed : new name is the same than old name
-commboard.jpg was not renamed : new name is the same than old name
-resetbtndark.svg was not renamed : new name is the same than old name
-resetbtndarkactive.svg was not renamed : new name is the same than old name
-resetbtnlight.svg was not renamed : new name is the same than old name
-resetbtnlightactive.svg was not renamed : new name is the same than old name
-resetbtnstar.svg was not renamed : new name is the same than old name
-resetbtnstaractive.svg was not renamed : new name is the same than old name
-sidebarbtn.svg was not renamed : new name is the same than old name
-sidebarbtn2.svg was not renamed : new name is the same than old name
-sidebarbtndarkclose.svg was not renamed : new name is the same than old name
-sidebarbtndarkclosehover.svg was not renamed : new name is the same than old name
-sidebarbtndarkopen.svg was not renamed : new name is the same than old name
-sidebarbtndarkopenhover.svg was not renamed : new name is the same than old name
-sidebarbtnlightclose.svg was not renamed : new name is the same than old name
-sidebarbtnlightclosehover.svg was not renamed : new name is the same than old name
-sidebarbtnlightopen.svg was not renamed : new name is the same than old name
-sidebarbtnlightopenhover.svg was not renamed : new name is the same than old name
-sidebarbtnmdarkclose.svg was not renamed : new name is the same than old name
-sidebarbtnmdarkclosehover.svg was not renamed : new name is the same than old name
-sidebarbtnmdarkopen.svg was not renamed : new name is the same than old name
-sidebarbtnmdarkopenhover.svg was not renamed : new name is the same than old name
-sidebarbtnmlightclose.svg was not renamed : new name is the same than old name
-sidebarbtnmlightclosehover.svg was not renamed : new name is the same than old name
-sidebarbtnmlightopen.svg was not renamed : new name is the same than old name
-sidebarbtnmlightopenhover.svg was not renamed : new name is the same than old name
-sidebarbtnmstarclose.svg was not renamed : new name is the same than old name
-sidebarbtnmstarclosehover.svg was not renamed : new name is the same than old name
-sidebarbtnmstaropen.svg was not renamed : new name is the same than old name
-sidebarbtnmstaropenhover.svg was not renamed : new name is the same than old name
-sidebarbtnstarclose.svg was not renamed : new name is the same than old name
-sidebarbtnstarclosehover.svg was not renamed : new name is the same than old name
-sidebarbtnstaropen.svg was not renamed : new name is the same than old name
-sidebarbtnstaropenhover.svg was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Common\vesbg_1.webp renamed to vesbg-1.webp
-E:\Github\projectseaweb\src\Assets\Common\vesbg_1b.webp renamed to vesbg-1b.webp
-E:\Github\projectseaweb\src\Assets\Common\vesbg_2.webp renamed to vesbg-2.webp
-E:\Github\projectseaweb\src\Assets\Common\vesbg_3.webp renamed to vesbg-3.webp
-commstatusimg.png was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c01-truffles_and_claus-220529-0088.jpg renamed to sea-2022-c01-truffles-and-claus-220529-0088.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c01b-truffles_and_claus-220529-0039.jpg renamed to sea-2022-c01b-truffles-and-claus-220529-0039.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c02-ruru-220531-0109.jpg renamed to sea-2022-c02-ruru-220531-0109.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c03-ruru-220608-0051.jpg renamed to sea-2022-c03-ruru-220608-0051.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c04-mystic-220611-0160.jpg renamed to sea-2022-c04-mystic-220611-0160.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c05-ninetales-220619-0113.jpg renamed to sea-2022-c05-ninetales-220619-0113.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c06-soldreon-220628-0239.jpg renamed to sea-2022-c06-soldreon-220628-0239.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c07-ninetales_and_delphox-220710-0408.jpg renamed to sea-2022-c07-ninetales-and-delphox-220710-0408.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c08-arcanum_and_vis-220716-0415.jpg renamed to sea-2022-c08-arcanum-and-vis-220716-0415.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c09-spicy__nutzz-220724-0104.jpg renamed to sea-2022-c09-spicy--nutzz-220724-0104.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c10-ruby-220731-0067.jpg renamed to sea-2022-c10-ruby-220731-0067.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c10b-ruby-220731-0094.jpg renamed to sea-2022-c10b-ruby-220731-0094.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c11-fizzy-220909-0306.jpg renamed to sea-2022-c11-fizzy-220909-0306.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c12-diamant-220914-0313.jpg renamed to sea-2022-c12-diamant-220914-0313.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c13-togeshi-220924-0091.jpg renamed to sea-2022-c13-togeshi-220924-0091.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c14-daniel-221003-0214.jpg renamed to sea-2022-c14-daniel-221003-0214.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c15-awildpukachu-221026-0155.jpg renamed to sea-2022-c15-awildpukachu-221026-0155.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c16-rinko-221117-0080.jpg renamed to sea-2022-c16-rinko-221117-0080.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c17-ruru-221117-0065.jpg renamed to sea-2022-c17-ruru-221117-0065.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c18-jenny-221120-0119.jpg renamed to sea-2022-c18-jenny-221120-0119.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c19-jenny_and_zolt-221219-0144.jpg renamed to sea-2022-c19-jenny-and-zolt-221219-0144.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c20-receive_ribbon-221230-0209.jpg renamed to sea-2022-c20-receive-ribbon-221230-0209.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2022-c22-foxes_playing-221231-0099.jpg renamed to sea-2022-c22-foxes-playing-221231-0099.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2023-c21-moonlight_blush-230101-0231.jpg renamed to sea-2023-c21-moonlight-blush-230101-0231.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2023-c23-yla,_luna,_and_kaicho-230118-0353.jpg renamed to sea-2023-c23-yla,-luna,-and-kaicho-230118-0353.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2023-c24-klonoa-230219-0180.jpg renamed to sea-2023-c24-klonoa-230219-0180.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2023-c25-dan_and_rinko-230219-0096.jpg renamed to sea-2023-c25-dan-and-rinko-230219-0096.jpg
-E:\Github\projectseaweb\src\Assets\Completed Commission\sea_2023-c26-konqi-230404-0151.jpg renamed to sea-2023-c26-konqi-230404-0151.jpg
-baskervville-regular.ttf was not renamed : new name is the same than old name
-intertight-extralightitalic.ttf was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Fonts\intertight-italic-variablefont_wght.ttf renamed to intertight-italic-variablefont-wght.ttf
-E:\Github\projectseaweb\src\Assets\Fonts\josefinsans-italic-variablefont_wght.ttf renamed to josefinsans-italic-variablefont-wght.ttf
-E:\Github\projectseaweb\src\Assets\Fonts\josefinsans-variablefont_wght.ttf renamed to josefinsans-variablefont-wght.ttf
-lora-bold.ttf was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Fonts\lora-variablefont_wght.ttf renamed to lora-variablefont-wght.ttf
-montserrat-bold.ttf was not renamed : new name is the same than old name
-montserrat-semibold.ttf was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Fonts\montserrat-variablefont_wght.ttf renamed to montserrat-variablefont-wght.ttf
-opendyslexic-regular.otf was not renamed : new name is the same than old name
-darkmode.jpg was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Footer\darkmode_xssize.jpg renamed to darkmode-xssize.jpg
-E:\Github\projectseaweb\src\Assets\Footer\footbarlogox2_darkmode.png renamed to footbarlogox2-darkmode.png
-E:\Github\projectseaweb\src\Assets\Footer\footbarlogox2_lightmode.png renamed to footbarlogox2-lightmode.png
-E:\Github\projectseaweb\src\Assets\Footer\footbarlogox2_starmode.png renamed to footbarlogox2-starmode.png
-lightmode.jpg was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Footer\lightmode_xssize.jpg renamed to lightmode-xssize.jpg
-starmode.jpg was not renamed : new name is the same than old name
-introduction-bg-full.jpg was not renamed : new name is the same than old name
-introduction-bg.jpg was not renamed : new name is the same than old name
-2023-18-sprigatito.jpg was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Homepage\shortintro\s98-vesnea_see_you.png renamed to s98-vesnea-see-you.png
-welcomesect-dark.jpg was not renamed : new name is the same than old name
-welcomesect-light.jpg was not renamed : new name is the same than old name
-welcomesect-star.jpg was not renamed : new name is the same than old name
-kofinav.png was not renamed : new name is the same than old name
-korazusun.svg was not renamed : new name is the same than old name
-navbarbutton.svg was not renamed : new name is the same than old name
-navbarlogo-dark.png was not renamed : new name is the same than old name
-navbarlogo-light.png was not renamed : new name is the same than old name
-navbarlogo-pink.png was not renamed : new name is the same than old name
-navbarlogo-pink2.png was not renamed : new name is the same than old name
-navbarlogo-star.png was not renamed : new name is the same than old name
-uzakonmoon.svg was not renamed : new name is the same than old name
-zumikostar.svg was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Others\af25-05-ailia's_nastasia_transparent.png renamed to af25-05-ailia's-nastasia-transparent.png
-E:\Github\projectseaweb\src\Assets\Others\af25-06-derpycloud's_kumo_and_blu.png renamed to af25-06-derpycloud's-kumo-and-blu.png
-E:\Github\projectseaweb\src\Assets\Others\af25-06-derpycloud's_kumo_and_blu_transparent.png renamed to af25-06-derpycloud's-kumo-and-blu-transparent.png
-E:\Github\projectseaweb\src\Assets\Others\af25-06-derpycloud's_kumo_and_blu_transparent2.png renamed to af25-06-derpycloud's-kumo-and-blu-transparent2.png
-E:\Github\projectseaweb\src\Assets\pfp_vesnea.png renamed to pfp-vesnea.png
-vesnea.png was not renamed : new name is the same than old name
-seawebcolorstyles.png was not renamed : new name is the same than old name
-separator1.png was not renamed : new name is the same than old name
-separator2.png was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v1_website_1.png renamed to v1-website-1.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v1_website_2.png renamed to v1-website-2.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v1_website_3.png renamed to v1-website-3.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v1_website_4.png renamed to v1-website-4.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v1_website_5.png renamed to v1-website-5.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v2_website_1.png renamed to v2-website-1.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v2_website_2.png renamed to v2-website-2.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v2_website_3.png renamed to v2-website-3.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v2_website_4.png renamed to v2-website-4.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v2_website_5.png renamed to v2-website-5.png
-E:\Github\projectseaweb\src\Assets\Project Sea Web\webshowcase\v2_website_6.png renamed to v2-website-6.png
-E:\Github\projectseaweb\src\Assets\projectseaweb_icon.jpg renamed to projectseaweb-icon.jpg
-E:\Github\projectseaweb\src\Assets\projectseaweb_icon_32.png renamed to projectseaweb-icon-32.png
-promotional1.png was not renamed : new name is the same than old name
-promotional2.png was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\s75-vesnea_b_338x450.gif renamed to s75-vesnea-b-338x450.gif
-seava.png was not renamed : new name is the same than old name
-seavalanche.png was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\seava_icon.png renamed to seava-icon.png
-small-seava-and-vesnea.jpg was not renamed : new name is the same than old name
-timelinehelper.png was not renamed : new name is the same than old name
-vescursor.png was not renamed : new name is the same than old name
-vesnea.png was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\Assets\vesnea_art_fight_2025.png renamed to vesnea-art-fight-2025.png
-E:\Github\projectseaweb\src\Assets\vesnea_icon.png renamed to vesnea-icon.png
-E:\Github\projectseaweb\src\Assets\vesnea_see_you.jpg renamed to vesnea-see-you.jpg
-CharacterCard.js was not renamed : new name is the same than old name
-footer.js was not renamed : new name is the same than old name
-GameLayout.js was not renamed : new name is the same than old name
-LanguageSwitcher.js was not renamed : new name is the same than old name
-navbar.js was not renamed : new name is the same than old name
-navbar2.js was not renamed : new name is the same than old name
-NotFound.js was not renamed : new name is the same than old name
-PoemBookmark.js was not renamed : new name is the same than old name
-PoemContent.js was not renamed : new name is the same than old name
-PoemFnBar.js was not renamed : new name is the same than old name
-PoemSidebar.js was not renamed : new name is the same than old name
-readingstats.js was not renamed : new name is the same than old name
-ScrollToTop.js was not renamed : new name is the same than old name
-ScrollToTopButton.js was not renamed : new name is the same than old name
-SpeechPlayer.js was not renamed : new name is the same than old name
-StoryBookmark.js was not renamed : new name is the same than old name
-StoryContent.js was not renamed : new name is the same than old name
-StoryFnBar.js was not renamed : new name is the same than old name
-StorySidebar.js was not renamed : new name is the same than old name
-ThemeContext.js was not renamed : new name is the same than old name
-UnderConstruction.js was not renamed : new name is the same than old name
-attributepage.css was not renamed : new name is the same than old name
-charinfo.css was not renamed : new name is the same than old name
-hpcarousel.css was not renamed : new name is the same than old name
-Navbar.css was not renamed : new name is the same than old name
-poembook.css was not renamed : new name is the same than old name
-index.js was not renamed : new name is the same than old name
-layout.css was not renamed : new name is the same than old name
-LanguageContext.js was not renamed : new name is the same than old name
-useLocalization.js was not renamed : new name is the same than old name
-useTranslation.js was not renamed : new name is the same than old name
-localization.js was not renamed : new name is the same than old name
-logo.svg was not renamed : new name is the same than old name
-aboutvesnea.js was not renamed : new name is the same than old name
-artpage.js was not renamed : new name is the same than old name
-attributepage.js was not renamed : new name is the same than old name
-metadata.js was not renamed : new name is the same than old name
-poem-metadata.js was not renamed : new name is the same than old name
-characters.js was not renamed : new name is the same than old name
-charinfo.js was not renamed : new name is the same than old name
-commissions.js was not renamed : new name is the same than old name
-charactersdata.json was not renamed : new name is the same than old name
-gamepage.js was not renamed : new name is the same than old name
-tictactoepage.js was not renamed : new name is the same than old name
-homepage.js was not renamed : new name is the same than old name
-Poem.js was not renamed : new name is the same than old name
-poembook.js was not renamed : new name is the same than old name
-projects.js was not renamed : new name is the same than old name
-projectseaweb.js was not renamed : new name is the same than old name
-seawebtree.js was not renamed : new name is the same than old name
-story.js was not renamed : new name is the same than old name
-umbreonjourney.js was not renamed : new name is the same than old name
-vesneamerch.js was not renamed : new name is the same than old name
-VesneaThemes.js was not renamed : new name is the same than old name
-rename-log.txt was not renamed : new name is the same than old name
-ReportWebVitals.js was not renamed : new name is the same than old name
-setuptests.js was not renamed : new name is the same than old name
-theme.css was not renamed : new name is the same than old name
-highlightmessage.js was not renamed : new name is the same than old name
-ychstory.js was not renamed : new name is the same than old name
-YCHStoryBookmark.js was not renamed : new name is the same than old name
-YCHStoryContent.js was not renamed : new name is the same than old name
-YCHStoryFnBar.js was not renamed : new name is the same than old name
-YCHStoryTTH.js was not renamed : new name is the same than old name
-texttohtmlconverter.js was not renamed : new name is the same than old name
-artpage.json was not renamed : new name is the same than old name
-charcard.json was not renamed : new name is the same than old name
-footer.json was not renamed : new name is the same than old name
-gamepage.json was not renamed : new name is the same than old name
-navbar.json was not renamed : new name is the same than old name
-poembook.json was not renamed : new name is the same than old name
-storyfnbar.json was not renamed : new name is the same than old name
-storysidebar.json was not renamed : new name is the same than old name
-aboutvesnea.json was not renamed : new name is the same than old name
-aboutwebsite.json was not renamed : new name is the same than old name
-accontent.json was not renamed : new name is the same than old name
-acinfo.json was not renamed : new name is the same than old name
-actitle.json was not renamed : new name is the same than old name
-tictactoe.json was not renamed : new name is the same than old name
-homepage.json was not renamed : new name is the same than old name
-notfound.json was not renamed : new name is the same than old name
-vesneathemescom.json was not renamed : new name is the same than old name
-vesneathemeslang.json was not renamed : new name is the same than old name
-intro.md was not renamed : new name is the same than old name
-searchingmyself.md was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\translations\en\storychapters\chapter1_old.md renamed to chapter1-old.md
-intro.md was not renamed : new name is the same than old name
-prologue.md was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\translations\en\storychapters\prologue_old.md renamed to prologue-old.md
-artpage.json was not renamed : new name is the same than old name
-charcard.json was not renamed : new name is the same than old name
-footer.json was not renamed : new name is the same than old name
-gamepage.json was not renamed : new name is the same than old name
-navbar.json was not renamed : new name is the same than old name
-poembook.json was not renamed : new name is the same than old name
-storyfnbar.json was not renamed : new name is the same than old name
-storysidebar.json was not renamed : new name is the same than old name
-aboutvesnea.json was not renamed : new name is the same than old name
-aboutwebsite.json was not renamed : new name is the same than old name
-accontent.json was not renamed : new name is the same than old name
-acinfo.json was not renamed : new name is the same than old name
-actitle.json was not renamed : new name is the same than old name
-tictactoe.json was not renamed : new name is the same than old name
-homepage.json was not renamed : new name is the same than old name
-notfound.json was not renamed : new name is the same than old name
-vesneathemescom.json was not renamed : new name is the same than old name
-vesneathemeslang.json was not renamed : new name is the same than old name
-intro.md was not renamed : new name is the same than old name
-searchingmyself.md was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\translations\jp\storychapters\chapter1_old.md renamed to chapter1-old.md
-intro.md was not renamed : new name is the same than old name
-prologue.md was not renamed : new name is the same than old name
-E:\Github\projectseaweb\src\translations\jp\storychapters\prologue_old.md renamed to prologue-old.md
-Translations.js was not renamed : new name is the same than old name
-update-imports-2.js was not renamed : new name is the same than old name
-update-imports.js was not renamed : new name is the same than old name
-Renaming process finished
+0a - Project Glacy.webp renamed to 0a---Project-Glacy.webp
+0b - Glace.webp renamed to 0b---Glace.webp
+2021 - 227 - Glaceon 01.webp renamed to 2021---227---Glaceon-01.webp
+2021 - 229 - Glaceon 02.webp renamed to 2021---229---Glaceon-02.webp
+2021 - 230 - Glaceon 03.webp renamed to 2021---230---Glaceon-03.webp
+2021 - 232 - Glaceon 04.webp renamed to 2021---232---Glaceon-04.webp
+2021 - 233 - Glaceon 05.webp renamed to 2021---233---Glaceon-05.webp
+2021 - 234 - Glaceon 06.webp renamed to 2021---234---Glaceon-06.webp
+2021 - 235 - Glaceon 07.webp renamed to 2021---235---Glaceon-07.webp
+2021 - 236 - Glaceon 08.webp renamed to 2021---236---Glaceon-08.webp
+2021 - 237 - Glaceon 09.webp renamed to 2021---237---Glaceon-09.webp
+2021 - 238 - Glaceon 10.webp renamed to 2021---238---Glaceon-10.webp
+2021 - 239 - Glaceon 11.webp renamed to 2021---239---Glaceon-11.webp
+2021 - 240 - Glaceon 12.webp renamed to 2021---240---Glaceon-12.webp
+2021 - 241 - Glaceon 13.webp renamed to 2021---241---Glaceon-13.webp
+2021 - 242 - Glaceon 14.webp renamed to 2021---242---Glaceon-14.webp
+2021 - 243 - Glaceon 15.webp renamed to 2021---243---Glaceon-15.webp
+2021 - 244 - Glaceon Day.webp renamed to 2021---244---Glaceon-Day.webp
+2021 - 245 - Glaceon 17.webp renamed to 2021---245---Glaceon-17.webp
+2021 - 247 - Glaceon 18.webp renamed to 2021---247---Glaceon-18.webp
+2021 - 248 - LeafyGlace.webp renamed to 2021---248---LeafyGlace.webp
+2021 - 252 - Glaceon 20.webp renamed to 2021---252---Glaceon-20.webp
+2021 - 253 - Glaceon 21.webp renamed to 2021---253---Glaceon-21.webp
+2021 - 254 - Glaceon 22.webp renamed to 2021---254---Glaceon-22.webp
+2021 - 255 - Glaceon 23.webp renamed to 2021---255---Glaceon-23.webp
+2021 - 256 - Glaceon 24.webp renamed to 2021---256---Glaceon-24.webp
+2021 - 257 - Glaceon 25.webp renamed to 2021---257---Glaceon-25.webp
+2021 - 258 - Glaceon 26.webp renamed to 2021---258---Glaceon-26.webp
+2021 - 259 - Glaceon 27.webp renamed to 2021---259---Glaceon-27.webp
+2021 - 260 - Glaceon 28.webp renamed to 2021---260---Glaceon-28.webp
+2021 - 261 - Glaceon 29.webp renamed to 2021---261---Glaceon-29.webp
+2021 - 262 - Glaceon 30.webp renamed to 2021---262---Glaceon-30.webp
+2021 - 263 - Glaceon 31.webp renamed to 2021---263---Glaceon-31.webp
+2021 - 264 - Glaceon 32.webp renamed to 2021---264---Glaceon-32.webp
+2021 - 265 - Glaceon 33.webp renamed to 2021---265---Glaceon-33.webp
+2021 - 266 - Glaceon 34.webp renamed to 2021---266---Glaceon-34.webp
+2021 - 267 - Glaceon 35.webp renamed to 2021---267---Glaceon-35.webp
+2021 - 268 - Glaceon 36.webp renamed to 2021---268---Glaceon-36.webp
+2021 - 269 - Glaceon 37.webp renamed to 2021---269---Glaceon-37.webp
+2021 - 270 - Glaceon 38.webp renamed to 2021---270---Glaceon-38.webp
+2021 - 271 - Glaceon 39_crop.webp renamed to 2021---271---Glaceon-39_crop.webp
+2021 - 272 - Glaceon 40 Light.webp renamed to 2021---272---Glaceon-40-Light.webp
+2021 - 273 - Glaceon 41.webp renamed to 2021---273---Glaceon-41.webp
+2021 - 278 - Glaceon 42.webp renamed to 2021---278---Glaceon-42.webp
+2021 - 279 - Glaceon 43.webp renamed to 2021---279---Glaceon-43.webp
+2021 - 280 - Glaceon 44.webp renamed to 2021---280---Glaceon-44.webp
+2021 - 282 - Glaceon 45.webp renamed to 2021---282---Glaceon-45.webp
+2021 - 283 - Glaceon 46.webp renamed to 2021---283---Glaceon-46.webp
+2021 - 284 - Glaceon 47.webp renamed to 2021---284---Glaceon-47.webp
+2021 - 286 - Glaceon 48.webp renamed to 2021---286---Glaceon-48.webp
+0a---Project-Glacy.webp renamed to 0a-Project-Glacy.webp
+0b---Glace.webp renamed to 0b-Glace.webp
+2021---227---Glaceon-01.webp renamed to 2021-227-Glaceon-01.webp
+2021---229---Glaceon-02.webp renamed to 2021-229-Glaceon-02.webp
+2021---230---Glaceon-03.webp renamed to 2021-230-Glaceon-03.webp
+2021---232---Glaceon-04.webp renamed to 2021-232-Glaceon-04.webp
+2021---233---Glaceon-05.webp renamed to 2021-233-Glaceon-05.webp
+2021---234---Glaceon-06.webp renamed to 2021-234-Glaceon-06.webp
+2021---235---Glaceon-07.webp renamed to 2021-235-Glaceon-07.webp
+2021---236---Glaceon-08.webp renamed to 2021-236-Glaceon-08.webp
+2021---237---Glaceon-09.webp renamed to 2021-237-Glaceon-09.webp
+2021---238---Glaceon-10.webp renamed to 2021-238-Glaceon-10.webp
+2021---239---Glaceon-11.webp renamed to 2021-239-Glaceon-11.webp
+2021---240---Glaceon-12.webp renamed to 2021-240-Glaceon-12.webp
+2021---241---Glaceon-13.webp renamed to 2021-241-Glaceon-13.webp
+2021---242---Glaceon-14.webp renamed to 2021-242-Glaceon-14.webp
+2021---243---Glaceon-15.webp renamed to 2021-243-Glaceon-15.webp
+2021---244---Glaceon-Day.webp renamed to 2021-244-Glaceon-Day.webp
+2021---245---Glaceon-17.webp renamed to 2021-245-Glaceon-17.webp
+2021---247---Glaceon-18.webp renamed to 2021-247-Glaceon-18.webp
+2021---248---LeafyGlace.webp renamed to 2021-248-LeafyGlace.webp
+2021---252---Glaceon-20.webp renamed to 2021-252-Glaceon-20.webp
+2021---253---Glaceon-21.webp renamed to 2021-253-Glaceon-21.webp
+2021---254---Glaceon-22.webp renamed to 2021-254-Glaceon-22.webp
+2021---255---Glaceon-23.webp renamed to 2021-255-Glaceon-23.webp
+2021---256---Glaceon-24.webp renamed to 2021-256-Glaceon-24.webp
+2021---257---Glaceon-25.webp renamed to 2021-257-Glaceon-25.webp
+2021---258---Glaceon-26.webp renamed to 2021-258-Glaceon-26.webp
+2021---259---Glaceon-27.webp renamed to 2021-259-Glaceon-27.webp
+2021---260---Glaceon-28.webp renamed to 2021-260-Glaceon-28.webp
+2021---261---Glaceon-29.webp renamed to 2021-261-Glaceon-29.webp
+2021---262---Glaceon-30.webp renamed to 2021-262-Glaceon-30.webp
+2021---263---Glaceon-31.webp renamed to 2021-263-Glaceon-31.webp
+2021---264---Glaceon-32.webp renamed to 2021-264-Glaceon-32.webp
+2021---265---Glaceon-33.webp renamed to 2021-265-Glaceon-33.webp
+2021---266---Glaceon-34.webp renamed to 2021-266-Glaceon-34.webp
+2021---267---Glaceon-35.webp renamed to 2021-267-Glaceon-35.webp
+2021---268---Glaceon-36.webp renamed to 2021-268-Glaceon-36.webp
+2021---269---Glaceon-37.webp renamed to 2021-269-Glaceon-37.webp
+2021---270---Glaceon-38.webp renamed to 2021-270-Glaceon-38.webp
+2021---271---Glaceon-39_crop.webp renamed to 2021-271-Glaceon-39_crop.webp
+2021---272---Glaceon-40-Light.webp renamed to 2021-272-Glaceon-40-Light.webp
+2021---273---Glaceon-41.webp renamed to 2021-273-Glaceon-41.webp
+2021---278---Glaceon-42.webp renamed to 2021-278-Glaceon-42.webp
+2021---279---Glaceon-43.webp renamed to 2021-279-Glaceon-43.webp
+2021---280---Glaceon-44.webp renamed to 2021-280-Glaceon-44.webp
+2021---282---Glaceon-45.webp renamed to 2021-282-Glaceon-45.webp
+2021---283---Glaceon-46.webp renamed to 2021-283-Glaceon-46.webp
+2021---284---Glaceon-47.webp renamed to 2021-284-Glaceon-47.webp
+2021---286---Glaceon-48.webp renamed to 2021-286-Glaceon-48.webp
+0a-Project-Glacy.webp renamed to 0a-project-glacy.webp
+0b-Glace.webp renamed to 0b-glace.webp
+2021-227-Glaceon-01.webp renamed to 2021-227-glaceon-01.webp
+2021-229-Glaceon-02.webp renamed to 2021-229-glaceon-02.webp
+2021-230-Glaceon-03.webp renamed to 2021-230-glaceon-03.webp
+2021-232-Glaceon-04.webp renamed to 2021-232-glaceon-04.webp
+2021-233-Glaceon-05.webp renamed to 2021-233-glaceon-05.webp
+2021-234-Glaceon-06.webp renamed to 2021-234-glaceon-06.webp
+2021-235-Glaceon-07.webp renamed to 2021-235-glaceon-07.webp
+2021-236-Glaceon-08.webp renamed to 2021-236-glaceon-08.webp
+2021-237-Glaceon-09.webp renamed to 2021-237-glaceon-09.webp
+2021-238-Glaceon-10.webp renamed to 2021-238-glaceon-10.webp
+2021-239-Glaceon-11.webp renamed to 2021-239-glaceon-11.webp
+2021-240-Glaceon-12.webp renamed to 2021-240-glaceon-12.webp
+2021-241-Glaceon-13.webp renamed to 2021-241-glaceon-13.webp
+2021-242-Glaceon-14.webp renamed to 2021-242-glaceon-14.webp
+2021-243-Glaceon-15.webp renamed to 2021-243-glaceon-15.webp
+2021-244-Glaceon-Day.webp renamed to 2021-244-glaceon-day.webp
+2021-245-Glaceon-17.webp renamed to 2021-245-glaceon-17.webp
+2021-247-Glaceon-18.webp renamed to 2021-247-glaceon-18.webp
+2021-248-LeafyGlace.webp renamed to 2021-248-leafyglace.webp
+2021-252-Glaceon-20.webp renamed to 2021-252-glaceon-20.webp
+2021-253-Glaceon-21.webp renamed to 2021-253-glaceon-21.webp
+2021-254-Glaceon-22.webp renamed to 2021-254-glaceon-22.webp
+2021-255-Glaceon-23.webp renamed to 2021-255-glaceon-23.webp
+2021-256-Glaceon-24.webp renamed to 2021-256-glaceon-24.webp
+2021-257-Glaceon-25.webp renamed to 2021-257-glaceon-25.webp
+2021-258-Glaceon-26.webp renamed to 2021-258-glaceon-26.webp
+2021-259-Glaceon-27.webp renamed to 2021-259-glaceon-27.webp
+2021-260-Glaceon-28.webp renamed to 2021-260-glaceon-28.webp
+2021-261-Glaceon-29.webp renamed to 2021-261-glaceon-29.webp
+2021-262-Glaceon-30.webp renamed to 2021-262-glaceon-30.webp
+2021-263-Glaceon-31.webp renamed to 2021-263-glaceon-31.webp
+2021-264-Glaceon-32.webp renamed to 2021-264-glaceon-32.webp
+2021-265-Glaceon-33.webp renamed to 2021-265-glaceon-33.webp
+2021-266-Glaceon-34.webp renamed to 2021-266-glaceon-34.webp
+2021-267-Glaceon-35.webp renamed to 2021-267-glaceon-35.webp
+2021-268-Glaceon-36.webp renamed to 2021-268-glaceon-36.webp
+2021-269-Glaceon-37.webp renamed to 2021-269-glaceon-37.webp
+2021-270-Glaceon-38.webp renamed to 2021-270-glaceon-38.webp
+2021-271-Glaceon-39_crop.webp renamed to 2021-271-glaceon-39_crop.webp
+2021-272-Glaceon-40-Light.webp renamed to 2021-272-glaceon-40-light.webp
+2021-273-Glaceon-41.webp renamed to 2021-273-glaceon-41.webp
+2021-278-Glaceon-42.webp renamed to 2021-278-glaceon-42.webp
+2021-279-Glaceon-43.webp renamed to 2021-279-glaceon-43.webp
+2021-280-Glaceon-44.webp renamed to 2021-280-glaceon-44.webp
+2021-282-Glaceon-45.webp renamed to 2021-282-glaceon-45.webp
+2021-283-Glaceon-46.webp renamed to 2021-283-glaceon-46.webp
+2021-284-Glaceon-47.webp renamed to 2021-284-glaceon-47.webp
+2021-286-Glaceon-48.webp renamed to 2021-286-glaceon-48.webp

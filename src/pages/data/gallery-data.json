@@ -1,0 +1,776 @@
+[
+  {
+    "projectId": "project-glacy",
+    "projectName": { "en": "Project Glacy", "jp": "" },
+    "projectDescription": {
+      "en": "This is a project where I drew a lot of Glaceon in various styles and ideas!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2021 ] 18 August - 15 October", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "48 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "0a-project-glacy.webp",
+        "title": "0a - Project - Glacy",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "0b-glace.webp",
+        "title": "0b - Glace",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "0a-project-glacy.webp",
+        "title": "0a - Project - Glacy",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "0b-glace.webp",
+        "title": "0b - Glace",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-227-glaceon-01.webp",
+        "title": "2021 - 227 - Glaceon - 01",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-229-glaceon-02.webp",
+        "title": "2021 - 229 - Glaceon - 02",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-230-glaceon-03.webp",
+        "title": "2021 - 230 - Glaceon - 03",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-232-glaceon-04.webp",
+        "title": "2021 - 232 - Glaceon - 04",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-233-glaceon-05.webp",
+        "title": "2021 - 233 - Glaceon - 05",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-234-glaceon-06.webp",
+        "title": "2021 - 234 - Glaceon - 06",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-235-glaceon-07.webp",
+        "title": "2021 - 235 - Glaceon - 07",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-236-glaceon-08.webp",
+        "title": "2021 - 236 - Glaceon - 08",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-237-glaceon-09.webp",
+        "title": "2021 - 237 - Glaceon - 09",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-238-glaceon-10.webp",
+        "title": "2021 - 238 - Glaceon - 10",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-239-glaceon-11.webp",
+        "title": "2021 - 239 - Glaceon - 11",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-240-glaceon-12.webp",
+        "title": "2021 - 240 - Glaceon - 12",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-241-glaceon-13.webp",
+        "title": "2021 - 241 - Glaceon - 13",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-242-glaceon-14.webp",
+        "title": "2021 - 242 - Glaceon - 14",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-243-glaceon-15.webp",
+        "title": "2021 - 243 - Glaceon - 15",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-244-glaceon-day.webp",
+        "title": "2021 - 244 - Glaceon - Day",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-245-glaceon-17.webp",
+        "title": "2021 - 245 - Glaceon - 17",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-247-glaceon-18.webp",
+        "title": "2021 - 247 - Glaceon - 18",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-248-leafyglace.webp",
+        "title": "2021 - 248 - Leafyglace",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-252-glaceon-20.webp",
+        "title": "2021 - 252 - Glaceon - 20",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-253-glaceon-21.webp",
+        "title": "2021 - 253 - Glaceon - 21",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-254-glaceon-22.webp",
+        "title": "2021 - 254 - Glaceon - 22",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-255-glaceon-23.webp",
+        "title": "2021 - 255 - Glaceon - 23",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-256-glaceon-24.webp",
+        "title": "2021 - 256 - Glaceon - 24",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-257-glaceon-25.webp",
+        "title": "2021 - 257 - Glaceon - 25",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-258-glaceon-26.webp",
+        "title": "2021 - 258 - Glaceon - 26",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-259-glaceon-27.webp",
+        "title": "2021 - 259 - Glaceon - 27",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-260-glaceon-28.webp",
+        "title": "2021 - 260 - Glaceon - 28",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-261-glaceon-29.webp",
+        "title": "2021 - 261 - Glaceon - 29",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-262-glaceon-30.webp",
+        "title": "2021 - 262 - Glaceon - 30",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-263-glaceon-31.webp",
+        "title": "2021 - 263 - Glaceon - 31",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-264-glaceon-32.webp",
+        "title": "2021 - 264 - Glaceon - 32",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-265-glaceon-33.webp",
+        "title": "2021 - 265 - Glaceon - 33",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-266-glaceon-34.webp",
+        "title": "2021 - 266 - Glaceon - 34",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-267-glaceon-35.webp",
+        "title": "2021 - 267 - Glaceon - 35",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-268-glaceon-36.webp",
+        "title": "2021 - 268 - Glaceon - 36",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-269-glaceon-37.webp",
+        "title": "2021 - 269 - Glaceon - 37",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-270-glaceon-38.webp",
+        "title": "2021 - 270 - Glaceon - 38",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-271-glaceon-39_crop.webp",
+        "title": "2021 - 271 - Glaceon - 39_crop",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-272-glaceon-40-light.webp",
+        "title": "2021 - 272 - Glaceon - 40 - Light",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-273-glaceon-41.webp",
+        "title": "2021 - 273 - Glaceon - 41",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-278-glaceon-42.webp",
+        "title": "2021 - 278 - Glaceon - 42",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-279-glaceon-43.webp",
+        "title": "2021 - 279 - Glaceon - 43",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-280-glaceon-44.webp",
+        "title": "2021 - 280 - Glaceon - 44",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-282-glaceon-45.webp",
+        "title": "2021 - 282 - Glaceon - 45",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-283-glaceon-46.webp",
+        "title": "2021 - 283 - Glaceon - 46",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-284-glaceon-47.webp",
+        "title": "2021 - 284 - Glaceon - 47",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-286-glaceon-48.webp",
+        "title": "2021 - 286 - Glaceon - 48",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
+  },
+  {
+    "projectId": "project-leafy",
+    "projectName": { "en": "Project Leafy", "jp": "" },
+    "projectDescription": {
+      "en": "This is a project where I drew a lot of Leafeon in various styles and ideas!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2022 ] 19 May - 28 December", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "24 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "0-project-leafy.webp",
+        "title": "0 - Project - Leafy",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "0-project-leafy.webp",
+        "title": "0 - Project - Leafy",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-100-leafeon-04.webp",
+        "title": "2022 - 100 - Leafeon - 04",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-101-leafeon-05.webp",
+        "title": "2022 - 101 - Leafeon - 05",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-102-leafeon-06.webp",
+        "title": "2022 - 102 - Leafeon - 06",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-105-leafeon-07.webp",
+        "title": "2022 - 105 - Leafeon - 07",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-108-leafeon-08.webp",
+        "title": "2022 - 108 - Leafeon - 08",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-109-leafeon-09.webp",
+        "title": "2022 - 109 - Leafeon - 09",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-111-leafeon-10_crop.webp",
+        "title": "2022 - 111 - Leafeon - 10_crop",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-112-leafeon-11.webp",
+        "title": "2022 - 112 - Leafeon - 11",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-113-leafeon-12.webp",
+        "title": "2022 - 113 - Leafeon - 12",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-114-leafeon-13.webp",
+        "title": "2022 - 114 - Leafeon - 13",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-115-leafeon-14.webp",
+        "title": "2022 - 115 - Leafeon - 14",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-118-leafeon-15.webp",
+        "title": "2022 - 118 - Leafeon - 15",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-121-leafeon-16.webp",
+        "title": "2022 - 121 - Leafeon - 16",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-123-leafeon-17.webp",
+        "title": "2022 - 123 - Leafeon - 17",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-139-leafeon-and-glaceon.webp",
+        "title": "2022 - 139 - Leafeon - And - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-140-sunflower-field.webp",
+        "title": "2022 - 140 - Sunflower - Field",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-144-leafeon-20.webp",
+        "title": "2022 - 144 - Leafeon - 20",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-152-leafeon-21.webp",
+        "title": "2022 - 152 - Leafeon - 21",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-153-leafeon-22.webp",
+        "title": "2022 - 153 - Leafeon - 22",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-162-leafeon-23.webp",
+        "title": "2022 - 162 - Leafeon - 23",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-173-leafeon-24.webp",
+        "title": "2022 - 173 - Leafeon - 24",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-97-leafeon-01.webp",
+        "title": "2022 - 97 - Leafeon - 01",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-98-leafeon-02.webp",
+        "title": "2022 - 98 - Leafeon - 02",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-99-leafeon-03.webp",
+        "title": "2022 - 99 - Leafeon - 03",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
+  },
+  {
+    "projectId": "snivy-playing-with",
+    "projectName": { "en": "Snivy Playing with, a series", "jp": "" },
+    "projectDescription": {
+      "en": "This is a project where I drew Snivy in various scenario!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2021 ] 4 - 23 November", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "8 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "2021-305-playing-with-fire.webp",
+        "title": "2021 - 305 - Playing with Fire",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "2021-305-playing-with-fire.webp",
+        "title": "2021 - 305 - Playing with Fire",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-306-playing-with-snow.webp",
+        "title": "2021 - 306 - Playing with Snow",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-307-playing-with-rain.webp",
+        "title": "2021 - 307 - Playing with Rain",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-308-playing-with-bugs.webp",
+        "title": "2021 - 308 - Playing with Bugs",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-309-playing-with-electricity.webp",
+        "title": "2021 - 309 - Playing with Electricity",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-310-playing-with-heights.webp",
+        "title": "2021 - 310 - Playing with Heights",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-311-playing-with-rocks.webp",
+        "title": "2021 - 311 - Playing with Rocks",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2021-325-playing-with-chemicals.webp",
+        "title": "2021 - 325 - Playing with Chemicals",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
+  }
+]
