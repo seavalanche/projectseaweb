@@ -698,8 +698,16 @@
     ],
     "heroarts": [
       {
-        "filename": "2021-305-playing-with-fire.webp",
-        "title": "2021 - 305 - Playing with Fire",
+        "filename": "0-snivy-playing-with.webp",
+        "title": "Snivy Playing with, a series",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "0-snivy-playing-with-2.webp",
+        "title": "Snivy Playing with, a series",
         "caption": {
           "en": "",
           "jp": ""
@@ -707,6 +715,22 @@
       }
     ],
     "artworks": [
+      {
+        "filename": "0-snivy-playing-with.webp",
+        "title": "Snivy Playing with, a series",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "0-snivy-playing-with-2.webp",
+        "title": "Snivy Playing with, a series",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
       {
         "filename": "2021-305-playing-with-fire.webp",
         "title": "2021 - 305 - Playing with Fire",
