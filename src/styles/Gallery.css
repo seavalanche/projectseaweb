@@ -206,6 +206,10 @@
 @media only screen and (max-width: 800px) {
   .gallery-sidebar {
     --sidebar-width: 14rem;
+    margin-left: calc((var(--sidebar-width) - 25px - 10px) * -1);
+  }
+  .gallery-sidebar.is-open {
+    margin-left: calc((var(--sidebar-width) - 25px - 355px));
   }
   .gallery-sidebar-body {
     width: calc(100% - 25px - 7.5px);

@@ -368,6 +368,7 @@
   --navbar-logo-hover: var(--cutepink2);
   --navbg-secondary: hsl(from var(--bg-brand) h s l / 0.5);
   --navbg-secondary-hover: hsl(from var(--bg-brand) h s l / 0.95);
+  --navbg-secondary-m: hsl(from var(--bg-brand) h s l / 0.95);
   --navbg-shadow: hsl(from var(--text-on-brand) h calc(s + 50) l / 0.3);
   --navbg-bg-hover: hsl(from var(--text-on-special) h calc(s + 50) l / 0.1);
   --navbg-bg-hover-border: var(--bg-brand);
