@@ -276,6 +276,7 @@
     position: fixed;
     flex-direction: column;
     align-items: end;
+    background-color: var(--navbg-secondary-m);
   }
   .NV-body-secondary.open {
     transform: translateX(0);
