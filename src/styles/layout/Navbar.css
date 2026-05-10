@@ -57,7 +57,7 @@
   border-right: 2px solid transparent;
 }
 .NV-menu-body:hover {
-  transition: all 0.2s ease-in;
+  transition: all 0.75s ease-in;
   --navbar-menu-gap: 1.5rem;
   font-weight: bold;
   background-color: var(--navbg-bg-hover);
@@ -113,7 +113,7 @@
   border-right: 2px solid transparent;
 }
 .NV-theme-selection:hover {
-  transition: all 0.2s ease-in;
+  transition: all 0.75s ease-in;
   padding: 0 20px;
   background-color: var(--navbg-bg-hover);
   border-left: 2px solid var(--navbg-bg-hover-border);
