@@ -113,7 +113,7 @@
   height: calc(100vh - var(--navbar-height-primary));
   --sidebar-width: 25rem;
   width: var(--sidebar-width);
-  margin-left: calc((var(--sidebar-width) - 62px + 5px) * -1);
+  margin-left: calc((var(--sidebar-width) - 62px - 5px) * -1);
 }
 .gallery-sidebar.is-closed {
   transform: translateX(0);
@@ -126,7 +126,7 @@
   z-index: var(--gallery-sidebar-z-index);
   display: flex;
   position: fixed;
-  width: calc(100vw - 25rem - 18px);
+  width: calc(100vw - 25rem - 20px);
   right: 0;
   height: 100vh;
   background: linear-gradient(
@@ -138,14 +138,16 @@
   /* pointer-events: none; */
 }
 .gallery-sidebar-body {
+  overflow-y: auto;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  width: 89%;
-  height: 98%;
+  width: calc(100% - 62px - 2.5px);
+  height: calc(100% - 52.5px);
   margin-top: auto;
   margin-bottom: auto;
   margin-left: -5px;
+  padding: 15px 0;
   background-color: hsl(from var(--bg-primary) h s l / 0.9);
   box-shadow: 0 0 10px 5px hsl(from var(--bg-secondary) h s l / 0.9);
   border-radius: var(--button-border-radius);
@@ -155,7 +157,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 98%;
+  height: calc(100% - 25px);
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
@@ -172,12 +174,14 @@
   padding: 0 5px;
 }
 .gallery-sidebar-btn.is-open {
+  opacity: 0.8;
   background-color: var(--button-bg-hover);
   color: var(--button-text-hover);
   border: var(--button-border-hover);
   box-shadow: var(--button-shadow-hover);
 }
 .gallery-sidebar-btn:hover {
+  opacity: 1;
   background-color: var(--button-bg-hover);
   color: var(--button-text-hover);
   border: var(--button-border-hover);
@@ -198,4 +202,25 @@
 .gallery-sidebar-btn-close:hover {
   --svg-primary: var(--text-on-primary);
   --svg-secondary: var(--bg-primary);
+}
+@media only screen and (max-width: 800px) {
+  .gallery-sidebar {
+    --sidebar-width: 14rem;
+  }
+  .gallery-sidebar-body {
+    width: calc(100% - 25px - 7.5px);
+    height: calc(100% - 40px);
+  }
+  .gallery-sidebar-btn {
+    height: calc(100% - 10px);
+  }
+  .gallery-sidebar-btn-open,
+  .gallery-sidebar-btn-close {
+    display: flex;
+    width: 25px;
+    padding: 0 2.5px;
+  }
+  .cover.is-open {
+    width: calc(100vw - 14rem - 20px);
+  }
 }

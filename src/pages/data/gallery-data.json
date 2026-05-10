@@ -796,5 +796,259 @@
         }
       }
     ]
+  },
+  {
+    "projectId": "three-eevee-legendaries",
+    "projectName": { "en": "The Three Eevee Legendaries", "jp": "" },
+    "projectDescription": {
+      "en": "Glaceon as Zacian, Flareon as Zamazenta, and Eevee as Calyrex!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2020 ] 3 - 20 November", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "5 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "legendary-eevees.webp",
+        "title": "Legendary - Eevees",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "legendary-eevees.webp",
+        "title": "Legendary - Eevees",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-64-zacian-glaceon_b.webp",
+        "title": "2020 - 64 - Zacian - Glaceon_b",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-65-zacian-glaceon_a_crop.webp",
+        "title": "2020 - 65 - Zacian - Glaceon_a_crop",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-66-zacian-glaceon.webp",
+        "title": "2020 - 66 - Zacian - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-68-zamazenta-flareon.webp",
+        "title": "2020 - 68 - Zamazenta - Flareon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-70-calyrex-eevee.webp",
+        "title": "2020 - 70 - Calyrex - Eevee",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
+  },
+  {
+    "projectId": "valentines-eevee",
+    "projectName": { "en": "Valentine's Eevee", "jp": "" },
+    "projectDescription": {
+      "en": "Four Eeveelution pairings for Valentine's Day!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2022 ] 12 - 13 February", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "4 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "valentines-eevee.webp",
+        "title": "Valentine's Eevee",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "valentines-eevee.webp",
+        "title": "Valentine's Eevee",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-24.webp",
+        "title": "2022 - 24",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-25.webp",
+        "title": "2022 - 25",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-26.webp",
+        "title": "2022 - 26",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2022-27_brighter.webp",
+        "title": "2022 - 27_brighter",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
+  },
+  {
+    "projectId": "eeveelution-day-series",
+    "projectName": { "en": "Eeveelution Day series", "jp": "" },
+    "projectDescription": {
+      "en": "A portrait for each Eeveelutions on their own Day!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2021 ] 18 June - [ 2022 ] 11 March", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "7 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Incomplete", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "eeveelution-day-7-of-9.webp",
+        "title": "Eeveelution Day series",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "eeveelution-day-7-of-9.webp",
+        "title": "Eeveelution Day series",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "0221-30-sylveon-day.webp",
+        "title": "0221 - 30 - Sylveon Day",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "0312-54-jolteon-day.webp",
+        "title": "0312 - 54 - Jolteon Day",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "0618-175-leafeon-day.webp",
+        "title": "0618 - 175 - Leafeon Day",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "0821-231-espeon-day.webp",
+        "title": "0821 - 231 - Espeon Day",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "0901-244-glaceon-day.webp",
+        "title": "0901 - 244 - Glaceon Day",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "1121-323-eevee-day.webp",
+        "title": "1121 - 323 - Eevee Day",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "1203-332-vaporeon-day.webp",
+        "title": "1203 - 332 - Vaporeon Day",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
   }
 ]
