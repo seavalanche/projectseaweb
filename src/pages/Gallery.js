@@ -3,15 +3,49 @@ import ProjectArtworks from "../components/ProjectArtworks.js";
 import '../styles/Gallery.css'
 import { useLocalization } from '../localization/hooks/useLocalization';
 import React from 'react';
+import { useState } from 'react'
 import { HashLink } from 'react-router-hash-link';
+
+import { ReactComponent as SidebarBtnClose } from '../Assets/Common/sidebarbtn-close.svg';
+import { ReactComponent as SidebarBtnOpen } from '../Assets/Common/sidebarbtn-open.svg';
 
 export default function Gallery() {
     const { t, language } = useLocalization();
 
     const projects = projectData;
 
+    const [sidebarVisible, setSidebarVisible] = useState(false)
+    const toggleSidebar = () => {
+        setSidebarVisible(!sidebarVisible);
+    };
+
     return (
         <div className='gallerybg'>
+            <div className={`gallery-sidebar ${sidebarVisible ? 'is-open' : 'is-closed'}`}>
+                <div className='gallery-sidebar-body'>
+                    <div className="project-selector ontheside">
+                        {projects.map(project => (
+                            <section key={project.projectId} className="hero-section ontheside">
+                                <HashLink className="herolabel ontheside" key={project.projectId} to={`#${project.projectId}`}>{project.projectName[language] || project.projectName.en}</HashLink>
+                                <div className="hero-thumbnail ontheside">
+                                    {project.heroarts.map((art) => (
+                                        <ProjectArtworks key={art.id} art={art} projectId={project.projectId} />
+                                    ))}
+                                </div>
+                            </section>
+                        ))}
+                    </div>
+                </div>
+                <div className={`gallery-sidebar-btn ${sidebarVisible ? 'is-open' : 'is-closed'}`}
+                    onClick={() => { toggleSidebar(); }}>
+                    {sidebarVisible ?
+                        <div className="gallery-sidebar-btn-open"><SidebarBtnClose /></div>
+                        :
+                        <div className="gallery-sidebar-btn-close"><SidebarBtnOpen /></div>
+                    }
+                </div>
+            </div>
+            <div className={`cover ${sidebarVisible ? 'is-open' : 'is-closed'}`} />
             <div className='generalbody'>
                 <div className='generalbigtitle'>
                     {t("artpage.gallerytitle")}

@@ -38,6 +38,7 @@
   --charcard-tab-z-index: 4;
   --charcard-art-preview-z-index: 10;
   --charcard-bio-btn-z-index: 5;
+  --gallery-sidebar-z-index: 2;
 }
 :root {
   /* Fonts - Tier 1 */
