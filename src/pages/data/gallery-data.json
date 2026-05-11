@@ -1,5 +1,119 @@
 [
   {
+    "projectId": "2026-eeveelutions-set",
+    "projectName": { "en": "2026 Eeveelutions Set", "jp": "" },
+    "projectDescription": {
+      "en": "A portrait for each Eeveelutions in their fabulous self!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2026 ] 10 January - 1 February", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "9 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "2026-eeveelutions-set.webp",
+        "title": "2026 Eeveelutions Set",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "2026-eeveelutions-set.webp",
+        "title": "2026 Eeveelutions Set",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-01-flareon.webp",
+        "title": "2026 - 01 - Flareon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-02-jolteon.webp",
+        "title": "2026 - 02 - Jolteon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-03-leafeon.webp",
+        "title": "2026 - 03 - Leafeon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-04-umbreon.webp",
+        "title": "2026 - 04 - Umbreon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-05-glaceon.webp",
+        "title": "2026 - 05 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-06-espeon.webp",
+        "title": "2026 - 06 - Espeon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-07-eevee.webp",
+        "title": "2026 - 07 - Eevee",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-08-vaporeon.webp",
+        "title": "2026 - 08 - Vaporeon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-09-sylveon.webp",
+        "title": "2026 - 09 - Sylveon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
+  },
+  {
     "projectId": "project-glacy",
     "projectName": { "en": "Project Glacy", "jp": "" },
     "projectDescription": {
@@ -1044,6 +1158,104 @@
       {
         "filename": "1203-332-vaporeon-day.webp",
         "title": "1203 - 332 - Vaporeon Day",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
+  },
+  {
+    "projectId": "i-can-be-anything",
+    "projectName": { "en": "I Can Be Anything", "jp": "" },
+    "projectDescription": {
+      "en": "Vulpix is so enthusiastic they can be anything!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2020 ] 5 June", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "7 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "i-can-be-anything_all-7.webp",
+        "title": "I can be Anything",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "i-can-be-anything_all-7.webp",
+        "title": "I can be Anything",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-08a-i-can-be-anything-(engineer).webp",
+        "title": "2020 - 08a - I can be Anything (Engineer Vulpix)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-08b-i-can-be-anything-(gamer).webp",
+        "title": "2020 - 08b - I can be Anything (Gamer Vulpix)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-08c-i-can-be-anything-(manager).webp",
+        "title": "2020 - 08c - I can be Anything (Manager Vulpix)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-08d-i-can-be-anything-(model).webp",
+        "title": "2020 - 08d - I can be Anything (Model Vulpix)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-08e-i-can-be-anything-(painter).webp",
+        "title": "2020 - 08e - I can be Anything (Painter Vulpix)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-08f-i-can-be-anything-(pilot).webp",
+        "title": "2020 - 08f - I can be Anything (Pilot Vulpix)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2020-08g-i-can-be-anything-(singer).webp",
+        "title": "2020 - 08g - I can be Anything (Singer Vulpix)",
         "caption": {
           "en": "",
           "jp": ""

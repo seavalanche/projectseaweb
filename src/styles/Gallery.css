@@ -30,6 +30,9 @@
   justify-content: center;
   gap: 0.5rem;
 }
+/* .project-selector.ontheside {
+  align-items: flex-end;
+} */
 .hero-section {
   overflow: hidden;
   display: flex;
