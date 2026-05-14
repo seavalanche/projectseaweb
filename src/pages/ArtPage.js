@@ -19,14 +19,18 @@ const GamePage = () => {
                     <li><Link to='/Attributes' className='li'>{t("artpage.attributes")}</Link></li>
                     <li><Link to='/Story' className='li'>{t("artpage.story")}</Link></li>
                     <li><Link to='/Poem' className='li'>{t("artpage.poem")}</Link></li>
+
+                    <div className='listseparator'>{t("artpage.separator-art")}</div>
+                    <li><Link to='/Gallery' className='li'>{t("artpage.artgallery")}</Link></li>
                     <li><Link to='/Poem/UmbreonJourney' className='li'>{t("artpage.umbreonjourney")}</Link></li>
-                    <li><Link to='/Gallery' className='li'>Vesnea's Art Gallery</Link></li>
+                    {/* <li><Link to='/Projects' className='li'>{t("artpage.projects")}</Link></li> */}
 
                     <div className='listseparator'>{t("artpage.separator2")}</div>
                     <li><Link to='/GamePage' className='li'>{t("artpage.games")}</Link></li>
                     <li><Link to='/ProjectSeaWeb' className='li'>{t("artpage.seaweb")}</Link></li>
                     <li><Link to='/Themes' className='li'>{t("artpage.themes")}</Link></li>
                     <li><Link to='/Merch' className='li'>{t("artpage.merch")}</Link></li>
+                    {/* <li><Link to='/Friends' className='li'>{t("artpage.friends")}</Link></li> */}
 
                     <div className='listseparator'>{t("artpage.separator3")}</div>
                     <li><Link to='/SeaWebTree' className='li'>{t("artpage.seawebtree")}</Link></li>

@@ -90,6 +90,7 @@ export default function Gallery() {
                     </section>
                 ))}
             </div>
+            <div className="generaldisclaimer generalcontent">{t("artpage.artdisclaimer1")}<br/>{t("artpage.artdisclaimer2")}</div>
         </div>
     );
 }

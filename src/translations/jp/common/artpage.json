@@ -4,19 +4,28 @@
 
   "separator1": "Seavalancheユニバース",
   "chars": "Seavalancheのキャラクターたち",
+  "attributes": "Seavalanche's World Attribute",
   "story": "Seavalancheの物語",
   "poem": "Vesneaの詩集",
+
+  "separator-art": "Seavalanche Vesnea's Art Gallery",
+  "artgallery": "Seavalanche Vesnea's Art Gallery",
+  "gallerytitle": "Vesnea's Art Gallery",
+  "gallerysubtitle": "Welcome to my art gallery!",
   "umbreonjourney": "Vesneaの特別な詩：「 ブラッキーの旅路：人生の道をたどって 」",
+  "projects": "Seavalanche Vesnea's whole Art Projects",
+  "projectsgallerytitle": "Seavalanche Vesnea's Art Projects Gallery",
+  "projectsgallerysubtitle": "Here is my categorization of each of my art projects!",
+  "artdisclaimer1": "All artworks shown here is drawn by Seavalanche Vesnea as fanarts. Seavalanche Vesnea's characters is owned by Seavalanche Vesnea.",
+  "artdisclaimer2": "Pokémon is a trademark of Nintendo, Game Freak, and The Pokémon Company. Digimon is a trademark of KABUSHIKI KAISHA BANDAI (Bandai Co., Ltd.). My Little Pony is a registered trademark owned by Hasbro, Inc.",
 
   "separator2": "Vesneaと一緒に楽しもう！",
   "games": "Vesneaのゲームたち",
   "seaweb": "Seavalancheのウェブサイト制作：「 Project Sea Web 」",
   "themes": "Vesneaの特別なテーマたち",
   "merch": "Vesneaのさまざまなデジタルグッズ",
+  "friends": "Seavalanche Vesnea's friends",
 
   "separator3": "その他",
-  "seawebtree": "Vesneaのアート・SNSリンク一覧はこちら",
-
-  "gallerytitle": "Vesnea's Art Gallery",
-  "gallerysubtitle": "Welcome to my art gallery!"
+  "seawebtree": "Vesneaのアート・SNSリンク一覧はこちら"
 }
