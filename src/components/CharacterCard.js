@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useLocalization } from '../localization/hooks/useLocalization';
 import { useRef } from 'react';
-// import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown';
 
 function CharacterCard({ character }) {
     const { t, language } = useLocalization();
@@ -100,11 +100,15 @@ function CharacterCard({ character }) {
                         <div className='charcard-extra'>
                             <div className='charcard-contentB-parts'>
                                 <div className='charcardProp'>{t("charcard.meaning")}</div>
-                                <div className='charcardValue'>{character.nameMeaning}</div>
+                                <div className='charcardValue'>
+                                    <ReactMarkdown>{character.nameMeaning}</ReactMarkdown>
+                                </div>
                             </div>
                             <div className='charcard-contentB-parts even'>
                                 <div className='charcardProp'>{t("charcard.lifeBackground")}</div>
-                                <div className='charcardValue'>{character.lifeBackground}</div>
+                                <div className='charcardValue'>
+                                    <ReactMarkdown>{character.lifeBackground}</ReactMarkdown>
+                                </div>
                             </div>
                             <div className='charcard-contentB-parts'>
                                 <div className='charcardProp'>{t("charcard.personality")}</div>
@@ -112,28 +116,38 @@ function CharacterCard({ character }) {
                                     <li className='charcardValue charcardpersonality'>
                                         <span className='charcardpersonality-label'>{t("charcard.personalityTraits")}</span>
                                         <span className="charcardpersonality-colon">:</span>
-                                        <span className='charcardpersonality-value'>{character.traits}</span>
+                                        <span className='charcardpersonality-value'>
+                                            <ReactMarkdown>{character.traits}</ReactMarkdown>
+                                        </span>
                                     </li>
                                     <li className='charcardValue charcardpersonality'>
                                         <span className='charcardpersonality-label'>{t("charcard.personalityValues")}</span>
                                         <span className="charcardpersonality-colon">:</span>
-                                        <span className='charcardpersonality-value'>{character.values}</span>
+                                        <span className='charcardpersonality-value'>
+                                            <ReactMarkdown>{character.values}</ReactMarkdown>
+                                        </span>
                                     </li>
                                     <li className='charcardValue charcardpersonality'>
                                         <span className='charcardpersonality-label'>{t("charcard.personalityFlaws")}</span>
                                         <span className="charcardpersonality-colon">:</span>
-                                        <span className='charcardpersonality-value'>{character.flaws}</span>
+                                        <span className='charcardpersonality-value'>
+                                            <ReactMarkdown>{character.flaws}</ReactMarkdown>
+                                        </span>
                                     </li>
                                     <li className='charcardValue charcardpersonality'>
                                         <span className='charcardpersonality-label'>{t("charcard.personalityQuirks")}</span>
                                         <span className="charcardpersonality-colon">:</span>
-                                        <span className='charcardpersonality-value'>{character.quirks}</span>
+                                        <span className='charcardpersonality-value'>
+                                            <ReactMarkdown>{character.quirks}</ReactMarkdown>
+                                        </span>
                                     </li>
                                 </ul>
                             </div>
                             <div className='charcard-contentB-parts even'>
                                 <div className='charcardProp'>{t("charcard.bodyShapeDescription")}</div>
-                                <div className='charcardValue'>{character.bodyShapeDescription}</div>
+                                <div className='charcardValue'>
+                                    <ReactMarkdown>{character.bodyShapeDescription}</ReactMarkdown>
+                                </div>
                             </div>
                         </div>
                     )}

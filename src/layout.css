@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
 }
-p {
+/* p {
   text-indent: 50px;
   margin-bottom: 15px;
-}
+} */
 html {
   scroll-padding-top: 150px;
 }
