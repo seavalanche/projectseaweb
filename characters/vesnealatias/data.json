@@ -1,0 +1,45 @@
+{
+  "id": "vesnealatias",
+  "profilePicture": "pfp-vestias.png",
+  "profilePicture2": "pfp-vestias.png",
+  "name": "Vestias",
+  "alternateName": "(Vesnea Latias)",
+  "genderColor": "Female",
+  "attributes": [],
+
+  "artworks": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}
