@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projectseaweb/static/css/main.eb3c4245.css",
-    "main.js": "/projectseaweb/static/js/main.01ec78c0.js",
+    "main.js": "/projectseaweb/static/js/main.dd387aeb.js",
     "static/js/714.5bb2a9a5.chunk.js": "/projectseaweb/static/js/714.5bb2a9a5.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
     "static/js/879.2f41cd03.chunk.js": "/projectseaweb/static/js/879.2f41cd03.chunk.js",
@@ -125,11 +125,11 @@
     "static/media/tidy-er-light.svg": "/projectseaweb/static/media/tidy-er-light.337cc898a68c939a76a6.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
     "main.eb3c4245.css.map": "/projectseaweb/static/css/main.eb3c4245.css.map",
-    "main.01ec78c0.js.map": "/projectseaweb/static/js/main.01ec78c0.js.map",
+    "main.dd387aeb.js.map": "/projectseaweb/static/js/main.dd387aeb.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3c4245.css",
-    "static/js/main.01ec78c0.js"
+    "static/js/main.dd387aeb.js"
   ]
 }
