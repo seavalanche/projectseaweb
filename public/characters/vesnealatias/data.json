@@ -1,11 +1,11 @@
 {
   "id": "vesnealatias",
-  "profilePicture": "pfp-vestias.png",
-  "profilePicture2": "pfp-vestias.png",
+  "profilePicture": "pfp-placeholder.png",
+  "profilePicture2": "pfp-placeholder.png",
   "name": "Vestias",
   "alternateName": "(Vesnea Latias)",
   "genderColor": "Female",
-  "attributes": [],
+  "attributes": ["Aether", "Psionic"],
 
   "artworks": [
     {

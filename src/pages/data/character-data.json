@@ -4969,12 +4969,15 @@
   },
   {
     "id": "vesnealatias",
-    "profilePicture": "characters/vesnealatias/pfp-vestias.png",
-    "profilePicture2": "characters/vesnealatias/pfp-vestias.png",
+    "profilePicture": "characters/vesnealatias/pfp-placeholder.png",
+    "profilePicture2": "characters/vesnealatias/pfp-placeholder.png",
     "name": "Vestias",
     "alternateName": "(Vesnea Latias)",
     "genderColor": "Female",
-    "attributes": null,
+    "attributes": [
+      "Aether",
+      "Psionic"
+    ],
     "artworks": [
       {
         "src": "characters/vesnealatias/artworks/",
