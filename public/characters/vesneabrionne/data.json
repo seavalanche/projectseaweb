@@ -1,0 +1,48 @@
+{
+  "id": "vesneabrionne",
+  "profilePicture": "pfp-vesrionne.png",
+  "profilePicture2": "pfp-vesrionne.png",
+  "name": "Vesrionne",
+  "alternateName": "(Vesnea Brionne)",
+  "genderColor": "Female",
+  "attributes": ["Water", "Aether"],
+
+  "artworks": [
+    {
+      "src": "d43-design-vesrionne.jpg",
+      "title": "D43 - Design Vesrionne",
+      "caption": {
+        "en": "A ref sheet of Vesrionne (Vesnea Brionne).",
+        "jp": ""
+      }
+    }
+  ],
+  "tradearts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "collabarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "giftarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ],
+  "commarts": [
+    {
+      "src": "",
+      "title": "",
+      "caption": { "en": "", "jp": "" }
+    }
+  ]
+}
