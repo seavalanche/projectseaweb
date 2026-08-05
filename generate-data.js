@@ -4,7 +4,7 @@ const matter = require('gray-matter');
 
 // --- CONFIGURATION ---
 // const obsidianRoot = path.join(__dirname, 'public', 'Infinity Book', 'Characters Data');
-const obsidianRoot = "E:\\A3 - Cloud Syncs\\Syncthing\\Obsidian\\Seavalanche Story\\Infinity Book\\Characters Data";
+const obsidianRoot = "E:\\A3 - Cloud Syncs\\Syncthing\\Obsidian\\Vesnea Vault\\Seavalanche Story\\Infinity Book\\Characters Data";
 const charactersPublicDir = path.join(__dirname, 'public', 'characters');
 const indexFilePath = path.join(charactersPublicDir, 'index.json');
 const outputFile = path.join(__dirname, 'src', 'pages', 'data', 'character-data.json');
@@ -41,7 +41,7 @@ async function buildObsidianMap(dir, map = new Map()) {
  */
 function parseMarkdownContent(content) {
   const sections = {};
-  
+
   /** 
    * IMPROVED REGEX:
    * ^#{1,6}  -> Matches 1 to 6 '#' characters at the start of a line
@@ -49,7 +49,7 @@ function parseMarkdownContent(content) {
    * (.+)     -> Captures the title text
    */
   const regex = /^#{1,6}\s+(.+)$/gm;
-  
+
   let match;
   const matches = [];
 
@@ -71,16 +71,16 @@ function parseMarkdownContent(content) {
   for (let i = 0; i < matches.length; i++) {
     const current = matches[i];
     const next = matches[i + 1];
-    
+
     const start = current.index + current.fullMatch.length;
     const end = next ? next.index : content.length;
-    
+
     let sectionText = content.substring(start, end).trim();
 
     // Clean up the key name (e.g., "Story Plot Details" -> "storyPlotDetails")
     const key = current.title
       .toLowerCase()
-      .replace(/[^a-zA-Z0-9 ]/g, "") 
+      .replace(/[^a-zA-Z0-9 ]/g, "")
       .split(' ')
       .map((word, index) => index === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1))
       .join('');
@@ -145,7 +145,7 @@ async function buildData() {
           ...parsedMarkdown, // This spreads bio, personalities, details, etc., into the top level
           id: id,
           // Fallback for 'bio' if your frontend specifically looks for that key
-          bio: parsedMarkdown.bio || parsedMarkdown.biography || "", 
+          bio: parsedMarkdown.bio || parsedMarkdown.biography || "",
           profilePicture: baseData.profilePicture ? `characters/${id}/${baseData.profilePicture}` : null,
           profilePicture2: baseData.profilePicture2 ? `characters/${id}/${baseData.profilePicture2}` : null,
           artworks: getArtPath(baseData.artworks, 'artworks'),
