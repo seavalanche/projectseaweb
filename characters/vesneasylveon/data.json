@@ -43,6 +43,38 @@
   ],
   "tradearts": [
     {
+      "src": "af26-by-azulee-via-art-fight-20260703.webp",
+      "title": "by Azulee (3 July 2026)",
+      "caption": {
+        "en": "Art Fight 2026 - 03",
+        "jp": ""
+      }
+    },
+    {
+      "src": "af26-by-glaciehash-via-art-fight-20260705.webp",
+      "title": "by GlacieHash (5 July 2026)",
+      "caption": {
+        "en": "Vesneon laying in the grass",
+        "jp": ""
+      }
+    },
+    {
+      "src": "af26-by-ninjaschick-via-art-fight-20260711.webp",
+      "title": "by Ninjaschick (11 July 2026)",
+      "caption": {
+        "en": "Attack 56",
+        "jp": ""
+      }
+    },
+    {
+      "src": "af26-by-rosemaryfoxangel-via-art-fight-20260715.webp",
+      "title": "by RosemaryFoxAngel (15 July 2026)",
+      "caption": {
+        "en": "Pretty Sylveon!",
+        "jp": ""
+      }
+    },
+    {
       "src": "",
       "title": "",
       "caption": { "en": "", "jp": "" }
@@ -52,12 +84,18 @@
     {
       "src": "b04-christmas-collab.webp",
       "title": "B04 - Christmas Collab",
-      "caption": { "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the right bottom side, laying down with one eye opened.", "jp": "" }
+      "caption": {
+        "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the right bottom side, laying down with one eye opened.",
+        "jp": ""
+      }
     },
     {
       "src": "b06-chinese-new-year-vesneon.webp",
       "title": "B06 - Chinese New Year Vesneon",
-      "caption": { "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the center, wearing a Chinese New Year style clothes holding a red lantern with a Ponyta on it.", "jp": "" }
+      "caption": {
+        "en": "A group collaboration with Watashigu and friends, featuring my own Vesnea Sylveon (Vesneon) at the center, wearing a Chinese New Year style clothes holding a red lantern with a Ponyta on it.",
+        "jp": ""
+      }
     }
   ],
   "giftarts": [
