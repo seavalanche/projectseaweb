@@ -69,6 +69,14 @@
           "en": "Head in the Clouds",
           "jp": "Head in the Clouds"
         }
+      },
+      {
+        "src": "characters/mythseavalanche/tradearts/af26-by-neoskysquirrel-via-art-fight-20260713.webp",
+        "title": "by NeoSkySquirrel (13 July 2026)",
+        "caption": {
+          "en": "Seavalanche - Sacrament of Dreams",
+          "jp": ""
+        }
       }
     ],
     "collabarts": [
@@ -119,7 +127,7 @@
     ],
     "type": "Character Core",
     "alternate_name": "(Myth Seavalanche)",
-    "portrait": "![[pfp-mythseavalanche.png|40]]",
+    "portrait": "[[pfp-mythseavalanche.png|40]]",
     "story_role": "Protagonist",
     "species": "Fox-cat creature",
     "gender": "Female ♀",
@@ -422,7 +430,7 @@
     "type": "Character Mode",
     "alternate_name": "Vesnea Seavalanche Mode",
     "parent": "[[Vesnea]]",
-    "portrait": "![[pfp-seavalanche.png|40]]",
+    "portrait": "[[pfp-seavalanche.png|40]]",
     "story_role": "Protagonist",
     "species": "Fox-like creature",
     "gender": "Female ♀",
@@ -945,7 +953,7 @@
     ],
     "type": "Character Core",
     "alternate_name": "Ascended Form",
-    "portrait": "![[pfp-seava.png|40]]",
+    "portrait": "[[pfp-seava.png|40]]",
     "story_role": "Protagonist",
     "species": "Fox-like creature",
     "gender": "Genderless Ø",
@@ -1053,7 +1061,7 @@
     "type": "Character Mode",
     "alternate_name": "Tempest Mode",
     "parent": "[[Seava Ascended Form]]",
-    "portrait": "![[pfp-seavatm.png|40]]",
+    "portrait": "[[pfp-seavatm.png|40]]",
     "story_role": "Protagonist",
     "species": "Fox-like creature",
     "gender": "Genderless Ø",
@@ -1155,7 +1163,7 @@
     "type": "Character Mode",
     "alternate_name": "Zephyr Mode",
     "parent": "[[Seava Ascended Form]]",
-    "portrait": "![[pfp-seavazm.png|40]]",
+    "portrait": "[[pfp-seavazm.png|40]]",
     "story_role": "Protagonist",
     "species": "Fox-like creature",
     "gender": "Genderless Ø",
@@ -1207,10 +1215,18 @@
     ],
     "tradearts": [
       {
-        "src": "characters/seravyn/tradearts/",
-        "title": "",
+        "src": "characters/seravyn/tradearts/af26-by-enma-via-art-fight-20260704.webp",
+        "title": "by Enma (4 July 2026)",
         "caption": {
-          "en": "",
+          "en": "Seravyn and Sarchie!",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/seravyn/tradearts/af26-by-zombiepro89-via-art-fight-20260801.webp",
+        "title": "by Zombiepro89 (1 August 2026)",
+        "caption": {
+          "en": "Effortless Elegance",
           "jp": ""
         }
       }
@@ -1247,7 +1263,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-seravyn.png|40]]",
+    "portrait": "[[pfp-seravyn.png|40]]",
     "story_role": "Protagonist",
     "species": "Fox-like creature",
     "gender": "Genderless Ø",
@@ -1851,6 +1867,14 @@
           "en": "Vesnea the cutie.",
           "jp": ""
         }
+      },
+      {
+        "src": "characters/vesnea/tradearts/af26-by-simple_strawberry-via-art-fight-20260713.webp",
+        "title": "by Simple_Strawberry (13 July 2026)",
+        "caption": {
+          "en": "Vesnea Fullbody",
+          "jp": ""
+        }
       }
     ],
     "collabarts": [
@@ -2281,6 +2305,14 @@
         }
       },
       {
+        "src": "characters/vesnea/giftarts/by-super_ex1-20260715.webp",
+        "title": "By Super_ex1 (15 July 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
         "src": "characters/vesnea/giftarts/",
         "title": "",
         "caption": {
@@ -2389,7 +2421,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-vesnea.png|40]]",
+    "portrait": "[[pfp-vesnea.png|40]]",
     "story_role": "Protagonist",
     "species": "Fox-like creature",
     "gender": "Female ♀",
@@ -2501,7 +2533,7 @@
     "type": "Character Mode",
     "alternate_name": "Blossom Mode",
     "parent": "[[Vesnea]]",
-    "portrait": "![[pfp-vesneabm.png|40]]",
+    "portrait": "[[pfp-vesneabm.png|40]]",
     "story_role": "Protagonist",
     "species": "Fox-like creature",
     "gender": "Female ♀",
@@ -2622,6 +2654,14 @@
           "en": "Seavalanche Three Cats",
           "jp": ""
         }
+      },
+      {
+        "src": "characters/korazu/tradearts/af26-by-glacial_twin-via-art-fight-20260722.webp",
+        "title": "by Glacial_Twin (22 July 2026)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
       }
     ],
     "collabarts": [
@@ -2704,7 +2744,7 @@
     ],
     "type": "Character Core",
     "alternate_name": "The Seavalanche Cats",
-    "portrait": "![[pfp-korazu.png|40]]",
+    "portrait": "[[pfp-korazu.png|40]]",
     "story_role": "Protagonist",
     "species": "Cat-bird creature",
     "gender": "Male ♂",
@@ -2917,7 +2957,7 @@
     ],
     "type": "Character Core",
     "alternate_name": "The Seavalanche Cats",
-    "portrait": "![[pfp-uzakon.png|40]]",
+    "portrait": "[[pfp-uzakon.png|40]]",
     "story_role": "Protagonist",
     "species": "Cat-bunny creature",
     "gender": "Male ♂",
@@ -3130,7 +3170,7 @@
     ],
     "type": "Character Core",
     "alternate_name": "The Seavalanche Cats",
-    "portrait": "![[pfp-zumiko.png|40]]",
+    "portrait": "[[pfp-zumiko.png|40]]",
     "story_role": "Protagonist",
     "species": "Cat-dragon creature",
     "gender": "Male ♂",
@@ -3230,7 +3270,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-baldor.webp|40]]",
+    "portrait": "[[pfp-baldor.webp|40]]",
     "story_role": "Psychological Antagonist",
     "species": "Boulder creature",
     "gender": "Genderless Ø",
@@ -3298,6 +3338,14 @@
     ],
     "tradearts": [
       {
+        "src": "characters/arna/tradearts/af26-by-lerunechka-via-art-fight-20260728.webp",
+        "title": "by Lerunechka (28 July 2026)",
+        "caption": {
+          "en": "Arna!",
+          "jp": ""
+        }
+      },
+      {
         "src": "characters/arna/tradearts/",
         "title": "",
         "caption": {
@@ -3338,7 +3386,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-arna.webp|40]]",
+    "portrait": "[[pfp-arna.webp|40]]",
     "story_role": "Psychological Antagonist",
     "species": "Rabbit creature",
     "gender": "Female ♀",
@@ -3446,7 +3494,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-arnamini.webp|40]]",
+    "portrait": "[[pfp-arnamini.webp|40]]",
     "story_role": "Psychological Antagonist",
     "species": "Rabbit creature",
     "gender": "Male ♂",
@@ -3506,6 +3554,14 @@
     ],
     "tradearts": [
       {
+        "src": "characters/rakariki/tradearts/af26-by-thedominodiablo-via-art-fight-20260727.webp",
+        "title": "by TheDominoDiablo (27 July 2026)",
+        "caption": {
+          "en": "Rakariki",
+          "jp": ""
+        }
+      },
+      {
         "src": "characters/rakariki/tradearts/",
         "title": "",
         "caption": {
@@ -3546,7 +3602,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-rakariki.webp|40]]",
+    "portrait": "[[pfp-rakariki.webp|40]]",
     "story_role": "Psychological Antagonist",
     "species": "Cat creature",
     "gender": "Male ♂",
@@ -3654,7 +3710,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-veranite.png|40]]",
+    "portrait": "[[pfp-veranite.png|40]]",
     "story_role": "Psychological Antagonist",
     "species": "Fennec fox creature",
     "gender": "Male ♂",
@@ -3778,7 +3834,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-fondan.webp|40]]",
+    "portrait": "[[pfp-fondan.webp|40]]",
     "story_role": "Psychological Antagonist",
     "species": "Wolf creature",
     "gender": "Male ♂",
@@ -3838,6 +3894,14 @@
     ],
     "tradearts": [
       {
+        "src": "characters/sarchie/tradearts/af26-by-enma-via-art-fight-20260704.webp",
+        "title": "by Enma (4 July 2026)",
+        "caption": {
+          "en": "Seravyn and Sarchie!",
+          "jp": ""
+        }
+      },
+      {
         "src": "characters/sarchie/tradearts/",
         "title": "",
         "caption": {
@@ -3878,7 +3942,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-sarchie.png|40]]",
+    "portrait": "[[pfp-sarchie.png|40]]",
     "story_role": "Psychological Antagonist",
     "species": "Hummingbird creature",
     "gender": "Female ♀",
@@ -3971,7 +4035,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-deimev.png|40]]",
+    "portrait": "[[pfp-deimev.png|40]]",
     "story_role": "Psychological Antagonist",
     "species": "Bull creature",
     "gender": "Male ♂",
@@ -4065,7 +4129,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-tharos-glow.webp|40]]",
+    "portrait": "[[pfp-tharos-glow.webp|40]]",
     "story_role": "Deuteragonists",
     "species": "Wolf creature",
     "gender": "Male ♂",
@@ -4158,7 +4222,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-noira-glow.webp|40]]",
+    "portrait": "[[pfp-noira-glow.webp|40]]",
     "story_role": "Deuteragonists",
     "species": "Wolf creature",
     "gender": "Female ♀",
@@ -4251,7 +4315,7 @@
     ],
     "type": "Character Core",
     "alternate_name": null,
-    "portrait": "![[pfp-zeo-glow.webp|40]]",
+    "portrait": "[[pfp-zeo-glow.webp|40]]",
     "story_role": "Deuteragonists",
     "species": "Wolf creature",
     "gender": "Male ♂",
@@ -4788,6 +4852,38 @@
     ],
     "tradearts": [
       {
+        "src": "characters/vesneasylveon/tradearts/af26-by-azulee-via-art-fight-20260703.webp",
+        "title": "by Azulee (3 July 2026)",
+        "caption": {
+          "en": "Art Fight 2026 - 03",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesneasylveon/tradearts/af26-by-glaciehash-via-art-fight-20260705.webp",
+        "title": "by GlacieHash (5 July 2026)",
+        "caption": {
+          "en": "Vesneon laying in the grass",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesneasylveon/tradearts/af26-by-ninjaschick-via-art-fight-20260711.webp",
+        "title": "by Ninjaschick (11 July 2026)",
+        "caption": {
+          "en": "Attack 56",
+          "jp": ""
+        }
+      },
+      {
+        "src": "characters/vesneasylveon/tradearts/af26-by-rosemaryfoxangel-via-art-fight-20260715.webp",
+        "title": "by RosemaryFoxAngel (15 July 2026)",
+        "caption": {
+          "en": "Pretty Sylveon!",
+          "jp": ""
+        }
+      },
+      {
         "src": "characters/vesneasylveon/tradearts/",
         "title": "",
         "caption": {
@@ -4844,7 +4940,7 @@
     ],
     "type": "Character Core",
     "alternate_name": "(Vesnea Sylveon)",
-    "portrait": "![[pfp-vesneon.png|40]]",
+    "portrait": "[[pfp-vesneon.png|40]]",
     "story_role": null,
     "species": "Pokémon Sylveon",
     "gender": "Female ♀",
@@ -4937,7 +5033,7 @@
     ],
     "type": "Character Core",
     "alternate_name": "(Vesnea Brionne)",
-    "portrait": "![[pfp-vesrionne.png|40]]",
+    "portrait": "[[pfp-vesrionne.png|40]]",
     "story_role": null,
     "species": "Pokémon Brionne",
     "gender": "Female ♀",

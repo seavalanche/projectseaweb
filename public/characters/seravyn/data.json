@@ -16,9 +16,20 @@
   ],
   "tradearts": [
     {
-      "src": "",
-      "title": "",
-      "caption": { "en": "", "jp": "" }
+      "src": "af26-by-enma-via-art-fight-20260704.webp",
+      "title": "by Enma (4 July 2026)",
+      "caption": {
+        "en": "Seravyn and Sarchie!",
+        "jp": ""
+      }
+    },
+    {
+      "src": "af26-by-zombiepro89-via-art-fight-20260801.webp",
+      "title": "by Zombiepro89 (1 August 2026)",
+      "caption": {
+        "en": "Effortless Elegance",
+        "jp": ""
+      }
     }
   ],
   "collabarts": [
