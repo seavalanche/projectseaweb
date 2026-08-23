@@ -39,6 +39,9 @@ import GamePage from './pages/GamePage.js'
 import TicTacToe from './pages/games/TicTacToePage.js'
 import TestVesWorld from './pages/games/test-ves-world.js'
 
+import SpawnerCalculator1 from './Tools/SpawnerCalculator1.jsx';
+import SpawnerCalculator2 from './Tools/SpawnerCalculator2.jsx';
+
 function App() {
   const [theme, setTheme] = useState("light");
 
@@ -83,6 +86,8 @@ function App() {
         <Route path='/Tools' exact element={<Tools />} />
         <Route path='/Test' exact element={<TestComponent />} />
         <Route path='/YCHStory' exact element={<YCHStory />} />
+        <Route path='/SpawnerCalculator1' exact element={<SpawnerCalculator1 />} />
+        <Route path='/SpawnerCalculator2' exact element={<SpawnerCalculator2 />} />
         {/* <Route path='/Commissions' exact element={<Commissions />} /> */}
         {/* <Route path='/About' exact element={<About />} /> */}
       </Routes>

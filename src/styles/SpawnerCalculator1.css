@@ -1,0 +1,210 @@
+/* Core App Layout */
+.toolkit-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+}
+
+@media (min-width: 1024px) {
+  .toolkit-app {
+    flex-direction: row;
+  }
+}
+
+/* Sidebar (Coordinate Manager) */
+.toolkit-sidebar {
+  width: 100%;
+  background-color: #ffffff;
+  border-right: 1px solid #e2e8f0;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  .toolkit-sidebar {
+    width: 380px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+  }
+}
+
+.sidebar-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: #0f172a;
+}
+
+/* Spawner Inputs */
+.spawner-card {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.spawner-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.spawner-card-header input[type="text"] {
+  font-weight: 600;
+  border: 1px solid transparent;
+  background: transparent;
+  padding: 2px 4px;
+  width: 120px;
+}
+.spawner-card-header input[type="text"]:focus {
+  border-color: #cbd5e1;
+  background: #fff;
+}
+
+.btn-remove {
+  color: #ef4444;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.coord-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.coord-row input[type="number"] {
+  width: 60px;
+  padding: 4px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: #475569;
+  cursor: pointer;
+}
+
+/* Main Content Area */
+.toolkit-main {
+  flex: 1;
+  padding: 24px;
+  overflow-x: hidden;
+}
+
+/* Tabs */
+.toolkit-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 24px;
+  overflow-x: auto;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  color: #64748b;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.tab-btn:hover {
+  color: #2563eb;
+}
+
+.tab-btn.active {
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+}
+
+/* Cards & Tools */
+.tool-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 24px;
+}
+
+.tool-card h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+}
+
+/* Buttons & Inputs */
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-primary:hover { background: #1d4ed8; }
+
+.control-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+/* Tables */
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.data-table th { text-align: left; padding: 12px; border-bottom: 2px solid #e2e8f0; color: #475569; }
+.data-table td { padding: 12px; border-bottom: 1px solid #e2e8f0; }
+
+/* Voxel Grid (Excel) */
+.grid-wrapper {
+  overflow: auto;
+  max-height: 60vh;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+.voxel-grid { border-collapse: collapse; font-family: monospace; font-size: 11px; }
+.voxel-grid th, .voxel-grid td {
+  width: 26px; height: 26px; min-width: 26px; text-align: center; border: 1px solid #e2e8f0; cursor: crosshair;
+}
+.voxel-grid th { background: #f8fafc; position: sticky; top: 0; z-index: 2; }
+.voxel-grid td.row-header { background: #f8fafc; position: sticky; left: 0; z-index: 1; font-weight: bold; }
+.voxel-grid th:first-child { left: 0; z-index: 3; }
+
+.cell-spawner { background: #2563eb !important; color: white; font-weight: bold; }
+.cell-afk { background: #22c55e !important; color: #064e3b; font-weight: bold; }
+.cell-partial { background: #fef08a !important; }
+.cell-out { background: #ffffff; }
+
+/* Info Badges */
+.status-good { color: #16a34a; font-weight: 600; }
+.status-bad { color: #dc2626; font-weight: 600; }
+.info-box { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 16px; border-radius: 8px; margin-bottom: 16px; }
+.info-box.error { background: #fef2f2; border-color: #fecaca; }

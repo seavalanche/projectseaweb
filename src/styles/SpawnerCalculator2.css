@@ -1,0 +1,535 @@
+/* Minecraft UI Base Styling */
+.mc-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  font-family: monospace, sans-serif;
+  color: #ffffff;
+}
+
+.mc-panel {
+  background-color: #c6c6c6;
+  border: 4px solid #373737;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  padding: 16px;
+  color: #202020;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.mc-title {
+  margin-top: 0;
+  color: #202020;
+  text-shadow: 1px 1px #ffffff;
+  border-bottom: 2px solid #555555;
+  padding-bottom: 8px;
+}
+
+.mc-layout {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.mc-grid-wrapper {
+  flex: 1;
+  min-width: 340px;
+}
+
+.mc-view-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #a0a0a0;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 2px solid #373737;
+  font-size: 12px;
+}
+
+.plane-slider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* CSS Grid Engine */
+.mc-grid {
+  display: grid;
+  gap: 1px;
+  background-color: #373737;
+  border: 3px solid #373737;
+  padding: 2px;
+}
+
+/* Slot Cells */
+.mc-cell {
+  aspect-ratio: 1;
+  background-color: #8b8b8b;
+  border: 2px solid;
+  border-color: #373737 #ffffff #ffffff #373737;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.mc-cell:hover {
+  background-color: #a0a0a0;
+}
+
+/* Cell Visual States */
+.cell-spawner {
+  background-color: #d35400 !important;
+}
+
+.cell-offaxis-spawner {
+  background-color: #7f8c8d !important;
+}
+
+.offaxis-icon {
+  font-size: 10px;
+  opacity: 0.9;
+}
+
+/* Cage Pattern (Hatched Red Box) */
+.cell-cage {
+  background-color: #882222 !important;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 4px,
+    rgba(0, 0, 0, 0.3) 4px,
+    rgba(0, 0, 0, 0.3) 8px
+  );
+}
+
+.cell-player {
+  background-color: #2980b9 !important;
+}
+
+.cell-sweetspot {
+  background-color: #27ae60 !important;
+}
+
+.cell-in-radius {
+  background-color: #555555;
+}
+
+.mc-icon {
+  font-size: 11px;
+}
+
+.mc-hint {
+  font-size: 12px;
+  color: #444444;
+  margin-top: 6px;
+}
+
+/* Sidebar & Controls */
+.mc-sidebar {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mc-section {
+  background-color: #8b8b8b;
+  border: 2px solid;
+  border-color: #ffffff #373737 #373737 #ffffff;
+  padding: 10px;
+}
+
+.mc-section h3 {
+  margin: 0 0 8px 0;
+  font-size: 13px;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.text-gold {
+  color: #8a6d0b;
+}
+.text-green {
+  color: #006400;
+}
+.text-red {
+  color: #8b0000;
+}
+
+.spawner-controls {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.mc-input,
+.mc-input-select {
+  padding: 4px;
+  font-family: monospace;
+}
+
+.mc-btn {
+  background-color: #707070;
+  border: 2px solid;
+  border-color: #ffffff #373737 #373737 #ffffff;
+  color: #fff;
+  cursor: pointer;
+  font-family: monospace;
+  padding: 4px 8px;
+}
+
+.mc-btn:active {
+  border-color: #373737 #ffffff #ffffff #373737;
+}
+
+.mc-btn-danger {
+  background: #c0392b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+.spawner-list {
+  max-height: 220px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.spawner-card {
+  background: #a0a0a0;
+  padding: 6px;
+  border: 1px solid #373737;
+  font-size: 11px;
+}
+
+.spawner-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.coord-inputs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.mc-input-num {
+  width: 32px;
+  margin-left: 2px;
+  font-family: monospace;
+}
+
+.mc-input-num-wide {
+  width: 60px;
+  margin-left: 6px;
+  font-family: monospace;
+}
+
+.spawner-status {
+  font-size: 10px;
+}
+
+/* Legend */
+.mc-legend {
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.box {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+.box-spawner {
+  background-color: #d35400;
+}
+.box-offaxis {
+  background-color: #7f8c8d;
+}
+.box-cage {
+  background-color: #882222;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.4) 2px,
+    rgba(0, 0, 0, 0.4) 4px
+  );
+}
+.box-sweetspot {
+  background-color: #27ae60;
+}
+.box-player {
+  background-color: #2980b9;
+}
+
+.toolbar-group {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.highlight-select {
+  background-color: #373737;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-weight: bold;
+}
+
+/* Custom Spawner Form Additions */
+.add-spawner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mc-input-text {
+  padding: 4px 6px;
+  font-family: monospace;
+  font-size: 12px;
+  background-color: #ffffff;
+  border: 2px solid #373737;
+}
+
+.mc-textarea-paste {
+  padding: 4px 6px;
+  font-family: monospace;
+  font-size: 11px;
+  background-color: #ffffff;
+  border: 2px solid #373737;
+  resize: vertical;
+}
+
+.mc-btn-add {
+  background-color: #27ae60 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.mc-input-name {
+  font-weight: bold;
+  font-family: monospace;
+  border: none;
+  background: transparent;
+  border-bottom: 1px dashed #373737;
+  width: 70%;
+  font-size: 12px;
+}
+
+.mc-input-name:focus {
+  background: #ffffff;
+  outline: none;
+}
+/* Preset Form Styles */
+.preset-form {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.mc-btn-save {
+  background-color: #2980b9 !important;
+  color: white !important;
+  white-space: nowrap;
+}
+
+.preset-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 8px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.preset-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #a0a0a0;
+  padding: 4px 6px;
+  border: 1px solid #373737;
+  font-size: 11px;
+}
+
+.preset-title {
+  font-weight: bold;
+}
+
+.preset-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.mc-btn-sm {
+  background-color: #707070;
+  color: #fff;
+  border: 1px solid #373737;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 10px;
+  padding: 2px 4px;
+}
+
+.mc-btn-reset {
+  width: 100%;
+  background: #7f8c8d;
+  color: white;
+  border: 1px solid #373737;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 11px;
+  padding: 4px;
+}
+
+.mc-btn-reset:hover {
+  background: #95a5a6;
+}
+
+/* JSON Import / Export Action Buttons */
+.json-actions {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.mc-btn-export {
+  background-color: #e67e22 !important;
+  color: white !important;
+  flex: 1;
+}
+
+.mc-btn-import {
+  background-color: #8e44ad !important;
+  color: white !important;
+  flex: 1;
+}
+
+.real-coords-badge {
+  font-size: 10px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-bottom: 4px;
+  font-family: monospace;
+}
+
+/* Jump to Player Button */
+.plane-slider-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-jump-player {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.btn-jump-player:hover {
+  background-color: #2ecc71;
+}
+
+/* Off-Slice Player Ghost Styling */
+.cell-offslice-player {
+  background-color: rgba(52, 152, 219, 0.15) !important;
+  border: 1px dashed #3498db !important;
+}
+
+.offslice-player-icon {
+  opacity: 0.5;
+  filter: grayscale(40%);
+}
+
+/* Real-world AFK Coordinate Display Box */
+.afk-coords-card {
+  background: #1e272e;
+  border: 2px solid #27ae60;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.afk-label {
+  font-size: 11px;
+  color: #2ecc71;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.afk-value {
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.afk-value strong {
+  color: #f1c40f;
+}
+
+.btn-copy-coords {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.btn-copy-coords:hover {
+  background-color: #2ecc71;
+}
+
+.slice-world-badge {
+  font-size: 11px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: monospace;
+  white-space: nowrap;
+}
+
+.slice-world-badge strong {
+  color: #f1c40f;
+}
