@@ -1,6 +1,11 @@
 html {
-  font-size: 24px;
+  scroll-behavior: smooth;
   color: var(--text-on-primary);
+  font-size: var(--fs-0);
+  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+  line-height: 20pt;
+  text-decoration: initial;
+  font-weight: 300;
 }
 
 @media (max-width: 800px) {
@@ -47,34 +52,37 @@ a {
   font-size: var(--fs-0);
   text-decoration: none;
 }
-
-/* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
+/* 
+|| -----------------------------------------
+|| COMMON LAYOUT -> GENERAL
+|| -----------------------------------------
+*/
 .generalbody {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 1.2rem 0;
-  gap: 0.5rem;
-  background-color: var(--bg-primary);
-  color: var(--text-on-primary);
+  padding: var(--landing-padding) 0;
+  gap: var(--landing-padding3);
+  background-color: var(--primary-bg);
+  color: var(--primary-content);
 }
 .generalbigtitle {
   max-width: 1000px;
-  margin: 0 1.2rem;
+  margin: 0 var(--landing-padding);
   text-align: center;
   font-family: var(--font-heading);
-  font-size: var(--Fs-BigTitle);
+  font-size: var(--fs-5);
   line-height: normal;
   font-style: normal;
   text-decoration: initial;
 }
 .generaltitle {
   max-width: 1000px;
-  margin: 0 1.2rem;
+  margin: 0 var(--landing-padding);
   text-align: center;
-  font-size: var(--Fs-Title);
+  font-size: var(--fs-2);
   line-height: normal;
   font-style: italic;
   text-decoration: initial;
@@ -84,7 +92,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1.3rem 1.2rem;
+  margin: var(--landing-padding) var(--landing-padding);
   text-align: center;
 }
 .generalcontent a {
@@ -102,8 +110,8 @@ a {
   margin: 0 40px;
 }
 .generalcontent li:hover {
-  color: var(--text-on-brand);
-  text-shadow: 0 2px 5px hsl(from var(--text-on-brand) h s l / 0.5);
+  color: var(--tertiary-content-hover);
+  text-shadow: 0 2px 5px hsl(from var(--tertiary-content-hover) h s l / 0.5);
   transform: scale(1.3);
   font-style: italic;
   font-weight: 400;
@@ -113,16 +121,16 @@ a {
 }
 .listseparator {
   align-content: center;
-  min-height: 2rem;
-  margin-top: 1.2rem;
-  margin-bottom: 0.5rem;
+  min-height: var(--landing-padding);
+  margin-top: var(--landing-padding);
+  margin-bottom: var(--landing-padding3);
   padding-top: 5px;
-  font-size: var(--Fs-Title);
+  font-size: var(--fs-2);
   font-style: normal;
   font-weight: 600;
-  background-color: hsl(from var(--bg-brand) h s l / 0.5);
+  background-color: hsl(from var(--tertiary-bg) h s l / 0.5);
   color: var(--text-on-brand);
-  border: 2px solid hsl(from var(--text-on-brand) h s l / 0.3);
+  border: 2px solid hsl(from var(--tertiary-content) h s l / 0.3);
   border-radius: 50px 4px;
 }
 .listseparator.first {
@@ -131,9 +139,9 @@ a {
 .generaldesc-containerwrapper {
   width: 100%;
   margin-bottom: 15px;
-  background-color: hsl(from var(--bg-secondary) h s l / 0.5);
-  border-top: 1px solid hsl(from var(--text-on-primary) h s l / 0.3);
-  border-bottom: 1px solid hsl(from var(--text-on-primary) h s l / 0.3);
+  background-color: hsl(from var(--secondary-bg) h s l / 0.5);
+  border-top: 1px solid hsl(from var(--secondary-content) h s l / 0.3);
+  border-bottom: 1px solid hsl(from var(--secondary-content) h s l / 0.3);
 }
 .generaldesc-container {
   display: grid;
@@ -155,7 +163,7 @@ a {
   margin-bottom: 15px;
 }
 .generaldisclaimer {
-  font-size: var(--Fs-Content-small);
+  font-size: var(--fs--1);
   line-height: 1;
 }
 @media only screen and (max-width: 800px) {
@@ -168,7 +176,92 @@ a {
     padding-right: 5px;
   }
 }
-/* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
+/* 
+|| -----------------------------------------
+|| COMMON LAYOUT -> TOGGLE SWITCH
+|| -----------------------------------------
+*/
+* {
+  --toggle-height: 30px;
+  --toggle-ratio: 1.8;
+  --toggle-border-radius: 4px;
+  --toggle-width: calc(var(--toggle-height) * var(--toggle-ratio));
+  --toggle-switch-size: calc(var(--toggle-height) * 24 / 34);
+  --toggle-switch-margin: calc(var(--toggle-height) * 5 / 34);
+
+  --toggle-color-active: hsl(from var(--glow) h s l / 0.8);
+  --toggle-color-inactive: hsl(from var(--shadow) h s l / 0.3);
+  --toggle-color-switch: var(--primary-bg);
+  --toggle-color-disabled: hsl(from var(--shadow) h s l / 1);
+}
+.toggle-switch {
+  user-select: none;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  left: calc(var(--toggle-width) * 2 / 3);
+  width: var(--toggle-width);
+  text-align: left;
+}
+.toggle-switch-checkbox {
+  display: none;
+}
+.toggle-switch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0;
+  border-radius: var(--toggle-border-radius);
+}
+.toggle-switch-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: all 0.1s ease;
+}
+.toggle-switch-inner:before,
+.toggle-switch-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: var(--toggle-height);
+  box-sizing: border-box;
+  content: "";
+}
+.toggle-switch-inner:before {
+  background-color: var(--toggle-color-active);
+}
+.toggle-switch-inner:after {
+  background-color: var(--toggle-color-inactive);
+}
+.toggle-switch-switch {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  right: calc(
+    var(--toggle-width) - var(--toggle-switch-size) -
+      var(--toggle-switch-margin) * 2
+  );
+  width: var(--toggle-switch-size);
+  margin: var(--toggle-switch-margin);
+
+  background-color: var(--toggle-color-switch);
+  border: 0 solid var(--toggle-color-inactive);
+  border-radius: var(--toggle-border-radius);
+  transition: all 0.1s ease;
+}
+.toggle-switch-disabled,
+.toggle-switch-disabled:before {
+  cursor: not-allowed;
+  background-color: var(--toggle-color-disabled);
+}
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-inner {
+  margin-left: 0;
+}
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
+  right: 0px;
+}
 
 /* ---------------------------------------------------------------------------- */
 * {
@@ -201,4 +294,80 @@ button:active {
   --landing-padding2: calc(var(--landing-padding) / 2);
   --landing-padding3: calc(var(--landing-padding2) / 2);
   --landing-padding4: calc(var(--landing-padding3) / 2);
+}
+/* 
+|| -----------------------------------------
+|| CHARACTERS -> ATTRIBUTE BADGE
+|| -----------------------------------------
+*/
+.attribute-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: var(--fluid-50-75);
+  height: var(--fluid-20-25);
+  padding: var(--landing-padding4) var(--landing-padding2);
+  font-family: var(--font-layout);
+  font-size: var(--fs--1);
+  font-style: italic;
+  font-weight: bold;
+  box-shadow: 0 2px 2px color-mix(in srgb, var(--primary-bg) 50%, transparent);
+  border-radius: 6px;
+}
+.attribute-badge.aether {
+  background-color: var(--attribute-aether);
+  color: var(--attribute-text-black);
+}
+.attribute-badge.void {
+  background-color: var(--attribute-void);
+  color: var(--attribute-text-white);
+}
+.attribute-badge.light {
+  background-color: var(--attribute-light);
+  color: var(--attribute-text-black);
+}
+.attribute-badge.darkness {
+  background-color: var(--attribute-darkness);
+  color: var(--attribute-text-white);
+}
+.attribute-badge.fire {
+  background-color: var(--attribute-fire);
+  color: var(--attribute-text-white);
+}
+.attribute-badge.water {
+  background-color: var(--attribute-water);
+  color: var(--attribute-text-white);
+}
+.attribute-badge.nature {
+  background-color: var(--attribute-nature);
+  color: var(--attribute-text-black);
+}
+.attribute-badge.metal {
+  background-color: var(--attribute-metal);
+  color: var(--attribute-text-white);
+}
+.attribute-badge.electric {
+  background-color: var(--attribute-electric);
+  color: var(--attribute-text-black);
+}
+.attribute-badge.wind {
+  background-color: var(--attribute-wind);
+  color: var(--attribute-text-black);
+}
+.attribute-badge.magical {
+  background-color: var(--attribute-magical);
+  color: var(--attribute-text-black);
+}
+.attribute-badge.psionic {
+  background-color: var(--attribute-psionic);
+  color: var(--attribute-text-white);
+}
+.attribute-badge.spirit {
+  background-color: var(--attribute-spirit);
+  color: var(--attribute-text-white);
+}
+.attribute-badge.sound {
+  background-color: var(--attribute-sound);
+  color: var(--attribute-text-black);
 }

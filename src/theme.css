@@ -1,4 +1,4 @@
-html {
+/* html {
   scroll-behavior: smooth;
   font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
   font-size: var(--Fs-Content);
@@ -13,7 +13,7 @@ html[data-theme="dark"] {
 }
 html[data-theme="star"] {
   background-image: url("./Assets/Common/vesbg-3.webp");
-}
+} */
 .bigtitle {
   font-family: "Baskervville", "Noto Serif JP", serif;
   font-size: var(--Fs-BigTitle);
@@ -54,22 +54,6 @@ input:focus {
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--textpanel-border-active) 50%, transparent);
 }
-/* button {
-  cursor: pointer;
-  background-color: var(--button-bg-secondary);
-  font-family: var(--font-layout);
-  color: var(--button-text-secondary);
-  border: var(--button-border-secondary);
-  border-radius: var(--button-border-radius);
-}
-button:hover,
-button:active {
-  background-color: var(--button-bg-hover);
-  color: var(--button-text-hover);
-  border: var(--button-border-hover);
-  box-shadow: var(--button-shadow-hover);
-  text-shadow: 0 1px 3px var(--button-bg-hover);
-} */
 input[type="color"] {
   border-radius: var(--button-border-radius);
   border: var(--button-border-primary);
@@ -179,106 +163,6 @@ input[type="color"] {
   box-shadow: 0 0 10px color-mix(in srgb, var(--notfound-btn) 60%, transparent);
 }
 /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */ /* UNDER CONSTRUCTION */
-/* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */
-* {
-  --toggle-color-active: hsl(from var(--text-on-brand) h s l / 0.8);
-  --toggle-color-inactive:  hsl(from var(--bg-secondary) h s l / 0.3);
-  --toggle-color-switch: var(--C-Vesnea_white);
-  --toggle-color-disabled: #ddd;
-}
-.toggle-switch {
-  text-align: left;
-}
-.toggle-switch-label {
-  border-radius: var(--toggle-border-radius);
-}
-.toggle-switch-inner:before {
-  background-color: var(--toggle-color-active);
-}
-.toggle-switch-inner:after {
-  background-color: var(--toggle-color-inactive);
-}
-.toggle-switch-switch {
-  background-color: var(--toggle-color-switch);
-  border: 0 solid var(--toggle-color-inactive);
-  border-radius: var(--toggle-border-radius);
-  transition: all 0.1s ease;
-}
-.toggle-switch-disabled {
-  background-color: var(--toggle-color-disabled);
-}
-.toggle-switch-disabled:before {
-  background-color: var(--toggle-color-disabled);
-}
-/* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */ /* TOGGLE */
-/* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */
-.attribute-badge {
-  font-family: var(--F-Montserrat);
-  font-size: var(--Fs-Content-small);
-  font-style: italic;
-  font-weight: bold;
-  box-shadow: 0 2px 2px
-    color-mix(in srgb, var(--charcard-border) 50%, transparent);
-  border-radius: 6px;
-}
-.attribute-badge.aether {
-  background-color: var(--attribute-aether);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.void {
-  background-color: var(--attribute-void);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.light {
-  background-color: var(--attribute-light);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.darkness {
-  background-color: var(--attribute-darkness);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.fire {
-  background-color: var(--attribute-fire);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.water {
-  background-color: var(--attribute-water);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.nature {
-  background-color: var(--attribute-nature);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.metal {
-  background-color: var(--attribute-metal);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.electric {
-  background-color: var(--attribute-electric);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.wind {
-  background-color: var(--attribute-wind);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.magical {
-  background-color: var(--attribute-magical);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-.attribute-badge.psionic {
-  background-color: var(--attribute-psionic);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.spirit {
-  background-color: var(--attribute-spirit);
-  color: var(--attribute-text-vesneawhite);
-}
-.attribute-badge.sound {
-  background-color: var(--attribute-sound);
-  color: var(--attribute-text-seawebdarkpurple);
-}
-/* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */ /* ATTRIBUTES */
-
 /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */ /* PROJECTS */
 .projectcarditem {
   border-top: 4px dashed var(--border-on-special);

@@ -6,20 +6,16 @@ import '../styles/CharInfo.css';
 import { useLocalization } from '../localization/hooks/useLocalization';
 
 function CharInfo() {
-  // const { t, language } = useLocalization();
   const { t } = useLocalization();
   const characters = characterData;
   characters.map(character => (
     <CharacterCard key={character.id} character={character} />
   ))
 
-  // The Top Character Selector
-  // 1. First, we filter for ONLY "Character Core" types
+  // CHARACTER SELECTOR TOP
   const coreCharacters = characters.filter(char => char.type === "Character Core");
-
-  // 2. Then, we group THAT filtered list by their story_role
   const groupedByRole = coreCharacters.reduce((acc, char) => {
-    const role = char.group || 'Other'; // Fallback if a character doesn't have a role
+    const role = char.group || 'Other';
     if (!acc[role]) {
       acc[role] = [];
     }
@@ -64,11 +60,7 @@ function CharInfo() {
           <CharacterCard key={idx} character={char} />
         ))}
       </div>
-
-      {/* <span className='character-selector-cover'></span> */}
-      <div
-        className={`contentB-btn  ${viewSelector}`}
-      >
+      <div className={`contentB-btn  ${viewSelector}`}>
         <div className={`contentB-text  ${displayContentB}`}>
           {t("charcard.showbiobtn")}
         </div>

@@ -168,9 +168,6 @@
   --TC-Text_Light2: var(--C-Vesnea_Purple);
   --TC-Text_Dark: var(--C-Korazu_Yellow);
   --TC-Text_Dark2: var(--C-Vesnea_white);
-
-  --attribute-text-seawebdarkpurple: #181621;
-  --attribute-text-vesneawhite: #fefcfc;
 }
 /* 2. THE THEMES (Assigning jobs to the palette) */
 /* Default / Light Theme */

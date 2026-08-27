@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useLocalization } from '../localization/hooks/useLocalization';
 import { useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
+import { createPortal } from 'react-dom';
 
 function CharacterCard({ character }) {
     const { t, language } = useLocalization();
@@ -243,7 +244,7 @@ function CharacterCard({ character }) {
                                             </figure>
                                         ))}
                                     </div>
-                                    {selectedArt && (
+                                    {selectedArt && createPortal(
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
                                                 <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
@@ -253,7 +254,8 @@ function CharacterCard({ character }) {
                                                 </div>
                                                 <button className="charcard-close-btn" onClick={() => setSelectedArt(null)}>✕</button>
                                             </div>
-                                        </div>
+                                        </div>,
+                                        document.getElementById('portal-root')
                                     )}
                                 </div>
                             )}
@@ -276,7 +278,7 @@ function CharacterCard({ character }) {
                                             </figure>
                                         ))}
                                     </div>
-                                    {selectedArt && (
+                                    {selectedArt && createPortal(
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
                                                 <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
@@ -286,7 +288,8 @@ function CharacterCard({ character }) {
                                                 </div>
                                                 <button className="charcard-close-btn" onClick={() => setSelectedArt(null)}>✕</button>
                                             </div>
-                                        </div>
+                                        </div>,
+                                        document.getElementById('portal-root')
                                     )}
                                 </div>
                             )}
@@ -309,7 +312,7 @@ function CharacterCard({ character }) {
                                             </figure>
                                         ))}
                                     </div>
-                                    {selectedArt && (
+                                    {selectedArt && createPortal(
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
                                                 <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
@@ -319,7 +322,8 @@ function CharacterCard({ character }) {
                                                 </div>
                                                 <button className="charcard-close-btn" onClick={() => setSelectedArt(null)}>✕</button>
                                             </div>
-                                        </div>
+                                        </div>,
+                                        document.getElementById('portal-root')
                                     )}
                                 </div>
                             )}
@@ -342,7 +346,7 @@ function CharacterCard({ character }) {
                                             </figure>
                                         ))}
                                     </div>
-                                    {selectedArt && (
+                                    {selectedArt && createPortal(
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
                                                 <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
@@ -352,7 +356,8 @@ function CharacterCard({ character }) {
                                                 </div>
                                                 <button className="charcard-close-btn" onClick={() => setSelectedArt(null)}>✕</button>
                                             </div>
-                                        </div>
+                                        </div>,
+                                        document.getElementById('portal-root')
                                     )}
                                 </div>
                             )}
@@ -375,7 +380,7 @@ function CharacterCard({ character }) {
                                             </figure>
                                         ))}
                                     </div>
-                                    {selectedArt && (
+                                    {selectedArt && createPortal(
                                         <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                                             <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
                                                 <img src={`${process.env.PUBLIC_URL}/${selectedArt.src}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
@@ -385,7 +390,8 @@ function CharacterCard({ character }) {
                                                 </div>
                                                 <button className="charcard-close-btn" onClick={() => setSelectedArt(null)}>✕</button>
                                             </div>
-                                        </div>
+                                        </div>,
+                                        document.getElementById('portal-root')
                                     )}
                                 </div>
                             )}
