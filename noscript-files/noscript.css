@@ -1,13 +1,115 @@
+/* @link https://utopia.fyi/type/calculator?c=360,18,1.2,1920,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  /* Step -2: 12.5px → 12.8px */
+  --sffs--2: clamp(0.7813rem, 0.7769rem + 0.0192vw, 0.8rem);
+  /* Step -1: 15px → 16px */
+  --sffs--1: clamp(0.9375rem, 0.9231rem + 0.0641vw, 1rem);
+  /* Step 0: 18px → 20px */
+  --sffs-0: clamp(1.125rem, 1.0962rem + 0.1282vw, 1.25rem);
+  /* Step 1: 21.6px → 25px */
+  --sffs-1: clamp(1.35rem, 1.301rem + 0.2179vw, 1.5625rem);
+  /* Step 2: 25.92px → 31.25px */
+  --sffs-2: clamp(1.62rem, 1.5431rem + 0.3417vw, 1.9531rem);
+  /* Step 3: 31.104px → 39.0625px */
+  --sffs-3: clamp(1.944rem, 1.8292rem + 0.5102vw, 2.4414rem);
+  /* Step 4: 37.3248px → 48.8281px */
+  --sffs-4: clamp(2.3328rem, 2.1669rem + 0.7374vw, 3.0518rem);
+  /* Step 5: 44.7898px → 61.0352px */
+  --sffs-5: clamp(2.7994rem, 2.5651rem + 1.0414vw, 3.8147rem);
+}
+
+/* @link https://utopia.fyi/type/calculator?c=360,14,1.25,1920,18,1.25,5,4,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  /* Step -4: 5.7344px → 7.3728px */
+  --fs--4: clamp(0.3584rem, 0.3348rem + 0.105vw, 0.4608rem);
+  /* Step -3: 7.168px → 9.216px */
+  --fs--3: clamp(0.448rem, 0.4185rem + 0.1313vw, 0.576rem);
+  /* Step -2: 8.96px → 11.52px */
+  --fs--2: clamp(0.56rem, 0.5231rem + 0.1641vw, 0.72rem);
+  /* Step -1: 11.2px → 14.4px */
+  --fs--1: clamp(0.7rem, 0.6538rem + 0.2051vw, 0.9rem);
+  /* Step 0: 14px → 18px */
+  --fs-0: clamp(0.875rem, 0.8173rem + 0.2564vw, 1.125rem);
+  /* Step 1: 17.5px → 22.5px */
+  --fs-1: clamp(1.0938rem, 1.0216rem + 0.3205vw, 1.4063rem);
+  /* Step 2: 21.875px → 28.125px */
+  --fs-2: clamp(1.3672rem, 1.277rem + 0.4006vw, 1.7578rem);
+  /* Step 3: 27.3438px → 35.1563px */
+  --fs-3: clamp(1.709rem, 1.5963rem + 0.5008vw, 2.1973rem);
+  /* Step 4: 34.1797px → 43.9453px */
+  --fs-4: clamp(2.1362rem, 1.9954rem + 0.626vw, 2.7466rem);
+  /* Step 5: 42.7246px → 54.9316px */
+  --fs-5: clamp(2.6703rem, 2.4942rem + 0.7825vw, 3.4332rem);
+}
+
+/* @link https://utopia.fyi/space/calculator?c=360,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  /* Space 3xs: 5px → 5px */
+  --sp-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+  /* Space 2xs: 9px → 10px */
+  --sp-2xs: clamp(0.5625rem, 0.5369rem + 0.1136vw, 0.625rem);
+  /* Space xs: 14px → 15px */
+  --sp-xs: clamp(0.875rem, 0.8494rem + 0.1136vw, 0.9375rem);
+  /* Space s: 18px → 20px */
+  --sp-s: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
+  /* Space m: 27px → 30px */
+  --sp-m: clamp(1.6875rem, 1.6108rem + 0.3409vw, 1.875rem);
+  /* Space l: 36px → 40px */
+  --sp-l: clamp(2.25rem, 2.1477rem + 0.4545vw, 2.5rem);
+  /* Space xl: 54px → 60px */
+  --sp-xl: clamp(3.375rem, 3.2216rem + 0.6818vw, 3.75rem);
+  /* Space 2xl: 72px → 80px */
+  --sp-2xl: clamp(4.5rem, 4.2955rem + 0.9091vw, 5rem);
+  /* Space 3xl: 108px → 120px */
+  --sp-3xl: clamp(6.75rem, 6.4432rem + 1.3636vw, 7.5rem);
+
+  /* One-up pairs */
+  /* Space 3xs-2xs: 5px → 10px */
+  --sp-3xs-2xs: clamp(0.3125rem, 0.1847rem + 0.5682vw, 0.625rem);
+  /* Space 2xs-xs: 9px → 15px */
+  --sp-2xs-xs: clamp(0.5625rem, 0.4091rem + 0.6818vw, 0.9375rem);
+  /* Space xs-s: 14px → 20px */
+  --sp-xs-s: clamp(0.875rem, 0.7216rem + 0.6818vw, 1.25rem);
+  /* Space s-m: 18px → 30px */
+  --sp-s-m: clamp(1.125rem, 0.8182rem + 1.3636vw, 1.875rem);
+  /* Space m-l: 27px → 40px */
+  --sp-m-l: clamp(1.6875rem, 1.3551rem + 1.4773vw, 2.5rem);
+  /* Space l-xl: 36px → 60px */
+  --sp-l-xl: clamp(2.25rem, 1.6364rem + 2.7273vw, 3.75rem);
+  /* Space xl-2xl: 54px → 80px */
+  --sp-xl-2xl: clamp(3.375rem, 2.7102rem + 2.9545vw, 5rem);
+  /* Space 2xl-3xl: 72px → 120px */
+  --sp-2xl-3xl: clamp(4.5rem, 3.2727rem + 5.4545vw, 7.5rem);
+
+  /* Custom pairs */
+  /* Space s-l: 18px → 40px */
+  --sp-s-l: clamp(1.125rem, 0.5625rem + 2.5vw, 2.5rem);
+}
+
+.noscript-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(from var(--primary-bg, #fefcfc) h s l / 0.7);
+}
 .noscript-message {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: var(--sp-m);
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
-  color: #f8bed5;
-  background-color: rgb(76, 44, 87, 0.3);
+  font-size: var(--fs-1);
+  color: var(--primary-content, #4c2c57);
+  background-color: hsl(from var(--primary-bg, #fefcfc) h s l / 0.4);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,21 +117,24 @@
   -webkit-backdrop-filter: blur(8px);
   text-align: center;
   border-radius: 12px;
-  margin: 5rem auto;
   width: 80%;
-  max-width: min(550px, 50vw);
-  box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+  max-width: min(450px, 50vw);
+  box-shadow: 0 0 10px 1px hsl(from var(--shadow, #4c2c57) h s l / 0.4);
+}
+.noscript-message:hover {
+  background-color: hsl(from var(--primary-bg, #fefcfc) h s l / 0.9);
+  box-shadow: 0 0 10px 1px hsl(from var(--glow, #fdc4d3) h s l / 0.6);
 }
 
 .noscript-pfp {
-  margin-top: 1rem;
-  width: 120px;
-  height: 120px;
+  margin-top: var(--sp-xs);
+  width: clamp(6.25rem, 5.7386rem + 2.2727vw, 7.5rem);
+  aspect-ratio: 1;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #ff69b4;
+  border: 3px solid var(--primary-content, #4c2c57);
   box-shadow: 0 0 8px rgba(255, 105, 180, 0.5);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: hsl(from var(--primary-content, #4c2c57) h s l / 0.8);
 }
 
 .noscript-pfp-link {
@@ -38,32 +143,60 @@
 }
 .noscript-pfp-link:active .noscript-pfp {
   transform: scale(0.95);
-  box-shadow: 0 0 4px rgba(255, 105, 180, 0.9);
+  box-shadow: 0 0 10px 1px hsl(from var(--shadow, #4c2c57) h s l / 0.4);
 }
 .noscript-pfp-link:hover .noscript-pfp {
   transform: scale(1.05);
-  box-shadow: 0 0 12px rgba(255, 105, 180, 0.7);
+  box-shadow: 0 0 10px 4px hsl(from var(--glow, #fdc4d3) h s l / 0.6);
 }
 
 .noscript-message-pfp {
-  margin-top: 0.2rem;
-  color: #f29cc2;
-  font-size: 16pt;
+  margin-top: var(--sp-2xs);
+  color: var(--primary-content, #4c2c57);
+  text-shadow: 0 0 10px hsl(from var(--glow, #fdc4d3) h s l / 0.5);
+  font-size: var(--fs-1);
   font-family: "Josefin Sans";
   font-style: italic;
+  paint-order: stroke fill;
+}
+.noscript-message-pfp:hover {
+  color: var(--primary-content-hover, #fefcfc);
+  text-shadow: 0 0 10px var(--glow, #fdc4d3);
+  -webkit-text-stroke: 4px hsl(from var(--glow, #fdc4d3) h s l / 0.5);
+  paint-order: stroke fill;
 }
 
 .noscript-message-sub {
-  margin-top: 1rem;
+  margin-top: var(--sp-xs);
   color: #c6b0cf;
-  font-size: 10pt;
+  font-size: var(--fs--2);
   font-style: italic;
   font-family: "Noto Sans JP", sans-serif;
 }
 
 html {
-  background-color: #ccc6e7;
-  background-image: url("noscript-bg.webp");
+  background-color: var(--primary-bg, #fefcfc);
   background-size: 20%;
-  background-blend-mode: multiply;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: var(--primary-content, #4c2c57);
+  -webkit-mask-image: url("seaweb-bg-1.webp");
+  mask-image: url("seaweb-bg-1.webp");
+  -webkit-mask-size: clamp(11.25rem, 8.1818rem + 13.6364vw, 18.75rem);
+  mask-size: clamp(11.25rem, 8.1818rem + 13.6364vw, 18.75rem);
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+  -webkit-mask-position: 0 var(--scroll-y, 0px);
+  mask-position: 0 var(--scroll-y, 0px);
 }
