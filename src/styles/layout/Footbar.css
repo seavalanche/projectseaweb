@@ -1,36 +1,45 @@
+:root {
+  --footbar-height: var(--fluid-60-40);
+  --footbar-content-width: var(--fluid-360-1080);
+}
 .footbar {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 2.5rem;
-  background: var(--bg-primary);
+  height: var(--footbar-height);
+  background: var(--primary-bg);
 }
 .footbar-wrapper {
   display: flex;
-  width: 45rem;
-  height: 90%;
-  margin: 0 1rem;
-  gap: 1px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: var(--footbar-content-width);
+  margin: var(--landing-padding3) var(--landing-padding2);
 }
 .footbar-logo {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 0.5rem;
+  justify-content: center;
+  gap: var(--landing-padding3);
+  margin-left: auto;
+  margin-right: auto;
 }
 .footbar-text {
   display: flex;
   align-items: center;
-  margin-left: auto;
+  justify-content: center;
   font-family: var(--font-layout);
-  font-size: var(--fs-xs);
-  color: var(--text-on-brand);
+  font-size: var(--fs--2);
+  color: var(--primary-content);
+  margin-left: auto;
+  margin-right: auto;
 }
 .footbarlogo {
   display: flex;
-  --svg-primary: var(--text-on-brand);
-  --svg-secondary: var(--border-on-special);
+  --svg-primary: var(--primary-content);
+  --svg-secondary: var(--glow);
 }
 .footbarlogo.logo1 {
   height: 1.05rem;
@@ -40,24 +49,4 @@
 }
 .footbarlogo.logo3 {
   height: 1.2rem;
-}
-
-@media only screen and (min-width: 640px) and (max-width: 769px) {
-  .footbar-logo {
-    margin-top: 0.2rem;
-  }
-}
-@media only screen and (max-width: 639px) {
-  .footbar {
-    height: 4rem;
-  }
-  .footbar-wrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .footbar-text {
-    margin-right: auto;
-    text-align: center;
-  }
 }

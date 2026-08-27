@@ -54,7 +54,7 @@ input:focus {
   box-shadow: 0 8px 12px
     color-mix(in srgb, var(--textpanel-border-active) 50%, transparent);
 }
-button {
+/* button {
   cursor: pointer;
   background-color: var(--button-bg-secondary);
   font-family: var(--font-layout);
@@ -69,7 +69,7 @@ button:active {
   border: var(--button-border-hover);
   box-shadow: var(--button-shadow-hover);
   text-shadow: 0 1px 3px var(--button-bg-hover);
-}
+} */
 input[type="color"] {
   border-radius: var(--button-border-radius);
   border: var(--button-border-primary);

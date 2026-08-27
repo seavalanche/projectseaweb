@@ -1,7 +1,7 @@
 /* 1. Official W3C Standard (Firefox, modern Chrome/Safari/Edge) */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--text-on-primary) var(--bg-primary);
+  scrollbar-color: var(--primary-content) var(--primary-bg);
 }
 
 /* 2. WebKit Legacy/Vendor-Specific (Chromium & Safari precise styling) */
@@ -10,15 +10,15 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg-primary);
+  background: var(--primary-bg);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--text-on-primary);
-  border: 2px solid var(--bg-primary);
+  background-color: var(--primary-content);
+  border: 2px solid var(--primary-bg);
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--accent);
+  background-color: var(--primary-content-hover);
 }

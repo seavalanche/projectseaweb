@@ -11,40 +11,40 @@ html {
 
 h1 {
   font-family: var(--font-heading);
-  font-size: var(--fs-h1);
+  font-size: var(--fs-5);
 }
 h2 {
   font-family: var(--font-heading);
-  font-size: var(--fs-h2);
+  font-size: var(--fs-4);
 }
 h3 {
   font-family: var(--font-heading);
-  font-size: var(--fs-h3);
+  font-size: var(--fs-3);
 }
 h4 {
   font-family: var(--font-heading);
-  font-size: var(--fs-h4);
+  font-size: var(--fs-2);
   font-weight: bold;
 }
 h5 {
   font-family: var(--font-heading);
-  font-size: var(--fs-h5);
+  font-size: var(--fs-1);
   font-weight: bold;
 }
 h6 {
   font-family: var(--font-heading);
-  font-size: var(--fs-h6);
+  font-size: var(--fs-0);
   font-weight: bold;
 }
 
 p {
   font-family: var(--font-main);
-  font-size: var(--fs-body);
+  font-size: var(--fs-0);
 }
 
 a {
   font-family: var(--font-main);
-  font-size: var(--fs-sm);
+  font-size: var(--fs-0);
   text-decoration: none;
 }
 
@@ -169,3 +169,36 @@ a {
   }
 }
 /* COMMON LAYOUT */ /* COMMON LAYOUT */ /* COMMON LAYOUT */
+
+/* ---------------------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  text-indent: 50px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: var(--tertiary-bg);
+  color: var(--tertiary-content);
+  border: 1px solid var(--tertiary-content);
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", "Noto Sans JP", sans-serif;
+}
+button:hover,
+button:active {
+  background-color: var(--tertiary-bg-hover);
+  color: var(--tertiary-content-hover);
+  border: 1px solid var(--tertiary-content-hover);
+  box-shadow: 0 8px 12px color-mix(in srgb, var(--glow) 50%, transparent);
+}
+
+:root {
+  --landing-padding: var(--sp-xs);
+  --landing-padding2: calc(var(--landing-padding) / 2);
+  --landing-padding3: calc(var(--landing-padding2) / 2);
+  --landing-padding4: calc(var(--landing-padding3) / 2);
+}

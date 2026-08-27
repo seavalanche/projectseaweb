@@ -1,3 +1,29 @@
+:root {
+  --navbar-height-primary: var(--fluid-60-50);
+  --landing-pfp-size: var(--fluid-50-40);
+  --landing-pfp-aspect-ratio: calc(560 / 600);
+  --pfpzone-width-1: calc(60 / 150 * 100%);
+  --pfpzone-width-2: calc(30 / 150 * 100%);
+  --pfpzone-height-1: calc(97 / 150 * 100% * var(--landing-pfp-aspect-ratio));
+  --pfpzone-height-2: calc(
+    (var(--landing-pfp-size) / var(--landing-pfp-aspect-ratio)) -
+      var(--pfpzone-height-1)
+  );
+  --navbar-menu-height: var(--fluid-40-30);
+  --navbar-mobile-menu-width: 70%;
+  --icon-size: var(--navbar-menu-height);
+}
+/* 
+|| -----------------------------------------
+|| NAVBAR
+|| -----------------------------------------
+*/
+.NV-body-wrapper:hover .NV-body-primary {
+  box-shadow: 0 0 10px 1px hsl(from var(--shadow) h s l / 0.4);
+}
+.NV-body-wrapper:hover .NV-body-secondary {
+  display: flex;
+}
 .NV-body {
   display: flex;
   align-items: center;
@@ -5,7 +31,7 @@
   position: sticky;
   top: 0px;
   z-index: var(--navbar-z-index);
-  background-color: var(--bg-primary);
+  background-color: var(--primary-bg);
   width: 100%;
   flex-direction: column;
 }
@@ -14,8 +40,9 @@
   align-items: center;
   justify-content: center;
   height: var(--navbar-height-primary);
-  width: var(--navbar-width);
-  padding: var(--navbar-padding);
+  width: calc(100% - 2 * var(--landing-padding2));
+  padding: 0 var(--landing-padding2);
+  gap: var(--landing-padding2);
 }
 .NV-body-secondary {
   display: none;
@@ -24,50 +51,127 @@
   align-items: center;
   justify-content: center;
   height: var(--navbar-height-secondary);
-  background-color: var(--navbg-secondary);
-  width: var(--navbar-width);
-  padding: var(--navbar-padding);
+  background-color: hsl(from var(--secondary-bg) h s l / 0.5);
+  width: calc(100% - 2  * var(--landing-padding2));
+  padding: var(--landing-padding2) var(--landing-padding2);
 }
 .NV-body-secondary:hover {
-  background-color: var(--navbg-secondary-hover);
+  background-color: hsl(from var(--primary-bg) h s l / 0.9);
 }
-/* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
-.NV-logo {
+/* 
+|| -----------------------------------------
+|| NAVBAR -> NAVBAR BRANDING
+|| -----------------------------------------
+*/
+.NV-branding {
+  display: flex;
+  position: relative;
+  margin-left: var(--landing-padding);
+}
+.landing-profile {
+  background-color: hsl(from var(--tertiary-bg) h s l / 0.4);
+  color: var(--tertiary-content);
+  width: 100%;
+  padding: var(--landing-padding2) 0;
   display: flex;
   align-items: center;
-  width: var(--navbar-logo-height);
-  border: none;
-  cursor: pointer;
-  --svg-primary: var(--text-on-brand);
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: var(--landing-padding2);
+  --svg-1: var(--primary-content);
 }
-.NV-logo:hover {
-  --svg-primary: var(--navbar-logo-hover);
-  transform: scale(1.02);
+.pfpzone {
+  pointer-events: auto;
 }
-/* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */ /* Navbar Logo */
-/* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */
+.pfpzone.A0,
+.pfpzone.B0 {
+  width: var(--pfpzone-width-1);
+  height: var(--pfpzone-height-1);
+}
+.pfpzone.C0 {
+  width: var(--pfpzone-width-2);
+  height: var(--pfpzone-height-1);
+}
+.pfpzone.A1,
+.pfpzone.B1 {
+  width: var(--pfpzone-width-1);
+  height: var(--pfpzone-height-2);
+}
+.pfpzone.C1 {
+  width: var(--pfpzone-width-2);
+  height: var(--pfpzone-height-2);
+}
+.pfp-overlay {
+  position: absolute;
+  top: 0;
+  background-image: var(--landing-pfp-overlay);
+  background-size: cover;
+  width: var(--landing-pfp-size);
+  aspect-ratio: var(--landing-pfp-aspect-ratio);
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0;
+  z-index: 2;
+}
+.pfp-overlay:hover {
+  opacity: 1;
+}
+.landing-pfp-container {
+  position: relative;
+}
+.landing-pfp {
+  z-index: 1;
+  position: relative;
+  background-image: var(--landing-pfp-overlay);
+  background-size: cover;
+  width: var(--landing-pfp-size);
+  aspect-ratio: 560 / 600;
+}
+.landing-pfp-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  --stroke: 0.25px;
+  width: calc(100% + var(--stroke));
+  height: calc(100% + var(--stroke));
+  --svg-1: var(--primary-content);
+}
+.NV-logo {
+  margin-left: var(--landing-padding4);
+}
+.landing-name {
+  font-family: "SeavalancheFont";
+  font-size: var(--sffs-2);
+  color: var(--primary-content);
+  text-shadow: 0 0 10px hsl(from var(--glow) h s l / 0.5);
+  paint-order: stroke fill;
+  margin-top: calc(var(--landing-padding) / -1);
+  line-height: 1.6;
+}
+.landing-name:hover {
+  color: var(--primary-content-hover);
+  text-shadow: 0 0 10px var(--glow);
+  -webkit-text-stroke: 4px hsl(from var(--glow) h s l / 0.5);
+}
+/* 
+|| -----------------------------------------
+|| NAVBAR -> NAVBAR MENU
+|| -----------------------------------------
+*/
 .NV-menu-body {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  margin: 0 var(--navbar-menu-gap) 0 auto;
-  border-left: 2px solid transparent;
-  border-right: 2px solid transparent;
-}
-.NV-menu-body:hover {
-  transition: all 0.2s ease-in;
-  --navbar-menu-gap: 1.5rem;
-  font-weight: bold;
-  background-color: var(--navbg-bg-hover);
-  border-left: 2px solid var(--navbg-bg-hover-border);
-  border-right: 2px solid var(--navbg-bg-hover-border);
-  padding: 0 20px;
+  height: var(--navbar-menu-height);
+  margin: 0 var(--landing-padding2) 0 auto;
 }
 .NV-menu-body .active {
   font-weight: bold;
-  color: var(--accent);
+  color: var(--primary-content);
+  text-shadow: 0 0 10px hsl(from var(--glow) h s l / 0.5);
+  paint-order: stroke fill;
 }
 .NV-menu-text {
   display: flex;
@@ -76,264 +180,183 @@
   font-family: var(--font-layout);
   text-align: center;
   line-height: 1rem;
-  color: var(--text-on-brand);
-  padding: 0 var(--navbar-item-gap);
-  height: 90%;
+  color: var(--primary-content);
+  height: 100%;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 5px;
+  padding: var(--landing-padding4) var(--landing-padding2);
 }
 .NV-menu-text:hover {
-  background-color: var(--button-bg-hover);
-  color: var(--button-text-hover);
-  border: var(--button-border-hover);
-  box-shadow: var(--button-shadow-hover);
+  background-color: var(--tertiary-bg-hover);
+  color: var(--tertiary-content-hover);
+  border: 1px solid var(--tertiary-content-hover);
+  box-shadow: 0 8px 12px color-mix(in srgb, var(--glow) 50%, transparent);
 }
 .NV-body-secondary .NV-menu-body .NV-menu-text {
-  font-size: var(--navbar-menu-font-size);
+  font-size: var(--fs--1);
 }
-/* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */ /* Navbar Menu */
-/* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */
-.NV-theme-body {
+/* 
+|| -----------------------------------------
+|| ( LANDING PROFILE ) -> THEME BUTTONS
+|| -----------------------------------------
+*/
+.landing-theme-selection {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--navbar-menu-gap);
+  height: var(--icon-size);
+  gap: var(--landing-padding2);
+}
+.landing-theme-button {
+  background-color: inherit;
   height: 100%;
-}
-.NV-theme-selection {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  height: 100%;
-  width: calc(var(--navbar-height-primary) * 2 - 15px);
-  overflow: hidden;
-  border-left: 2px solid transparent;
-  border-right: 2px solid transparent;
-}
-.NV-theme-selection:hover {
-  transition: all 0.2s ease-in;
-  padding: 0 20px;
-  background-color: var(--navbg-bg-hover);
-  border-left: 2px solid var(--navbg-bg-hover-border);
-  border-right: 2px solid var(--navbg-bg-hover-border);
-  width: initial;
-}
-.NV-theme-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: initial;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 90%;
   aspect-ratio: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 3px;
-}
-.NV-theme-button:hover {
-  background-color: var(--button-bg-hover);
-  color: var(--button-text-hover);
-  border: var(--button-border-hover);
-  box-shadow: var(--button-shadow-hover);
-}
-.NVbtn0 {
+  opacity: 0.4;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--landing-padding2);
+}
+.landing-theme-button:hover:not(.landing-theme-button.active) {
+  padding: var(--landing-padding4);
+  opacity: 0.6;
+  transform: scale(1.2);
+}
+.landing-theme-icon {
   background-color: initial;
   background-position: center;
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 90%;
-  max-height: 70%;
   aspect-ratio: 1;
+  border: none;
 }
-.NVbtn0:hover {
-  filter: brightness(130%);
+.landing-theme-button.active {
+  aspect-ratio: initial;
+  margin: 0 var(--landing-padding);
+  padding: var(--landing-padding4) var(--landing-padding2);
+  opacity: 1;
+  transform: scale(1.2);
+  border: 1px solid var(--tertiary-content-hover);
+  background-color: var(--tertiary-bg-hover);
+  color: var(--tertiary-content-hover);
+  box-shadow: 0 8px 12px color-mix(in srgb, var(--glow) 50%, transparent);
+  cursor: auto;
 }
-.NVbtn0.NVbtn1 {
-  background-image: var(--navbar-theme-btn1);
+.landing-theme-button.active[aria-label]::after {
+  content: attr(aria-label);
+  font-size: var(--fs--2);
 }
-.NVbtn0.NVbtn2 {
-  background-image: var(--navbar-theme-btn2);
+.landing-theme-button.active:hover {
+  box-shadow: inherit;
 }
-.NVbtn0.NVbtn3 {
-  background-image: var(--navbar-theme-btn3);
-}
-.NVbtn0.NVbtn4 {
-  background-image: var(--navbar-theme-btn4);
-}
-[data-theme="light"] .NVbtn1 {
-  display: none;
-}
-[data-theme="star"] .NVbtn2 {
-  display: none;
-}
-[data-theme="dark"] .NVbtn3 {
-  display: none;
-}
-[data-theme="infinity"] .NVbtn4 {
-  display: none;
-}
-
+/* 
+|| -----------------------------------------
+|| NAVBAR -> LANGUAGE SWITCHER
+|| -----------------------------------------
+*/
 .language-switcher {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: var(--navbar-menu-height);
+  margin: 0 var(--landing-padding2);
 }
 .language-switcher button {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--font-layout);
-  font-size: var(--navbar-menu-font-size);
   text-decoration: none;
-  color: var(--text-on-brand);
-  padding: 0 var(--navbar-item-gap);
+  line-height: 1rem;
+  color: var(--primary-content);
+  padding: var(--landing-padding4) var(--landing-padding2);
   border: 1px solid transparent;
-  height: 90%;
-  border-radius: 3px;
+  height: 100%;
   background: none;
-  cursor: pointer;
+  font-size: var(--fs--1);
 }
 .language-switcher button:hover {
-  /* background-color: color-mix(
-    in srgb,
-    var(--button-background-active) 90%,
-    transparent
-  ); */
-  font-weight: bold;
-  /* border: var(--button-border-hover); */
-  /* box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--button-border2-active) 50%, transparent); */
-  font-style: normal;
-  transition: all 0.2s ease-in;
-  padding: 0 10px;
-  background-color: var(--button-bg-hover);
-  color: var(--button-text-hover);
-  border: var(--button-border-hover);
-  box-shadow: var(--button-shadow-hover);
+  background-color: var(--tertiary-bg-hover);
+  color: var(--tertiary-content-hover);
+  border: 1px solid var(--tertiary-content-hover);
+  box-shadow: 0 8px 12px color-mix(in srgb, var(--glow) 50%, transparent);
 }
 .language-switcher .inact {
   display: none;
 }
-/* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */ /* Navbar Theme */
-/* Navbar Secondary */ /* Navbar Secondary */ /* Navbar Secondary */
-.NV-body-wrapper:hover .NV-body-primary {
-  box-shadow: 0 8px 12px var(--navbg-shadow);
+/* 
+|| -----------------------------------------
+|| NAVBAR -> MOBILE LAYOUT
+|| -----------------------------------------
+*/
+.NV-menu-toggle {
+  background-color: initial;
+  height: var(--navbar-menu-height);
+  aspect-ratio: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-right: var(--landing-padding2);
+  margin-left: auto;
 }
-.NV-body-wrapper:hover .NV-body-secondary {
+.NV-menu-toggle:hover,
+.NV-menu-toggle:active {
+  background-color: var(--tertiary-bg-hover);
+  color: var(--tertiary-content-hover);
+  border: 1px solid var(--tertiary-content-hover);
+  box-shadow: 0 8px 12px color-mix(in srgb, var(--glow) 50%, transparent);
+}
+.NV-menu-toggle-btn {
+  color: var(--tertiary-content-hover);
+  width: 2rem;
+  aspect-ratio: 2;
+}
+.navbar-mobile {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+}
+.navbar-mobile-menu {
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: var(--navbar-height-primary);
+  right: 0;
+  max-width: calc(90% - 2 * var(--landing-padding2));
+  background-color: hsl(from var(--secondary-bg) h s l / 0.9);
+  padding: var(--landing-padding2) var(--landing-padding);
+  gap: var(--landing-padding2);
+}
+.navbar-mobile-menu.open {
   display: flex;
 }
-/* Navbar Secondary */ /* Navbar Secondary */ /* Navbar Secondary */
-
-@media only screen and (max-width: 800px) and (min-height: 416px) {
-  .NV-body-secondary .NV-menu-body .NV-menu-text,
-  .language-switcher button {
-    font-size: var(--navbar-menu-font-size-m);
-  }
+.navbar-mobile-menu .landing-theme-selection {
+  height: initial;
+  flex-wrap: wrap;
 }
-@media only screen and (max-width: 899px) and (min-height: 416px) {
-  .NV-logo {
-    margin-right: auto;
-    margin-left: calc(-1 * var(--navbar-padding-sides) / 3);
-  }
-  .NV-menu-toggle {
-    background-color: initial;
-    height: 90%;
-    aspect-ratio: 1;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    margin-right: calc(-1 * var(--navbar-padding-sides) / 3);
-  }
-  .NV-menu-toggle:hover,
-  .NV-menu-toggle:active {
-    background-color: color-mix(
-      in srgb,
-      var(--button-background-active) 20%,
-      transparent
-    );
-    border: var(--button-border-hover);
-    box-shadow: var(--button-shadow-hover);
-  }
-  .NV-menu-toggle-btn {
-    color: var(--text-on-brand);
-    width: 2rem;
-    aspect-ratio: 2;
-  }
-  .NV-body-secondary {
-    transition: transform 0.1s ease-in-out;
-    transform: translateX(100%);
-    display: flex;
-    width: auto;
-    height: initial;
-    top: var(--navbar-height-primary);
-    right: 0;
-    position: fixed;
-    flex-direction: column;
-    align-items: end;
-    background-color: var(--navbg-secondary-m);
-  }
-  .NV-body-secondary.open {
-    transform: translateX(0);
-  }
-  .NV-menu-body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border: initial;
-  }
-  .NV-menu-body:hover {
-    transition: initial;
-    font-weight: initial;
-    background-color: initial;
-    padding: initial;
-    border: initial;
-  }
-  .NV-menu-text {
-    width: 100%;
-    padding: var(--navbar-item-gap-m);
-    justify-content: end;
-  }
-  .NV-menu-text:active {
-    background-color: color-mix(
-      in srgb,
-      var(--button-background-active) 20%,
-      transparent
-    );
-    color: var(--text-on-brand);
-    font-weight: normal;
-    border: var(--button-border-hover);
-    box-shadow: var(--button-shadow-hover);
-  }
-  .NV-theme-body {
-    width: 100%;
-    height: 58px;
-  }
-  .NV-theme-selection {
-    width: 100%;
-    overflow: initial;
-    border: initial;
-  }
-  .NV-theme-selection:hover {
-    transition: initial;
-    background-color: initial;
-    padding: initial;
-    border: initial;
-  }
-  .NV-theme-button {
-    height: 100%;
-  }
-  .language-switcher {
-    width: 100%;
-  }
-  .language-switcher button:hover {
-    font-weight: initial;
-    transition: initial;
-    padding: 0 var(--navbar-item-gap);
-  }
+.navbar-mobile-menu .landing-theme-selection .landing-theme-button {
+  flex-direction: column;
+  height: var(--icon-size);
+  opacity: 1;
+}
+.navbar-mobile-menu .NV-menu-body {
+  flex-direction: column;
+  align-items: end;
+  height: initial;
+  margin: initial;
+}
+.navbar-mobile-menu .language-switcher {
+  margin: initial;
+}
+.navbar-mobile-menu .NV-menu-text {
+  height: var(--navbar-menu-height);
 }

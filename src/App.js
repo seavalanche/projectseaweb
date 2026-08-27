@@ -2,10 +2,14 @@ import './layout.css';
 import './theme.css';
 import './styles/base/variable.css'
 import './styles/base/base.css'
-import './styles/components/scrollbar.css'
+import './styles/base/font.css'
+import './styles/base/variables.css'
+import './styles/base/resources.css'
+import './styles/base/scrollbar.css'
+import './styles/base/palette.css'
 import './styles/components/ScrollToTop.css'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 import ScrollToTop from './components/ScrollToTop.js';
@@ -44,6 +48,15 @@ import SpawnerCalculator2 from './Tools/SpawnerCalculator2.jsx';
 
 function App() {
   const [theme, setTheme] = useState("light");
+  const themes = [
+    { id: 'light', class: 'landingbtn1', label: 'Light' },
+    { id: 'dark', class: 'landingbtn3', label: 'Dark' },
+    { id: 'star', class: 'landingbtn2', label: 'Star' },
+    { id: 'infinity', class: 'landingbtn4', label: 'Infinity' },
+    { id: 'beacon', class: 'landingbtn5', label: 'Beacon' },
+    { id: 'icy', class: 'landingbtn6', label: 'Icy' },
+    { id: 'heart', class: 'landingbtn7', label: 'Heart' },
+  ];
 
   const toggleTheme = (newTheme) => {
     setTheme(newTheme);
@@ -54,7 +67,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <Navbar theme={theme} themes={themes} toggleTheme={toggleTheme} />
       <Routes>
         <Route path='/' exact element={<Homepage />} />
         <Route path='/SeaWebTree' exact element={<SeaWebTree />} />
