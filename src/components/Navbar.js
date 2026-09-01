@@ -12,7 +12,7 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
         const checkScreenSize = () => {
             const width = window.innerWidth;
             const height = window.innerHeight;
-            const isSmall = width < 800 & height > 415;
+            const isSmall = width < 800 && height > 415;
             setIsSmallScreen(isSmall);
         };
 
@@ -61,7 +61,7 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                     <NavLink to="/CharInfo" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
                         {t("navbar.charcard")}
                     </NavLink>
-                    <NavLink to="/Art" className={`NV-menu-text`} activeclassname="active">
+                    <NavLink to="/Art" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                         {t("navbar.art")}
                     </NavLink>
                     <NavLink to="/Story" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
@@ -70,7 +70,7 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                     <NavLink to="/Poem" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
                         {t("navbar.poem")}
                     </NavLink>
-                    <NavLink to="/GamePage" className={`NV-menu-text`} activeclassname="active">
+                    <NavLink to="/GamePage" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                         {t("navbar.gamepage")}
                     </NavLink>
                     <NavLink to="/AboutVesnea" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
@@ -84,7 +84,7 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                     {themes.map((t) => (
                         <button
                             key={t.id}
-                            className={`landing-theme-button ${theme === t.id ? "active" : ""}`}
+                            className={`landing-theme-button ${String(theme) === String(t.id) ? "active" : ""}`}
                             onClick={() => toggleTheme(t.id)}
                             aria-label={t.label}
                         >
@@ -134,13 +134,13 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                             </NavLink>
                         </div>
                         <div className="NV-menu-body">
-                            <NavLink to="/Characters" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/Characters" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.characters1")}
                             </NavLink>
-                            <NavLink to="/Art" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/Art" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.art")}
                             </NavLink>
-                            <NavLink to="/AboutVesnea" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/AboutVesnea" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.about")}
                             </NavLink>
                         </div>
@@ -160,25 +160,25 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                     </div>
                     <div className="NV-body-secondary">
                         <div className="NV-menu-body">
-                            <NavLink to="/Characters" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/Characters" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.characters1")}
                             </NavLink>
-                            <NavLink to="/CharInfo" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/CharInfo" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.charcard")}
                             </NavLink>
-                            <NavLink to="/Story" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/Story" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.story")}
                             </NavLink>
-                            <NavLink to="/Poem" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/Poem" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.poem")}
                             </NavLink>
-                            <NavLink to="/GamePage" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/GamePage" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.gamepage")}
                             </NavLink>
-                            <NavLink to="/AboutVesnea" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/AboutVesnea" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.about1")}
                             </NavLink>
-                            <NavLink to="/ProjectSeaWeb" className={`NV-menu-text`} activeclassname="active">
+                            <NavLink to="/ProjectSeaWeb" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.about2")}
                             </NavLink>
                         </div>
