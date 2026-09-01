@@ -300,16 +300,20 @@ button:active {
 || CHARACTERS -> ATTRIBUTE BADGE
 || -----------------------------------------
 */
+*{
+  --attribute-badge-width: var(--fluid-40-60);
+  --attribute-badge-height: var(--fluid-15-20);
+}
 .attribute-badge {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: var(--fluid-50-75);
-  height: var(--fluid-20-25);
+  width: var(--attribute-badge-width);
+  height: var(--attribute-badge-height);
   padding: var(--landing-padding4) var(--landing-padding2);
   font-family: var(--font-layout);
-  font-size: var(--fs--1);
+  font-size: var(--fs--2);
   font-style: italic;
   font-weight: bold;
   box-shadow: 0 2px 2px color-mix(in srgb, var(--primary-bg) 50%, transparent);

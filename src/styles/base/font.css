@@ -103,6 +103,7 @@ html {
 
 /* Special sizes (Viewport: 360px -> 1920px) */
 :root {
+  --fluid-15-20: clamp(0.9375rem, 0.8654rem + 0.3205vw, 1.25rem);
   --fluid-20-25: clamp(1.25rem, 1.1779rem + 0.3205vw, 1.5625rem);
   --fluid-20-30: clamp(1.25rem, 1.1058rem + 0.641vw, 1.875rem);
   --fluid-25-30: clamp(1.5625rem, 1.4904rem + 0.3205vw, 1.875rem);

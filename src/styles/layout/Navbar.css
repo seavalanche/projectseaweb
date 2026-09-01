@@ -52,8 +52,8 @@
   justify-content: center;
   height: var(--navbar-height-secondary);
   background-color: hsl(from var(--secondary-bg) h s l / 0.5);
-  width: calc(100% - 2  * var(--landing-padding2));
-  padding: var(--landing-padding2) var(--landing-padding2);
+  width: calc(100% - 2 * var(--landing-padding2));
+  padding: var(--landing-padding2);
 }
 .NV-body-secondary:hover {
   background-color: hsl(from var(--primary-bg) h s l / 0.9);
