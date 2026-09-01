@@ -148,7 +148,7 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                             {themes.map((t) => (
                                 <button
                                     key={t.id}
-                                    className={`landing-theme-button ${theme === t.id ? "active" : ""}`}
+                                    className={`landing-theme-button ${String(theme) === String(t.id) ? "active" : ""}`}
                                     onClick={() => toggleTheme(t.id)}
                                     aria-label={t.label}
                                 >

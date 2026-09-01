@@ -47,7 +47,9 @@ import SpawnerCalculator1 from './Tools/SpawnerCalculator1.jsx';
 import SpawnerCalculator2 from './Tools/SpawnerCalculator2.jsx';
 
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem("theme") || "light";
+  });
   const themes = [
     { id: 'light', class: 'landingbtn1', label: 'Light' },
     { id: 'dark', class: 'landingbtn3', label: 'Dark' },
