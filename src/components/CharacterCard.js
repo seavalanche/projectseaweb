@@ -209,7 +209,7 @@ function CharacterCard({ character }) {
                     </div>
                 )}
                 {activeTab === 'charcard-artworks' && (
-                    <div className="charcard-extra">
+                    <div className="charcard-extra artworks">
                         <div className={`charcard-artworkselections ${selectedArt ? 'preview-open' : ''}`}>
                             <div className='charcard-tab-wrapper'>
                                 <div className={`charcard-tab ${activeArt === 'charcard-artworks' ? 'active' : ''}`} onClick={() => toggleArt('charcard-artworks')}>
@@ -232,7 +232,7 @@ function CharacterCard({ character }) {
 
                         {activeArt === 'charcard-artworks' && (
                             <div className="charcard-extra-wrapper">
-                                <div className='charcardProp'>{t("charcard.artworks")}</div>
+                                {/* <div className='charcardProp'>{t("charcard.artworks")}</div> */}
                                 <div className="charcard-artworks">
                                     {character.artworks.map((art, idx) => (
                                         <figure
@@ -266,7 +266,7 @@ function CharacterCard({ character }) {
                         )}
                         {activeArt === 'charcard-tradearts' && (
                             <div className="charcard-extra-wrapper">
-                                <div className='charcardProp'>{t("charcard.tradearts")}</div>
+                                {/* <div className='charcardProp'>{t("charcard.tradearts")}</div> */}
                                 <div className="charcard-artworks">
                                     {character.tradearts.map((art, idx) => (
                                         <figure
@@ -300,7 +300,7 @@ function CharacterCard({ character }) {
                         )}
                         {activeArt === 'charcard-collabarts' && (
                             <div className="charcard-extra-wrapper">
-                                <div className='charcardProp'>{t("charcard.collabarts")}</div>
+                                {/* <div className='charcardProp'>{t("charcard.collabarts")}</div> */}
                                 <div className="charcard-artworks">
                                     {character.collabarts.map((art, idx) => (
                                         <figure
@@ -334,7 +334,7 @@ function CharacterCard({ character }) {
                         )}
                         {activeArt === 'charcard-giftarts' && (
                             <div className="charcard-extra-wrapper">
-                                <div className='charcardProp'>{t("charcard.giftarts")}</div>
+                                {/* <div className='charcardProp'>{t("charcard.giftarts")}</div> */}
                                 <div className="charcard-artworks">
                                     {character.giftarts.map((art, idx) => (
                                         <figure
@@ -368,7 +368,7 @@ function CharacterCard({ character }) {
                         )}
                         {activeArt === 'charcard-commarts' && (
                             <div className="charcard-extra-wrapper">
-                                <div className='charcardProp'>{t("charcard.commarts")}</div>
+                                {/* <div className='charcardProp'>{t("charcard.commarts")}</div> */}
                                 <div className="charcard-artworks">
                                     {character.commarts.map((art, idx) => (
                                         <figure
