@@ -64,7 +64,7 @@ function CharInfo() {
         <div className={`contentB-text  ${displayContentB}`}>
           {t("charcard.showbiobtn")}
         </div>
-        <div className='contentB-toggle'>
+        <div className={`contentB-toggle  ${displayContentB}`}>
           <div className="toggle-switch">
             <input
               type="checkbox"
@@ -112,7 +112,7 @@ function CharInfo() {
             <HashLink key={idx} to={`#${char.id}`} className="charinfo-icon">
               <img
                 src={`${process.env.PUBLIC_URL}/${char.profilePicture2}`} alt={char.name} />
-              <div className='charinfo-name'>{char.name}</div>
+              {/* <div className='charinfo-name'>{char.name}</div> */}
             </HashLink>
           ))}
         </div>

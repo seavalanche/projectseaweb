@@ -182,7 +182,7 @@ a {
 || -----------------------------------------
 */
 * {
-  --toggle-height: 30px;
+  --toggle-height: var(--fluid-22-28);
   --toggle-ratio: 1.8;
   --toggle-border-radius: 4px;
   --toggle-width: calc(var(--toggle-height) * var(--toggle-ratio));
@@ -212,6 +212,7 @@ a {
   cursor: pointer;
   margin: 0;
   border-radius: var(--toggle-border-radius);
+  border: 1px solid hsl(from var(--toggle-color-active) h s l / 0.2);
 }
 .toggle-switch-inner {
   display: block;
@@ -300,7 +301,7 @@ button:active {
 || CHARACTERS -> ATTRIBUTE BADGE
 || -----------------------------------------
 */
-*{
+* {
   --attribute-badge-width: var(--fluid-40-60);
   --attribute-badge-height: var(--fluid-15-20);
 }
