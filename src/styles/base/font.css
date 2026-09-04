@@ -103,9 +103,15 @@ html {
 
 /* Special sizes (Viewport: 360px -> 1920px) */
 :root {
+  --fluid-2-5: clamp(0.125rem, 0.0817rem + 0.1923vw, 0.3125rem);
+  --fluid-5-10: clamp(0.3125rem, 0.2404rem + 0.3205vw, 0.625rem);
+  --fluid-10-15: clamp(0.625rem, 0.5529rem + 0.3205vw, 0.9375rem);
   --fluid-15-20: clamp(0.9375rem, 0.8654rem + 0.3205vw, 1.25rem);
+  --fluid-15-24: clamp(0.9375rem, 0.8077rem + 0.5769vw, 1.5rem);
+  --fluid-15-25: clamp(0.9375rem, 0.7933rem + 0.641vw, 1.5625rem);
   --fluid-20-25: clamp(1.25rem, 1.1779rem + 0.3205vw, 1.5625rem);
   --fluid-20-30: clamp(1.25rem, 1.1058rem + 0.641vw, 1.875rem);
+  --fluid-22-28: clamp(1.375rem, 1.2885rem + 0.3846vw, 1.75rem);
   --fluid-25-30: clamp(1.5625rem, 1.4904rem + 0.3205vw, 1.875rem);
   --fluid-30-40: clamp(1.875rem, 1.7308rem + 0.641vw, 2.5rem);
   --fluid-35-40: clamp(2.1875rem, 2.1154rem + 0.3205vw, 2.5rem);
@@ -120,8 +126,10 @@ html {
   --fluid-60-40: clamp(2.5rem, 4.0385rem + -1.2821vw, 3.75rem);
   --fluid-60-50: clamp(3.125rem, 3.8942rem + -0.641vw, 3.75rem);
   --fluid-60-85: clamp(3.75rem, 3.3894rem + 1.6026vw, 5.3125rem);
+  --fluid-80-125: clamp(5rem, 4.351rem + 2.8846vw, 7.8125rem);
   --fluid-100-150: clamp(6.25rem, 5.5288rem + 3.2051vw, 9.375rem);
   --fluid-175-225: clamp(10.9375rem, 10.2163rem + 3.2051vw, 14.0625rem);
+  --fluid-280-368: clamp(17.5rem, 16.2308rem + 5.641vw, 23rem);
   --fluid-280-400: clamp(17.5rem, 15.7692rem + 7.6923vw, 25rem);
   --fluid-360-720: clamp(22.5rem, 17.3077rem + 23.0769vw, 45rem);
   --fluid-360-1080: clamp(22.5rem, 12.1154rem + 46.1538vw, 67.5rem);
