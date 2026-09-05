@@ -284,6 +284,47 @@ a {
   right: 0px;
   background-color: var(--toggle-color-switch-active);
 }
+/* 
+|| -----------------------------------------
+|| COMMON LAYOUT -> TEXTPANEL
+|| -----------------------------------------
+*/
+:root {
+  --textpanel-bg: var(--primary-bg);
+  --textpanel-bg-hover: var(--primary-bg-hover);
+  --textpanel-content: var(--primary-content);
+  --textpanel-content-hover: var(--primary-content-hover);
+}
+.textpanel {
+  border-bottom: 1px dashed var(--textpanel-border);
+}
+.textpanel input {
+  background-color: var(--textpanel-bg);
+  font-family: var(--font-layout);
+  font-size: var(--fs-0);
+  color: var(--textpanel-content);
+  border: 1px solid var(--textpanel-content);
+  border-radius: 4px;
+  outline: none;
+}
+.textpanel input:hover,
+input:focus {
+  background-color: var(--textpanel-bg-hover);
+  color: var(--textpanel-content-hover);
+  border: 1px solid var(--textpanel-content-hover);
+  box-shadow: 0 8px 12px
+    color-mix(in srgb, var(--textpanel-content-hover) 50%, transparent);
+}
+input[type="color"] {
+  border-radius: 4px;
+  border: 1px solid var(--textpanel-content-hover);
+}
+
+/* Works only in Firefox */
+.textpanel input::selection, .textpanel input::-moz-selection  {
+  background-color: var(--textpanel-bg);
+  color: var(--textpanel-content);
+}
 
 /* ---------------------------------------------------------------------------- */
 * {

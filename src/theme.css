@@ -34,30 +34,6 @@ html[data-theme="star"] {
   line-height: normal;
   text-decoration: initial;
 }
-.textpanel {
-  border-bottom: 1px dashed var(--textpanel-border);
-}
-.textpanel input {
-  background-color: var(--textpanel-background);
-  font-family: var(--F-TextPanel);
-  font-size: var(--Fs-Content);
-  color: var(--textpanel-text);
-  border: 1px solid var(--textpanel-border2);
-  border-radius: 4px;
-  outline: none;
-}
-.textpanel input:hover,
-input:focus {
-  background-color: var(--textpanel-background-active);
-  color: var(--textpanel-text-active);
-  border: 1px solid var(--textpanel-border-active);
-  box-shadow: 0 8px 12px
-    color-mix(in srgb, var(--textpanel-border-active) 50%, transparent);
-}
-input[type="color"] {
-  border-radius: var(--button-border-radius);
-  border: var(--button-border-primary);
-}
 
 .josefin-sans-AboutVesnea {
   font-family: "Josefin Sans", sans-serif;

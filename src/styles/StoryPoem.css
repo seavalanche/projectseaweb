@@ -1,6 +1,36 @@
+/* Story Poem page variables */
+* {
+  /* Story page */
+  --content-padding: 22vw;
+  --line-height: 1.6;
+  --paragraph-gap: 10px;
+  --letter-spacing: 1px;
+  --word-spacing: 0px;
+  /* Poem page */
+  --content-padding2: 32vw;
+  --line-height2: 1.6;
+  --paragraph-gap2: 10px;
+  --letter-spacing2: 1px;
+  --word-spacing2: 0px;
+}
+@media only screen and (max-width: 1715px) {
+  * {
+    --content-padding: 10vw;
+    --content-padding2: 10vw;
+  }
+}
+:root {
+  --story-poem-bg: var(--primary-bg);
+  --story-poem-text: var(--primary-content);
+  --story-poem-font-family: var(--font-main);
+  --story-poem-font-size: 18pt;
+}
 .story-1st-wrapper {
   display: flex;
-  background-color: var(--bg-primary);
+  background-color: var(--primary-bg);
+  width: 100%;
+  background-color: hsl(from var(--primary-bg) h s l / 0.9);
+  animation: bgpulse 10s ease-in-out infinite;
 }
 .story-2nd-wrapper {
   display: flex;
@@ -11,8 +41,8 @@
 .sidebar {
   position: sticky;
   width: 250px;
-  height: 100%;
-  top: 65px;
+  height: 100vh;
+  top: var(--navbar-height-primary);
   left: 0;
   padding: 20px;
   transition: transform 0.3s ease;
@@ -20,8 +50,10 @@
   opacity: 1;
   z-index: 1;
   overflow: hidden;
-  background-color: var(--bg-primary);
-  color: var(--text-on-primary);
+  background-color: hsl(from var(--primary-bg) h s l / 0.1);
+  color: var(--primary-content);
+  border-right: 1px solid var(--primary-content);
+  box-shadow: 0 8px 12px hsl(from var(--secondary-content) h s l / 0.2);
 }
 .sidebar-hidden {
   width: 0;
@@ -49,15 +81,13 @@
 .sidebar-btn,
 .sidebar-btn-mobile {
   cursor: pointer;
-  background-color: var(--bg-primary);
-  color: var(--text-on-primary);
-  border: var(--button-border-primary);
-  border-radius: var(--button-border-radius);
-}
-.sidebar-btn-mobile {
-  background-color: var(--bg-secondary);
-  color: var(--text-on-secondary);
-  border: var(--button-border-secondary);
+  background-color: hsl(from var(--primary-bg) h s l / 0.5);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: var(--primary-content);
+  border: 1px solid var(--primary-content);
+  border-radius: 8px;
+  box-shadow: 0 8px 12px hsl(from var(--primary-content) h s l / 0.2);
 }
 .sidebar-btn-open,
 .sidebar-btn-close {
@@ -67,30 +97,30 @@
 }
 .sidebar-btn:hover,
 .sidebar-btn-mobile:hover {
-  background-color: var(--button-bg-hover);
-  color: var(--button-text-hover);
-  border: var(--button-border-hover);
-  box-shadow: var(--button-shadow-hover);
+  background-color: hsl(from var(--primary-bg-hover) h s l / 0.5);
+  color: var(--primary-content-hover);
+  border: 1px solid var(--primary-content-hover);
+  box-shadow: 0 8px 12px hsl(from var(--primary-content-hover) h s l / 0.5);
 }
 .sidebar-btn-open,
 .sidebar-btn-mobile-open {
-  --svg-primary: var(--text-dimmed-on-primary);
-  --svg-secondary: var(--bg-primary);
+  --svg-primary: var(--primary-content);
+  --svg-secondary: var(--primary-bg);
 }
 .sidebar-btn-close,
 .sidebar-btn-mobile-close {
-  --svg-primary: var(--bg-primary);
-  --svg-secondary: var(--text-dimmed-on-primary);
+  --svg-primary: var(--primary-bg);
+  --svg-secondary: var(--primary-content);
 }
 .sidebar-btn-open:hover,
 .sidebar-btn-mobile-open:hover {
-  --svg-primary: var(--text-on-primary);
-  --svg-secondary: var(--bg-primary);
+  --svg-primary: var(--primary-content);
+  --svg-secondary: var(--primary-bg);
 }
 .sidebar-btn-close:hover,
 .sidebar-btn-mobile-close:hover {
-  --svg-primary: var(--text-on-primary);
-  --svg-secondary: var(--bg-primary);
+  --svg-primary: var(--primary-content);
+  --svg-secondary: var(--primary-bg);
 }
 .sidebar-search input {
   width: calc(100% - 20px);
@@ -114,20 +144,18 @@
   font-size: var(--fs-sm);
   transition: 0.1s all ease;
 }
-.chapter-title:hover {
-  color: var(--text-active);
-  text-shadow: 0 2px 5px hsl(from var(--text-active) h s l / 0.5);
+.sidebar-toc-list:hover .chapter-title {
+  text-shadow: 0 2px 5px hsl(from var(--glow) h s l / 0.5);
   font-weight: bold;
 }
 .chapter-desc {
-  font-size: var(--fs-xs);
-  color: var(--text-dimmed-on-primary);
+  font-size: var(--fs--2);
+  color: var(--primary-content);
   font-style: italic;
 }
 .chapter-meta {
-  font-size: var(--fs-xxs);
-  color: var(--charcard-text-altname);
-  color: var(--text-on-brand);
+  font-size: var(--fs--2);
+  color: var(--primary-content);
 }
 .chapter-title,
 .chapter-desc,
@@ -136,7 +164,6 @@
 }
 .chapter-meta {
   margin-top: 2px;
-  /* display: none; */
 }
 /* Sidebar */ /* Sidebar */ /* Sidebar */ /* Sidebar */ /* Sidebar */
 /* Main content area */ /* Main content area */ /* Main content area */
@@ -155,8 +182,9 @@
   transition: opacity 0.5s ease;
   opacity: 1;
   z-index: 1;
-  background-color: var(--bg-primary);
-  color: var(--text-dimmed-on-primary);
+  background-color: var(--primary-bg);
+  color: var(--primary-content);
+  box-shadow: 0 35px 20px -30px hsl(from var(--glow) h s l / 0.5);
 }
 .function-bar.hidden {
   transition: opacity 0.5s ease;
@@ -179,14 +207,14 @@
   margin-right: auto;
   padding: 5px 10px;
   background-color: initial;
-  color: var(--text-dimmed-on-primary);
+  color: var(--primary-content);
   border: none;
   cursor: pointer;
 }
 .function-bar .slider-btn:hover {
   background-color: initial;
   box-shadow: initial;
-  color: var(--text-on-brand);
+  color: var(--glow);
   border: none;
   font-style: initial;
   font-weight: bold;
@@ -199,8 +227,9 @@
   gap: 5px;
 }
 .fnbar-comps:hover {
-  color: var(--text-on-brand);
-  font-weight: bold;
+  color: var(--primary-content);
+  text-shadow: 0 0 10px hsl(from var(--glow) h s l / 0.5);
+  paint-order: stroke fill;
 }
 .fnbar-sub-sizes-part .fnbar-comps {
   flex-direction: column;
@@ -238,13 +267,13 @@
 #poem-content-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   padding-top: 50px;
   padding-bottom: 80px;
   background-color: var(--story-poem-bg);
   color: var(--story-poem-text);
-  box-shadow: 0 30px 50px -40px hsl(from var(--text-on-secondary) h s l / 0.5)
-    inset;
+  height: 100%;
 }
 #story-content-wrapper {
   line-height: var(--line-height);
@@ -277,25 +306,37 @@
 }
 #story-content-wrapper blockquote,
 #poem-content-wrapper blockquote {
-  font-size: var(--Fs-Content-small);
-  color: var(--text-active);
-  text-shadow: 0 1px 3px hsl(from var(--text-active) h s l / 0.5);
+  width: 100%;
+  font-size: var(--fs--1);
+  color: var(--tertiary-content);
+  text-shadow: 0 1px 3px hsl(from var(--tertiary-content) h s l / 0.5);
+  paint-order: stroke fill;
   font-style: italic;
+  background-color: var(--tertiary-bg);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--landing-padding3) 0;
+}
+#story-content-wrapper blockquote p,
+#poem-content-wrapper blockquote p {
+  margin-bottom: initial;
 }
 .slider-wrapper {
   display: flex;
   height: 30px;
-  border-radius: var(--button-border-radius);
-  border: 1px solid var(--text-dimmed-on-primary);
-  background-color: var(--button-bg-primary);
+  border-radius: 4px;
+  border: 1px solid var(--primary-content);
+  background-color: var(--primary-bg);
 }
 .slider-wrapper:hover {
-  border: var(--button-border-hover);
-  background-color: var(--button-bg-hover);
-  box-shadow: var(--button-shadow-hover);
+  border: 1px solid var(--primary-content-hover);
+  background-color: var(--primary-bg-hover);
+  box-shadow: 0 8px 12px hsl(from var(--primary-bg-hover) h s l / 0.5);
 }
 .slider-wrapper:hover button {
-  color: var(--text-on-brand);
+  color: var(--primary-content-hover);
   font-weight: bold;
 }
 .slide-container {
@@ -348,13 +389,13 @@
   height: 5px;
   opacity: 0.5;
   z-index: 3;
-  background-color: var(--bg-primary);
+  background-color: var(--primary-bg);
 }
 .reading-progress-bar {
   height: 100%;
   transition: width 0.1s linear;
   opacity: 0.75;
-  background-color: var(--text-on-primary);
+  background-color: var(--primary-content);
 }
 /* Reading Progress Bar */ /* Reading Progress Bar */ /* Reading Progress Bar */
 @media only screen and (max-width: 1199px) {
@@ -387,9 +428,17 @@
     padding-top: 20px;
     padding-bottom: 10px;
     width: 100%;
-    height: auto;
+    height: 50vh;
+    overflow-y: scroll;
     opacity: 0.95;
     z-index: 4;
+    border-right: initial;
+    background-color: var(--secondary-bg);
+    border-radius: 1rem 1rem 0 0;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    z-index: 0;
+    box-shadow: initial;
   }
   .sidebar-scrolled-hidden {
     opacity: 0;
@@ -406,10 +455,8 @@
     padding-bottom: 10px;
   }
   .sidebar-visible {
-    border-top: 2px dashed
-      color-mix(in srgb, var(--textpanel-border-active) 50%, transparent);
-    box-shadow: 0 8px 12px
-      color-mix(in srgb, var(--C-SeaWeb_Dark_Purple) 25%, transparent);
+    border-top: 2px dashed var(--glow);
+    box-shadow: 0 -4px 10px 1px hsl(from var(--glow) h s l / 0.6);
   }
 
   /* fnbar-main */

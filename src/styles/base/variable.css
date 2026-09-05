@@ -85,27 +85,6 @@
   --container-padding: var(--space-lg);
   --card-gap: var(--space-md);
 }
-/* Story Poem page variables */
-* {
-  /* Story page */
-  --content-padding: 22vw;
-  --line-height: 1.6;
-  --paragraph-gap: 10px;
-  --letter-spacing: 1px;
-  --word-spacing: 0px;
-  /* Poem page */
-  --content-padding2: 32vw;
-  --line-height2: 1.6;
-  --paragraph-gap2: 10px;
-  --letter-spacing2: 1px;
-  --word-spacing2: 0px;
-}
-@media only screen and (max-width: 1715px) {
-  * {
-    --content-padding: 10vw;
-    --content-padding2: 10vw;
-  }
-}
 /*These are the color palette*/
 /* 1. THE PALETTE (Raw Colors) */
 :root {
@@ -201,22 +180,6 @@
   --button-text-active: var(--C-Vesnea_white);
   --button-border-active: var(--C-SeaWeb_Dark_Purple);
   --button-border2-active: var(--cutepink);
-
-  /* Textpanels */
-  --textpanel-background: var(--C-Uzakon_Lighter_Light_Purple);
-  --textpanel-text: var(--C-Vesnea_Purple);
-  --textpanel-border: var(--C-Uzakon_Light_Purple);
-  --textpanel-border2: var(--C-Uzakon_Lighter_Light_Purple);
-  --textpanel-background-active: color-mix(
-    in srgb,
-    var(--C-Vesnea_Light_Pink) 50%,
-    transparent
-  );
-  --textpanel-text-active: var(--C-Vesnea_Purple);
-  --textpanel-border-active: var(--cutepink);
-
-  /* Sliders */
-  --slider-background-active: var(--textpanel-background-active);
 
   /* Charcard */
   --charcard-bg: var(--C-Vesnea_white);
@@ -322,11 +285,6 @@
   --charcard-art-preview-shadow:
     0px 1.8px 7.3px rgba(0, 0, 0, 0.071), 0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
     0px 0px 50px 20px hsl(from var(--bg-special) h s l / 0.5);
-  /* story and poem */
-  --story-poem-bg: hsl(from var(--bg-secondary) h s l / 0.5);
-  --story-poem-text: var(--text-on-secondary);
-  --story-poem-font-family: var(--font-main);
-  --story-poem-font-size: 22pt;
 }
 [data-theme="dark"] {
   --bg-color-1: var(--C-SeaWeb_Purple);
@@ -357,23 +315,6 @@
   --button-text-active: var(--C-SeaWeb_Purple);
   --button-border-active: var(--C-Uzakon_White);
   --button-border2-active: var(--C-Korazu_Yellow);
-
-  /* Textpanels */
-  --textpanel-background: var(--C-SeaWeb_Dark_Purple);
-  --textpanel-text: var(--C-Uzakon_Light_Purple);
-  --textpanel-border: var(--C-Uzakon_Purple);
-  --textpanel-border2: var(--textpanel-border);
-  --textpanel-background-active: var(--C-SeaWeb_Purple);
-  --textpanel-background-active: color-mix(
-    in srgb,
-    var(--C-Korazu_Yellow) 30%,
-    var(--C-SeaWeb_Dark_Purple) 80%
-  );
-  --textpanel-text-active: var(--C-Korazu_Yellow);
-  --textpanel-border-active: var(--C-Korazu_Yellow);
-
-  /* Sliders */
-  --slider-background-active: var(--textpanel-background-active);
 
   /* Charcard */
   --charcard-bg: var(--C-SeaWeb_Purple);
@@ -481,26 +422,6 @@
   --button-text-active: var(--C-Uzakon_White);
   --button-border-active: var(--C-Uzakon_Purple);
   --button-border2-active: var(--C-Uzakon_Purple);
-
-  /* Textpanels */
-  --textpanel-background: var(--bg-color-3);
-  --textpanel-text: var(--C-Uzakon_Purple);
-  --textpanel-border: color-mix(
-    in srgb,
-    var(--C-Uzakon_Purple) 20%,
-    transparent
-  );
-  --textpanel-border2: var(--textpanel-border);
-  --textpanel-background-active: color-mix(
-    in srgb,
-    var(--C-Vesnea_Purple) 10%,
-    var(--C-Uzakon_Purple) 40%
-  );
-  --textpanel-text-active: var(--C-Uzakon_Light_Purple);
-  --textpanel-border-active: var(--C-Uzakon_Purple);
-
-  /* Sliders */
-  --slider-background-active: var(--textpanel-background-active);
 
   /* Charcard */
   --charcard-bg: var(--C-SeaWeb_Dark_Purple);
