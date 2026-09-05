@@ -1,0 +1,533 @@
+[
+  {
+    "projectGroup": "projectseava",
+    "projectId": "commissions",
+    "projectName": { "en": "Commission Arts", "jp": "" },
+    "projectDescription": {
+      "en": "Artworks that I drew as a commission!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2022 - 2026 ]", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "52 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Ongoing", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "c38-rinko_wl.webp",
+        "title": "C38 - Rinko",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c51-overcast_wl.webp",
+        "title": "C51 - Overcast",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "c01-truffles-and-claus.webp",
+        "title": "C01 - Truffles and Claus",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c01b-bonus.webp",
+        "title": "C01b - Truffles and Claus",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c02-ruru_square_with-text.webp",
+        "title": "C02 - Ruru_square",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c03-ruru_withtext.webp",
+        "title": "C03 - Ruru",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c04-mystic_withtext.webp",
+        "title": "C04 - Mystic",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c05-ninetales.webp",
+        "title": "C05 - Ninetales",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c06-soldreon_withtext.webp",
+        "title": "C06 - Soldreon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c07-ninetales-and-delphox.webp",
+        "title": "C07 - Ninetales and Delphox",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c08-arcanum-and-vis.webp",
+        "title": "C08 - Arcanum and Vis",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c09-spicy__nutzz.webp",
+        "title": "C09 - Spicy__nutzz",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c10-ruby.webp",
+        "title": "C10 - Ruby",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c10b-ruby.webp",
+        "title": "C10b - Ruby",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c11-fizzy.webp",
+        "title": "C11 - Fizzy",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c12-diamant.webp",
+        "title": "C12 - Diamant",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c13-rosheeki.webp",
+        "title": "C13 - Rosheeki",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c14-daniel.webp",
+        "title": "C14 - Daniel",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c15-awildpukachu.webp",
+        "title": "C15 - Awildpukachu",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c16-rinko.webp",
+        "title": "C16 - Rinko",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c17-ruru.webp",
+        "title": "C17 - Ruru",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c18-jenny.webp",
+        "title": "C18 - Jenny",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c19-jenny-and-zolt_white.webp",
+        "title": "C19 - Jenny and Zolt_white",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c20-receive-ribbon.webp",
+        "title": "C20 - Receive Ribbon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c21-moonlight-blush.webp",
+        "title": "C21 - Moonlight Blush",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c22-foxes-playing.webp",
+        "title": "C22 - Foxes Playing",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c23-yla,-luna,-and-kaicho.webp",
+        "title": "C23 - Yla, Luna, and Kaicho",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c24-klonoa.webp",
+        "title": "C24 - Klonoa",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c25-dan-and-rinko.webp",
+        "title": "C25 - Dan and Rinko",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c26-konqi.webp",
+        "title": "C26 - Konqi",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c27-pikachu-and-buneary_post.webp",
+        "title": "C27 - Pikachu and Buneary_post",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c28-hug-vesnea_pastel_text.webp",
+        "title": "C28 - Hug - Vesnea",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c29-tamako-and-hina_post.webp",
+        "title": "C29 - Tamako and Hina",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c30-yukari-and-sakura_post.webp",
+        "title": "C30 - Yukari and Sakura",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c31-gen-disorder.webp",
+        "title": "C31 - Gen Disorder",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c32-riona.webp",
+        "title": "C32 - Riona",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c33-rinko_post.webp",
+        "title": "C33 - Rinko",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c34-shy-jenny_post.webp",
+        "title": "C34 - Shy Jenny",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c35-fia_withlogo.webp",
+        "title": "C35 - Fia",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c36--_withlogo.webp",
+        "title": "C36",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c37-tsuki_withlogo.webp",
+        "title": "C37 - Tsuki",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c38-rinko_wl.webp",
+        "title": "C38 - Rinko",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c39-wedding_post.webp",
+        "title": "C39 - Wedding",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c40-rinko_mark.webp",
+        "title": "C40 - Rinko",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c41-jenny.webp",
+        "title": "C41 - Jenny",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c42-gardevoir_wt.webp",
+        "title": "C42 - Gardevoir",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c43-ralts_wt.webp",
+        "title": "C43 - Ralts",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c44-rinko.webp",
+        "title": "C44 - Rinko",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c45-coylander.webp",
+        "title": "C45 - Coylander",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c46-zangoose_wl.webp",
+        "title": "C46 - Zangoose",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c47-let's-save,-kupo!_wl.webp",
+        "title": "C47 - Let's - Save, Kupo!",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c48-rinko_wl.webp",
+        "title": "C48 - Rinko",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c49-lantern_wl.webp",
+        "title": "C49 - Lantern",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c50-mocha-button.webp",
+        "title": "C50 - Mocha Button",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c51-overcast_wl.webp",
+        "title": "C51 - Overcast",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "c52-mocha_wl.webp",
+        "title": "C52 - Mocha",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      }
+    ]
+  }
+]

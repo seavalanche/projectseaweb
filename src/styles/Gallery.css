@@ -1,5 +1,6 @@
 * {
-  --sidebar-width: var(--fluid-380-500);
+  /* --sidebar-width: var(--fluid-380-500); */
+  --sidebar-width: 90vw;
   --sidebar-btn-width: var(--fluid-25-50);
 
   --hero-width: var(--fluid-150-200);
@@ -8,11 +9,28 @@
   --hero-thumbnail-height: var(--fluid-35-50);
   --thumbnail-height: var(--fluid-80-200);
 }
+@keyframes bgpulse {
+  0% {
+    background-color: hsl(from var(--primary-bg) h s l / 0.8);
+  }
+  50% {
+    background-color: hsl(from var(--primary-bg) h s l / 0.95);
+  }
+  100% {
+    background-color: hsl(from var(--primary-bg) h s l / 0.8);
+  }
+}
 .gallerybg {
   width: 100%;
   margin: auto;
   padding: 0px 0 50px 0;
-  background-color: hsl(from var(--secondary-bg) h s l / 0.8);
+  background-color: hsl(from var(--primary-bg) h s l / 0.9);
+  animation: bgpulse 10s ease-in-out infinite;
+}
+.gallerybg .generalbody {
+  border-bottom: 0.3rem solid var(--primary-bg-hover);
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 0 10px 1px hsl(from var(--glow) h s l / 0.6);
 }
 .project-showcase {
   display: flex;
@@ -29,7 +47,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: var(--primary-bg);
+  /* background-color: var(--primary-bg); */
   padding: 1rem 0;
 }
 .project-selector {
@@ -38,6 +56,8 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  padding: var(--selector-height-padding) 0;
+  width: 100%;
 }
 .hero-section {
   overflow: hidden;
@@ -111,7 +131,7 @@
   z-index: var(--gallery-sidebar-z-index);
   display: flex;
   position: fixed;
-  top: var(--navbar-height-primary);
+  /* top: var(--navbar-height-primary); */
   height: calc(100vh - var(--navbar-height-primary));
   width: var(--sidebar-width);
   margin-left: calc(
@@ -152,6 +172,7 @@
 .gallery-sidebar-body {
   overflow-y: auto;
   display: flex;
+  flex-direction: column;
   align-items: start;
   justify-content: center;
   width: calc(100% - var(--sidebar-btn-width) - var(--landing-padding) * 2);

@@ -1,5 +1,6 @@
 [
   {
+    "projectGroup": "projectrea",
     "projectId": "vesnea-sylveon-glaceon",
     "projectName": { "en": "Vesnea's Sylveon x Glaceon", "jp": "" },
     "projectDescription": {
@@ -74,6 +75,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "pokemon-unite-style",
     "projectName": { "en": "Pokémon Unite Style", "jp": "" },
     "projectDescription": {
@@ -164,6 +166,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "pokemon-moves",
     "projectName": { "en": "Pokémon Moves", "jp": "" },
     "projectDescription": {
@@ -646,6 +649,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "pokemon-with-clothing",
     "projectName": { "en": "Pokémon with Clothing", "jp": "" },
     "projectDescription": {
@@ -1168,6 +1172,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "eeveelutions-with-furniture",
     "projectName": { "en": "Eeveelutions with Furnitures", "jp": "" },
     "projectDescription": {
@@ -1282,6 +1287,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "eeveelutions-laying-down",
     "projectName": { "en": "Eeveelutions Laying Down", "jp": "" },
     "projectDescription": {
@@ -1340,6 +1346,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "special-illustration",
     "projectName": { "en": "Special Illustration", "jp": "" },
     "projectDescription": {
@@ -2014,6 +2021,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "2026-eeveelutions-set",
     "projectName": { "en": "2026 Eeveelutions Set", "jp": "" },
     "projectDescription": {
@@ -2128,6 +2136,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "project-glacy",
     "projectName": { "en": "Project Glacy", "jp": "" },
     "projectDescription": {
@@ -2570,6 +2579,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "project-leafy",
     "projectName": { "en": "Project Leafy", "jp": "" },
     "projectDescription": {
@@ -2804,6 +2814,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "snivy-playing-with",
     "projectName": { "en": "Snivy Playing with, a series", "jp": "" },
     "projectDescription": {
@@ -2926,6 +2937,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "three-eevee-legendaries",
     "projectName": { "en": "The Three Eevee Legendaries", "jp": "" },
     "projectDescription": {
@@ -3008,6 +3020,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "valentines-eevee",
     "projectName": { "en": "Valentine's Eevee", "jp": "" },
     "projectDescription": {
@@ -3082,6 +3095,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "eeveelution-day-series",
     "projectName": { "en": "Eeveelution Day series", "jp": "" },
     "projectDescription": {
@@ -3180,6 +3194,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "i-can-be-anything",
     "projectName": { "en": "I Can Be Anything", "jp": "" },
     "projectDescription": {
@@ -3278,6 +3293,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "2021-fire-starters-set",
     "projectName": { "en": "2021 Fire Starters Set", "jp": "" },
     "projectDescription": {
@@ -3384,6 +3400,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "2021-the-7-days-drawing",
     "projectName": { "en": "2021 The 7 Days Drawing", "jp": "" },
     "projectDescription": {
@@ -3650,6 +3667,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "full-face-art-style",
     "projectName": { "en": "Full Face Art Style", "jp": "" },
     "projectDescription": {
@@ -3724,6 +3742,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "pokemon-as-trainers",
     "projectName": { "en": "2020 Pokémon as Trainers", "jp": "" },
     "projectDescription": {
@@ -3822,6 +3841,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "umbreon-journey",
     "projectName": { "en": "Umbreon's Journey", "jp": "" },
     "projectDescription": {
@@ -4019,6 +4039,7 @@
     ]
   },
   {
+    "projectGroup": "projectrea",
     "projectId": "the-lost-love",
     "projectName": { "en": "The Lost Love", "jp": "" },
     "projectDescription": {

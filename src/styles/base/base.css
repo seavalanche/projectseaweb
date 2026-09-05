@@ -325,6 +325,18 @@ input[type="color"] {
   background-color: var(--textpanel-bg);
   color: var(--textpanel-content);
 }
+/* 
+|| -----------------------------------------
+|| COMMON LAYOUT -> DASHED SEPARATOR
+|| -----------------------------------------
+*/
+.dashed-separator-h{
+  display: flex;
+  width: 100%;
+  height: var(--landing-padding2);
+  margin-bottom: var(--landing-padding2);
+  border-bottom: 2px dashed var(--primary-content);
+}
 
 /* ---------------------------------------------------------------------------- */
 * {

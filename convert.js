@@ -36,9 +36,10 @@ try {
 
   const result = filenames.map(name => {
     return {
-      src: name,
+      filename: name,
       title: formatTitle(name), // Uses our helper here!
-      caption: { "en": "", "jp": "" }
+      caption: { "en": "", "jp": "" },
+      hidden: false
     };
   });
 

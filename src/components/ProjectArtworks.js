@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function ProjectArtworks({ art, projectId, language }) {
+export default function ProjectArtworks({ art, projectGroup, projectId, language }) {
     const [selectedArt, setSelectedArt] = useState(null);
 
     return (
@@ -10,12 +10,12 @@ export default function ProjectArtworks({ art, projectId, language }) {
                 onClick={() => setSelectedArt(art)}
             >
                 <img
-                    src={`${process.env.PUBLIC_URL}/Assets/gallery/${projectId}/thumb/${art.filename}`}
+                    src={`${process.env.PUBLIC_URL}/Assets/gallery/${projectGroup}/${projectId}/thumb/${art.filename}`}
                     alt={art.caption[language] || art.caption.en}
                     loading="lazy"
                     decoding="async"
                     onError={(e) => {
-                        e.currentTarget.src = `${process.env.PUBLIC_URL}/Assets/gallery/${projectId}/${art.filename}`;
+                        e.currentTarget.src = `${process.env.PUBLIC_URL}/Assets/gallery/${projectGroup}/${projectId}/${art.filename}`;
                         e.currentTarget.onerror = null;
                     }}
                 />
@@ -23,7 +23,7 @@ export default function ProjectArtworks({ art, projectId, language }) {
             {selectedArt && (
                 <div className="charcard-art-preview-overlay" onClick={() => setSelectedArt(null)}>
                     <div className="charcard-art-preview-content" onClick={(e) => e.stopPropagation()}>
-                        <img src={`${process.env.PUBLIC_URL}/Assets/gallery/${projectId}/${art.filename}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
+                        <img src={`${process.env.PUBLIC_URL}/Assets/gallery/${projectGroup}/${projectId}/${art.filename}`} alt={selectedArt.caption[language] || selectedArt.caption.en} />
                         <div className='charcard-art-preview-content-wrapper'>
                             <div className='charcardProp'>{selectedArt.title}</div>
                             <div className='charcardValue'>{selectedArt.caption[language] || selectedArt.caption.en}</div>
