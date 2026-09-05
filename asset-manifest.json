@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.3862239d.css",
+    "main.css": "/projectseaweb/static/css/main.5ef1048a.css",
     "main.js": "/projectseaweb/static/js/main.40db9e2b.js",
     "static/js/714.5bb2a9a5.chunk.js": "/projectseaweb/static/js/714.5bb2a9a5.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
@@ -131,12 +131,12 @@
     "static/media/symbol-zumiko-star.svg": "/projectseaweb/static/media/symbol-zumiko-star.bd6efe0ef31e91542c51.svg",
     "static/media/tidy-er-light.svg": "/projectseaweb/static/media/tidy-er-light.337cc898a68c939a76a6.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
-    "main.3862239d.css.map": "/projectseaweb/static/css/main.3862239d.css.map",
+    "main.5ef1048a.css.map": "/projectseaweb/static/css/main.5ef1048a.css.map",
     "main.40db9e2b.js.map": "/projectseaweb/static/js/main.40db9e2b.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3862239d.css",
+    "static/css/main.5ef1048a.css",
     "static/js/main.40db9e2b.js"
   ]
 }
