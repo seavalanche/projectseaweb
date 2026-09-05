@@ -1,6 +1,6 @@
 * {
   /* --sidebar-body-width: var(--fluid-380-500); */
-  --sidebar-body-width: 90vw;
+  --sidebar-body-width: 80vw;
   --sidebar-btn-width: var(--fluid-25-50);
   --sidebar-body-padding: var(--fluid-10-15);
   --sidebar-total-width: calc(
