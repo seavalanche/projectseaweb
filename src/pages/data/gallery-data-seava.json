@@ -529,5 +529,446 @@
         "hidden": false
       }
     ]
+  },
+  {
+    "projectGroup": "projectseava",
+    "projectId": "artfight2024",
+    "projectName": { "en": "Artfight 2024", "jp": "" },
+    "projectDescription": {
+      "en": "Artworks that I drew for the Artfight 2024 event!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2024 ]", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "16 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "vesnea-art-fight-2024.webp",
+        "title": "Vesnea Art Fight 2024",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "vesnea-art-fight-2024.webp",
+        "title": "Vesnea Art Fight 2024",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-01-enma's-lazard.webp",
+        "title": "Af24 - 01 - Enma's Lazard",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-02-mabel-the-braixen.webp",
+        "title": "Af24 - 02 - Mabel the Braixen",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-03-shinyprowl's-shiny.webp",
+        "title": "Af24 - 03 - Shinyprowl's Shiny",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-04-plussol's-ruby.webp",
+        "title": "Af24 - 04 - Plussol's Ruby",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-05-lerun-starstone.webp",
+        "title": "Af24 - 05 - Lerun Starstone",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-06-lagu's-solobo.webp",
+        "title": "Af24 - 06 - Lagu's Solobo",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-07-darkneyfactory's-houx.webp",
+        "title": "Af24 - 07 - Darkneyfactory's Houx",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-08-alter-mystic_a.webp",
+        "title": "Af24 - 08 - Alter Mystic",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-09-ailia.webp",
+        "title": "Af24 - 09 - Ailia",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-10-bunnymagika's-chantilly.webp",
+        "title": "Af24 - 10 - bunnymagika's Chantilly",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-11-tor_kl's-little-livestock.webp",
+        "title": "Af24 - 11 - tor_kl's little livestock",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-12-misspiggyf381's-luna.webp",
+        "title": "Af24 - 12 - misspiggyf381's Luna",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-13-starry_miwa's-tv.webp",
+        "title": "Af24 - 13 - Starry_miwa's Tv",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-14-mozonite's-eilus.webp",
+        "title": "Af24 - 14 - Mozonite's Eilus",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af24-15-prima-astra.webp",
+        "title": "Af24 - 15 - Prima-Astra",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "projectGroup": "projectseava",
+    "projectId": "artfight2025",
+    "projectName": { "en": "Artfight 2025", "jp": "" },
+    "projectDescription": {
+      "en": "Artworks that I drew for the Artfight 2025 event!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2025 ]", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "7 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "vesnea-art-fight-2025.webp",
+        "title": "Vesnea Art Fight 2025",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "vesnea-art-fight-2025.webp",
+        "title": "Vesnea Art Fight 2025",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af25-01-enma's-mio-siempre-amable.webp",
+        "title": "Af25 - 01 - Enma's Mio Siempre Amable",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af25-02-stoakadora's-stoakat-the-litton.webp",
+        "title": "Af25 - 02 - Stoakadora's Stoakat The Litton",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af25-03-❤snappiq's-snappi.webp",
+        "title": "Af25 - 03 - ❤SnappiQ's Snappi",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af25-04-greninjaxsylveonlove’s-sassy.webp",
+        "title": "Af25 - 04 - GreninjaxSylveonlove’s Sassy",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af25-05-ailia's-nastasia.webp",
+        "title": "Af25 - 05 - Ailia's Nastasia",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af25-06-derpycloud's-kumo-and-blu.webp",
+        "title": "Af25 - 06 - Derpycloud's Kumo and Blu",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af25-07-zombiepro89's-crater.webp",
+        "title": "Af25 - 07 - Zombiepro89's Crater",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "projectGroup": "projectseava",
+    "projectId": "artfight2026",
+    "projectName": { "en": "Artfight 2026", "jp": "" },
+    "projectDescription": {
+      "en": "Artworks that I drew for the Artfight 2026 event!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2026 ]", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "12 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Completed", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "vesnea-art-fight-2026.webp",
+        "title": "Vesnea Art Fight 2026",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "vesnea-art-fight-2026.webp",
+        "title": "Vesnea Art Fight 2026",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-01-enma's-xane-(moonlight-form).webp",
+        "title": "Af26 - 01 - Enma's Xane (Moonlight form)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-02-shinyprowl's-april.webp",
+        "title": "Af26 - 02 - Shinyprowl's April",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-03-sodna's-lantern.webp",
+        "title": "Af26 - 03 - Sodna's Lantern",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-04-zombiepro89's-soldreon.webp",
+        "title": "Af26 - 04 - Zombiepro89's Soldreon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-05-glaciehash's-hailey-and-hope.webp",
+        "title": "Af26 - 05 - GlacieHash's Hailey and Hope",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-06-enma's-dream-jibakoma.webp",
+        "title": "Af26 - 06 - Enma's Dream Jibakoma",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-07-lerunechka's-flora.webp",
+        "title": "Af26 - 07 - Lerunechka's Flora",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-08-azulee's-azura.webp",
+        "title": "Af26 - 08 - Azulee's Azura",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-09-simple-strawberry's-keona.webp",
+        "title": "Af26 - 09 - Simple Strawberry's Keona",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-10-neoskysquirrel's-neo.webp",
+        "title": "Af26 - 10 - NeoSkySquirrel's Neo",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-11-glacial_twin's-winter.webp",
+        "title": "Af26 - 11 - Glacial_Twin's Winter",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      },
+      {
+        "filename": "af26-12-rosemaryfoxangel's-rosemary-angel.webp",
+        "title": "Af26 - 12 - RosemaryFoxAngel's Rosemary Angel",
+        "caption": {
+          "en": "",
+          "jp": ""
+        },
+        "hidden": false
+      }
+    ]
   }
 ]

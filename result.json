@@ -1,7 +1,7 @@
 [
   {
-    "src": "c01-truffles-and-claus.webp",
-    "title": "C01 - Truffles - And Claus",
+    "filename": "af26-01-enma's-xane-(moonlight-form).webp",
+    "title": "Af26 - 01 - Enma'S Xane (Moonlight Form)",
     "caption": {
       "en": "",
       "jp": ""
@@ -9,8 +9,8 @@
     "hidden": false
   },
   {
-    "src": "c01b-bonus.webp",
-    "title": "C01b - Bonus",
+    "filename": "af26-02-shinyprowl's-april.webp",
+    "title": "Af26 - 02 - Shinyprowl'S April",
     "caption": {
       "en": "",
       "jp": ""
@@ -18,8 +18,8 @@
     "hidden": false
   },
   {
-    "src": "c02-ruru_square_with-text.webp",
-    "title": "C02 - Ruru_square_with - Text",
+    "filename": "af26-03-sodna's-lantern.webp",
+    "title": "Af26 - 03 - Sodna'S Lantern",
     "caption": {
       "en": "",
       "jp": ""
@@ -27,8 +27,8 @@
     "hidden": false
   },
   {
-    "src": "c03-ruru_withtext.webp",
-    "title": "C03 - Ruru_withtext",
+    "filename": "af26-04-zombiepro89's-soldreon.webp",
+    "title": "Af26 - 04 - Zombiepro89'S Soldreon",
     "caption": {
       "en": "",
       "jp": ""
@@ -36,8 +36,8 @@
     "hidden": false
   },
   {
-    "src": "c04-mystic_withtext.webp",
-    "title": "C04 - Mystic_withtext",
+    "filename": "af26-05-glaciehash's-hailey-and-hope.webp",
+    "title": "Af26 - 05 - Glaciehash'S Hailey And Hope",
     "caption": {
       "en": "",
       "jp": ""
@@ -45,8 +45,8 @@
     "hidden": false
   },
   {
-    "src": "c05-ninetales.webp",
-    "title": "C05 - Ninetales",
+    "filename": "af26-06-enma's-dream-jibakoma.webp",
+    "title": "Af26 - 06 - Enma'S Dream Jibakoma",
     "caption": {
       "en": "",
       "jp": ""
@@ -54,8 +54,8 @@
     "hidden": false
   },
   {
-    "src": "c06-soldreon_withtext.webp",
-    "title": "C06 - Soldreon_withtext",
+    "filename": "af26-07-lerunechka's-flora.webp",
+    "title": "Af26 - 07 - Lerunechka'S Flora",
     "caption": {
       "en": "",
       "jp": ""
@@ -63,8 +63,8 @@
     "hidden": false
   },
   {
-    "src": "c07-ninetales-and-delphox.webp",
-    "title": "C07 - Ninetales - And Delphox",
+    "filename": "af26-08-azulee's-azura.webp",
+    "title": "Af26 - 08 - Azulee'S Azura",
     "caption": {
       "en": "",
       "jp": ""
@@ -72,8 +72,8 @@
     "hidden": false
   },
   {
-    "src": "c08-arcanum-and-vis.webp",
-    "title": "C08 - Arcanum - And Vis",
+    "filename": "af26-09-simple-strawberry's-keona.webp",
+    "title": "Af26 - 09 - Simple Strawberry'S Keona",
     "caption": {
       "en": "",
       "jp": ""
@@ -81,8 +81,8 @@
     "hidden": false
   },
   {
-    "src": "c09-spicy__nutzz.webp",
-    "title": "C09 - Spicy__nutzz",
+    "filename": "af26-10-neoskysquirrel's-neo.webp",
+    "title": "Af26 - 10 - Neoskysquirrel'S Neo",
     "caption": {
       "en": "",
       "jp": ""
@@ -90,8 +90,8 @@
     "hidden": false
   },
   {
-    "src": "c10-ruby.webp",
-    "title": "C10 - Ruby",
+    "filename": "af26-11-glacial_twin's-winter.webp",
+    "title": "Af26 - 11 - Glacial_twin'S Winter",
     "caption": {
       "en": "",
       "jp": ""
@@ -99,8 +99,8 @@
     "hidden": false
   },
   {
-    "src": "c10b-ruby.webp",
-    "title": "C10b - Ruby",
+    "filename": "af26-12-rosemaryfoxangel's-rosemary-angel.webp",
+    "title": "Af26 - 12 - Rosemaryfoxangel'S Rosemary Angel",
     "caption": {
       "en": "",
       "jp": ""
@@ -108,377 +108,8 @@
     "hidden": false
   },
   {
-    "src": "c11-fizzy.webp",
-    "title": "C11 - Fizzy",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c12-diamant.webp",
-    "title": "C12 - Diamant",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c13-rosheeki.webp",
-    "title": "C13 - Rosheeki",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c14-daniel.webp",
-    "title": "C14 - Daniel",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c15-awildpukachu.webp",
-    "title": "C15 - Awildpukachu",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c16-rinko.webp",
-    "title": "C16 - Rinko",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c17-ruru.webp",
-    "title": "C17 - Ruru",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c18-jenny.webp",
-    "title": "C18 - Jenny",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c19-jenny-and-zolt_white.webp",
-    "title": "C19 - Jenny - And Zolt_white",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c20-receive-ribbon.webp",
-    "title": "C20 - Receive - Ribbon",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c21-moonlight-blush.webp",
-    "title": "C21 - Moonlight - Blush",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c22-foxes-playing.webp",
-    "title": "C22 - Foxes - Playing",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c23-yla,-luna,-and-kaicho.webp",
-    "title": "C23 - Yla, - Luna, And Kaicho",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c24-klonoa.webp",
-    "title": "C24 - Klonoa",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c25-dan-and-rinko.webp",
-    "title": "C25 - Dan - And Rinko",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c26-konqi.webp",
-    "title": "C26 - Konqi",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c27-pikachu-and-buneary_post.webp",
-    "title": "C27 - Pikachu - And Buneary_post",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c28-hug-vesnea_pastel_text.webp",
-    "title": "C28 - Hug - Vesnea_pastel_text",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c29-tamako-and-hina_post.webp",
-    "title": "C29 - Tamako - And Hina_post",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c30-yukari-and-sakura_post.webp",
-    "title": "C30 - Yukari - And Sakura_post",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c31-gen-disorder.webp",
-    "title": "C31 - Gen - Disorder",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c32-riona.webp",
-    "title": "C32 - Riona",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c33-rinko_post.webp",
-    "title": "C33 - Rinko_post",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c34-shy-jenny_post.webp",
-    "title": "C34 - Shy - Jenny_post",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c35-fia_withlogo.webp",
-    "title": "C35 - Fia_withlogo",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c36--_withlogo.webp",
-    "title": "C36 -  - _withlogo",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c37-tsuki_withlogo.webp",
-    "title": "C37 - Tsuki_withlogo",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c38-rinko_wl.webp",
-    "title": "C38 - Rinko_wl",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c39-wedding_post.webp",
-    "title": "C39 - Wedding_post",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c40-rinko_mark.webp",
-    "title": "C40 - Rinko_mark",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c41-jenny.webp",
-    "title": "C41 - Jenny",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c42-gardevoir_wt.webp",
-    "title": "C42 - Gardevoir_wt",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c43-ralts_wt.webp",
-    "title": "C43 - Ralts_wt",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c44-rinko.webp",
-    "title": "C44 - Rinko",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c45-coylander.webp",
-    "title": "C45 - Coylander",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c46-zangoose_wl.webp",
-    "title": "C46 - Zangoose_wl",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c47-let's-save,-kupo!_wl.webp",
-    "title": "C47 - Let'S - Save, Kupo!_wl",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c48-rinko_wl.webp",
-    "title": "C48 - Rinko_wl",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c49-lantern_wl.webp",
-    "title": "C49 - Lantern_wl",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c50-mocha-button.webp",
-    "title": "C50 - Mocha - Button",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c51-overcast_wl.webp",
-    "title": "C51 - Overcast_wl",
-    "caption": {
-      "en": "",
-      "jp": ""
-    },
-    "hidden": false
-  },
-  {
-    "src": "c52-mocha_wl.webp",
-    "title": "C52 - Mocha_wl",
+    "filename": "vesnea-art-fight-2026.webp",
+    "title": "Vesnea - Art - Fight 2026",
     "caption": {
       "en": "",
       "jp": ""
