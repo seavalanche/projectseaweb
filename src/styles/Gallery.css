@@ -111,6 +111,7 @@
   z-index: var(--gallery-sidebar-z-index);
   display: flex;
   position: fixed;
+  top: var(--navbar-height-primary);
   height: calc(100vh - var(--navbar-height-primary));
   width: var(--sidebar-width);
   margin-left: calc(
@@ -120,7 +121,7 @@
       ) *
       -1
   );
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease;
 }
 .gallery-sidebar.is-closed {
   transform: translateX(0);
