@@ -135,11 +135,8 @@
   height: calc(100vh - var(--navbar-height-primary));
   width: var(--sidebar-width);
   margin-left: calc(
-    (
-        var(--sidebar-width) - var(--sidebar-btn-width) -
-          var(--landing-padding2) * 2
-      ) *
-      -1
+    var(--sidebar-btn-width) + var(--landing-padding2) * 2 -
+      var(--sidebar-width)
   );
   transition: transform 0.2s ease;
 }
