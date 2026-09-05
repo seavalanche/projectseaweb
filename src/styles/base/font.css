@@ -113,6 +113,7 @@ html {
   --fluid-15-20: clamp(0.9375rem, 0.8654rem + 0.3205vw, 1.25rem);
   --fluid-15-24: clamp(0.9375rem, 0.8077rem + 0.5769vw, 1.5rem);
   --fluid-15-25: clamp(0.9375rem, 0.7933rem + 0.641vw, 1.5625rem);
+  --fluid-18-28: clamp(1.125rem, 0.9808rem + 0.641vw, 1.75rem);
   --fluid-20-25: clamp(1.25rem, 1.1779rem + 0.3205vw, 1.5625rem);
   --fluid-20-30: clamp(1.25rem, 1.1058rem + 0.641vw, 1.875rem);
   --fluid-22-28: clamp(1.375rem, 1.2885rem + 0.3846vw, 1.75rem);

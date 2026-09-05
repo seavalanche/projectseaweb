@@ -190,9 +190,18 @@ a {
   --toggle-switch-margin: calc(var(--toggle-height) * 5 / 34);
 
   --toggle-color-active: hsl(from var(--glow) h s l / 0.8);
-  --toggle-color-inactive: hsl(from var(--shadow) h s l / 0.3);
-  --toggle-color-switch: var(--primary-bg);
+  --toggle-color-active-hover: hsl(from var(--glow) h s l / 1);
+  --toggle-color-inactive: hsl(from var(--glow) h s l / 0.1);
+  --toggle-color-inactive-hover: hsl(from var(--glow) h s l / 0.3);
   --toggle-color-disabled: hsl(from var(--shadow) h s l / 1);
+  --toggle-color-switch-active: var(--primary-bg);
+  --toggle-color-switch-inactive: var(--glow);
+
+  --toggle-color-border-active: hsl(
+    from var(--toggle-color-active) h s l / 0.2
+  );
+  --toggle-color-border-inactive: hsl(from var(--glow) h s l / 0.5);
+  --toggle-color-border-inactive-hover: hsl(from var(--glow) h s l / 0.9);
 }
 .toggle-switch {
   user-select: none;
@@ -202,6 +211,10 @@ a {
   left: calc(var(--toggle-width) * 2 / 3);
   width: var(--toggle-width);
   text-align: left;
+  border-radius: var(--toggle-border-radius);
+}
+.toggle-switch:hover {
+  box-shadow: 0 0 2px 1px hsl(from var(--glow) h s l / 0.1);
 }
 .toggle-switch-checkbox {
   display: none;
@@ -212,7 +225,7 @@ a {
   cursor: pointer;
   margin: 0;
   border-radius: var(--toggle-border-radius);
-  border: 1px solid hsl(from var(--toggle-color-active) h s l / 0.2);
+  border: 1px solid var(--toggle-color-border-active);
 }
 .toggle-switch-inner {
   display: block;
@@ -220,8 +233,8 @@ a {
   margin-left: -100%;
   transition: all 0.1s ease;
 }
-.toggle-switch-inner:before,
-.toggle-switch-inner:after {
+.toggle-switch-inner::before,
+.toggle-switch-inner::after {
   display: block;
   float: left;
   width: 50%;
@@ -229,11 +242,19 @@ a {
   box-sizing: border-box;
   content: "";
 }
-.toggle-switch-inner:before {
+.toggle-switch-inner::before {
   background-color: var(--toggle-color-active);
 }
-.toggle-switch-inner:after {
+.toggle-switch-inner::after {
   background-color: var(--toggle-color-inactive);
+  border: 1px solid var(--toggle-color-border-inactive);
+}
+.toggle-switch:hover .toggle-switch-inner::before {
+  background-color: var(--toggle-color-active-hover);
+}
+.toggle-switch:hover .toggle-switch-inner::after {
+  background-color: var(--toggle-color-inactive-hover);
+  border: 1px solid var(--toggle-color-border-inactive-hover);
 }
 .toggle-switch-switch {
   position: absolute;
@@ -247,8 +268,7 @@ a {
   width: var(--toggle-switch-size);
   margin: var(--toggle-switch-margin);
 
-  background-color: var(--toggle-color-switch);
-  border: 0 solid var(--toggle-color-inactive);
+  background-color: var(--toggle-color-switch-inactive);
   border-radius: var(--toggle-border-radius);
   transition: all 0.1s ease;
 }
@@ -262,6 +282,7 @@ a {
 }
 .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
   right: 0px;
+  background-color: var(--toggle-color-switch-active);
 }
 
 /* ---------------------------------------------------------------------------- */

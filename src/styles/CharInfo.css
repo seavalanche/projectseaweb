@@ -316,7 +316,7 @@
   --card-contentA-width: calc(
     (var(--card-width-closed) - var(--card-content-gap)) / 2
   );
-  --tab-width: calc(3 * var(--tab-height));
+  --tab-width: calc(3.5 * var(--tab-height));
   --tab-height: var(--fluid-15-24);
 }
 .charinfowrapper {
@@ -424,9 +424,6 @@
   width: calc(var(--toggle-width) * 1.5 + 10px);
   margin-left: calc(var(--toggle-width) * -0.5);
 }
-.contentBinactive .toggle-switch-switch {
-  background-color: var(--toggle-color-active);
-}
 .contentB-btn.selectoractive {
   opacity: 0.5;
   transform: translateY(var(--selector-min-height));
@@ -467,7 +464,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: var(--card-contentA-width);
+  width: calc(0.9 * var(--card-contentA-width));
   gap: var(--card-content-gap);
 }
 .charcardPFP {
@@ -486,11 +483,15 @@
   align-items: center;
   justify-content: flex-start;
   text-align: center;
-  width: var(--card-contentA-width);
+  width: calc(1.1 * var(--card-contentA-width));
   padding-top: var(--landing-padding);
   border: 1px solid hsl(from var(--primary-bg-hover) h s l / 0.2);
   border-radius: 8px;
   overflow: hidden;
+}
+.character-card.opened .charcard-contentA1,
+.character-card.opened .charcard-contentA2{
+  width: var(--card-contentA-width);
 }
 .charcardName {
   font-family: var(--font-heading);
@@ -602,7 +603,7 @@
   padding: var(--landing-padding) var(--landing-padding2);
   border-radius: 4px;
   border: 1px solid hsl(from var(--primary-bg-hover) h s l / 0.2);
-  border-left: 4px solid var(--primary-bg-hover);
+  border-left: 4px solid hsl(from var(--primary-bg-hover) h s l / 0.5);
   background-color: hsl(from var(--secondary-bg) h s l / 0.5);
   gap: var(--landing-padding2);
   text-align: left;
@@ -613,19 +614,16 @@
   font-size: var(--fs-1);
   font-style: initial;
   font-weight: 600;
+  color: var(--primary-content);
 }
 .charcard-desc-list p {
   text-indent: 0;
   margin-bottom: initial;
 }
 .charcard-desc-list:hover {
-  background-color: var(--primary-bg-hover);
-  color: var(--primary-content-hover);
-  border: 1px solid hsl(from var(--glow) h s l / 0.2);
-  border-left: 4px solid var(--glow);
-}
-.charcard-desc-list:hover .charcardProp {
-  color: var(--primary-content-hover);
+  background-color: hsl(from var(--primary-bg-hover) h s l / 0.05);
+  border: 1px solid hsl(from var(--primary-bg-hover) h s l / 1);
+  border-left: 4px solid var(--primary-bg-hover);
 }
 .charcardpersonality {
   display: flex;
@@ -666,7 +664,7 @@
   font-size: var(--fs--2);
   font-weight: bold;
   text-align: center;
-  line-height: var(--fluid-20-25);
+  line-height: var(--fluid-18-28);
   border-bottom: 2px solid transparent;
   background-color: hsl(from var(--secondary-bg) h s l / 0.5);
 }

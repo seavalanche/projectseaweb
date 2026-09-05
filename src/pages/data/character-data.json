@@ -1211,6 +1211,14 @@
           "en": "Seravyn reference sheet.",
           "jp": ""
         }
+      },
+      {
+        "src": "characters/seravyn/artworks/s209-seravyn.webp",
+        "title": "S209 - Seravyn",
+        "caption": {
+          "en": "Seravyn portrait.",
+          "jp": ""
+        }
       }
     ],
     "tradearts": [
@@ -4516,7 +4524,7 @@
     "group": "The Feared",
     "nireth": "",
     "nameMeaning": "A combination of Nir (\"without\" in Sanskrit or \"water\" in Hindi) and Ethereal (\"delicate\" and \"otherworldly\").",
-    "storyPlotRole": "",
+    "storyPlotRole": "After Seavalanche's disappearance, Nireth took the chance to take over region [Placeholder name: A] to become its ruler. Along the way, she recruited Arna, Fondan, Deimev, and Vaurion as her direct subordinates. \n\nIn her rule, she implemented strict patterns of rules and a total control. She believes this will prevent the existential threat The Null from consuming the world.",
     "bio": "Nireth is a shimmering silver with a few hints of pale violet deer-fish creature, a body resembling a young deer but has a big fish tail that ends with a forked fin. Her eyes are deep mignight blue, her nubby antlers are deep black obsidian pieces, and her rumps have a marking called Nireth Black Hole symbol. \n\nShe has sprites floating around her, shaped like moth. The real physical moth sprite is attached to her chest, and is made out of obsidian. Despite how beautiful it is, it's rumored that she can spy others using it.\n\nAs a ruler of region [Placeholder name: A], she believes she will transform the chaotic world left by the previous ruler into a better place.",
     "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
     "traits": "Graceful, charismatic, condescendingly kind, calculated.",
@@ -4528,7 +4536,7 @@
     "bodyShapeDescription": "Nireth is a deer-fish creature with a body resembling a young deer but has a big fish tail that ends with a forked fin. \n\nHer head has nubby antlers made out of deep black obsidian. With the formation, it does resemble a crown. When she showed her aura, the crown actually has another extension on top, revealing another sets of obsidian parts. The shape of the antlers resemble a crescent cradle, with a suspended core in the middle. \n\nHer hair has flat bangs in front, and has long hair at the back. It flows constantly like sea wave, but suspended on air. The color is translucent, with a little hint of violet on it. \n\nHer chest has another set of obsidian piece on it. It is shaped like a moth. But this one is actually the physical form of her moth shaped sprites that surrounds her whenever she goes. The sprites are slightly transparent, formed by her magical powers. It is rumored that she actually can spy others using these moth sprites. \n\nHer rump on the hind legs have a marking exclusive to her. It is her Black Hole symbol, depicted by a big spiral ending into a smaller spiral, with a few markings at each ends. \n\nHer body color is shimmering silver with a few hints of pale violet. Her eyes are deep midnight blue, and her obsidian pieces are deep black. Despite this, not everyone can see her true color due to the shine she has on her. With her natural charisma, how cool and regal she looks, many would easily leave what they were doing and just went to admire Nireth from afar.",
     "abilities": "- **The Eclipse of Self (Passive/Aura):** This is Nireth's natural aura, especially when she showed her full crown. A field filled with a special kind of light. The light makes everything around her looks saturated. Combined with the brightness anyone who is unaware of this ability would be trapped into Nireth's charisma. They would be unaware that they were following Nireth's orders while under this influence. However for the ones who are aware of this will have their mind clouded with foggy thoughts, struggling to maintain their own vision and goal.",
     "moves": "- **Dark Fairy Moths (Magical/Status):** Shimmering, dark magical sprites that look like beautiful moths. They act as her Psionic eyes, watching everything in her region and feeding her information. Due to how beautiful they look, most will be unaware of being watched by these seemingly harmless sprites. \n- **The False Mirror (Psionic/Status):** She projects a psychic hallucination of the person the target thinks they should be, the version that is perfectly what they wanted to be. Due to believing they are already reaching that version of self, they would feel a false sense of security. \n- **Nihil's Embrace (Darkness/Status):** This is Nireth's ultimate move. A devastating combination of her Psionic and Darkness power. She would use her Psionic power to give the target the sense of being embraced or hugged. It would feel so warm and nice that the target would then be enveloped by her Darkness power and will slowly forget who they are. Even for strong individuals who can try to resist, they will start to doubt their own goals.",
-    "storyPlotDetails": "Nireth is the ruler of region [Placeholder name: A] after Seavalanche went missing. She sees Seavalanche as an unfair ruler and she intends to undo everything. Her underlings are Arna, Fondan, Deimev, and Vaurion.\n\nNireth doesn't fight with brute force, she fights by making the opponent doubt their own existence. She uses beauty as bait and psychological pressure as the hook. Even if the target realizes this, they will still have hard time beating her powerful psychological pressure.\n\nShe rules through the idea of dependencies. Using her Eclipse of the Self passive aura, she gives her underlings (Arna, Fondan, Deimev, and Vaurion) a sense of purpose that satisfies their brokenness, making them feel like they need her to exist. However, while she believes she has total control over the group, she isn't aware that her existensial threat isn't Seavalanche."
+    "storyPlotDetails": "Nireth is the ruler of region [Placeholder name: A] after Seavalanche went missing. She sees Seavalanche as an unfair ruler and she intends to undo everything. Her underlings are Arna, Fondan, Deimev, and Vaurion.\n\nNireth doesn't fight with brute force, she fights by making the opponent doubt their own existence. She uses beauty as bait and psychological pressure as the hook. Even if the target realizes this, they will still have hard time beating her powerful psychological pressure.\n\nShe rules through the idea of dependencies. Using her Eclipse of the Self passive aura, she gives her underlings (Arna, Fondan, Deimev, and Vaurion) a sense of purpose that satisfies their brokenness, making them feel like they need her to exist. However, while she believes she has total control over the group, she isn't aware that her existensial threat isn't Seavalanche.\n\nEven in the existence of The Null, she still believes that the world will be alright if she got a total control of it. Everyone be in their own proper places, following her as their proper ruler."
   },
   {
     "id": "zorynthia",
@@ -4608,13 +4616,13 @@
     "group": "The Feared",
     "zorynthia": "",
     "nameMeaning": "A combination of Zorya (Slavic goddess of dawn), Zorion (\"happiness\" in Basque), and Thia (Titaness Theia, which also is the goddess of light).",
-    "storyPlotRole": "",
+    "storyPlotRole": "After Seavalanche's disappearance, Zorynthia took the chance to take over region [Placeholder name: B] to become its ruler. Along the way, she recruited Baldor, Rakariki, Veranite, and Sarchie as her direct subordinates. \n\nIn her rule, she put in place lots of beautiful elements. Reminded her citizens that she is the ruler and they are safe. She believes this will prevent the existential threat The Null from consuming the world.",
     "bio": "*Write character bio here*",
     "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
-    "traits": "- **Charismatic & Radiant:** She is effortlessly charming and always seems to be \"glowing.\" People are naturally drawn to her presence.\n- **Gracious & Poised:** She carries herself with the elegance of a queen. Even when she’s being cruel, she does it with a smile and a soft voice.\n- **Performative:** Everything she does feels like a carefully choreographed dance. There is a sense that she is always \"on stage.\"",
-    "values": "- **Adoration/Status:** Her primary goal is to be seen, worshipped, and centered. Being ignored is her version of death.\n- **Control through Perception:** She believes that if you can control how people _see_ the world, you control the world itself.\n- **Self-Preservation (Ego):** She prioritizes her own image and comfort above all else. To her, \"truth\" is whatever makes her look best.",
-    "flaws": "- **Pathological Narcissism:** She cannot truly empathize with others; she only sees people as an audience or as tools to boost her status.\n- **Fragile Ego:** Because her entire identity is built on being \"perfect\" and \"bright,\" any hint of criticism or being \"outshone\" causes her to spiral into intense, hidden rage.\n- **Inauthenticity:** She is so disconnected from her true self that she doesn't actually know who she is when the lights go out.",
-    "quirks": "- **The \"Perfect\" Smile:** When she is angry or threatened, her smile becomes _too_ wide and stays on her face a second too long, making it look uncanny/creepy.\n- **Light Manipulation:** When she’s nervous or feeling insecure, the light around her might flicker or become slightly too bright, like a strobe light, betraying her internal instability.\n- **Checking her Reflection:** She might unconsciously check her reflection in any surface (even water or a blade) to ensure her \"mask\" is still perfectly in place.",
+    "traits": "Charismatic, graceful, performative. \n\nShe looks elegant and will smile nicely even when getting angry or plotting something cruel. She does things in a calculated way, it felt like a choreography.",
+    "values": "Adoration/status, control through perception, self preservation (image and comfort). \n\nHer primary goal is to be adored, seen, and even worshipped. Being ignored is a devastating blow to her. She believes that the world can be controlled by controlling how people see the world. She also prioritize her own image and comfort above all else.",
+    "flaws": "Abnormal narcissism, fragile ego, inauthenticity.\n\nShe truly cannot empathize with others, she only sees people as a tool to boost her status. Due to her highly view on herself, any criticism will spiral her into a rage. Despite all of this, her performative act stems from her own inability to understand herself.",
+    "quirks": "Creepy smile when she is angry or threatened, flickering lights when nervous, unconsciously checking her reflection to make sure her mask is still on.",
     "details": "",
     "lifeBackground": "",
     "bodyShapeDescription": "",
@@ -4703,7 +4711,7 @@
     "group": "The Feared",
     "vaurion": "",
     "nameMeaning": "Comes from the word Vaurien (\"rascal\" in French). It also sounds like \"devour\".",
-    "storyPlotRole": "",
+    "storyPlotRole": "After Seavalanche's disappearance, Vaurion learned that she wasn't dead. He planned to absorb Seavalanche's power for himself, so he went on a journey to find her. \n\nWithout much power, he realized he needed to leech off power from someone else. Knowing that both Nireth and Zorynthia took over two of the four big regions, he can just tag along one of them. \n\nThe existential threat of The Null isn't an issue for him. His goal was only to be the strongest in the world.",
     "bio": "*Write character bio here*",
     "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
     "traits": "",
@@ -4791,13 +4799,13 @@
     "group": "The Feared",
     "theNull": "",
     "nameMeaning": "Null (nonexistent).",
-    "storyPlotRole": "",
+    "storyPlotRole": "The embodiment of negative emotions.\n\nAs the world grew more chaotic, more and more souls shows negative emotions. Sadness, hopelessness, cruelty, and many other negative emotions only fueled The Null. \n\nAs it grew stronger, it gained a physical appearance... Everyone needs to be ready of what's to come.",
     "bio": "*Write character bio here*",
     "personalities": "**Traits** is the consistent outward behavior (what they are). \n**Values** is the internal beliefs / priorities (what they believe). \n**Flaws** is the weaknesses that causes problems (what hurts them). \n**Quirks** is the small habits / physical tells (what leaks through unconsciously).",
-    "traits": "",
-    "values": "",
-    "flaws": "",
-    "quirks": "",
+    "traits": "Love negative energies.",
+    "values": "The world keep being negative.",
+    "flaws": "Hate positive energies.",
+    "quirks": "Getting stronger in",
     "details": "",
     "lifeBackground": "",
     "bodyShapeDescription": "",
