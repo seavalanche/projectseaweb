@@ -120,12 +120,12 @@
       ) *
       -1
   );
+  transition: all 0.2s ease;
 }
 .gallery-sidebar.is-closed {
   transform: translateX(0);
 }
 .gallery-sidebar.is-open {
-  transition: opacity 0.5s ease;
   transform: translateX(
     calc((var(--sidebar-width) - var(--sidebar-btn-width)))
   );

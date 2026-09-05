@@ -10,8 +10,14 @@ export default function ProjectArtworks({ art, projectId, language }) {
                 onClick={() => setSelectedArt(art)}
             >
                 <img
-                    src={`${process.env.PUBLIC_URL}/Assets/gallery/${projectId}/${art.filename}`}
+                    src={`${process.env.PUBLIC_URL}/Assets/gallery/${projectId}/thumb/${art.filename}`}
                     alt={art.caption[language] || art.caption.en}
+                    loading="lazy"
+                    decoding="async"
+                    onError={(e) => {
+                        e.currentTarget.src = `${process.env.PUBLIC_URL}/Assets/gallery/${projectId}/${art.filename}`;
+                        e.currentTarget.onerror = null;
+                    }}
                 />
             </figure>
             {selectedArt && (

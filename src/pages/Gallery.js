@@ -22,20 +22,22 @@ export default function Gallery() {
     return (
         <div className='gallerybg'>
             <div className={`gallery-sidebar ${sidebarVisible ? 'is-open' : 'is-closed'}`}>
-                <div className='gallery-sidebar-body'>
-                    <div className="project-selector ontheside">
-                        {projects.map(project => (
-                            <section key={project.projectId} className="hero-section ontheside">
-                                <HashLink className="herolabel ontheside" key={project.projectId} to={`#${project.projectId}`}>{project.projectName[language] || project.projectName.en}</HashLink>
-                                <div className="hero-thumbnail ontheside">
-                                    {project.heroarts.map((art) => (
-                                        <ProjectArtworks key={art.id} art={art} projectId={project.projectId} />
-                                    ))}
-                                </div>
-                            </section>
-                        ))}
+                {sidebarVisible && (
+                    <div className='gallery-sidebar-body'>
+                        <div className="project-selector ontheside">
+                            {projects.map(project => (
+                                <section key={project.projectId} className="hero-section ontheside">
+                                    <HashLink className="herolabel ontheside" key={project.projectId} to={`#${project.projectId}`}>{project.projectName[language] || project.projectName.en}</HashLink>
+                                    <div className="hero-thumbnail ontheside">
+                                        {project.heroarts.map((art) => (
+                                            <ProjectArtworks key={art.id} art={art} projectId={project.projectId} />
+                                        ))}
+                                    </div>
+                                </section>
+                            ))}
+                        </div>
                     </div>
-                </div>
+                )}
                 <div className={`gallery-sidebar-btn ${sidebarVisible ? 'is-open' : 'is-closed'}`}
                     onClick={() => { toggleSidebar(); }}>
                     {sidebarVisible ?
@@ -90,7 +92,7 @@ export default function Gallery() {
                     </section>
                 ))}
             </div>
-            <div className="generaldisclaimer generalcontent">{t("artpage.artdisclaimer1")}<br/>{t("artpage.artdisclaimer2")}</div>
+            <div className="generaldisclaimer generalcontent">{t("artpage.artdisclaimer1")}<br />{t("artpage.artdisclaimer2")}</div>
         </div>
     );
 }
