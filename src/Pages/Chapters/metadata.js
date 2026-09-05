@@ -15,34 +15,34 @@ export const chapters = [
         publishedDate: '2025-07-15'
     },
     {
-        id: 'prologue',
+        id: 'thefairyevolution',
         title: {
-            en: "Prologue",
-            jp: "プロローグ",
+            en: "The Fairy Evolution",
+            jp: "",
         },
         description: {
-            en: "",
+            en: "A oneshot story about Vie and Buro.",
             jp: ""
         },
-        wordCount: 1937,
-        isCompleted: false,
-        tags: ['', ''],
-        publishedDate: '2023-08-21'
+        wordCount: 1429,
+        isCompleted: true,
+        tags: ['Eevee', 'Sylveon', 'Umbreon'],
+        publishedDate: '2025-12-14'
     },
     {
-        id: 'chapter1',
+        id: 'softnight',
         title: {
-            en: "Chapter 1: Protection",
-            jp: "第1章：保護"
-        },
-        description: {
-            en: "",
+            en: "Soft Night",
             jp: ""
         },
-        wordCount: 1937,
-        isCompleted: false,
-        tags: ['', ''],
-        publishedDate: '2023-08-21'
+        description: {
+            en: "A oneshot story about Vie and Buro.",
+            jp: ""
+        },
+        wordCount: 972,
+        isCompleted: true,
+        tags: ['Eevee', 'Umbreon'],
+        publishedDate: '2026-06-10'
     },
     // Add more chapters here
 ];

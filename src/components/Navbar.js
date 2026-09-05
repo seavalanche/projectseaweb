@@ -55,6 +55,9 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
             </div>
             <div className={`navbar-mobile-menu ${menuOpen ? "open" : ""}`}>
                 <div className="NV-menu-body">
+                    <NavLink to="/Gallery" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
+                        Art Gallery
+                    </NavLink>
                     <NavLink to="/Characters" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
                         {t("navbar.characters1")}
                     </NavLink>
@@ -160,6 +163,9 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                     </div>
                     <div className="NV-body-secondary">
                         <div className="NV-menu-body">
+                            <NavLink to="/Gallery" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
+                                Art Gallery
+                            </NavLink>
                             <NavLink to="/Characters" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.characters1")}
                             </NavLink>

@@ -7,7 +7,7 @@
   --letter-spacing: 1px;
   --word-spacing: 0px;
   /* Poem page */
-  --content-padding2: 32vw;
+  --content-padding2: 26vw;
   --line-height2: 1.6;
   --paragraph-gap2: 10px;
   --letter-spacing2: 1px;
@@ -54,6 +54,9 @@
   color: var(--primary-content);
   border-right: 1px solid var(--primary-content);
   box-shadow: 0 8px 12px hsl(from var(--secondary-content) h s l / 0.2);
+}
+.sidebar:hover {
+  background-color: hsl(from var(--primary-bg) h s l / 0.5);
 }
 .sidebar-hidden {
   width: 0;
@@ -304,6 +307,9 @@
   font-family: var(--story-poem-font-family);
   font-size: var(--story-poem-font-size);
 }
+#poem-content-wrapper p {
+  text-align: center;
+}
 #story-content-wrapper blockquote,
 #poem-content-wrapper blockquote {
   width: 100%;
@@ -439,6 +445,9 @@
     backdrop-filter: blur(8px);
     z-index: 0;
     box-shadow: initial;
+  }
+  .sidebar:hover {
+    background-color: var(--secondary-bg);
   }
   .sidebar-scrolled-hidden {
     opacity: 0;
