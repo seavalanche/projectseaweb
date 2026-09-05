@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprojectseaweb=self.webpackChunkprojectseaweb||[]).push([[85],{2085:(e,s,t)=>{e.exports=t.p+"static/media/thefairyevolution.0686729120df22b4fe15.md"}}]);
