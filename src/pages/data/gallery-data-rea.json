@@ -14,7 +14,7 @@
       },
       {
         "label": { "en": "Total pieces:", "jp": "" },
-        "value": { "en": "4 artworks", "jp": "" }
+        "value": { "en": "5 artworks", "jp": "" }
       },
       {
         "label": { "en": "Status:", "jp": "" },
@@ -67,6 +67,14 @@
       {
         "filename": "2026-41-peek².webp",
         "title": "2026 - 41 - Peek²",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-59-sylveonxglaceon.webp",
+        "title": "2026 - 59 - Sylveon x Glaceon",
         "caption": {
           "en": "",
           "jp": ""
