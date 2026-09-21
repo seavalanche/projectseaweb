@@ -110,8 +110,8 @@ const Homepage = () => {
                     <div className='HPheader-main'>
                         <h3>Hi~!</h3>
                         <p>I'm Seavalanche Vesnea, but you can just call me Vesnea! I'm a hobbyist digital artist driven by cuteness.</p>
-                        <p>My favorite color is baby pink & baby blue.</p>
-                        <p>I draw 2D digital illustrations on Clip Studio Paint as my favorite software. But I also create very short animations, I also create some Live2D avatars, and I also create some 3D models on Blender that works in VRChat!</p>
+                        <p>My favorite color is baby pink & baby blue. Love cats and foxes.</p>
+                        <p>I draw 2D digital illustrations on Clip Studio Paint as my favorite software. But I also create very short animations, some Live2D avatars, and also some 3D models on Blender that works in VRChat!</p>
                     </div>
                 </div>
                 <div className='HPheader-tail'>

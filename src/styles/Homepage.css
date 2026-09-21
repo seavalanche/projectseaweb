@@ -308,7 +308,7 @@
   margin-bottom: var(--landing-padding);
 }
 .HPheader-main p {
-  margin-bottom: var(--landing-padding2);
+  margin-bottom: var(--landing-padding);
 }
 .HPheader-size-gender {
   color: var(--gender-female);
