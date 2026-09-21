@@ -216,7 +216,156 @@
 }
 /* 
 || -----------------------------------------
-|| HOMEPAGE -> HPCarousel
+|| HOMEPAGE -> HPheader
+|| -----------------------------------------
+*/
+.HPheader {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-bg);
+  color: var(--primary-content);
+  padding-top: var(--fluid-20-30);
+  padding-bottom: var(--fluid-10-15);
+}
+.HPheader-head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--landing-padding);
+  padding: var(--landing-padding2) var(--landing-padding);
+}
+.HPheader-side {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--landing-padding);
+  padding: var(--landing-padding2) var(--landing-padding);
+  border-radius: 8px;
+  border-left: 1px solid hsl(from var(--primary-content) h s l / 0.5);
+  border-right: 1px solid hsl(from var(--primary-content) h s l / 0.5);
+}
+.HPheader-size-gender {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.HPheader-size-favpkmn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.HPheader-size-favpkmn-list {
+  display: flex;
+  flex-direction: row;
+  gap: var(--landing-padding3);
+}
+.HPheader-size-favpkmn-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: var(--fluid-25-30);
+  height: var(--fluid-25-30);
+}
+.HPheader-size-favpkmn-icon img {
+  border-radius: 12px;
+  width: var(--fluid-25-30);
+  transition: all 0.1s ease;
+}
+.HPheader-size-favpkmn-icon:hover img {
+  transform: scale(1.2);
+}
+.HPheader-size-favpkmn-icon:active img {
+  transform: scale(1.1);
+}
+.HPheader-size-favpkmn-name {
+  position: relative;
+  top: var(--landing-padding4);
+  display: none;
+  transition: all 0.1s ease;
+}
+.HPheader-size-favpkmn-icon:hover .HPheader-size-favpkmn-name {
+  display: block;
+}
+.HPheader-size-favpkmn-icon:active .HPheader-size-favpkmn-name {
+  display: block;
+  transform: scale(0.9);
+}
+.HPheader-main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  max-width: max(50%, 300px);
+}
+.HPheader-main h3 {
+  margin-bottom: var(--landing-padding);
+}
+.HPheader-main p {
+  margin-bottom: var(--landing-padding2);
+}
+.HPheader-size-gender {
+  color: var(--gender-female);
+}
+.HPheader-tail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--landing-padding);
+  padding: var(--landing-padding2) var(--landing-padding);
+}
+.follow-me {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--landing-padding);
+  padding: var(--landing-padding2) var(--landing-padding);
+}
+.follow-me-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "SeavalancheFont";
+  font-size: var(--sffs-1);
+  color: var(--primary-content);
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.follow-me-link-icon {
+  background-size: cover;
+  width: var(--fluid-35-50);
+  height: var(--fluid-35-50);
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --svg-0: var(--primary-bg);
+  --svg-1: var(--primary-content);
+  --svg-2: var(--primary-bg);
+  transition: all 0.1s ease;
+}
+.follow-me-link-icon:hover {
+  --svg-0: var(--primary-content);
+  --svg-1: var(--primary-bg);
+  --svg-2: var(--primary-content);
+}
+.follow-me-link-name {
+}
+/* 
+|| -----------------------------------------
+|| HOMEPAGE -> HPcarousel
 || -----------------------------------------
 */
 .HPcarousel {
@@ -226,8 +375,7 @@
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  box-shadow: 0 0 30px 10px
-    color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
+  box-shadow: 0 0 20px 5px color-mix(in srgb, var(--shadow) 60%, transparent);
 }
 .HPcarousel-slide {
   position: absolute;

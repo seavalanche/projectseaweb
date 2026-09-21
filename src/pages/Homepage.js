@@ -5,19 +5,23 @@ import smallintro2 from '../Assets/Homepage/shortintro/2023-18-sprigatito.jpg';
 import { useLocalization } from '../localization/hooks/useLocalization';
 import '../styles/Homepage.css'
 import { wallpapers } from './data/wallpapers';
+import { favpkmn } from './data/favorite-pokemon';
+
+import { ReactComponent as LogoBluesky } from '../Assets/Header/header-bsky.svg'
 
 const Homepage = () => {
     const { t } = useLocalization();
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            const targetElement = document.getElementById('targetSection');
-            if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'smooth' });
-            }
-        }, 3000);
-        return () => clearTimeout(timer);
-    }, []);
+    // for targetid scroll
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         const targetElement = document.getElementById('targetSection');
+    //         if (targetElement) {
+    //             targetElement.scrollIntoView({ behavior: 'smooth' });
+    //         }
+    //     }, 3000);
+    //     return () => clearTimeout(timer);
+    // }, []);
 
     const [currentCarousel, setCurrentCarousel] = useState(0);
     useEffect(() => {
@@ -39,7 +43,6 @@ const Homepage = () => {
         if (!wallpapers.length) return;
         setCurrentCarousel((prev) => (prev + 1) % wallpapers.length);
     }, []);
-
     useEffect(() => {
         const handleKeyDown = (e) => {
             if (e.key === "ArrowLeft") {
@@ -58,7 +61,7 @@ const Homepage = () => {
             <div className="HPcarousel">
                 {wallpapers.map((item, idx) => (
                     <div
-                        key={item.src}
+                        key={item.src || idx}
                         className={`HPcarousel-slide ${idx === currentCarousel ? "active drift" : ""}`}
                         style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/hp-carousel/' + item.src})` }}
                     ></div>
@@ -79,6 +82,57 @@ const Homepage = () => {
                             onClick={() => setCurrentCarousel(idx)}
                         ></span>
                     ))}
+                </div>
+            </div>
+            <div className='HPheader'>
+                <div className='HPheader-head'>
+                    <div className='HPheader-side'>
+                        <div className='HPheader-size-gender'>
+                            Female ♀
+                            <span className='pronoun-badge'>She/Her</span>
+                        </div>
+                        <div className='HPheader-size-favpkmn'>
+                            Favorite Pokémon
+                            <div className='HPheader-size-favpkmn-list'>
+                                {favpkmn.map((item, idx) => (
+                                    <div className='HPheader-size-favpkmn-icon'>
+                                        <img
+                                            key={item.src || idx}
+                                            src={process.env.PUBLIC_URL + '/favpkmn/' + item.src}
+                                            alt={item.alt}
+                                        />
+                                        <div className='HPheader-size-favpkmn-name'>{item.name}</div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                    <div className='HPheader-main'>
+                        <h3>Hi~!</h3>
+                        <p>I'm Seavalanche Vesnea, but you can just call me Vesnea! I'm a hobbyist digital artist driven by cuteness.</p>
+                        <p>My favorite color is baby pink & baby blue.</p>
+                        <p>I draw 2D digital illustrations on Clip Studio Paint as my favorite software. But I also create very short animations, I also create some Live2D avatars, and I also create some 3D models on Blender that works in VRChat!</p>
+                    </div>
+                </div>
+                <div className='HPheader-tail'>
+                    <div className='comm-banner'>
+
+                    </div>
+                    <div className='follow-me'>
+                        <h4>Follow me!</h4>
+                        <a className='follow-me-link' href="https://bsky.app/profile/seavalanche.bsky.social" target='_blank' rel="noreferrer">
+                            <div className='follow-me-link-icon'><LogoBluesky /></div>
+                            <div className='follow-me-link-name'>Bluesky</div>
+                        </a>
+                    </div>
+                    {/* <div className='AVSectionContent title'>
+                        {t("about.followme")}
+                        <div className='AVSectionContent2-right'>
+                            <a href="https://www.twitter.com/CeruleanFrost" target='_blank' rel="noreferrer" className='AVSocials twitter'><Twitter /></a>
+                            <a href="https://www.instagram.com/seavalanche" target='_blank' rel="noreferrer" className='AVSocials instagram'><Instagram /></a>
+                            <a href="https://bsky.app/profile/seavalanche.bsky.social" target='_blank' rel="noreferrer" className='AVSocials bluesky'><Bluesky /></a>
+                        </div>
+                    </div> */}
                 </div>
             </div>
             <div className="welcome">
