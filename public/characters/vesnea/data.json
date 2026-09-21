@@ -412,6 +412,11 @@
       "caption": { "en": "Hehe~", "jp": "えへへ〜" }
     },
     {
+      "src": "s130-spring-serenity.webp",
+      "title": "S130 - Spring Serenity",
+      "caption": { "en": "Vesnea in a serene spring setting, surrounded by animals under a cherry blossom tree.", "jp": "桜の木の下で穏やかに春を楽しむVesnea。" }
+    },
+    {
       "src": "s136-vesnea-optimized.gif",
       "title": "S136 - Vesnea",
       "caption": { "en": "Look there!", "jp": "見て見て、あそこだよ！" }
@@ -440,19 +445,19 @@
     {
       "src": "s184-vesnea.webp",
       "title": "S184 - Vesnea",
-      "caption": { "en": "Vesnea is posing in a very cute way!", "jp": "" }
+      "caption": { "en": "Vesnea is posing in a very cute way!", "jp": "Vesneaはとてもかわいげにポーズしている！" }
     },
     {
       "src": "s188-christmas-vesnea.webp",
       "title": "S188 - Christmas Vesnea",
-      "caption": { "en": "Vesnea is in a Christmas Festive vibe!", "jp": "" }
+      "caption": { "en": "Vesnea is in a Christmas Festive vibe!", "jp": "Vesneaはクリスマスのフェスティブな雰囲気！" }
     },
     {
       "src": "s201-vesnea.webp",
       "title": "S201 - Vesnea",
       "caption": {
         "en": "An artwork of Vesnea on a park, beside a pond.",
-        "jp": ""
+        "jp": "公園の水辺に立つVesneaのアートワーク。"
       }
     },
     {
@@ -460,7 +465,7 @@
       "title": "V06 - Vesnea",
       "caption": {
         "en": "An artwork of Vesnea following the sea wave.",
-        "jp": ""
+        "jp": "海の波に従うVesneaのアートワーク。"
       }
     },
     {
@@ -468,7 +473,7 @@
       "title": "S204 - Vesnea.png",
       "caption": {
         "en": "Vesnea is relaxing in a cafe with a cup of hot matcha.",
-        "jp": ""
+        "jp": "カフェで抹茶を飲みながらリラックスしているVesnea。"
       }
     }
   ],

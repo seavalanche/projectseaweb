@@ -1,75 +1,77 @@
-import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+// import { Link } from 'react-router-dom';
+import { useState, useEffect, useCallback } from 'react';
 import smallintro1 from '../Assets/Homepage/shortintro/s98-vesnea-see-you.png';
 import smallintro2 from '../Assets/Homepage/shortintro/2023-18-sprigatito.jpg';
 import { useLocalization } from '../localization/hooks/useLocalization';
 import '../styles/Homepage.css'
-import '../styles/HPCarousel.css';
-
-const wallpapers = [
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc01.webp`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc02.webp`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc03.webp`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc04.webp`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc05.webp`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc06.webp`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc07.webp`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc08.webp`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc09.webp`,
-    `${process.env.PUBLIC_URL}/hp-carousel/hpc10.webp`,
-];
+import { wallpapers } from './data/wallpapers';
 
 const Homepage = () => {
     const { t } = useLocalization();
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            // Scroll to the element with id "targetSection"
             const targetElement = document.getElementById('targetSection');
             if (targetElement) {
                 targetElement.scrollIntoView({ behavior: 'smooth' });
             }
-        }, 3000); // 3000ms = 3 seconds
-
-        // Cleanup the timer on component unmount
+        }, 3000);
         return () => clearTimeout(timer);
     }, []);
 
     const [currentCarousel, setCurrentCarousel] = useState(0);
-    // autoplay
     useEffect(() => {
+        if (!wallpapers.length) return;
+
         const timer = setInterval(() => {
             setCurrentCarousel((prev) => (prev + 1) % wallpapers.length);
-        }, 10000); // 10s
+        }, 10000);
+
         return () => clearInterval(timer);
-    }, []);
-    // handlers
-    const handlePrev = () => {
+    }, [currentCarousel]);
+    const handlePrev = useCallback(() => {
+        if (!wallpapers.length) return;
         setCurrentCarousel((prev) =>
             prev === 0 ? wallpapers.length - 1 : prev - 1
         );
-    };
-    const handleNext = () => {
+    }, []);
+    const handleNext = useCallback(() => {
+        if (!wallpapers.length) return;
         setCurrentCarousel((prev) => (prev + 1) % wallpapers.length);
-    };
+    }, []);
+
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (e.key === "ArrowLeft") {
+                handlePrev();
+            } else if (e.key === "ArrowRight") {
+                handleNext();
+            }
+        };
+
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [handlePrev, handleNext]);
 
     return (
         <div>
             <div className="HPcarousel">
-                {wallpapers.map((src, idx) => (
+                {wallpapers.map((item, idx) => (
                     <div
-                        key={idx}
+                        key={item.src}
                         className={`HPcarousel-slide ${idx === currentCarousel ? "active drift" : ""}`}
-                        style={{ backgroundImage: `url(${src})` }}
+                        style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/hp-carousel/' + item.src})` }}
                     ></div>
                 ))}
-                <button className="HPcarousel-btn HPcarousel-prev" onClick={handlePrev}>
-                    ‹
-                </button>
-                <button className="HPcarousel-btn HPcarousel-next" onClick={handleNext}>
-                    ›
-                </button>
+                <button className="HPcarousel-btn HPcarousel-prev" onClick={handlePrev}>‹</button>
+                <button className="HPcarousel-btn HPcarousel-next" onClick={handleNext}>›</button>
                 <div className="HPcarousel-indicators">
+                    {wallpapers[currentCarousel] && (
+                        <div className="HPcarousel-info">
+                            <h3>{wallpapers[currentCarousel].title}</h3>
+                            <p>{wallpapers[currentCarousel].description}</p>
+                        </div>
+                    )}
                     {wallpapers.map((_, idx) => (
                         <span
                             key={idx}
@@ -103,7 +105,7 @@ const Homepage = () => {
                     {t("home.intro4")}
                 </span>
             </div>
-            <div className='commsect'>
+            {/* <div className='commsect'>
                 <div className='commsectbanner'></div>
                 <div className='commsectitem'>
                     <div className='commsectitemcard'>
@@ -140,7 +142,7 @@ const Homepage = () => {
                         <a href='https://ko-fi.com/seavalanche/shop' target='_blank' rel="noreferrer" className='commsectlearnmore'>{t("home.learnmore")}</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

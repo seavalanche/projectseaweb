@@ -214,3 +214,155 @@
     height: 350px;
   }
 }
+/* 
+|| -----------------------------------------
+|| HOMEPAGE -> HPCarousel
+|| -----------------------------------------
+*/
+.HPcarousel {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 0 30px 10px
+    color-mix(in srgb, var(--C-Vesnea_Purple) 30%, transparent);
+}
+.HPcarousel-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  left: 10%;
+  transform: scale(1.2) translateX(-2%);
+  transition:
+    opacity 2s ease,
+    transform 25s;
+}
+/* Active fade in */
+.HPcarousel-slide.active {
+  opacity: 1;
+}
+/* Drift effect applied while visible */
+.HPcarousel-slide.drift {
+  transition:
+    opacity 1s ease-in-out,
+    transform 12s linear;
+  transform: scale(1.2) translateX(-10%);
+}
+/* Indicators */
+.HPcarousel-indicators {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    hsl(from var(--primary-bg) h s l / 0.4) 15%,
+    hsl(from var(--primary-bg) h s l / 0.6) 30%,
+    hsl(from var(--primary-bg) h s l / 0.7) 50%,
+    hsl(from var(--primary-bg) h s l / 0.6) 70%,
+    hsl(from var(--primary-bg) h s l / 0.5) 85%,
+    transparent 100%
+  );
+}
+.HPcarousel-indicators:hover {
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    hsl(from var(--primary-bg) h s l / 0.6) 15%,
+    hsl(from var(--primary-bg) h s l / 0.8) 30%,
+    hsl(from var(--primary-bg) h s l / 0.9) 50%,
+    hsl(from var(--primary-bg) h s l / 0.8) 70%,
+    hsl(from var(--primary-bg) h s l / 0.6) 85%,
+    transparent 100%
+  );
+}
+.HPcarousel-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--landing-padding2);
+  padding: var(--landing-padding2) var(--landing-padding);
+  line-height: 1.2;
+  color: var(--primary-content);
+  paint-order: stroke fill;
+}
+.HPcarousel-info:hover {
+  text-shadow: 0 0 10px hsl(from var(--glow) h s l / 0.5);
+}
+.HPcarousel-info p {
+  margin-bottom: initial;
+}
+.HPcarousel-prev,
+.HPcarousel-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 64px;
+  background-color: hsl(from var(--primary-bg) h s l / 0.2);
+  color: var(--primary-content);
+  font-size: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+.HPcarousel-prev {
+  left: 0;
+}
+.HPcarousel-next {
+  right: 0;
+}
+.HPcarousel:hover .HPcarousel-btn {
+  opacity: 1;
+}
+.HPcarousel-dot {
+  display: inline-block;
+  width: 36px;
+  height: 8px;
+  margin: 0 6px;
+  background-color: hsl(from var(--primary-content) h s l / 0.2);
+  border: 1px solid transparent;
+  border-radius: 20%;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+.HPcarousel-dot.active {
+  background-color: var(--primary-content);
+  transform: scale(1.1) scaleY(1.5);
+}
+.HPcarousel-dot:hover {
+  background-color: var(--primary-bg);
+  border: 1px solid var(--primary-content);
+  box-shadow: 0 0 4px 2px color-mix(in srgb, var(--glow) 50%, transparent);
+  transform: scale(1.3) scaleY(2);
+}
+@media only screen and (max-width: 500px) {
+  .HPcarousel-prev,
+  .HPcarousel-next {
+    width: 24px;
+    font-size: 2rem;
+  }
+  .HPcarousel-dot {
+    width: 12px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .HPcarousel-prev,
+  .HPcarousel-next {
+    width: 36px;
+  }
+  .HPcarousel-dot {
+    width: 24px;
+  }
+}
