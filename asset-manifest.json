@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.5f528689.css",
-    "main.js": "/projectseaweb/static/js/main.24e446b7.js",
+    "main.css": "/projectseaweb/static/css/main.2ea822ba.css",
+    "main.js": "/projectseaweb/static/js/main.f4428dbc.js",
     "static/js/714.5bb2a9a5.chunk.js": "/projectseaweb/static/js/714.5bb2a9a5.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
     "static/js/879.2f41cd03.chunk.js": "/projectseaweb/static/js/879.2f41cd03.chunk.js",
@@ -110,6 +110,7 @@
     "static/media/c0.webp": "/projectseaweb/static/media/c0.4e59e45a05c2c86c3ad4.webp",
     "static/media/symbol-seavalanche-infinity.svg": "/projectseaweb/static/media/symbol-seavalanche-infinity.7d160108e05f70387395.svg",
     "index.html": "/projectseaweb/index.html",
+    "static/media/header-bsky.svg": "/projectseaweb/static/media/header-bsky.6e0c121b1dcaa87ae3998c890ecfe16a.svg",
     "static/media/about-icon-bluesky.svg": "/projectseaweb/static/media/about-icon-bluesky.5184a8ee5f6f86f24676107c5089e30f.svg",
     "static/media/b1.webp": "/projectseaweb/static/media/b1.f07fd570413dc4424892.webp",
     "static/media/a1.webp": "/projectseaweb/static/media/a1.ca2f116a585d76160564.webp",
@@ -135,12 +136,12 @@
     "static/media/symbol-zumiko-star.svg": "/projectseaweb/static/media/symbol-zumiko-star.bd6efe0ef31e91542c51.svg",
     "static/media/tidy-er-light.svg": "/projectseaweb/static/media/tidy-er-light.337cc898a68c939a76a6.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
-    "main.5f528689.css.map": "/projectseaweb/static/css/main.5f528689.css.map",
-    "main.24e446b7.js.map": "/projectseaweb/static/js/main.24e446b7.js.map",
+    "main.2ea822ba.css.map": "/projectseaweb/static/css/main.2ea822ba.css.map",
+    "main.f4428dbc.js.map": "/projectseaweb/static/js/main.f4428dbc.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f528689.css",
-    "static/js/main.24e446b7.js"
+    "static/css/main.2ea822ba.css",
+    "static/js/main.f4428dbc.js"
   ]
 }
