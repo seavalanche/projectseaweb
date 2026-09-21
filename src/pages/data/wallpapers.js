@@ -48,5 +48,25 @@ export const wallpapers = [
         src: `hpc10.webp`,
         title: "V06 - Vesnea",
         description: "A painting of Vesnea in a sea wave."
+    },
+    {
+        src: `hpc11.webp`,
+        title: "S195 - Rakariki Day",
+        description: "Rakariki leaping in the air with a small smile."
+    },
+    {
+        src: `hpc12.webp`,
+        title: "S196 - Light Pillar",
+        description: "A drawing of Fondan using the move Light Pillar, holding his book while smiling."
+    },
+    {
+        src: `hpc13.webp`,
+        title: "S197 - Void of Uncertainty",
+        description: "Veranite is using Void of Uncertainty. He is spreading dark aura of uncertainty towards everyone nearby, making them doubt themselves and their situation."
+    },
+    {
+        src: `hpc14.webp`,
+        title: "S199 - Wingbeat Screech",
+        description: "Sarchie uses Wingbeat Screech. Flapping her wings and screeching."
     }
 ];
