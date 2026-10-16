@@ -6,6 +6,7 @@ import { useLocalization } from '../localization/hooks/useLocalization';
 import '../styles/Homepage.css'
 import { wallpapers } from './data/wallpapers';
 import { favpkmn } from './data/favorite-pokemon';
+import CharacterBox from '../components/CharacterBox.js';
 
 import { ReactComponent as LogoBluesky } from '../Assets/Header/header-bsky.svg'
 
@@ -125,6 +126,7 @@ const Homepage = () => {
                             <div className='follow-me-link-name'>Bluesky</div>
                         </a>
                     </div>
+                    <CharacterBox />
                     {/* <div className='AVSectionContent title'>
                         {t("about.followme")}
                         <div className='AVSectionContent2-right'>
