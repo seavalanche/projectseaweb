@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projectseaweb/static/css/main.195f50e0.css",
-    "main.js": "/projectseaweb/static/js/main.89cb917a.js",
+    "main.js": "/projectseaweb/static/js/main.f8b628e3.js",
     "static/js/714.5bb2a9a5.chunk.js": "/projectseaweb/static/js/714.5bb2a9a5.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
     "static/js/879.2f41cd03.chunk.js": "/projectseaweb/static/js/879.2f41cd03.chunk.js",
@@ -26,6 +26,7 @@
     "static/media/s75-vesnea-b-338x450.gif": "/projectseaweb/static/media/s75-vesnea-b-338x450.d037db783abcf5253a0d.gif",
     "static/media/2d.mp4": "/projectseaweb/static/media/2d.566e8c9e331978a92705.mp4",
     "static/media/11-digitalart-animationart.gif": "/projectseaweb/static/media/11-digitalart-animationart.c0f95d8ee6918eeda8b7.gif",
+    "static/media/poembook.mp4": "/projectseaweb/static/media/poembook.138ff90fb8f349a71c3d.mp4",
     "static/media/animation.mp4": "/projectseaweb/static/media/animation.11e0d42070aaa2e769d7.mp4",
     "static/media/output.mp4": "/projectseaweb/static/media/output.736a208bf1ad14d68446.mp4",
     "static/media/welcomesect-dark.jpg": "/projectseaweb/static/media/welcomesect-dark.65f94a518eca11d76f30.jpg",
@@ -124,7 +125,6 @@
     "static/media/about-icon-twitter.svg": "/projectseaweb/static/media/about-icon-twitter.1f252fecdaf84bebb2b84bfe1618f43b.svg",
     "static/media/b0.webp": "/projectseaweb/static/media/b0.cee5ee745cdb2d3886d9.webp",
     "static/media/a0.webp": "/projectseaweb/static/media/a0.edc1eb817b727d82972d.webp",
-    "static/media/storypoem.webp": "/projectseaweb/static/media/storypoem.d35a27daa16d486e8eea.webp",
     "static/media/unfairexpectations.md": "/projectseaweb/static/media/unfairexpectations.5a42f4a2ffd24bce54f9.md",
     "static/media/hiddenstruggles.md": "/projectseaweb/static/media/hiddenstruggles.b1f567f9e7cb7f44fdcc.md",
     "static/media/searchingmyself.md": "/projectseaweb/static/media/searchingmyself.f7c967074d8e4b035b96.md",
@@ -144,11 +144,11 @@
     "static/media/tidy-er-light.svg": "/projectseaweb/static/media/tidy-er-light.337cc898a68c939a76a6.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
     "main.195f50e0.css.map": "/projectseaweb/static/css/main.195f50e0.css.map",
-    "main.89cb917a.js.map": "/projectseaweb/static/js/main.89cb917a.js.map",
+    "main.f8b628e3.js.map": "/projectseaweb/static/js/main.f8b628e3.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.195f50e0.css",
-    "static/js/main.89cb917a.js"
+    "static/js/main.f8b628e3.js"
   ]
 }
