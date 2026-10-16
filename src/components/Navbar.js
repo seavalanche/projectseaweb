@@ -58,9 +58,9 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                     <NavLink to="/Gallery" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                         Art Gallery
                     </NavLink>
-                    <NavLink to="/Characters" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
+                    {/* <NavLink to="/Characters" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
                         {t("navbar.characters1")}
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink to="/CharInfo" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
                         {t("navbar.charcard")}
                     </NavLink>
@@ -137,8 +137,11 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                             </NavLink>
                         </div>
                         <div className="NV-menu-body">
-                            <NavLink to="/Characters" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
+                            {/* <NavLink to="/Characters" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.characters1")}
+                            </NavLink> */}
+                            <NavLink to="/CharInfo" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
+                                {t("navbar.charcard")}
                             </NavLink>
                             <NavLink to="/Art" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.art")}
@@ -166,9 +169,9 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                             <NavLink to="/Gallery" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 Art Gallery
                             </NavLink>
-                            <NavLink to="/Characters" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
+                            {/* <NavLink to="/Characters" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.characters1")}
-                            </NavLink>
+                            </NavLink> */}
                             <NavLink to="/CharInfo" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.charcard")}
                             </NavLink>
