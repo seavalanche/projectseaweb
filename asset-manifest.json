@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.93a814ba.css",
-    "main.js": "/projectseaweb/static/js/main.5823c11a.js",
+    "main.css": "/projectseaweb/static/css/main.195f50e0.css",
+    "main.js": "/projectseaweb/static/js/main.89cb917a.js",
     "static/js/714.5bb2a9a5.chunk.js": "/projectseaweb/static/js/714.5bb2a9a5.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
     "static/js/879.2f41cd03.chunk.js": "/projectseaweb/static/js/879.2f41cd03.chunk.js",
@@ -22,12 +22,16 @@
     "static/js/485.d0b1248f.chunk.js": "/projectseaweb/static/js/485.d0b1248f.chunk.js",
     "static/js/488.9062b7d0.chunk.js": "/projectseaweb/static/js/488.9062b7d0.chunk.js",
     "static/media/aboutvesnea-header-2.png": "/projectseaweb/static/media/aboutvesnea-header-2.73dea934834d2fb1ba36.png",
+    "static/media/calendar.mp4": "/projectseaweb/static/media/calendar.503c9df06108419fe9cf.mp4",
     "static/media/s75-vesnea-b-338x450.gif": "/projectseaweb/static/media/s75-vesnea-b-338x450.d037db783abcf5253a0d.gif",
+    "static/media/2d.mp4": "/projectseaweb/static/media/2d.566e8c9e331978a92705.mp4",
     "static/media/11-digitalart-animationart.gif": "/projectseaweb/static/media/11-digitalart-animationart.c0f95d8ee6918eeda8b7.gif",
+    "static/media/animation.mp4": "/projectseaweb/static/media/animation.11e0d42070aaa2e769d7.mp4",
     "static/media/output.mp4": "/projectseaweb/static/media/output.736a208bf1ad14d68446.mp4",
     "static/media/welcomesect-dark.jpg": "/projectseaweb/static/media/welcomesect-dark.65f94a518eca11d76f30.jpg",
     "static/media/starmode.webp": "/projectseaweb/static/media/starmode.4daa05530efcb05a68c1.webp",
     "static/media/montserrat-variable.ttf": "/projectseaweb/static/media/montserrat-variable.3faa3eef13649db02044.ttf",
+    "static/media/live2d.mp4": "/projectseaweb/static/media/live2d.48dd6819f4862b3cfbb6.mp4",
     "static/media/abouttimelinem.svg": "/projectseaweb/static/media/abouttimelinem.99b7098d8aca43c62a8a.svg",
     "static/media/aboutvesnea-header-2-shadow.png": "/projectseaweb/static/media/aboutvesnea-header-2-shadow.9850d74a460d999b6233.png",
     "static/media/abouttimeline.svg": "/projectseaweb/static/media/abouttimeline.70a0cd1f9e8a6f17477b.svg",
@@ -120,9 +124,6 @@
     "static/media/about-icon-twitter.svg": "/projectseaweb/static/media/about-icon-twitter.1f252fecdaf84bebb2b84bfe1618f43b.svg",
     "static/media/b0.webp": "/projectseaweb/static/media/b0.cee5ee745cdb2d3886d9.webp",
     "static/media/a0.webp": "/projectseaweb/static/media/a0.edc1eb817b727d82972d.webp",
-    "static/media/2d3d.webp": "/projectseaweb/static/media/2d3d.d35a27daa16d486e8eea.webp",
-    "static/media/animation.webp": "/projectseaweb/static/media/animation.d35a27daa16d486e8eea.webp",
-    "static/media/calendar.webp": "/projectseaweb/static/media/calendar.d35a27daa16d486e8eea.webp",
     "static/media/storypoem.webp": "/projectseaweb/static/media/storypoem.d35a27daa16d486e8eea.webp",
     "static/media/unfairexpectations.md": "/projectseaweb/static/media/unfairexpectations.5a42f4a2ffd24bce54f9.md",
     "static/media/hiddenstruggles.md": "/projectseaweb/static/media/hiddenstruggles.b1f567f9e7cb7f44fdcc.md",
@@ -142,12 +143,12 @@
     "static/media/symbol-zumiko-star.svg": "/projectseaweb/static/media/symbol-zumiko-star.bd6efe0ef31e91542c51.svg",
     "static/media/tidy-er-light.svg": "/projectseaweb/static/media/tidy-er-light.337cc898a68c939a76a6.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
-    "main.93a814ba.css.map": "/projectseaweb/static/css/main.93a814ba.css.map",
-    "main.5823c11a.js.map": "/projectseaweb/static/js/main.5823c11a.js.map",
+    "main.195f50e0.css.map": "/projectseaweb/static/css/main.195f50e0.css.map",
+    "main.89cb917a.js.map": "/projectseaweb/static/js/main.89cb917a.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93a814ba.css",
-    "static/js/main.5823c11a.js"
+    "static/css/main.195f50e0.css",
+    "static/js/main.89cb917a.js"
   ]
 }
