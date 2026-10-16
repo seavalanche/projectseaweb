@@ -225,7 +225,7 @@
   background-color: var(--primary-bg);
   color: var(--primary-content);
   padding-top: var(--fluid-20-30);
-  padding-bottom: var(--fluid-10-15);
+  padding-bottom: var(--fluid-20-30);
 }
 .HPheader-head {
   display: flex;
@@ -321,6 +321,7 @@
   align-items: center;
   gap: var(--landing-padding);
   padding: var(--landing-padding2) var(--landing-padding);
+  padding-bottom: var(--landing-padding);
 }
 .follow-me {
   display: flex;
@@ -330,27 +331,30 @@
   align-items: center;
   gap: var(--landing-padding);
   padding: var(--landing-padding2) var(--landing-padding);
+  --icon-size: var(--fluid-35-50);
 }
 .follow-me-link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   font-family: "SeavalancheFont";
   font-size: var(--sffs-1);
   color: var(--primary-content);
   letter-spacing: 1px;
   text-decoration: none;
+  width: var(--icon-size);
+  height: var(--icon-size);
 }
 .follow-me-link-icon {
-  background-size: cover;
-  width: var(--fluid-35-50);
-  height: var(--fluid-35-50);
-  cursor: pointer;
-  flex-shrink: 0;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  cursor: pointer;
   --svg-0: var(--primary-bg);
   --svg-1: var(--primary-content);
   --svg-2: var(--primary-bg);
@@ -362,6 +366,13 @@
   --svg-2: var(--primary-content);
 }
 .follow-me-link-name {
+  position: relative;
+  top: var(--landing-padding4);
+  display: none;
+  transition: all 0.1s ease;
+}
+.follow-me-link:hover .follow-me-link-name {
+  display: block;
 }
 /* 
 || -----------------------------------------

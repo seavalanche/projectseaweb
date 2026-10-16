@@ -7,11 +7,11 @@ export const wallpapers = [
     {
         src: `hpc02.webp`,
         title: "S162 - Matching Clothes",
-        description: "A drawing of Vesnea, Vesnea Seavalanche Mode, and Seava Normal Form wearing matching girly outfits."
+        description: "A drawing of Vesnea, Seava Normal Form, and Vesnea Seavalanche Mode wearing matching girly outfits."
     },
     {
         src: `hpc03.webp`,
-        title: "S163 - Elemental Power Full",
+        title: "S163 - Elemental Power",
         description: "A painting of Korazu, Uzakon, and Zumiko using their elemental powers."
     },
     {
