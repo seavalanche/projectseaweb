@@ -1,35 +1,63 @@
 import '../styles/components/SlantedBanner.css';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 
 // Sub-component to manage individual slice playlists
 function SlantedSlice({ section, index, total, getClipPath }) {
     const videoList = section.videos || (section.videoSrc ? [section.videoSrc] : []);
-    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-    const videoRef = useRef(null);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [nextIndex, setNextIndex] = useState(null);
 
-    const handleVideoEnded = () => {
-        if (videoList.length > 1) {
-            // Move to the next video in the playlist
-            setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videoList.length);
+    const videoRefA = useRef(null);
+    const videoRefB = useRef(null);
+    const [activeRef, setActiveRef] = useState('A'); // Tracks which video element is currently visible
+
+    const isPlaylist = videoList.length > 1;
+
+    // Handle video ending and trigger crossfade
+    const handleEnded = () => {
+        if (!isPlaylist) {
+            // Single video: just loop it smoothly
+            if (activeRef === 'A' && videoRefA.current) {
+                videoRefA.current.currentTime = 0;
+                videoRefA.current.play();
+            } else if (activeRef === 'B' && videoRefB.current) {
+                videoRefB.current.currentTime = 0;
+                videoRefB.current.play();
+            }
+            return;
+        }
+
+        // Playlist: Calculate next index
+        const newNextIndex = (currentIndex + 1) % videoList.length;
+        setNextIndex(newNextIndex);
+
+        if (activeRef === 'A') {
+            // Prepare B, play it, then crossfade
+            if (videoRefB.current) {
+                videoRefB.current.currentTime = 0;
+                videoRefB.current.play().then(() => {
+                    setActiveRef('B');
+                    setCurrentIndex(newNextIndex);
+                    setNextIndex(null);
+                }).catch(err => console.log("Crossfade play error:", err));
+            }
         } else {
-            // Safety fallback for single videos: force replay from start
-            if (videoRef.current) {
-                videoRef.current.currentTime = 0;
-                videoRef.current.play();
+            // Prepare A, play it, then crossfade
+            if (videoRefA.current) {
+                videoRefA.current.currentTime = 0;
+                videoRefA.current.play().then(() => {
+                    setActiveRef('A');
+                    setCurrentIndex(newNextIndex);
+                    setNextIndex(null);
+                }).catch(err => console.log("Crossfade play error:", err));
             }
         }
     };
 
-    useEffect(() => {
-        if (videoRef.current) {
-            videoRef.current.play().catch((error) => {
-                console.log("Autoplay issue:", error);
-            });
-        }
-    }, [currentVideoIndex]);
-
     const widthPercent = (100 / total) + 12;
     const leftPercent = (index / total) * (100 - 12);
+
+    const nextVideoIndex = nextIndex !== null ? nextIndex : (currentIndex + 1) % videoList.length;
 
     return (
         <div
@@ -41,20 +69,42 @@ function SlantedSlice({ section, index, total, getClipPath }) {
                 clipPath: getClipPath(index, total)
             }}
         >
+            {/* Video Layer A */}
             <video
-                ref={videoRef}
-                src={videoList[currentVideoIndex]}
-                style={{ objectPosition: section.objectPosition || 'center center' }}
+                ref={videoRefA}
+                src={videoList[activeRef === 'A' ? currentIndex : nextVideoIndex]}
+                style={{
+                    objectPosition: section.objectPosition || 'center center',
+                    opacity: activeRef === 'A' ? 1 : 0,
+                    transition: 'opacity 0.6s ease-in-out' // Smooth crossfade transition duration
+                }}
+                className="crossfade-video"
                 autoPlay
                 muted
                 playsInline
                 preload="auto"
-                // --- THIS IS THE FIX ---
-                // If there's only 1 video, let the browser handle seamless native looping.
-                // If there are multiple, let onEnded handle the playlist transition.
-                loop={videoList.length === 1}
-                onEnded={handleVideoEnded}
+                loop={!isPlaylist}
+                onEnded={activeRef === 'A' ? handleEnded : undefined}
             />
+
+            {/* Video Layer B */}
+            {isPlaylist && (
+                <video
+                    ref={videoRefB}
+                    src={videoList[activeRef === 'B' ? currentIndex : nextVideoIndex]}
+                    style={{
+                        objectPosition: section.objectPosition || 'center center',
+                        opacity: activeRef === 'B' ? 1 : 0,
+                        transition: 'opacity 0.6s ease-in-out'
+                    }}
+                    className="crossfade-video"
+                    autoPlay
+                    muted
+                    playsInline
+                    preload="auto"
+                    onEnded={activeRef === 'B' ? handleEnded : undefined}
+                />
+            )}
         </div>
     );
 }

@@ -24,7 +24,16 @@
   object-fit: cover;
 }
 
-/* .slanted-slice:hover {
+.slanted-slice:hover {
   z-index: 99 !important;
-  transform: scale(1.02);
-} */
+  transform: scale(1.2);
+}
+
+.crossfade-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
