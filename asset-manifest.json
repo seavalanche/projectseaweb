@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.fa60201e.css",
-    "main.js": "/projectseaweb/static/js/main.390d454b.js",
+    "main.css": "/projectseaweb/static/css/main.3e6e2a5d.css",
+    "main.js": "/projectseaweb/static/js/main.e6645c68.js",
     "static/js/714.5bb2a9a5.chunk.js": "/projectseaweb/static/js/714.5bb2a9a5.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
     "static/js/879.2f41cd03.chunk.js": "/projectseaweb/static/js/879.2f41cd03.chunk.js",
@@ -22,6 +22,7 @@
     "static/js/485.d0b1248f.chunk.js": "/projectseaweb/static/js/485.d0b1248f.chunk.js",
     "static/js/488.9062b7d0.chunk.js": "/projectseaweb/static/js/488.9062b7d0.chunk.js",
     "static/media/aboutvesnea-header-2.png": "/projectseaweb/static/media/aboutvesnea-header-2.73dea934834d2fb1ba36.png",
+    "static/media/as.gif": "/projectseaweb/static/media/as.d037db783abcf5253a0d.gif",
     "static/media/s75-vesnea-b-338x450.gif": "/projectseaweb/static/media/s75-vesnea-b-338x450.d037db783abcf5253a0d.gif",
     "static/media/11-digitalart-animationart.gif": "/projectseaweb/static/media/11-digitalart-animationart.c0f95d8ee6918eeda8b7.gif",
     "static/media/welcomesect-dark.jpg": "/projectseaweb/static/media/welcomesect-dark.65f94a518eca11d76f30.jpg",
@@ -118,6 +119,10 @@
     "static/media/about-icon-twitter.svg": "/projectseaweb/static/media/about-icon-twitter.1f252fecdaf84bebb2b84bfe1618f43b.svg",
     "static/media/b0.webp": "/projectseaweb/static/media/b0.cee5ee745cdb2d3886d9.webp",
     "static/media/a0.webp": "/projectseaweb/static/media/a0.edc1eb817b727d82972d.webp",
+    "static/media/2d3d.webp": "/projectseaweb/static/media/2d3d.d35a27daa16d486e8eea.webp",
+    "static/media/animation.webp": "/projectseaweb/static/media/animation.d35a27daa16d486e8eea.webp",
+    "static/media/calendar.webp": "/projectseaweb/static/media/calendar.d35a27daa16d486e8eea.webp",
+    "static/media/storypoem.webp": "/projectseaweb/static/media/storypoem.d35a27daa16d486e8eea.webp",
     "static/media/unfairexpectations.md": "/projectseaweb/static/media/unfairexpectations.5a42f4a2ffd24bce54f9.md",
     "static/media/hiddenstruggles.md": "/projectseaweb/static/media/hiddenstruggles.b1f567f9e7cb7f44fdcc.md",
     "static/media/searchingmyself.md": "/projectseaweb/static/media/searchingmyself.f7c967074d8e4b035b96.md",
@@ -136,12 +141,12 @@
     "static/media/symbol-zumiko-star.svg": "/projectseaweb/static/media/symbol-zumiko-star.bd6efe0ef31e91542c51.svg",
     "static/media/tidy-er-light.svg": "/projectseaweb/static/media/tidy-er-light.337cc898a68c939a76a6.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
-    "main.fa60201e.css.map": "/projectseaweb/static/css/main.fa60201e.css.map",
-    "main.390d454b.js.map": "/projectseaweb/static/js/main.390d454b.js.map",
+    "main.3e6e2a5d.css.map": "/projectseaweb/static/css/main.3e6e2a5d.css.map",
+    "main.e6645c68.js.map": "/projectseaweb/static/js/main.e6645c68.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa60201e.css",
-    "static/js/main.390d454b.js"
+    "static/css/main.3e6e2a5d.css",
+    "static/js/main.e6645c68.js"
   ]
 }
