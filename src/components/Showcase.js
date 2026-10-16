@@ -3,7 +3,8 @@ import img1 from "../Assets/showcase/2d3d.webp";
 import img2 from "../Assets/showcase/animation.webp";
 import img3 from "../Assets/showcase/storypoem.webp";
 import img4 from "../Assets/showcase/calendar.webp";
-import vid1 from "../Assets/showcase/as.gif";
+import vid1 from "../Assets/showcase/as.mp4";
+import vid2 from "../Assets/showcase/output.mp4";
 import SlantedBanner from "./SlantedBanner";
 
 const showcaseData = [
@@ -13,9 +14,9 @@ const showcaseData = [
         isSlantedBanner: true,
         image: img1,
         videos: [
-            { videoSrc: vid1, title: '2D Art' },
-            { videoSrc: vid1, title: 'Live2D' },
-            { videoSrc: vid1, title: 'Blender' }
+            { videos: [vid1, vid2], objectPosition: '60% center' },
+            { videos: [vid2], objectPosition: 'center center' },
+            { videos: [vid1], objectPosition: 'center center' }
         ],
     },
     {

@@ -24,7 +24,7 @@
   object-fit: cover;
 }
 
-.slanted-slice:hover {
+/* .slanted-slice:hover {
   z-index: 99 !important;
   transform: scale(1.02);
-}
+} */
