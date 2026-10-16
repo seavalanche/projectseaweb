@@ -1,10 +1,10 @@
 import "../styles/components/Showcase.css";
-import img3 from "../Assets/showcase/storypoem.webp";
 import vid1 from "../Assets/showcase/as.mp4";
 import vid2 from "../Assets/showcase/output.mp4";
 import vid2d from "../Assets/showcase/2d.mp4"
 import live2d from "../Assets/showcase/live2d.mp4"
 import animation from "../Assets/showcase/animation.mp4"
+import poembook from "../Assets/showcase/poembook.mp4"
 import calendar from "../Assets/showcase/calendar.mp4"
 import SlantedBanner from "./SlantedBanner";
 
@@ -30,7 +30,11 @@ const showcaseData = [
     {
         title: 'Story & Poem',
         description: "Originally a fan of Pokémon fanfics, I started writing my own stories and poems. Along the way, I created a series of poems with artworks. My current main goal is to create my own original story of Seavalanche.",
-        image: img3,
+        // image: '',
+        isSlantedBanner: true,
+        videos: [
+            { videos: [poembook], objectPosition: 'center center' }
+        ]
     },
     {
         title: 'Calendar & Themes',
