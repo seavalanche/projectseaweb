@@ -1,0 +1,73 @@
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: var(--landing-padding);
+  padding: var(--landing-padding) 0;
+}
+.showcase-album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--landing-padding3);
+  width: 100%;
+  max-width: var(--fluid-360-1080);
+}
+
+.showcase-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--landing-padding);
+  align-items: center;
+  margin-bottom: var(--landing-padding);
+  width: 95%;
+}
+
+.showcase-image-container,
+.showcase-content-container {
+  width: 100%;
+}
+.showcase-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  background-color: hsl(from var(--secondary-bg) h s l / 0.5);
+  border: 1px solid hsl(from var(--primary-content) h s l / 0.5);
+  border-radius: 8px;
+}
+.showcase-card-title {
+  font-size: var(--fs-1);
+  font-weight: bold;
+  margin-top: var(--landing-padding2);
+  margin-bottom: var(--landing-padding);
+}
+.showcase-card-desc {
+  line-height: 1.6;
+}
+.showcase-card.reverse .showcase-card-title,
+.showcase-card.reverse .showcase-card-desc {
+  text-align: end;
+}
+
+@media (min-width: 300px) {
+  .showcase-card {
+    flex-direction: row;
+    margin-left: auto;
+  }
+  .showcase-card.reverse {
+    flex-direction: row-reverse;
+    margin-right: auto;
+    margin-left: initial;
+  }
+  .showcase-image-container,
+  .showcase-content-container {
+    width: 50%;
+  }
+}

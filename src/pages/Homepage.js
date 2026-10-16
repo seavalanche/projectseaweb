@@ -7,6 +7,7 @@ import '../styles/Homepage.css'
 import { wallpapers } from './data/wallpapers';
 import { favpkmn } from './data/favorite-pokemon';
 import CharacterBox from '../components/CharacterBox.js';
+import Showcase from '../components/Showcase.js';
 
 import { ReactComponent as LogoBluesky } from '../Assets/Header/header-bsky.svg'
 
@@ -127,6 +128,7 @@ const Homepage = () => {
                         </a>
                     </div>
                     <CharacterBox />
+                    <Showcase />
                     {/* <div className='AVSectionContent title'>
                         {t("about.followme")}
                         <div className='AVSectionContent2-right'>
@@ -137,10 +139,10 @@ const Homepage = () => {
                     </div> */}
                 </div>
             </div>
-            <div className="welcome">
+            {/* <div className="welcome">
                 <div className={`welcomewrapper`}>
                     <div className='welcometextwrap'>
-                        {/* <div id="targetSection" className={`welcometitle`}>{t("home.welcome")}</div> */}
+                        <div id="targetSection" className={`welcometitle`}>{t("home.welcome")}</div>
                         <h1 className={`welcometitle`}>{t("home.welcome")}</h1>
                         <span className={`welcometext`}>{t("home.welcometext1")}</span>
                         <span className={`welcometext`}>{t("home.welcometext2")}</span>
@@ -160,7 +162,7 @@ const Homepage = () => {
                 <span className='shortintro3'>
                     {t("home.intro4")}
                 </span>
-            </div>
+            </div> */}
             {/* <div className='commsect'>
                 <div className='commsectbanner'></div>
                 <div className='commsectitem'>

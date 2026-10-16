@@ -332,6 +332,7 @@
   gap: var(--landing-padding);
   padding: var(--landing-padding2) var(--landing-padding);
   --icon-size: var(--fluid-35-50);
+  margin-bottom: 1rem;
 }
 .follow-me-link {
   display: flex;
