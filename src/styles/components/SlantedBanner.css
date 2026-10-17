@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   max-width: 1200px;
-  aspect-ratio: 3 / 2; 
+  aspect-ratio: 3 / 2;
   overflow: hidden;
   background-color: hsl(from var(--secondary-bg) h s l / 0.5);
   border: 1px solid hsl(from var(--primary-content) h s l / 0.5);
@@ -25,7 +25,7 @@
 }
 
 .slanted-slice:hover {
-  z-index: 99 !important;
+  z-index: 9 !important;
   transform: scale(1.2);
 }
 
