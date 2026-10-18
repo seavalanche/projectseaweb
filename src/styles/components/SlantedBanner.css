@@ -25,7 +25,7 @@
 }
 
 .slanted-slice:hover {
-  z-index: 9 !important;
+  z-index: 9;
   transform: scale(1.2);
 }
 
