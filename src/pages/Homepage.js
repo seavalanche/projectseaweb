@@ -1,7 +1,7 @@
 // import { Link } from 'react-router-dom';
 import { useState, useEffect, useCallback } from 'react';
-import smallintro1 from '../Assets/Homepage/shortintro/s98-vesnea-see-you.png';
-import smallintro2 from '../Assets/Homepage/shortintro/2023-18-sprigatito.jpg';
+// import smallintro1 from '../Assets/Homepage/shortintro/s98-vesnea-see-you.png';
+// import smallintro2 from '../Assets/Homepage/shortintro/2023-18-sprigatito.jpg';
 import { useLocalization } from '../localization/hooks/useLocalization';
 import '../styles/Homepage.css'
 import { wallpapers } from './data/wallpapers';
@@ -10,6 +10,19 @@ import CharacterBox from '../components/CharacterBox.js';
 import Showcase from '../components/Showcase.js';
 
 import { ReactComponent as LogoBluesky } from '../Assets/Header/header-bsky.svg'
+
+const friendsData = [
+    {
+        name: "April",
+        pfp: "april.webp",
+        link: "https://aprilsflowers.github.io/",
+    },
+    {
+        name: "Enma Jibakoma",
+        pfp: "enma.webp",
+        link: "https://enmajibakoma.github.io/",
+    }
+]
 
 const Homepage = () => {
     const { t } = useLocalization();
@@ -129,6 +142,28 @@ const Homepage = () => {
                     </div>
                     <CharacterBox />
                     <Showcase />
+                    <div className='friends'>
+                        <h4>My Friends!</h4>
+                        <p>These are my friends' personal website! Go look at their creations!</p>
+                        <div className='friends-card-container'>
+                            {friendsData.map((friends, index) => {
+                                return (
+                                    <div
+                                        key={index}
+                                        className='friends-card'
+                                    >
+                                        <img src={`${process.env.PUBLIC_URL}/Assets/friends-pfp/${friends.pfp}`} alt={friends.name} />
+                                        <h6>{friends.name}</h6>
+                                        <a href={friends.link} target='_blank' rel="noreferrer">
+                                            <div className='friends-link-hover'>&gt;</div>
+                                            I wanna visit!
+                                            <div className='friends-link-hover'>&lt;</div>
+                                            </a>
+                                    </div>
+                                )
+                            })}
+                        </div>
+                    </div>
                     {/* <div className='AVSectionContent title'>
                         {t("about.followme")}
                         <div className='AVSectionContent2-right'>

@@ -375,6 +375,58 @@
 .follow-me-link:hover .follow-me-link-name {
   display: block;
 }
+.friends {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--landing-padding);
+  padding: var(--landing-padding2) var(--landing-padding);
+  --icon-size: var(--fluid-35-50);
+  margin-bottom: 1rem;
+}
+.friends-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(var(--landing-padding2) * -1);
+}
+.friends-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  text-align: center;
+}
+.friends-card:hover {
+  text-shadow: 0 0 2px var(--glow);
+}
+.friends-card:hover img {
+  border: 2px solid;
+  box-shadow: 0 0 4px 2px color-mix(in srgb, var(--glow) 50%, transparent);
+}
+.friends-card img {
+  width: 100px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+.friends-card a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  flex-direction: row;
+  gap: var(--landing-padding2);
+  opacity: 0.5;
+}
+.friends-link-hover {
+  opacity: 0;
+}
+.friends-card a:hover,
+.friends-card a:hover .friends-link-hover {
+  opacity: 1;
+}
 /* 
 || -----------------------------------------
 || HOMEPAGE -> HPcarousel
