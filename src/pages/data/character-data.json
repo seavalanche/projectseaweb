@@ -1194,8 +1194,8 @@
   },
   {
     "id": "seravyn",
-    "profilePicture": "characters/seravyn/pfp-seravyn.png",
-    "profilePicture2": "characters/seravyn/pfp-seravyn.png",
+    "profilePicture": "characters/seravyn/pfp-seravyn.webp",
+    "profilePicture2": "characters/seravyn/pfp-seravyn.webp",
     "name": "Seravyn",
     "alternateName": "",
     "genderColor": "Genderless",
@@ -4823,8 +4823,8 @@
   },
   {
     "id": "vesneasylveon",
-    "profilePicture": "characters/vesneasylveon/pfp-vesneon.png",
-    "profilePicture2": "characters/vesneasylveon/pfp-vesneon.png",
+    "profilePicture": "characters/vesneasylveon/pfp-vesneon.webp",
+    "profilePicture2": "characters/vesneasylveon/pfp-vesneon.webp",
     "name": "Vesneon",
     "alternateName": "(Vesnea Sylveon)",
     "genderColor": "Female",
@@ -4988,8 +4988,8 @@
   },
   {
     "id": "vesneabrionne",
-    "profilePicture": "characters/vesneabrionne/pfp-vesrionne.png",
-    "profilePicture2": "characters/vesneabrionne/pfp-vesrionne.png",
+    "profilePicture": "characters/vesneabrionne/pfp-vesrionne.webp",
+    "profilePicture2": "characters/vesneabrionne/pfp-vesrionne.webp",
     "name": "Vesrionne",
     "alternateName": "(Vesnea Brionne)",
     "genderColor": "Female",
