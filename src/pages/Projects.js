@@ -1,4 +1,4 @@
-import timeline from '../Assets/timelinehelper.png';
+import timeline from '../assets/timelinehelper.png';
 import { Link } from 'react-router-dom';
 import { useTheme } from "../components/ThemeContext";
 

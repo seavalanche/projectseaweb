@@ -1,35 +1,35 @@
 @font-face {
   font-family: "F-Navbar";
-  src: url(/src/Assets/fonts/montserrat-variable.ttf);
+  src: url(/src/assets/fonts/montserrat-variable.ttf);
 }
 
 @font-face {
   font-family: "F-NavbarTitle";
-  src: url(/src/Assets/fonts/montserrat-semibold.ttf);
+  src: url(/src/assets/fonts/montserrat-semibold.ttf);
 }
 
 @font-face {
   font-family: "F-BigTitle";
-  src: url(/src/Assets/fonts/baskervville-regular.ttf);
+  src: url(/src/assets/fonts/baskervville-regular.ttf);
 }
 
 @font-face {
   font-family: "F-Content";
-  src: url(/src/Assets/fonts/montserrat-variable.ttf);
+  src: url(/src/assets/fonts/montserrat-variable.ttf);
 }
 
 @font-face {
   font-family: "F-Link";
-  src: url(/src/Assets/fonts/intertight-extralightitalic.ttf);
+  src: url(/src/assets/fonts/intertight-extralightitalic.ttf);
 }
 
 @font-face {
   font-family: "OpenDyslexic";
-  src: url(/src/Assets/fonts/opendyslexic-regular.otf);
+  src: url(/src/assets/fonts/opendyslexic-regular.otf);
 }
 @font-face {
   font-family: "F-AboutVesnea";
-  src: url(/src/Assets/fonts/josefinsans-italic-variable.ttf);
+  src: url(/src/assets/fonts/josefinsans-italic-variable.ttf);
 }
 :root {
   /* Z-Index */
@@ -529,36 +529,24 @@
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */
 :root,
 [data-theme="light"] {
-  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-light.webp");
-  --homepage-commsect-img: url("/src/Assets/commbanner1.webp");
-  --homepage-commsect-img-m: url("/src/Assets/commbanner1m.webp");
-  --about-vesnea-header-img: url("/src/Assets/About/AboutVesnea/aboutvesnea-header-2.png");
-  --about-vesnea-header-shadow: url("/src/Assets/About/AboutVesnea/aboutvesnea-header-2-shadow.png");
-  --about-vesnea-separator: url("/src/Assets/About/AboutVesnea/tidy-er-light.svg");
-  --about-vesnea-timeline: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimeline.svg");
-  --about-vesnea-timeline-jp: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinejp.svg");
-  --about-vesnea-timeline-m: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinem.svg");
-  --about-vesnea-timeline-m-jp: url("/src/Assets/About/AboutVesnea/AboutTimeline/abouttimelinemjp.svg");
-  --storypoem-fnbar-reset-btn: url("/src/Assets/Common/resetbtnlight.svg");
-  --storypoem-fnbar-reset-btn-hover: url("/src/Assets/Common/resetbtnlightactive.svg");
+  --about-vesnea-header-img: url("/src/assets/About/AboutVesnea/aboutvesnea-header-2.png");
+  --about-vesnea-header-shadow: url("/src/assets/About/AboutVesnea/aboutvesnea-header-2-shadow.png");
+  --about-vesnea-separator: url("/src/assets/About/AboutVesnea/tidy-er-light.svg");
+  --about-vesnea-timeline: url("/src/assets/About/AboutVesnea/AboutTimeline/abouttimeline.svg");
+  --about-vesnea-timeline-jp: url("/src/assets/About/AboutVesnea/AboutTimeline/abouttimelinejp.svg");
+  --about-vesnea-timeline-m: url("/src/assets/About/AboutVesnea/AboutTimeline/abouttimelinem.svg");
+  --about-vesnea-timeline-m-jp: url("/src/assets/About/AboutVesnea/AboutTimeline/abouttimelinemjp.svg");
+  --storypoem-fnbar-reset-btn: url("/src/assets/Common/resetbtnlight.svg");
+  --storypoem-fnbar-reset-btn-hover: url("/src/assets/Common/resetbtnlightactive.svg");
 }
 
 [data-theme="dark"] {
-  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-dark.jpg");
-  --homepage-commsect-img: url("/src/Assets/commbanner2.webp");
-  --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
-  --storypoem-fnbar-reset-btn: url("/src/Assets/Common/resetbtndark.svg");
-  --storypoem-fnbar-reset-btn-hover: url("/src/Assets/Common/resetbtndarkactive.svg");
+  --storypoem-fnbar-reset-btn: url("/src/assets/Common/resetbtndark.svg");
+  --storypoem-fnbar-reset-btn-hover: url("/src/assets/Common/resetbtndarkactive.svg");
 }
 
 [data-theme="star"] {
-  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-star.webp");
-  --homepage-commsect-img: url("/src/Assets/commbanner2.webp");
-  --homepage-commsect-img-m: url("/src/Assets/commbanner2m.webp");
-  --storypoem-fnbar-reset-btn: url("/src/Assets/Common/resetbtnstar.svg");
-  --storypoem-fnbar-reset-btn-hover: url("/src/Assets/Common/resetbtnstaractive.svg");
-}
-[data-theme="infinity"] {
-  --homepage-welcome-img: url("/src/Assets/Homepage/welcomesect-infinity.webp");
+  --storypoem-fnbar-reset-btn: url("/src/assets/Common/resetbtnstar.svg");
+  --storypoem-fnbar-reset-btn-hover: url("/src/assets/Common/resetbtnstaractive.svg");
 }
 /* Assets */ /* Assets */ /* Assets */ /* Assets */ /* Assets */

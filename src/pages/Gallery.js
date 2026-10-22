@@ -7,8 +7,8 @@ import React from 'react';
 import { useState } from 'react'
 import { HashLink } from 'react-router-hash-link';
 
-import { ReactComponent as SidebarBtnClose } from '../Assets/Common/sidebarbtn-close.svg';
-import { ReactComponent as SidebarBtnOpen } from '../Assets/Common/sidebarbtn-open.svg';
+import { ReactComponent as SidebarBtnClose } from '../assets/Common/sidebarbtn-close.svg';
+import { ReactComponent as SidebarBtnOpen } from '../assets/Common/sidebarbtn-open.svg';
 
 export default function Gallery() {
     const { t, language } = useLocalization();

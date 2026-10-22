@@ -4,7 +4,7 @@ import { useLocalization } from "../localization/hooks/useLocalization";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import "../styles/layout/Navbar.css";
 import Sparkles from "../components/Sparkles.js";
-import { ReactComponent as PfpBg } from "../Assets/Header/header-pfp-0.svg"
+import { ReactComponent as PfpBg } from "../assets/Header/header-pfp-0.svg"
 
 const Navbar = ({ theme, themes, toggleTheme }) => {
     const [isSmallScreen, setIsSmallScreen] = useState(false);

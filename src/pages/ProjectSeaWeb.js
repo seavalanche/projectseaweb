@@ -1,19 +1,19 @@
 import { Link } from 'react-router-dom';
-// import linktreebg from '../Assets/Project Sea Web/weblinktree/vesnea.png';
-import showcasepict1 from '../Assets/Project Sea Web/webshowcase/v1-website-1.png';
-import showcasepict2 from '../Assets/Project Sea Web/webshowcase/v1-website-2.png';
-import showcasepict3 from '../Assets/Project Sea Web/webshowcase/v1-website-3.png';
-import showcasepict4 from '../Assets/Project Sea Web/webshowcase/v1-website-4.png';
-import showcasepict5 from '../Assets/Project Sea Web/webshowcase/v1-website-5.png';
-import showcasepict6 from '../Assets/Project Sea Web/webshowcase/v2-website-1.png';
-import showcasepict7 from '../Assets/Project Sea Web/webshowcase/v2-website-2.png';
-import showcasepict8 from '../Assets/Project Sea Web/webshowcase/v2-website-3.png';
-import showcasepict9 from '../Assets/Project Sea Web/webshowcase/v2-website-4.png';
-import showcasepict10 from '../Assets/Project Sea Web/webshowcase/v2-website-5.png';
-import showcasepict11 from '../Assets/Project Sea Web/webshowcase/v2-website-6.png';
-// import separator1 from '../Assets/Project Sea Web/webshowcase/separator1.png';
-// import separator2 from '../Assets/Project Sea Web/webshowcase/separator2.png';
-// import colorstyle from '../Assets/Project Sea Web/webshowcase/seawebcolorstyles.png';
+// import linktreebg from '../assets/Project Sea Web/weblinktree/vesnea.png';
+import showcasepict1 from '../assets/Project Sea Web/webshowcase/v1-website-1.png';
+import showcasepict2 from '../assets/Project Sea Web/webshowcase/v1-website-2.png';
+import showcasepict3 from '../assets/Project Sea Web/webshowcase/v1-website-3.png';
+import showcasepict4 from '../assets/Project Sea Web/webshowcase/v1-website-4.png';
+import showcasepict5 from '../assets/Project Sea Web/webshowcase/v1-website-5.png';
+import showcasepict6 from '../assets/Project Sea Web/webshowcase/v2-website-1.png';
+import showcasepict7 from '../assets/Project Sea Web/webshowcase/v2-website-2.png';
+import showcasepict8 from '../assets/Project Sea Web/webshowcase/v2-website-3.png';
+import showcasepict9 from '../assets/Project Sea Web/webshowcase/v2-website-4.png';
+import showcasepict10 from '../assets/Project Sea Web/webshowcase/v2-website-5.png';
+import showcasepict11 from '../assets/Project Sea Web/webshowcase/v2-website-6.png';
+// import separator1 from '../assets/Project Sea Web/webshowcase/separator1.png';
+// import separator2 from '../assets/Project Sea Web/webshowcase/separator2.png';
+// import colorstyle from '../assets/Project Sea Web/webshowcase/seawebcolorstyles.png';
 import { useLocalization } from '../localization/hooks/useLocalization';
 
 function ProjectSeaWeb() {

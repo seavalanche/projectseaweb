@@ -1,10 +1,10 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { chapters } from '../pages/chapters/metadata';
 import { useLocalization } from "../localization/hooks/useLocalization";
-import { ReactComponent as SidebarBtnClose } from '../Assets/Common/sidebarbtn-close.svg';
-import { ReactComponent as SidebarBtnOpen } from '../Assets/Common/sidebarbtn-open.svg';
-import { ReactComponent as SidebarBtnCloseM } from '../Assets/Common/sidebarbtn-close-m.svg';
-import { ReactComponent as SidebarBtnOpenM } from '../Assets/Common/sidebarbtn-open-m.svg';
+import { ReactComponent as SidebarBtnClose } from '../assets/Common/sidebarbtn-close.svg';
+import { ReactComponent as SidebarBtnOpen } from '../assets/Common/sidebarbtn-open.svg';
+import { ReactComponent as SidebarBtnCloseM } from '../assets/Common/sidebarbtn-close-m.svg';
+import { ReactComponent as SidebarBtnOpenM } from '../assets/Common/sidebarbtn-open-m.svg';
 
 function StoryFnBar({
     toggleSidebar,

@@ -1,11 +1,11 @@
 import "../styles/components/Showcase.css";
-import vid2d from "../Assets/showcase/2d.mp4";
-import blender3d1 from "../Assets/showcase/3d1.mp4";
-import blender3d2 from "../Assets/showcase/3d2.mp4";
-import live2d from "../Assets/showcase/live2d.mp4";
-import animation from "../Assets/showcase/animation.webm";
-import poembook from "../Assets/showcase/poembook.webm";
-import calendar from "../Assets/showcase/calendar.webm";
+import vid2d from "../assets/showcase/2d.mp4";
+import blender3d1 from "../assets/showcase/3d1.mp4";
+import blender3d2 from "../assets/showcase/3d2.mp4";
+import live2d from "../assets/showcase/live2d.mp4";
+import animation from "../assets/showcase/animation.webm";
+import poembook from "../assets/showcase/poembook.webm";
+import calendar from "../assets/showcase/calendar.webm";
 import SlantedBanner from "./SlantedBanner";
 
 const showcaseData = [
