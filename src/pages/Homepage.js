@@ -141,6 +141,14 @@ const Homepage = () => {
                         </a>
                     </div>
                     <CharacterBox />
+                    <div className='commission-banner-container' >
+                        <div className='commission-banner' />
+                        <a href="https://ko-fi.com/seavalanche" target='_blank' rel="noreferrer">
+                            <div className='commission-link-hover'>&gt;</div>
+                            Go here!
+                            <div className='commission-link-hover'>&lt;</div>
+                        </a>
+                    </div>
                     <Showcase />
                     <div className='friends'>
                         <h4>My Friends!</h4>
@@ -158,7 +166,7 @@ const Homepage = () => {
                                             <div className='friends-link-hover'>&gt;</div>
                                             I wanna visit!
                                             <div className='friends-link-hover'>&lt;</div>
-                                            </a>
+                                        </a>
                                     </div>
                                 )
                             })}

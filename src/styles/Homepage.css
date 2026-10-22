@@ -375,6 +375,46 @@
 .follow-me-link:hover .follow-me-link-name {
   display: block;
 }
+.commission-banner-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--landing-padding4);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: var(--landing-padding);
+  width: 600px;
+  max-width: 90%;
+  color: inherit;
+  text-decoration: none;
+  gap: var(--landing-padding2);
+}
+.commission-banner-container:hover .commission-banner {
+  border: 2px solid;
+  box-shadow: 0 0 4px 2px color-mix(in srgb, var(--glow) 50%, transparent);
+}
+.commission-banner {
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1200 / 630;
+  border-radius: 8px;
+  border: 2px solid color-mix(in srgb, var(--glow) 50%, transparent);
+}
+.commission-banner-container a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  flex-direction: row;
+  gap: var(--landing-padding2);
+  opacity: 0.5;
+}
+.commission-banner-container a:hover,
+.commission-banner-container a:hover .commission-link-hover {
+  opacity: 1;
+}
+.commission-link-hover {
+  opacity: 0;
+}
 .friends {
   display: flex;
   flex-direction: column;

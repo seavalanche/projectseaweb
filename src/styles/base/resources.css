@@ -55,3 +55,6 @@
   --footnav-img: url("/src/Assets/footer/starmode.webp");
   --footnav-img-m: url("/src/Assets/footer/starmode.webp");
 }
+.commission-banner{
+  background-image: url(/src/Assets/commission/commission-banner.jpg);
+}
