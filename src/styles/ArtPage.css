@@ -1,0 +1,107 @@
+.artpage-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--primary-bg);
+  padding: var(--landing-padding) 0;
+}
+.artpage-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--landing-padding);
+}
+.artpage-card {
+  display: flex;
+  flex-direction: row;
+  gap: var(--landing-padding2);
+  border-radius: 8px;
+}
+.artpage-card:hover {
+    transform: scale(1.05);
+    font-weight: 400;
+}
+.artpage-card-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height:var(--fluid-60-100);
+  aspect-ratio: 1;
+  border-radius: 8px;
+  font-size: var(--fs-4);
+  border: 1px solid transparent;
+}
+.artpage-card-part.middle {
+  position: relative;
+  aspect-ratio: 4;
+  background-color: var(--secondary-bg);
+  font-size: var(--fs-2);
+  border: 1px solid hsl(from var(--primary-content) h s l / 0.5);
+}
+.artpage-card-title {
+  position: absolute;
+  bottom: var(--landing-padding2);
+  right: var(--landing-padding);
+}
+.artpage-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--landing-padding);
+}
+.artpage-card-wrapper ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: var(--landing-padding2);
+}
+.artpage-card-wrapper li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 50px;
+}
+.artpage-card-wrapper li:hover .artpage-card-list-bullet,
+.artpage-card-wrapper li:hover .artpage-card-list-name {
+  background-color: var(--secondary-bg);
+  border-color: inherit;
+}
+.artpage-card-wrapper li:hover .artpage-card-list-bullet {
+  border-left: 2px solid;
+}
+.artpage-card-wrapper li:hover .artpage-card-list-name {
+  border-right: 2px solid;
+}
+.artpage-card-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+.artpage-card-list-bullet,
+.artpage-card-list-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-bg);
+  border: 1px solid hsl(from var(--primary-content) h s l / 0.5);
+}
+.artpage-card-list-bullet {
+  width: 50px;
+  border-radius: 50% 0 0 50%;
+  border-right: none;
+}
+.artpage-card-list-name {
+  border-radius: 0 8px 8px 0;
+  border-left: 1px dashed;
+}
