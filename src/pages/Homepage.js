@@ -5,7 +5,7 @@ import { favpkmn } from './data/favorite-pokemon';
 import CharacterBox from '../components/CharacterBox.js';
 import Showcase from '../components/Showcase.js';
 
-import { ReactComponent as LogoBluesky } from '../assets/Header/header-bsky.svg'
+import { ReactComponent as LogoBluesky } from '../assets/component/header/header-bsky.svg'
 
 const friendsData = [
     {

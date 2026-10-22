@@ -1,23 +1,23 @@
 .pfp-overlay:has(.pfpzone.A0:hover) {
-  --landing-pfp-overlay: url(/src/assets//Header/header-pfp/a0.webp);
+  --landing-pfp-overlay: url(/src/assets/component/header/header-pfp/a0.webp);
 }
 .pfp-overlay:has(.pfpzone.B0:hover) {
-  --landing-pfp-overlay: url(/src/assets//Header/header-pfp/b0.webp);
+  --landing-pfp-overlay: url(/src/assets/component/header/header-pfp/b0.webp);
 }
 .pfp-overlay:has(.pfpzone.C0:hover) {
-  --landing-pfp-overlay: url(/src/assets//Header/header-pfp/c0.webp);
+  --landing-pfp-overlay: url(/src/assets/component/header/header-pfp/c0.webp);
 }
 .pfp-overlay:has(.pfpzone.A1:hover) {
-  --landing-pfp-overlay: url(/src/assets//Header/header-pfp/a1.webp);
+  --landing-pfp-overlay: url(/src/assets/component/header/header-pfp/a1.webp);
 }
 .pfp-overlay:has(.pfpzone.B1:hover) {
-  --landing-pfp-overlay: url(/src/assets//Header/header-pfp/b1.webp);
+  --landing-pfp-overlay: url(/src/assets/component/header/header-pfp/b1.webp);
 }
 .pfp-overlay:has(.pfpzone.C1:hover) {
-  --landing-pfp-overlay: url(/src/assets//Header/header-pfp/c1.webp);
+  --landing-pfp-overlay: url(/src/assets/component/header/header-pfp/c1.webp);
 }
 :root {
-  --landing-pfp-overlay: url(/src/assets//Header/header-pfp-1.webp);
+  --landing-pfp-overlay: url(/src/assets/component/header/header-pfp-1.webp);
 }
 .landingbtn1 {
   background-image: url("/src/assets/characters-logo/symbol-korazu-sun.svg");
@@ -42,18 +42,18 @@
 }
 :root,
 [data-theme="light"] {
-  --footnav-img: url("/src/assets/footer/lightmode.webp");
-  --footnav-img-m: url("/src/assets/footer/lightmode-xssize.webp");
+  --footnav-img: url("/src/assets/component/footer/lightmode.webp");
+  --footnav-img-m: url("/src/assets/component/footer/lightmode-xssize.webp");
 }
 
 [data-theme="dark"], [data-theme="beacon"]  {
-  --footnav-img: url("/src/assets/footer/darkmode.webp");
-  --footnav-img-m: url("/src/assets/footer/darkmode-xssize.webp");
+  --footnav-img: url("/src/assets/component/footer/darkmode.webp");
+  --footnav-img-m: url("/src/assets/component/footer/darkmode-xssize.webp");
 }
 
 [data-theme="star"] {
-  --footnav-img: url("/src/assets/footer/starmode.webp");
-  --footnav-img-m: url("/src/assets/footer/starmode.webp");
+  --footnav-img: url("/src/assets/component/footer/starmode.webp");
+  --footnav-img-m: url("/src/assets/component/footer/starmode.webp");
 }
 .commission-banner{
   background-image: url(/src/assets/commission/commission-banner.jpg);

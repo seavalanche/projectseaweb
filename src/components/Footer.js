@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useLocalization } from '../localization/hooks/useLocalization';
-import { ReactComponent as Footbarlogo1 } from '../assets/footer/footbarlogo-seavalanche.svg';
-import { ReactComponent as Footbarlogo2 } from '../assets/footer/footbarlogo-star.svg';
-import { ReactComponent as Footbarlogo3 } from '../assets/footer/footbarlogo-oshyarena.svg';
+import { ReactComponent as Footbarlogo1 } from '../assets/component/footer/footbarlogo-seavalanche.svg';
+import { ReactComponent as Footbarlogo2 } from '../assets/component/footer/footbarlogo-star.svg';
+import { ReactComponent as Footbarlogo3 } from '../assets/component/footer/footbarlogo-oshyarena.svg';
 import '../styles/layout/Footnav.css';
 import '../styles/layout/Footbar.css';
 
