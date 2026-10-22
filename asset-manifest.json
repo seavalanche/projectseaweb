@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.fe9ce0f5.css",
-    "main.js": "/projectseaweb/static/js/main.558203aa.js",
+    "main.css": "/projectseaweb/static/css/main.4861c446.css",
+    "main.js": "/projectseaweb/static/js/main.09f357cb.js",
     "static/js/714.5bb2a9a5.chunk.js": "/projectseaweb/static/js/714.5bb2a9a5.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
     "static/js/879.2f41cd03.chunk.js": "/projectseaweb/static/js/879.2f41cd03.chunk.js",
@@ -54,6 +54,7 @@
     "static/media/seavalanche.png": "/projectseaweb/static/media/seavalanche.f6ea84135e7ab8883627.png",
     "static/media/footbarlogo-oshyarena.svg": "/projectseaweb/static/media/footbarlogo-oshyarena.c1a09238b80c5b44f65bfec7cd99bed3.svg",
     "static/media/v2-website-4.png": "/projectseaweb/static/media/v2-website-4.3c1c7ae97dfa33ebefe9.png",
+    "static/media/commission-banner.jpg": "/projectseaweb/static/media/commission-banner.e26e52e06b678ebd0c50.jpg",
     "static/media/v1-website-4.png": "/projectseaweb/static/media/v1-website-4.a338b66c5c562a42e355.png",
     "static/media/baskervville-regular.ttf": "/projectseaweb/static/media/baskervville-regular.f901739d83410218a9d2.ttf",
     "static/media/vesnea.png": "/projectseaweb/static/media/vesnea.fcda46ca832619d8a4b0.png",
@@ -141,12 +142,12 @@
     "static/media/symbol-zumiko-star.svg": "/projectseaweb/static/media/symbol-zumiko-star.bd6efe0ef31e91542c51.svg",
     "static/media/tidy-er-light.svg": "/projectseaweb/static/media/tidy-er-light.337cc898a68c939a76a6.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
-    "main.fe9ce0f5.css.map": "/projectseaweb/static/css/main.fe9ce0f5.css.map",
-    "main.558203aa.js.map": "/projectseaweb/static/js/main.558203aa.js.map",
+    "main.4861c446.css.map": "/projectseaweb/static/css/main.4861c446.css.map",
+    "main.09f357cb.js.map": "/projectseaweb/static/js/main.09f357cb.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe9ce0f5.css",
-    "static/js/main.558203aa.js"
+    "static/css/main.4861c446.css",
+    "static/js/main.09f357cb.js"
   ]
 }
