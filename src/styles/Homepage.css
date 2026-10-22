@@ -426,6 +426,10 @@
   --icon-size: var(--fluid-35-50);
   margin-bottom: 1rem;
 }
+.friends p{
+  width: min(100%, 80vw);
+  text-align: center;
+}
 .friends-card-container {
   display: flex;
   align-items: center;
