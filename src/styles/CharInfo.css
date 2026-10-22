@@ -857,7 +857,10 @@
   justify-content: center;
   width: 100%;
   gap: calc(var(--selector-icons-gap) * 2);
-  padding: 0 var(--selector-icons-gap);
+  background-color: var(--secondary-bg);
+  padding: var(--selector-icons-gap);
+  border-radius: 8px;
+  border: 1px solid hsl(from var(--primary-content) h s l / 0.2);
 }
 .character-box-left {
   display: flex;
@@ -881,14 +884,14 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: hsl(from var(--secondary-bg) h s l / 0.5);
   padding: var(--selector-icons-gap);
   border-radius: var(--fluid-10-15);
-  border-top: 1px solid hsl(from var(--primary-content) h s l / 0.5);
-  border-bottom: 1px solid hsl(from var(--primary-content) h s l / 0.5);
+  background-color: hsl(from var(--primary-bg) h s l / 0.5);
+  border-top: 1px solid hsl(from var(--secondary-content) h s l / 0.5);
+  border-bottom: 1px solid hsl(from var(--secondary-content) h s l / 0.5);
 }
 .character-box:hover {
-  background-color: hsl(from var(--secondary-bg) h s l / 0.1);
+  background-color: hsl(from var(--primary-bg) h s l / 0.8);
 }
 .character-box:hover .charbox-icon {
   background-color: hsl(from var(--primary-bg-hover) h s l / 0.2);
@@ -910,13 +913,11 @@
   transition: transform 0.1s ease;
   border: 2px solid transparent;
   border-radius: var(--fluid-10-15);
-  background-color: hsl(from var(--secondary-bg) h s l / 0.5);
   background-color: hsl(from var(--primary-bg-hover) h s l / 0.1);
 }
 .charbox-label:hover .charbox-icon {
   background-color: hsl(from var(--primary-content-hover) h s l / 0.8);
-  color: var(--primary-content-hover);
-  border: 2px solid var(--primary-content-hover);
+  border: 2px solid var(--primary-content);
   transform: scale(var(--charinfo-icon-hover-size));
 }
 
@@ -944,6 +945,10 @@
   padding: var(--selector-icons-gap);
   border: 1px solid var(--primary-content);
   border-radius: var(--fluid-10-15);
+  background-color: hsl(from var(--primary-bg-hover) h s l / 0.1);
+}
+.charbox-icon-large:hover{
+  background-color: hsl(from var(--primary-bg-hover) h s l / 0.2);
 }
 .charbox-desc {
   display: flex;
