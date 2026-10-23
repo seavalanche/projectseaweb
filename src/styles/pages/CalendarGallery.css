@@ -1,0 +1,111 @@
+/* 
+|| -----------------------------------------
+|| CALENDAR CAROUSEL
+|| -----------------------------------------
+*/
+.calendar-carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 3;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  background-color: var(--secondary-bg);
+  margin: var(--landing-padding) 0;
+}
+.calendar-carousel-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--landing-padding3);
+  height: 80%;
+}
+.calendar-carousel-card img {
+  height: 100%;
+  aspect-ratio: 3 / 2;
+  background-color: hsl(from var(--primary-bg) h s l / 0.5);
+  border-radius: 8px;
+  border: 1px solid;
+}
+.calendar-carousel-card button {
+  padding: var(--landing-padding3) var(--landing-padding2);
+}
+
+/* 
+|| -----------------------------------------
+|| CALENDAR SHOWCASE
+|| -----------------------------------------
+*/
+.calendar-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.calendar-banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--landing-padding2);
+}
+.calendar-banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: var(--fluid-50-60);
+  background-color: var(--secondary-bg);
+  border-radius: 8px;
+  border: 1px solid hsl(from var(--primary-content) h s l / 0.5);
+}
+.calendar-banner-title {
+  position: absolute;
+  bottom: var(--landing-padding2);
+  left: var(--landing-padding);
+  font-size: var(--fs-2);
+  font-weight: 500;
+}
+.calendar-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--landing-padding2);
+}
+.calendar-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--landing-padding2);
+}
+.calendar-card img {
+  height: var(--fluid-175-225);
+  aspect-ratio: 3 / 2;
+  background-color: hsl(from var(--primary-bg) h s l / 0.5);
+  border-radius: 8px;
+  border: 1px solid;
+}
+.calendar-card button {
+  padding: var(--landing-padding3) var(--landing-padding2);
+}
+.calendar-promotional {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: inherit;
+  gap: var(--landing-padding2);
+  opacity: 0.5;
+}
+.calendar-link-hover {
+  opacity: 0;
+}
+.calendar-promotional:hover,
+.calendar-promotional:hover .calendar-link-hover {
+  opacity: 1;
+}

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocalization } from '../localization/hooks/useLocalization';
-import '../styles/ArtPage.css';
+import '../styles/pages/ArtPage.css';
 
 const artData = [
     {
@@ -87,12 +87,12 @@ const artData = [
         title: 'Fun corner!',
         items: [
             {
-                name: 'Calendar Gallery <WIP>',
-                url: '',
+                name: 'Calendar Gallery',
+                path: '/CalendarGallery',
             },
             {
-                name: 'Application Themes <WIP>',
-                url: '',
+                name: 'Application Themes',
+                path: '/AppThemes',
             },
             {
                 name: 'Seavalanche Color Themes',
@@ -106,11 +106,19 @@ const artData = [
                 name: "Vesnea's Future Wishes <WIP>",
                 url: '',
             },
+            {
+                name: "Vesnea's Minecraft World <WIP>",
+                url: '',
+            },
+            {
+                name: "Vesnea's Aniimo Showcase <WIP>",
+                url: '',
+            },
         ]
     },
 ]
 
-const GamePage = () => {
+const ArtPage = () => {
     const { t } = useLocalization();
 
     const [openCard, setOpenCard] = useState(null);
@@ -194,4 +202,4 @@ const GamePage = () => {
         </div>
     )
 }
-export default GamePage;
+export default ArtPage;
