@@ -15,7 +15,7 @@ export default function ProjectArtworks({ art, projectGroup, projectId, language
                     loading="lazy"
                     decoding="async"
                     onError={(e) => {
-                        e.currentTarget.src = `${process.env.PUBLIC_URL}/Assets/gallery/${projectGroup}/${projectId}/${art.filename}`;
+                        e.currentTarget.src = `${process.env.PUBLIC_URL}/assets/gallery/${projectGroup}/${projectId}/${art.filename}`;
                         e.currentTarget.onerror = null;
                     }}
                 />
