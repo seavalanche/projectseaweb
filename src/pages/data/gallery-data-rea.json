@@ -1194,7 +1194,7 @@
       },
       {
         "label": { "en": "Total pieces:", "jp": "" },
-        "value": { "en": "9 artworks", "jp": "" }
+        "value": { "en": "10 artworks", "jp": "" }
       },
       {
         "label": { "en": "Status:", "jp": "" },
@@ -1287,6 +1287,22 @@
       {
         "filename": "2026-54-flareon.webp",
         "title": "2026 - 54 - Flareon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-78-glaceon.webp",
+        "title": "2026 - 78 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-85-glaceon.webp",
+        "title": "2026 - 85 - Glaceon",
         "caption": {
           "en": "",
           "jp": ""
@@ -2145,6 +2161,233 @@
   },
   {
     "projectGroup": "projectrea",
+    "projectId": "2026-project-glacy",
+    "projectName": { "en": "2026 Project Glacy", "jp": "" },
+    "projectDescription": {
+      "en": "A 2026 version of Project Glacy!",
+      "jp": ""
+    },
+    "description": [
+      {
+        "label": { "en": "Date created:", "jp": "" },
+        "value": { "en": "[ 2026 ] 11 August - ", "jp": "" }
+      },
+      {
+        "label": { "en": "Total pieces:", "jp": "" },
+        "value": { "en": "48 artworks", "jp": "" }
+      },
+      {
+        "label": { "en": "Status:", "jp": "" },
+        "value": { "en": "Ongoing", "jp": "" }
+      }
+    ],
+    "heroarts": [
+      {
+        "filename": "2026-78-glaceon.webp",
+        "title": "2026 - 78 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ],
+    "artworks": [
+      {
+        "filename": "2026-63-glaceon.webp",
+        "title": "2026 - 63 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-64-glaceon.webp",
+        "title": "2026 - 64 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-64-glaceon_shiny.webp",
+        "title": "2026 - 64 - Glaceon (Shiny)",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-65-glaceon.webp",
+        "title": "2026 - 65 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-66-glaceon.webp",
+        "title": "2026 - 66 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-67-glaceon.webp",
+        "title": "2026 - 67 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-68-glaceon.webp",
+        "title": "2026 - 68 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-69-glaceon.webp",
+        "title": "2026 - 69 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-70-glaceon.webp",
+        "title": "2026 - 70 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-71-glaceon.webp",
+        "title": "2026 - 71 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-72-glaceon.webp",
+        "title": "2026 - 72 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-73-glaceon.webp",
+        "title": "2026 - 73 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-74-glaceon.webp",
+        "title": "2026 - 74 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-75-glaceon.webp",
+        "title": "2026 - 75 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-76-glaceon.webp",
+        "title": "2026 - 76 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-77-glaceon.webp",
+        "title": "2026 - 77 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-78-glaceon.webp",
+        "title": "2026 - 78 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-79-glaceon.webp",
+        "title": "2026 - 79 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-80-glaceon.webp",
+        "title": "2026 - 80 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-81-glaceon.webp",
+        "title": "2026 - 81 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-82-glaceon.webp",
+        "title": "2026 - 82 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-83-glaceon.webp",
+        "title": "2026 - 83 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-84-glaceon.webp",
+        "title": "2026 - 84 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      },
+      {
+        "filename": "2026-85-glaceon.webp",
+        "title": "2026 - 85 - Glaceon",
+        "caption": {
+          "en": "",
+          "jp": ""
+        }
+      }
+    ]
+  },
+  {
+    "projectGroup": "projectrea",
     "projectId": "project-glacy",
     "projectName": { "en": "Project Glacy", "jp": "" },
     "projectDescription": {
@@ -2168,7 +2411,7 @@
     "heroarts": [
       {
         "filename": "0a-project-glacy.webp",
-        "title": "0a - Project - Glacy",
+        "title": "0a - Project Glacy",
         "caption": {
           "en": "",
           "jp": ""
@@ -2186,7 +2429,7 @@
     "artworks": [
       {
         "filename": "0a-project-glacy.webp",
-        "title": "0a - Project - Glacy",
+        "title": "0a - Project Glacy",
         "caption": {
           "en": "",
           "jp": ""
