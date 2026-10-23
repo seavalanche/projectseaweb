@@ -778,6 +778,7 @@
       }
     ],
     "colors": [
+      { "hex": "#F19DAF", "name": "Pink Sherbet" },
       { "hex": "#F29CC2", "name": "Pink" },
       { "hex": "#FDC4D3", "name": "Pink" },
       { "hex": "#FEF2F6", "name": "Pink White" },
@@ -821,9 +822,9 @@
       { "hex": "#E6F3F8", "name": "Light Blue" }
     ],
     "detDesc4": {
-      "visibility": "hide"
+      "visibility": ""
     },
-    "detColor4": [],
+    "detColor4": [{ "hex": "#F19DAF", "name": "Pink Sherbet" }],
     "detDesc5": {
       "visibility": "hide"
     },
