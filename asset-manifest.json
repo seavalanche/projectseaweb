@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projectseaweb/static/css/main.6b7704a6.css",
-    "main.js": "/projectseaweb/static/js/main.9ce199af.js",
+    "main.css": "/projectseaweb/static/css/main.2d9dca74.css",
+    "main.js": "/projectseaweb/static/js/main.067fd4e8.js",
     "static/js/714.5bb2a9a5.chunk.js": "/projectseaweb/static/js/714.5bb2a9a5.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
     "static/js/879.2f41cd03.chunk.js": "/projectseaweb/static/js/879.2f41cd03.chunk.js",
@@ -64,6 +64,7 @@
     "static/media/lightmode.webp": "/projectseaweb/static/media/lightmode.d5fc55dcfd3d7ad9ac69.webp",
     "static/media/myth-seavalanche.png": "/projectseaweb/static/media/myth-seavalanche.90d1ad3c6d01a9634369.png",
     "static/media/about-icon-kofi.svg": "/projectseaweb/static/media/about-icon-kofi.c52dfd5f7dc79e5aa92173d974eda7f3.svg",
+    "static/media/attributes.webp": "/projectseaweb/static/media/attributes.d12b5dc3ee1d28b88b26.webp",
     "static/media/pfp-vesnea.png": "/projectseaweb/static/media/pfp-vesnea.2ff87b1806258383cc6d.png",
     "static/media/header-pfp-1.webp": "/projectseaweb/static/media/header-pfp-1.58d834e9e31379946ee1.webp",
     "static/media/baldor.webp": "/projectseaweb/static/media/baldor.8a9663fda2d8581390f6.webp",
@@ -134,12 +135,12 @@
     "static/media/symbol-zumiko-star.svg": "/projectseaweb/static/media/symbol-zumiko-star.bd6efe0ef31e91542c51.svg",
     "static/media/tidy-er-light.svg": "/projectseaweb/static/media/tidy-er-light.337cc898a68c939a76a6.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
-    "main.6b7704a6.css.map": "/projectseaweb/static/css/main.6b7704a6.css.map",
-    "main.9ce199af.js.map": "/projectseaweb/static/js/main.9ce199af.js.map",
+    "main.2d9dca74.css.map": "/projectseaweb/static/css/main.2d9dca74.css.map",
+    "main.067fd4e8.js.map": "/projectseaweb/static/js/main.067fd4e8.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b7704a6.css",
-    "static/js/main.9ce199af.js"
+    "static/css/main.2d9dca74.css",
+    "static/js/main.067fd4e8.js"
   ]
 }
