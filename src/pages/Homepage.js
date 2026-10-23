@@ -61,7 +61,7 @@ const Homepage = () => {
                     <div
                         key={item.src || idx}
                         className={`HPcarousel-slide ${idx === currentCarousel ? "active drift" : ""}`}
-                        style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/hp-carousel/' + item.src})` }}
+                        style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/hp-carousel/' + item.src})` }}
                     ></div>
                 ))}
                 <button className="HPcarousel-btn HPcarousel-prev" onClick={handlePrev}>‹</button>
