@@ -8,7 +8,7 @@ const carouselData = [
         type: 'pokemon',
         src: 'carousel.webp',
         url: 'https://ko-fi.com/s/6a5a609509',
-        button: 'Go to Ko-fi!',
+        button: 'Get it from ko-fi',
     }
 ]
 const calendarData = [
@@ -23,7 +23,7 @@ const calendarData = [
             childType: '.webp',
             childAmount: '12',
             url: 'https://ko-fi.com/s/7470eb7b05',
-            button: 'Go to Ko-fi!',
+            button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=71XUCsXQrhw',
             promotionalButton: 'Promotional video on YouTube',
             themes: ["light", "dark"],
@@ -41,7 +41,7 @@ const calendarData = [
             childType: '.webp',
             childAmount: '12',
             url: 'https://ko-fi.com/s/807a181d60',
-            button: 'Go to Ko-fi!',
+            button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=WVxr6TiXaXA',
             promotionalButton: 'Promotional video on YouTube',
             themes: ["light", "dark"],
@@ -55,7 +55,7 @@ const calendarData = [
             childType: '.webp',
             childAmount: '12',
             url: 'https://ko-fi.com/s/03390599f8',
-            button: 'Go to Ko-fi!',
+            button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=c-geJ8fNG6w',
             promotionalButton: 'Promotional video on YouTube',
             themes: ["light", "dark"],
@@ -73,7 +73,7 @@ const calendarData = [
             childType: '.webp',
             childAmount: '12',
             url: 'https://ko-fi.com/s/712f080cfc',
-            button: 'Go to Ko-fi!',
+            button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=qzy4Emktg18',
             promotionalButton: 'Promotional video on YouTube',
             themes: ["light", "dark"],
@@ -86,7 +86,7 @@ const calendarData = [
             childType: '.webp',
             childAmount: '12',
             url: 'https://ko-fi.com/s/ee9fbdc42e',
-            button: 'Go to Ko-fi!',
+            button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=1fduX0kgkjI',
             promotionalButton: 'Promotional video on YouTube',
             themes: ["light", "dark"],
@@ -104,7 +104,7 @@ const calendarData = [
             childType: '.webp',
             childAmount: '12',
             url: 'https://ko-fi.com/s/6a5a609509',
-            button: 'Go to Ko-fi!',
+            button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=01sO2_2b4Bs',
             promotionalButton: 'Promotional video on YouTube',
             themes: ["light", "dark"],
@@ -120,7 +120,7 @@ const CalendarGallery = () => {
                 Calendar Gallery
             </div>
             <div className='generaltitle'>
-                kjasjkdhaskdhjlasdkh I'll think of the words later, muehehe.
+                This is a gallery for the calendars I've made since 2023!
             </div>
             <div className='calendar-carousel'>
                 <h4>Latest Calendar!</h4>

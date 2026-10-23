@@ -14,6 +14,9 @@
   background-color: var(--secondary-bg);
   margin: var(--landing-padding) 0;
 }
+.calendar-carousel h4{
+    margin-left: var(--landing-padding);
+}
 .calendar-carousel-card {
   display: flex;
   flex-direction: column;
@@ -31,15 +34,22 @@
   aspect-ratio: 3 / 2;
   background-color: hsl(from var(--primary-bg) h s l / 0.5);
   border-radius: 8px;
-  border: 1px solid;
-
+  border: 1px solid hsl(from var(--primary-content) h s l / 0.5);
 }
-.calendar-carousel-card:hover{
+.calendar-carousel-card:hover {
   gap: var(--landing-padding3);
   transform: initial;
 }
+.calendar-carousel-card:hover img {
+  border-color: inherit;
+  box-shadow: 0 0 4px 2px color-mix(in srgb, var(--glow) 50%, transparent);
+}
 .calendar-carousel-card button {
   padding: var(--landing-padding3) var(--landing-padding2);
+  border-color: transparent;
+}
+.calendar-carousel-card:hover button {
+  border-color: inherit;
 }
 
 /* 
