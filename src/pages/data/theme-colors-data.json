@@ -119,7 +119,7 @@
     "altnamestyle": "",
     "pfp": [
       {
-        "image": "characters/mythseavalanche/pfp-mythseavalanche.png",
+        "image": "characters/mythseavalanche/pfp-mythseavalanche.webp",
         "size": "big"
       }
     ],
@@ -183,15 +183,15 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "characters/seava/pfp-seava.png",
+        "image": "characters/seava/pfp-seava.webp",
         "size": "big"
       },
       {
-        "image": "characters/seavatm/pfp-seavatm.png",
+        "image": "characters/seavatm/pfp-seavatm.webp",
         "size": ""
       },
       {
-        "image": "characters/seavazm/pfp-seavazm.png",
+        "image": "characters/seavazm/pfp-seavazm.webp",
         "size": ""
       }
     ],
@@ -243,20 +243,65 @@
     "detColor5": []
   },
   {
+    "id": "Seravyn",
+    "namestyle": "",
+    "altnamestyle": "hide",
+    "pfp": [
+      {
+        "image": "characters/seravyn/pfp-seravyn.webp",
+        "size": "big"
+      }
+    ],
+    "colors": [
+      { "hex": "#F8F8FD", "name": "Arctic White" },
+      { "hex": "#E6A8D7", "name": "Alpenglow Pink" },
+      { "hex": "#A3D1E0", "name": "Glacial Blue" },
+      { "hex": "#004B7A", "name": "Deep Cerulean" },
+      { "hex": "#E8D2A6", "name": "Starlight Gold" },
+      { "hex": "#FFFFFF", "name": "White" }
+    ],
+    "detDesc1": {
+      "visibility": ""
+    },
+    "detColor1": [
+      { "hex": "#F8F8FD" },
+      { "hex": "#E6A8D7" },
+      { "hex": "#A3D1E0" },
+      { "hex": "#004B7A" },
+      { "hex": "#E8D2A6" }
+    ],
+    "detDesc2": {
+      "visibility": "hide"
+    },
+    "detColor2": [],
+    "detDesc3": {
+      "visibility": "hide"
+    },
+    "detColor3": [],
+    "detDesc4": {
+      "visibility": "hide"
+    },
+    "detColor4": [],
+    "detDesc5": {
+      "visibility": "hide"
+    },
+    "detColor5": []
+  },
+  {
     "id": "Vesnea",
     "namestyle": "",
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "characters/vesnea/pfp-vesnea.png",
+        "image": "characters/vesnea/pfp-vesnea.webp",
         "size": "big"
       },
       {
-        "image": "characters/seavalanche/pfp-seavalanche.png",
+        "image": "characters/seavalanche/pfp-seavalanche.webp",
         "size": ""
       },
       {
-        "image": "characters/vesneabm/pfp-vesneabm.png",
+        "image": "characters/vesneabm/pfp-vesneabm.webp",
         "size": ""
       }
     ],
@@ -310,7 +355,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "characters/korazu/pfp-korazu.png",
+        "image": "characters/korazu/pfp-korazu.webp",
         "size": "big"
       }
     ],
@@ -353,7 +398,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "characters/uzakon/pfp-uzakon.png",
+        "image": "characters/uzakon/pfp-uzakon.webp",
         "size": "big"
       }
     ],
@@ -396,13 +441,13 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "characters/zumiko/pfp-zumiko.png",
+        "image": "characters/zumiko/pfp-zumiko.webp",
         "size": "big"
       }
     ],
     "colors": [
       { "hex": "#E28194", "name": "Pale Red" },
-      { "hex": "#F8BED6", "name": "Pink" },
+      { "hex": "#F8BED6", "name": "Sweet Pink" },
       { "hex": "#F3CBD4", "name": "Pale Pink" },
       { "hex": "#F9E9EC", "name": "Pink White" },
       { "hex": "#FFFFFF", "name": "White" }
@@ -412,7 +457,7 @@
     },
     "detColor1": [
       { "hex": "#E28194", "name": "Pale Red" },
-      { "hex": "#F8BED6", "name": "Pink" },
+      { "hex": "#F8BED6", "name": "Sweet Pink" },
       { "hex": "#F3CBD4", "name": "Pale Pink" },
       { "hex": "#F9E9EC", "name": "Pink White" }
     ],
@@ -604,7 +649,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "characters/veranite/pfp-veranite.png",
+        "image": "characters/veranite/pfp-veranite.webp",
         "size": "big"
       }
     ],
@@ -644,7 +689,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "characters/sarchie/pfp-sarchie.png",
+        "image": "characters/sarchie/pfp-sarchie.webp",
         "size": "big"
       }
     ],
@@ -688,7 +733,7 @@
     "altnamestyle": "hide",
     "pfp": [
       {
-        "image": "characters/deimev/pfp-deimev.png",
+        "image": "characters/deimev/pfp-deimev.webp",
         "size": "big"
       }
     ],
@@ -713,6 +758,129 @@
       "visibility": "hide"
     },
     "detColor3": [],
+    "detDesc4": {
+      "visibility": "hide"
+    },
+    "detColor4": [],
+    "detDesc5": {
+      "visibility": "hide"
+    },
+    "detColor5": []
+  },
+  {
+    "id": "Vesneon",
+    "namestyle": "",
+    "altnamestyle": "",
+    "pfp": [
+      {
+        "image": "characters/vesneasylveon/pfp-vesneon.webp",
+        "size": "big"
+      }
+    ],
+    "colors": [
+      { "hex": "#F29CC2", "name": "Pink" },
+      { "hex": "#FDC4D3", "name": "Pink" },
+      { "hex": "#FEF2F6", "name": "Pink White" },
+      { "hex": "#FEFCFC", "name": "White" },
+      { "hex": "#BBE2F0", "name": "Icy Blue" },
+      { "hex": "#F4CEBD", "name": "Pink Cream" },
+      { "hex": "#E6F3F8", "name": "Light Blue" },
+      { "hex": "#E0E98B", "name": "Lime" },
+      { "hex": "#C1CC83", "name": "Lime" },
+      { "hex": "#9EBB98", "name": "Pale Green" },
+      { "hex": "#FBEFA1", "name": "Yellow" },
+      { "hex": "#F4DF7E", "name": "Golden" },
+      { "hex": "#D8B86D", "name": "Dark Gold" }
+    ],
+    "detDesc1": {
+      "visibility": ""
+    },
+    "detColor1": [
+      { "hex": "#F29CC2", "name": "Pink" },
+      { "hex": "#FDC4D3", "name": "Pink" },
+      { "hex": "#FEF2F6", "name": "Pink White" },
+      { "hex": "#FEFCFC", "name": "White" },
+      { "hex": "#BBE2F0", "name": "Icy Blue" }
+    ],
+    "detDesc2": {
+      "visibility": ""
+    },
+    "detColor2": [
+      { "hex": "#E0E98B", "name": "Lime" },
+      { "hex": "#C1CC83", "name": "Lime" },
+      { "hex": "#9EBB98", "name": "Pale Green" },
+      { "hex": "#FBEFA1", "name": "Yellow" },
+      { "hex": "#F4DF7E", "name": "Golden" },
+      { "hex": "#D8B86D", "name": "Dark Gold" }
+    ],
+    "detDesc3": {
+      "visibility": ""
+    },
+    "detColor3": [
+      { "hex": "#F4CEBD", "name": "Pink Cream" },
+      { "hex": "#E6F3F8", "name": "Light Blue" }
+    ],
+    "detDesc4": {
+      "visibility": "hide"
+    },
+    "detColor4": [],
+    "detDesc5": {
+      "visibility": "hide"
+    },
+    "detColor5": []
+  },
+  {
+    "id": "Vesrionne",
+    "namestyle": "",
+    "altnamestyle": "",
+    "pfp": [
+      {
+        "image": "characters/vesneabrionne/pfp-vesrionne.webp",
+        "size": "big"
+      }
+    ],
+    "colors": [
+      { "hex": "#FFFFFF", "name": "White" },
+      { "hex": "#F8F8FD", "name": "Arctic White" },
+      { "hex": "#A3D1E0", "name": "Glacial Blue" },
+      { "hex": "#E8D2A6", "name": "Starlight Gold" },
+      { "hex": "#C5B0CF", "name": "Lilac" },
+      { "hex": "#F8BED6", "name": "Sweet Pink" },
+      { "hex": "#4C2C57", "name": "Purple" },
+      { "hex": "#E0E98B", "name": "Lime" },
+      { "hex": "#C1CC83", "name": "Lime" },
+      { "hex": "#9EBB98", "name": "Pale Green" },
+      { "hex": "#FBEFA1", "name": "Yellow" },
+      { "hex": "#F4DF7E", "name": "Golden" },
+      { "hex": "#D8B86D", "name": "Dark Gold" }
+    ],
+    "detDesc1": {
+      "visibility": ""
+    },
+    "detColor1": [
+      { "hex": "#F8F8FD", "name": "Arctic White" },
+      { "hex": "#A3D1E0", "name": "Glacial Blue" },
+      { "hex": "#E8D2A6", "name": "Starlight Gold" }
+    ],
+    "detDesc2": {
+      "visibility": ""
+    },
+    "detColor2": [
+      { "hex": "#E0E98B", "name": "Lime" },
+      { "hex": "#C1CC83", "name": "Lime" },
+      { "hex": "#9EBB98", "name": "Pale Green" },
+      { "hex": "#FBEFA1", "name": "Yellow" },
+      { "hex": "#F4DF7E", "name": "Golden" },
+      { "hex": "#D8B86D", "name": "Dark Gold" },
+      { "hex": "#4C2C57", "name": "Purple" }
+    ],
+    "detDesc3": {
+      "visibility": ""
+    },
+    "detColor3": [
+      { "hex": "#C5B0CF", "name": "Lilac" },
+      { "hex": "#F8BED6", "name": "Sweet Pink" }
+    ],
     "detDesc4": {
       "visibility": "hide"
     },

@@ -109,6 +109,33 @@
       "desc": ""
     }
   },
+  "Seravyn": {
+    "name": "Seravyn",
+    "altname": "",
+    "pfpname": {
+      "0": "Seravyn"
+    },
+    "detDesc1": {
+      "title": "The alpenglow",
+      "desc": "Arctic White represents structure; \n Alpenglow Pink represents self-love; \n Glacial Blue represents logic; \n Deep Cerulean represents willpower; \n Starlight Gold represents authority."
+    },
+    "detDesc2": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc3": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
   "Vesnea": {
     "name": "Vesnea",
     "altname": "",
@@ -399,6 +426,60 @@
     "detDesc3": {
       "title": "",
       "desc": ""
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Vesneon": {
+    "name": "Vesnea Sylveon",
+    "altname": "Vesneon",
+    "pfpname": {
+      "0": "Vesneon"
+    },
+    "detDesc1": {
+      "title": "Vesnea's color scheme",
+      "desc": "Vesnea's pink and blue."
+    },
+    "detDesc2": {
+      "title": "Seavalanche's eye colors",
+      "desc": "Seavalanche's heterochromatic yellow and green eye colors."
+    },
+    "detDesc3": {
+      "title": "Extra colors on ribbon",
+      "desc": "The peach is from Seavalanche; The blue is from Vesnea."
+    },
+    "detDesc4": {
+      "title": "",
+      "desc": ""
+    },
+    "detDesc5": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "Vesrionne": {
+    "name": "Vesnea Brionne",
+    "altname": "Vesrionne",
+    "pfpname": {
+      "0": "Vesrionne"
+    },
+    "detDesc1": {
+      "title": "Seravyn's alpenglow",
+      "desc": "Seravyn's arctic white, glacial blue, and starlight gold."
+    },
+    "detDesc2": {
+      "title": "Seavalanche colors",
+      "desc": "Seavalanche's purple, and her heterochromatic yellow and green eye colors."
+    },
+    "detDesc3": {
+      "title": "Uzakon and Zumiko colors",
+      "desc": "Uzakon's lilac and Zumiko's sweet pink."
     },
     "detDesc4": {
       "title": "",
