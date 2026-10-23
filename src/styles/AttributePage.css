@@ -8,3 +8,7 @@
   background-color: var(--bg-primary);
   padding: 20px 0;
 }
+.AP-wrapper-main img{
+  width: 800px;
+  max-width: 80%;
+}
