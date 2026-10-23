@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projectseaweb/static/css/main.6b7704a6.css",
-    "main.js": "/projectseaweb/static/js/main.0e5d35b7.js",
+    "main.js": "/projectseaweb/static/js/main.24e56c2d.js",
     "static/js/714.5bb2a9a5.chunk.js": "/projectseaweb/static/js/714.5bb2a9a5.chunk.js",
     "static/js/86.eaa087ee.chunk.js": "/projectseaweb/static/js/86.eaa087ee.chunk.js",
     "static/js/879.2f41cd03.chunk.js": "/projectseaweb/static/js/879.2f41cd03.chunk.js",
@@ -102,12 +102,12 @@
     "static/media/resetbtndarkactive.svg": "/projectseaweb/static/media/resetbtndarkactive.538365ca6c9aa9abb1b8.svg",
     "static/media/resetbtnlightactive.svg": "/projectseaweb/static/media/resetbtnlightactive.8d0ee15f767ad3e0aa50.svg",
     "static/media/resetbtnstaractive.svg": "/projectseaweb/static/media/resetbtnstaractive.be2d10d92268f803f72b.svg",
+    "index.html": "/projectseaweb/index.html",
     "static/media/resetbtndark.svg": "/projectseaweb/static/media/resetbtndark.adfd9bc0a3098645e3d2.svg",
     "static/media/resetbtnlight.svg": "/projectseaweb/static/media/resetbtnlight.63552708c48dee25a919.svg",
     "static/media/resetbtnstar.svg": "/projectseaweb/static/media/resetbtnstar.f9f228d7542ac97f3fd8.svg",
     "static/media/c0.webp": "/projectseaweb/static/media/c0.4e59e45a05c2c86c3ad4.webp",
     "static/media/symbol-seavalanche-infinity.svg": "/projectseaweb/static/media/symbol-seavalanche-infinity.7d160108e05f70387395.svg",
-    "index.html": "/projectseaweb/index.html",
     "static/media/header-bsky.svg": "/projectseaweb/static/media/header-bsky.6e0c121b1dcaa87ae3998c890ecfe16a.svg",
     "static/media/about-icon-bluesky.svg": "/projectseaweb/static/media/about-icon-bluesky.5184a8ee5f6f86f24676107c5089e30f.svg",
     "static/media/b1.webp": "/projectseaweb/static/media/b1.f07fd570413dc4424892.webp",
@@ -135,11 +135,11 @@
     "static/media/tidy-er-light.svg": "/projectseaweb/static/media/tidy-er-light.337cc898a68c939a76a6.svg",
     "static/media/prologue.md": "/projectseaweb/static/media/prologue.31d6cfe0d16ae931b73c.md",
     "main.6b7704a6.css.map": "/projectseaweb/static/css/main.6b7704a6.css.map",
-    "main.0e5d35b7.js.map": "/projectseaweb/static/js/main.0e5d35b7.js.map",
+    "main.24e56c2d.js.map": "/projectseaweb/static/js/main.24e56c2d.js.map",
     "488.9062b7d0.chunk.js.map": "/projectseaweb/static/js/488.9062b7d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b7704a6.css",
-    "static/js/main.0e5d35b7.js"
+    "static/js/main.24e56c2d.js"
   ]
 }
