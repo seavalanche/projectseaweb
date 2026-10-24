@@ -55,31 +55,34 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
             </div>
             <div className={`navbar-mobile-menu ${menuOpen ? "open" : ""}`}>
                 <div className="NV-menu-body">
-                    <NavLink to="/Gallery" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
-                        Art Gallery
-                    </NavLink>
-                    {/* <NavLink to="/Characters" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
-                        {t("navbar.characters1")}
-                    </NavLink> */}
+                    <a href="https://seavalanche.github.io/" target="_blank" rel="noopener noreferrer" className="NV-menu-text">
+                        Landing Page
+                    </a>
                     <NavLink to="/CharInfo" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
                         {t("navbar.charcard")}
                     </NavLink>
                     <NavLink to="/Art" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                         {t("navbar.art")}
                     </NavLink>
-                    <NavLink to="/Story" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
+                    <NavLink to="/Gallery" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
+                        Art Gallery
+                    </NavLink>
+                    <NavLink to="/CalendarGallery" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
+                        Calendar Gallery
+                    </NavLink>
+                    <NavLink to="/Story" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                         {t("navbar.story")}
                     </NavLink>
-                    <NavLink to="/Poem" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
+                    <NavLink to="/Poem" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                         {t("navbar.poem")}
                     </NavLink>
                     <NavLink to="/GamePage" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                         {t("navbar.gamepage")}
                     </NavLink>
-                    <NavLink to="/AboutVesnea" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
+                    <NavLink to="/AboutVesnea" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                         {t("navbar.about1")}
                     </NavLink>
-                    <NavLink to="/ProjectSeaWeb" className={`NV-menu-text`} activeclassname="active" onClick={closeMenu}>
+                    <NavLink to="/ProjectSeaWeb" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                         {t("navbar.about2")}
                     </NavLink>
                 </div>
