@@ -49,7 +49,7 @@ const calendarData = [
             variants: ["calendar A4", "desktop 16:9", "mobile 9:16"],
         },
         {
-            title: "Vesnea's 2024 Calendar",
+            title: "Vesnea 2024 Calendar",
             type: 'vesnea',
             src: 'cover.webp',
             child: 'light',
