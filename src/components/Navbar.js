@@ -166,14 +166,20 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                     </div>
                     <div className="NV-body-secondary">
                         <div className="NV-menu-body">
+                            <a href="https://seavalanche.github.io/" target="_blank" rel="noopener noreferrer" className="NV-menu-text">
+                                Landing Page
+                            </a>
                             <NavLink to="/Gallery" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 Art Gallery
                             </NavLink>
                             {/* <NavLink to="/Characters" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.characters1")}
                             </NavLink> */}
-                            <NavLink to="/CharInfo" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
+                            {/* <NavLink to="/CharInfo" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.charcard")}
+                            </NavLink> */}
+                            <NavLink to="/CalendarGallery" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
+                                Calendar Gallery
                             </NavLink>
                             <NavLink to="/Story" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.story")}
@@ -184,9 +190,9 @@ const Navbar = ({ theme, themes, toggleTheme }) => {
                             <NavLink to="/GamePage" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.gamepage")}
                             </NavLink>
-                            <NavLink to="/AboutVesnea" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
+                            {/* <NavLink to="/AboutVesnea" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.about1")}
-                            </NavLink>
+                            </NavLink> */}
                             <NavLink to="/ProjectSeaWeb" className={({ isActive }) => `NV-menu-text ${isActive ? "active" : ""}`}>
                                 {t("navbar.about2")}
                             </NavLink>
