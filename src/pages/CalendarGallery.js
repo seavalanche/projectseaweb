@@ -177,6 +177,14 @@ const CalendarGallery = () => {
                     </div>
                 ))}
             </div>
+            <div className='calendar-terms'>
+                For personal use only. Not allowed to be sold anywhere else!
+                No redistribution. <br/>
+                <strong> Extremely prohibited to be fed into AI.</strong>
+            </div>
+            <div className="generaldisclaimer generalcontent">
+                Disclaimer: This project is not affiliated with, endorsed, or sponsored by any external parties. All original artwork are my own creations. No copyright infringement is intended.
+            </div>
         </div>
     )
 }

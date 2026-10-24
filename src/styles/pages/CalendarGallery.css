@@ -199,3 +199,9 @@
 .calendar-promotional:hover .calendar-link-hover {
   opacity: 1;
 }
+.calendar-terms{
+  margin-top: var(--landing-padding);
+  padding: 0 var(--landing-padding);
+  text-align: center;
+  border-bottom: 1px solid;
+}
