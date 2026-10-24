@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/pages/CalendarGallery.css'
 
@@ -21,7 +22,7 @@ const calendarData = [
             src: 'cover.webp',
             child: 'light',
             childType: '.webp',
-            childAmount: '12',
+            childAmount: '0',
             url: 'https://ko-fi.com/s/7470eb7b05',
             button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=71XUCsXQrhw',
@@ -39,7 +40,7 @@ const calendarData = [
             src: 'cover.webp',
             child: 'light',
             childType: '.webp',
-            childAmount: '12',
+            childAmount: '0',
             url: 'https://ko-fi.com/s/807a181d60',
             button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=WVxr6TiXaXA',
@@ -53,7 +54,7 @@ const calendarData = [
             src: 'cover.webp',
             child: 'light',
             childType: '.webp',
-            childAmount: '12',
+            childAmount: '0',
             url: 'https://ko-fi.com/s/03390599f8',
             button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=c-geJ8fNG6w',
@@ -71,7 +72,7 @@ const calendarData = [
             src: 'cover.webp',
             child: 'light',
             childType: '.webp',
-            childAmount: '12',
+            childAmount: '0',
             url: 'https://ko-fi.com/s/712f080cfc',
             button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=qzy4Emktg18',
@@ -84,7 +85,7 @@ const calendarData = [
             src: 'cover.webp',
             child: 'light',
             childType: '.webp',
-            childAmount: '12',
+            childAmount: '0',
             url: 'https://ko-fi.com/s/ee9fbdc42e',
             button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=1fduX0kgkjI',
@@ -102,7 +103,7 @@ const calendarData = [
             src: 'cover.webp',
             child: 'light',
             childType: '.webp',
-            childAmount: '12',
+            childAmount: '15',
             url: 'https://ko-fi.com/s/6a5a609509',
             button: 'Get it from ko-fi',
             promotional: 'https://www.youtube.com/watch?v=01sO2_2b4Bs',
@@ -152,24 +153,25 @@ const CalendarGallery = () => {
                         </div>
                         <div className='calendar-card-wrapper'>
                             {yearGroup.calendar.map((childItem, childIndex) => (
-                                <div key={childIndex} className='calendar-card'>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/calendar-gallery/${yearGroup.year}/${childItem.type}/${childItem.src}`} alt={childItem.title} />
-                                    <h5>{childItem.title}</h5>
-                                    {childItem.path ? (
-                                        <Link to={childItem.path}>
-                                            <button>{childItem.button}</button>
-                                        </Link>
-                                    ) : (
-                                        <a href={childItem.url} target="_blank" rel="noopener noreferrer">
-                                            <button>{childItem.button}</button>
-                                        </a>
-                                    )}
-                                    <a className='calendar-promotional' href={childItem.promotional} target="_blank" rel="noopener noreferrer">
-                                        <div className='calendar-link-hover'>&gt;</div>
-                                        {childItem.promotionalButton}
-                                        <div className='calendar-link-hover'>&lt;</div>
-                                    </a>
-                                </div>
+                                // <div key={childIndex} className='calendar-card'>
+                                //     <img src={`${process.env.PUBLIC_URL}/assets/calendar-gallery/${yearGroup.year}/${childItem.type}/${childItem.src}`} alt={childItem.title} />
+                                //     <h5>{childItem.title}</h5>
+                                //     {childItem.path ? (
+                                //         <Link to={childItem.path}>
+                                //             <button>{childItem.button}</button>
+                                //         </Link>
+                                //     ) : (
+                                //         <a href={childItem.url} target="_blank" rel="noopener noreferrer">
+                                //             <button>{childItem.button}</button>
+                                //         </a>
+                                //     )}
+                                //     <a className='calendar-promotional' href={childItem.promotional} target="_blank" rel="noopener noreferrer">
+                                //         <div className='calendar-link-hover'>&gt;</div>
+                                //         {childItem.promotionalButton}
+                                //         <div className='calendar-link-hover'>&lt;</div>
+                                //     </a>
+                                // </div>
+                                <CalendarCard key={childIndex} year={yearGroup.year} childItem={childItem} />
                             ))}
                         </div>
                     </div>
@@ -178,5 +180,56 @@ const CalendarGallery = () => {
         </div>
     )
 }
+
+const CalendarCard = ({ year, childItem }) => {
+    const totalChildren = parseInt(childItem.childAmount);
+    const images = [
+        childItem.src,
+        ...Array.from({ length: totalChildren }, (_, i) => {
+            const fileNum = (i + 1).toString().padStart(2, '0');
+            return `${childItem.child}-${fileNum}${childItem.childType}`;
+        })
+    ];
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const nextImage = () => {
+        setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+    };
+    const prevImage = () => {
+        setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+    };
+
+    return (
+        <div className='calendar-card'>
+            <div className="calendar-card-image-container">
+                <img
+                    src={`${process.env.PUBLIC_URL}/assets/calendar-gallery/${year}/${childItem.type}/${images[currentIndex]}`}
+                    alt={childItem.title}
+                />
+                <button onClick={prevImage} className="calendar-card-image-btn calendar-left">‹</button>
+                <span className="calendar-card-image-counter">{currentIndex + 1} / {images.length}</span>
+                <button onClick={nextImage} className="calendar-card-image-btn calendar-right">›</button>
+            </div>
+
+            <h5>{childItem.title}</h5>
+
+            {childItem.path ? (
+                <Link to={childItem.path}>
+                    <button>{childItem.button}</button>
+                </Link>
+            ) : (
+                <a href={childItem.url} target="_blank" rel="noopener noreferrer">
+                    <button>{childItem.button}</button>
+                </a>
+            )}
+
+            <a className='calendar-promotional' href={childItem.promotional} target="_blank" rel="noopener noreferrer">
+                <div className='calendar-link-hover'>&gt;</div>
+                {childItem.promotionalButton}
+                <div className='calendar-link-hover'>&lt;</div>
+            </a>
+        </div>
+    );
+};
 
 export default CalendarGallery;
