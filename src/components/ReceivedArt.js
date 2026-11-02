@@ -5,32 +5,34 @@ const receivedArtData = [
     {
         image: 'by-april-20261101.webp',
         charid: 'vesnea',
-        type1: 'giftarts',
+        type: 'giftarts',
         details: [
             { label: 'Character', value: 'Vesnea' },
             { label: 'Artist', value: 'April' },
             { label: 'Date', value: '2026-11-01' },
+            { label: 'Type', value: 'Gift art' },
         ],
     },
     {
         image: '',
         charid: '',
-        type1: 'giftarts',
+        type: 'giftarts',
         details: [
             { label: 'Character', value: 'Myth Seavalanche and Seravyn' },
             { label: 'Artist', value: 'Enma Jibakoma' },
             { label: 'Date', value: '2026-09-21' },
-            { label: 'Type', value: 'Not public' },
+            { label: 'Type', value: 'Gift art (Not public)' },
         ],
     },
     {
         image: 'by-super-ex1-20260917.webp',
         charid: 'seravyn',
-        type1: 'giftarts',
+        type: 'giftarts',
         details: [
             { label: 'Character', value: 'Seravyn' },
             { label: 'Artist', value: 'super_EX1' },
             { label: 'Date', value: '2026-09-17' },
+            { label: 'Type', value: 'Gift art' },
         ],
     },
 ];
@@ -85,7 +87,7 @@ const ReceivedArt = () => {
                         const isLast = idx === receivedArtData.length - 1;
 
                         const imageSrc = art.image
-                            ? `${process.env.PUBLIC_URL}/characters/${art.charid}/${art.type1}/${art.image}`
+                            ? `${process.env.PUBLIC_URL}/characters/${art.charid}/${art.type}/${art.image}`
                             : `${process.env.PUBLIC_URL}/assets/placeholder.webp`;
 
                         return (
