@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocalization } from '../localization/hooks/useLocalization';
 import '../styles/pages/ArtPage.css';
+import ReceivedArt from '../components/ReceivedArt';
 
 const artData = [
     {
@@ -199,6 +200,7 @@ const ArtPage = () => {
                     })}
                 </div>
             </div>
+            <ReceivedArt />
         </div>
     )
 }
