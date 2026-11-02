@@ -701,6 +701,14 @@
           "en": "It's a portrait of Seava.",
           "jp": ""
         }
+      },
+      {
+        "src": "characters/seava/artworks/s211-seava.webp",
+        "title": "S211 - Seava",
+        "caption": {
+          "en": "Hi again! I'm not gone!",
+          "jp": ""
+        }
       }
     ],
     "tradearts": [
